@@ -1,0 +1,86 @@
+[
+    {
+        "t": "Subaction index",
+        "d": "Index the script is located in the motion.mtable file"
+    },
+    {
+        "t": "Hash",
+        "d": "It's an integer value obtained from calculating the CRC32 checksum on the animation name in lower case"
+    },
+    {
+        "t": "Animcmd",
+        "d": "Animation command, script file where hitboxes, sound effects, visual effects and several events are done"
+    },
+    {
+        "t": "FAF",
+        "d": "First Actionable Frame, frame when the animation can be cancelled with another action. In case there isn't a FAF or is equal to 0 then it will be on animation end"
+    },
+    {
+        "t": "FSM",
+        "d": "Frame Speed Modifier, it's a multiplier used on frame speed used to slow down or speed up animations"
+    },
+    {
+        "t": "Hitbox ID",
+        "d": "Hitbox identifier, hitbox priority is defined by this value with 0 being the highest priority"
+    },
+    {
+        "t": "Hitbox Part",
+        "d": "Group hitbox is defined into, hitboxes with different part values are considered separate and can hit a single opponent even if another hitbox has landed and hasn't been removed"
+    },
+    {
+        "t": "BKB",
+        "d": "Base KnockBack, minimum amount of knockback done regardless of damage and percent"
+    },
+    {
+        "t": "WBKB",
+        "d": "Weight-Based KnockBack, if it's not 0 the knockback formula uses this value as opponent's percent and ignores move damage, these moves will deal the same knockback regardless of their damage and percentage the opponent has but still varies by opponent's weight"
+    },
+    {
+        "t": "KBG",
+        "d": "KnockBack Growth, in the knockback formula describes how much damage and percent scales"
+    },
+    {
+        "t": "SFX",
+        "d": "Sound Effect, represents the ID of the sound file to use when hitbox connects"
+    },
+    {
+        "t": "HitBits",
+        "d": "Value where each bit enables it to hit certain hurtboxes like characters, stage elements, items and enemies<br/><a href='https://docs.google.com/spreadsheets/d/1FgOsGYfTD4nQo4jFGJ22nz5baU1xihT5lreNinY5nNQ/edit?pref=2&pli=1#gid=1285636853'>Spreadsheet with bit values</a>"
+    },
+    {
+        "t": "Rehit",
+        "d": "If it's not 0 it's the amount of frames a hitbox can hit again an opponent"
+    },
+    {
+        "t": "Team Damage",
+        "d": "Flag used for hitboxes that can hit user and teammates even with friendly fire enabled"
+    },
+    {
+        "t": "Flinchless",
+        "d": "Flag used on hitboxes to not make characters get damage animations nor hitstun but will still receive launch speed, also known as windboxes"
+    },
+    {
+        "t": "Hitlag Disabled",
+        "d": "Flag that makes hitlag = 0 regardless of damage and hitlag multipliers when enabled"
+    },
+    {
+        "t": "X2/Y2/Z2",
+        "d": "Stretch coordinate for extended hitboxes"
+    },
+    {
+        "t": "Set Weight",
+        "d": "Hitbox property that ignores opponent's weight on KB calculation, when enabled every character hit with this hitbox will have their weight set to 100"
+    },
+    {
+        "t": "Set Gravity/Fall Speed",
+        "d": "Hitbox property that ignores opponent's gravity and fall speed for a certain amount of frames declared on animcmd, when enabled characters hit with this hitbox will have their gravity changed to 0.087 and fall speed to 1.5, after the set amount of frames passed it will revert to it's original values"
+    },
+    {
+        "t": "Search Collision",
+        "d": "Special bubble that interacts with collisions, characters and/or hitboxes"
+    },
+    {
+        "t": "Condition",
+        "d": "Variable conditions made on animcmd for hitbox, their meaning varies depending on the variable and character, for example Robin moves that use variable 0x2000007A bit flag enabled are moves that use the Levin Sword"
+    }
+]

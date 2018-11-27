@@ -1,0 +1,55 @@
+#stage-main {
+    padding: 0px 15px;
+}
+
+#stage-name{
+    text-align: center;
+}
+
+.stage-view{
+    width:600px;
+    height:auto;
+}
+
+.visualizer-container{
+    text-align: center;
+}
+
+.lvd-selection{
+    text-align: center;
+}
+
+.stage-img-container{
+    text-align: center;
+}
+
+.lvd-selection select{
+    font-size: 2rem;
+}
+
+#stage-data{
+    text-align: center;
+}
+
+#stage-data table{
+    width:30%;
+    margin:auto;
+    left:50%;
+}
+
+@media screen and (max-width: 720px) {
+    .stage-view{
+        width: 100%;
+        height:auto;
+    }
+
+    .visualizer-container{
+        width:100%;
+    }
+
+    #stage-data table{
+        width:100%;
+        margin:unset;
+        left:unset;
+    }
+}

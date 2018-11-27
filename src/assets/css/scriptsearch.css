@@ -1,0 +1,210 @@
+.script-search{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.script-search button{
+    padding: 3px 5px;
+    position: relative;
+    top: -2px;
+    left: 10px;
+}
+
+.search-file-container, .search-buttons-container{
+    display: inline-block;
+}
+
+button span{
+    padding: unset !important;
+}
+
+button[name=help]{
+    margin-left: 5px;
+}
+
+.script-search input, .script-search select{
+    font-size: 1.5rem;
+}
+
+.script-search select{
+    position: relative;
+    padding: 3px;
+    left: 5px;
+}
+
+.invalid-regex-img{
+    width: 500px;
+    height: auto;
+}
+
+.search-results{
+    width:85%;
+    margin: auto;
+    left: 50%;
+    vertical-align: middle;
+}
+
+td div{
+    padding : 10px 0px;
+}
+
+.character-result-table{
+    text-align: center;
+}
+
+.search-results tr:not(:first-child) td{
+    padding-top: 30px;
+}
+
+.split{
+    float: left;
+    width: 70%;
+}
+
+.search-help{
+    position: absolute;
+    width: 30%;
+    right: -40%;
+    height: 100%;
+    float: right;
+    display: none;
+    padding-bottom: 10px;
+    text-align: left;
+    top:-24px;
+}
+
+.help{
+    border-left: 1px solid #000000;
+    padding-left: 10px;
+    padding-right: 1.5%;
+}
+
+.show{
+    display: block;
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.example{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul li:not(:first-child){
+    padding-top: 10px;
+}
+
+.focus{
+    border-radius: 10px;
+    padding: 3px 6px;
+    background: #f1f1f1;
+}
+
+.split .character-result-table{
+    width: 155%;
+    padding-left: 10px;
+}
+
+.split .character-result-table .search-results{
+    width:100%;
+    margin: unset;
+    left: unset;
+}
+
+.regex-match{
+    background: #fdfd6f;
+}
+
+button[name=nextPage]{
+    margin-left: 20px;
+}
+
+.page{
+    position: relative;
+    display: inline-block;
+    left: 19px;
+}
+
+.page-button{
+    width: 150px;
+    height: 30px;
+}
+
+.page-buttons{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    .search-help{
+        width:45%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .search-help ul{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search-file-container, .search-buttons-container{
+        display: block;
+        padding-top: 10px;
+    }
+
+    .search, .search-file{
+        width: 100% !important;
+    }
+
+    .search-file{
+        left: unset !important;
+    }
+
+    .script-search{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .search-button, .page-button{
+        width:30%;
+        height: 35px;
+        font-size: 2rem;
+        left: unset !important;
+    }
+
+    .split{
+        width:100%;
+        float: unset;
+    }
+
+    .search-help{
+        position: relative;
+        width:100%;
+        float: unset;
+        right: unset;
+        border-left: unset;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        top: unset;
+    }
+
+    .search-help ul{
+        padding-left: 40px;
+    }
+
+    .search-results{
+        width:100%;
+        margin: unset;
+        left: unset;
+    }
+
+    .page{
+        left: 10px;
+        top: -4px;
+    }
+}

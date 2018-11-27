@@ -1,0 +1,257 @@
+﻿.script-data {
+    padding-bottom: 10px;
+}
+
+/*.script-animation-data {
+    padding-bottom: 10px;
+}*/
+
+.script-hitboxes-data{
+
+}
+
+.view-selection{
+    position: absolute;
+    left:50%;
+}
+
+.view-selection span{
+    position: relative;
+    left:-50%;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.view-selection span a{
+    cursor: pointer;
+}
+
+.script-select{
+    text-align: center;
+}
+
+.script-select select{
+    font-size: 2rem;
+}
+
+#character-main {
+    padding: 0px 15px;
+}
+
+#character-name{
+    text-align: center;
+}
+
+#character-image {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#related{
+    float:left;
+}
+
+#options{
+    clear: left;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#character-data{
+    clear:both;
+    position: relative;
+    top: -50px;
+    padding-bottom: 20px;
+}
+
+thead{
+    border-bottom: 1px solid black;
+}
+
+td{
+    border:none;
+}
+
+.hitbox-table tr:not(:first-child) td{
+    padding-top: 10px;
+}
+
+.hitbox-table{
+    width:100%;
+}
+
+.dot-underline{
+    border-bottom: 1px dotted black;
+}
+
+.script {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0.5em;
+    background: rgb(240, 240, 240);
+    color: rgb(68, 68, 68);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*background: rgb(226, 226, 226);*/
+}
+
+.script span{
+    display:inline-block;
+    padding-bottom: 4px;
+}
+
+.script-tab {
+    padding-left: 1em;
+}
+
+.script-hidden{
+    display:none;
+}
+
+.hurtbox-state-table tr:not(:first-child) td{
+    padding-top: 10px;
+}
+
+.param-list td{
+    vertical-align: middle;
+}
+
+.script-cmd{
+    font-weight: bold;
+}
+
+.script-param-value{
+    color: rgb(136, 0, 0);
+}
+
+.msc-script{
+    margin-top: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0.5em;
+    background: rgb(240, 240, 240);
+    color: rgb(68, 68, 68);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.msc-script-function{
+    font-weight: bold;
+}
+
+.msc-reserved{
+    font-weight: bold;
+    color: rgb(136, 0, 0);
+}
+
+.msc-string, .msc-number {
+    color: rgb(136, 0, 0);
+}
+
+/*.msc-container{
+    width: 100%;
+    height: 60rem;
+    overflow-y: scroll;
+}*/
+
+#scriptbox{
+    font-size: 1.6rem;
+    margin-top: 5px;
+    width: 100%;
+    height: 60rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background: transparent;
+    border:unset;
+}
+
+.msc-options{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+input[name=scriptFormat]{
+    position: relative;
+    top: 4px;
+}
+
+input[name=scriptFormat] + span{
+    position: relative;
+    left: 4px;
+}
+
+.msc-version, .salt-version{
+    float: right;
+}
+
+@media screen and (max-width: 950px){
+    #character-data{
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .script, .msc-script, #scriptbox {
+        font-size: 1.3rem;
+    }
+
+    .script span{
+        padding-bottom: 6px;
+    }
+
+    .script-select select{
+        width:100%;
+    }
+
+    .view-selection{
+        position: relative;
+        left:unset;
+        text-align: center;
+    }
+
+    .view-selection span{
+        left:unset;
+        padding-left:10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    #character-image {
+        float: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .msc-options{
+        display: block;
+        margin-top: 10px;
+    }
+
+    input[name=scriptFormat]{
+        position: relative;
+        top: unset;
+    }
+
+    input[name=scriptFormat] + span{
+        position: relative;
+        top: -4px;
+    }
+
+    #character-data{
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #character-image {
+        width: 70%;
+    }
+}

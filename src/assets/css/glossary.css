@@ -1,0 +1,20 @@
+.glossary table{
+    width:100%;
+}
+
+.glossary thead{
+    border-bottom: 1px solid black;
+}
+
+.glossary td{
+    border:none;
+}
+
+.glossary .term{
+    width:10%;
+    font-weight: bold;
+}
+
+.glossary .definition{
+    width:90%;
+}
