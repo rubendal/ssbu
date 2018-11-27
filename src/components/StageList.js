@@ -32,39 +32,6 @@ class StageList extends Component {
         }
       );
 
-      axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stage/' + this.state.list[0] + '/data.json').then(function(res){
-        var json = res.data;
-  
-        var data = json;
-  
-      
-        ref.setState(prevState => 
-          {
-            prevState.stageData = data;
-            prevState.stageIndex = 0;
-            return prevState;
-          }
-        );
-      })
-      .catch(function(error){
-        if(error.response){
-          var e = "";
-          if(error.response.status === 404)
-            e = "Invalid stage";
-          else
-            e = "Error";
-        }else{
-          e = "Error";
-        }
-        
-        ref.setState(
-          {
-            error: e
-          }
-        );
-      });
-  
-
       
     })
     .catch(function(error){
@@ -121,8 +88,10 @@ class StageList extends Component {
   render() {
     if(this.state.list !== undefined){
     return (
+      
       <div id="stage-selection">
-      <h2>Stages</h2>
+      <div className="lvd-credits">Thanks to <a href="https://twitter.com/jam1garner">@jam1garner</a> for extracting the lvd files</div>
+      <h2 className="stages-header">Stages</h2>
       <div className="script-select">
         <select value={this.state.stageIndex} onChange={(e) => this.ChangeStage(e)}>
         <option value={-1}> </option>

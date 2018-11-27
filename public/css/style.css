@@ -559,3 +559,11 @@ input[type="checkbox"] {
         padding-bottom: 10px;
     }
 }
+
+.lvd-credits{
+    float: right;
+}
+
+.stages-header{
+    clear:both;
+}
