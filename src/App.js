@@ -22,11 +22,6 @@ class App extends Component {
         <div>
           <Header/>
 
-          <Switch>
-            <Route path="/patch/:patch" component={NavigationHeader}/>
-            <Route component={NavigationHeader}/>
-          </Switch>
-
           <Switch>            
             <Route exact path="/index.html" component={StageList}/>
             
