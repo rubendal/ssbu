@@ -1,0 +1,301 @@
+﻿[
+  {
+    "stage": "Omega Suzaku Castle",
+    "name": "Suzaku Castle",
+    "lvd": "StreetFighter_f00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -35.9897957,
+            -215.000015
+          ],
+          [
+            -35.9897957,
+            -47.78161
+          ],
+          [
+            -80.0,
+            -11.17141
+          ],
+          [
+            -86.87598,
+            -1.61043429
+          ],
+          [
+            -86.87598,
+            0.6395824
+          ],
+          [
+            -81.9,
+            0.6395824
+          ],
+          [
+            81.9,
+            0.6395824
+          ],
+          [
+            86.8759,
+            0.6395824
+          ],
+          [
+            86.8759,
+            -1.61043429
+          ],
+          [
+            80.0,
+            -11.1485538
+          ],
+          [
+            35.9897957,
+            -47.8138351
+          ],
+          [
+            35.9897957,
+            -215.000015
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 167.218414,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 231,
+            "length": 57.2468758,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 216,
+            "length": 11.7767267,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 2.25001669,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 4.975975,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 4.97589874,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 2.25001669,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 325,
+            "length": 11.7581348,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 310,
+            "length": 57.2821159,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 167.186188,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.87598,
+            -215.000015
+          ],
+          [
+            86.8759,
+            0.6395824
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -115.000008
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -59.9999962
+    ],
+    "center": [
+      0.0,
+      0.6395824
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ],
+      [
+        -80.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

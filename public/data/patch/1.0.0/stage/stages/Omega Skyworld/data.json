@@ -1,0 +1,287 @@
+﻿[
+  {
+    "stage": "Omega Skyworld",
+    "name": "Skyworld",
+    "lvd": "Z_XPalutena_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -53.5793076,
+            -35.2768059
+          ],
+          [
+            -70.95201,
+            -16.5869637
+          ],
+          [
+            -86.9,
+            -8.949163
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -81.9,
+            0.0
+          ],
+          [
+            81.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -8.949163
+          ],
+          [
+            70.95201,
+            -16.5869637
+          ],
+          [
+            53.5793076,
+            -35.2768059
+          ],
+          [
+            -53.5793076,
+            -35.2768059
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 223,
+            "length": 25.5170727,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 245,
+            "length": 17.6826019,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 8.949163,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 8.949163,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 296,
+            "length": 17.6826019,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 318,
+            "length": 25.5170727,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 107.158615,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -35.2768059
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -115.000008
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -59.9999962
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ],
+      [
+        -80.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

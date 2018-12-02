@@ -1,0 +1,343 @@
+﻿[
+  {
+    "stage": "Omega Orbital Gate Assault",
+    "name": "Orbital Gate Assault",
+    "lvd": "Z_Assault_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -48.69743,
+            -43.5307541
+          ],
+          [
+            -70.23102,
+            -39.0
+          ],
+          [
+            -86.9,
+            -18.0366936
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -81.9,
+            0.0
+          ],
+          [
+            81.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -18.0366936
+          ],
+          [
+            70.23102,
+            -39.0
+          ],
+          [
+            48.69743,
+            -43.5307541
+          ],
+          [
+            36.4544868,
+            -43.5307541
+          ],
+          [
+            25.1293526,
+            -37.0
+          ],
+          [
+            -25.1293526,
+            -37.0
+          ],
+          [
+            -36.4544868,
+            -43.5307541
+          ],
+          [
+            -48.69743,
+            -43.5307541
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 259,
+            "length": 22.0050716,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 219,
+            "length": 26.7827415,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 18.0366936,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 18.0366936,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 322,
+            "length": 26.7827415,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 282,
+            "length": 22.0050716,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 12.2429428,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 241,
+            "length": 13.0732327,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 50.2587051,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 300,
+            "length": 13.0732327,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 12.2429428,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -43.5307541
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.8171999
+      ],
+      [
+        60.0,
+        0.8171999
+      ],
+      [
+        -20.0,
+        0.8171999
+      ],
+      [
+        20.0,
+        0.8171999
+      ],
+      [
+        -40.0,
+        0.8171999
+      ],
+      [
+        80.0,
+        0.8171999
+      ],
+      [
+        0.0,
+        0.8171999
+      ],
+      [
+        40.0,
+        0.8171999
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        80.0
+      ],
+      [
+        18.0,
+        80.0
+      ],
+      [
+        -54.0,
+        80.0
+      ],
+      [
+        54.0,
+        80.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

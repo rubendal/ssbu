@@ -1,0 +1,241 @@
+﻿[
+  {
+    "stage": "Omega Boxing Ring",
+    "name": "Boxing Ring",
+    "lvd": "Z_PunchOut_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -77.21945,
+            -215.0
+          ],
+          [
+            -77.21945,
+            -35.68055
+          ],
+          [
+            -86.9,
+            -26.0
+          ],
+          [
+            -86.9,
+            0.539798737
+          ],
+          [
+            -81.9,
+            0.539798737
+          ],
+          [
+            81.9,
+            0.539798737
+          ],
+          [
+            86.9,
+            0.539798737
+          ],
+          [
+            86.9,
+            -26.0
+          ],
+          [
+            77.21945,
+            -35.68055
+          ],
+          [
+            77.21945,
+            -215.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 179.319458,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 225,
+            "length": 13.6903648,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 26.5397987,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 26.5397987,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 316,
+            "length": 13.6903648,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 179.319458,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -215.0
+          ],
+          [
+            86.9,
+            0.539798737
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.539798737
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.6399994
+      ],
+      [
+        60.0,
+        0.6399994
+      ],
+      [
+        -20.0,
+        0.6399994
+      ],
+      [
+        20.0,
+        0.6399994
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

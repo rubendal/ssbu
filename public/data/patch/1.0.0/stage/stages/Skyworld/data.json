@@ -1,0 +1,1990 @@
+﻿[
+  {
+    "stage": "Skyworld",
+    "name": "Skyworld",
+    "lvd": "XPalutena_00",
+    "collisions": [
+      {
+        "name": "COL_00_DestroyPlatformA01a",
+        "vertex": [
+          [
+            -57.9876938,
+            25.10885
+          ],
+          [
+            -82.01099,
+            25.1091881
+          ],
+          [
+            -82.01099,
+            30.015852
+          ],
+          [
+            -71.51508,
+            30.0159836
+          ],
+          [
+            -57.9876938,
+            30.0161152
+          ],
+          [
+            -57.9876938,
+            25.10885
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 24.0232925,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 4.906664,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 10.495903,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 13.52739,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.90726471,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -12.5112925,
+            -4.891161
+          ],
+          [
+            11.512001,
+            0.0161038153
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformA01b",
+        "vertex": [
+          [
+            -57.9876938,
+            30.0161152
+          ],
+          [
+            -54.44433,
+            27.0000172
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 49,
+            "length": 4.65320158,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            11.512001,
+            -2.999995
+          ],
+          [
+            15.0553665,
+            0.0161038153
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformA02a",
+        "vertex": [
+          [
+            -57.98805,
+            25.1088524
+          ],
+          [
+            -33.9639435,
+            25.1091881
+          ],
+          [
+            -33.9639435,
+            30.01619
+          ],
+          [
+            -45.2553825,
+            30.0161152
+          ],
+          [
+            -57.98805,
+            30.0161152
+          ],
+          [
+            -57.98805,
+            25.1088524
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 24.0241051,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.9070015,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.2914391,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 12.732666,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 4.907263,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -11.4879951,
+            -4.89116955
+          ],
+          [
+            12.5361109,
+            0.0161683448
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformA02b",
+        "vertex": [
+          [
+            -57.98805,
+            30.0161152
+          ],
+          [
+            -61.7369156,
+            27.00002
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 128,
+            "length": 4.811532,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -15.2368622,
+            -3.00000215
+          ],
+          [
+            -11.4879951,
+            0.0160950683
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformB01a",
+        "vertex": [
+          [
+            12.006,
+            47.2946053
+          ],
+          [
+            -21.6217651,
+            47.2946053
+          ],
+          [
+            -21.6214066,
+            52.1826057
+          ],
+          [
+            -10.0,
+            52.1826057
+          ],
+          [
+            12.0057631,
+            52.1826057
+          ],
+          [
+            12.006,
+            47.2946053
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 33.6277657,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 4.88800049,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.6214066,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 22.005764,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.88800049,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.4871178,
+            -4.718318
+          ],
+          [
+            16.1406479,
+            0.169682577
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformB01b",
+        "vertex": [
+          [
+            12.0057631,
+            52.1826057
+          ],
+          [
+            16.347374,
+            49.00001
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 53,
+            "length": 5.38316727,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            16.1404114,
+            -3.01291442
+          ],
+          [
+            20.4820232,
+            0.169682577
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformB02a",
+        "vertex": [
+          [
+            12.0059986,
+            47.2946053
+          ],
+          [
+            45.62554,
+            47.29472
+          ],
+          [
+            45.6256256,
+            52.182724
+          ],
+          [
+            35.0,
+            52.1826324
+          ],
+          [
+            12.0057621,
+            52.1826057
+          ],
+          [
+            12.0059986,
+            47.2946053
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 33.619545,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.8880043,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 10.6256256,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 22.9942379,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 181,
+            "length": 4.88800049,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -16.1028862,
+            -4.7183547
+          ],
+          [
+            17.5169773,
+            0.169764236
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformB02b",
+        "vertex": [
+          [
+            12.0057621,
+            52.1826057
+          ],
+          [
+            7.61387634,
+            49.0000076
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 125,
+            "length": 5.42379856,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -20.494772,
+            -3.01295185
+          ],
+          [
+            -16.1028862,
+            0.16964598
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC01a",
+        "vertex": [
+          [
+            -48.98281,
+            -5.871792
+          ],
+          [
+            -75.17531,
+            -13.4387856
+          ],
+          [
+            -75.17531,
+            -8.036913
+          ],
+          [
+            -63.10967,
+            -4.306333
+          ],
+          [
+            -48.9826241,
+            0.270133018
+          ],
+          [
+            -48.98281,
+            -5.871792
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 287,
+            "length": 27.2636452,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 5.40187263,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 12.6292076,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 14.84983,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 6.141925,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -13.9946671,
+            -9.687786
+          ],
+          [
+            12.1980171,
+            4.021133
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC01b",
+        "vertex": [
+          [
+            -48.9826241,
+            0.270133018
+          ],
+          [
+            -45.7734261,
+            -3.00031018
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 44,
+            "length": 4.582003,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            12.1980171,
+            0.7506898
+          ],
+          [
+            15.4072161,
+            4.021133
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC02a",
+        "vertex": [
+          [
+            -48.98281,
+            -5.871792
+          ],
+          [
+            -48.9826241,
+            0.270133018
+          ],
+          [
+            -18.863,
+            0.2703791
+          ],
+          [
+            -18.862999,
+            -5.871867
+          ],
+          [
+            -48.98281,
+            -5.871792
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 6.141925,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 30.1196232,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 6.14224625,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 30.119812,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -15.3018131,
+            -5.87137842
+          ],
+          [
+            14.8180008,
+            0.270868
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC02b",
+        "vertex": [
+          [
+            -54.2466278,
+            -4.61517668
+          ],
+          [
+            -48.9826241,
+            0.270133018
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 132,
+            "length": 7.18164253,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -20.5656281,
+            -4.614688
+          ],
+          [
+            -15.3016243,
+            0.270621926
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC02c",
+        "vertex": [
+          [
+            -18.863,
+            0.2703791
+          ],
+          [
+            -15.7345123,
+            -3.00028872
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 43,
+            "length": 4.52600336,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            14.8179989,
+            -2.99979973
+          ],
+          [
+            17.9464874,
+            0.270868
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC03a",
+        "vertex": [
+          [
+            -18.862999,
+            -5.871867
+          ],
+          [
+            -18.863,
+            0.2703791
+          ],
+          [
+            11.4494467,
+            0.270379156
+          ],
+          [
+            11.449,
+            -5.87187862
+          ],
+          [
+            -18.862999,
+            -5.871867
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 181,
+            "length": 6.14224625,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 30.3124466,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 6.14225769,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 30.312,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -15.1820011,
+            -5.87187862
+          ],
+          [
+            15.1304464,
+            0.270379156
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC03b",
+        "vertex": [
+          [
+            -21.8037281,
+            -3.00028634
+          ],
+          [
+            -18.863,
+            0.2703791
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 138,
+            "length": 4.39830971,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.1227283,
+            -3.00028634
+          ],
+          [
+            -15.1820011,
+            0.2703791
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC03c",
+        "vertex": [
+          [
+            11.4494467,
+            0.270379156
+          ],
+          [
+            14.6586571,
+            -3.00032854
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 44,
+            "length": 4.58220053,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            15.1304464,
+            -3.00032854
+          ],
+          [
+            18.3396568,
+            0.270379156
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC04a",
+        "vertex": [
+          [
+            11.449,
+            -5.87187862
+          ],
+          [
+            42.4934235,
+            -5.871867
+          ],
+          [
+            42.4934235,
+            0.2703791
+          ],
+          [
+            30.9447365,
+            0.2703791
+          ],
+          [
+            11.4494467,
+            0.270379156
+          ],
+          [
+            11.449,
+            -5.87187862
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 31.0444241,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 6.14224625,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.548687,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 19.4952888,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 6.14225769,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -14.87,
+            -5.87138939
+          ],
+          [
+            16.1744232,
+            0.270868272
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformC04b",
+        "vertex": [
+          [
+            11.4494467,
+            0.270379156
+          ],
+          [
+            8.259577,
+            -3.00033069
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 135,
+            "length": 4.56867743,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.0594234,
+            -2.99984145
+          ],
+          [
+            -14.8695536,
+            0.270868272
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_DestroyPlatformD01",
+        "vertex": [
+          [
+            -16.8231239,
+            -4.61225176
+          ],
+          [
+            -5.26890469,
+            -4.612249
+          ],
+          [
+            5.81330967,
+            -4.612249
+          ],
+          [
+            16.83514,
+            -4.61225176
+          ],
+          [
+            16.8350525,
+            0.100023344
+          ],
+          [
+            11.44138,
+            0.0998909
+          ],
+          [
+            -10.0,
+            0.09979421
+          ],
+          [
+            -16.8232384,
+            0.09975822
+          ],
+          [
+            -16.8231239,
+            -4.61225176
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 11.5542192,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 11.0822144,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 11.0218306,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.712275,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.393673,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 21.44138,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.82323837,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 181,
+            "length": 4.71201,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -16.8232384,
+            -4.61225176
+          ],
+          [
+            16.83514,
+            0.100023344
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_MovingPlatform01",
+        "vertex": [
+          [
+            -5.238194,
+            -6.169533
+          ],
+          [
+            -16.9874516,
+            -4.656566
+          ],
+          [
+            -17.1296883,
+            0.1687463
+          ],
+          [
+            -12.883812,
+            0.16855675
+          ],
+          [
+            13.3275261,
+            0.1683672
+          ],
+          [
+            17.4268856,
+            0.1683672
+          ],
+          [
+            17.4268856,
+            -4.815065
+          ],
+          [
+            6.16975069,
+            -6.169258
+          ],
+          [
+            -5.238194,
+            -6.169533
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 263,
+            "length": 11.8462706,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 182,
+            "length": 4.82740831,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 4.24587631,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 26.211338,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 4.09935951,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.98343229,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 277,
+            "length": 11.338295,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 11.4079447,
+            "ceiling": true,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.1296883,
+            -6.169533
+          ],
+          [
+            17.4268856,
+            0.1687463
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_PlatformA01_through",
+        "vertex": [
+          [
+            -75.00072,
+            27.0000134
+          ],
+          [
+            -69.99928,
+            27.0000153
+          ],
+          [
+            -61.7369156,
+            27.0000172
+          ],
+          [
+            -58.0,
+            27.00002
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -75.00072,
+            27.0000134
+          ],
+          [
+            -58.0,
+            27.00002
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformA02_through",
+        "vertex": [
+          [
+            -58.0,
+            27.00002
+          ],
+          [
+            -54.44433,
+            27.0000153
+          ],
+          [
+            -45.0142,
+            27.00001
+          ],
+          [
+            -39.9858,
+            27.00001
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -58.0,
+            27.00001
+          ],
+          [
+            -39.9858,
+            27.00002
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformB01_through",
+        "vertex": [
+          [
+            -12.549818,
+            49.00001
+          ],
+          [
+            -7.450182,
+            48.9999962
+          ],
+          [
+            7.6138773,
+            49.0000038
+          ],
+          [
+            12.0000038,
+            49.00001
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -12.549818,
+            48.9999962
+          ],
+          [
+            12.0000038,
+            49.00001
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformB02_through",
+        "vertex": [
+          [
+            12.0000038,
+            49.00001
+          ],
+          [
+            16.3473759,
+            49.0000076
+          ],
+          [
+            29.9499874,
+            49.0
+          ],
+          [
+            35.05001,
+            49.0000038
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            12.0000038,
+            49.0
+          ],
+          [
+            35.05001,
+            49.00001
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformC01_through",
+        "vertex": [
+          [
+            -59.0,
+            -6.0
+          ],
+          [
+            -54.2466278,
+            -4.615177
+          ],
+          [
+            -48.7036476,
+            -3.000313
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -59.0,
+            -6.0
+          ],
+          [
+            -48.7036476,
+            -3.000313
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformC02_through",
+        "vertex": [
+          [
+            -48.7036476,
+            -3.000313
+          ],
+          [
+            -45.7734261,
+            -3.00030851
+          ],
+          [
+            -21.8037281,
+            -3.0002892
+          ],
+          [
+            -18.6810513,
+            -3.00028348
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -48.7036476,
+            -3.000313
+          ],
+          [
+            -18.6810513,
+            -3.00028348
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformC03_through",
+        "vertex": [
+          [
+            -18.6810513,
+            -3.00028348
+          ],
+          [
+            -15.7345133,
+            -3.00029016
+          ],
+          [
+            8.259578,
+            -3.00032783
+          ],
+          [
+            11.319,
+            -3.00033569
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.6810513,
+            -3.00033569
+          ],
+          [
+            11.319,
+            -3.00028348
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformC04_through",
+        "vertex": [
+          [
+            11.319,
+            -3.00033569
+          ],
+          [
+            14.6586571,
+            -3.0003233
+          ],
+          [
+            37.5042343,
+            -3.00027943
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            11.319,
+            -3.00033569
+          ],
+          [
+            37.5042343,
+            -3.00027943
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_PlatformD01_through",
+        "vertex": [
+          [
+            -14.8957558,
+            -2.99999356
+          ],
+          [
+            -10.1042519,
+            -2.99999547
+          ],
+          [
+            7.57088852,
+            -2.99999547
+          ],
+          [
+            12.4291039,
+            -2.99999547
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Clouds"
+          }
+        ],
+        "boundingBox": [
+          [
+            -14.8957558,
+            -2.99999547
+          ],
+          [
+            12.4291039,
+            -2.99999356
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -230.0,
+      230.0,
+      190.0,
+      -135.0
+    ],
+    "camera": [
+      -165.0,
+      165.0,
+      140.0,
+      -70.0
+    ],
+    "center": [
+      0.0,
+      4.021133
+    ],
+    "spawns": [
+      [
+        -60.0,
+        30.0161152
+      ],
+      [
+        25.0,
+        0.27
+      ],
+      [
+        5.0,
+        52.183
+      ],
+      [
+        -25.0,
+        0.27
+      ],
+      [
+        35.0,
+        52.182724
+      ],
+      [
+        -60.0,
+        -3.29895377
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        80.0
+      ],
+      [
+        36.0,
+        80.0
+      ],
+      [
+        -36.0,
+        80.0
+      ],
+      [
+        72.0,
+        80.0
+      ],
+      [
+        -18.0,
+        108.0
+      ],
+      [
+        18.0,
+        108.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                110.0
+              ],
+              [
+                80.0,
+                110.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -70.0,
+                23.0
+              ],
+              [
+                -34.0,
+                23.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -30.0,
+                45.0
+              ],
+              [
+                40.0,
+                45.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                50.0,
+                80.0
+              ],
+              [
+                80.0,
+                80.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+﻿[
+  {
+    "stage": "Coliseum",
+    "name": "Coliseum",
+    "lvd": "Colloseum_f_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor",
+        "vertex": [
+          [
+            -220.4,
+            -15.5235949
+          ],
+          [
+            220.4,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 440.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -220.4,
+            -15.5235949
+          ],
+          [
+            220.4,
+            -15.5235949
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_GimmickPlatform01_throug",
+        "vertex": [
+          [
+            -83.6,
+            -15.5235949
+          ],
+          [
+            -68.4,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            31.4,
+            4.901725
+          ],
+          [
+            46.6,
+            4.901725
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_GimmickPlatform02_throug",
+        "vertex": [
+          [
+            -68.4,
+            -15.5235949
+          ],
+          [
+            -7.6,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -58.4018745,
+            4.901725
+          ],
+          [
+            2.39812613,
+            4.901725
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_GimmickPlatform03_throug",
+        "vertex": [
+          [
+            -7.6,
+            -15.5235949
+          ],
+          [
+            15.2000008,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -12.5471916,
+            4.901725
+          ],
+          [
+            10.2528086,
+            4.901725
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_GimmickPlatform04_throug",
+        "vertex": [
+          [
+            15.2000008,
+            -15.5235949
+          ],
+          [
+            53.2,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -29.8,
+            4.901725
+          ],
+          [
+            8.2,
+            4.901725
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_GimmickPlatform05_throug",
+        "vertex": [
+          [
+            53.1999969,
+            -15.5235949
+          ],
+          [
+            98.8,
+            -15.5235949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -76.65579,
+            4.901725
+          ],
+          [
+            -31.05579,
+            4.901725
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -200.0,
+      200.0,
+      167.0,
+      -82.0
+    ],
+    "camera": [
+      -120.0,
+      120.0,
+      105.0,
+      -45.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        -15.5235949
+      ],
+      [
+        60.0,
+        -15.5235949
+      ],
+      [
+        -20.0,
+        -15.5235949
+      ],
+      [
+        20.0,
+        -15.5235949
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        70.0
+      ],
+      [
+        36.0,
+        70.0
+      ],
+      [
+        -36.0,
+        70.0
+      ],
+      [
+        72.0,
+        70.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -110.0,
+                80.0
+              ],
+              [
+                110.0,
+                80.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -110.0,
+                4.0
+              ],
+              [
+                110.0,
+                4.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0002_00_item0",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -200.0,
+                80.0
+              ],
+              [
+                -110.0,
+                80.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                110.0,
+                80.0
+              ],
+              [
+                200.0,
+                80.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

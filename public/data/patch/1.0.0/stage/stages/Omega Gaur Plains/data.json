@@ -1,0 +1,455 @@
+﻿[
+  {
+    "stage": "Omega Gaur Plains",
+    "name": "Gaur Plains",
+    "lvd": "Z_XenoBlade_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -34.472744,
+            -247.609634
+          ],
+          [
+            -15.7609148,
+            -204.031036
+          ],
+          [
+            -20.3008575,
+            -167.3296
+          ],
+          [
+            -18.0716877,
+            -135.1581
+          ],
+          [
+            -10.9032135,
+            -111.548904
+          ],
+          [
+            -17.674675,
+            -42.7539444
+          ],
+          [
+            -62.7402534,
+            -25.9046154
+          ],
+          [
+            -85.8865,
+            -7.99358749
+          ],
+          [
+            -87.274826,
+            -3.54948425
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -81.9,
+            0.0
+          ],
+          [
+            81.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            87.274826,
+            -3.54948425
+          ],
+          [
+            85.8865,
+            -7.99358749
+          ],
+          [
+            62.7402534,
+            -25.9046154
+          ],
+          [
+            18.43077,
+            -42.4712524
+          ],
+          [
+            16.5914764,
+            -67.343
+          ],
+          [
+            11.952034,
+            -87.10457
+          ],
+          [
+            10.0948162,
+            -119.809593
+          ],
+          [
+            3.70603347,
+            -186.218857
+          ],
+          [
+            5.249402,
+            -215.9283
+          ],
+          [
+            2.91973567,
+            -247.609634
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 156,
+            "length": 47.4260139,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 188,
+            "length": 36.98116,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 176,
+            "length": 32.2486458,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 163,
+            "length": 24.6734867,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 186,
+            "length": 69.12741,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 250,
+            "length": 48.1124344,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 233,
+            "length": 29.2669353,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 198,
+            "length": 4.65591145,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 173,
+            "length": 3.56922,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 6,
+            "length": 3.56922,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 343,
+            "length": 4.65591145,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 308,
+            "length": 29.2669353,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 291,
+            "length": 47.3052177,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 356,
+            "length": 24.9396667,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 347,
+            "length": 20.2988644,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 357,
+            "length": 32.7577133,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 355,
+            "length": 66.7158661,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 2,
+            "length": 29.7495041,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 356,
+            "length": 31.7668743,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -87.274826,
+            -247.609634
+          ],
+          [
+            87.274826,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ],
+      [
+        -80.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

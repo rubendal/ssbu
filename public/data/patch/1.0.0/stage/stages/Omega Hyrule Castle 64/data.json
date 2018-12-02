@@ -1,0 +1,273 @@
+﻿[
+  {
+    "stage": "Omega Hyrule Castle 64",
+    "name": "Hyrule Castle 64",
+    "lvd": "Z_Hyrule64_f00",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -66.81434,
+            -254.141647
+          ],
+          [
+            -66.78407,
+            -30.34986
+          ],
+          [
+            -86.9098,
+            -13.5344429
+          ],
+          [
+            -86.9079742,
+            7.10542736E-15
+          ],
+          [
+            -74.77479,
+            7.10542736E-15
+          ],
+          [
+            75.10382,
+            0.0
+          ],
+          [
+            86.87461,
+            0.0
+          ],
+          [
+            86.8795547,
+            -13.5958138
+          ],
+          [
+            67.01216,
+            -30.3619862
+          ],
+          [
+            67.09395,
+            -253.750229
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 223.7918,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 231,
+            "length": 26.226,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 13.5344429,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 12.1331863,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 149.8786,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.77079,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 13.5958147,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 311,
+            "length": 25.9964962,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 223.38826,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9098,
+            -254.141647
+          ],
+          [
+            86.8795547,
+            7.10542736E-15
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      179.291168,
+      -115.70713
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      129.292038,
+      -60.7075539
+    ],
+    "center": [
+      0.0,
+      7.10542736E-15
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.749182
+      ],
+      [
+        60.0,
+        0.749182
+      ],
+      [
+        -20.0,
+        0.749182
+      ],
+      [
+        20.0,
+        0.749182
+      ],
+      [
+        -40.0,
+        0.749182
+      ],
+      [
+        40.0,
+        0.749182
+      ],
+      [
+        -80.0,
+        0.749182
+      ],
+      [
+        80.0,
+        0.749182
+      ]
+    ],
+    "respawns": [
+      [
+        -0.0535332859,
+        50.0438232
+      ],
+      [
+        35.94647,
+        50.0438232
+      ],
+      [
+        -36.05353,
+        50.0438232
+      ],
+      [
+        71.9464645,
+        50.0438232
+      ],
+      [
+        -18.0535336,
+        78.04382
+      ],
+      [
+        17.9464664,
+        78.04382
+      ],
+      [
+        -54.05353,
+        78.04382
+      ],
+      [
+        53.94647,
+        78.04382
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.73497
+              ],
+              [
+                80.0,
+                50.73497
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.73497
+              ],
+              [
+                80.0,
+                100.73497
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

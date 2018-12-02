@@ -1,0 +1,227 @@
+﻿[
+  {
+    "stage": "Wii Fit Studio",
+    "name": "Wii Fit Studio",
+    "lvd": "WiiFit00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -300.0,
+            0.0
+          ],
+          [
+            300.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 600.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -300.0,
+            0.0
+          ],
+          [
+            300.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_WiiBoard01_through",
+        "vertex": [
+          [
+            -19.5,
+            0.0
+          ],
+          [
+            19.5,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.5,
+            0.0
+          ],
+          [
+            19.5,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -200.0,
+      200.0,
+      182.0,
+      -108.0
+    ],
+    "camera": [
+      -120.0,
+      120.0,
+      120.0,
+      -35.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -90.0,
+        0.0
+      ],
+      [
+        90.0,
+        0.0
+      ],
+      [
+        -30.0,
+        0.0
+      ],
+      [
+        30.0,
+        0.0
+      ],
+      [
+        -70.0,
+        0.0
+      ],
+      [
+        70.0,
+        0.0
+      ],
+      [
+        -50.0,
+        0.0
+      ],
+      [
+        50.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        80.0
+      ],
+      [
+        36.0,
+        80.0
+      ],
+      [
+        -36.0,
+        80.0
+      ],
+      [
+        72.0,
+        80.0
+      ],
+      [
+        -18.0,
+        106.0
+      ],
+      [
+        18.0,
+        106.0
+      ],
+      [
+        -54.0,
+        106.0
+      ],
+      [
+        54.0,
+        106.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -110.0,
+                96.0
+              ],
+              [
+                110.0,
+                96.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -89.5,
+                18.0
+              ],
+              [
+                89.5,
+                18.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0002_00_item0",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -200.0,
+                96.0
+              ],
+              [
+                -110.0,
+                96.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                110.0,
+                96.0
+              ],
+              [
+                200.0,
+                96.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

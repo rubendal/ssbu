@@ -1,0 +1,944 @@
+﻿[
+  {
+    "stage": "Luigi's Mansion",
+    "name": "Luigi's Mansion",
+    "lvd": "XMansion_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -38.88758,
+            -335.7523
+          ],
+          [
+            -19.0362358,
+            -293.330627
+          ],
+          [
+            -10.8068361,
+            -253.082962
+          ],
+          [
+            -13.9703465,
+            -154.879608
+          ],
+          [
+            -8.667315,
+            -109.963043
+          ],
+          [
+            -10.5639668,
+            -95.76269
+          ],
+          [
+            -9.619366,
+            -57.2201347
+          ],
+          [
+            -14.2132816,
+            -47.8391953
+          ],
+          [
+            -77.6417542,
+            -24.1242619
+          ],
+          [
+            -94.87199,
+            -12.5
+          ],
+          [
+            -94.87199,
+            6.243698E-08
+          ],
+          [
+            -77.6986847,
+            6.243698E-08
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            77.6986847,
+            6.243698E-08
+          ],
+          [
+            94.871994,
+            6.243698E-08
+          ],
+          [
+            94.871994,
+            -12.5
+          ],
+          [
+            80.71967,
+            -22.512888
+          ],
+          [
+            15.5670938,
+            -46.87244
+          ],
+          [
+            9.336262,
+            -57.4415474
+          ],
+          [
+            8.924824,
+            -91.44464
+          ],
+          [
+            11.9626637,
+            -110.855362
+          ],
+          [
+            20.5549564,
+            -126.62159
+          ],
+          [
+            13.9297714,
+            -153.0832
+          ],
+          [
+            13.9297714,
+            -205.632751
+          ],
+          [
+            22.7975178,
+            -268.774628
+          ],
+          [
+            36.5701561,
+            -335.7523
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 154,
+            "length": 46.8366661,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 168,
+            "length": 41.08038,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 182,
+            "length": 98.2542953,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 173,
+            "length": 45.22853,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 188,
+            "length": 14.326458,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 178,
+            "length": 38.5541267,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 207,
+            "length": 10.4453859,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 250,
+            "length": 67.71683,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 236,
+            "length": 20.7847157,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 12.5,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 17.1733017,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 77.6986847,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 77.6986847,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 17.17331,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 12.5,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 306,
+            "length": 17.3362656,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 291,
+            "length": 69.5575,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 330,
+            "length": 12.2690382,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 34.0055847,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 8,
+            "length": 19.647,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 28,
+            "length": 17.95554,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 346,
+            "length": 27.2783833,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 52.5495453,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 7,
+            "length": 63.7615356,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 11,
+            "length": 68.3790359,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -94.87199,
+            -335.7523
+          ],
+          [
+            94.871994,
+            6.243698E-08
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_LD_Platform03",
+        "vertex": [
+          [
+            -70.41811,
+            30.6549149
+          ],
+          [
+            -70.41813,
+            34.78125
+          ],
+          [
+            -24.2669716,
+            34.78125
+          ],
+          [
+            -24.2669811,
+            30.6549149
+          ],
+          [
+            -70.41811,
+            30.6549149
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 181,
+            "length": 4.126335,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 46.1511574,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.126335,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 46.15113,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -70.41813,
+            30.6549149
+          ],
+          [
+            -24.2669716,
+            34.78125
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_RD_Platform03",
+        "vertex": [
+          [
+            70.41813,
+            30.6549149
+          ],
+          [
+            70.41813,
+            34.78125
+          ],
+          [
+            24.2669563,
+            34.78125
+          ],
+          [
+            24.2669449,
+            30.6549149
+          ],
+          [
+            70.41813,
+            30.6549149
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 4.126335,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 46.1511726,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 4.126335,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 46.1511841,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            24.2669449,
+            30.6549149
+          ],
+          [
+            70.41813,
+            34.78125
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_GhostFloorL_through",
+        "vertex": [
+          [
+            -90.7986,
+            20.7187443
+          ],
+          [
+            -77.50141,
+            20.7187443
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -90.7986,
+            20.7187443
+          ],
+          [
+            -77.50141,
+            20.7187443
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_GhostFloorR_through",
+        "vertex": [
+          [
+            77.5014,
+            20.7187443
+          ],
+          [
+            90.79859,
+            20.7187443
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            77.5014,
+            20.7187443
+          ],
+          [
+            90.79859,
+            20.7187443
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_LD_Platform01_through",
+        "vertex": [
+          [
+            -24.3119469,
+            14.3673983
+          ],
+          [
+            -11.0147581,
+            14.3673983
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -24.3119469,
+            14.3673983
+          ],
+          [
+            -11.0147581,
+            14.3673983
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_LD_Platform02_through",
+        "vertex": [
+          [
+            -24.2669716,
+            34.78125
+          ],
+          [
+            3.10157759E-07,
+            34.78125
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -24.2669716,
+            34.78125
+          ],
+          [
+            3.10157759E-07,
+            34.78125
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_RD_Platform01_through",
+        "vertex": [
+          [
+            11.0150309,
+            14.3673983
+          ],
+          [
+            24.3122177,
+            14.3673983
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            11.0150309,
+            14.3673983
+          ],
+          [
+            24.3122177,
+            14.3673983
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_RD_Platform02_through",
+        "vertex": [
+          [
+            3.10157759E-07,
+            34.78125
+          ],
+          [
+            24.2669563,
+            34.78125
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            3.10157759E-07,
+            34.78125
+          ],
+          [
+            24.2669563,
+            34.78125
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_LU_Platform01_through",
+        "vertex": [
+          [
+            -50.2872734,
+            70.45235
+          ],
+          [
+            0.0,
+            70.4523239
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -50.2872734,
+            70.4523239
+          ],
+          [
+            0.0,
+            70.45235
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_RU_Platform01_through",
+        "vertex": [
+          [
+            0.0,
+            70.4523239
+          ],
+          [
+            50.2872658,
+            70.4523239
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            0.0,
+            70.4523239
+          ],
+          [
+            50.2872658,
+            70.4523239
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -260.0,
+      260.0,
+      200.0,
+      -115.0
+    ],
+    "camera": [
+      -195.0,
+      195.0,
+      149.999985,
+      -49.9999962
+    ],
+    "center": [
+      0.0,
+      6.243698E-08
+    ],
+    "spawns": [
+      [
+        -45.0,
+        0.0
+      ],
+      [
+        45.0,
+        0.0
+      ],
+      [
+        -35.0,
+        34.781
+      ],
+      [
+        35.0,
+        34.78125
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.10157759E-07,
+        34.78125
+      ],
+      [
+        -80.0,
+        6.243698E-08
+      ],
+      [
+        80.0,
+        6.243698E-08
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        100.0
+      ],
+      [
+        36.0,
+        100.0
+      ],
+      [
+        -36.0,
+        100.0
+      ],
+      [
+        72.0,
+        100.0
+      ],
+      [
+        -18.0,
+        125.0
+      ],
+      [
+        18.0,
+        125.0
+      ],
+      [
+        -54.0,
+        125.0
+      ],
+      [
+        54.0,
+        125.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item",
+        "subname": "_tag_IPP0001_00_item",
+        "sections": [
+          {
+            "points": [
+              [
+                -90.0,
+                28.0
+              ],
+              [
+                90.0,
+                28.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -90.0,
+                65.0
+              ],
+              [
+                90.0,
+                65.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -90.0,
+                145.0
+              ],
+              [
+                90.0,
+                145.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

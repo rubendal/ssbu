@@ -1,0 +1,2628 @@
+﻿[
+  {
+    "stage": "Woolly World",
+    "name": "Woolly World",
+    "lvd": "YoshiU_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -380.0,
+            0.0
+          ],
+          [
+            380.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 760.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -380.0,
+            0.0
+          ],
+          [
+            380.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M02_CloudType",
+        "vertex": [
+          [
+            -18.57922,
+            1.09209
+          ],
+          [
+            -17.3971024,
+            2.3839705
+          ],
+          [
+            -14.4170227,
+            3.22391868
+          ],
+          [
+            -7.42827463,
+            3.132897
+          ],
+          [
+            -2.22592759,
+            3.91523266
+          ],
+          [
+            2.45414948,
+            3.7518692
+          ],
+          [
+            8.032763,
+            3.15733027
+          ],
+          [
+            14.5217171,
+            3.20702958
+          ],
+          [
+            17.3779984,
+            2.3839705
+          ],
+          [
+            18.5603619,
+            1.09209
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 137,
+            "length": 1.75110161,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 105,
+            "length": 3.09618926,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 6.989341,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 5.26084232,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 4.68292761,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 5.610205,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.489145,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 73,
+            "length": 2.97250223,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 42,
+            "length": 1.75126779,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.57922,
+            1.09209
+          ],
+          [
+            18.5603619,
+            3.91523266
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M03_RocketType",
+        "vertex": [
+          [
+            -20.4008789,
+            -23.3893414
+          ],
+          [
+            -21.2729435,
+            -15.2901459
+          ],
+          [
+            -22.2422676,
+            -9.131099
+          ],
+          [
+            -22.3126068,
+            -5.170231
+          ],
+          [
+            -18.0119267,
+            -3.103652
+          ],
+          [
+            -13.8353367,
+            -1.836737
+          ],
+          [
+            -10.0635262,
+            -1.10191
+          ],
+          [
+            -4.319493,
+            -0.179012969
+          ],
+          [
+            2.4737246,
+            0.414695084
+          ],
+          [
+            4.310523,
+            1.089669
+          ],
+          [
+            5.60106373,
+            1.96900046
+          ],
+          [
+            7.926048,
+            1.79716742
+          ],
+          [
+            10.9961319,
+            0.5278937
+          ],
+          [
+            18.7866116,
+            -4.12515259
+          ],
+          [
+            19.83142,
+            -7.593465
+          ],
+          [
+            9.545499,
+            -16.8081074
+          ],
+          [
+            -5.90430832,
+            -17.50952
+          ],
+          [
+            -10.0823154,
+            -21.4854126
+          ],
+          [
+            -15.381156,
+            -23.389082
+          ],
+          [
+            -20.4008789,
+            -23.3893414
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 187,
+            "length": 8.146009,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 189,
+            "length": 6.23485756,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 182,
+            "length": 3.9614923,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 115,
+            "length": 4.77143574,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 4.3645134,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 101,
+            "length": 3.84272361,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 99,
+            "length": 5.81770229,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 94,
+            "length": 6.8191123,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 1.95689,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 124,
+            "length": 1.5616399,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 85,
+            "length": 2.33132529,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 67,
+            "length": 3.32211852,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 59,
+            "length": 9.074272,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 16,
+            "length": 3.62226677,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 312,
+            "length": 13.8097725,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 273,
+            "length": 15.4657211,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 314,
+            "length": 5.767449,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 290,
+            "length": 5.63042355,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 5.019723,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -22.3126068,
+            -23.3893414
+          ],
+          [
+            19.83142,
+            1.96900046
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M05_CloudType",
+        "vertex": [
+          [
+            -18.5708828,
+            1.13976336
+          ],
+          [
+            -17.388689,
+            2.41997266
+          ],
+          [
+            -14.40841,
+            3.24916172
+          ],
+          [
+            -7.42235756,
+            3.15801573
+          ],
+          [
+            -2.21654654,
+            3.92935872
+          ],
+          [
+            2.449025,
+            3.770468
+          ],
+          [
+            8.055225,
+            3.18137622
+          ],
+          [
+            14.5247688,
+            3.23351622
+          ],
+          [
+            17.3886242,
+            2.41997266
+          ],
+          [
+            18.5710659,
+            1.13976336
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 137,
+            "length": 1.74256074,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 105,
+            "length": 3.09347987,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 6.986647,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 5.26264572,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 4.66827631,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 84,
+            "length": 5.637066,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.46975374,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 74,
+            "length": 2.97716665,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 42,
+            "length": 1.742729,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.5708828,
+            1.13976336
+          ],
+          [
+            18.5710659,
+            3.92935872
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M02a_CloudType",
+        "vertex": [
+          [
+            -18.5696964,
+            1.08957148
+          ],
+          [
+            -17.38758,
+            2.381193
+          ],
+          [
+            -14.53097,
+            3.20517588
+          ],
+          [
+            -7.29424,
+            3.149613
+          ],
+          [
+            -2.21640444,
+            3.91480017
+          ],
+          [
+            2.463671,
+            3.75106478
+          ],
+          [
+            8.042135,
+            3.15535712
+          ],
+          [
+            14.5312452,
+            3.20517588
+          ],
+          [
+            17.3875351,
+            2.381193
+          ],
+          [
+            18.5698986,
+            1.08957148
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 137,
+            "length": 1.75090921,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 2.97307515,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 7.236943,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 5.13516569,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 4.68293858,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 5.610181,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.489301,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 73,
+            "length": 2.9727664,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 42,
+            "length": 1.7510767,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.5696964,
+            1.08957148
+          ],
+          [
+            18.5698986,
+            3.91480017
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M03a_RocketType",
+        "vertex": [
+          [
+            -20.4008789,
+            -23.3893414
+          ],
+          [
+            -21.2729435,
+            -15.2901459
+          ],
+          [
+            -22.2422676,
+            -9.131099
+          ],
+          [
+            -22.3126068,
+            -5.170231
+          ],
+          [
+            -18.0119267,
+            -3.103652
+          ],
+          [
+            -13.8353367,
+            -1.836737
+          ],
+          [
+            -10.0635262,
+            -1.10191
+          ],
+          [
+            -4.319493,
+            -0.179012969
+          ],
+          [
+            2.4737246,
+            0.414695084
+          ],
+          [
+            4.310523,
+            1.089669
+          ],
+          [
+            5.60106373,
+            1.96900046
+          ],
+          [
+            7.926048,
+            1.79716742
+          ],
+          [
+            10.9961319,
+            0.5278937
+          ],
+          [
+            18.7866116,
+            -4.12515259
+          ],
+          [
+            19.83142,
+            -7.593465
+          ],
+          [
+            9.545499,
+            -16.8081074
+          ],
+          [
+            -5.90430832,
+            -17.50952
+          ],
+          [
+            -10.0823154,
+            -21.4854126
+          ],
+          [
+            -15.381156,
+            -23.389082
+          ],
+          [
+            -20.4008789,
+            -23.3893414
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 187,
+            "length": 8.146009,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 189,
+            "length": 6.23485756,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 182,
+            "length": 3.9614923,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 115,
+            "length": 4.77143574,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 4.3645134,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 101,
+            "length": 3.84272361,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 99,
+            "length": 5.81770229,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 94,
+            "length": 6.8191123,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 1.95689,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 124,
+            "length": 1.5616399,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 85,
+            "length": 2.33132529,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 67,
+            "length": 3.32211852,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 59,
+            "length": 9.074272,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 16,
+            "length": 3.62226677,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 312,
+            "length": 13.8097725,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 273,
+            "length": 15.4657211,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 314,
+            "length": 5.767449,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 290,
+            "length": 5.63042355,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 5.019723,
+            "ceiling": true,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -22.3126068,
+            -23.3893414
+          ],
+          [
+            19.83142,
+            1.96900046
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M05a_CloudType",
+        "vertex": [
+          [
+            -18.5708828,
+            1.14787471
+          ],
+          [
+            -17.388689,
+            2.422864
+          ],
+          [
+            -14.5245056,
+            3.23501444
+          ],
+          [
+            -7.305265,
+            3.17680645
+          ],
+          [
+            -2.21654654,
+            3.93072438
+          ],
+          [
+            2.44902515,
+            3.77178884
+          ],
+          [
+            8.054898,
+            3.18285251
+          ],
+          [
+            14.5247688,
+            3.23501444
+          ],
+          [
+            17.3886242,
+            2.422864
+          ],
+          [
+            18.5710659,
+            1.14787471
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 137,
+            "length": 1.73872936,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 105,
+            "length": 2.9771018,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 7.21947527,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 5.14426374,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 4.668278,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 84,
+            "length": 5.636724,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.470081,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 74,
+            "length": 2.97678614,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 42,
+            "length": 1.73889792,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.5708828,
+            1.14787471
+          ],
+          [
+            18.5710659,
+            3.93072438
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_M00_CarryingPole_through",
+        "vertex": [
+          [
+            -43.37554,
+            0.20965524
+          ],
+          [
+            -41.93044,
+            1.30582118
+          ],
+          [
+            -40.1353836,
+            1.5550493
+          ],
+          [
+            -38.4233246,
+            0.959556639
+          ],
+          [
+            -37.3277,
+            0.05821109
+          ],
+          [
+            -17.99699,
+            0.723226547
+          ],
+          [
+            0.0,
+            0.9898478
+          ],
+          [
+            17.99699,
+            0.723226547
+          ],
+          [
+            37.3277,
+            0.05821109
+          ],
+          [
+            38.4233246,
+            0.959556639
+          ],
+          [
+            40.1353836,
+            1.5550493
+          ],
+          [
+            41.93044,
+            1.30582118
+          ],
+          [
+            43.37554,
+            0.2096553
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 127,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 97,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 70,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 50,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 91,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 129,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 109,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 52,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -43.37554,
+            0.05821109
+          ],
+          [
+            43.37554,
+            1.5550493
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M01_CloudType_through",
+        "vertex": [
+          [
+            -29.2701588,
+            0.6469474
+          ],
+          [
+            -27.3724422,
+            1.84071159
+          ],
+          [
+            -21.79225,
+            2.44289279
+          ],
+          [
+            -16.4125977,
+            2.1724062
+          ],
+          [
+            -3.63664246,
+            2.65674782
+          ],
+          [
+            9.69461,
+            2.070169
+          ],
+          [
+            14.5196753,
+            2.265663
+          ],
+          [
+            20.1014538,
+            1.60899937
+          ],
+          [
+            22.0031223,
+            0.3966949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 122,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 96,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 57,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -29.2701588,
+            0.3966949
+          ],
+          [
+            22.0031223,
+            2.65674782
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M04_CloudType_through",
+        "vertex": [
+          [
+            -58.52524,
+            0.699104667
+          ],
+          [
+            -56.39077,
+            1.68904579
+          ],
+          [
+            -53.2294731,
+            2.065258
+          ],
+          [
+            -48.5433159,
+            1.70846331
+          ],
+          [
+            -42.131073,
+            2.2486558
+          ],
+          [
+            -29.9480362,
+            1.53014386
+          ],
+          [
+            -26.6050415,
+            1.69007838
+          ],
+          [
+            -22.87189,
+            1.29500473
+          ],
+          [
+            -16.745554,
+            2.236509
+          ],
+          [
+            -12.3028135,
+            1.9478606
+          ],
+          [
+            -2.23018336,
+            2.42346716
+          ],
+          [
+            8.338011,
+            1.80966389
+          ],
+          [
+            12.2800093,
+            2.00180864
+          ],
+          [
+            15.7164984,
+            1.55328918
+          ],
+          [
+            18.01957,
+            0.5147163
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 114,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 96,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 85,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 94,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 65,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -58.52524,
+            0.5147163
+          ],
+          [
+            18.01957,
+            2.42346716
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M00a_CarryingPole_throug",
+        "vertex": [
+          [
+            -43.37554,
+            0.20965524
+          ],
+          [
+            -41.93044,
+            1.30582118
+          ],
+          [
+            -40.1353836,
+            1.5550493
+          ],
+          [
+            -38.4233246,
+            0.959556639
+          ],
+          [
+            -37.3277,
+            0.05821109
+          ],
+          [
+            -17.99699,
+            0.723226547
+          ],
+          [
+            0.0,
+            0.9898478
+          ],
+          [
+            17.99699,
+            0.723226547
+          ],
+          [
+            37.3277,
+            0.05821109
+          ],
+          [
+            38.4233246,
+            0.959556639
+          ],
+          [
+            40.1353836,
+            1.5550493
+          ],
+          [
+            41.93044,
+            1.30582118
+          ],
+          [
+            43.37554,
+            0.2096553
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 127,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 97,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 70,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 50,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 91,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 129,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 109,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 52,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -43.37554,
+            0.05821109
+          ],
+          [
+            43.37554,
+            1.5550493
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M01a_CloudType_through",
+        "vertex": [
+          [
+            -34.28351,
+            0.6469474
+          ],
+          [
+            -32.38579,
+            1.84071159
+          ],
+          [
+            -26.8056,
+            2.44289279
+          ],
+          [
+            -21.4259472,
+            2.1724062
+          ],
+          [
+            -8.649992,
+            2.65674782
+          ],
+          [
+            4.68126,
+            2.070169
+          ],
+          [
+            9.506326,
+            2.265663
+          ],
+          [
+            15.0881052,
+            1.60899937
+          ],
+          [
+            16.9897728,
+            0.3966949
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 122,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 96,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 57,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -34.28351,
+            0.3966949
+          ],
+          [
+            16.9897728,
+            2.65674782
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_M04a_CloudType_through",
+        "vertex": [
+          [
+            -18.6597157,
+            0.699104667
+          ],
+          [
+            -16.5252438,
+            1.68904579
+          ],
+          [
+            -13.3639479,
+            2.065258
+          ],
+          [
+            -8.677792,
+            1.70846331
+          ],
+          [
+            -2.26554561,
+            2.2486558
+          ],
+          [
+            9.91749,
+            1.53014386
+          ],
+          [
+            13.2604847,
+            1.69007838
+          ],
+          [
+            16.9936371,
+            1.29500473
+          ],
+          [
+            23.1199722,
+            2.236509
+          ],
+          [
+            27.5627117,
+            1.9478606
+          ],
+          [
+            37.63534,
+            2.42346716
+          ],
+          [
+            48.203537,
+            1.80966389
+          ],
+          [
+            52.1455345,
+            2.00180864
+          ],
+          [
+            55.5820236,
+            1.55328918
+          ],
+          [
+            57.8850937,
+            0.5147163
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 114,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 96,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 85,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 94,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 98,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 65,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -18.6597157,
+            0.5147163
+          ],
+          [
+            57.8850937,
+            2.42346716
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -225.0,
+      225.0,
+      207.0,
+      -100.0
+    ],
+    "camera": [
+      -153.0,
+      153.0,
+      153.0,
+      -40.0
+    ],
+    "center": [
+      0.0,
+      3.93072438
+    ],
+    "spawns": [
+      [
+        -95.0,
+        0.0
+      ],
+      [
+        115.0,
+        0.0
+      ],
+      [
+        -25.0,
+        0.0
+      ],
+      [
+        45.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        120.0
+      ],
+      [
+        36.0,
+        120.0
+      ],
+      [
+        -36.0,
+        120.0
+      ],
+      [
+        72.0,
+        120.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "00_M00",
+        "sections": [
+          {
+            "points": [
+              [
+                -35.87554,
+                36.55505
+              ],
+              [
+                35.87554,
+                36.55505
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0002_00_item0",
+        "subname": "00_M01",
+        "sections": [
+          {
+            "points": [
+              [
+                -21.7701588,
+                25.1567478
+              ],
+              [
+                14.5031223,
+                25.1567478
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0003_00_item0",
+        "subname": "00_M02",
+        "sections": [
+          {
+            "points": [
+              [
+                -11.07922,
+                23.9152336
+              ],
+              [
+                11.0603619,
+                23.9152336
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0004_00_item0",
+        "subname": "00_M03",
+        "sections": [
+          {
+            "points": [
+              [
+                -14.8126078,
+                29.969
+              ],
+              [
+                12.2855053,
+                29.969
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0005_00_item0",
+        "subname": "00_M04",
+        "sections": [
+          {
+            "points": [
+              [
+                -51.02524,
+                29.9234676
+              ],
+              [
+                10.5195694,
+                29.9234676
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0006_00_item0",
+        "subname": "00_M05",
+        "sections": [
+          {
+            "points": [
+              [
+                -11.0708828,
+                29.9234676
+              ],
+              [
+                11.0710659,
+                29.9234676
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0007_00_item0",
+        "subname": "00_M00a",
+        "sections": [
+          {
+            "points": [
+              [
+                -35.87554,
+                36.55505
+              ],
+              [
+                35.87554,
+                36.55505
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0008_00_item0",
+        "subname": "00_M01a",
+        "sections": [
+          {
+            "points": [
+              [
+                -26.7835083,
+                25.1567478
+              ],
+              [
+                9.489773,
+                25.1567478
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0009_00_item0",
+        "subname": "00_M02a",
+        "sections": [
+          {
+            "points": [
+              [
+                -11.0696964,
+                23.9152336
+              ],
+              [
+                11.0698986,
+                23.9152336
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0010_00_item1",
+        "subname": "00_M03a",
+        "sections": [
+          {
+            "points": [
+              [
+                -14.8126078,
+                29.969
+              ],
+              [
+                12.2855053,
+                29.969
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0011_00_item1",
+        "subname": "00_M04a",
+        "sections": [
+          {
+            "points": [
+              [
+                -11.1597157,
+                29.9234676
+              ],
+              [
+                50.3850937,
+                29.9234676
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0012_00_item1",
+        "subname": "00_M05a",
+        "sections": [
+          {
+            "points": [
+              [
+                -11.0708828,
+                29.9234676
+              ],
+              [
+                11.0710659,
+                29.9234676
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0013_00_item1",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -143.0,
+                35.0
+              ],
+              [
+                -48.0,
+                35.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -48.0,
+                35.0
+              ],
+              [
+                48.0,
+                35.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                48.0,
+                35.0
+              ],
+              [
+                143.0,
+                35.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0014_00_item1",
+        "subname": "00_Item",
+        "sections": [
+          {
+            "points": [
+              [
+                -225.0,
+                145.0
+              ],
+              [
+                -143.0,
+                145.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                143.0,
+                145.0
+              ],
+              [
+                225.0,
+                145.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

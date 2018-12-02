@@ -90,7 +90,6 @@ class StageList extends Component {
     return (
       
       <div id="stage-selection">
-      <div className="lvd-credits">Thanks to <a href="https://twitter.com/jam1garner">@jam1garner</a> for extracting the lvd files</div>
       <h2 className="stages-header">Stages</h2>
       <div className="script-select">
         <select value={this.state.stageIndex} onChange={(e) => this.ChangeStage(e)}>

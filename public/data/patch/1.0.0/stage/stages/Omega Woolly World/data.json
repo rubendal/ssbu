@@ -1,0 +1,441 @@
+﻿[
+  {
+    "stage": "Omega Woolly World",
+    "name": "Woolly World",
+    "lvd": "Z_YoshiU_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -84.85314,
+            -215.0
+          ],
+          [
+            -84.85314,
+            -149.0207
+          ],
+          [
+            -85.11083,
+            -143.625031
+          ],
+          [
+            -85.11083,
+            -92.52755
+          ],
+          [
+            -84.52829,
+            -48.6505241
+          ],
+          [
+            -81.79268,
+            -42.1264877
+          ],
+          [
+            -81.79268,
+            -32.4723854
+          ],
+          [
+            -86.9,
+            -3.5
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -78.9,
+            0.0
+          ],
+          [
+            78.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -3.5
+          ],
+          [
+            84.7226944,
+            -22.4964218
+          ],
+          [
+            79.0440445,
+            -43.69668
+          ],
+          [
+            81.9723053,
+            -53.1847076
+          ],
+          [
+            82.6333847,
+            -63.6373062
+          ],
+          [
+            80.91051,
+            -79.28726
+          ],
+          [
+            85.29141,
+            -91.30685
+          ],
+          [
+            85.29141,
+            -135.354233
+          ],
+          [
+            83.38971,
+            -143.477676
+          ],
+          [
+            83.38971,
+            -215.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 65.9792938,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 183,
+            "length": 5.40182543,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 51.09748,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 43.8808937,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 157,
+            "length": 7.074363,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 9.654102,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 190,
+            "length": 29.4191074,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 3.5,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 8.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 157.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 8.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 3.5,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 354,
+            "length": 19.1207924,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 346,
+            "length": 21.9476185,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 17,
+            "length": 9.929623,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 3,
+            "length": 10.4734831,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 354,
+            "length": 15.7445049,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 20,
+            "length": 12.7930737,
+            "ceiling": false,
+            "wall": false,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 44.0473862,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 347,
+            "length": 8.34307,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 71.52232,
+            "ceiling": false,
+            "wall": true,
+            "material": "Bubbles"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -215.0
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        80.0
+      ],
+      [
+        18.0,
+        80.0
+      ],
+      [
+        -54.0,
+        80.0
+      ],
+      [
+        54.0,
+        80.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,371 @@
+﻿[
+  {
+    "stage": "Omega Midgar",
+    "name": "Midgar",
+    "lvd": "Z_Midgar_f_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            28.1537971,
+            -39.266983
+          ],
+          [
+            22.80589,
+            -50.22881
+          ],
+          [
+            -59.19557,
+            -50.22881
+          ],
+          [
+            -63.8128738,
+            -38.877018
+          ],
+          [
+            -70.85158,
+            -24.8508129
+          ],
+          [
+            -73.02553,
+            -21.5576687
+          ],
+          [
+            -84.20803,
+            -3.786356
+          ],
+          [
+            -86.8757553,
+            0.111259505
+          ],
+          [
+            -81.8757553,
+            0.111259505
+          ],
+          [
+            81.8757553,
+            0.111259505
+          ],
+          [
+            86.8757553,
+            0.111259505
+          ],
+          [
+            83.92504,
+            -3.786356
+          ],
+          [
+            73.3494,
+            -15.6280727
+          ],
+          [
+            60.95116,
+            -29.7784367
+          ],
+          [
+            51.9849358,
+            -33.50725
+          ],
+          [
+            34.5330658,
+            -36.1990433
+          ],
+          [
+            28.1537971,
+            -39.266983
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 334,
+            "length": 12.1967926,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 82.0014648,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 203,
+            "length": 12.2549028,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 207,
+            "length": 15.69324,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 214,
+            "length": 3.94599271,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 213,
+            "length": 20.9968548,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 215,
+            "length": 4.72315168,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.751511,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 323,
+            "length": 4.88857031,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 319,
+            "length": 15.8767242,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 319,
+            "length": 18.8135376,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 293,
+            "length": 9.710677,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 279,
+            "length": 17.6582413,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 296,
+            "length": 7.07865238,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.8757553,
+            -50.22881
+          ],
+          [
+            86.8757553,
+            0.111259505
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.111259505
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.749182
+      ],
+      [
+        60.0,
+        0.749182
+      ],
+      [
+        -20.0,
+        0.749182
+      ],
+      [
+        20.0,
+        0.749182
+      ],
+      [
+        -40.0,
+        0.749182
+      ],
+      [
+        40.0,
+        0.749182
+      ],
+      [
+        -80.0,
+        0.749182
+      ],
+      [
+        80.0,
+        0.749182
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
