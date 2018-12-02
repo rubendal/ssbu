@@ -1,0 +1,283 @@
+﻿[
+  {
+    "stage": "Omega Wufu Island",
+    "name": "Wufu Island",
+    "lvd": "Z_Wufu_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -64.38533,
+            -22.2850933
+          ],
+          [
+            -74.13667,
+            -9.171664
+          ],
+          [
+            -80.14873,
+            -4.934232
+          ],
+          [
+            -86.9,
+            -2.22364879
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -81.9,
+            0.0
+          ],
+          [
+            81.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -2.22364879
+          ],
+          [
+            80.14873,
+            -4.934232
+          ],
+          [
+            74.13667,
+            -9.171664
+          ],
+          [
+            64.38533,
+            -22.2850933
+          ],
+          [
+            -64.38533,
+            -22.2850933
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 217,
+            "length": 16.3416862,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 235,
+            "length": 7.355313,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 249,
+            "length": 7.275092,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 2.22364879,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 2.22364879,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 292,
+            "length": 7.275092,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 306,
+            "length": 7.355313,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 324,
+            "length": 16.3416862,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 128.77066,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -22.2850933
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -115.000008
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -59.9999962
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

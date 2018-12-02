@@ -1,0 +1,556 @@
+﻿[
+  {
+    "stage": "Wily Castle",
+    "name": "Wily Castle",
+    "lvd": "Wily_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -87.5,
+            -190.0
+          ],
+          [
+            -87.5,
+            0.0
+          ],
+          [
+            -82.5,
+            0.0
+          ],
+          [
+            82.5,
+            0.0
+          ],
+          [
+            87.5,
+            0.0
+          ],
+          [
+            87.5,
+            -190.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 190.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 165.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 190.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -87.5,
+            -190.0
+          ],
+          [
+            87.5,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_A1_MovingPlatform_throug",
+        "vertex": [
+          [
+            -269.234741,
+            22.6586075
+          ],
+          [
+            -230.734741,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.2347355,
+            0.6586066
+          ],
+          [
+            19.2652645,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_A2_MovingPlatform_throug",
+        "vertex": [
+          [
+            -269.234741,
+            22.6586075
+          ],
+          [
+            -230.734741,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.2347355,
+            0.6586066
+          ],
+          [
+            19.2652645,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_A3_MovingPlatform_throug",
+        "vertex": [
+          [
+            -269.234741,
+            22.6586075
+          ],
+          [
+            -230.734741,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.2347355,
+            0.6586066
+          ],
+          [
+            19.2652645,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_A4_MovingPlatform_throug",
+        "vertex": [
+          [
+            -269.234741,
+            22.6586075
+          ],
+          [
+            -230.734741,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.2347355,
+            0.6586066
+          ],
+          [
+            19.2652645,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_A6_MovingPlatform_throug",
+        "vertex": [
+          [
+            -19.25,
+            0.6586056
+          ],
+          [
+            19.25,
+            0.6586056
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.25,
+            0.6586056
+          ],
+          [
+            19.25,
+            0.6586056
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_B1_MovingPlatform_throug",
+        "vertex": [
+          [
+            230.705963,
+            22.6586075
+          ],
+          [
+            269.205963,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.29404,
+            0.6586066
+          ],
+          [
+            19.20596,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_B2_MovingPlatform_throug",
+        "vertex": [
+          [
+            230.705963,
+            22.6586075
+          ],
+          [
+            269.205963,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.29404,
+            0.6586066
+          ],
+          [
+            19.20596,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_B3_MovingPlatform_throug",
+        "vertex": [
+          [
+            230.705963,
+            22.6586075
+          ],
+          [
+            269.205963,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.29404,
+            0.6586066
+          ],
+          [
+            19.20596,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_B4_MovingPlatform_throug",
+        "vertex": [
+          [
+            230.705963,
+            22.6586075
+          ],
+          [
+            269.205963,
+            22.6586075
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.29404,
+            0.6586066
+          ],
+          [
+            19.20596,
+            0.6586066
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_B6_MovingPlatform_throug",
+        "vertex": [
+          [
+            -19.25,
+            0.6586056
+          ],
+          [
+            19.25,
+            0.6586056
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -19.25,
+            0.6586056
+          ],
+          [
+            19.25,
+            0.6586056
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -290.0,
+      290.0,
+      212.0,
+      -120.0
+    ],
+    "camera": [
+      -210.0,
+      210.0,
+      150.0,
+      -60.0000038
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -66.0,
+        0.0
+      ],
+      [
+        66.0,
+        0.0
+      ],
+      [
+        -22.0,
+        0.0
+      ],
+      [
+        22.0,
+        0.0
+      ],
+      [
+        -44.0,
+        0.0
+      ],
+      [
+        44.0,
+        0.0
+      ],
+      [
+        -7.25,
+        0.0
+      ],
+      [
+        7.25,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        90.0
+      ],
+      [
+        36.0,
+        90.0
+      ],
+      [
+        -36.0,
+        90.0
+      ],
+      [
+        72.0,
+        90.0
+      ],
+      [
+        -18.0,
+        118.0
+      ],
+      [
+        18.0,
+        118.0
+      ],
+      [
+        -54.0,
+        118.0
+      ],
+      [
+        54.0,
+        118.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -77.5,
+                120.0
+              ],
+              [
+                77.5,
+                120.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

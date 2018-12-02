@@ -1,0 +1,259 @@
+﻿[
+  {
+    "stage": "Omega Delfino Plaza",
+    "name": "Delfino Plaza",
+    "lvd": "Z_XDolpic_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -74.00669,
+            -16.8816128
+          ],
+          [
+            -86.9,
+            -9.958306
+          ],
+          [
+            -86.9,
+            0.0002081208
+          ],
+          [
+            -81.9,
+            0.0002081208
+          ],
+          [
+            81.9,
+            0.0002081208
+          ],
+          [
+            86.9,
+            0.0002081208
+          ],
+          [
+            86.9,
+            -9.958306
+          ],
+          [
+            74.00669,
+            -16.8816128
+          ],
+          [
+            -74.00669,
+            -16.8816128
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 242,
+            "length": 14.6345358,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 9.958514,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 9.958514,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 299,
+            "length": 14.6345358,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 148.013382,
+            "ceiling": true,
+            "wall": false,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -16.8816128
+          ],
+          [
+            86.9,
+            0.0002081208
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0002081208
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0002081208
+      ],
+      [
+        60.0,
+        0.0002081208
+      ],
+      [
+        -20.0,
+        0.0002081208
+      ],
+      [
+        20.0,
+        0.0002081208
+      ],
+      [
+        -80.0,
+        0.0002081208
+      ],
+      [
+        40.0,
+        0.0002081208
+      ],
+      [
+        -40.0,
+        0.0002081208
+      ],
+      [
+        0.0,
+        0.0002081208
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        80.0
+      ],
+      [
+        18.0,
+        80.0
+      ],
+      [
+        -54.0,
+        80.0
+      ],
+      [
+        54.0,
+        80.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

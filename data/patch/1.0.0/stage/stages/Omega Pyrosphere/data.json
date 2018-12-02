@@ -1,0 +1,497 @@
+﻿[
+  {
+    "stage": "Omega Pyrosphere",
+    "name": "Pyrosphere",
+    "lvd": "Z_Metroid_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -60.2279167,
+            -215.0
+          ],
+          [
+            -60.2279167,
+            -160.453781
+          ],
+          [
+            -40.5137749,
+            -146.4976
+          ],
+          [
+            -40.5137672,
+            -77.37021
+          ],
+          [
+            -45.22765,
+            -67.12603
+          ],
+          [
+            -45.22765,
+            -23.4996529
+          ],
+          [
+            -74.554985,
+            -23.4996529
+          ],
+          [
+            -85.76649,
+            -16.84843
+          ],
+          [
+            -85.7685,
+            -4.808486
+          ],
+          [
+            -86.9,
+            -3.17991233
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -83.424,
+            -1.328672E-06
+          ],
+          [
+            -20.5885,
+            -1.328672E-06
+          ],
+          [
+            20.5885,
+            -1.328672E-06
+          ],
+          [
+            83.424,
+            -1.328672E-06
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -3.17991233
+          ],
+          [
+            85.7685,
+            -4.808486
+          ],
+          [
+            85.76649,
+            -16.84843
+          ],
+          [
+            74.554985,
+            -23.4996529
+          ],
+          [
+            45.22765,
+            -23.4996529
+          ],
+          [
+            45.22765,
+            -67.12603
+          ],
+          [
+            40.5137672,
+            -77.37021
+          ],
+          [
+            40.5137749,
+            -146.4976
+          ],
+          [
+            60.2279167,
+            -160.453781
+          ],
+          [
+            60.2279167,
+            -215.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 54.54622,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 125,
+            "length": 24.1541348,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 69.1273956,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 205,
+            "length": 11.2766962,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 43.6263771,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 29.3273354,
+            "ceiling": true,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 240,
+            "length": 13.0359707,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 181,
+            "length": 12.0399446,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 215,
+            "length": 1.98306453,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 3.17991233,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 3.475998,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 62.8355026,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 41.177,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 62.8355026,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 3.475998,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 3.17991233,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 326,
+            "length": 1.98306453,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 12.0399446,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 301,
+            "length": 13.0359707,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 29.3273354,
+            "ceiling": true,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 43.6263771,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 336,
+            "length": 11.2766962,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 69.1273956,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 54,
+            "length": 24.1541348,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 54.54622,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -215.0
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ],
+      [
+        -80.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,668 @@
+﻿[
+  {
+    "stage": "Peach's Castle 64",
+    "name": "Peach's Castle 64",
+    "lvd": "PeachCastle64_f00",
+    "collisions": [
+      {
+        "name": "COL_curve6",
+        "vertex": [
+          [
+            15.2625742,
+            -28.06578
+          ],
+          [
+            -15.0948267,
+            -28.06578
+          ],
+          [
+            -26.0907421,
+            -20.0
+          ],
+          [
+            -39.122,
+            -3.14623976
+          ],
+          [
+            -39.122,
+            12.4516335
+          ],
+          [
+            -20.717,
+            16.967
+          ],
+          [
+            20.717,
+            16.967
+          ],
+          [
+            39.122,
+            12.4516335
+          ],
+          [
+            39.122,
+            -3.14623976
+          ],
+          [
+            26.24267,
+            -20.0
+          ],
+          [
+            15.2625742,
+            -28.06578
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 30.3574,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 234,
+            "length": 13.6369705,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 218,
+            "length": 21.30406,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 15.5978737,
+            "ceiling": false,
+            "wall": true,
+            "material": "Carpet"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 103,
+            "length": 18.9507961,
+            "ceiling": false,
+            "wall": false,
+            "material": "Carpet"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 41.434,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 76,
+            "length": 18.9507961,
+            "ceiling": false,
+            "wall": false,
+            "material": "Carpet"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 15.5978737,
+            "ceiling": false,
+            "wall": true,
+            "material": "Carpet"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 323,
+            "length": 21.21147,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 307,
+            "length": 13.624218,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -39.122,
+            -28.06578
+          ],
+          [
+            39.122,
+            16.967
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve4",
+        "vertex": [
+          [
+            107.013893,
+            66.97179
+          ],
+          [
+            86.00017,
+            65.99957
+          ],
+          [
+            109.9,
+            94.0
+          ],
+          [
+            110.2,
+            94.0
+          ],
+          [
+            107.013893,
+            66.97179
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 273,
+            "length": 21.0362034,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 139,
+            "length": 36.8133926,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.299995422,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 354,
+            "length": 27.2153549,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -13.9998341,
+            -13.0004263
+          ],
+          [
+            10.2,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve3",
+        "vertex": [
+          [
+            -106.999329,
+            66.9953461
+          ],
+          [
+            -110.2,
+            94.0
+          ],
+          [
+            -109.9,
+            94.0
+          ],
+          [
+            -85.99996,
+            65.9999542
+          ],
+          [
+            -106.999329,
+            66.9953461
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 187,
+            "length": 27.1936684,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.299995422,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 40,
+            "length": 36.8132362,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 268,
+            "length": 21.0229454,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -10.2,
+            -13.000042
+          ],
+          [
+            14.0000381,
+            15.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -18.05716,
+            -11.7225571
+          ],
+          [
+            -18.05716,
+            -3.338986
+          ],
+          [
+            -11.5369949,
+            -3.338986
+          ],
+          [
+            132.0,
+            -3.338986
+          ],
+          [
+            138.1405,
+            -3.338986
+          ],
+          [
+            138.1286,
+            -11.7161121
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 8.383572,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.52016449,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 143.536987,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.140503,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 8.377134,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -78.05716,
+            -4.222557
+          ],
+          [
+            78.1404953,
+            4.161014
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_curve2",
+        "vertex": [
+          [
+            -66.00807,
+            52.3925667
+          ],
+          [
+            -44.46659,
+            46.7183
+          ],
+          [
+            19.8968277,
+            46.5861435
+          ],
+          [
+            37.9463,
+            48.1928558
+          ],
+          [
+            44.7446442,
+            47.4252243
+          ],
+          [
+            60.34905,
+            40.8519249
+          ],
+          [
+            73.9945755,
+            40.99835
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 75,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 95,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 67,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -66.00807,
+            40.8519249
+          ],
+          [
+            73.9945755,
+            52.3925667
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -285.114,
+      285.1174,
+      200.0,
+      -130.000015
+    ],
+    "camera": [
+      -189.999985,
+      189.999985,
+      144.639374,
+      -74.91352
+    ],
+    "center": [
+      0.0,
+      16.967
+    ],
+    "spawns": [
+      [
+        -33.8762932,
+        50.8988342
+      ],
+      [
+        33.8612671,
+        51.6968956
+      ],
+      [
+        -31.70475,
+        20.678
+      ],
+      [
+        28.2575779,
+        20.6775074
+      ],
+      [
+        73.11013,
+        45.9632225
+      ],
+      [
+        -63.2654,
+        55.5568581
+      ],
+      [
+        -0.518545747,
+        20.5667477
+      ],
+      [
+        0.854319,
+        50.33444
+      ]
+    ],
+    "respawns": [
+      [
+        -23.9755249,
+        68.74087
+      ],
+      [
+        -4.63852644,
+        68.41312
+      ],
+      [
+        15.0262175,
+        68.08537
+      ],
+      [
+        34.3632164,
+        68.08537
+      ],
+      [
+        -13.9144526,
+        85.0471039
+      ],
+      [
+        6.67146254,
+        84.79295
+      ],
+      [
+        25.4783478,
+        84.28466
+      ],
+      [
+        -33.2296333,
+        84.53881
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_AAA0000_00_item0",
+        "subname": "_tag_AAA0000_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -55.3766556,
+                100.0
+              ],
+              [
+                68.80626,
+                100.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -34.2596664,
+                42.0
+              ],
+              [
+                35.4534073,
+                42.0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_AAA0001_00_bomb",
+        "subname": "locator1",
+        "sections": [
+          {
+            "points": [
+              [
+                -136.039917,
+                143.178436
+              ],
+              [
+                -87.494194,
+                143.178436
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                88.38398,
+                142.167191
+              ],
+              [
+                136.9297,
+                142.167191
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

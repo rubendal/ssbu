@@ -1,0 +1,525 @@
+﻿[
+  {
+    "stage": "Omega Luigi's Mansion",
+    "name": "Luigi's Mansion",
+    "lvd": "Z_XMansion_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -40.2591858,
+            -405.565
+          ],
+          [
+            -15.16518,
+            -335.3218
+          ],
+          [
+            -15.16518,
+            -222.918915
+          ],
+          [
+            -11.1160612,
+            -131.69548
+          ],
+          [
+            -20.4084435,
+            -108.22142
+          ],
+          [
+            -72.29207,
+            -86.7924347
+          ],
+          [
+            -72.29207,
+            -71.63793
+          ],
+          [
+            -68.86138,
+            -66.58809
+          ],
+          [
+            -68.86138,
+            -30.341486
+          ],
+          [
+            -83.1873856,
+            -2.22513056
+          ],
+          [
+            -86.9,
+            -0.804855
+          ],
+          [
+            -86.9,
+            0.639732361
+          ],
+          [
+            -81.9,
+            0.639732361
+          ],
+          [
+            81.9,
+            0.639732361
+          ],
+          [
+            86.9,
+            0.639732361
+          ],
+          [
+            86.9,
+            -0.8048437
+          ],
+          [
+            83.18739,
+            -2.22512341
+          ],
+          [
+            68.86138,
+            -30.341486
+          ],
+          [
+            68.86138,
+            -66.58809
+          ],
+          [
+            72.29207,
+            -71.63793
+          ],
+          [
+            72.29207,
+            -87.2593155
+          ],
+          [
+            23.445137,
+            -106.30912
+          ],
+          [
+            10.3193283,
+            -127.667564
+          ],
+          [
+            13.9954071,
+            -171.952118
+          ],
+          [
+            21.5232162,
+            -189.9625
+          ],
+          [
+            16.75677,
+            -283.551453
+          ],
+          [
+            24.9682,
+            -315.410431
+          ],
+          [
+            39.2273865,
+            -405.565
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 160,
+            "length": 74.59099,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 112.402893,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 177,
+            "length": 91.3132553,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 202,
+            "length": 25.2463837,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 248,
+            "length": 56.1347656,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 15.1545029,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 145,
+            "length": 6.104959,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 36.2466049,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 208,
+            "length": 31.5557251,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 250,
+            "length": 3.97500944,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 1.44458735,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 1.444576,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 291,
+            "length": 3.97500372,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 333,
+            "length": 31.5557365,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 36.2466049,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 34,
+            "length": 6.104959,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 15.6213837,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 292,
+            "length": 52.4301224,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 329,
+            "length": 25.0693035,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 4,
+            "length": 44.4368668,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 22,
+            "length": 19.5202866,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 358,
+            "length": 93.71026,
+            "ceiling": false,
+            "wall": true,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 14,
+            "length": 32.9001846,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 8,
+            "length": 91.2752457,
+            "ceiling": false,
+            "wall": false,
+            "material": "Stone2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -405.565
+          ],
+          [
+            86.9,
+            0.639732361
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -115.000008
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0
+    ],
+    "center": [
+      0.0,
+      0.639732361
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.639732361
+      ],
+      [
+        60.0,
+        0.639732361
+      ],
+      [
+        -20.0,
+        0.639732361
+      ],
+      [
+        20.0,
+        0.639732361
+      ],
+      [
+        -40.0,
+        0.639732361
+      ],
+      [
+        40.0,
+        0.639732361
+      ],
+      [
+        -80.0,
+        0.639732361
+      ],
+      [
+        80.0,
+        0.639732361
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,315 @@
+﻿[
+  {
+    "stage": "Omega Halberd",
+    "name": "Halberd",
+    "lvd": "Z_XHalberd_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -59.71921,
+            -22.2573986
+          ],
+          [
+            -84.72587,
+            -6.558949
+          ],
+          [
+            -86.9,
+            -0.06763649
+          ],
+          [
+            -81.9,
+            -0.06763649
+          ],
+          [
+            81.9,
+            -0.06763649
+          ],
+          [
+            86.9,
+            -0.06763649
+          ],
+          [
+            84.72587,
+            -6.558949
+          ],
+          [
+            59.71921,
+            -22.2573986
+          ],
+          [
+            48.1801949,
+            -22.2573986
+          ],
+          [
+            40.73542,
+            -13.5406857
+          ],
+          [
+            -40.73542,
+            -13.5406857
+          ],
+          [
+            -48.1801949,
+            -22.2573986
+          ],
+          [
+            -59.71921,
+            -22.2573986
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 238,
+            "length": 29.5258217,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 199,
+            "length": 6.845728,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 163.8,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 342,
+            "length": 6.845728,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 303,
+            "length": 29.5258217,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 11.5390167,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 221,
+            "length": 11.4632349,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 81.47084,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 320,
+            "length": 11.4632349,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 11.5390167,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -22.2573986
+          ],
+          [
+            86.9,
+            -0.06763649
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.000031,
+      180.000015,
+      -115.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0000153
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        -0.06763649
+      ],
+      [
+        60.0,
+        -0.06763649
+      ],
+      [
+        -20.0,
+        -0.06763649
+      ],
+      [
+        20.0,
+        -0.06763649
+      ],
+      [
+        -40.0,
+        -0.06763649
+      ],
+      [
+        40.0,
+        -0.06763649
+      ],
+      [
+        -80.0,
+        -0.06763649
+      ],
+      [
+        80.0,
+        -0.06763649
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -54.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

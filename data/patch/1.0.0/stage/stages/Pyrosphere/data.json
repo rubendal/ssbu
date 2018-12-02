@@ -1,0 +1,730 @@
+﻿[
+  {
+    "stage": "Pyrosphere",
+    "name": "Pyrosphere",
+    "lvd": "Metroid_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -60.2279167,
+            -198.0
+          ],
+          [
+            -60.2279167,
+            -160.453781
+          ],
+          [
+            -40.5137749,
+            -146.4976
+          ],
+          [
+            -40.5137672,
+            -77.37021
+          ],
+          [
+            -45.22765,
+            -67.12603
+          ],
+          [
+            -45.22765,
+            -23.4996529
+          ],
+          [
+            -107.242493,
+            -23.4996529
+          ],
+          [
+            -123.369522,
+            -16.84843
+          ],
+          [
+            -123.369522,
+            -4.808486
+          ],
+          [
+            -125.0,
+            -3.17991233
+          ],
+          [
+            -125.0,
+            -1.328672E-06
+          ],
+          [
+            -120.0,
+            -1.328672E-06
+          ],
+          [
+            -100.0,
+            -1.328672E-06
+          ],
+          [
+            -76.875,
+            -1.328672E-06
+          ],
+          [
+            -20.625,
+            -1.328672E-06
+          ],
+          [
+            20.625,
+            -1.328672E-06
+          ],
+          [
+            76.875,
+            -1.328672E-06
+          ],
+          [
+            100.0,
+            -1.328672E-06
+          ],
+          [
+            120.0,
+            -1.328672E-06
+          ],
+          [
+            125.0,
+            -1.328672E-06
+          ],
+          [
+            125.0,
+            -3.17991233
+          ],
+          [
+            123.369522,
+            -4.808486
+          ],
+          [
+            123.369522,
+            -16.84843
+          ],
+          [
+            107.242493,
+            -23.4996529
+          ],
+          [
+            45.22765,
+            -23.4996529
+          ],
+          [
+            45.22765,
+            -67.12603
+          ],
+          [
+            40.5137672,
+            -77.37021
+          ],
+          [
+            40.5137749,
+            -146.4976
+          ],
+          [
+            60.2279167,
+            -160.453781
+          ],
+          [
+            60.2279167,
+            -198.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 37.54622,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 125,
+            "length": 24.1541348,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 69.1273956,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 205,
+            "length": 11.2766962,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 43.6263771,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 62.014843,
+            "ceiling": true,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 248,
+            "length": 17.4447651,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 12.0399446,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 226,
+            "length": 2.304498,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 3.179911,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 20.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 23.125,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 56.25,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 41.25,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 56.25,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 23.125,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 20.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 3.179911,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 315,
+            "length": 2.304498,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 12.0399446,
+            "ceiling": false,
+            "wall": true,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 293,
+            "length": 17.4447651,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 62.014843,
+            "ceiling": true,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 43.6263771,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 336,
+            "length": 11.2766962,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 69.1273956,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 54,
+            "length": 24.1541348,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 37.54622,
+            "ceiling": false,
+            "wall": true,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -125.0,
+            -198.0
+          ],
+          [
+            125.0,
+            -1.328672E-06
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_Platform01_through",
+        "vertex": [
+          [
+            -125.0,
+            25.0
+          ],
+          [
+            -85.0,
+            25.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -125.0,
+            25.0
+          ],
+          [
+            -85.0,
+            25.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Platform02_through",
+        "vertex": [
+          [
+            -100.0,
+            50.0
+          ],
+          [
+            -70.0,
+            50.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            50.0
+          ],
+          [
+            -70.0,
+            50.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Platform03_through",
+        "vertex": [
+          [
+            70.0,
+            25.0
+          ],
+          [
+            110.0,
+            25.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            70.0,
+            25.0
+          ],
+          [
+            110.0,
+            25.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Platform04_through",
+        "vertex": [
+          [
+            95.0,
+            50.0
+          ],
+          [
+            125.0,
+            50.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Metal2"
+          }
+        ],
+        "boundingBox": [
+          [
+            95.0,
+            50.0
+          ],
+          [
+            125.0,
+            50.0
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -280.0,
+      280.0,
+      192.0,
+      -148.0
+    ],
+    "camera": [
+      -200.0,
+      200.0,
+      130.0,
+      -90.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -90.0,
+        -1.328672E-06
+      ],
+      [
+        90.0,
+        -1.328672E-06
+      ],
+      [
+        -30.0,
+        -1.328672E-06
+      ],
+      [
+        30.0000019,
+        -1.328672E-06
+      ],
+      [
+        -60.0,
+        -1.328672E-06
+      ],
+      [
+        60.0,
+        -1.328672E-06
+      ],
+      [
+        -105.0,
+        25.0
+      ],
+      [
+        90.0,
+        25.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        100.0
+      ],
+      [
+        36.0,
+        100.0
+      ],
+      [
+        -36.0,
+        100.0
+      ],
+      [
+        72.0,
+        100.0
+      ],
+      [
+        -54.0,
+        72.0
+      ],
+      [
+        -18.0,
+        72.0
+      ],
+      [
+        18.0,
+        72.0
+      ],
+      [
+        54.0,
+        72.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -115.0,
+                104.0
+              ],
+              [
+                115.0,
+                104.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -115.0,
+                20.0
+              ],
+              [
+                -85.0,
+                20.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -100.0,
+                45.0
+              ],
+              [
+                -70.0,
+                45.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                70.0,
+                20.0
+              ],
+              [
+                110.0,
+                20.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                95.0,
+                45.0
+              ],
+              [
+                115.0,
+                45.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

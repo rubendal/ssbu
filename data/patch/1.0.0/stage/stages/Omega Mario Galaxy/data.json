@@ -1,0 +1,385 @@
+﻿[
+  {
+    "stage": "Omega Mario Galaxy",
+    "name": "Mario Galaxy",
+    "lvd": "Z_Galaxy_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -2.58982186E-06,
+            -90.85497
+          ],
+          [
+            -26.8535824,
+            -86.60179
+          ],
+          [
+            -51.07855,
+            -74.25855
+          ],
+          [
+            -70.3036,
+            -55.0335121
+          ],
+          [
+            -86.9,
+            -22.4612427
+          ],
+          [
+            -86.9,
+            0.0
+          ],
+          [
+            -81.9,
+            0.0
+          ],
+          [
+            -76.56296,
+            0.0
+          ],
+          [
+            13.2583933,
+            0.0
+          ],
+          [
+            33.90356,
+            0.0
+          ],
+          [
+            76.56288,
+            0.0
+          ],
+          [
+            81.9,
+            0.0
+          ],
+          [
+            86.9,
+            0.0
+          ],
+          [
+            86.9,
+            -22.46119
+          ],
+          [
+            70.30358,
+            -55.03351
+          ],
+          [
+            51.078537,
+            -74.2585449
+          ],
+          [
+            26.8535748,
+            -86.60178
+          ],
+          [
+            -2.58982186E-06,
+            -90.85497
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 262,
+            "length": 27.1883125,
+            "ceiling": true,
+            "wall": false,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 243,
+            "length": 27.1883163,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 226,
+            "length": 27.1883183,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 208,
+            "length": 36.5567131,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 22.4612427,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.337044,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 89.82135,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 20.6451683,
+            "ceiling": false,
+            "wall": false,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 42.65932,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.33712,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 22.46119,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 334,
+            "length": 36.5567665,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 315,
+            "length": 27.1883125,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 298,
+            "length": 27.1883125,
+            "ceiling": false,
+            "wall": true,
+            "material": "Grass"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 280,
+            "length": 27.18831,
+            "ceiling": true,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -86.9,
+            -90.85497
+          ],
+          [
+            86.9,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -115.000008
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -59.9999962
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -60.0,
+        0.0
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -40.0,
+        0.0
+      ],
+      [
+        40.0,
+        0.0
+      ],
+      [
+        -80.0,
+        0.0
+      ],
+      [
+        80.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        50.0
+      ],
+      [
+        36.0,
+        50.0
+      ],
+      [
+        -36.0,
+        50.0
+      ],
+      [
+        72.0,
+        50.0
+      ],
+      [
+        -18.0,
+        78.0
+      ],
+      [
+        18.0,
+        78.0
+      ],
+      [
+        -56.0,
+        78.0
+      ],
+      [
+        54.0,
+        78.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "_tag_IPP0001_00_item01",
+        "sections": [
+          {
+            "points": [
+              [
+                -80.0,
+                50.0
+              ],
+              [
+                80.0,
+                50.0
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -80.0,
+                100.0
+              ],
+              [
+                80.0,
+                100.0
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

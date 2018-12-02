@@ -1,0 +1,3183 @@
+﻿[
+  {
+    "stage": "Orbital Gate Assault",
+    "name": "Orbital Gate Assault",
+    "lvd": "Assault_00",
+    "collisions": [
+      {
+        "name": "COL_00_Gfox01",
+        "vertex": [
+          [
+            -8.129698,
+            -84.02282
+          ],
+          [
+            -10.3937769,
+            -69.4217453
+          ],
+          [
+            25.70673,
+            -62.20567
+          ],
+          [
+            25.70673,
+            -46.67471
+          ],
+          [
+            19.3558769,
+            -26.0000248
+          ],
+          [
+            45.0817337,
+            -15.2059584
+          ],
+          [
+            54.7692261,
+            -13.7997065
+          ],
+          [
+            73.7370148,
+            -16.083046
+          ],
+          [
+            84.44327,
+            -21.4605961
+          ],
+          [
+            85.69327,
+            -21.4605961
+          ],
+          [
+            122.894234,
+            -8.643459
+          ],
+          [
+            146.114243,
+            3.41888762
+          ],
+          [
+            142.331726,
+            4.731546
+          ],
+          [
+            115.081726,
+            6.434665
+          ],
+          [
+            89.61313,
+            7.294045
+          ],
+          [
+            85.86311,
+            7.294045
+          ],
+          [
+            65.70672,
+            3.21591616
+          ],
+          [
+            19.7692318,
+            1.3565433
+          ],
+          [
+            -4.918268,
+            1.04404211
+          ],
+          [
+            -17.4182682,
+            1.66904151
+          ],
+          [
+            -49.2932663,
+            7.91904163
+          ],
+          [
+            -53.3557663,
+            9.169041
+          ],
+          [
+            -55.85578,
+            11.0438614
+          ],
+          [
+            -73.13041,
+            18.81887
+          ],
+          [
+            -131.069351,
+            51.55912
+          ],
+          [
+            -148.297623,
+            51.5591354
+          ],
+          [
+            -129.823425,
+            23.787611
+          ],
+          [
+            -126.168274,
+            9.169038
+          ],
+          [
+            -112.484184,
+            -2.062531
+          ],
+          [
+            -108.043274,
+            -18.33096
+          ],
+          [
+            -108.043282,
+            -30.2059555
+          ],
+          [
+            -111.168282,
+            -30.2059555
+          ],
+          [
+            -120.543282,
+            -28.95596
+          ],
+          [
+            -122.105782,
+            -30.83096
+          ],
+          [
+            -174.4007,
+            -33.0184669
+          ],
+          [
+            -175.6507,
+            -34.2684631
+          ],
+          [
+            -175.6507,
+            -58.6434631
+          ],
+          [
+            -174.4007,
+            -59.8934669
+          ],
+          [
+            -122.105782,
+            -62.08096
+          ],
+          [
+            -108.043274,
+            -74.5809555
+          ],
+          [
+            -89.60577,
+            -74.5809555
+          ],
+          [
+            -79.60577,
+            -88.95596
+          ],
+          [
+            -68.3557739,
+            -93.9559555
+          ],
+          [
+            -3.04326749,
+            -89.2684555
+          ],
+          [
+            -4.206437,
+            -86.91539
+          ],
+          [
+            -8.129698,
+            -84.02282
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 8,
+            "length": 14.775568,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 282,
+            "length": 36.8146477,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 15.53096,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 17,
+            "length": 21.6281281,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 293,
+            "length": 27.8985939,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 279,
+            "length": 9.789027,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 264,
+            "length": 19.1047287,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 244,
+            "length": 11.9808969,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 1.25,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 290,
+            "length": 39.3470573,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 298,
+            "length": 26.1661816,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 70,
+            "length": 4.003811,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 27.3031712,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 25.4830914,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 3.75001526,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 101,
+            "length": 20.56481,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 45.9751,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 24.6894779,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 12.5156155,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 78,
+            "length": 32.4819641,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 72,
+            "length": 4.250459,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 53,
+            "length": 3.12490463,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 65,
+            "length": 18.9436932,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 60,
+            "length": 66.54957,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 17.2282715,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 214,
+            "length": 33.35496,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 195,
+            "length": 15.0686035,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 231,
+            "length": 17.7031765,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 196,
+            "length": 16.8636723,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 179,
+            "length": 11.8749962,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 3.125,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 9.457966,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 140,
+            "length": 2.440703,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 52.3406448,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 134,
+            "length": 1.76776421,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 24.375,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 225,
+            "length": 1.76776969,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 268,
+            "length": 52.3406448,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 229,
+            "length": 18.8149948,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 18.4375076,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 215,
+            "length": 17.5111637,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 247,
+            "length": 12.3110619,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 275,
+            "length": 65.4805,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 26,
+            "length": 2.62485814,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 53,
+            "length": 4.87431431,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -175.6507,
+            -93.9559555
+          ],
+          [
+            146.114243,
+            51.5591354
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile01a",
+        "vertex": [
+          [
+            -99.33795,
+            -18.0700245
+          ],
+          [
+            -87.26178,
+            -7.11407375
+          ],
+          [
+            -69.67128,
+            -13.268446
+          ],
+          [
+            -56.78473,
+            -13.2649746
+          ],
+          [
+            -46.12201,
+            -11.9612217
+          ],
+          [
+            -29.7665787,
+            -8.488173
+          ],
+          [
+            -1.67711782,
+            -1.93351507
+          ],
+          [
+            -0.0361289978,
+            1.04574561
+          ],
+          [
+            -0.809810638,
+            1.89034867
+          ],
+          [
+            -21.69337,
+            4.71309
+          ],
+          [
+            -46.12271,
+            9.646751
+          ],
+          [
+            -56.80858,
+            11.0040379
+          ],
+          [
+            -63.25081,
+            11.3630772
+          ],
+          [
+            -69.20677,
+            11.0039787
+          ],
+          [
+            -72.78439,
+            9.885019
+          ],
+          [
+            -78.6572647,
+            6.89449358
+          ],
+          [
+            -86.15257,
+            7.433801
+          ],
+          [
+            -92.23312,
+            8.834865
+          ],
+          [
+            -105.928032,
+            13.8975086
+          ],
+          [
+            -124.772743,
+            23.4424343
+          ],
+          [
+            -127.523811,
+            23.61192
+          ],
+          [
+            -127.523811,
+            18.2369671
+          ],
+          [
+            -123.859344,
+            16.3293362
+          ],
+          [
+            -120.802444,
+            13.1884851
+          ],
+          [
+            -120.802444,
+            0.91943866
+          ],
+          [
+            -122.856636,
+            -0.09600169
+          ],
+          [
+            -122.500771,
+            -4.707985
+          ],
+          [
+            -122.500771,
+            -19.3798637
+          ],
+          [
+            -123.579109,
+            -19.97081
+          ],
+          [
+            -125.761185,
+            -20.4665241
+          ],
+          [
+            -129.262756,
+            -23.05679
+          ],
+          [
+            -135.066971,
+            -24.1378212
+          ],
+          [
+            -202.190735,
+            -24.1378212
+          ],
+          [
+            -204.200745,
+            -24.8433533
+          ],
+          [
+            -204.200745,
+            -27.8852978
+          ],
+          [
+            -190.567734,
+            -34.0524979
+          ],
+          [
+            -161.461838,
+            -36.1797066
+          ],
+          [
+            -126.00322,
+            -30.6149235
+          ],
+          [
+            -114.312073,
+            -22.72147
+          ],
+          [
+            -99.33795,
+            -18.0700245
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 313,
+            "length": 16.3054218,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 251,
+            "length": 18.63604,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 271,
+            "length": 12.8865509,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 277,
+            "length": 10.74213,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 282,
+            "length": 16.7201138,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 284,
+            "length": 28.8440876,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 332,
+            "length": 3.40129948,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 42,
+            "length": 1.1453985,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 21.0734653,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 78,
+            "length": 24.922554,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 82,
+            "length": 10.7717218,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 6.45222759,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 93,
+            "length": 5.96677876,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 3.74852586,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 116,
+            "length": 6.59043741,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 85,
+            "length": 7.514685,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 77,
+            "length": 6.239878,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 69,
+            "length": 14.6007147,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 63,
+            "length": 21.1241264,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 2.756284,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 5.37495232,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 243,
+            "length": 4.13126755,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 225,
+            "length": 4.382874,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 12.2690468,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 116,
+            "length": 2.29146719,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 185,
+            "length": 4.62569237,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 14.6718788,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 118,
+            "length": 1.22964692,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 102,
+            "length": 2.23767424,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 126,
+            "length": 4.355511,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 5.904027,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 67.123764,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 109,
+            "length": 2.13023829,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 3.0419445,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 246,
+            "length": 14.9630661,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 266,
+            "length": 29.183527,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 279,
+            "length": 35.8926239,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 305,
+            "length": 14.1063643,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 288,
+            "length": 15.6799316,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -204.200745,
+            -36.1797066
+          ],
+          [
+            -0.0361289978,
+            23.61192
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile02a",
+        "vertex": [
+          [
+            99.317955,
+            -18.068367
+          ],
+          [
+            87.24178,
+            -7.11241627
+          ],
+          [
+            69.6512756,
+            -13.2667885
+          ],
+          [
+            56.76473,
+            -13.2633171
+          ],
+          [
+            46.10201,
+            -11.9595642
+          ],
+          [
+            29.7465782,
+            -8.486515
+          ],
+          [
+            1.65711737,
+            -1.93185782
+          ],
+          [
+            0.01612854,
+            1.04740286
+          ],
+          [
+            0.7898102,
+            1.89200592
+          ],
+          [
+            21.67337,
+            4.71474743
+          ],
+          [
+            46.10271,
+            9.648409
+          ],
+          [
+            56.788578,
+            11.0056953
+          ],
+          [
+            63.23081,
+            11.3647346
+          ],
+          [
+            69.18677,
+            11.0056362
+          ],
+          [
+            72.76439,
+            9.886677
+          ],
+          [
+            78.63727,
+            6.89615059
+          ],
+          [
+            86.132576,
+            7.435458
+          ],
+          [
+            92.21313,
+            8.836522
+          ],
+          [
+            105.908035,
+            13.8991661
+          ],
+          [
+            124.752747,
+            23.4440918
+          ],
+          [
+            127.503815,
+            23.6135769
+          ],
+          [
+            127.503815,
+            18.2386227
+          ],
+          [
+            123.83934,
+            16.3309937
+          ],
+          [
+            120.78244,
+            13.1901417
+          ],
+          [
+            120.78244,
+            0.9210959
+          ],
+          [
+            122.836639,
+            -0.0943444446
+          ],
+          [
+            122.480774,
+            -4.70632744
+          ],
+          [
+            122.480774,
+            -19.3782063
+          ],
+          [
+            123.559105,
+            -19.9691525
+          ],
+          [
+            125.74118,
+            -20.4648666
+          ],
+          [
+            129.242752,
+            -23.0551319
+          ],
+          [
+            135.046967,
+            -24.1361637
+          ],
+          [
+            202.170731,
+            -24.1361637
+          ],
+          [
+            204.18074,
+            -24.8416958
+          ],
+          [
+            204.18074,
+            -27.88364
+          ],
+          [
+            190.547729,
+            -34.05084
+          ],
+          [
+            161.441849,
+            -36.1780472
+          ],
+          [
+            125.983215,
+            -30.613266
+          ],
+          [
+            114.292076,
+            -22.7198124
+          ],
+          [
+            99.317955,
+            -18.068367
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 228,
+            "length": 16.3054218,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 290,
+            "length": 18.6360474,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 12.8865471,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 264,
+            "length": 10.74213,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 259,
+            "length": 16.7201138,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 257,
+            "length": 28.8440876,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 209,
+            "length": 3.40129948,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 137,
+            "length": 1.1453985,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 97,
+            "length": 21.0734653,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 101,
+            "length": 24.922554,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 97,
+            "length": 10.7717218,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 93,
+            "length": 6.45222759,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 86,
+            "length": 5.966775,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 72,
+            "length": 3.74852586,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 63,
+            "length": 6.590444,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 94,
+            "length": 7.514685,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 102,
+            "length": 6.239878,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 14.6007147,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 116,
+            "length": 21.1241264,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 93,
+            "length": 2.756284,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 5.374954,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 298,
+            "length": 4.13127375,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 316,
+            "length": 4.38287449,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 12.2690458,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 63,
+            "length": 2.291474,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 356,
+            "length": 4.625692,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 14.6718788,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 61,
+            "length": 1.22964025,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 77,
+            "length": 2.23767424,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 53,
+            "length": 4.355511,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 79,
+            "length": 5.904027,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 67.123764,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 70,
+            "length": 2.13023829,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 3.0419445,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 295,
+            "length": 14.9630651,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 275,
+            "length": 29.1835117,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 262,
+            "length": 35.89264,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 236,
+            "length": 14.1063585,
+            "ceiling": false,
+            "wall": true,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 253,
+            "length": 15.6799316,
+            "ceiling": true,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            0.01612854,
+            -36.1780472
+          ],
+          [
+            204.18074,
+            23.6135769
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_ForceField01",
+        "vertex": [
+          [
+            0.0,
+            -275.0
+          ],
+          [
+            0.0,
+            290.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 565.0,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          }
+        ],
+        "boundingBox": [
+          [
+            0.0,
+            -275.0
+          ],
+          [
+            0.0,
+            290.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_ForceField02",
+        "vertex": [
+          [
+            0.0,
+            290.0
+          ],
+          [
+            0.0,
+            -275.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 565.0,
+            "ceiling": false,
+            "wall": true,
+            "material": null
+          }
+        ],
+        "boundingBox": [
+          [
+            0.0,
+            -275.0
+          ],
+          [
+            0.0,
+            290.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin01a",
+        "vertex": [
+          [
+            -30.282608,
+            5.31002665
+          ],
+          [
+            1.20739746,
+            -3.944252
+          ],
+          [
+            11.0397873,
+            -7.54094839
+          ],
+          [
+            35.854744,
+            -11.9800453
+          ],
+          [
+            40.77661,
+            -12.860508
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 73,
+            "length": 32.82167,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 69,
+            "length": 10.4695807,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 79,
+            "length": 25.2088814,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 79,
+            "length": 4.99999952,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -30.282608,
+            -12.860508
+          ],
+          [
+            40.77661,
+            5.31002665
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin01b",
+        "vertex": [
+          [
+            -30.282608,
+            5.31002665
+          ],
+          [
+            1.20739746,
+            -3.944252
+          ],
+          [
+            11.0397873,
+            -7.54094839
+          ],
+          [
+            35.854744,
+            -11.9800453
+          ],
+          [
+            40.77661,
+            -12.860508
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 73,
+            "length": 32.82167,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 69,
+            "length": 10.4695807,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 79,
+            "length": 25.2088814,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 79,
+            "length": 4.99999952,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -30.282608,
+            -12.860508
+          ],
+          [
+            40.77661,
+            5.31002665
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin02a",
+        "vertex": [
+          [
+            -75.05354,
+            -15.4970245
+          ],
+          [
+            -23.5291023,
+            1.08989429
+          ],
+          [
+            -15.4616537,
+            11.8108139
+          ],
+          [
+            -10.4616537,
+            11.8108139
+          ],
+          [
+            -6.493481,
+            6.5380764
+          ],
+          [
+            7.36193228,
+            6.53703451
+          ],
+          [
+            10.7742071,
+            11.0713139
+          ],
+          [
+            15.7742071,
+            11.0713139
+          ],
+          [
+            23.7266464,
+            0.504735351
+          ],
+          [
+            75.2009048,
+            -15.9492054
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 54.1284943,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 13.417222,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 6.5991025,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 13.8554134,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 5.674796,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 13.2247448,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 72,
+            "length": 54.0400925,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -75.05354,
+            -15.9492054
+          ],
+          [
+            75.2009048,
+            11.8108139
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin02b",
+        "vertex": [
+          [
+            -75.05354,
+            -15.4970245
+          ],
+          [
+            -23.5291023,
+            1.08989429
+          ],
+          [
+            -15.4616537,
+            11.8108139
+          ],
+          [
+            -10.4616537,
+            11.8108139
+          ],
+          [
+            -6.493481,
+            6.5380764
+          ],
+          [
+            7.36193228,
+            6.53703451
+          ],
+          [
+            10.7742071,
+            11.0713139
+          ],
+          [
+            15.7742071,
+            11.0713139
+          ],
+          [
+            23.7266464,
+            0.504735351
+          ],
+          [
+            75.2009048,
+            -15.9492054
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 54.1284943,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 13.417222,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 6.5991025,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 13.8554134,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 5.674796,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 13.2247448,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 72,
+            "length": 54.0400925,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -75.05354,
+            -15.9492054
+          ],
+          [
+            75.2009048,
+            11.8108139
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin02c",
+        "vertex": [
+          [
+            -75.05354,
+            -15.4970245
+          ],
+          [
+            -23.5291023,
+            1.08989429
+          ],
+          [
+            -15.4616537,
+            11.8108139
+          ],
+          [
+            -10.4616537,
+            11.8108139
+          ],
+          [
+            -6.493481,
+            6.5380764
+          ],
+          [
+            7.36193228,
+            6.53703451
+          ],
+          [
+            10.7742071,
+            11.0713139
+          ],
+          [
+            15.7742071,
+            11.0713139
+          ],
+          [
+            23.7266464,
+            0.504735351
+          ],
+          [
+            75.2009048,
+            -15.9492054
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 107,
+            "length": 54.1284943,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 13.417222,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 6.5991025,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 13.8554134,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 143,
+            "length": 5.674796,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 36,
+            "length": 13.2247448,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 72,
+            "length": 54.0400925,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -75.05354,
+            -15.9492054
+          ],
+          [
+            75.2009048,
+            11.8108139
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin03a",
+        "vertex": [
+          [
+            30.8713322,
+            9.249478
+          ],
+          [
+            -0.6186733,
+            -0.004800558
+          ],
+          [
+            -10.4510632,
+            -3.60149717
+          ],
+          [
+            -35.2660179,
+            -8.040594
+          ],
+          [
+            -40.18789,
+            -8.921057
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 32.82167,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 10.4695807,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 25.20888,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 5.000003,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -40.18789,
+            -8.921057
+          ],
+          [
+            30.8713322,
+            9.249478
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin03b",
+        "vertex": [
+          [
+            30.8713322,
+            9.249478
+          ],
+          [
+            -0.6186733,
+            -0.004800558
+          ],
+          [
+            -10.4510632,
+            -3.60149717
+          ],
+          [
+            -35.2660179,
+            -8.040594
+          ],
+          [
+            -40.18789,
+            -8.921057
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 32.82167,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 10.4695807,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 25.20888,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 5.000003,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -40.18789,
+            -8.921057
+          ],
+          [
+            30.8713322,
+            9.249478
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_arwin03c",
+        "vertex": [
+          [
+            30.8713322,
+            9.249478
+          ],
+          [
+            -0.6186733,
+            -0.004800558
+          ],
+          [
+            -10.4510632,
+            -3.60149717
+          ],
+          [
+            -35.2660179,
+            -8.040594
+          ],
+          [
+            -40.18789,
+            -8.921057
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 32.82167,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 10.4695807,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 25.20888,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 5.000003,
+            "ceiling": false,
+            "wall": false,
+            "material": "NebuIron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -40.18789,
+            -8.921057
+          ],
+          [
+            30.8713322,
+            9.249478
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_Gfox02_through",
+        "vertex": [
+          [
+            25.70673,
+            -57.1775436
+          ],
+          [
+            67.27492,
+            -57.1775436
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            25.70673,
+            -57.1775436
+          ],
+          [
+            67.27492,
+            -57.1775436
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile01b_through",
+        "vertex": [
+          [
+            -127.523811,
+            23.61192
+          ],
+          [
+            -137.1209,
+            23.9803123
+          ],
+          [
+            -192.036346,
+            23.9803123
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -192.036346,
+            23.61192
+          ],
+          [
+            -127.523811,
+            23.9803123
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile01c_through",
+        "vertex": [
+          [
+            -122.856636,
+            -0.09600169
+          ],
+          [
+            -185.441467,
+            -0.609298944
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            -185.441467,
+            -0.609298944
+          ],
+          [
+            -122.856636,
+            -0.09600169
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile02b_through",
+        "vertex": [
+          [
+            127.503815,
+            23.6135769
+          ],
+          [
+            137.100891,
+            23.98197
+          ],
+          [
+            192.016342,
+            23.98197
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            127.503815,
+            23.6135769
+          ],
+          [
+            192.016342,
+            23.98197
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Missile02c_through",
+        "vertex": [
+          [
+            122.836639,
+            -0.0943444446
+          ],
+          [
+            185.421463,
+            -0.6076417
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Iron"
+          }
+        ],
+        "boundingBox": [
+          [
+            122.836639,
+            -0.6076417
+          ],
+          [
+            185.421463,
+            -0.0943444446
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -240.000015,
+      240.0,
+      155.0,
+      -175.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      95.0,
+      -125.0
+    ],
+    "center": [
+      0.0,
+      290.0
+    ],
+    "spawns": [
+      [
+        -98.5,
+        31.4637089
+      ],
+      [
+        96.5,
+        5.37060452
+      ],
+      [
+        -33.5,
+        3.13126349
+      ],
+      [
+        31.5,
+        0.140300736
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        40.0
+      ],
+      [
+        36.0,
+        40.0
+      ],
+      [
+        -36.0,
+        40.0
+      ],
+      [
+        72.0,
+        40.0
+      ]
+    ],
+    "items": [
+      {
+        "name": "ItemPopup__tag_IPP0001_00_item0",
+        "subname": "dyr_gfox_set",
+        "sections": [
+          {
+            "points": [
+              [
+                -143.297623,
+                81.55912
+              ],
+              [
+                136.114243,
+                81.55912
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -165.6507,
+                1.04404151
+              ],
+              [
+                -121.269104,
+                1.04404151
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                25.70673,
+                -27.1775455
+              ],
+              [
+                57.2749176,
+                -27.1775455
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0002_00_item0",
+        "subname": "dyr_Mis01_set__01__",
+        "sections": [
+          {
+            "points": [
+              [
+                -182.036346,
+                53.9803123
+              ],
+              [
+                -10.036129,
+                53.9803123
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -177.941467,
+                16.4803123
+              ],
+              [
+                -130.0238,
+                16.4803123
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                -196.700745,
+                -8.109299
+              ],
+              [
+                -127.500771,
+                -8.109299
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0006_00_item0",
+        "subname": "dyr_Mis02_set__01__",
+        "sections": [
+          {
+            "points": [
+              [
+                10.0161285,
+                53.9819679
+              ],
+              [
+                182.016342,
+                53.9819679
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                130.003815,
+                16.48197
+              ],
+              [
+                177.921463,
+                16.48197
+              ]
+            ]
+          },
+          {
+            "points": [
+              [
+                127.480774,
+                -8.107641
+              ],
+              [
+                196.68074,
+                -8.107641
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0003_00_item0",
+        "subname": "dyr_arwin02_set__Bone00__",
+        "sections": [
+          {
+            "points": [
+              [
+                -65.05354,
+                61.8108139
+              ],
+              [
+                65.2009048,
+                61.8108139
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0004_00_item0",
+        "subname": "dyr_arwin02_set__Bone01__",
+        "sections": [
+          {
+            "points": [
+              [
+                -65.05354,
+                61.8108139
+              ],
+              [
+                65.2009048,
+                61.8108139
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0005_00_item0",
+        "subname": "dyr_arwin02_set__Bone02__",
+        "sections": [
+          {
+            "points": [
+              [
+                -65.05354,
+                61.8108139
+              ],
+              [
+                65.2009048,
+                61.8108139
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0007_00_item0",
+        "subname": "dyr_arwin03_set__Bone00__",
+        "sections": [
+          {
+            "points": [
+              [
+                -30.1878872,
+                54.2494774
+              ],
+              [
+                20.8713322,
+                54.2494774
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0008_00_item0",
+        "subname": "dyr_arwin03_set__Bone01__",
+        "sections": [
+          {
+            "points": [
+              [
+                -30.1878872,
+                54.2494774
+              ],
+              [
+                20.8713322,
+                54.2494774
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ItemPopup__tag_IPP0009_00_item0",
+        "subname": "dyr_arwin03_set__Bone02__",
+        "sections": [
+          {
+            "points": [
+              [
+                -30.1878872,
+                54.2494774
+              ],
+              [
+                20.8713322,
+                54.2494774
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
