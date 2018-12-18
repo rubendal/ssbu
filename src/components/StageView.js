@@ -35,6 +35,7 @@ class StageView extends Component{
           .catch(function(error){
             if(error.response){
               var e = "";
+              console.log(e);
               if(error.response.status === 404)
                 e = "Invalid stage";
               else
@@ -72,9 +73,9 @@ class StageView extends Component{
                 <div id="stage-main">
                     <h2 id="stage-name">{this.state.stage.stage.includes("Omega ") ? "Omega " + this.state.stage.name : this.state.stage.name}</h2>
                     <div className="stage-img-container">
-                        <img className={`stage-view`} src={require("../assets/img/stages/" + this.state.stage.name
+                        <img className={`stage-view`} src={"/img/stages/" + this.state.stage.name
                         .toLowerCase().replace(/\./g,"")
-                        + ".png")} alt={this.state.stage.name} />
+                        + ".png"} alt={this.state.stage.name} />
                     </div>
                     {
                       this.state.data.length > 1 && (

@@ -3,8 +3,6 @@ import axios from 'axios';
 import ImageMessage from '../ImageMessage';
 import Patches from '../assets/patches.json';
 
-import StageData from '../components/StageData';
-
 class StageList extends Component {
   constructor(props){
     super(props);
@@ -19,20 +17,18 @@ class StageList extends Component {
       var json = res.data;
 
       var list = json.sort((x,y) =>{
-        return x.localeCompare(y);
+        return x.name.localeCompare(y.name);
       });
 
-      var normal = list;
+      var normal = list.filter(stage => !stage.isOmega);
+      var omega = list.filter(stage => stage.isOmega);
 
       ref.setState(
         {
           list : normal,
-          stageIndex : -1,
-          stage : " "
+          omegaList : omega
         }
       );
-
-      
     })
     .catch(function(error){
 
@@ -41,75 +37,26 @@ class StageList extends Component {
     
   }
 
-  ChangeStage(event){
-    if(event && event.target && event.target.value){
-      event.persist();
-      var val = event.target.value;
-      var ref = this;
-
-        axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stage/' + this.state.list[val] + '/data.json').then(function(res){
-            var json = res.data;
-      
-            var data = json;
-      
-            
-            
-            ref.setState(prevState => 
-              {
-                prevState.stage = prevState.list[val];
-                prevState.stageData = data;
-                prevState.stageIndex = val;
-                return prevState;
-              }
-            );
-          })
-          .catch(function(error){
-            if(error.response){
-              var e = "";
-              if(error.response.status === 404)
-                e = "Invalid stage";
-              else
-                e = "Error";
-            }else{
-              e = "Error";
-            }
-            
-            ref.setState(
-              {
-                error: e
-              }
-            );
-          });
-        
-    }
-  }
-
 
   render() {
     if(this.state.list !== undefined){
     return (
-      
       <div id="stage-selection">
-      <h2 className="stages-header">Stages</h2>
-      <div className="script-select">
-        <select value={this.state.stageIndex} onChange={(e) => this.ChangeStage(e)}>
-        <option value={-1}> </option>
-                      {
-                          this.state.list.map((stage,index) => {
-                            return (
-                              <option value={index} key={index}>
-                                {stage}
-                              </option>
-                            );
-                          })
-                      }
-        </select>
+      <h2>Stages</h2>
         {
-          this.state.stageData !== undefined && (
-            <StageData stage={this.state.stageData}/>
-          )
+          this.state.list.map((stage) =>{
+            return (
+            <span className="stage-span" key={stage.name}>
+              <a href={"#/Stage/" + stage.name}>
+                    <img className={`stage-list`} src={"/img/stages_icon/" + stage.name
+                    .toLowerCase().replace(/\./g,"")
+                    + ".png"} alt={stage.name} title={stage.name} />
+                </a>
+            </span>
+            )
+          })
         }
-        </div>
+        
       </div>
     );
     }else{
@@ -121,3 +68,25 @@ class StageList extends Component {
 }
 
 export default StageList;
+
+/*
+<img className={`stage-list`} src={require("../assets/img/stages_icon/" + stage.name
+                    .toLowerCase().replace(/\./g,"")
+                    + ".png")} alt={stage.name} />
+
+
+<h2>&Omega; Stages</h2>
+        {
+          this.state.omegaList.map((stage) =>{
+            return (
+            <span className="stage-span" key={stage.name}>
+              <a href={"#/Stage/Omega " + stage.name}>
+                    <img className={`stage-list`} src={require("../assets/img/stages_icon/" + stage.name
+                    .toLowerCase().replace(/\./g,"")
+                    + ".png")} alt={stage.name} />
+                </a>
+            </span>
+            )
+          })
+        }
+*/

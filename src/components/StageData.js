@@ -8,8 +8,6 @@ class StageData extends Component{
         this.state = {
             stage : props.stage
         };
-
-        console.log(this.state.stage);
     }
 
     static getDerivedStateFromProps(props, state) {
