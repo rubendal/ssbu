@@ -96,6 +96,64 @@ class StageData extends Component{
                         </tbody>
                     </table>
 
+                    <h3>Ledges</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    X
+                                </td>
+                                <td>
+                                    Y
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {
+                            this.state.stage.collisions.map((c, cindex) =>{
+                                return c.materials.map((v, index) => {
+                                    if(v.leftLedge || v.rightLedge){
+                                        if(v.leftLedge){
+                                            return (
+                                                <tr key={`ledge-${index}`}>
+                                                    <td>
+                                                        Left
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index][0]}
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index][1]}
+                                                    </td>
+                                                </tr>
+                                            )
+                                        }
+                                        else{
+                                            return (
+                                                <tr key={`ledge-${index}`}>
+                                                    <td>
+                                                        Right
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index+1][0]}
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index+1][1]}
+                                                    </td>
+                                                </tr>
+                                            )
+                                        }
+                                    }
+                                    return null;
+                                })
+                            })
+                            }
+                        </tbody>
+                    </table>
+
                     <h3>Initial spawns</h3>
                     <table>
                         <thead>

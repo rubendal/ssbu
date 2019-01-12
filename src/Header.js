@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Icon from './assets/img/icon.png';
 import TIcon from './assets/img/t-icon.png';
+import KIcon from './assets/img/kofi.png';
 
 class Header extends Component {
     render() {
@@ -19,6 +20,11 @@ class Header extends Component {
                         <span id="github-link">
                             <a href="https://github.com/rubendal" target="_blank" rel="noopener noreferrer" className="hide-link" title="Github">
                                 <img id="github-profile" className="header-link-icon2" src="https://avatars.githubusercontent.com/u/10661132?v=3" alt="Github" />
+                            </a>
+                        </span>
+                        <span id="additional-links">
+                        <a href="https://ko-fi.com/rubendal" target="_blank" rel="noopener noreferrer" className="hide-link" title="Donate">
+                                <img className="header-link-icon" src={KIcon} alt="Ko-fi - Donate" />
                             </a>
                         </span>
                         <span id="additional-links">

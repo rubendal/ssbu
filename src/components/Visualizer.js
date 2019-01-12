@@ -23,7 +23,8 @@ const settings = {
 		spawn: '#0000FF',
 		respawn: '#000000',
 		item: '#AA0077',
-		material: '#000000'
+		material: '#000000',
+		ledge: '#856a0b'
 	}
 };
 
@@ -435,6 +436,22 @@ class Visualizer extends Component {
 								context.closePath();
 								context.stroke();
 							}
+
+							if(stage.collisions[i].materials[j].leftLedge){
+								context.fillStyle = settings.visualizer_colors.ledge;
+								context.beginPath();
+								visualizer.context.arc(stage.collisions[i].vertex[j][0], -stage.collisions[i].vertex[j][1], 1, 0, Math.PI * 2);
+								context.closePath();
+								context.fill();
+							}
+
+							if(stage.collisions[i].materials[j].rightLedge){
+								context.fillStyle = settings.visualizer_colors.ledge;
+								context.beginPath();
+								visualizer.context.arc(stage.collisions[i].vertex[j+1][0], -stage.collisions[i].vertex[j+1][1], 1, 0, Math.PI * 2);
+								context.closePath();
+								context.fill();
+							}
 							/*else if (stage.collisions[i].materials[j].length <= 7 && (stage.collisions[i].materials[j].wall || stage.collisions[i].materials[j].ceiling) && !stage.collisions[i].materials[j].noWallJump) {
 								//Small walls
 								context.strokeStyle = settings.visualizer_colors.semitechable;
@@ -444,7 +461,7 @@ class Visualizer extends Component {
 								context.closePath();
 								context.stroke();
 							}*/
-	
+							
 	
 	
 						}
