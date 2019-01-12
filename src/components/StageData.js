@@ -151,6 +151,45 @@ class StageData extends Component{
                                 })
                             })
                             }
+                            {
+                            this.state.stage.platforms.map((c, cindex) =>{
+                                return c.materials.map((v, index) => {
+                                    if(v.leftLedge || v.rightLedge){
+                                        if(v.leftLedge){
+                                            return (
+                                                <tr key={`ledge-${index}`}>
+                                                    <td>
+                                                        Left
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index][0]}
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index][1]}
+                                                    </td>
+                                                </tr>
+                                            )
+                                        }
+                                        else{
+                                            return (
+                                                <tr key={`ledge-${index}`}>
+                                                    <td>
+                                                        Right
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index+1][0]}
+                                                    </td>
+                                                    <td>
+                                                        {c.vertex[index+1][1]}
+                                                    </td>
+                                                </tr>
+                                            )
+                                        }
+                                    }
+                                    return null;
+                                })
+                            })
+                            }
                         </tbody>
                     </table>
 

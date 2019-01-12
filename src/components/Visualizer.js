@@ -485,6 +485,28 @@ class Visualizer extends Component {
 							context.stroke();
 	
 						}
+
+						for (i = 0; i < stage.platforms.length; i++) {
+
+							for (j = 0; j < stage.platforms[i].vertex.length - 1; j++) {
+								if(stage.platforms[i].materials[j].leftLedge){
+									context.fillStyle = settings.visualizer_colors.ledge;
+									context.beginPath();
+									visualizer.context.arc(stage.platforms[i].vertex[j][0], -stage.platforms[i].vertex[j][1], 1, 0, Math.PI * 2);
+									context.closePath();
+									context.fill();
+								}
+	
+								if(stage.platforms[i].materials[j].rightLedge){
+									context.fillStyle = settings.visualizer_colors.ledge;
+									context.beginPath();
+									visualizer.context.arc(stage.platforms[i].vertex[j+1][0], -stage.platforms[i].vertex[j+1][1], 1, 0, Math.PI * 2);
+									context.closePath();
+									context.fill();
+								}
+							}
+							
+						}
 					}
 	
 					context.strokeStyle = settings.visualizer_colors.camera;
