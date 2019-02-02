@@ -38,8 +38,7 @@ class FileDiffView extends Component {
         props.diff !== state.diff) {
       return {
           file : props.file,
-          diff : props.diff,
-          data: undefined
+          diff : props.diff
       };
     }
 
@@ -47,21 +46,22 @@ class FileDiffView extends Component {
   }
 
   componentDidUpdate(prevState){
-    var ref = this;
-
-    axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/diff/" + this.state.file.DiffPath).then(function(res){
-        var data = res.data;
-  
-        ref.setState(prevState => 
-            {
-              prevState.data = data;
-              return prevState;
-            }
-        );
-      })
-      .catch(function(error){
-  
-      });
+    if(prevState.file !== this.state.file || prevState.diff !== this.state.diff){
+        var ref = this;
+        axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/diff/" + this.state.file.DiffPath).then(function(res){
+            var data = res.data;
+    
+            ref.setState(prevState => 
+                {
+                prevState.data = data;
+                return prevState;
+                }
+            );
+        })
+        .catch(function(error){
+    
+        });
+    }
   }
 
   render() {

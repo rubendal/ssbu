@@ -36,7 +36,7 @@ class NavigationHeader extends Component {
             this.ScriptSearchLink = "#/ScriptSearch";
         }
         if(state.diff !== null){
-            this.CharacterLink = "#/Diff/" + props.match.params.patch + "/Character";
+            this.CharacterLink = "#/Diff/" + props.match.params.diff + "/Character";
         }else{
             this.CharacterLink = "#/Character";
         }
