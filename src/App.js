@@ -15,6 +15,9 @@ import PatchList from './components/PatchList';
 
 import ScriptSearch from './components/ScriptSearch';
 
+import CharacterDiffList from './components/CharacterDiffList';
+import CharacterDiffView from './components/CharacterDiffView';
+
 class App extends Component {
   render() {
     return (
@@ -27,6 +30,12 @@ class App extends Component {
             
             <Route exact path="/stage" component={StageList}/>
             <Route exact path="/stage/:name" component={StageView}/>
+
+            <Route exact path="/diff/character" component={CharacterDiffList}/>
+            <Route exact path="/diff/character/:name" component={CharacterDiffView}/>
+            
+            <Route exact path="/diff/:diff/character" component={CharacterDiffList}/>
+            <Route exact path="/diff/:diff/character/:name" component={CharacterDiffView}/>
             
             <Route exact path="/" component={StageList}/>
           </Switch>

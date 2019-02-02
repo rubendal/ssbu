@@ -11,6 +11,7 @@
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
+    "react-gh-like-diff": "^1.0.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.5"
   },

@@ -566,3 +566,13 @@ input[type="checkbox"] {
 .stages-header{
     clear:both;
 }
+
+/*Diffs*/
+.d2h-file-header{
+    display:none;
+}
+
+.diff-view{
+    top: 20px;
+    position: relative;
+}
