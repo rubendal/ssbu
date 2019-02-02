@@ -22,10 +22,29 @@ class CharacterDiffView extends Component {
     axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + '/character/' + this.state.character + '/diffs.json')
     .then(function(res){
         var data = res.data;
+
+        var added = [];
+        var removed = [];
+
+        var properties = Object.keys(data.Diffs.Diffs);
+
+        for(var i=0;i<properties.length;i++){
+          for(var j=0;j<data.Diffs.Diffs[properties[i]].length;j++){
+            var diff = data.Diffs.Diffs[properties[i]][j];
+            if(diff.Type == 1){
+              added.push({dir: properties[i], data: diff});
+            }
+            else if(diff.Type == 2){
+              removed.push({dir: properties[i], data: diff});
+            }
+          }
+        }
         
         ref.setState(prevState => 
           {
             prevState.data = data;
+            prevState.added = added;
+            prevState.removed = removed;
             return prevState;
           }
         );
@@ -64,6 +83,7 @@ class CharacterDiffView extends Component {
       <div id="character-main">
 
         <h2 id="character-name">{this.state.characterName}</h2>
+        <h4 className="diff-version-label">{this.state.diff.replace(" - ", " → ")}</h4>
 
         <img id="character-image" src={require("../assets/img/renders/" + this.state.characterName.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png")} alt={this.state.data.Name} />
 
@@ -78,6 +98,60 @@ class CharacterDiffView extends Component {
                     
                   </tbody>
                 </table>
+            </div>
+
+            <div className="added-removed-files">
+            
+            {
+              (this.state.removed.length > 0 &&
+                <div className="removed-files">
+                  <h3>Files removed</h3>
+                  <div>
+                    <table>
+                      <tbody>
+                        {
+                          this.state.removed.map((file, index) => {
+                            return (
+                              <tr key={index} className="removed-file">
+                                <td>
+                                  - {file.dir}/{file.data.Filename.replace(".txt","")}
+                                </td>
+                              </tr>
+                            )
+                          })
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ) 
+            }
+
+{
+              (this.state.added.length > 0 &&
+                <div className={"added-files " + (this.state.removed.length > 0 ? "has-removed" : "")}>
+                  <h3>Files added</h3>
+                  <div>
+                    <table>
+                      <tbody>
+                        {
+                          this.state.added.map((file, index) => {
+                            return (
+                              <tr key={index} className="added-file">
+                                <td>
+                                  + {file.dir}/{file.data.Filename.replace(".txt","")}
+                                </td>
+                              </tr>
+                            )
+                          })
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ) 
+            }
+              
             </div>
             {
               <ScriptDiffList diff={this.state.diff} data={this.state.data}/>

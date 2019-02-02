@@ -43,6 +43,10 @@
     text-align: center;
 }
 
+.diff-version-label{
+    text-align: center;
+}
+
 #character-image {
     width: 250px;
     height: auto;

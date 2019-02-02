@@ -17,6 +17,7 @@ import ScriptSearch from './components/ScriptSearch';
 
 import CharacterDiffList from './components/CharacterDiffList';
 import CharacterDiffView from './components/CharacterDiffView';
+import DiffList from './components/DiffList';
 
 class App extends Component {
   render() {
@@ -25,8 +26,14 @@ class App extends Component {
         <div>
           <Header/>
 
+          <Switch>
+            <Route path="/patch/:patch" component={NavigationHeader}/>
+            <Route path="/diff/:diff" component={NavigationHeader}/>
+            <Route component={NavigationHeader}/>
+          </Switch>
+
           <Switch>            
-            <Route exact path="/index.html" component={StageList}/>
+            <Route exact path="/index.html" component={Home}/>
             
             <Route exact path="/stage" component={StageList}/>
             <Route exact path="/stage/:name" component={StageView}/>
@@ -36,8 +43,10 @@ class App extends Component {
             
             <Route exact path="/diff/:diff/character" component={CharacterDiffList}/>
             <Route exact path="/diff/:diff/character/:name" component={CharacterDiffView}/>
+
+            <Route path="/diff" component={DiffList}/>
             
-            <Route exact path="/" component={StageList}/>
+            <Route exact path="/" component={Home}/>
           </Switch>
         </div>
       </HashRouter>

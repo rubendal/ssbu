@@ -576,3 +576,33 @@ input[type="checkbox"] {
     top: 20px;
     position: relative;
 }
+
+.added-removed-files{
+    position: relative;
+    top: 20px;
+    clear:left;
+}
+
+.added-files{
+    position: relative;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.removed-files{
+    position: relative;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.has-removed{
+    margin-left: 50px;
+}
+
+.added-file{
+    background: #dfd;
+}
+
+.removed-file{
+    background: #fee8e9;
+}
