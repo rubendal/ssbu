@@ -5,6 +5,7 @@ import axios from 'axios';
 //Diffs
 import { ReactGhLikeDiff } from 'react-gh-like-diff';
 import 'react-gh-like-diff/lib/diff2html.min.css';
+import ImageMessage from '../ImageMessage';
 
 class FileDiffView extends Component {
   constructor(props){
@@ -59,8 +60,22 @@ class FileDiffView extends Component {
             );
         })
         .catch(function(error){
-    
-        });
+            if(error.response){
+              var e = "";
+              if(error.response.status === 404)
+                e = "Diff not found";
+              else
+                e = "Error";
+            }else{
+              e = "Error";
+            }
+            
+            ref.setState(
+              {
+                error: e
+              }
+            );
+          });
     }
   }
 
@@ -79,11 +94,16 @@ class FileDiffView extends Component {
             </div>
         );
     }else{
-        return(
-            <div>
-                Oops... Something went wrong
-            </div>
-        )
+        if(this.state.error !== undefined){
+            return (
+                <ImageMessage/>
+            )
+        }
+        else{
+            return (
+                <ImageMessage/>
+            )
+        }
     }
   }
 }
