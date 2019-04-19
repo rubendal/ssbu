@@ -1,0 +1,20 @@
+diff --git "a/roy/roy_animcmd_game/game_attack11.txt" "b/roy/roy_animcmd_game/game_attack11.txt"
+index 2c1131d..898eff2 100644
+--- "a/roy/roy_animcmd_game/game_attack11.txt"
++++ "b/roy/roy_animcmd_game/game_attack11.txt"	
+@@ -52,19 +52,18 @@ Block d645021d86 type 3, size b0c, 214 tokens, creation 0->1:
+    lib::L2CValue::~L2CValue()
+    lib::L2CValue::~L2CValue()
+    lib::L2CValue::L2CValue(int) args 0x0
+    lib::L2CValue::L2CValue(int) args 0x0
+    lib::L2CValue::L2CValue(phx::Hash40) args 0x31ed91fca
+-   lib::L2CValue::L2CValue(float) fargs 5.000001
+-   lib::L2CValue::L2CValue(int) args 0x45
++   lib::L2CValue::L2CValue(float) fargs 8.000001
++   lib::L2CValue::L2CValue(int) args 0x50
+    lib::L2CValue::L2CValue(int) args 0x28
+    lib::L2CValue::L2CValue(int) args 0x0
+    lib::L2CValue::L2CValue(int) args 0x37
+    lib::L2CValue::L2CValue(float) fargs 5.000001
+    lib::L2CValue::L2CValue(float) fargs 5.000000
+    lib::L2CValue::L2CValue(float) fargs 5.000001

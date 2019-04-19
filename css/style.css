@@ -438,6 +438,54 @@ input[type="checkbox"] {
             opacity: 0.7;
         }
 
+.lvd-credits{
+    float: right;
+}
+
+.stages-header{
+    clear:both;
+}
+
+/*Diffs*/
+.d2h-file-header{
+    display:none;
+}
+
+.diff-view{
+    top: 20px;
+    position: relative;
+}
+
+.added-removed-files{
+    position: relative;
+    top: 20px;
+    clear:left;
+}
+
+.added-files{
+    position: relative;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.removed-files{
+    position: relative;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.has-removed{
+    margin-left: 50px;
+}
+
+.added-file{
+    background: #dfd;
+}
+
+.removed-file{
+    background: #fee8e9;
+}
+
 /* --------Screen sizes-------- */
 
 @media screen and (max-width: 1250px) {
@@ -509,6 +557,13 @@ input[type="checkbox"] {
 
 }
 
+@media screen and (max-width: 810px){
+    .has-removed{
+        margin-left: 0;
+        clear: left;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .about{
         width: 100%;
@@ -559,10 +614,3 @@ input[type="checkbox"] {
     }
 }
 
-.lvd-credits{
-    float: right;
-}
-
-.stages-header{
-    clear:both;
-}
