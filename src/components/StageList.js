@@ -51,6 +51,16 @@ class StageList extends Component {
                     <img className={`stage-list`} src={process.env.PUBLIC_URL + "/img/stages_icon/" + stage.name
                     .toLowerCase().replace(/\./g,"")
                     + ".png"} alt={stage.name} title={stage.name} />
+                    {
+                        stage.name === "BattleField (Common)" && (
+                            <span className="imglabel">Common</span>
+                        )
+                    }
+                    {
+                        stage.name === "Final Destination (Large)" && (
+                            <span className="imglabel">5+ players</span>
+                        )
+                    }
                 </a>
             </span>
             )

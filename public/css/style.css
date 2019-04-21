@@ -42,6 +42,7 @@
 .stage-span{
     display:inline-block;
     padding:5px 5px;
+    position: relative;
 }
 
 .stage-list{
@@ -309,6 +310,16 @@ td{
     font-weight: 800;
 }
 
+.imglabel{
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    color: #ffffff;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px #000000;
+    font-weight: 800;
+}
+
 /* --------Inputs -------------- */
 input, select {
     border-radius: 4px;
@@ -528,6 +539,16 @@ input[type="checkbox"] {
         bottom:20px;
         color: #ffffff;
         font-size: 2rem;
+        -webkit-text-stroke: 1px #000000;
+        font-weight: 800;
+    }
+
+    .imglabel{
+        position:absolute;
+        right:20px;
+        bottom:20px;
+        color: #ffffff;
+        font-size: 1.5rem;
         -webkit-text-stroke: 1px #000000;
         font-weight: 800;
     }
