@@ -13,15 +13,21 @@ class Home extends Component {
       return (
         <div id="main" className="home">
 
-          <span>
-            <a href="#/Diff">
-              <img src={Diffs} alt="Diffs"/>
-            </a>
+          <span >
+              <a href="#/Character">
+                <img src={Characters} alt="Characters"/>
+              </a>
           </span>
 
           <span>
             <a href="#/Stage">
               <img src={Stages} alt="Stages"/>
+            </a>
+          </span>
+
+          <span>
+            <a href="#/ScriptSearch">
+              <img src={ScriptSearch} alt="ScriptSearch"/>
             </a>
           </span>
         </div>

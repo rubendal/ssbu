@@ -67,11 +67,17 @@ class NavigationHeader extends Component {
             <span className="navigation-link">
                 <a href="#/" className="hide-link">Home</a>
             </span>
+
             <span className="navigation-link">
-                <a href={this.CharacterLink} className="hide-link">{this.state.version !== null ? "Characters (v" + this.state.version + ")" : (this.state.diff !== null ? "Characters (" + this.state.diff + ")" : "Characters")}</a>
+                <a href={this.CharacterLink} className="hide-link">{this.state.version !== null ? "Characters (v" + this.state.version + ")" : "Characters"}</a>
             </span>
+
             <span className="navigation-link">
                 <a href={this.StageLink} className="hide-link">Stages</a>
+            </span>
+
+            <span className="navigation-link">
+                <a href={this.ScriptSearchLink} className="hide-link">{this.state.version !== null ? "Script Search (v" + this.state.version + ")" : "Script Search"}</a>
             </span>
             
         </div>

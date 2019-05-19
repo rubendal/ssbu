@@ -46,20 +46,6 @@ class CharacterView extends Component {
         }
       );
     });
-
-    //Get msc files
-    axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/character/' + props.match.params.name.replace(/\.+$/, "") + '/mscFiles.json')
-    .then(function(response){
-        ref.setState(prevState => 
-          {
-            prevState.msc = response.data;
-            return prevState;
-          }
-        );
-      })
-      .catch(function(e){
-        
-      })
     
   }
 
@@ -79,30 +65,7 @@ class CharacterView extends Component {
 
         <h2 id="character-name">{this.state.data.Name}</h2>
 
-        <div className="view-selection">
-          <span>
-          <a onClick={() => this.changeView("scripts")}>
-            Scripts
-            </a>
-          </span>
-          <span>
-          <a onClick={() => this.changeView("fighterparams")}>
-            Fighter Param
-            </a>
-          </span>
-          {
-            this.state.msc !== undefined && (
-              <span>
-              <a onClick={() => this.changeView("msc")}>
-                MSC
-                </a>
-              </span>
-            )
-          }
-        </div>
-
         <img id="character-image" src={require("../assets/img/renders/" + this.state.data.Name.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png")} alt={this.state.data.Name} />
-
 
         <div id="related">
             <h4>Related sites</h4>
@@ -110,28 +73,14 @@ class CharacterView extends Component {
                   <tbody>
                     <tr>
                       <td>Frame data</td>
-                      <td><a href={"http://kuroganehammer.com/Smash4/" + this.state.data.Name.replace("&","and").replace("Mr. Game", "Game")} target="_blank" rel="noopener noreferrer">Kurogane Hammer</a></td>
-                    </tr>
-                    <tr>
-                      <td>Hitbox visualizations </td>
-                      <td><a href={"https://struz.github.io/smash-move-viewer/#/v1/" + this.state.data.GameName} target="_blank" rel="noopener noreferrer">Smash Move Viewer</a></td>
+                      <td><a href={"http://kuroganehammer.com/Ultimate/" + this.state.data.Name.replace("&","and").replace("Mr. Game", "Game").replace(" (Nana)", "")} target="_blank" rel="noopener noreferrer">Kurogane Hammer</a></td>
                     </tr>
                   </tbody>
                 </table>
-            </div>
+        </div>
             {
               this.state.display === "scripts" && (
                 <ScriptList patch={this.state.patch} data={this.state.data}/>
-              )
-            }
-            {
-              this.state.display === "fighterparams" && (
-                <ParamList patch={this.state.patch} data={this.state.data}/>
-              )
-            }
-            {
-              this.state.display === "msc" && (
-                <MscView patch={this.state.patch} data={this.state.msc} character={this.state.data.Name}/>
               )
             }
 

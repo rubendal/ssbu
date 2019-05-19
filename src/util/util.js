@@ -31,26 +31,15 @@ function FormatScript(script){
                 .replace(/\r\n/g, "</span><br/><span>")
                 .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
                 .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-                .replace(/(=)(-?[0-9A-F]+x?\.?[0-9A-F]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
-                .replace(/([a-zA-Z_0-9/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
+                .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+                .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
                 .replace(/<span><\/span>/g,"");
 }
 
 export function BuildScript(script){
     var s = "";
 
-    if(script.Game !== null){
-        s += "Game<br/>{<br/><div class='script-tab'>" + FormatScript(script.Game) + "</div>}<br/>";
-    }
-    if(script.Expression !== null){
-        s += "Expression<br/>{<br/><div class='script-tab'>" + FormatScript(script.Expression) + "</div>}<br/>";
-    }
-    if(script.Effect !== null){
-        s += "Effect<br/>{<br/><div class='script-tab'>" + FormatScript(script.Effect) + "</div>}<br/>";
-    }
-    if(script.Sound !== null){
-        s += "Sound<br/>{<br/><div class='script-tab'>" + FormatScript(script.Sound) + "</div>}<br/>";
-    }
+    s = FormatScript(script)
 
     return s;
 }
@@ -62,8 +51,9 @@ export function FormatSearchScript(script, regex){
                 .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
                 .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
                 .replace(regex, "<span class='regex-match'>$1</span>")
-                .replace(/(=)(-?[0-9A-F]+x?\.?[0-9A-F]*)(,|\)|<)/g, "$1<span class='script-param-value'>$2</span>$3")
-                .replace(/([a-zA-Z_0-9/]+)(\(|<)/g, "<span class='script-cmd'>$1</span>$2");
+                .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+                .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
+                .replace(/<span><\/span>/g,"");
                 
 }
 

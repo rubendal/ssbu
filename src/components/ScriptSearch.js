@@ -83,8 +83,15 @@ class ScriptSearch extends Component{
 
         axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/search.json')
         .then(function(res){
+
+            var list = res.data;
+
+            list.sort((x,y) =>{
+                return x.Name.localeCompare(y.Name);
+            })
+
             ref.setState(prevState => {
-                prevState.data = res.data;
+                prevState.data = list;
                 prevState.searchError = null;
                 return prevState;
             });
@@ -144,79 +151,29 @@ class ScriptSearch extends Component{
                     //Character
                     var characterResults = {
                         regex : new RegExp(`(${ref.state.search})`, "g"),
-                        character : ref.state.data[c].Character,
+                        character : ref.state.data[c].Name,
                         matches: [],
                         no : 0
                     };
-                    for(var i = 0;i < ref.state.data[c].Scripts.length; i++){
-                        var temp;
-                        var animname = "";
-                        if(ref.state.scriptFile === "game" || ref.state.scriptFile === "all"){
-                            temp = CheckScript(regex, ref.state.data[c].Scripts[i].Game);
-                            if(temp.hasMatches){
-                                animname = ref.state.data[c].Scripts[i].AnimationName;
-                                if(ref.state.data[c].Scripts[i].Article !== "body")
-                                    animname = ref.state.data[c].Scripts[i].Article + "/" + animname;
-                                characterResults.matches.push({
-                                    script : animname,
-                                    file : "Game",
-                                    matches : temp.data,
-                                    subaction : ref.state.data[c].Scripts[i].SubactionIndex,
-                                    article : ref.state.data[c].Scripts[i].Article
-                                });
-                                characterResults.no += temp.data.length;
-                            }
+                    for(var i = 0;i < ref.state.data[c].Articles.length; i++){
+                        var article = ref.state.data[c].Articles[i];
+                        for(var j=0;j< ref.state.data[c].Scripts[article].length;j++){
+                            var temp;
+                            var animname = "";
+                            temp = CheckScript(regex, ref.state.data[c].Scripts[article][j].Data);
+                                if(temp.hasMatches){
+                                    animname = article + "/" + ref.state.data[c].Scripts[article][j].Name;
+                                    characterResults.matches.push({
+                                        script : animname,
+                                        file : "Game",
+                                        matches : temp.data,
+                                        subaction : j,
+                                        article : article
+                                    });
+                                    characterResults.no += temp.data.length;
+                                }
                         }
-                        if(ref.state.scriptFile === "expression" || ref.state.scriptFile === "all"){
-                            temp = CheckScript(regex, ref.state.data[c].Scripts[i].Expression);
-                            if(temp.hasMatches){
-                                animname = ref.state.data[c].Scripts[i].AnimationName;
-                                if(ref.state.data[c].Scripts[i].Article !== "body")
-                                    animname = ref.state.data[c].Scripts[i].Article + "/" + animname;
-                                characterResults.matches.push({
-                                    script : animname,
-                                    file : "Expression",
-                                    matches : temp.data,
-                                    subaction : ref.state.data[c].Scripts[i].SubactionIndex,
-                                    article : ref.state.data[c].Scripts[i].Article
-                                });
-                                characterResults.no += temp.data.length;
-                            }
-                        }
-    
-                        if(ref.state.scriptFile === "effect" || ref.state.scriptFile === "all"){
-                            temp = CheckScript(regex, ref.state.data[c].Scripts[i].Effect);
-                            if(temp.hasMatches){
-                                animname = ref.state.data[c].Scripts[i].AnimationName;
-                                if(ref.state.data[c].Scripts[i].Article !== "body")
-                                    animname = ref.state.data[c].Scripts[i].Article + "/" + animname;
-                                characterResults.matches.push({
-                                    script : animname,
-                                    file : "Effect",
-                                    matches : temp.data,
-                                    subaction : ref.state.data[c].Scripts[i].SubactionIndex,
-                                    article : ref.state.data[c].Scripts[i].Article
-                                });
-                                characterResults.no += temp.data.length;
-                            }
-                        }
-    
-                        if(ref.state.scriptFile === "sound" || ref.state.scriptFile === "all"){
-                            temp = CheckScript(regex, ref.state.data[c].Scripts[i].Sound);
-                            if(temp.hasMatches){
-                                animname = ref.state.data[c].Scripts[i].AnimationName;
-                                if(ref.state.data[c].Scripts[i].Article !== "body")
-                                    animname = ref.state.data[c].Scripts[i].Article + "/" + animname;
-                                characterResults.matches.push({
-                                    script : animname,
-                                    file : "Sound",
-                                    matches : temp.data,
-                                    subaction : ref.state.data[c].Scripts[i].SubactionIndex,
-                                    article : ref.state.data[c].Scripts[i].Article
-                                });
-                                characterResults.no += temp.data.length;
-                            }
-                        }
+                        
     
                     }
                     if(characterResults.matches.length > 0){
@@ -262,16 +219,6 @@ class ScriptSearch extends Component{
                     <div className={"script-search " + (this.state.showHelp ? "split" : "")}>
                         <span>
                             <input type="text" name="regex" className="search" value={this.state.search} onChange={(e) => this.updateInput(e)} placeholder="Regex"/>
-                            
-                            <div className="search-file-container">
-                                <select className="search-file" value={this.state.scriptFile} onChange={(e) => this.updateSelect(e)}>
-                                    <option value="all">All</option>
-                                    <option defaultValue value="game">Game</option>
-                                    <option value="expression">Expression</option>
-                                    <option value="effect">Effect</option>
-                                    <option value="sound">Sound</option>
-                                </select>
-                            </div>
 
                             <div className="search-buttons-container">
                                     <OverlayTrigger placement="bottom" overlay={

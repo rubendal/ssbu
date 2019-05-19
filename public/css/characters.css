@@ -66,6 +66,10 @@
     background: #a0cafe
 }
 
+.ice-climbers-nana {
+    background: #a0cafe
+}
+
 .sheik {
     background: #756fd0
 }
@@ -274,10 +278,22 @@
     background: #65873b
 }
 
+.isabelle {
+    background: #c4d37e;
+}
+
 .ken {
     background: #cdd7dc;
 }
 
 .incineroar {
     background: #ffd902;
+}
+
+.piranha-plant {
+    background: #00aa82;
+}
+
+.joker {
+    background: #b41201;
 }

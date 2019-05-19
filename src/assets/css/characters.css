@@ -191,7 +191,7 @@ input[name=scriptFormat] + span{
     left: 4px;
 }
 
-.msc-version, .salt-version{
+.msc-version, .salt-version, .parser-version{
     float: right;
 }
 

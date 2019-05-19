@@ -15,6 +15,7 @@
 }
 
 .character-span{
+    position: relative;
     display:inline-block;
     padding:25px 30px;
 }
@@ -316,6 +317,16 @@ td{
     bottom:20px;
     color: #ffffff;
     font-size: 3rem;
+    -webkit-text-stroke: 1px #000000;
+    font-weight: 800;
+}
+
+.imgcharlabel{
+    position: absolute;
+    right: 0px;
+    bottom: 115px;
+    color: #ffffff;
+    font-size: 2rem;
     -webkit-text-stroke: 1px #000000;
     font-weight: 800;
 }
