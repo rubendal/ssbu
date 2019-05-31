@@ -34,6 +34,7 @@ class App extends Component {
 
           <Switch>            
             <Route exact path="/index.html" component={Home}/>
+            <Route exact path="/glossary" component={Glossary}/>
             
             <Route exact path="/character" component={CharacterList}/>
             <Route exact path="/character/:name" component={CharacterView}/>
@@ -43,6 +44,8 @@ class App extends Component {
             <Route exact path="/patch" component={PatchList}/>
             <Route exact path="/patch/:patch/character" component={CharacterList}/>
             <Route exact path="/patch/:patch/character/:name" component={CharacterView}/>
+            <Route exact path="/patch/:patch/stage" component={StageList}/>
+            <Route exact path="/patch/:patch/stage/:name" component={StageView}/>
 
             <Route exact path="/diff/character" component={CharacterDiffList}/>
             <Route exact path="/diff/character/:name" component={CharacterDiffView}/>

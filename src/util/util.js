@@ -1,42 +1,42 @@
-export function ToHex(number){
+export function ToHex(number) {
     var hex = "00000000" + number.toString(16).toUpperCase();
     return "0x" + hex.substr(-8);
 }
 
-export function ToByteHex(number){
+export function ToByteHex(number) {
     var hex = "00" + number.toString(16).toUpperCase();
     return "0x" + hex.substr(-2);
 }
 
-export function ToHexWithoutPadding(number){
+export function ToHexWithoutPadding(number) {
     return "0x" + number.toString(16).toUpperCase();
 }
 
-function ToHexWithPadding(number, pad){
+function ToHexWithPadding(number, pad) {
     var padding = "";
-    for(var i=0;i<pad;i++){
-        padding +="0";
+    for (var i = 0; i < pad; i++) {
+        padding += "0";
     }
     var hex = padding + number.toString(16).toUpperCase();
     return "0x" + hex.substr(-pad);
 }
 
-export function IsScriptEmpty(script){
+export function IsScriptEmpty(script) {
     return script.Game === null && script.Expression === null && script.Effect === null && script.Sound === null;
 }
 
-function FormatScript(script){
-    return "<span>" + 
-            script
-                .replace(/\r\n/g, "</span><br/><span>")
-                .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
-                .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-                .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
-                .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
-                .replace(/<span><\/span>/g,"");
+function FormatScript(script) {
+    return "<span>" +
+        script
+            .replace(/\r\n/g, "</span><br/><span>")
+            .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
+            .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
+            .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+            .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
+            .replace(/<span><\/span>/g, "");
 }
 
-export function BuildScript(script){
+export function BuildScript(script) {
     var s = "";
 
     s = FormatScript(script)
@@ -44,31 +44,31 @@ export function BuildScript(script){
     return s;
 }
 
-export function FormatSearchScript(script, regex){
-    return "<span>" + 
-            script
-                .replace(/\r\n/g, "</span><br/><span>")
-                .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
-                .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-                .replace(regex, "<span class='regex-match'>$1</span>")
-                .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
-                .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
-                .replace(/<span><\/span>/g,"");
-                
+export function FormatSearchScript(script, regex) {
+    return "<span>" +
+        script
+            .replace(/\r\n/g, "</span><br/><span>")
+            .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
+            .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
+            .replace(regex, "<span class='regex-match'>$1</span>")
+            .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+            .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
+            .replace(/<span><\/span>/g, "");
+
 }
 
-export function FormatMscScript(script){
-    return "<span>" + 
-            script
-                .replace(/("([^"]*)")/g, "<span class='msc-string'>$1</span>")
-                .replace(/(=)(-?[0-9A-F]+x?\.?[0-9A-F]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
-                .replace(/([a-zA-Z_0-9/]+)(\()/g, "<span class='msc-script-function'>$1</span>$2")
-                .replace(/(int |float |void |if |else |else\n)/g, "<span class='msc-reserved'>$1</span>")
-                .replace(/(0x[0-9a-f]+)/g, "<span class='msc-number'>$1</span>")
-                .replace(/\n/g, "</span><br/><span>")
-                .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
-                .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-                
+export function FormatMscScript(script) {
+    return "<span>" +
+        script
+            .replace(/("([^"]*)")/g, "<span class='msc-string'>$1</span>")
+            .replace(/(=)(-?[0-9A-F]+x?\.?[0-9A-F]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+            .replace(/([a-zA-Z_0-9/]+)(\()/g, "<span class='msc-script-function'>$1</span>$2")
+            .replace(/(int |float |void |if |else |else\n)/g, "<span class='msc-reserved'>$1</span>")
+            .replace(/(0x[0-9a-f]+)/g, "<span class='msc-number'>$1</span>")
+            .replace(/\n/g, "</span><br/><span>")
+            .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
+            .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
+
 }
 
 /*export function SimpleFormatMscScript(script){
@@ -80,7 +80,7 @@ export function FormatMscScript(script){
                 
 }*/
 
-export function PrintHitboxActive(active){
+export function PrintHitboxActive(active) {
     var start = active.Start + 1;
     if (start === 0)
         start = 1;
@@ -99,8 +99,8 @@ export function PrintHitboxActive(active){
     return `${start} - ${end}`;
 }
 
-export function ParseRemoveType(type){
-    switch(type){
+export function ParseRemoveType(type) {
+    switch (type) {
         case 0: //Removed
             return "Removed";
         case 1: //Overwritten
@@ -112,110 +112,110 @@ export function ParseRemoveType(type){
         case 4: //Script_End()
             return "Script End";
         default:
-        return "Script End";
+            return "Script End";
     }
 }
 
-export function ParseEffect(effect){
-    switch(effect){
+export function ParseEffect(effect) {
+    switch (effect) {
         case 0:
-        return "None";
+            return "None";
         case 1:
-        return "Detect";
+            return "Detect";
         case 2:
-        return "Slash";
+            return "Slash";
         case 3:
-        return "Electric";
+            return "Electric";
         case 4:
-        return "Freezing";
+            return "Freezing";
         case 5:
-        return "Flame";
+            return "Flame";
         case 6:
-        return "Coin";
+            return "Coin";
         case 7:
-        return "Reverse";
+            return "Reverse";
         case 8:
-        return "Slip";
+            return "Slip";
         case 9:
-        return "Sleep";
+            return "Sleep";
         case 0xb:
-        return "Bury";
+            return "Bury";
         case 0xc:
-        return "Stun";
+            return "Stun";
         case 0xe:
-        return "Flower";
+            return "Flower";
         case 0x10:
-        return "Death";
+            return "Death";
         case 0x11:
-        return "Grass";
+            return "Grass";
         case 0x12:
-        return "Water";
+            return "Water";
         case 0x13:
-        return "Darkness";
+            return "Darkness";
         case 0x14:
-        return "Paralyze";
+            return "Paralyze";
         case 0x15:
-        return "Aura";
+            return "Aura";
         case 0x16:
-        return "Plunge";
+            return "Plunge";
         case 0x17:
-        return "Down";
+            return "Down";
         case 0x18:
-        return "Adhension";
+            return "Adhension";
         case 0x19:
-        return "Stab";
+            return "Stab";
         case 0x1a:
-        return "Magic";
+            return "Magic";
         case 0x1b:
-        return "Flinchless1";
+            return "Flinchless1";
         case 0x1c:
-        return "Flinchless2";
+            return "Flinchless2";
         case 0x1d:
-        return "Solar";
+            return "Solar";
         case 0x1e:
-        return "Crumple";
+            return "Crumple";
         case 0x1f:
-        return "Disable";
+            return "Disable";
         case 0x20:
-        return "Pin";
+            return "Pin";
         case 0x21:
-        return "Death2";
+            return "Death2";
         case 0x24:
-        return "Bullet Arts";
+            return "Bullet Arts";
         case 0x25:
-        return "Can/Final Smash";
+            return "Can/Final Smash";
         default:
-        return ToHexWithPadding(effect, 2);
+            return ToHexWithPadding(effect, 2);
     }
 }
 
-export function ParseScriptCondition(condition, value){
-    switch(condition){
+export function ParseScriptCondition(condition, value) {
+    switch (condition) {
         case 0:
-        return "< " + value;
+            return "< " + value;
         case 1:
-        return "<= " + value;
+            return "<= " + value;
         case 2:
-        return "= " + value;
+            return "= " + value;
         case 3:
-        return "!= " + value;
+            return "!= " + value;
         case 4:
-        return ">= " + value;
+            return ">= " + value;
         case 5:
-        return "> " + value;
+            return "> " + value;
         case 10:
-        return "bit flag enabled";
+            return "bit flag enabled";
         case 11:
-        return "bit flag disabled";
+            return "bit flag disabled";
         case 20:
-        return "else";
+            return "else";
         default:
-        return "?";
+            return "?";
     }
 }
 
-export function ParseHurtboxState(state){
-    switch(state){
+export function ParseHurtboxState(state) {
+    switch (state) {
         case 0:
             return "Normal";
         case 1:

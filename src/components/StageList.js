@@ -4,19 +4,24 @@ import ImageMessage from '../ImageMessage';
 import Patches from '../assets/patches.json';
 
 class StageList extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
-      patch : props.match.params.patch === undefined ? Patches.latest : props.match.params.patch
+      patch: props.match.params.patch === undefined ? Patches.latest : props.match.params.patch
     };
 
     var ref = this;
 
-    axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stages.json').then(function(res){
+    this.path = "#/Stage/";
+    if (props.match.params.patch !== undefined) {
+      this.path = `#/Patch/${this.state.patch}/Stage/`;
+    }
+
+    axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stages.json').then(function (res) {
       var json = res.data;
 
-      var list = json.sort((x,y) =>{
+      var list = json.sort((x, y) => {
         return x.name.localeCompare(y.name);
       });
 
@@ -25,53 +30,53 @@ class StageList extends Component {
 
       ref.setState(
         {
-          list : normal,
-          omegaList : omega
+          list: normal,
+          omegaList: omega
         }
       );
     })
-    .catch(function(error){
+      .catch(function (error) {
 
-    });
+      });
 
-    
+
   }
 
 
   render() {
-    if(this.state.list !== undefined){
-    return (
-      <div id="stage-selection">
-      <h2>Stages</h2>
-        {
-          this.state.list.map((stage) =>{
-            return (
-            <span className="stage-span" key={stage.name}>
-              <a href={"#/Stage/" + stage.name}>
-                    <img className={`stage-list`} src={process.env.PUBLIC_URL + "/img/stages_icon/" + stage.name
-                    .toLowerCase().replace(/\./g,"")
-                    + ".png"} alt={stage.name} title={stage.name} />
-                    {
-                        stage.name === "BattleField (Common)" && (
-                            <span className="imglabel">Common</span>
-                        )
-                    }
-                    {
-                        stage.name === "Final Destination (Large)" && (
-                            <span className="imglabel">5+ players</span>
-                        )
-                    }
-                </a>
-            </span>
-            )
-          })
-        }
-        
-      </div>
-    );
-    }else{
+    if (this.state.list !== undefined) {
       return (
-        <ImageMessage/>
+        <div id="stage-selection">
+          <h2>Stages</h2>
+          {
+            this.state.list.map((stage, index) => {
+              return (
+                <span className="stage-span" key={stage.name + "_" + index}>
+                  <a href={this.path + stage.name}>
+                    <img className={`stage-list`} src={process.env.PUBLIC_URL + "/img/stages_icon/" + stage.name
+                      .toLowerCase().replace(/\./g, "")
+                      + ".png"} alt={stage.name} title={stage.name} />
+                    {
+                      stage.name === "BattleField (Common)" && (
+                        <span className="imglabel">Common</span>
+                      )
+                    }
+                    {
+                      stage.name === "Final Destination (Large)" && (
+                        <span className="imglabel">5+ players</span>
+                      )
+                    }
+                  </a>
+                </span>
+              )
+            })
+          }
+
+        </div>
+      );
+    } else {
+      return (
+        <ImageMessage />
       );
     }
   }

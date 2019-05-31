@@ -1,6 +1,6 @@
 {
-    "parser" : "301907c",
-    "parser_link" : "https://github.com/rubendal/SSBU-Dump-Scripts",
-    "mscdec" : "29831c6",
-    "mscdec_link" : "https://github.com/jam1garner/mscdec"
+    "parser": "301907c",
+    "parser_link": "https://github.com/rubendal/SSBU-Dump-Scripts",
+    "mscdec": "29831c6",
+    "mscdec_link": "https://github.com/jam1garner/mscdec"
 }

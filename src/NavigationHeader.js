@@ -16,7 +16,7 @@ class NavigationHeader extends Component {
         if(props.match !== undefined && props.match.params.patch !== undefined){
             this.state.version = props.match.params.patch
             this.CharacterLink = "#/Patch/" + props.match.params.patch + "/Character";
-            //this.StageLink = "#/Patch/" + props.match.params.patch + "/Stage";
+            this.StageLink = "#/Patch/" + props.match.params.patch + "/Stage";
             this.ScriptSearchLink = "#/Patch/" + props.match.params.patch + "/ScriptSearch";
         }
         if(props.match !== undefined && props.match.params.diff !== undefined){
@@ -26,16 +26,16 @@ class NavigationHeader extends Component {
     }
 
     shouldComponentUpdate(props, state){
-        if(state.version !== null){
-            this.CharacterLink = "#/Patch/" + state.version + "/Character";
-            //this.StageLink = "/#Patch/" + state.version + "/Stage";
+        if(state.version !== null && props.match !== undefined){
+            this.CharacterLink = "#/Patch/" + props.match.params.patch + "/Character";
+            this.StageLink = "/#Patch/" + props.match.params.patch + "/Stage";
             this.ScriptSearchLink = "#/Patch/" + props.match.params.patch + "/ScriptSearch";
         }else{
             this.CharacterLink = "#/Character";
             this.StageLink = "#/Stage";
             this.ScriptSearchLink = "#/ScriptSearch";
         }
-        if(state.diff !== null){
+        if(state.diff !== null  && props.match !== undefined){
             this.CharacterLink = "#/Diff/" + props.match.params.diff + "/Character";
         }else{
             this.CharacterLink = "#/Character";
@@ -50,15 +50,15 @@ class NavigationHeader extends Component {
         }
         if (props.match.params.patch !== undefined) {
             newState.version = props.match.params.patch;
+        }else{
+            newState.version = null;
         }
         if (props.match.params.diff !== undefined) {
             newState.diff = props.match.params.diff;
+        }else{
+            newState.diff = null;
         }
-        if(props.match.params.patch !== undefined || props.match.params.diff !== undefined){
-            return newState;
-        }
-
-		return null;
+        return newState;
 	  }
 
     render() {
@@ -73,7 +73,11 @@ class NavigationHeader extends Component {
             </span>
 
             <span className="navigation-link">
-                <a href={this.StageLink} className="hide-link">Stages</a>
+                <a href={this.StageLink} className="hide-link">{this.state.version !== null ? "Stages (v" + this.state.version + ")" : "Stages"}</a>
+            </span>
+
+            <span className="navigation-link">
+                <a href="#/Patch" className="hide-link">Patches</a>
             </span>
 
             <span className="navigation-link">

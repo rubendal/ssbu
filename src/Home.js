@@ -7,6 +7,7 @@ import ScriptSearch from './assets/img/scriptsearch.png';
 import Glossary from './assets/img/glossary.png';
 import Resources from './assets/img/resources.png';
 import About from './assets/img/about.png';
+import DiffList from './components/DiffList';
 
 class Home extends Component {
     render() {
@@ -26,8 +27,26 @@ class Home extends Component {
           </span>
 
           <span>
+            <a href="#/Patch">
+              <img src={Patches} alt="Patches"/>
+            </a>
+          </span>
+
+          <span>
+            <a href="#/Diff">
+              <img src={Diffs} alt="Diffs"/>
+            </a>
+          </span>
+
+          <span>
             <a href="#/ScriptSearch">
               <img src={ScriptSearch} alt="ScriptSearch"/>
+            </a>
+          </span>
+
+          <span>
+            <a href="#/Glossary">
+              <img src={Glossary} alt="Glossary"/>
             </a>
           </span>
         </div>

@@ -18,22 +18,28 @@ class CharacterList extends Component {
       this.path = `#/Patch/${this.state.patch}/Character/`;
     }
 
-    axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/characters.json').then(function(res){
-      var json = res.data;
-
-      var list = json.sort((x,y) =>{
-        return x.Name.localeCompare(y.Name);
+    if(this.state.patch == '1.0.0' || this.state.patch == '2.0.0'){
+      this.state.error = "Character data not available for this patch"
+    }else{
+      axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/characters.json').then(function(res){
+        var json = res.data;
+  
+        var list = json.sort((x,y) =>{
+          return x.Name.localeCompare(y.Name);
+        });
+  
+        ref.setState(
+          {
+            list : list
+          }
+        );
+      })
+      .catch(function(error){
+  
       });
+    }
 
-      ref.setState(
-        {
-          list : list
-        }
-      );
-    })
-    .catch(function(error){
-
-    });
+    
 
     
   }
@@ -63,6 +69,11 @@ class CharacterList extends Component {
         }
       </div>
     );
+    }
+    if(this.state.error !== undefined){
+      return (
+        <ImageMessage message={this.state.error} image={"error.png"}/>
+      )
     }else{
       return (
         <ImageMessage/>
