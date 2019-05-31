@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/0x0e9302e6f3.txt" "b/1.0/ryu/0x0e9302e6f3.txt"
+index 383c482..8b780c3 100644
+--- "a/0.0/ryu/0x0e9302e6f3.txt"
++++ "b/1.0/ryu/0x0e9302e6f3.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ }
+ frame(Frame=7)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_ATTACK_FLAG_WEAK_CANCEL)
+ }
+-frame(Frame=8)
++frame(Frame=12)
+ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_RYU_STATUS_ATTACK_FLAG_HIT_CANCEL)
+ }
+ frame(Frame=16)
+ if(is_excute){

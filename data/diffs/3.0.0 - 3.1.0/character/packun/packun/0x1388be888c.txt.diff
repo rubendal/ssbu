@@ -1,0 +1,64 @@
+diff --git "a/_3.0.0/packun/0x1388be888c.txt" "b/_3.1.0/packun/0x1388be888c.txt"
+index 13896c3..ee5d81e 100644
+--- "a/_3.0.0/packun/0x1388be888c.txt"
++++ "b/_3.1.0/packun/0x1388be888c.txt"
+@@ -8,12 +8,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(FIGHTER_INSTANCE_WO
+ }
+ frame(Frame=1)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_PACKUN_STATUS_SPECIAL_N_FLAG_SHOOT_PREVIOUS_WAIT), False, True)){
+ 	WorkModule__get_float(FIGHTER_PACKUN_STATUS_SPECIAL_N_WORK_FLOAT_SHOOT_START_SPIKEBALL_DISTANCE)
+ 	PostureModule__scale(0)
+-	0x14b1c0(0, 30)
+-	if(0x14b1c0()){
++	0x14b1e0(0, 30)
++	if(0x14b1e0()){
+ 		FT_MOTION_RATE(FSM=0.6)
+ 		frame(Frame=8)
+ 		if(is_excute){
+ 			ArticleModule__shoot_exist(FIGHTER_PACKUN_GENERATE_ARTICLE_SPIKEBALL, ARTICLE_OPE_TARGET_ALL, False)
+ 		}
+@@ -59,12 +59,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		FT_MOTION_RATE(FSM=1)
+ 	}
+ }
+ WorkModule__get_float(0, FIGHTER_PACKUN_STATUS_SPECIAL_N_WORK_FLOAT_SHOOT_START_SPIKEBALL_DISTANCE)
+ PostureModule__scale(0)
+-0x14b1c0(0, 40)
+-if(0x14b1c0()){
++0x14b1e0(0, 40)
++if(0x14b1e0()){
+ 	FT_MOTION_RATE(FSM=0.7)
+ 	frame(Frame=8)
+ 	if(is_excute){
+ 		ArticleModule__shoot_exist(FIGHTER_PACKUN_GENERATE_ARTICLE_SPIKEBALL, ARTICLE_OPE_TARGET_ALL, False)
+ 	}
+@@ -86,12 +86,12 @@ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_PACKUN_STATUS_SPECIAL_N_FLAG_SHOOT_BLOW_SPIKEBALL)
+ }
+ else{
+ 	WorkModule__get_float(FIGHTER_PACKUN_STATUS_SPECIAL_N_WORK_FLOAT_SHOOT_START_SPIKEBALL_DISTANCE)
+ 	PostureModule__scale(0)
+-	0x14b1c0(0, 50)
+-	if(0x14b1c0()){
++	0x14b1e0(0, 50)
++	if(0x14b1e0()){
+ 		FT_MOTION_RATE(FSM=0.9)
+ 		frame(Frame=10)
+ 		if(is_excute){
+ 			search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR, 0)
+ 		}
+@@ -111,12 +111,12 @@ else{
+ 			WorkModule__off_flag(Flag=FIGHTER_PACKUN_STATUS_SPECIAL_N_FLAG_SHOOT_BLOW_SPIKEBALL)
+ 		}
+ 		else{
+ 			WorkModule__get_float(FIGHTER_PACKUN_STATUS_SPECIAL_N_WORK_FLOAT_SHOOT_START_SPIKEBALL_DISTANCE)
+ 			PostureModule__scale(0)
+-			0x14b1c0(0, 100)
+-			if(0x14b1c0()){
++			0x14b1e0(0, 100)
++			if(0x14b1e0()){
+ 				FT_MOTION_RATE(FSM=1.2)
+ 				frame(Frame=10)
+ 				if(is_excute){
+ 					search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR, 0)
+ 				}

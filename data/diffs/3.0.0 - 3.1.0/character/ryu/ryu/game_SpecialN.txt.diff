@@ -1,0 +1,21 @@
+diff --git "a/0.0/ryu/game_SpecialN.txt" "b/1.0/ryu/game_SpecialN.txt"
+index f8e475d..84462ca 100644
+--- "a/0.0/ryu/game_SpecialN.txt"
++++ "b/1.0/ryu/game_SpecialN.txt"
+@@ -1,13 +1,16 @@
++wait(Frames=1)
++FT_MOTION_RATE(FSM=0.916)
+ frame(Frame=10)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_N_FLAG_SPECIAL_FALL)
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_N_FLAG_SHOOT)
+ }
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=14)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)
+ }
+ frame(Frame=22)

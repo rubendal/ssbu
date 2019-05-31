@@ -1,0 +1,12 @@
+diff --git "a/.0.0/pitb/game_SpecialAirSEnd.txt" "b/.1.0/pitb/game_SpecialAirSEnd.txt"
+index 6d14fae..39e53a4 100644
+--- "a/.0.0/pitb/game_SpecialAirSEnd.txt"
++++ "b/.1.0/pitb/game_SpecialAirSEnd.txt"
+@@ -12,5 +12,7 @@ if(is_excute){
+ frame(Frame=6)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	shield(MA_MSC_CMD_SHIELD_OFF, COLLISION_KIND_REFLECTOR, FIGHTER_PIT_REFLECTOR_KIND_SPECIAL_S, FIGHTER_PIT_REFLECTOR_GROUP_SPECIAL_S)
+ }
++frame(Frame=22)
++FT_MOTION_RATE(FSM=0.83)

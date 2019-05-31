@@ -1,0 +1,14 @@
+diff --git "a/to_3.0.0/murabito/game_AttackS4.txt" "b/to_3.1.0/murabito/game_AttackS4.txt"
+index 356ecf3..135a60a 100644
+--- "a/to_3.0.0/murabito/game_AttackS4.txt"
++++ "b/to_3.1.0/murabito/game_AttackS4.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=2)
+ if(is_excute){
+-	ArticleModule__generate_article(FIGHTER_MURABITO_GENERATE_ARTICLE_BOWLING_BALL, False)
++	ArticleModule__generate_article_enable(FIGHTER_MURABITO_GENERATE_ARTICLE_BOWLING_BALL, False)
+ }
+ frame(Frame=17)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }

@@ -1,0 +1,24 @@
+diff --git "a/u_3.0.0/pikachu/game_Catch.txt" "b/u_3.1.0/pikachu/game_Catch.txt"
+index f1b3c8a..ea23d73 100644
+--- "a/u_3.0.0/pikachu/game_Catch.txt"
++++ "b/u_3.1.0/pikachu/game_Catch.txt"
+@@ -1,13 +1,17 @@
++frame(Frame=4)
++if(is_excute){
++	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 3.5)
++}
+ frame(Frame=6)
+ if(is_excute){
+ 	GrabModule__set_rebound(CanCatchRebound=True)
+ }
+ frame(Frame=7)
+ if(is_excute){
+-	CATCH(ID=0, Bone=top, Size=3.1, X=0.0, Y=5.0, Z=4.0, X2=0.0, Y2=5.0, Z2=7.4, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
+-	CATCH(ID=1, Bone=top, Size=1.55, X=0.0, Y=5.0, Z=2.45, X2=0.0, Y2=5.0, Z2=8.95, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_A)
++	CATCH(ID=0, Bone=top, Size=4.0, X=0.0, Y=5.9, Z=4.9, X2=0.0, Y2=5.9, Z2=7.9, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
++	CATCH(ID=1, Bone=top, Size=2.0, X=0.0, Y=5.9, Z=2.9, X2=0.0, Y2=5.9, Z2=9.9, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_A)
+ }
+ game_CaptureCutCommon()
+ wait(Frames=2)
+ if(is_excute){
+ 	grab(MA_MSC_CMD_GRAB_CLEAR_ALL)

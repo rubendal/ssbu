@@ -1,0 +1,17 @@
+diff --git "a/o_3.0.0/lucario/game_AttackS3.txt" "b/o_3.1.0/lucario/game_AttackS3.txt"
+index e4cc039..3af1eb6 100644
+--- "a/o_3.0.0/lucario/game_AttackS3.txt"
++++ "b/o_3.1.0/lucario/game_AttackS3.txt"
+@@ -2,11 +2,11 @@ frame(Frame=12)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=80, KBG=100, FKB=20, BKB=0, Size=4.0, X=0.0, Y=6.0, Z=8.5, X2=0.0, Y2=6.0, Z2=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_LUCARIO, Type=ATTACK_REGION_PUNCH)
+ }
+ frame(Frame=15)
+ if(is_excute){
+-	ATTACK(ID=0, Part=1, Bone=top, Damage=6.0, Angle=361, KBG=95, FKB=0, BKB=50, Size=3.0, X=0.0, Y=6.0, Z=14.0, X2=0.0, Y2=6.0, Z2=5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_LUCARIO, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=1, Bone=top, Damage=6.0, Angle=361, KBG=98, FKB=0, BKB=54, Size=3.0, X=0.0, Y=6.0, Z=14.0, X2=0.0, Y2=6.0, Z2=5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_LUCARIO, Type=ATTACK_REGION_PUNCH)
+ }
+ frame(Frame=17)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

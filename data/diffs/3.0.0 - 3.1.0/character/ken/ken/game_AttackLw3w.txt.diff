@@ -1,0 +1,18 @@
+diff --git "a/0.0/ken/game_AttackLw3w.txt" "b/1.0/ken/game_AttackLw3w.txt"
+index 311d239..6e917b7 100644
+--- "a/0.0/ken/game_AttackLw3w.txt"
++++ "b/1.0/ken/game_AttackLw3w.txt"
+@@ -12,10 +12,13 @@ frame(Frame=2)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=1.6, Angle=65, KBG=100, FKB=9, BKB=0, Size=3.5, X=0.0, Y=3.0, Z=9.0, Hitlag=1.9, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=1.6, Angle=65, KBG=100, FKB=11, BKB=0, Size=2.8, X=0.0, Y=3.3, Z=11.5, Hitlag=1.9, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=2, Part=0, Bone=top, Damage=1.6, Angle=60, KBG=100, FKB=5, BKB=0, Size=2.5, X=0.0, Y=1.5, Z=13.2, Hitlag=1.9, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_KICK)
+ 	AttackModule__set_attack_height_all(ATTACK_HEIGHT_LOW, False)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=1, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=1, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=2, Frames=1, Unk=False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	WorkModule__off_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)

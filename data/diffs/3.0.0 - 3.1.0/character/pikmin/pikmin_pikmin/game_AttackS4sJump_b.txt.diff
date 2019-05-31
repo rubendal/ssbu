@@ -1,0 +1,23 @@
+diff --git "a/_3.0.0/pikmin_pikmin/game_AttackS4sJump_b.txt" "b/_3.1.0/pikmin_pikmin/game_AttackS4sJump_b.txt"
+index 61cb99e..8376726 100644
+--- "a/_3.0.0/pikmin_pikmin/game_AttackS4sJump_b.txt"
++++ "b/_3.1.0/pikmin_pikmin/game_AttackS4sJump_b.txt"
+@@ -1,15 +1,15 @@
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=head1, Damage=14.5, Angle=361, KBG=94, FKB=0, BKB=33, Size=4.0, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=-7.2, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PIKMIN)
+ }
+-wait(Frames=4)
++wait(Frames=2)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=head1, Damage=10.0, Angle=361, KBG=94, FKB=0, BKB=33, Size=3.0, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=-5, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PIKMIN)
+ }
+-wait(Frames=6)
++wait(Frames=7)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=head1, Damage=6.0, Angle=361, KBG=94, FKB=0, BKB=33, Size=3.0, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=-3, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PIKMIN)
+ }
+-wait(Frames=9)
++wait(Frames=10)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

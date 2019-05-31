@@ -1,0 +1,12 @@
+diff --git "a/3.0.0/kirby/game_Win2.txt" "b/3.1.0/kirby/game_Win2.txt"
+index 1c9db62..4a14d2f 100644
+--- "a/3.0.0/kirby/game_Win2.txt"
++++ "b/3.1.0/kirby/game_Win2.txt"
+@@ -1,6 +1,6 @@
+-0x451cd0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
++0x452170(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
+ 	ArticleModule__generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, 0x057c43857a)
+ 	ArticleModule__change_motion()

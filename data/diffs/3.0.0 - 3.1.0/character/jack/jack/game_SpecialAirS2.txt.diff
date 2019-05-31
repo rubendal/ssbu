@@ -1,0 +1,15 @@
+diff --git "a/.0.0/jack/game_SpecialAirS2.txt" "b/.1.0/jack/game_SpecialAirS2.txt"
+index e53bb23..71d01f9 100644
+--- "a/.0.0/jack/game_SpecialAirS2.txt"
++++ "b/.1.0/jack/game_SpecialAirS2.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48192)
++	WorkModule__on_flag(Flag=48208)
+ }
+ frame(Frame=32)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48188)
++	WorkModule__on_flag(Flag=48204)
+ }

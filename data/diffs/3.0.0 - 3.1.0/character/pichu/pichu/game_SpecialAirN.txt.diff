@@ -1,0 +1,13 @@
+diff --git "a/3.0.0/pichu/game_SpecialAirN.txt" "b/3.1.0/pichu/game_SpecialAirN.txt"
+index d89449d..d5e6609 100644
+--- "a/3.0.0/pichu/game_SpecialAirN.txt"
++++ "b/3.1.0/pichu/game_SpecialAirN.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=18)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_PICHU_GENERATE_ARTICLE_DENGEKIDAMA)
+ }
+ if(is_excute){
+-	FT_ADD_DAMAGE(SelfDamage=0.4)
++	FT_ADD_DAMAGE(SelfDamage=0.7)
+ }

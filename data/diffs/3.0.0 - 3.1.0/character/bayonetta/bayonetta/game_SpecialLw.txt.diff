@@ -1,0 +1,28 @@
+diff --git "a/tta_3.0.0/bayonetta/game_SpecialLw.txt" "b/tta_3.1.0/bayonetta/game_SpecialLw.txt"
+index acac0ff..38d573e 100644
+--- "a/tta_3.0.0/bayonetta/game_SpecialLw.txt"
++++ "b/tta_3.1.0/bayonetta/game_SpecialLw.txt"
+@@ -5,20 +5,20 @@ if(is_excute){
+ frame(Frame=8)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME)
+ 	SEARCH(0, 0, top, 11.5, -2.0, 10.0, 0.0, COLLISION_KIND_MASK_ATTACK, HIT_STATUS_MASK_ALL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_FIEB, COLLISION_PART_MASK_BODY_HEAD, False)
+ }
+-frame(Frame=18)
++frame(Frame=24)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2ea0f68425, True)
+ }
+-frame(Frame=22)
++frame(Frame=28)
+ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME)
+ 	search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR_ALL)
+ }
+-frame(Frame=30)
++frame(Frame=36)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2ea0f68425, False)
+ }
+ frame(Frame=44)
+ if(is_excute){

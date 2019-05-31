@@ -1,0 +1,13 @@
+diff --git "a/3.0.0/pichu/game_SpecialLwHit.txt" "b/3.1.0/pichu/game_SpecialLwHit.txt"
+index c6b68e3..08048f5 100644
+--- "a/3.0.0/pichu/game_SpecialLwHit.txt"
++++ "b/3.1.0/pichu/game_SpecialLwHit.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	FT_ADD_DAMAGE(SelfDamage=3)
++	FT_ADD_DAMAGE(SelfDamage=3.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=14.0, Angle=361, KBG=65, FKB=0, BKB=90, Size=11.0, X=0.0, Y=10.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=2, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()

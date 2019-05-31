@@ -1,0 +1,17 @@
+diff --git "a/.0.0/link/game_Final.txt" "b/.1.0/link/game_Final.txt"
+index 667006d..58e8121 100644
+--- "a/.0.0/link/game_Final.txt"
++++ "b/.1.0/link/game_Final.txt"
+@@ -11,11 +11,11 @@ if(0x110420(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x110420(-1895538742, 1.8)
++			0x110420(-1158163650, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, -5, -2, 0)
+ 		}
+ 	}

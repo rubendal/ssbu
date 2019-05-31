@@ -1,0 +1,17 @@
+diff --git "a/o_3.0.0/lucario/game_Attack13.txt" "b/o_3.1.0/lucario/game_Attack13.txt"
+index 5bee8a7..ad0d715 100644
+--- "a/o_3.0.0/lucario/game_Attack13.txt"
++++ "b/o_3.1.0/lucario/game_Attack13.txt"
+@@ -1,9 +1,12 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=9)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=60, KBG=120, FKB=0, BKB=50, Size=5.5, X=0.0, Y=8.0, Z=4.5, Hitlag=1.6, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_LUCARIO, Type=ATTACK_REGION_PUNCH)
+ 	ATTACK(ID=1, Part=0, Bone=footr, Damage=3.0, Angle=60, KBG=120, FKB=0, BKB=50, Size=3.5, X=3.0, Y=0.0, Z=0.0, Hitlag=1.6, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_LUCARIO, Type=ATTACK_REGION_PUNCH)
+ }
+ wait(Frames=2)
++FT_MOTION_RATE(FSM=0.89)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

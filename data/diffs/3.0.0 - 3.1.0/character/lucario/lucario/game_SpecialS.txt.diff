@@ -1,0 +1,38 @@
+diff --git "a/o_3.0.0/lucario/game_SpecialS.txt" "b/o_3.1.0/lucario/game_SpecialS.txt"
+index d52069c..7555e8a 100644
+--- "a/o_3.0.0/lucario/game_SpecialS.txt"
++++ "b/o_3.1.0/lucario/game_SpecialS.txt"
+@@ -1,30 +1,25 @@
+ if(is_excute){
+-	JostleModule__set_status(False)
++	FighterAreaModuleImpl__enable_fix_jostle_area(2, 5)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=6.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	GrabModule__set_rebound(CanCatchRebound=True)
+ }
+ frame(Frame=9)
+ if(is_excute){
+-	CATCH(ID=0, Bone=top, Size=3.0, X=0.0, Y=6.0, Z=4.8, X2=0.0, Y2=6.0, Z2=1.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_GA)
+-	CATCH(ID=1, Bone=top, Size=3.0, X=0.0, Y=6.0, Z=6.5, X2=0.0, Y2=6.0, Z2=1.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
++	CATCH(ID=0, Bone=top, Size=3.0, X=0.0, Y=6.0, Z=5.3, X2=0.0, Y2=6.0, Z2=1.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_GA)
++	CATCH(ID=1, Bone=top, Size=3.0, X=0.0, Y=6.0, Z=7.4, X2=0.0, Y2=6.0, Z2=1.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	grab(MA_MSC_CMD_GRAB_CLEAR_ALL)
+ 	GrabModule__set_rebound(CanCatchRebound=False)
+-	JostleModule__set_status(True)
+ }
+ frame(Frame=24)
+ IS_GENERATABLE_ARTICLE(FIGHTER_LUCARIO_GENERATE_ARTICLE_QIGONG)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(False, True)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article(FIGHTER_LUCARIO_GENERATE_ARTICLE_QIGONG)
+ 	}
+ }
+-frame(0, 26)
+-if(is_excute){
+-	FighterAreaModuleImpl__enable_fix_jostle_area(5, 5)
+-}

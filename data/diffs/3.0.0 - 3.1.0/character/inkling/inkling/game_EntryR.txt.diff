@@ -1,0 +1,29 @@
+diff --git "a/g_3.0.0/inkling/game_EntryR.txt" "b/g_3.1.0/inkling/game_EntryR.txt"
+index bc9670d..a23cd7a 100644
+--- "a/g_3.0.0/inkling/game_EntryR.txt"
++++ "b/g_3.1.0/inkling/game_EntryR.txt"
+@@ -1,20 +1,20 @@
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41564), False, False)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41572), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule__motion_kind()
+ MotionModule__frame(0x00000002b0)
+-MotionModule__rate(-1649488654)
+-as_hash__const(-1649488654, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
++MotionModule__rate(-1063256669)
++as_hash__const(-1063256669, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ ArticleModule__change_motion()
+ if(is_excute){
+ 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+-	WorkModule__on_flag(Flag=41564)
++	WorkModule__on_flag(Flag=41572)
+ 	StatusModule__status_kind()
+ 	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
+ 	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
+ }
+ if(is_excute){

@@ -1,0 +1,20 @@
+diff --git "a/_3.0.0/wiifit/game_Attack11.txt" "b/_3.1.0/wiifit/game_Attack11.txt"
+index dc89471..bf9aa74 100644
+--- "a/_3.0.0/wiifit/game_Attack11.txt"
++++ "b/_3.1.0/wiifit/game_Attack11.txt"
+@@ -10,12 +10,14 @@ if(is_excute){
+ 	AttackModule__set_add_reaction_frame(ID=2, Frames=4, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=4, Frames=4, Unk=False)
+ }
+ wait(Frames=1)
+ if(is_excute){
+-	ATTACK(ID=6, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=30, FKB=0, BKB=20, Size=4.5, X=0.0, Y=7.0, Z=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=6, Part=0, Bone=top, Damage=2.0, Angle=180, KBG=30, FKB=0, BKB=20, Size=4.5, X=0.0, Y=7.0, Z=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=7, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=30, FKB=0, BKB=20, Size=4.5, X=0.0, Y=7.0, Z=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
+ 	AttackModule__set_add_reaction_frame(ID=6, Frames=4, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=7, Frames=4, Unk=False)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

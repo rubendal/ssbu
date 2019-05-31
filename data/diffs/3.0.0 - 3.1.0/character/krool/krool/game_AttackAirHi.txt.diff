@@ -1,0 +1,14 @@
+diff --git "a/3.0.0/krool/game_AttackAirHi.txt" "b/3.1.0/krool/game_AttackAirHi.txt"
+index fe15670..d174bac 100644
+--- "a/3.0.0/krool/game_AttackAirHi.txt"
++++ "b/3.1.0/krool/game_AttackAirHi.txt"
+@@ -27,5 +27,9 @@ if(is_excute){
+ }
+ frame(Frame=70)
+ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+ }
++frame(Frame=95)
++if(is_excute){
++	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
++}

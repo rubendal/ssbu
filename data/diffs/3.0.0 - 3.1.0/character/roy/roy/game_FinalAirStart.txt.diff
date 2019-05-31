@@ -1,0 +1,25 @@
+diff --git "a/0.0/roy/game_FinalAirStart.txt" "b/1.0/roy/game_FinalAirStart.txt"
+index 57078f1..531fa29 100644
+--- "a/0.0/roy/game_FinalAirStart.txt"
++++ "b/1.0/roy/game_FinalAirStart.txt"
+@@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x120150(8, 0)){
++if(0x120160(8, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x120150(249995008, 2)
++			0x120160(72285975, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(d04finalstart.nuanmb, False, False)

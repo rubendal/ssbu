@@ -1,0 +1,25 @@
+diff --git "a/3.0.0/simon/game_FinalStart.txt" "b/3.1.0/simon/game_FinalStart.txt"
+index b0e58e0..20cf2ad 100644
+--- "a/3.0.0/simon/game_FinalStart.txt"
++++ "b/3.1.0/simon/game_FinalStart.txt"
+@@ -8,18 +8,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x119820(40, 0)){
++if(0x119960(40, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x119820(785273144, 2.1)
++			0x119960(-2134431682, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(d04finalstart.nuanmb, False, False)

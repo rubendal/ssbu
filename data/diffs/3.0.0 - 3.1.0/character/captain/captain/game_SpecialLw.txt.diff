@@ -1,0 +1,26 @@
+diff --git "a/n_3.0.0/captain/game_SpecialLw.txt" "b/n_3.1.0/captain/game_SpecialLw.txt"
+index 4d36dd0..fefd419 100644
+--- "a/n_3.0.0/captain/game_SpecialLw.txt"
++++ "b/n_3.1.0/captain/game_SpecialLw.txt"
+@@ -5,18 +5,18 @@ if(is_excute){
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_CAPTAIN_STATUS_WORK_ID_FLAG_FALCON_KICK_WALL_CHECK)
+ }
+-wait(Frames=2)
++frame(Frame=19)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=legr, Damage=11.0, Angle=52, KBG=60, FKB=0, BKB=90, Size=3.2, X=10.0, Y=0.0, Z=0.0, X2=2.0, Y2=0.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ }
+-wait(Frames=8)
++frame(Frame=26)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=legr, Damage=7.0, Angle=46, KBG=65, FKB=0, BKB=80, Size=3.2, X=10.0, Y=0.0, Z=0.0, X2=2.0, Y2=0.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ }
+-wait(Frames=10)
++frame(Frame=36)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	JostleModule__set_status(True)
+ }

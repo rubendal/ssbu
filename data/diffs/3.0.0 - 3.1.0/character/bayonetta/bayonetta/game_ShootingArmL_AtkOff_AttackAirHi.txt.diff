@@ -1,0 +1,12 @@
+diff --git "a/tta_3.0.0/bayonetta/game_ShootingArmL_AtkOff_AttackAirHi.txt" "b/tta_3.1.0/bayonetta/game_ShootingArmL_AtkOff_AttackAirHi.txt"
+index 3f8e1fc..570c950 100644
+--- "a/tta_3.0.0/bayonetta/game_ShootingArmL_AtkOff_AttackAirHi.txt"
++++ "b/tta_3.1.0/bayonetta/game_ShootingArmL_AtkOff_AttackAirHi.txt"
+@@ -1,6 +1,6 @@
+-if(0x18fa00(WorkModule__is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), False, False)){
++if(0x190440(WorkModule__is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), False, False)){
+ 	if(is_excute){
+ 		AttackModule__clear(ID=FIGHTER_BAYONETTA_SHOOTING_ATTACK_ID_00)
+ 	}
+ 	else{
+ 	}

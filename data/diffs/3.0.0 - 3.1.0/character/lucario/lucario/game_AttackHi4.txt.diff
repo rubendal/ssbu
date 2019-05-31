@@ -1,0 +1,22 @@
+diff --git "a/o_3.0.0/lucario/game_AttackHi4.txt" "b/o_3.1.0/lucario/game_AttackHi4.txt"
+index 57ed675..eb8e9cb 100644
+--- "a/o_3.0.0/lucario/game_AttackHi4.txt"
++++ "b/o_3.1.0/lucario/game_AttackHi4.txt"
+@@ -1,12 +1,16 @@
+ frame(Frame=12)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
++frame(Frame=14)
++if(is_excute){
++	FighterAreaModuleImpl__enable_fix_jostle_area(3, 3)
++}
+ frame(Frame=15)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=91, KBG=100, FKB=100, BKB=28, Size=3.0, X=0.0, Y=7.0, Z=-5.0, X2=0.0, Y2=7.0, Z2=5.0, Hitlag=1.0, SDI=0.6, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=100, KBG=100, FKB=100, BKB=24, Size=3.0, X=0.0, Y=7.0, Z=-5.0, X2=0.0, Y2=7.0, Z2=5.0, Hitlag=0.7, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

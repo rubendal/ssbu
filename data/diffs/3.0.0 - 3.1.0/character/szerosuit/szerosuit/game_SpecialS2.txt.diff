@@ -1,0 +1,14 @@
+diff --git "a/uit_3.0.0/szerosuit/game_SpecialS2.txt" "b/uit_3.1.0/szerosuit/game_SpecialS2.txt"
+index bf8f4bd..51738b1 100644
+--- "a/uit_3.0.0/szerosuit/game_SpecialS2.txt"
++++ "b/uit_3.1.0/szerosuit/game_SpecialS2.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=31)
+ if(is_excute){
+-	ATTACK(ID=0, Part=5, Bone=top, Damage=4.0, Angle=107, KBG=62, FKB=0, BKB=98, Size=4.5, X=0.0, Y=8.0, Z=36.0, X2=0.0, Y2=8.0, Z2=36.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_WHIP)
++	ATTACK(ID=0, Part=5, Bone=top, Damage=4.0, Angle=107, KBG=62, FKB=0, BKB=98, Size=4.5, X=0.0, Y=8.0, Z=36.0, X2=0.0, Y2=8.0, Z2=33.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_WHIP)
+ 	AttackModule__set_add_reaction_frame(ID=0, Frames=4, Unk=False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()

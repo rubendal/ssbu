@@ -1,0 +1,13 @@
+diff --git "a/o_3.0.0/lucario_auraball/game_ChargeMax.txt" "b/o_3.1.0/lucario_auraball/game_ChargeMax.txt"
+index 58dacee..9d4ed75 100644
+--- "a/o_3.0.0/lucario_auraball/game_ChargeMax.txt"
++++ "b/o_3.1.0/lucario_auraball/game_ChargeMax.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=83, KBG=93, FKB=0, BKB=10, Size=2.0, X=0.0, Y=0.0, Z=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=83, KBG=93, FKB=0, BKB=10, Size=2.6, X=0.0, Y=0.0, Z=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13313725f6, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
