@@ -1,0 +1,14 @@
+diff --git "a/.0.0/wolf/game_SpecialHiHold.txt" "b/.1.0/wolf/game_SpecialHiHold.txt"
+index c4fef7b..054f4a7 100644
+--- "a/.0.0/wolf/game_SpecialHiHold.txt"
++++ "b/.1.0/wolf/game_SpecialHiHold.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=18)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=93, KBG=25, FKB=0, BKB=40, Size=7.0, X=0.0, Y=8.0, Z=1.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=93, KBG=10, FKB=0, BKB=50, Size=7.0, X=0.0, Y=8.0, Z=1.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ }
+ wait(Frames=4)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

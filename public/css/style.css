@@ -313,10 +313,20 @@ td{
 
 .imglabel{
     position:absolute;
-    right:20px;
-    bottom:20px;
+    right:10px;
+    bottom:10px;
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 1.8rem;
+    -webkit-text-stroke: 1px #000000;
+    font-weight: 800;
+}
+
+.imgstagelabel{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    color: #ffffff;
+    font-size: 1.8rem;
     -webkit-text-stroke: 1px #000000;
     font-weight: 800;
 }
@@ -561,6 +571,26 @@ input[type="checkbox"] {
         color: #ffffff;
         font-size: 1.5rem;
         -webkit-text-stroke: 1px #000000;
+        font-weight: 800;
+    }
+
+    .imglabel{
+        position:absolute;
+        right:10px;
+        bottom:10px;
+        color: #ffffff;
+        font-size: 11px;
+        -webkit-text-stroke: 0.5px #000000;
+        font-weight: 800;
+    }
+    
+    .imgstagelabel{
+        position:absolute;
+        right:10px;
+        bottom:10px;
+        color: #ffffff;
+        font-size: 11px;
+        -webkit-text-stroke: 0.5px #000000;
         font-weight: 800;
     }
     

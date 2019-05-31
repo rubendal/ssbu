@@ -1,0 +1,16 @@
+diff --git "a/_3.0.0/dedede/game_SpecialNShotObjectSWallow.txt" "b/_3.1.0/dedede/game_SpecialNShotObjectSWallow.txt"
+index 43d1772..02348de 100644
+--- "a/_3.0.0/dedede/game_SpecialNShotObjectSWallow.txt"
++++ "b/_3.1.0/dedede/game_SpecialNShotObjectSWallow.txt"
+@@ -1,10 +1,10 @@
+ FT_MOTION_RATE(FSM=0.6)
+ frame(Frame=4)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x148400(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148460(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }

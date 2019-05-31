@@ -1,0 +1,12 @@
+diff --git "a/0.0/fox/game_LandingAirF.txt" "b/1.0/fox/game_LandingAirF.txt"
+index 1683d79..3040cb8 100644
+--- "a/0.0/fox/game_LandingAirF.txt"
++++ "b/1.0/fox/game_LandingAirF.txt"
+@@ -1,6 +1,6 @@
+-if(0x10cd30(WorkModule__is_flag(FIGHTER_FOX_STATUS_ATTACK_AIR_FLAG_LANDING_DISABLE_ATTACK), False, True)){
++if(0x10cd90(WorkModule__is_flag(FIGHTER_FOX_STATUS_ATTACK_AIR_FLAG_LANDING_DISABLE_ATTACK), False, True)){
+ 	if(is_excute){
+ 		AttackModule__clear_all()
+ 	}
+ }
+ else{

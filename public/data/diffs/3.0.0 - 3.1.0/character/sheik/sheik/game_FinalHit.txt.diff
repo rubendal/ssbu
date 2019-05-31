@@ -1,0 +1,31 @@
+diff --git "a/3.0.0/sheik/game_FinalHit.txt" "b/3.1.0/sheik/game_FinalHit.txt"
+index 55162e7..3d9b72c 100644
+--- "a/3.0.0/sheik/game_FinalHit.txt"
++++ "b/3.1.0/sheik/game_FinalHit.txt"
+@@ -1,13 +1,13 @@
+ PostureModule__scale()
+-if(0x106a60(-1121623126, 1.4)){
++if(0x106a60(951824373, 1.4)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=70, Size=12.0, X=0.0, Y=6.0, Z=0.0, X2=0.0, Y2=6.0, Z2=9.0, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(0x106a60(-1121623126, 0.5)){
++		if(0x106a60(951824373, 0.5)){
+ 			if(is_excute){
+ 				ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=70, Size=12.0, X=0.0, Y=6.0, Z=-10.0, X2=0.0, Y2=6.0, Z2=15.0, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 			}
+ 			else{
+ 				if(is_excute){
+@@ -22,9 +22,9 @@ if(is_excute){
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	PostureModule__scale(10, 0)
+-	0x106a60(-1121623126, 1.8)
++	0x106a60(951824373, 1.8)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ 	camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 5)
+ }

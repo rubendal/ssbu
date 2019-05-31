@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/pichu/game_AttackLw4.txt" "b/3.1.0/pichu/game_AttackLw4.txt"
+index 46ed324..c50cc97 100644
+--- "a/3.0.0/pichu/game_AttackLw4.txt"
++++ "b/3.1.0/pichu/game_AttackLw4.txt"
+@@ -4,11 +4,11 @@ if(is_excute){
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4, 2)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=1.5, Angle=173, KBG=30, FKB=0, BKB=65, Size=4.5, X=0.0, Y=4.0, Z=9.0, X2=0.0, Y2=4.0, Z2=-5.5, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_BODY)
+-	FT_ADD_DAMAGE(SelfDamage=0.8)
++	FT_ADD_DAMAGE(SelfDamage=1.3)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

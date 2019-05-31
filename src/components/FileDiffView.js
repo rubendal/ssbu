@@ -18,7 +18,7 @@ class FileDiffView extends Component {
 
     var ref = this;
 
-    axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/diff/" + this.state.file.DiffPath).then(function(res){
+    axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/character/" + this.state.file.DiffPath).then(function(res){
         var data = res.data;
   
         ref.setState(prevState => 
@@ -49,7 +49,7 @@ class FileDiffView extends Component {
   componentDidUpdate(prevState){
     if(prevState.file !== this.state.file || prevState.diff !== this.state.diff){
         var ref = this;
-        axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/diff/" + this.state.file.DiffPath).then(function(res){
+        axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + "/character/" + this.state.file.DiffPath).then(function(res){
             var data = res.data;
     
             ref.setState(prevState => 

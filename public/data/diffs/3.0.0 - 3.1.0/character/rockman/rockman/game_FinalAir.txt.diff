@@ -1,0 +1,27 @@
+diff --git "a/n_3.0.0/rockman/game_FinalAir.txt" "b/n_3.1.0/rockman/game_FinalAir.txt"
+index e3cafa9..6988f1f 100644
+--- "a/n_3.0.0/rockman/game_FinalAir.txt"
++++ "b/n_3.1.0/rockman/game_FinalAir.txt"
+@@ -1,20 +1,20 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(3, 30)
+ }
+-if(0xf4080(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0xf40f0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(30)
+ 		REQ_FINAL_START_CAMERA(d04final.nuanmb, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0xf4080(919138380, 2.1)
++			0xf40f0(-220111528, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

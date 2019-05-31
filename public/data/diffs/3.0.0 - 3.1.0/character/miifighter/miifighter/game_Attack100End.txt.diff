@@ -1,0 +1,16 @@
+diff --git "a/hter_3.0.0/miifighter/game_Attack100End.txt" "b/hter_3.1.0/miifighter/game_Attack100End.txt"
+index 88ce339..09b93c6 100644
+--- "a/hter_3.0.0/miifighter/game_Attack100End.txt"
++++ "b/hter_3.1.0/miifighter/game_Attack100End.txt"
+@@ -4,10 +4,11 @@ if(is_excute){
+ wait(Frames=4)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=kneel, Damage=2.0, Angle=45, KBG=130, FKB=0, BKB=65, Size=3.5, X=-2.0, Y=0.0, Z=0.0, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=1, Part=0, Bone=kneel, Damage=2.0, Angle=45, KBG=130, FKB=0, BKB=65, Size=3.5, X=2.0, Y=0.0, Z=-0.5, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=2, Part=0, Bone=kneel, Damage=2.0, Angle=45, KBG=130, FKB=0, BKB=65, Size=3.5, X=5.5, Y=0.0, Z=-1.0, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=3, Part=0, Bone=top, Damage=2.0, Angle=45, KBG=130, FKB=0, BKB=65, Size=3.5, X=0.0, Y=7.0, Z=11.8, Hitlag=3.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

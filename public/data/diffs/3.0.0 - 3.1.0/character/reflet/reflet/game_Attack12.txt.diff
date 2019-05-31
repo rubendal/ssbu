@@ -1,0 +1,17 @@
+diff --git "a/_3.0.0/reflet/game_Attack12.txt" "b/_3.1.0/reflet/game_Attack12.txt"
+index 29641cc..0a75575 100644
+--- "a/_3.0.0/reflet/game_Attack12.txt"
++++ "b/_3.1.0/reflet/game_Attack12.txt"
+@@ -15,11 +15,11 @@ if(0x141d30(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_SPECIAL_HI_CURRENT_POINT, 1)){
+ 		WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_ENABLE_100)
+ 	}
+ }
+ frame(Frame=8)
+ WorkModule__get_float(FIGHTER_REFLET_INSTANCE_WORK_ID_FLOAT_SPECIAL_S_CURRENT_POINT)
+-if(0x141d30(-1421615474, 0.1)){
++if(0x141d30(1580931973, 0.1)){
+ 	if(is_excute){
+ 		WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_ENABLE_COMBO)
+ 	}
+ }
+ frame(Frame=10)

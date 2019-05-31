@@ -1,0 +1,12 @@
+diff --git "a/_3.0.0/donkey/game_SpecialNMax.txt" "b/_3.1.0/donkey/game_SpecialNMax.txt"
+index 49e5915..d9ade8f 100644
+--- "a/_3.0.0/donkey/game_SpecialNMax.txt"
++++ "b/_3.1.0/donkey/game_SpecialNMax.txt"
+@@ -1,6 +1,7 @@
+ frame(Frame=11)
++execute(11)
+ if(is_excute){
+ 	damage(MA_MSC_DAMAGE_DAMAGE_NO_REACTION, DAMAGE_NO_REACTION_MODE_ALWAYS, 0)
+ }
+ frame(Frame=19)
+ if(is_excute){

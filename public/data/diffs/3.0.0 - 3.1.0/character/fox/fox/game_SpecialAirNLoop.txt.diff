@@ -1,0 +1,17 @@
+diff --git "a/0.0/fox/game_SpecialAirNLoop.txt" "b/1.0/fox/game_SpecialAirNLoop.txt"
+index 247769b..996b5c4 100644
+--- "a/0.0/fox/game_SpecialAirNLoop.txt"
++++ "b/1.0/fox/game_SpecialAirNLoop.txt"
+@@ -5,11 +5,11 @@ if(is_excute){
+ frame(Frame=4)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER_BULLET)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10cd30(False, True)){
++if(0x10cd90(False, True)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, loop)
+ 		ArticleModule__change_motion()
+ 	}
+ }

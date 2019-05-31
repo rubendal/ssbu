@@ -1,0 +1,29 @@
+diff --git "a/0.0/ken/game_AttackCommand1.txt" "b/1.0/ken/game_AttackCommand1.txt"
+index 6f67c82..df9292a 100644
+--- "a/0.0/ken/game_AttackCommand1.txt"
++++ "b/1.0/ken/game_AttackCommand1.txt"
+@@ -1,22 +1,21 @@
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)
+ }
+ frame(Frame=12)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=75, KBG=80, FKB=0, BKB=10, Size=4.0, X=0.0, Y=13.5, Z=6.5, X2=0.0, Y2=8.5, Z2=6.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=10, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=75, KBG=80, FKB=0, BKB=10, Size=4.0, X=0.0, Y=13.5, Z=6.5, X2=0.0, Y2=8.5, Z2=6.0, Hitlag=1.5, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=10, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_PUNCH)
+ 	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_ATTACK_FLAG_BRANCH)
+ }
+-frame(Frame=14)
+ frame(Frame=15)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=63, KBG=30, FKB=0, BKB=40, Size=3.5, X=0.0, Y=6.0, Z=7.0, X2=0.0, Y2=17.799999, Z2=9.5, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=10, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=63, KBG=30, FKB=0, BKB=40, Size=3.5, X=0.0, Y=6.0, Z=7.0, X2=0.0, Y2=17.799999, Z2=9.5, Hitlag=1.5, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=10, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KEN_KICK, Type=ATTACK_REGION_PUNCH)
+ }
+ frame(Frame=17)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	WorkModule__off_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)

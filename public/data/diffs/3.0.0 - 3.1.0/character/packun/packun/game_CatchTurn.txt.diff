@@ -1,0 +1,19 @@
+diff --git "a/_3.0.0/packun/game_CatchTurn.txt" "b/_3.1.0/packun/game_CatchTurn.txt"
+index d732fcb..4645dee 100644
+--- "a/_3.0.0/packun/game_CatchTurn.txt"
++++ "b/_3.1.0/packun/game_CatchTurn.txt"
+@@ -2,12 +2,12 @@ frame(Frame=8)
+ if(is_excute){
+ 	GrabModule__set_rebound(CanCatchRebound=True)
+ }
+ frame(Frame=9)
+ if(is_excute){
+-	CATCH(ID=0, Bone=top, Size=3.3, X=0.0, Y=1449984, Z=-4.0, X2=0.0, Y2=1449984, Z2=-14.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
+-	CATCH(ID=1, Bone=top, Size=1.65, X=0.0, Y=1449984, Z=-2.35, X2=0.0, Y2=1449984, Z2=-15.65, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_A)
++	CATCH(ID=0, Bone=top, Size=3.3, X=0.0, Y=6.6, Z=-4.0, X2=0.0, Y2=6.6, Z2=-14.0, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_G)
++	CATCH(ID=1, Bone=top, Size=1.65, X=0.0, Y=6.6, Z=-2.35, X2=0.0, Y2=6.6, Z2=-15.65, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground/Air=COLLISION_SITUATION_MASK_A)
+ }
+ game_CaptureCutCommon()
+ wait(Frames=2)
+ if(is_excute){
+ 	grab(MA_MSC_CMD_GRAB_CLEAR_ALL)

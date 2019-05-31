@@ -1,0 +1,21 @@
+diff --git "a/gisou_3.0.0/pfushigisou/game_SpecialNStart.txt" "b/gisou_3.1.0/pfushigisou/game_SpecialNStart.txt"
+index f328abd..3bd2144 100644
+--- "a/gisou_3.0.0/pfushigisou/game_SpecialNStart.txt"
++++ "b/gisou_3.1.0/pfushigisou/game_SpecialNStart.txt"
+@@ -2,13 +2,13 @@ frame(Frame=3)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=5)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=8)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=105, KBG=100, FKB=110, BKB=0, Size=5.0, X=0.0, Y=4.5, Z=1.2, X2=0.0, Y2=4.5, Z2=-1.2, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=110, BKB=0, Size=5.5, X=0.0, Y=4.5, Z=-8.0, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
+-	ATTACK(ID=2, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=110, BKB=0, Size=5.5, X=0.0, Y=4.5, Z=8.0, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=105, KBG=100, FKB=100, BKB=0, Size=5.0, X=0.0, Y=4.5, Z=1.2, X2=0.0, Y2=4.5, Z2=-1.2, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=100, BKB=0, Size=5.5, X=0.0, Y=4.5, Z=-8.0, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=2, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=100, BKB=0, Size=5.5, X=0.0, Y=4.5, Z=8.0, Hitlag=1.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

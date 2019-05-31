@@ -1,0 +1,22 @@
+diff --git "a/0.0/pit/game_AttackHi4.txt" "b/1.0/pit/game_AttackHi4.txt"
+index 2d51e8e..42470ff 100644
+--- "a/0.0/pit/game_AttackHi4.txt"
++++ "b/1.0/pit/game_AttackHi4.txt"
+@@ -12,15 +12,15 @@ if(is_excute){
+ 	as_hash__const(3, top, 0, 24.5, 10)
+ 	AttackModule__set_vec_target_pos()
+ }
+ wait(Frames=1)
+ if(is_excute){
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=140, BKB=0, Size=4.0, X=0.0, Y=14.0, Z=10.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PALUTENA)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=110, KBG=100, FKB=140, BKB=0, Size=4.0, X=0.0, Y=14.0, Z=10.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PALUTENA)
++	ATTACK(ID=4, Part=0, Bone=top, Damage=3.0, Angle=123, KBG=100, FKB=140, BKB=0, Size=4.0, X=0.0, Y=14.0, Z=10.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PALUTENA)
+ 	AttackModule__clear(ID=0)
+ 	AttackModule__clear(ID=2)
+ 	AttackModule__clear(ID=3)
+-	AttackModule__clear(ID=4)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

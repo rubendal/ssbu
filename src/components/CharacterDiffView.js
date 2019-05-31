@@ -19,7 +19,7 @@ class CharacterDiffView extends Component {
 
     var ref = this;
 
-    axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + '/character/' + this.state.character + '/diffs.json')
+    axios.get(process.env.PUBLIC_URL + '/data/diffs/' + this.state.diff + '/diffs/' + this.state.character + '/diffs.json')
     .then(function(res){
         var data = res.data;
 
@@ -85,7 +85,7 @@ class CharacterDiffView extends Component {
         <h2 id="character-name">{this.state.characterName}</h2>
         <h4 className="diff-version-label">{this.state.diff.replace(" - ", " → ")}</h4>
 
-        <img id="character-image" src={require("../assets/img/renders/" + this.state.characterName.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png")} alt={this.state.data.Name} />
+        <img id="character-image" src={require("../assets/img/renders/" + this.state.characterName.toLowerCase().replace(/\./g,"").replace(/& /g, "").replace("and ","") + ".png")} alt={this.state.data.Name} />
 
         <div id="related">
             <h4>Related sites</h4>

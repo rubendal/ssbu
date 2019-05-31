@@ -1,0 +1,21 @@
+diff --git "a/don_3.0.0/plizardon/game_Attack12.txt" "b/don_3.1.0/plizardon/game_Attack12.txt"
+index 3e16181..d4c0027 100644
+--- "a/don_3.0.0/plizardon/game_Attack12.txt"
++++ "b/don_3.1.0/plizardon/game_Attack12.txt"
+@@ -1,10 +1,15 @@
++frame(Frame=3)
++if(is_excute){
++	KineticModule__add_speed(0.72, 0, 0.0)
++}
+ frame(Frame=5)
+ if(is_excute){
++	KineticModule__add_speed(-0.5, 0, 0.0)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.5, Angle=361, KBG=30, FKB=0, BKB=20, Size=2.8, X=0.0, Y=8.0, Z=5.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PUNCH)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=2.5, Angle=361, KBG=28, FKB=0, BKB=20, Size=2.8, X=0.0, Y=8.0, Z=9.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PUNCH)
+-	ATTACK(ID=2, Part=0, Bone=top, Damage=2.5, Angle=361, KBG=25, FKB=0, BKB=20, Size=3.2, X=0.0, Y=8.0, Z=13.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=2, Part=0, Bone=top, Damage=2.5, Angle=361, KBG=25, FKB=0, BKB=20, Size=3.2, X=0.0, Y=8.0, Z=13.0, X2=0.0, Y2=8.0, Z2=15.5, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PUNCH)
+ 	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=2, Frames=2, Unk=False)
+ }
+ wait(Frames=2)

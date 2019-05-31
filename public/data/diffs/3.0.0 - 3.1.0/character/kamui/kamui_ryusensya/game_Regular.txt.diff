@@ -1,0 +1,14 @@
+diff --git "a/3.0.0/kamui_ryusensya/game_Regular.txt" "b/3.1.0/kamui_ryusensya/game_Regular.txt"
+index cd7517d..28c554c 100644
+--- "a/3.0.0/kamui_ryusensya/game_Regular.txt"
++++ "b/3.1.0/kamui_ryusensya/game_Regular.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=45, KBG=90, FKB=0, BKB=20, Size=5.0, X=0.0, Y=0.0, Z=0.0, Hitlag=0.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_paralyze, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=9.0, Angle=45, KBG=90, FKB=0, BKB=30, Size=5.0, X=0.0, Y=0.0, Z=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_paralyze, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 	attack(MA_MSC_CMD_ATTACK_SET_LERP, 0, 1)
+ 	WorkModule__get_float(WEAPON_KAMUI_RYUSENSYA_INSTANCE_WORK_ID_FLOAT_HOLD_RATE)
+-	ATK_LERP_RATIO(-1767785219)
++	ATK_LERP_RATIO(-1311087587)
+ 	AttackModule__enable_safe_pos()
+ }

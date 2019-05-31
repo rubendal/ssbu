@@ -56,7 +56,7 @@ class CharacterDiffList extends Component {
             <span className="character-span" key={character}>
               <a href={this.path + character}>
                     <img className={`character-list ${character.toLowerCase().replace(/ /g,"-").replace(/\./g,"").replace("&","and")}`}
-                    src={require("../assets/img/characters/" + character.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png")} alt={character} />
+                    src={require("../assets/img/characters/" + character.toLowerCase().replace(/\./g,"").replace(/& /g, "").replace("and ","") + ".png")} alt={character} />
                 </a>
             </span>
             )

@@ -1,0 +1,23 @@
+diff --git "a/n_3.0.0/rockman/game_SpecialAirN.txt" "b/n_3.1.0/rockman/game_SpecialAirN.txt"
+index ecbdf92..6e1c08b 100644
+--- "a/n_3.0.0/rockman/game_SpecialAirN.txt"
++++ "b/n_3.1.0/rockman/game_SpecialAirN.txt"
+@@ -1,16 +1,16 @@
+ frame(Frame=7)
+-if(0xf4080(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
++if(0xf40f0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article_enable(FIGHTER_ROCKMAN_GENERATE_ARTICLE_METALBLADE)
+ 	}
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_STICK_CHECK_FRAME_END)
+ }
+ frame(Frame=16)
+-if(0xf4080(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
++if(0xf40f0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__shoot_exist(FIGHTER_ROCKMAN_GENERATE_ARTICLE_METALBLADE, ARTICLE_OPE_TARGET_ALL, False)
+ 	}
+ }

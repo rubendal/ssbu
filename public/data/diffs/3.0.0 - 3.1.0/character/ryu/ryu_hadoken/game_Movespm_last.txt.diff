@@ -1,0 +1,13 @@
+diff --git "a/0.0/ryu_hadoken/game_Movespm_last.txt" "b/1.0/ryu_hadoken/game_Movespm_last.txt"
+index 3bb2590..5d4cbfe 100644
+--- "a/0.0/ryu_hadoken/game_Movespm_last.txt"
++++ "b/1.0/ryu_hadoken/game_Movespm_last.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=3)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=55, KBG=60, FKB=0, BKB=60, Size=5.0, X=0.0, Y=0.0, Z=-1.0, Hitlag=1.5, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_ENERGY)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=7.3, Angle=55, KBG=60, FKB=0, BKB=60, Size=5.0, X=0.0, Y=0.0, Z=-1.0, Hitlag=1.5, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_ENERGY)
+ }

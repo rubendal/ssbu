@@ -1,0 +1,22 @@
+diff --git "a/tta_3.0.0/bayonetta/game_Attack11.txt" "b/tta_3.1.0/bayonetta/game_Attack11.txt"
+index fe744b9..38d3c85 100644
+--- "a/tta_3.0.0/bayonetta/game_Attack11.txt"
++++ "b/tta_3.1.0/bayonetta/game_Attack11.txt"
+@@ -13,16 +13,13 @@ if(is_excute){
+ 	AttackModule__set_add_reaction_frame(ID=1, Frames=8, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=2, Frames=8, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=3, Frames=8, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=4, Frames=8, Unk=False)
+ }
+-wait(Frames=3)
+-if(is_excute){
+-	AttackModule__clear_all()
+-}
+ frame(Frame=13)
+ if(is_excute){
++	AttackModule__clear_all()
+ 	WorkModule__on_flag(Flag=FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_ACTION)
+ 	WorkModule__on_flag(Flag=FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_MOTION_STOP)
+ 	WorkModule__on_flag(Flag=FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_CHECK_END)
+ }
+ frame(Frame=14)

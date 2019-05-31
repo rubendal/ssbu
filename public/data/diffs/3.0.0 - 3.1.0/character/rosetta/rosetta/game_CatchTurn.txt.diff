@@ -1,0 +1,24 @@
+diff --git "a/a_3.0.0/rosetta/game_CatchTurn.txt" "b/a_3.1.0/rosetta/game_CatchTurn.txt"
+index 46bc965..7124a1f 100644
+--- "a/a_3.0.0/rosetta/game_CatchTurn.txt"
++++ "b/a_3.1.0/rosetta/game_CatchTurn.txt"
+@@ -1,5 +1,9 @@
++frame(Frame=3)
++FT_MOTION_RATE(FSM=0.8)
++frame(Frame=8)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=10)
+ if(is_excute){
+ 	GrabModule__set_rebound(CanCatchRebound=True)
+ }
+ frame(Frame=11)
+@@ -12,5 +16,9 @@ wait(Frames=2)
+ if(is_excute){
+ 	grab(MA_MSC_CMD_GRAB_CLEAR_ALL)
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_CATCH_FLAG_CATCH_WAIT)
+ 	GrabModule__set_rebound(CanCatchRebound=False)
+ }
++frame(Frame=20)
++FT_MOTION_RATE(FSM=1.05)
++frame(Frame=40)
++FT_MOTION_RATE(FSM=1)

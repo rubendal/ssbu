@@ -28,7 +28,7 @@ class NavigationHeader extends Component {
     shouldComponentUpdate(props, state){
         if(state.version !== null && props.match !== undefined){
             this.CharacterLink = "#/Patch/" + props.match.params.patch + "/Character";
-            this.StageLink = "/#Patch/" + props.match.params.patch + "/Stage";
+            this.StageLink = "#/Patch/" + props.match.params.patch + "/Stage";
             this.ScriptSearchLink = "#/Patch/" + props.match.params.patch + "/ScriptSearch";
         }else{
             this.CharacterLink = "#/Character";
@@ -38,7 +38,9 @@ class NavigationHeader extends Component {
         if(state.diff !== null  && props.match !== undefined){
             this.CharacterLink = "#/Diff/" + props.match.params.diff + "/Character";
         }else{
-            this.CharacterLink = "#/Character";
+            if(state.version === null){
+                this.CharacterLink = "#/Character";
+            }
         }
         return true;
     }
@@ -69,7 +71,9 @@ class NavigationHeader extends Component {
             </span>
 
             <span className="navigation-link">
-                <a href={this.CharacterLink} className="hide-link">{this.state.version !== null ? "Characters (v" + this.state.version + ")" : "Characters"}</a>
+                <a href={this.CharacterLink} className="hide-link">{this.state.version !== null ?
+                     "Characters (v" + this.state.version + ")" : (this.state.diff !== null 
+                        ? "Characters (v" + this.state.diff + ")" : "Characters" )}</a>
             </span>
 
             <span className="navigation-link">
@@ -82,6 +86,10 @@ class NavigationHeader extends Component {
 
             <span className="navigation-link">
                 <a href={this.ScriptSearchLink} className="hide-link">{this.state.version !== null ? "Script Search (v" + this.state.version + ")" : "Script Search"}</a>
+            </span>
+
+            <span className="navigation-link">
+                <a href="#/Diff" className="hide-link">Diffs</a>
             </span>
             
         </div>

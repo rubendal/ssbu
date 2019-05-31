@@ -66,6 +66,11 @@ class StageList extends Component {
                         <span className="imglabel">5+ players</span>
                       )
                     }
+                    {
+                      stage.name !== "Final Destination (Large)" && stage.name !== "BattleField (Common)" && (
+                        <span className="imgstagelabel">{stage.name}</span>
+                      )
+                    }
                   </a>
                 </span>
               )

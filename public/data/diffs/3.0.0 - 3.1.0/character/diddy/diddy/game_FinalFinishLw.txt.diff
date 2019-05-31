@@ -1,0 +1,14 @@
+diff --git "a/3.0.0/diddy/game_FinalFinishLw.txt" "b/3.1.0/diddy/game_FinalFinishLw.txt"
+index e66a466..43206e7 100644
+--- "a/3.0.0/diddy/game_FinalFinishLw.txt"
++++ "b/3.1.0/diddy/game_FinalFinishLw.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+ 	SLOW_OPPONENT(30, 30)
+-	ATTACK(ID=0, Part=0, Bone=rot, Damage=20.0, Angle=45, KBG=47, FKB=0, BKB=135, Size=9.0, X=0.0, Y=9.0, Z=0.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=rot, Damage=20.0, Angle=45, KBG=58, FKB=0, BKB=115, Size=9.0, X=0.0, Y=9.0, Z=0.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
+ 	AttackModule__set_force_reaction(0, True, False)
+ 	AttackModule__set_final_finish_cut_in(0, True, True, -1, False)
+ 	as_hash__const(0, 0x16d8758283)
+ 	AttackModule__set_optional_hit_effect()
+ }

@@ -1,0 +1,33 @@
+diff --git "a/.0.0/jack/game_FinalAirStart.txt" "b/.1.0/jack/game_FinalAirStart.txt"
+index 3501368..d42d744 100644
+--- "a/.0.0/jack/game_FinalAirStart.txt"
++++ "b/.1.0/jack/game_FinalAirStart.txt"
+@@ -1,25 +1,25 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(20, 65)
+ }
+-if(0x28fe90(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x2901d0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(50)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x28fe90(8, 0)){
++if(0x2901d0(8, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(0x1654ea70d3, True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x28fe90(-1802445777, 2)
++			0x2901d0(550657029, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, True)

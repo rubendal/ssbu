@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/zelda/game_FinalStart.txt" "b/3.1.0/zelda/game_FinalStart.txt"
+index 77b441c..ac70927 100644
+--- "a/3.0.0/zelda/game_FinalStart.txt"
++++ "b/3.1.0/zelda/game_FinalStart.txt"
+@@ -9,11 +9,11 @@ if(0x10bf10(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA_arg3(d04finalstart.nuanmb, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x10bf10(-1890880827, 2)
++			0x10bf10(-1409205508, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

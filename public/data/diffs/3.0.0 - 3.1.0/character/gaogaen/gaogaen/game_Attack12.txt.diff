@@ -1,0 +1,21 @@
+diff --git "a/n_3.0.0/gaogaen/game_Attack12.txt" "b/n_3.1.0/gaogaen/game_Attack12.txt"
+index 46ff424..45c17d2 100644
+--- "a/n_3.0.0/gaogaen/game_Attack12.txt"
++++ "b/n_3.1.0/gaogaen/game_Attack12.txt"
+@@ -1,9 +1,15 @@
++frame(Frame=3)
++if(is_excute){
++	FighterAreaModuleImpl__enable_fix_jostle_area(5, 6)
++}
+ frame(Frame=4)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.8, Angle=361, KBG=30, FKB=0, BKB=30, Size=3.2, X=0.0, Y=7.0, Z=2.0, Hitlag=1.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KNEE)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=2.8, Angle=361, KBG=30, FKB=0, BKB=30, Size=3.6, X=0.0, Y=8.5, Z=7.0, Hitlag=1.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KNEE)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=2.8, Angle=180, KBG=10, FKB=0, BKB=30, Size=3.6, X=0.0, Y=8.5, Z=7.0, Hitlag=1.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KNEE)
++	ATTACK(ID=2, Part=0, Bone=top, Damage=2.8, Angle=361, KBG=30, FKB=0, BKB=30, Size=3.6, X=0.0, Y=8.5, Z=7.0, Hitlag=1.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KNEE)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

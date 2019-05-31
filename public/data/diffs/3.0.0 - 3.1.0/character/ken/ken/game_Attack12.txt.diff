@@ -1,0 +1,15 @@
+diff --git "a/0.0/ken/game_Attack12.txt" "b/1.0/ken/game_Attack12.txt"
+index 0e7ed0e..6d4c452 100644
+--- "a/0.0/ken/game_Attack12.txt"
++++ "b/1.0/ken/game_Attack12.txt"
+@@ -11,9 +11,9 @@ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_ENABLE_COMBO)
+ 	WorkModule__off_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)
+ }
+-frame(Frame=8)
++frame(Frame=13)
+ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_RYU_STATUS_ATTACK_FLAG_HIT_CANCEL)
+ }

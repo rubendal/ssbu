@@ -1,7 +1,0 @@
-diff --git "a/roy/roy_animcmd_game/game_attackairb.txt" "b/roy/roy_animcmd_game/game_attackairb.txt"
-index a248240..921a651 100644
---- "a/roy/roy_animcmd_game/game_attackairb.txt"
-+++ "b/roy/roy_animcmd_game/game_attackairb.txt"	
-@@ -158 +158 @@ Block d0463e08df type 3, size aac, 208 tokens, creation 0->2:
--   lib::L2CValue::L2CValue(float) fargs 8.000002
-+   lib::L2CValue::L2CValue(float) fargs 14.000002

@@ -1,0 +1,17 @@
+diff --git "a/tta_3.0.0/bayonetta_wickedweaveleg/game_AttackLw4.txt" "b/tta_3.1.0/bayonetta_wickedweaveleg/game_AttackLw4.txt"
+index 43f9f97..a46f347 100644
+--- "a/tta_3.0.0/bayonetta_wickedweaveleg/game_AttackLw4.txt"
++++ "b/tta_3.1.0/bayonetta_wickedweaveleg/game_AttackLw4.txt"
+@@ -18,11 +18,11 @@ if(is_excute){
+ }
+ frame(Frame=17)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=WEAPON_BAYONETTA_WICKEDWEAVELEG_INSTANCE_WORK_ID_FLAG_CANCEL_EFFECT)
+ }
+-wait(Frames=2)
++wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=41)
+ if(is_excute){

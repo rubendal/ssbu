@@ -1,0 +1,20 @@
+diff --git "a/o_3.0.0/lucario/game_Attack11.txt" "b/o_3.1.0/lucario/game_Attack11.txt"
+index f1cf368..2aa44ab 100644
+--- "a/o_3.0.0/lucario/game_Attack11.txt"
++++ "b/o_3.1.0/lucario/game_Attack11.txt"
+@@ -8,12 +8,15 @@ if(is_excute){
+ 	AttackModule__set_add_reaction_frame(ID=1, Frames=6, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=2, Frames=6, Unk=False)
+ 	AttackModule__set_add_reaction_frame(ID=3, Frames=6, Unk=False)
+ }
+ wait(Frames=2)
++FT_MOTION_RATE(FSM=0.75)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=11)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_ENABLE_COMBO)
+ }
++frame(Frame=29)
++FT_MOTION_RATE(FSM=1)

@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_AttackS3w.txt" "b/1.0/ryu/game_AttackS3w.txt"
+index 0271705..c990731 100644
+--- "a/0.0/ryu/game_AttackS3w.txt"
++++ "b/1.0/ryu/game_AttackS3w.txt"
+@@ -8,11 +8,11 @@ if(is_excute){
+ 	HIT_NODE(kneel, HIT_STATUS_XLU)
+ 	HIT_NODE(legl, HIT_STATUS_XLU)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=6.8, Angle=55, KBG=46, FKB=0, BKB=66, Size=3.8, X=0.0, Y=11.0, Z=9.0, X2=0.0, Y2=11.0, Z2=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.5, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=6.8, Angle=55, KBG=46, FKB=0, BKB=66, Size=3.8, X=0.0, Y=11.0, Z=6.5, X2=0.0, Y2=11.0, Z2=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.5, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=6.8, Angle=72, KBG=46, FKB=0, BKB=66, Size=3.8, X=0.0, Y=11.0, Z=14.0, X2=0.0, Y2=11.0, Z2=5.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.5, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_KICK)
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	AttackModule__clear_all()

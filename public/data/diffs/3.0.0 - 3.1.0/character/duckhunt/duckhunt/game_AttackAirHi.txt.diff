@@ -1,0 +1,17 @@
+diff --git "a/nt_3.0.0/duckhunt/game_AttackAirHi.txt" "b/nt_3.1.0/duckhunt/game_AttackAirHi.txt"
+index 701d844..0302905 100644
+--- "a/nt_3.0.0/duckhunt/game_AttackAirHi.txt"
++++ "b/nt_3.1.0/duckhunt/game_AttackAirHi.txt"
+@@ -2,11 +2,11 @@ frame(Frame=2)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=80, KBG=80, FKB=25, BKB=0, Size=6.0, X=0.0, Y=18.5, Z=5.0, X2=0.0, Y2=18.5, Z2=-2.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=95, KBG=100, FKB=50, BKB=0, Size=6.0, X=0.0, Y=18.5, Z=5.0, X2=0.0, Y2=18.5, Z2=-2.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

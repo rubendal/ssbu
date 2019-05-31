@@ -1,0 +1,14 @@
+diff --git "a/3.0.0/luigi/game_Attack13.txt" "b/3.1.0/luigi/game_Attack13.txt"
+index ef0f84d..f8b8ab5 100644
+--- "a/3.0.0/luigi/game_Attack13.txt"
++++ "b/3.1.0/luigi/game_Attack13.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=6)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=361, KBG=80, FKB=0, BKB=60, Size=5.0, X=0.0, Y=8.5, Z=8.2, Hitlag=2.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_HIP)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=361, KBG=80, FKB=0, BKB=60, Size=5.0, X=0.0, Y=8.5, Z=9.2, Hitlag=2.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_HIP)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=4.0, Angle=361, KBG=80, FKB=0, BKB=60, Size=3.5, X=0.0, Y=7.0, Z=4.0, Hitlag=2.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_HIP)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
