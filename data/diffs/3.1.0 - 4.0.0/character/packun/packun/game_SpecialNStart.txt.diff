@@ -1,0 +1,15 @@
+diff --git "a/_3.1.0/packun/game_SpecialNStart.txt" "b/_4.0.0/packun/game_SpecialNStart.txt"
+index 3ec5344..a3b553a 100644
+--- "a/_3.1.0/packun/game_SpecialNStart.txt"
++++ "b/_4.0.0/packun/game_SpecialNStart.txt"
+@@ -2,9 +2,9 @@ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.7)
+ frame(Frame=9)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=10)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=17412)
++	WorkModule__on_flag(Flag=17648)
+ }
+ frame(Frame=11)
+ FT_MOTION_RATE(FSM=0.7)

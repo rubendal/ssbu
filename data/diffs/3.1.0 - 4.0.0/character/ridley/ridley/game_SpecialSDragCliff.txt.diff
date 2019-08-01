@@ -1,0 +1,15 @@
+diff --git "a/_3.1.0/ridley/game_SpecialSDragCliff.txt" "b/_4.0.0/ridley/game_SpecialSDragCliff.txt"
+index 0ad0888..90222db 100644
+--- "a/_3.1.0/ridley/game_SpecialSDragCliff.txt"
++++ "b/_4.0.0/ridley/game_SpecialSDragCliff.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+-	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=7.0, Angle=50, KBG=83, FKB=0, BKB=75, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+-	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=50, KBG=83, FKB=0, BKB=75, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
++	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=7.0, Angle=50, KBG=90, FKB=0, BKB=75, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
++	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=50, KBG=90, FKB=0, BKB=75, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=6)
+ if(is_excute){
+ 	CHECK_FINISH_CAMERA(35, 17)
+ 	FighterCutInManager__set_throw_finish_zoom_rate(ZoomRate=1.5)

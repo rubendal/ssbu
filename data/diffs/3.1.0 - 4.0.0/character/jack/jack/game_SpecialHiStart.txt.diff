@@ -1,0 +1,17 @@
+diff --git "a/.1.0/jack/game_SpecialHiStart.txt" "b/.0.0/jack/game_SpecialHiStart.txt"
+index f7ca8ee..e3a9891 100644
+--- "a/.1.0/jack/game_SpecialHiStart.txt"
++++ "b/.0.0/jack/game_SpecialHiStart.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+-	ArticleModule__generate_article(48120)
+-	as_hash__const(48120, special_hi2)
++	ArticleModule__generate_article(48344)
++	as_hash__const(48344, special_hi2)
+ 	ArticleModule__change_motion()
+ }
+ frame(Frame=5)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48112)
++	WorkModule__on_flag(Flag=48336)
+ }

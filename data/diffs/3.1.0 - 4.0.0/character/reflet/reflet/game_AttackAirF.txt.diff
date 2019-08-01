@@ -1,0 +1,17 @@
+diff --git "a/_3.1.0/reflet/game_AttackAirF.txt" "b/_4.0.0/reflet/game_AttackAirF.txt"
+index 72fd696..bb22cd2 100644
+--- "a/_3.1.0/reflet/game_AttackAirF.txt"
++++ "b/_4.0.0/reflet/game_AttackAirF.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ wait(Frames=4)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=22)
+-if(0x141d30(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
++if(0x141de0(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON), False, True)){
+ 		if(is_excute){
+ 			VisibilityModule__set_int64(sword, sword_normal)
+ 			WorkModule__off_flag(Flag=FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON)
+ 		}

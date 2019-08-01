@@ -1,0 +1,17 @@
+diff --git "a/3.1.0/ganon/game_FinalAirStart.txt" "b/4.0.0/ganon/game_FinalAirStart.txt"
+index 1270a63..eae3aea 100644
+--- "a/3.1.0/ganon/game_FinalAirStart.txt"
++++ "b/4.0.0/ganon/game_FinalAirStart.txt"
+@@ -13,11 +13,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0xfda30(-1005776680, 1.7)
++			0xfdcb0(1106697367, 1.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

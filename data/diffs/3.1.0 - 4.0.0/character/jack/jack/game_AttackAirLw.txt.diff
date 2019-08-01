@@ -1,0 +1,25 @@
+diff --git "a/.1.0/jack/game_AttackAirLw.txt" "b/.0.0/jack/game_AttackAirLw.txt"
+index 9635856..77befb2 100644
+--- "a/.1.0/jack/game_AttackAirLw.txt"
++++ "b/.0.0/jack/game_AttackAirLw.txt"
+@@ -5,18 +5,18 @@ if(is_excute){
+ frame(Frame=13)
+ if(is_excute){
+ 	ATTACK(ID=1, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=100, FKB=0, BKB=40, Size=2.5, X=0.0, Y=-1.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	ATTACK(ID=2, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=100, FKB=0, BKB=40, Size=3.0, X=0.0, Y=2.5, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ }
+-if(0x2901d0(WorkModule__is_flag(16432), False, True)){
++if(0x290440(WorkModule__is_flag(16668), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=1, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=60, FKB=0, BKB=40, Size=2.5, X=0.0, Y=-1.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=2, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=60, FKB=0, BKB=40, Size=3.0, X=0.0, Y=2.5, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	}
+ }
+ frame(Frame=15)
+-if(0x2901d0(WorkModule__is_flag(16432), False, True)){
++if(0x290440(WorkModule__is_flag(16668), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=3, Part=1, Bone=top, Damage=8.0, Angle=270, KBG=96, FKB=0, BKB=35, Size=5.0, X=0.0, Y=2.0, Z=1.0, X2=0.0, Y2=-4.0, Z2=1.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_HEAVY, Type=ATTACK_REGION_KICK)
+ 		ATTACK(ID=1, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=50, FKB=0, BKB=50, Size=2.5, X=0.0, Y=-1.0, Z=0.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=2, Part=0, Bone=knife, Damage=8.0, Angle=38, KBG=50, FKB=0, BKB=50, Size=3.0, X=0.0, Y=2.5, Z=0.0, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	}

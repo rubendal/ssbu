@@ -1,0 +1,16 @@
+diff --git "a/3.1.0/sonic/game_SpecialNHoming.txt" "b/4.0.0/sonic/game_SpecialNHoming.txt"
+index bf803a3..2af644d 100644
+--- "a/3.1.0/sonic/game_SpecialNHoming.txt"
++++ "b/4.0.0/sonic/game_SpecialNHoming.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	JostleModule__set_status(False)
+ 	MotionModule__set_rate(80)
+ }
+-if(0x128ff0(WorkModule__is_flag(FIGHTER_SONIC_STATUS_SPECIAL_N_HOMING_FLAG_IS_KIRBY), False, False)){
++if(0x129070(WorkModule__is_flag(FIGHTER_SONIC_STATUS_SPECIAL_N_HOMING_FLAG_IS_KIRBY), False, False)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=hip, Damage=7.0, Angle=53, KBG=65, FKB=0, BKB=55, Size=5.0, X=0.5, Y=1.5, Z=0.0, X2=0.5, Y2=1.5, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=2, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_BODY)
+ 		ATK_SET_SHIELD_SETOFF_MUL(ID=0, ShieldstunMul=0.5)
+ 		AttackModule__set_captured_same_time_attack(0, True)
+ 	}

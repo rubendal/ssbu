@@ -1,0 +1,30 @@
+diff --git "a/3.1.0/diddy/game_AttackDash.txt" "b/4.0.0/diddy/game_AttackDash.txt"
+index ec99e19..a5b0cec 100644
+--- "a/3.1.0/diddy/game_AttackDash.txt"
++++ "b/4.0.0/diddy/game_AttackDash.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=1)
+-FT_MOTION_RATE(FSM=0.8)
++FT_MOTION_RATE(FSM=1392640)
+ frame(Frame=9)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=35, KBG=100, FKB=60, BKB=0, Size=3.5, X=0.0, Y=11.0, Z=8.5, X2=0.0, Y2=9.5, Z2=7.5, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=10, KBG=100, FKB=45, BKB=0, Size=3.5, X=0.0, Y=11.0, Z=8.5, X2=0.0, Y2=9.5, Z2=7.5, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=43, KBG=100, FKB=60, BKB=0, Size=3.5, X=0.0, Y=5.5, Z=7.5, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+@@ -11,13 +11,13 @@ FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=25, KBG=100, FKB=55, BKB=0, Size=4.0, X=0.0, Y=11.5, Z=8.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=10, KBG=100, FKB=40, BKB=0, Size=4.0, X=0.0, Y=11.5, Z=8.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+-	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=40, KBG=100, FKB=70, BKB=0, Size=4.0, X=0.0, Y=6.5, Z=7.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=25, KBG=100, FKB=55, BKB=0, Size=4.0, X=0.0, Y=11.5, Z=8.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=1392640, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=10, KBG=100, FKB=40, BKB=0, Size=4.0, X=0.0, Y=11.5, Z=8.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=1392640, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=40, KBG=100, FKB=70, BKB=0, Size=4.0, X=0.0, Y=6.5, Z=7.0, Hitlag=1392640, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_KICK)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

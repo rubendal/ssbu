@@ -1,0 +1,57 @@
+diff --git "a/.1.0/jack/game_SpecialHi.txt" "b/.0.0/jack/game_SpecialHi.txt"
+index 1c52e1e..b97ad1f 100644
+--- "a/.1.0/jack/game_SpecialHi.txt"
++++ "b/.0.0/jack/game_SpecialHi.txt"
+@@ -1,22 +1,22 @@
+ if(is_excute){
+-	ArticleModule__generate_article(47992)
+-	as_hash__const(47992, special_hi)
++	ArticleModule__generate_article(48216)
++	as_hash__const(48216, special_hi)
+ 	ArticleModule__change_motion()
+-	SET_RATE_ARTICLE(47992, 0)
++	SET_RATE_ARTICLE(48216, 0)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48012)
++	WorkModule__on_flag(Flag=48236)
+ }
+ frame(Frame=19)
+ if(is_excute){
+-	ArticleModule__change_status(47992, 48020)
+-	AreaModule__reset_area(48024)
+-	ENABLE_AREA(48024)
+-	AreaModule__reset_area(48028)
+-	ENABLE_AREA(48028)
++	ArticleModule__change_status(48216, 48244)
++	AreaModule__reset_area(48248)
++	ENABLE_AREA(48248)
++	AreaModule__reset_area(48252)
++	ENABLE_AREA(48252)
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	SEARCH(0, 0, throw, 3.0, 1.5, 1.5, 0.7, 1.5, -15.0, -6.4, COLLISION_KIND_MASK_HSR, HIT_STATUS_MASK_NORMAL, 0, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, COLLISION_PART_MASK_BODY, False)
+ 	SEARCH(1, 0, throw, 5.5, 1.5, 1.5, 0.7, COLLISION_KIND_MASK_HSR, HIT_STATUS_MASK_NORMAL, 0, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, COLLISION_PART_MASK_BODY, False)
+@@ -31,17 +31,17 @@ frame(Frame=22)
+ if(is_excute){
+ 	SET_SEARCH_SIZE_EXIST(2, 8)
+ }
+ frame(Frame=23)
+ if(is_excute){
+-	UNABLE_AREA(48028)
++	UNABLE_AREA(48252)
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=27)
+ if(is_excute){
+-	ArticleModule__change_status(47992, 48332)
++	ArticleModule__change_status(48216, 48556)
+ 	search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR_ALL)
+-	UNABLE_AREA(48024)
++	UNABLE_AREA(48248)
+ }

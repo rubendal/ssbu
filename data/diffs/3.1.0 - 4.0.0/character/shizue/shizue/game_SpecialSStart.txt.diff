@@ -1,0 +1,28 @@
+diff --git "a/_3.1.0/shizue/game_SpecialSStart.txt" "b/_4.0.0/shizue/game_SpecialSStart.txt"
+index 1fbd967..132aef3 100644
+--- "a/_3.1.0/shizue/game_SpecialSStart.txt"
++++ "b/_4.0.0/shizue/game_SpecialSStart.txt"
+@@ -1,5 +1,7 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.8)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_SHIZUE_GENERATE_ARTICLE_FISHINGROD)
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(5, 4)
+ 	JostleModule__set_push_speed_x(0.8, True)
+ }
+@@ -9,12 +11,14 @@ if(is_excute){
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(8, 4)
+ 	JostleModule__set_push_speed_x(1.6, True)
+-	JostleModule__set_push_speed_x_overlap_rate(30)
++	JostleModule__set_push_speed_x_overlap_rate(20)
+ }
++frame(Frame=21)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=22)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(13, 4)
+ }
+ frame(Frame=25)

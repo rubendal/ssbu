@@ -1,0 +1,20 @@
+diff --git "a/_3.1.0/packun/0x18cddf6993.txt" "b/_4.0.0/packun/0x18cddf6993.txt"
+index 99711f4..28e5b48 100644
+--- "a/_3.1.0/packun/0x18cddf6993.txt"
++++ "b/_4.0.0/packun/0x18cddf6993.txt"
+@@ -1,12 +1,12 @@
+ WorkModule__get_float(FIGHTER_PACKUN_STATUS_SPECIAL_LW_WORK_FLOAT_CHARGE_RATE)
+-if(0x14b1e0(-1100921532, 1)){
++if(0x14b420(1529819476, 1)){
+ 	if(is_excute){
+-		ATTACK(ID=0, Part=0, Bone=mouth, Damage=26.0, Angle=55, KBG=55, FKB=0, BKB=75, Size=7.9, X=2.4, Y=0.0, Z=0.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
++		ATTACK(ID=0, Part=0, Bone=mouth, Damage=26.0, Angle=55, KBG=55, FKB=0, BKB=75, Size=7.9, X=2.4, Y=0.0, Z=0.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=5, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 	}
+ 	else{
+ 		if(is_excute){
+-			ATTACK(ID=0, Part=0, Bone=mouth, Damage=0.0, Angle=55, KBG=55, FKB=0, BKB=75, Size=7.9, X=2.4, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
++			ATTACK(ID=0, Part=0, Bone=mouth, Damage=0.0, Angle=55, KBG=55, FKB=0, BKB=75, Size=7.9, X=2.4, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=5, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 			WorkModule__on_flag(Flag=FIGHTER_PACKUN_STATUS_SPECIAL_LW_FLAG_ATTACK_LERP)
+ 		}
+ 	}
+ }

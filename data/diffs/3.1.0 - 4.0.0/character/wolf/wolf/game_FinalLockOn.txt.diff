@@ -1,0 +1,41 @@
+diff --git "a/.1.0/wolf/game_FinalLockOn.txt" "b/.0.0/wolf/game_FinalLockOn.txt"
+index 54e6875..e1cdc3e 100644
+--- "a/.1.0/wolf/game_FinalLockOn.txt"
++++ "b/.0.0/wolf/game_FinalLockOn.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	camera(MA_MSC_CMD_CAMERA_CAM_RECT, -5, -5, 20, -20)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+-if(0x108080(False, True)){
++if(0x107f60(False, True)){
+ 	if(is_excute){
+ 		ArticleModule__remove_exist(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+ 	}
+ }
+ if(is_excute){
+@@ -16,21 +16,21 @@ if(is_excute){
+ 	BattleObjectWorld__scale_z()
+ 	operator___lib::L2CValueconst__const(0, 1.0)
+ 	ArticleModule__set_visibility_whole(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN, False)
+ 	SLOW_OPPONENT(4, 30)
+ }
+-if(0x108080(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x107f60(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(25)
+ 		REQ_FINAL_START_CAMERA_arg3(0x15effd0df6, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0x108080(-1293031670, 1.2)
++			0x107f60(1155405078, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

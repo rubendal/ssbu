@@ -1,0 +1,15 @@
+diff --git "a/_3.1.0/pikmin_pikmin/game_SpNTakenOutStart.txt" "b/_4.0.0/pikmin_pikmin/game_SpNTakenOutStart.txt"
+index 1492894..600b42e 100644
+--- "a/_3.1.0/pikmin_pikmin/game_SpNTakenOutStart.txt"
++++ "b/_4.0.0/pikmin_pikmin/game_SpNTakenOutStart.txt"
+@@ -1,9 +1,9 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	WorkModule__get_float(WEAPON_PIKMIN_PIKMIN_STATUS_PULL_OUT_START_WORK_FLOAT_MOT_RATE)
+-	MotionModule__set_rate(1378928399)
++	MotionModule__set_rate(1739308865)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	MotionModule__set_rate(1)
+ }

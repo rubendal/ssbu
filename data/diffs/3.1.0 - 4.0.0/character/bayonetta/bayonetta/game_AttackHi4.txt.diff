@@ -1,0 +1,17 @@
+diff --git "a/tta_3.1.0/bayonetta/game_AttackHi4.txt" "b/tta_4.0.0/bayonetta/game_AttackHi4.txt"
+index a01d3d1..5116ab2 100644
+--- "a/tta_3.1.0/bayonetta/game_AttackHi4.txt"
++++ "b/tta_4.0.0/bayonetta/game_AttackHi4.txt"
+@@ -1,11 +1,11 @@
+ frame(Frame=7)
+ execute(7)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+-if(0x190440(WorkModule__is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), False, True)){
++if(0x1905b0(WorkModule__is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), False, True)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article(FIGHTER_BAYONETTA_GENERATE_ARTICLE_WICKEDWEAVEARM)
+ 	}
+ }
+ frame(Frame=9)

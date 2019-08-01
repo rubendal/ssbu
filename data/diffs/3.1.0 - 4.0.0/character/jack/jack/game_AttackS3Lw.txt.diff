@@ -1,0 +1,17 @@
+diff --git "a/.1.0/jack/game_AttackS3Lw.txt" "b/.0.0/jack/game_AttackS3Lw.txt"
+index a2769f4..a44ee7b 100644
+--- "a/.1.0/jack/game_AttackS3Lw.txt"
++++ "b/.0.0/jack/game_AttackS3Lw.txt"
+@@ -9,11 +9,11 @@ if(is_excute){
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	ATTACK(ID=2, Part=0, Bone=knife, Damage=5.0, Angle=25, KBG=105, FKB=0, BKB=45, Size=2.5, X=0.0, Y=-3.0, Z=0.0, X2=0.0, Y2=4.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_sting, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ }
+-if(0x2901d0(WorkModule__is_flag(16432), False, True)){
++if(0x290440(WorkModule__is_flag(16668), False, True)){
+ 	if(is_excute){
+ 		AttackModule__set_size(ID=2, Size=0)
+ 		ATTACK(ID=1, Part=0, Bone=knife, Damage=5.0, Angle=25, KBG=106, FKB=0, BKB=60, Size=4.0, X=0.0, Y=0.5, Z=0.0, X2=0.0, Y2=2.5, Z2=0.0, Hitlag=1.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_sting, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=0, Part=1, Bone=knife, Damage=5.0, Angle=25, KBG=106, FKB=0, BKB=60, Size=4.0, X=0.0, Y=0.5, Z=0.0, X2=0.0, Y2=2.5, Z2=0.0, Hitlag=1.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_purple, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
+ 		ATK_SET_SHIELD_SETOFF_MUL(ID=0, ShieldstunMul=2)

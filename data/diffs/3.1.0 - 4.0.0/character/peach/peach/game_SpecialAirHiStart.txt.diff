@@ -1,0 +1,19 @@
+diff --git "a/3.1.0/peach/game_SpecialAirHiStart.txt" "b/4.0.0/peach/game_SpecialAirHiStart.txt"
+index c6850e5..2244e20 100644
+--- "a/3.1.0/peach/game_SpecialAirHiStart.txt"
++++ "b/4.0.0/peach/game_SpecialAirHiStart.txt"
+@@ -33,12 +33,12 @@ if(is_excute){
+ 	AttackModule__clear(ID=0)
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
+ }
+ frame(Frame=22)
+ if(is_excute){
+-	ATTACK(ID=1, Part=0, Bone=havel, Damage=1.0, Angle=368, KBG=100, FKB=80, BKB=0, Size=1.5, X=2.0, Y=5.0, Z=3.5, X2=2.0, Y2=2.5, Z2=3.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PARASOL)
+-	ATTACK(ID=2, Part=0, Bone=havel, Damage=1.0, Angle=368, KBG=100, FKB=70, BKB=0, Size=5.0, X=0.0, Y=6.5, Z=0.0, X2=0.0, Y2=-1.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PARASOL)
++	ATTACK(ID=1, Part=0, Bone=havel, Damage=1.0, Angle=368, KBG=100, FKB=80, BKB=0, Size=1.5, X=2.0, Y=5.0, Z=3.5, X2=2.0, Y2=2.5, Z2=3.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PARASOL)
++	ATTACK(ID=2, Part=0, Bone=havel, Damage=1.0, Angle=368, KBG=100, FKB=70, BKB=0, Size=5.0, X=0.0, Y=6.5, Z=0.0, X2=0.0, Y2=-1.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=5, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PARASOL)
+ 	as_hash__const(1, top, 6, 25, 6)
+ 	AttackModule__set_vec_target_pos()
+ 	as_hash__const(2, top, 6, 25, 6)
+ 	AttackModule__set_vec_target_pos()
+ 	AttackModule__set_no_damage_fly_smoke_all(True, False)

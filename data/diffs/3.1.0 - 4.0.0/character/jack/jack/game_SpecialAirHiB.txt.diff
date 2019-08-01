@@ -1,0 +1,17 @@
+diff --git "a/.1.0/jack/game_SpecialAirHiB.txt" "b/.0.0/jack/game_SpecialAirHiB.txt"
+index aa83e08..3b60a1e 100644
+--- "a/.1.0/jack/game_SpecialAirHiB.txt"
++++ "b/.0.0/jack/game_SpecialAirHiB.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+-	as_hash__const(48120, 0x0d3c00ad48)
++	as_hash__const(48344, 0x0d3c00ad48)
+ 	ArticleModule__change_motion()
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }
+ frame(Frame=34)
+ frame(Frame=37)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48140)
++	WorkModule__on_flag(Flag=48364)
+ }

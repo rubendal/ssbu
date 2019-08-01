@@ -1,0 +1,10 @@
+diff --git "a/.1.0/jack/game_SpecialS1.txt" "b/.0.0/jack/game_SpecialS1.txt"
+index ce69173..8a50c82 100644
+--- "a/.1.0/jack/game_SpecialS1.txt"
++++ "b/.0.0/jack/game_SpecialS1.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=16)
+ if(is_excute){
+-	ArticleModule__generate_article(50992)
++	ArticleModule__generate_article(52120)
+ }

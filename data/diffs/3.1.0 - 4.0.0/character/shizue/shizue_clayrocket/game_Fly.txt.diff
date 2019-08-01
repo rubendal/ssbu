@@ -1,0 +1,15 @@
+diff --git "a/_3.1.0/shizue_clayrocket/game_Fly.txt" "b/_4.0.0/shizue_clayrocket/game_Fly.txt"
+index 5ec2ecb..82f9c1d 100644
+--- "a/_3.1.0/shizue_clayrocket/game_Fly.txt"
++++ "b/_4.0.0/shizue_clayrocket/game_Fly.txt"
+@@ -1,8 +1,8 @@
+-frame(Frame=10)
++frame(Frame=8)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=1.6, Angle=96, KBG=100, FKB=70, BKB=0, Size=6.0, X=0.0, Y=0.5, Z=0.0, X2=0.0, Y2=-5.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=8, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
+ }
+ wait(Frames=11)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=0.9, Angle=89, KBG=10, FKB=0, BKB=70, Size=6.0, X=0.0, Y=0.5, Z=0.0, Hitlag=0.3, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=8, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=0.9, Angle=89, KBG=10, FKB=0, BKB=70, Size=6.0, X=0.0, Y=0.5, Z=0.0, Hitlag=0.3, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=9, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
+ }

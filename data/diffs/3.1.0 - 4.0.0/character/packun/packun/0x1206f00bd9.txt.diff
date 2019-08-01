@@ -1,0 +1,25 @@
+diff --git "a/_3.1.0/packun/0x1206f00bd9.txt" "b/_4.0.0/packun/0x1206f00bd9.txt"
+index 85a65ce..a8535d9 100644
+--- "a/_3.1.0/packun/0x1206f00bd9.txt"
++++ "b/_4.0.0/packun/0x1206f00bd9.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=1)
+-FT_MOTION_RATE(FSM=0.9)
++FT_MOTION_RATE(FSM=0.75)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(10, 3)
+ }
+ frame(Frame=2)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_PACKUN_STATUS_SPECIAL_S_FLAG_FAILURE), False, False)){
+@@ -14,10 +14,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(is_excute){
+ 		ArticleModule__generate_article(FIGHTER_PACKUN_GENERATE_ARTICLE_POISONBREATH)
+ 	}
+ }
+ frame(Frame=21)
++FT_MOTION_RATE(FSM=0.9)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(5, 5)
+ 	AttackModule__clear_all()
+ }
+ wait(Frames=10)

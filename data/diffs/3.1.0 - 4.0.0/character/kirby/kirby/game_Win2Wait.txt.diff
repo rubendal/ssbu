@@ -1,0 +1,11 @@
+diff --git "a/3.1.0/kirby/game_Win2Wait.txt" "b/4.0.0/kirby/game_Win2Wait.txt"
+index a741b90..b0700e2 100644
+--- "a/3.1.0/kirby/game_Win2Wait.txt"
++++ "b/4.0.0/kirby/game_Win2Wait.txt"
+@@ -1,5 +1,5 @@
+-0x452170(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
++0x469f90(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
+ if(is_excute){
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, 0x0ab87848fa)
+ 	ArticleModule__change_motion()
+ }

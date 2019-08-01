@@ -1,0 +1,17 @@
+diff --git "a/n_3.1.0/gaogaen/game_SpecialSShoulder.txt" "b/n_4.0.0/gaogaen/game_SpecialSShoulder.txt"
+index 5973ee8..923380c 100644
+--- "a/n_3.1.0/gaogaen/game_SpecialSShoulder.txt"
++++ "b/n_4.0.0/gaogaen/game_SpecialSShoulder.txt"
+@@ -10,11 +10,11 @@ FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=105, KBG=50, FKB=0, BKB=80, Size=6.0, X=0.0, Y=6.0, Z=0.0, Hitlag=0.4, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_BODY)
+ }
+ frame(Frame=17)
+ if(is_excute){
+-	CHECK_FINISH_CAMERA(0, 0)
++	CHECK_FINISH_CAMERA_IF_NOT_HP_MODE(0, 0)
+ 	FighterCutInManager__set_throw_finish_zoom_rate(ZoomRate=1.5)
+ 	FighterCutInManager__set_throw_finish_offset(X=0, Y=0, Z=0)
+ }
+ frame(Frame=18)
+ if(is_excute){

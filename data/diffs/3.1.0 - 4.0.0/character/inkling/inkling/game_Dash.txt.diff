@@ -1,0 +1,47 @@
+diff --git "a/g_3.1.0/inkling/game_Dash.txt" "b/g_4.0.0/inkling/game_Dash.txt"
+index 6cf6f48..847b29c 100644
+--- "a/g_3.1.0/inkling/game_Dash.txt"
++++ "b/g_4.0.0/inkling/game_Dash.txt"
+@@ -1,35 +1,35 @@
+ if(is_excute){
+ 	VisibilityModule__set_whole(False)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x13c860(8, 0)){
++if(0x13ce40(8, 0)){
+ 	if(is_excute){
+-		WorkModule__on_flag(Flag=50676)
++		WorkModule__on_flag(Flag=51800)
+ 	}
+ }
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41572), False, False)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41784), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule__motion_kind()
+ MotionModule__frame(0x00000002b0)
+-MotionModule__rate(-1063256669)
+-as_hash__const(-1063256669, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
++MotionModule__rate(1617527991)
++as_hash__const(1617527991, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ ArticleModule__change_motion()
+ if(is_excute){
+ 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+-	WorkModule__on_flag(Flag=41572)
++	WorkModule__on_flag(Flag=41784)
+ 	StatusModule__status_kind()
+ 	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
+ 	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
+ }
+ get_value_float(0, SO_VAR_FLOAT_LR)
+-if(0x13c860(8, 0)){
++if(0x13ce40(8, 0)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x06c09c4b10)
+ 		ArticleModule__change_motion()
+ 	}
+ 	else{

@@ -1,0 +1,9 @@
+diff --git "a/_3.1.0/reflet_thunder/game_tron0.txt" "b/_4.0.0/reflet_thunder/game_tron0.txt"
+index e3e86bb..582abae 100644
+--- "a/_3.1.0/reflet_thunder/game_tron0.txt"
++++ "b/_4.0.0/reflet_thunder/game_tron0.txt"
+@@ -1,3 +1,4 @@
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.6, Angle=45, KBG=191, FKB=0, BKB=75, Size=3.0, X=0.0, Y=0.0, Z=0.0, X2=0.0, Y2=0.0, Z2=0.0, Hitlag=1.0, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=4, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_MAGIC)
++	AttackModule__set_no_finish_camera(0, True, False)
+ }

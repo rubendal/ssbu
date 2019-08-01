@@ -1,0 +1,16 @@
+diff --git "a/.1.0/popo/game_SpecialHiThrow2.txt" "b/.0.0/popo/game_SpecialHiThrow2.txt"
+index 1ded481..384aea2 100644
+--- "a/.1.0/popo/game_SpecialHiThrow2.txt"
++++ "b/.0.0/popo/game_SpecialHiThrow2.txt"
+@@ -3,10 +3,11 @@ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	ArticleModule__change_status_exist(FIGHTER_POPO_GENERATE_ARTICLE_RUBBER, WEAPON_POPO_RUBBER_STATUS_KIND_FALL)
++	WorkModule__on_flag(Flag=46824)
+ }
+ frame(Frame=23)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_POPO_STATUS_SPECIAL_HI_FLAG_DEFAULT_SPEED_Y)
+ }

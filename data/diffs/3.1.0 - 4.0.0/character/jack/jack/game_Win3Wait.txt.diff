@@ -1,0 +1,10 @@
+diff --git "a/.1.0/jack/game_Win3Wait.txt" "b/.0.0/jack/game_Win3Wait.txt"
+index fc61349..7aeede2 100644
+--- "a/.1.0/jack/game_Win3Wait.txt"
++++ "b/.0.0/jack/game_Win3Wait.txt"
+@@ -1,4 +1,4 @@
+ if(is_excute){
+-	as_hash__const(50988, 0x0a73249b5f)
++	as_hash__const(52116, 0x0a73249b5f)
+ 	ArticleModule__change_motion()
+ }

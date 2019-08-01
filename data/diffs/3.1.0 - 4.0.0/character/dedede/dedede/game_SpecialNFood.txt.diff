@@ -1,0 +1,37 @@
+diff --git "a/_3.1.0/dedede/game_SpecialNFood.txt" "b/_4.0.0/dedede/game_SpecialNFood.txt"
+index 0838266..2f84f45 100644
+--- "a/_3.1.0/dedede/game_SpecialNFood.txt"
++++ "b/_4.0.0/dedede/game_SpecialNFood.txt"
+@@ -3,29 +3,29 @@ if(is_excute){
+ }
+ frame(Frame=2)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(12, 4)
+ }
+-if(0x148460(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148480(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }
+ frame(Frame=3)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x148460(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148480(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }
+ frame(Frame=7)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(12, 4)
+ }
+-if(0x148460(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148480(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }
+ frame(Frame=11)

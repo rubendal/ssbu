@@ -1,0 +1,21 @@
+diff --git "a/3.1.0/lucas/game_AttackS3.txt" "b/4.0.0/lucas/game_AttackS3.txt"
+index dfdf274..b452a4d 100644
+--- "a/3.1.0/lucas/game_AttackS3.txt"
++++ "b/4.0.0/lucas/game_AttackS3.txt"
+@@ -3,11 +3,15 @@ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(0, 3)
+ }
+ frame(Frame=7)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=armr, Damage=7.5, Angle=361, KBG=60, FKB=0, BKB=20, Size=2.2, X=0.0, Y=0.0, Z=0.0, X2=-0.7, Y2=0.0, Z2=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=11.0, Angle=361, KBG=80, FKB=0, BKB=45, Size=4.7, X=0.0, Y=5.0, Z=9.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PSI)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=11.0, Angle=361, KBG=80, FKB=0, BKB=55, Size=5.6, X=0.0, Y=5.0, Z=9.2, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_PSI)
++}
++frame(Frame=9)
++if(is_excute){
++	AttackModule__set_size(ID=1, Size=4.7)
+ }
+ frame(Frame=10)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

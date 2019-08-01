@@ -1,0 +1,14 @@
+diff --git "a/.1.0/jack/game_SpecialLwReflector.txt" "b/.0.0/jack/game_SpecialLwReflector.txt"
+index 6282bc2..1b8112d 100644
+--- "a/.1.0/jack/game_SpecialLwReflector.txt"
++++ "b/.0.0/jack/game_SpecialLwReflector.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=1)
+ if(is_excute){
+-	shield(MA_MSC_CMD_SHIELD_ON, COLLISION_KIND_REFLECTOR, 48172, FIGHTER_REFLECTOR_GROUP_EXTEND)
++	shield(MA_MSC_CMD_SHIELD_ON, COLLISION_KIND_REFLECTOR, 48396, FIGHTER_REFLECTOR_GROUP_EXTEND)
+ 	HIT_NODE(arml, HIT_STATUS_XLU)
+ 	HIT_NODE(shoulderl, HIT_STATUS_XLU)
+ }
+ frame(Frame=30)
+ if(is_excute){

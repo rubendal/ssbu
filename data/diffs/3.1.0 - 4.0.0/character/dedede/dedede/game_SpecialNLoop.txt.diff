@@ -1,0 +1,17 @@
+diff --git "a/_3.1.0/dedede/game_SpecialNLoop.txt" "b/_4.0.0/dedede/game_SpecialNLoop.txt"
+index b003192..9c84d09 100644
+--- "a/_3.1.0/dedede/game_SpecialNLoop.txt"
++++ "b/_4.0.0/dedede/game_SpecialNLoop.txt"
+@@ -8,11 +8,11 @@ if(is_excute){
+ 	SEARCH(0, 0, top, 4.0, 0.0, 13.0, 5.5, 0.0, 3.5, 5.5, COLLISION_KIND_MASK_AH, HIT_STATUS_MASK_ALL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, COLLISION_PART_MASK_ALL, True)
+ 	search(MA_MSC_CMD_SEARCH_SET_OPPONENT, 0, 0, COLLISION_TARGET_PROPERTY, COLLISION_PROPERTY_MASK_REFLECT)
+ 	SEARCH(1, 0, top, 9.5, 0.0, 8.5, 11.0, 0.0, 8.5, 20.5, COLLISION_KIND_MASK_AH, HIT_STATUS_MASK_ALL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, COLLISION_PART_MASK_ALL, True)
+ 	search(MA_MSC_CMD_SEARCH_SET_OPPONENT, 1, 0, COLLISION_TARGET_PROPERTY, COLLISION_PROPERTY_MASK_REFLECT)
+ }
+-if(0x148460(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148480(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		WorkModule__on_flag(Flag=FIGHTER_DEDEDE_STATUS_SPECIAL_N_FLAG_INHALE)
+ 		CATCH(ID=0, Bone=top, Size=5.0, X=0.0, Y=5.5, Z=5.0, X2=0.0, Y2=5.5, Z2=9.0, Status=FIGHTER_STATUS_KIND_SWALLOWED, Ground/Air=COLLISION_SITUATION_MASK_GA)
+ 		ATTACK(ID=1, Part=0, Bone=top, Damage=0.0, Angle=170, KBG=100, FKB=30, BKB=0, Size=6.0, X=0.0, Y=6.5, Z=16.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=3, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA_d, Hitbits=COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		ATTACK(ID=2, Part=0, Bone=top, Damage=0.0, Angle=170, KBG=100, FKB=10, BKB=0, Size=7.0, X=0.0, Y=3.5, Z=23.0, X2=0.0, Y2=9.5, Z2=23.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=3, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA_d, Hitbits=COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)

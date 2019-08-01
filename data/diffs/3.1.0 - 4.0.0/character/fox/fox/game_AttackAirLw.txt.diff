@@ -1,0 +1,16 @@
+diff --git "a/1.0/fox/game_AttackAirLw.txt" "b/0.0/fox/game_AttackAirLw.txt"
+index fd3686c..1e626be 100644
+--- "a/1.0/fox/game_AttackAirLw.txt"
++++ "b/0.0/fox/game_AttackAirLw.txt"
+@@ -1,10 +1,10 @@
+ frame(Frame=5)
+ for(6 Iterations){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=1.4, Angle=325, KBG=100, FKB=20, BKB=0, Size=3.0, X=0.0, Y=8.2, Z=-0.5, X2=0.0, Y2=9.0, Z2=2.0, Hitlag=0.66, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+-		ATTACK(ID=1, Part=0, Bone=toel, Damage=1.4, Angle=110, KBG=30, FKB=0, BKB=65, Size=3.2, X=-0.5, Y=-0.5, Z=0.0, X2=-0.5, Y2=-0.5, Z2=0.0, Hitlag=0.66, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
++		ATTACK(ID=1, Part=0, Bone=toel, Damage=1.4, Angle=110, KBG=30, FKB=0, BKB=65, Size=1183744, X=-0.5, Y=-0.5, Z=0.0, X2=-0.5, Y2=-0.5, Z2=0.0, Hitlag=0.66, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x13135c5462, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	}
+ 	wait(Frames=2)
+ 	if(is_excute){
+ 		AttackModule__clear_all()
+ 	}
