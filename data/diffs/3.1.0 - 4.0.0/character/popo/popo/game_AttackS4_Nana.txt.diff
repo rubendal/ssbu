@@ -1,5 +1,5 @@
 diff --git "a/.1.0/popo/game_AttackS4_Nana.txt" "b/.0.0/popo/game_AttackS4_Nana.txt"
-index 1ebaa79..6475418 100644
+index 56d7ddd..834a8ba 100644
 --- "a/.1.0/popo/game_AttackS4_Nana.txt"
 +++ "b/.0.0/popo/game_AttackS4_Nana.txt"
 @@ -2,11 +2,11 @@ frame(Frame=5)
@@ -8,21 +8,21 @@ index 1ebaa79..6475418 100644
  }
  frame(Frame=11)
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x14bec0(8, 0)){
-+if(0x14bff0(8, 0)){
+-if(0x14bec0(0, 0)){
++if(0x14bff0(0, 0)){
  	if(is_excute){
  		ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=361, KBG=126, FKB=0, BKB=50, Size=5.5, X=4.0, Y=5.5, Z=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
  		ATTACK(ID=1, Part=0, Bone=top, Damage=9.0, Angle=361, KBG=126, FKB=0, BKB=50, Size=4.0, X=4.0, Y=4.0, Z=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
  	}
  	else{
-@@ -19,11 +19,11 @@ if(0x14bec0(8, 0)){
+@@ -19,11 +19,11 @@ if(0x14bec0(0, 0)){
  if(is_excute){
  	AttackModule__set_attack_height_all(ATTACK_HEIGHT_HIGH, False)
  }
  frame(Frame=12)
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x14bec0(67768, 0)){
-+if(0x14bff0(67768, 0)){
+-if(0x14bec0(67760, 0)){
++if(0x14bff0(67760, 0)){
  	if(is_excute){
  		ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=361, KBG=126, FKB=0, BKB=50, Size=4.5, X=4.0, Y=3.0, Z=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
  		ATTACK(ID=1, Part=0, Bone=top, Damage=9.0, Angle=361, KBG=126, FKB=0, BKB=50, Size=4.0, X=4.0, Y=4.0, Z=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)

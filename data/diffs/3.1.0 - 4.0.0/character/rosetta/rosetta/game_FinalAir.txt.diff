@@ -1,5 +1,5 @@
 diff --git "a/a_3.1.0/rosetta/game_FinalAir.txt" "b/a_4.0.0/rosetta/game_FinalAir.txt"
-index 74b79e9..48747c5 100644
+index 05d0082..15d5dd3 100644
 --- "a/a_3.1.0/rosetta/game_FinalAir.txt"
 +++ "b/a_4.0.0/rosetta/game_FinalAir.txt"
 @@ -2,24 +2,24 @@ if(is_excute){
@@ -15,8 +15,8 @@ index 74b79e9..48747c5 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x11d0a0(8, 0)){
-+if(0x11d100(8, 0)){
+-if(0x11d0a0(0, 0)){
++if(0x11d100(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA(0x11dff1b240, True)
  	}

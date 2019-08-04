@@ -1,5 +1,5 @@
 diff --git "a/tch_3.1.0/gamewatch/game_FinalStart.txt" "b/tch_4.0.0/gamewatch/game_FinalStart.txt"
-index 7ce8c32..fe49fcc 100644
+index 5ae163f..db7dfda 100644
 --- "a/tch_3.1.0/gamewatch/game_FinalStart.txt"
 +++ "b/tch_4.0.0/gamewatch/game_FinalStart.txt"
 @@ -1,26 +1,26 @@
@@ -25,8 +25,8 @@ index 7ce8c32..fe49fcc 100644
  	CAM_ZOOM_IN_arg5(0, 0)
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x1016d0(8, 0)){
-+if(0x101a70(8, 0)){
+-if(0x1016d0(0, 0)){
++if(0x101a70(0, 0)){
  	if(is_excute){
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 5)
  	}

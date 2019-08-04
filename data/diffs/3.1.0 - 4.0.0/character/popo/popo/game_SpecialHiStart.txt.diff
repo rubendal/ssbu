@@ -1,5 +1,5 @@
 diff --git "a/.1.0/popo/game_SpecialHiStart.txt" "b/.0.0/popo/game_SpecialHiStart.txt"
-index e44f250..bac615b 100644
+index e5034b2..0c5c4e3 100644
 --- "a/.1.0/popo/game_SpecialHiStart.txt"
 +++ "b/.0.0/popo/game_SpecialHiStart.txt"
 @@ -6,11 +6,11 @@ if(is_excute){
@@ -7,9 +7,9 @@ index e44f250..bac615b 100644
  }
  frame(Frame=15)
  get_value_float(FT_VAR_FLOAT_STICK_X_BACK)
- WorkModule__get_param_float(8, param_special_hi, start_turn_cont_x)
--if(0x14bec0(40)){
-+if(0x14bff0(40)){
+ WorkModule__get_param_float(0, param_special_hi, start_turn_cont_x)
+-if(0x14bec0(32)){
++if(0x14bff0(32)){
  	if(is_excute){
  		STICK_LR()
  		UPDATE_ROT()

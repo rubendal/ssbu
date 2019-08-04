@@ -1,5 +1,5 @@
 diff --git "a/.1.0/popo/game_Final2.txt" "b/.0.0/popo/game_Final2.txt"
-index a3f5161..ecd5278 100644
+index f856ddc..ccd9318 100644
 --- "a/.1.0/popo/game_Final2.txt"
 +++ "b/.0.0/popo/game_Final2.txt"
 @@ -2,27 +2,27 @@ if(is_excute){
@@ -26,8 +26,8 @@ index a3f5161..ecd5278 100644
  			FT_START_CUTIN()
  		}
  		get_value_float(SO_VAR_FLOAT_LR)
--		if(0x14bec0(8, 0)){
-+		if(0x14bff0(8, 0)){
+-		if(0x14bec0(0, 0)){
++		if(0x14bff0(0, 0)){
  			if(is_excute){
  				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 3, 0)
  			}

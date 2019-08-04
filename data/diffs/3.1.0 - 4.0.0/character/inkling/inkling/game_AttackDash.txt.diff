@@ -1,5 +1,5 @@
 diff --git "a/g_3.1.0/inkling/game_AttackDash.txt" "b/g_4.0.0/inkling/game_AttackDash.txt"
-index 198d558..d33137f 100644
+index 659a6f8..982b286 100644
 --- "a/g_3.1.0/inkling/game_AttackDash.txt"
 +++ "b/g_4.0.0/inkling/game_AttackDash.txt"
 @@ -1,26 +1,26 @@
@@ -27,8 +27,8 @@ index 198d558..d33137f 100644
  	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
  }
  get_value_float(0, SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
  		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x0dc72fc38c)
  		ArticleModule__change_motion()

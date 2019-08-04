@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/falco/game_FinalAirLockOn.txt" "b/4.0.0/falco/game_FinalAirLockOn.txt"
-index 15a6ded..c81bccb 100644
+index 5fc91f2..1598757 100644
 --- "a/3.1.0/falco/game_FinalAirLockOn.txt"
 +++ "b/4.0.0/falco/game_FinalAirLockOn.txt"
 @@ -1,11 +1,11 @@
@@ -30,8 +30,8 @@ index 15a6ded..c81bccb 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x101d60(8, 0)){
-+if(0x101d80(8, 0)){
+-if(0x101d60(0, 0)){
++if(0x101d80(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x17ec9242a7, False, False)
  	}

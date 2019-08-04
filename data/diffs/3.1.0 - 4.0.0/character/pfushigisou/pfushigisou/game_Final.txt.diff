@@ -1,5 +1,5 @@
 diff --git "a/gisou_3.1.0/pfushigisou/game_Final.txt" "b/gisou_4.0.0/pfushigisou/game_Final.txt"
-index 01b6355..194f8ab 100644
+index 0cccd2c..068a804 100644
 --- "a/gisou_3.1.0/pfushigisou/game_Final.txt"
 +++ "b/gisou_4.0.0/pfushigisou/game_Final.txt"
 @@ -1,21 +1,21 @@
@@ -32,8 +32,8 @@ index 01b6355..194f8ab 100644
  	camera(MA_MSC_CMD_CAMERA_CAM_RESET)
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x103390(472, 0)){
-+if(0x1035f0(472, 0)){
+-if(0x103390(464, 0)){
++if(0x1035f0(464, 0)){
  	if(is_excute){
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -50, 0, 0)
  		camera(MA_MSC_CMD_CAMERA_CAM_RECT, 60, -56, 18, -8)

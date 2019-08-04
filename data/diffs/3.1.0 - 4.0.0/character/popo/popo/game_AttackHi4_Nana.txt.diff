@@ -1,5 +1,5 @@
 diff --git "a/.1.0/popo/game_AttackHi4_Nana.txt" "b/.0.0/popo/game_AttackHi4_Nana.txt"
-index a26547a..9b13bd2 100644
+index 1ef5300..4817d1f 100644
 --- "a/.1.0/popo/game_AttackHi4_Nana.txt"
 +++ "b/.0.0/popo/game_AttackHi4_Nana.txt"
 @@ -2,11 +2,11 @@ frame(Frame=8)
@@ -8,8 +8,8 @@ index a26547a..9b13bd2 100644
  }
  frame(Frame=12)
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x14bec0(8, 0)){
-+if(0x14bff0(8, 0)){
+-if(0x14bec0(0, 0)){
++if(0x14bff0(0, 0)){
  	if(is_excute){
  		ATTACK(ID=0, Part=0, Bone=top, Damage=8.25, Angle=83, KBG=126, FKB=0, BKB=50, Size=3.0, X=3.0, Y=12.0, Z=4.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
  		ATTACK(ID=1, Part=0, Bone=top, Damage=8.25, Angle=83, KBG=126, FKB=0, BKB=50, Size=3.0, X=3.0, Y=10.0, Z=5.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)

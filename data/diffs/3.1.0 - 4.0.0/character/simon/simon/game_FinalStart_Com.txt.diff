@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/simon/game_FinalStart_Com.txt" "b/4.0.0/simon/game_FinalStart_Com.txt"
-index 797ba78..02147e2 100644
+index 49e747b..1ea9339 100644
 --- "a/3.1.0/simon/game_FinalStart_Com.txt"
 +++ "b/4.0.0/simon/game_FinalStart_Com.txt"
 @@ -8,18 +8,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index 797ba78..02147e2 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x119960(40, 0)){
-+if(0x119a60(40, 0)){
+-if(0x119960(32, 0)){
++if(0x119a60(32, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
  	}

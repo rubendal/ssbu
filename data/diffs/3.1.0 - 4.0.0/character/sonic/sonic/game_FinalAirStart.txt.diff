@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/sonic/game_FinalAirStart.txt" "b/4.0.0/sonic/game_FinalAirStart.txt"
-index f487114..8a46ed9 100644
+index 6056351..630ee9f 100644
 --- "a/3.1.0/sonic/game_FinalAirStart.txt"
 +++ "b/4.0.0/sonic/game_FinalAirStart.txt"
 @@ -2,34 +2,34 @@ frame(Frame=1)
@@ -15,8 +15,8 @@ index f487114..8a46ed9 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x128ff0(8, 0)){
-+if(0x129070(8, 0)){
+-if(0x128ff0(0, 0)){
++if(0x129070(0, 0)){
  	if(is_excute){
  		PostureModule__scale(6, 0)
 -		0x128ff0(134514466, 2)

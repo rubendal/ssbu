@@ -1,5 +1,5 @@
 diff --git "a/nt_3.1.0/duckhunt/game_FinalAirStart.txt" "b/nt_4.0.0/duckhunt/game_FinalAirStart.txt"
-index 67db06d..fc74b42 100644
+index 9720c5c..565b3bf 100644
 --- "a/nt_3.1.0/duckhunt/game_FinalAirStart.txt"
 +++ "b/nt_4.0.0/duckhunt/game_FinalAirStart.txt"
 @@ -1,10 +1,10 @@
@@ -20,8 +20,8 @@ index 67db06d..fc74b42 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x119680(8, 0)){
-+if(0x1196a0(8, 0)){
+-if(0x119680(0, 0)){
++if(0x1196a0(0, 0)){
  	if(is_excute){
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
  		PostureModule__scale(4, 0)

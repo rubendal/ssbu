@@ -1,5 +1,5 @@
 diff --git "a/_3.1.0/mariod/game_Final.txt" "b/_4.0.0/mariod/game_Final.txt"
-index 12707c9..c918037 100644
+index e274d7b..13b61d5 100644
 --- "a/_3.1.0/mariod/game_Final.txt"
 +++ "b/_4.0.0/mariod/game_Final.txt"
 @@ -5,26 +5,26 @@ if(is_excute){
@@ -25,8 +25,8 @@ index 12707c9..c918037 100644
  			FT_START_CUTIN()
  		}
  		get_value_float(SO_VAR_FLOAT_LR)
--		if(0xd45d0(8, 0)){
-+		if(0xd45f0(8, 0)){
+-		if(0xd45d0(0, 0)){
++		if(0xd45f0(0, 0)){
  			if(is_excute){
  				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
  			}

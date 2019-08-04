@@ -1,5 +1,5 @@
 diff --git "a/rdsman_3.1.0/miiswordsman/game_FinalAirStart.txt" "b/rdsman_4.0.0/miiswordsman/game_FinalAirStart.txt"
-index 6045dee..63badbc 100644
+index b52349f..e2033b2 100644
 --- "a/rdsman_3.1.0/miiswordsman/game_FinalAirStart.txt"
 +++ "b/rdsman_4.0.0/miiswordsman/game_FinalAirStart.txt"
 @@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index 6045dee..63badbc 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x18ea80(8, 0)){
-+if(0x190b60(8, 0)){
+-if(0x18ea80(0, 0)){
++if(0x190b60(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
  	}

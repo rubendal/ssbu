@@ -1,11 +1,11 @@
 diff --git "a/g_3.1.0/inkling/game_RunBrakeR.txt" "b/g_4.0.0/inkling/game_RunBrakeR.txt"
-index c9e7a0d..7e4ed58 100644
+index d2c128a..77d6be2 100644
 --- "a/g_3.1.0/inkling/game_RunBrakeR.txt"
 +++ "b/g_4.0.0/inkling/game_RunBrakeR.txt"
 @@ -1,32 +1,32 @@
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
 -		WorkModule__on_flag(Flag=50676)
 +		WorkModule__on_flag(Flag=51800)
@@ -35,8 +35,8 @@ index c9e7a0d..7e4ed58 100644
  	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
  }
  get_value_float(0, SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
  		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x0be0831584)
  		ArticleModule__change_motion()

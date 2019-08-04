@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/sheik/game_FinalFinish.txt" "b/4.0.0/sheik/game_FinalFinish.txt"
-index 6576719..235339d 100644
+index 11651a2..9617b89 100644
 --- "a/3.1.0/sheik/game_FinalFinish.txt"
 +++ "b/4.0.0/sheik/game_FinalFinish.txt"
 @@ -1,45 +1,45 @@
@@ -7,8 +7,8 @@ index 6576719..235339d 100644
 +if(0x106d20(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
  	frame(Frame=1)
  	get_value_float(SO_VAR_FLOAT_LR)
--	if(0x106a60(8, 0)){
-+	if(0x106d20(8, 0)){
+-	if(0x106a60(0, 0)){
++	if(0x106d20(0, 0)){
  		if(is_excute){
  			PostureModule__scale(5, 0)
 -			0x106a60(951824373, 1.5)
@@ -37,8 +37,8 @@ index 6576719..235339d 100644
  	CAM_ZOOM_OUT()
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x106a60(8, 0)){
-+if(0x106d20(8, 0)){
+-if(0x106a60(0, 0)){
++if(0x106d20(0, 0)){
  	if(is_excute){
  		PostureModule__scale(5, 0)
 -		0x106a60(951824373, 2)

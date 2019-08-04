@@ -1,5 +1,5 @@
 diff --git "a/g_3.1.0/inkling/game_Escapen.txt" "b/g_4.0.0/inkling/game_Escapen.txt"
-index a6debf0..bc13bec 100644
+index 1972d08..767eb2b 100644
 --- "a/g_3.1.0/inkling/game_Escapen.txt"
 +++ "b/g_4.0.0/inkling/game_Escapen.txt"
 @@ -1,29 +1,29 @@
@@ -31,10 +31,10 @@ index a6debf0..bc13bec 100644
  	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
  }
  get_value_float(0, SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
  		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x08569f5db6)
  		ArticleModule__change_motion()
  		get_value_float(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, SO_VAR_FLOAT_MOTION_RATE)
- 		SET_RATE_ARTICLE(312)
+ 		SET_RATE_ARTICLE(304)

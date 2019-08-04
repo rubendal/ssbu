@@ -1,5 +1,5 @@
 diff --git "a/ga_3.1.0/gekkouga/game_FinalChange.txt" "b/ga_4.0.0/gekkouga/game_FinalChange.txt"
-index bad411d..54b6b29 100644
+index 056e08c..c113b4b 100644
 --- "a/ga_3.1.0/gekkouga/game_FinalChange.txt"
 +++ "b/ga_4.0.0/gekkouga/game_FinalChange.txt"
 @@ -1,24 +1,24 @@
@@ -23,8 +23,8 @@ index bad411d..54b6b29 100644
  			CAM_ZOOM_IN_arg5(0, 0)
  		}
  		get_value_float(SO_VAR_FLOAT_LR)
--		if(0x140ee0(8, 0)){
-+		if(0x1410d0(8, 0)){
+-		if(0x140ee0(0, 0)){
++		if(0x1410d0(0, 0)){
  			if(is_excute){
  				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
  			}

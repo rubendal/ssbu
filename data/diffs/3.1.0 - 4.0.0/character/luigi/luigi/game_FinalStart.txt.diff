@@ -1,8 +1,8 @@
 diff --git "a/3.1.0/luigi/game_FinalStart.txt" "b/4.0.0/luigi/game_FinalStart.txt"
-index f9628c8..1212a0d 100644
+index 585f131..d769ef3 100644
 --- "a/3.1.0/luigi/game_FinalStart.txt"
 +++ "b/4.0.0/luigi/game_FinalStart.txt"
-@@ -14,11 +14,11 @@ if(method.lib::L2CValue.operator__lib::L2CValueconst__const(8, 0)){
+@@ -14,11 +14,11 @@ if(method.lib::L2CValue.operator__lib::L2CValueconst__const(0, 0)){
  		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
  	}
  	else{

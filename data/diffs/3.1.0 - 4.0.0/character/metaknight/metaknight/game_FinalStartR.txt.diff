@@ -1,5 +1,5 @@
 diff --git "a/ight_3.1.0/metaknight/game_FinalStartR.txt" "b/ight_4.0.0/metaknight/game_FinalStartR.txt"
-index fbc181c..9fb33d5 100644
+index cd968d1..2ca539f 100644
 --- "a/ight_3.1.0/metaknight/game_FinalStartR.txt"
 +++ "b/ight_4.0.0/metaknight/game_FinalStartR.txt"
 @@ -1,19 +1,19 @@
@@ -17,14 +17,14 @@ index fbc181c..9fb33d5 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x12b860(40, 0)){
-+if(0x12b880(40, 0)){
+-if(0x12b860(32, 0)){
++if(0x12b880(32, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x15ee67ffd9, True, False)
  	}
  	else{
  		if(is_excute){
-@@ -21,11 +21,11 @@ if(0x12b860(40, 0)){
+@@ -21,11 +21,11 @@ if(0x12b860(32, 0)){
  		}
  		frame(Frame=10)
  		if(is_excute){

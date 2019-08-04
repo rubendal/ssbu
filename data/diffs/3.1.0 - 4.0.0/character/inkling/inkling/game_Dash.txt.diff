@@ -1,5 +1,5 @@
 diff --git "a/g_3.1.0/inkling/game_Dash.txt" "b/g_4.0.0/inkling/game_Dash.txt"
-index 6cf6f48..847b29c 100644
+index 5237cc2..dc51947 100644
 --- "a/g_3.1.0/inkling/game_Dash.txt"
 +++ "b/g_4.0.0/inkling/game_Dash.txt"
 @@ -1,35 +1,35 @@
@@ -7,8 +7,8 @@ index 6cf6f48..847b29c 100644
  	VisibilityModule__set_whole(False)
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
 -		WorkModule__on_flag(Flag=50676)
 +		WorkModule__on_flag(Flag=51800)
@@ -38,8 +38,8 @@ index 6cf6f48..847b29c 100644
  	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
  }
  get_value_float(0, SO_VAR_FLOAT_LR)
--if(0x13c860(8, 0)){
-+if(0x13ce40(8, 0)){
+-if(0x13c860(0, 0)){
++if(0x13ce40(0, 0)){
  	if(is_excute){
  		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x06c09c4b10)
  		ArticleModule__change_motion()

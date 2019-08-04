@@ -1,5 +1,5 @@
 diff --git "a/1.0/roy/game_FinalStart.txt" "b/0.0/roy/game_FinalStart.txt"
-index 531fa29..5f0802f 100644
+index b178f45..4baa1b2 100644
 --- "a/1.0/roy/game_FinalStart.txt"
 +++ "b/0.0/roy/game_FinalStart.txt"
 @@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index 531fa29..5f0802f 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x120160(8, 0)){
-+if(0x120180(8, 0)){
+-if(0x120160(0, 0)){
++if(0x120180(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
  	}

@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/snake/game_FinalStart.txt" "b/4.0.0/snake/game_FinalStart.txt"
-index cfe874b..fd1daa4 100644
+index fb45ec5..5ea6f34 100644
 --- "a/3.1.0/snake/game_FinalStart.txt"
 +++ "b/4.0.0/snake/game_FinalStart.txt"
 @@ -6,18 +6,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index cfe874b..fd1daa4 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x113cc0(8, 0)){
-+if(0x113ce0(8, 0)){
+-if(0x113cc0(0, 0)){
++if(0x113ce0(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
  	}

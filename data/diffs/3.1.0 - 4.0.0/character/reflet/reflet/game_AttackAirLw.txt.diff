@@ -1,5 +1,5 @@
 diff --git "a/_3.1.0/reflet/game_AttackAirLw.txt" "b/_4.0.0/reflet/game_AttackAirLw.txt"
-index 6ff749a..2acaa43 100644
+index 16687ce..0e30790 100644
 --- "a/_3.1.0/reflet/game_AttackAirLw.txt"
 +++ "b/_4.0.0/reflet/game_AttackAirLw.txt"
 @@ -21,11 +21,11 @@ if(is_excute){

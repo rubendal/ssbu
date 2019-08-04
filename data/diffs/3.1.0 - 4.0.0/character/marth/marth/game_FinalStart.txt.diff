@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/marth/game_FinalStart.txt" "b/4.0.0/marth/game_FinalStart.txt"
-index b466f80..2e0add0 100644
+index 43defc9..23bb92d 100644
 --- "a/3.1.0/marth/game_FinalStart.txt"
 +++ "b/4.0.0/marth/game_FinalStart.txt"
 @@ -8,19 +8,19 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index b466f80..2e0add0 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x130830(8, 0)){
-+if(0x130850(8, 0)){
+-if(0x130830(0, 0)){
++if(0x130850(0, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
  	}

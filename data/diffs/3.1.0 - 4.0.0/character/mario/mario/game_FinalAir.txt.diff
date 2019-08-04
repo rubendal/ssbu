@@ -1,5 +1,5 @@
 diff --git "a/3.1.0/mario/game_FinalAir.txt" "b/4.0.0/mario/game_FinalAir.txt"
-index 3c79ded..6974bd7 100644
+index d92374b..1e59748 100644
 --- "a/3.1.0/mario/game_FinalAir.txt"
 +++ "b/4.0.0/mario/game_FinalAir.txt"
 @@ -5,26 +5,26 @@ if(is_excute){
@@ -25,8 +25,8 @@ index 3c79ded..6974bd7 100644
  			FT_START_CUTIN()
  		}
  		get_value_float(SO_VAR_FLOAT_LR)
--		if(0xd4c20(8, 0)){
-+		if(0xd4c40(8, 0)){
+-		if(0xd4c20(0, 0)){
++		if(0xd4c40(0, 0)){
  			if(is_excute){
  				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
  			}

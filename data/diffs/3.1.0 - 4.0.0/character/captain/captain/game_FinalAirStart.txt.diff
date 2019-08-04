@@ -1,5 +1,5 @@
 diff --git "a/n_3.1.0/captain/game_FinalAirStart.txt" "b/n_4.0.0/captain/game_FinalAirStart.txt"
-index 7d5862a..332844b 100644
+index 247f890..be2784d 100644
 --- "a/n_3.1.0/captain/game_FinalAirStart.txt"
 +++ "b/n_4.0.0/captain/game_FinalAirStart.txt"
 @@ -8,11 +8,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
@@ -8,8 +8,8 @@ index 7d5862a..332844b 100644
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x1067a0(56, 0)){
-+if(0x1067c0(56, 0)){
+-if(0x1067a0(48, 0)){
++if(0x1067c0(48, 0)){
  	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x197cd68c16, False, False)
  	}

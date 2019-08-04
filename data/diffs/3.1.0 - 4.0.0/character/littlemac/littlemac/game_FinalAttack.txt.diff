@@ -1,5 +1,5 @@
 diff --git "a/mac_3.1.0/littlemac/game_FinalAttack.txt" "b/mac_4.0.0/littlemac/game_FinalAttack.txt"
-index d7652a6..5df8220 100644
+index d944743..dac9bdb 100644
 --- "a/mac_3.1.0/littlemac/game_FinalAttack.txt"
 +++ "b/mac_4.0.0/littlemac/game_FinalAttack.txt"
 @@ -5,14 +5,14 @@ frame(Frame=1)
@@ -8,8 +8,8 @@ index d7652a6..5df8220 100644
  }
  if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
  	get_value_float(SO_VAR_FLOAT_LR)
--	if(0x1441f0(8, 0)){
-+	if(0x1442a0(8, 0)){
+-	if(0x1441f0(0, 0)){
++	if(0x1442a0(0, 0)){
  		if(is_excute){
  			PostureModule__scale(300, 0)
 -			0x1441f0(-1510825960, 2.5)

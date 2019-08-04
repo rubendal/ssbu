@@ -1,8 +1,16 @@
 diff --git "a/r_3.1.0/richter/game_FinalStart.txt" "b/r_4.0.0/richter/game_FinalStart.txt"
-index 2b94e5b..b2e1a8a 100644
+index e2fce03..1fea036 100644
 --- "a/r_3.1.0/richter/game_FinalStart.txt"
 +++ "b/r_4.0.0/richter/game_FinalStart.txt"
-@@ -15,11 +15,11 @@ if(0x16e000(40, 0)){
+@@ -8,18 +8,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x114aa0(32, 0)){
++if(0x114ba0(32, 0)){
+ 	if(is_excute){
  		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
  	}
  	else{
