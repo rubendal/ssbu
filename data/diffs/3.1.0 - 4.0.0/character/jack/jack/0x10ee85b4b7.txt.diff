@@ -1,51 +1,51 @@
 diff --git "a/.1.0/jack/0x10ee85b4b7.txt" "b/.0.0/jack/0x10ee85b4b7.txt"
-index 91d8928..9302973 100644
+index 91d8928..3b19bff 100644
 --- "a/.1.0/jack/0x10ee85b4b7.txt"
 +++ "b/.0.0/jack/0x10ee85b4b7.txt"
 @@ -1,37 +1,37 @@
  frame(Frame=76)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51004)
-+	WorkModule__on_flag(Flag=52132)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_TARGET_VIS_ON)
  	FT_START_CUTIN_JACK_FINAL()
  }
  frame(Frame=100)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=117)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=134)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=151)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=168)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=185)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=195)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
-+	WorkModule__on_flag(Flag=52136)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
  }
  frame(Frame=200)
  if(is_excute){
 -	WorkModule__on_flag(Flag=47928)
-+	WorkModule__on_flag(Flag=48144)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE01_SYNC)
  }

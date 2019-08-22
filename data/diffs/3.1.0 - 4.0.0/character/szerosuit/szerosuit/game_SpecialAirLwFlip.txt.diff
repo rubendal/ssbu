@@ -1,0 +1,14 @@
+diff --git "a/uit_3.1.0/szerosuit/game_SpecialAirLwFlip.txt" "b/uit_4.0.0/szerosuit/game_SpecialAirLwFlip.txt"
+index 2365202..0030444 100644
+--- "a/uit_3.1.0/szerosuit/game_SpecialAirLwFlip.txt"
++++ "b/uit_4.0.0/szerosuit/game_SpecialAirLwFlip.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=8.0, Angle=270, KBG=80, FKB=0, BKB=10, Size=3.0, X=0.0, Y=-3.0, Z=0.0, Hitlag=1.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=8.0, Angle=361, KBG=145, FKB=0, BKB=25, Size=4.0, X=0.0, Y=-3.0, Z=0.0, Hitlag=1.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G_d, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_bury, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=8.0, Angle=361, KBG=145, FKB=0, BKB=25, Size=4.0, X=0.0, Y=-3.0, Z=0.0, Hitlag=1.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_bury, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=2, Part=0, Bone=top, Damage=8.0, Angle=270, KBG=80, FKB=0, BKB=10, Size=3.0, X=0.0, Y=-3.0, Z=0.0, Hitlag=1.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ }
+ frame(Frame=2)
+ if(is_excute){
+ 	AttackModule__clear_all()

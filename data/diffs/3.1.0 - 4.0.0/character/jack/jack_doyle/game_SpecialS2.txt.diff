@@ -1,5 +1,5 @@
 diff --git "a/.1.0/jack_doyle/game_SpecialS2.txt" "b/.0.0/jack_doyle/game_SpecialS2.txt"
-index 7c072c9..6e389ec 100644
+index 7c072c9..cf7a2ff 100644
 --- "a/.1.0/jack_doyle/game_SpecialS2.txt"
 +++ "b/.0.0/jack_doyle/game_SpecialS2.txt"
 @@ -1,5 +1,5 @@
@@ -7,5 +7,5 @@ index 7c072c9..6e389ec 100644
  frame(Frame=15)
  if(is_excute){
 -	ArticleModule__generate_article(51036)
-+	ArticleModule__generate_article(52164)
++	ArticleModule__generate_article(WEAPON_JACK_DOYLE_GENERATE_ARTICLE_FIRE2)
  }

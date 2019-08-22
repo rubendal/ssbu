@@ -1,24 +1,24 @@
 diff --git "a/.1.0/jack/game_VisualScene02.txt" "b/.0.0/jack/game_VisualScene02.txt"
-index 016c132..456ad1e 100644
+index 016c132..12aa47e 100644
 --- "a/.1.0/jack/game_VisualScene02.txt"
 +++ "b/.0.0/jack/game_VisualScene02.txt"
 @@ -1,20 +1,20 @@
  if(is_excute){
 -	ArticleModule__generate_article(47980)
 -	as_hash__const(47980, 0x0f077026de)
-+	ArticleModule__generate_article(48204)
-+	as_hash__const(48204, 0x0f077026de)
++	ArticleModule__generate_article(FIGHTER_JACK_GENERATE_ARTICLE_BACKGROUND)
++	as_hash__const(FIGHTER_JACK_GENERATE_ARTICLE_BACKGROUND, 0x0f077026de)
  	ArticleModule__change_motion()
  	VisibilityModule__set_whole(True)
 -	WorkModule__on_flag(Flag=51012)
-+	WorkModule__on_flag(Flag=52140)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_TARGET_FURAFURA)
  }
  frame(Frame=93)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51008)
 -	WorkModule__on_flag(Flag=51016)
-+	WorkModule__on_flag(Flag=52136)
-+	WorkModule__on_flag(Flag=52144)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_FINISH)
  }
  frame(Frame=98)
  if(is_excute){
@@ -36,11 +36,11 @@ index 016c132..456ad1e 100644
  frame(Frame=130)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51020)
-+	WorkModule__on_flag(Flag=52148)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_CHECK_RESULT)
  }
  frame(Frame=180)
  frame(Frame=204)
  if(is_excute){
 -	WorkModule__on_flag(Flag=51024)
-+	WorkModule__on_flag(Flag=52152)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCREEN_CAPTURE)
  }

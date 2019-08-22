@@ -1,13 +1,13 @@
 diff --git "a/3.1.0/ganon/game_SpecialAirSCatch.txt" "b/4.0.0/ganon/game_SpecialAirSCatch.txt"
-index 81b227c..0ac2c51 100644
+index 81b227c..6f1f3f8 100644
 --- "a/3.1.0/ganon/game_SpecialAirSCatch.txt"
 +++ "b/4.0.0/ganon/game_SpecialAirSCatch.txt"
 @@ -1,8 +1,9 @@
  if(is_excute){
  	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=4.0, Angle=0, KBG=10, FKB=0, BKB=100, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_NONE)
 -	SET_SPEED_EX(0, 2, 0, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
-+	WorkModule__set_float(0, 23552)
-+	WorkModule__set_float(2, 23556)
++	WorkModule__set_float(0, FIGHTER_GANON_STATUS_WORK_ID_FLOAT_EXPLOSION_AIR_SPEED_X)
++	WorkModule__set_float(2, FIGHTER_GANON_STATUS_WORK_ID_FLOAT_EXPLOSION_AIR_SPEED_Y)
  }
  frame(Frame=3)
  if(is_excute){

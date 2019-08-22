@@ -1,14 +1,14 @@
 diff --git "a/g_3.1.0/inkling/0x152edc65bb.txt" "b/g_4.0.0/inkling/0x152edc65bb.txt"
-index 1bce90f..34fd051 100644
+index 1bce90f..cbc9f96 100644
 --- "a/g_3.1.0/inkling/0x152edc65bb.txt"
 +++ "b/g_4.0.0/inkling/0x152edc65bb.txt"
 @@ -1,29 +1,29 @@
  if(is_excute){
 -	WorkModule__on_flag(Flag=50676)
-+	WorkModule__on_flag(Flag=51800)
++	WorkModule__on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_NO_FLIP_SQUID)
  }
 -if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41572), False, False)){
-+if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(41784), False, False)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID), False, False)){
  	if(is_excute){
  		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
  	}
@@ -25,7 +25,7 @@ index 1bce90f..34fd051 100644
  	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
  	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
 -	WorkModule__on_flag(Flag=41572)
-+	WorkModule__on_flag(Flag=41784)
++	WorkModule__on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID)
  	StatusModule__status_kind()
  	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
  	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)

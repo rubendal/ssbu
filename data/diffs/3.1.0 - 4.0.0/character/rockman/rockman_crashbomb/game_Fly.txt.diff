@@ -1,0 +1,15 @@
+diff --git "a/n_3.1.0/rockman_crashbomb/game_Fly.txt" "b/n_4.0.0/rockman_crashbomb/game_Fly.txt"
+index 2ef5d64..6d668d9 100644
+--- "a/n_3.1.0/rockman_crashbomb/game_Fly.txt"
++++ "b/n_4.0.0/rockman_crashbomb/game_Fly.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=0, FKB=0, BKB=5, Size=1.2, X=0.0, Y=-1.2, Z=-11.8, X2=0.0, Y2=0.0, Z2=-1.0, Hitlag=0.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA_d, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x135f399c3b, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=0, FKB=0, BKB=5, Size=1.2, X=0.0, Y=-1.2, Z=-11.8, X2=0.0, Y2=0.0, Z2=-1.0, Hitlag=0.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=49916, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x135f399c3b, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_OBJECT)
+ 	AttackModule__set_nearest(0, True)
+ }
+ wait(Frames=1)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=0, FKB=0, BKB=5, Size=1.2, X=0.0, Y=0.0, Z=0.0, Hitlag=0.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA_d, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x135f399c3b, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=0, FKB=0, BKB=5, Size=1.2, X=0.0, Y=0.0, Z=0.0, Hitlag=0.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=49916, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x135f399c3b, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_OBJECT)
+ }

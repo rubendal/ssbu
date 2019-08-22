@@ -1,5 +1,5 @@
 diff --git "a/g_3.1.0/inkling/game_ThrowF.txt" "b/g_4.0.0/inkling/game_ThrowF.txt"
-index 5465deb..b8c8808 100644
+index 5465deb..89b8e1f 100644
 --- "a/g_3.1.0/inkling/game_ThrowF.txt"
 +++ "b/g_4.0.0/inkling/game_ThrowF.txt"
 @@ -1,11 +1,11 @@
@@ -9,7 +9,7 @@ index 5465deb..b8c8808 100644
  }
  frame(Frame=22)
 -if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
-+if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16560), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
  	if(is_excute){
  		ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=361, KBG=100, FKB=30, BKB=0, Size=5.5, X=0.0, Y=13.0, Z=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_WATER)
  		AttackModule__set_ink_value(ID=0, Ink=80)

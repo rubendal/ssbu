@@ -1,5 +1,5 @@
 diff --git "a/.1.0/jack/game_SpecialAirLwLoop.txt" "b/.0.0/jack/game_SpecialAirLwLoop.txt"
-index 2d58509..2c193b0 100644
+index 2d58509..24b497d 100644
 --- "a/.1.0/jack/game_SpecialAirLwLoop.txt"
 +++ "b/.0.0/jack/game_SpecialAirLwLoop.txt"
 @@ -1,5 +1,5 @@
@@ -7,5 +7,5 @@ index 2d58509..2c193b0 100644
  if(is_excute){
  	FighterAreaModuleImpl__enable_fix_jostle_area(4, 3.8)
 -	WorkModule__on_flag(Flag=48152)
-+	WorkModule__on_flag(Flag=48376)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_SPECIAL_LW_FLAG_GUARD_START)
  }

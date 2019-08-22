@@ -1,15 +1,15 @@
 diff --git "a/.1.0/jack/game_SpecialAirS2.txt" "b/.0.0/jack/game_SpecialAirS2.txt"
-index 71d01f9..9900b26 100644
+index 71d01f9..c67d88d 100644
 --- "a/.1.0/jack/game_SpecialAirS2.txt"
 +++ "b/.0.0/jack/game_SpecialAirS2.txt"
 @@ -1,8 +1,8 @@
  frame(Frame=18)
  if(is_excute){
 -	WorkModule__on_flag(Flag=48208)
-+	WorkModule__on_flag(Flag=48432)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_SPECIAL_S_FLAG_ENABLE_CONTROL_ENERGY)
  }
  frame(Frame=32)
  if(is_excute){
 -	WorkModule__on_flag(Flag=48204)
-+	WorkModule__on_flag(Flag=48428)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_SPECIAL_S_FLAG_SET_FALL_NORMAL)
  }

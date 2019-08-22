@@ -1,5 +1,5 @@
 diff --git "a/_3.1.0/packun/game_SpecialNStart.txt" "b/_4.0.0/packun/game_SpecialNStart.txt"
-index 3ec5344..a3b553a 100644
+index 3ec5344..6e569ab 100644
 --- "a/_3.1.0/packun/game_SpecialNStart.txt"
 +++ "b/_4.0.0/packun/game_SpecialNStart.txt"
 @@ -2,9 +2,9 @@ frame(Frame=1)
@@ -9,7 +9,7 @@ index 3ec5344..a3b553a 100644
  frame(Frame=10)
  if(is_excute){
 -	WorkModule__on_flag(Flag=17412)
-+	WorkModule__on_flag(Flag=17648)
++	WorkModule__on_flag(Flag=FIGHTER_PACKUN_STATUS_SPECIAL_N_FLAG_GENERATE_ARTICLE_SPIKEBALL)
  }
  frame(Frame=11)
  FT_MOTION_RATE(FSM=0.7)
