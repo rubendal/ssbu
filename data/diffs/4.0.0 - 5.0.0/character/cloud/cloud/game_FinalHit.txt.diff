@@ -1,0 +1,30 @@
+diff --git "a/4.0.0/cloud/game_FinalHit.txt" "b/5.0.0/cloud/game_FinalHit.txt"
+index 1353947..9bbddaf 100644
+--- "a/4.0.0/cloud/game_FinalHit.txt"
++++ "b/5.0.0/cloud/game_FinalHit.txt"
+@@ -8,22 +8,22 @@ if(is_excute){
+ }
+ frame(Frame=5)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_CLOUD_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 	FT_MOTION_RATE(FSM=0.5)
+ 	WorkModule__get_float(FIGHTER_CLOUD_STATUS_FINAL_WORK_FLOAT_ATTACK_TARGET_LR)
+-	if(0x14cb90(1831489048, 0)){
++	if(0x14cbf0(2134465898, 0)){
+ 		if(is_excute){
+ 			CAM_ZOOM_OUT()
+ 			PostureModule__scale(32, 0)
+-			0x14cb90(1831489048, 3.2)
++			0x14cbf0(2134465898, 3.2)
+ 			CAM_ZOOM_IN_FINAL(0, 0, 30, -10, 195, True, FIGHTER_CLOUD_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 10)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				CAM_ZOOM_OUT()
+ 				PostureModule__scale(32, 0)
+-				0x14cb90(1831489048, 2.8)
++				0x14cbf0(2134465898, 2.8)
+ 				CAM_ZOOM_IN_FINAL(0, 0, -30, -10, 195, True, FIGHTER_CLOUD_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 10)
+ 			}
+ 		}
+ 	}
+ }

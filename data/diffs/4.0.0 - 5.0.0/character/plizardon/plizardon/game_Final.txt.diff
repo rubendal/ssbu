@@ -1,0 +1,17 @@
+diff --git "a/don_4.0.0/plizardon/game_Final.txt" "b/don_5.0.0/plizardon/game_Final.txt"
+index 5779156..d6cb365 100644
+--- "a/don_4.0.0/plizardon/game_Final.txt"
++++ "b/don_5.0.0/plizardon/game_Final.txt"
+@@ -10,11 +10,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		FT_START_CUTIN_arg1(True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0xdf4c0(986853824, 2.1)
++			0xdf4c0(-1674226339, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(True)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

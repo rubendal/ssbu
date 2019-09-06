@@ -1,0 +1,13 @@
+diff --git "a/4.0.0/krool/game_SpecialAirNLoop.txt" "b/5.0.0/krool/game_SpecialAirNLoop.txt"
+index a28c4ef..3f6b4ce 100644
+--- "a/4.0.0/krool/game_SpecialAirNLoop.txt"
++++ "b/5.0.0/krool/game_SpecialAirNLoop.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+ 	CATCH(ID=0, Bone=top, Size=7.0, X=0.0, Y=8.0, Z=13.0, X2=0.0, Y2=8.0, Z2=18.0, Status=FIGHTER_STATUS_KIND_SWALLOWED, Ground/Air=COLLISION_SITUATION_MASK_G)
+ 	CATCH(ID=1, Bone=top, Size=4.5, X=0.0, Y=9.5, Z=10.7, X2=0.0, Y2=9.5, Z2=20.5, Status=FIGHTER_STATUS_KIND_SWALLOWED, Ground/Air=COLLISION_SITUATION_MASK_A)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=0.0, Angle=160, KBG=100, FKB=30, BKB=0, Size=9.0, X=0.0, Y=9.0, Z=22.0, X2=0.0, Y2=9.0, Z2=27.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=3, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=49916, Hitbits=COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=0.0, Angle=160, KBG=100, FKB=30, BKB=0, Size=9.0, X=0.0, Y=9.0, Z=22.0, X2=0.0, Y2=9.0, Z2=27.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=3, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=50756, Hitbits=COLLISION_CATEGORY_MASK_NO_STAGE_GIMMICK, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=5.0, Angle=361, KBG=100, FKB=0, BKB=0, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	SEARCH(0, 0, top, 7.0, 0.0, 8.0, 11.0, 0.0, 8.0, 28.0, COLLISION_KIND_MASK_AH, HIT_STATUS_MASK_ALL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_ALL, COLLISION_PART_MASK_ALL, True)
+ }

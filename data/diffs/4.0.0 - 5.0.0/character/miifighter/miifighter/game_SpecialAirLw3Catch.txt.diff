@@ -1,0 +1,17 @@
+diff --git "a/hter_4.0.0/miifighter/game_SpecialAirLw3Catch.txt" "b/hter_5.0.0/miifighter/game_SpecialAirLw3Catch.txt"
+index a2c5aa5..30b969c 100644
+--- "a/hter_4.0.0/miifighter/game_SpecialAirLw3Catch.txt"
++++ "b/hter_5.0.0/miifighter/game_SpecialAirLw3Catch.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ }
+ frame(Frame=4)
+ if(is_excute){
+-	SEARCH(0, 0, top, 15.0, 0.0, 5.0, 10.5, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_ALL, 0, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_FI, COLLISION_PART_MASK_ALL, False)
++	SEARCH(0, 0, top, 15.0, 0.0, 5.0, 10.5, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 0, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_FI, COLLISION_PART_MASK_ALL, False)
+ }
+ frame(Frame=6)
+ if(is_excute){
+ 	search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR_ALL)
+ }

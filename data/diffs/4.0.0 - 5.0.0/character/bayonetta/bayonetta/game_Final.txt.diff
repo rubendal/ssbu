@@ -1,0 +1,17 @@
+diff --git "a/tta_4.0.0/bayonetta/game_Final.txt" "b/tta_5.0.0/bayonetta/game_Final.txt"
+index 79ba792..9ce3dff 100644
+--- "a/tta_4.0.0/bayonetta/game_Final.txt"
++++ "b/tta_5.0.0/bayonetta/game_Final.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ }
+ else{
+ 	frame(Frame=1)
+ 	if(is_excute){
+ 		PostureModule__scale(3, 0)
+-		0x1905b0(1733604310, 2.0)
++		0x1905b0(1422661860, 2.0)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=25)

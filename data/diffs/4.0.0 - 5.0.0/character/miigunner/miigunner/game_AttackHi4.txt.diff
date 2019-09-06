@@ -1,0 +1,17 @@
+diff --git "a/ner_4.0.0/miigunner/game_AttackHi4.txt" "b/ner_5.0.0/miigunner/game_AttackHi4.txt"
+index 5bdafe9..622f536 100644
+--- "a/ner_4.0.0/miigunner/game_AttackHi4.txt"
++++ "b/ner_5.0.0/miigunner/game_AttackHi4.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=armr, Damage=2.5, Angle=110, KBG=100, FKB=30, BKB=100, Size=6.0, X=7.2, Y=-2.3, Z=0.0, X2=5.8, Y2=-0.8, Z2=0.0, Hitlag=1.0, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
+-	ATTACK(ID=1, Part=0, Bone=armr, Damage=2.5, Angle=110, KBG=100, FKB=30, BKB=100, Size=7.0, X=7.0, Y=-1.0, Z=0.0, Hitlag=1.0, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
++	ATTACK(ID=1, Part=0, Bone=armr, Damage=2.5, Angle=110, KBG=100, FKB=30, BKB=100, Size=7.0, X=7.0, Y=-1.0, Z=0.0, Hitlag=1.0, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=50752, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
+ 	ATTACK(ID=2, Part=0, Bone=armr, Damage=2.5, Angle=361, KBG=100, FKB=0, BKB=0, Size=7.0, X=7.0, Y=-1.0, Z=0.0, Hitlag=1.0, SDI=1.2, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
+ 	as_hash__const(2, top, -3, 30, 10)
+ 	AttackModule__set_vec_target_pos()
+ 	AttackModule__set_no_finish_camera(0, True, False)
+ 	AttackModule__set_no_finish_camera(1, True, False)

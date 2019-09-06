@@ -1,0 +1,17 @@
+diff --git "a/ame_4.0.0/pzenigame/game_FinalAir.txt" "b/ame_5.0.0/pzenigame/game_FinalAir.txt"
+index bee0ee9..d289b1c 100644
+--- "a/ame_4.0.0/pzenigame/game_FinalAir.txt"
++++ "b/ame_5.0.0/pzenigame/game_FinalAir.txt"
+@@ -10,11 +10,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		FT_START_CUTIN_arg1(True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0xe2950(-1683331142, 2.1)
++			0xe2950(-2037671611, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(True)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

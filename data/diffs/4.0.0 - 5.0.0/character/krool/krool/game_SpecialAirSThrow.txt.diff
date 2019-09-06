@@ -1,0 +1,17 @@
+diff --git "a/4.0.0/krool/game_SpecialAirSThrow.txt" "b/5.0.0/krool/game_SpecialAirSThrow.txt"
+index 721e476..9d55893 100644
+--- "a/4.0.0/krool/game_SpecialAirSThrow.txt"
++++ "b/5.0.0/krool/game_SpecialAirSThrow.txt"
+@@ -2,11 +2,11 @@ frame(Frame=6)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_KROOL_STATUS_SPECIAL_S_FLAG_ENABLE_SUPER_ARMOR)
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=arml, Damage=0.0, Angle=361, KBG=100, FKB=30, BKB=0, Size=4.0, X=5.0, Y=0.0, Z=0.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=2, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=arml, Damage=0.0, Angle=361, KBG=100, FKB=30, BKB=0, Size=4.0, X=5.0, Y=0.0, Z=0.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=2, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=50752, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

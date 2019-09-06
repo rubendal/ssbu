@@ -1,0 +1,15 @@
+diff --git "a/_4.0.0/dedede/game_SpecialNEatLanding.txt" "b/_5.0.0/dedede/game_SpecialNEatLanding.txt"
+index 72b9f66..f45ee1f 100644
+--- "a/_4.0.0/dedede/game_SpecialNEatLanding.txt"
++++ "b/_5.0.0/dedede/game_SpecialNEatLanding.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=5.0, Angle=361, KBG=100, FKB=0, BKB=0, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_POS, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x148480(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x1486b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }

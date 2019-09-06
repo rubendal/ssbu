@@ -1,0 +1,17 @@
+diff --git "a/_4.0.0/pikmin/game_SpecialS.txt" "b/_5.0.0/pikmin/game_SpecialS.txt"
+index a2119eb..f3ae6fd 100644
+--- "a/_4.0.0/pikmin/game_SpecialS.txt"
++++ "b/_5.0.0/pikmin/game_SpecialS.txt"
+@@ -2,11 +2,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	frame(Frame=9)
+ 	if(is_excute){
+ 		WorkModule__on_flag(Flag=FIGHTER_PIKMIN_STATUS_SPECIAL_S_FLAG_THROW)
+ 	}
+ 	else{
+-		frame(Frame=1739308865)
++		frame(Frame=463762201)
+ 		if(is_excute){
+ 			MotionModule__set_rate(0.6)
+ 		}
+ 	}
+ }

@@ -1,0 +1,16 @@
+diff --git "a/n_4.0.0/gaogaen/game_FinalDash.txt" "b/n_5.0.0/gaogaen/game_FinalDash.txt"
+index c34e8e9..bdc5538 100644
+--- "a/n_4.0.0/gaogaen/game_FinalDash.txt"
++++ "b/n_5.0.0/gaogaen/game_FinalDash.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	CAM_ZOOM_OUT()
+ 	CATCH(ID=0, Bone=top, Size=6.0, X=0.0, Y=9.0, Z=4.0, X2=0.0, Y2=9.0, Z2=12.0, Status=FIGHTER_STATUS_KIND_GAOGAEN_FINAL_TARGET_START, Ground/Air=COLLISION_SITUATION_MASK_GA)
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=367, KBG=0, FKB=0, BKB=0, Size=5.0, X=0.0, Y=9.0, Z=4.0, X2=0.0, Y2=9.0, Z2=8.0, Hitlag=0.5, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=367, KBG=0, FKB=0, BKB=0, Size=5.0, X=0.0, Y=9.0, Z=4.0, X2=0.0, Y2=9.0, Z2=8.0, Hitlag=0.5, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=50752, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=367, KBG=100, FKB=50, BKB=0, Size=5.0, X=0.0, Y=9.0, Z=4.0, X2=0.0, Y2=9.0, Z2=8.0, Hitlag=0.5, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	AttackModule__set_no_dead_all(True, False)
+ }
+ frame(Frame=14)
+ if(is_excute){

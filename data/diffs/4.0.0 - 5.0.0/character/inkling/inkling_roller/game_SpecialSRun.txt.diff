@@ -1,0 +1,12 @@
+diff --git "a/g_4.0.0/inkling_roller/game_SpecialSRun.txt" "b/g_5.0.0/inkling_roller/game_SpecialSRun.txt"
+index 74c3f85..b9c5829 100644
+--- "a/g_4.0.0/inkling_roller/game_SpecialSRun.txt"
++++ "b/g_5.0.0/inkling_roller/game_SpecialSRun.txt"
+@@ -1,6 +1,6 @@
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=neck, Damage=11.0, Angle=60, KBG=105, FKB=0, BKB=25, Size=3.6, X=0.5, Y=3.8, Z=5.0, X2=0.5, Y2=3.8, Z2=-5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=40, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_bury, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=neck, Damage=11.0, Angle=60, KBG=105, FKB=0, BKB=25, Size=3.6, X=0.5, Y=3.8, Z=5.0, X2=0.5, Y2=3.8, Z2=-5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=40, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=50752, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_bury, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
+ 	ATTACK(ID=1, Part=0, Bone=neck, Damage=11.0, Angle=80, KBG=40, FKB=0, BKB=100, Size=3.0, X=0.5, Y=3.8, Z=5.0, X2=0.5, Y2=3.8, Z2=-5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=40, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_OBJECT)
+ 	AttackModule__set_ink_value(ID=0, Ink=100)
+ 	AttackModule__set_ink_value(ID=1, Ink=100)
+ }

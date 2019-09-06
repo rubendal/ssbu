@@ -1,0 +1,25 @@
+diff --git "a/_4.0.0/donkey/game_FinalHit.txt" "b/_5.0.0/donkey/game_FinalHit.txt"
+index f16d46d..483b80a 100644
+--- "a/_4.0.0/donkey/game_FinalHit.txt"
++++ "b/_5.0.0/donkey/game_FinalHit.txt"
+@@ -5,18 +5,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_DONKEY_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0x11c2c0(0, 0)){
+ 			if(is_excute){
+ 				PostureModule__scale(1, 0)
+-				0x11c2c0(817606331, 1.5)
++				0x11c2c0(-53105032, 1.5)
+ 				CAM_ZOOM_IN_arg5(-0.1, -0.3)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -20, 3)
+ 			}
+ 			else{
+ 				if(is_excute){
+ 					PostureModule__scale(1, 0)
+-					0x11c2c0(817606331, 1.5)
++					0x11c2c0(-53105032, 1.5)
+ 					CAM_ZOOM_IN_arg5(-0.1, 0.3)
+ 					camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 20, 3)
+ 				}
+ 			}
+ 		}

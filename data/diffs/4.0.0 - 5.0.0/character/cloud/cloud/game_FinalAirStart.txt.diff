@@ -1,0 +1,25 @@
+diff --git "a/4.0.0/cloud/game_FinalAirStart.txt" "b/5.0.0/cloud/game_FinalAirStart.txt"
+index 49639bf..d945a9b 100644
+--- "a/4.0.0/cloud/game_FinalAirStart.txt"
++++ "b/5.0.0/cloud/game_FinalAirStart.txt"
+@@ -10,18 +10,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x14cb90(1746928, 0)){
++if(0x14cbf0(1746928, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(0x1654ea70d3, True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0x14cb90(1831489048, 1.8)
++			0x14cbf0(2134465898, 1.8)
+ 			CAM_ZOOM_IN_arg5(-0.1, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 		}
+ 		else{
