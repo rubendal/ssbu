@@ -1,0 +1,32 @@
+diff --git "a/a_3.1.0/rosetta/game_Final.txt" "b/a_4.0.0/rosetta/game_Final.txt"
+index 05d0082..15d5dd3 100644
+--- "a/a_3.1.0/rosetta/game_Final.txt"
++++ "b/a_4.0.0/rosetta/game_Final.txt"
+@@ -2,24 +2,24 @@ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(15, 70)
+ }
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.5)
+-if(0x11d0a0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x11d100(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(55)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x11d0a0(0, 0)){
++if(0x11d100(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(0x11dff1b240, True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0x11d0a0(-1081664635, 0.9)
++			0x11d100(472918723, 0.9)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 13)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 0, 50, 0)
+ 		}
+ 		else{

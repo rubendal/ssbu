@@ -1,0 +1,27 @@
+diff --git "a/_3.1.0/shizue/game_Attack11.txt" "b/_4.0.0/shizue/game_Attack11.txt"
+index c399dd4..5578812 100644
+--- "a/_3.1.0/shizue/game_Attack11.txt"
++++ "b/_4.0.0/shizue/game_Attack11.txt"
+@@ -1,16 +1,16 @@
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_SHIZUE_GENERATE_ARTICLE_PICOPICOHAMMER)
+ }
+ frame(Frame=3)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=38, FKB=0, BKB=21, Size=2.5, X=0.0, Y=5.5, Z=5.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
+-	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=38, FKB=0, BKB=21, Size=2.5, X=0.0, Y=5.5, Z=8.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
+-	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=38, FKB=0, BKB=21, Size=2.5, X=0.0, Y=5.5, Z=11.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
+-	AttackModule__set_add_reaction_frame(ID=0, Frames=8, Unk=False)
+-	AttackModule__set_add_reaction_frame(ID=1, Frames=8, Unk=False)
+-	AttackModule__set_add_reaction_frame(ID=2, Frames=8, Unk=False)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=30, FKB=0, BKB=14, Size=2.5, X=0.0, Y=5.5, Z=5.0, Hitlag=0.8, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=30, FKB=0, BKB=14, Size=2.5, X=0.0, Y=5.5, Z=8.0, Hitlag=0.8, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=30, FKB=0, BKB=14, Size=2.5, X=0.0, Y=5.5, Z=11.0, Hitlag=0.8, SDI=0.5, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_SHIZUE_HAMMER, Type=ATTACK_REGION_OBJECT)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=14, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=14, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=2, Frames=14, Unk=False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

@@ -1,0 +1,17 @@
+diff --git "a/.1.0/popo/game_Final1R.txt" "b/.0.0/popo/game_Final1R.txt"
+index b954b3f..4d814a0 100644
+--- "a/.1.0/popo/game_Final1R.txt"
++++ "b/.0.0/popo/game_Final1R.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	FT_SET_FINAL_SMASH_LIGHT(True)
+ 	FT_REMOVE_FINAL_AURA(False)
+ 	PostureModule__scale(20, 0)
+-	0x14bec0(265598161, 2.1)
++	0x14bff0(-1995919863, 2.1)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ 	FT_START_CUTIN()
+ 	camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 	SLOW_OPPONENT(2, 60)
+ }

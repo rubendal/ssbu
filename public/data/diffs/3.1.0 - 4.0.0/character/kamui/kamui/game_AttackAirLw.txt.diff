@@ -1,0 +1,23 @@
+diff --git "a/3.1.0/kamui/game_AttackAirLw.txt" "b/4.0.0/kamui/game_AttackAirLw.txt"
+index 4b32b29..48d462c 100644
+--- "a/3.1.0/kamui/game_AttackAirLw.txt"
++++ "b/4.0.0/kamui/game_AttackAirLw.txt"
+@@ -1,14 +1,18 @@
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_LANDING_CLEAR_SPEED)
++	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	SET_SPEED_EX(0, 2, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
++	WorkModule__off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	KineticModule__suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
++	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	SET_SPEED_EX(0, -4, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
++	WorkModule__off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=120, KBG=100, FKB=15, BKB=0, Size=7.0, X=0.0, Y=2.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=2, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_sting, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=2.0, Angle=260, KBG=100, FKB=80, BKB=0, Size=7.0, X=0.0, Y=2.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=2, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_sting, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
+ 	ATTACK(ID=2, Part=0, Bone=top, Damage=2.0, Angle=120, KBG=100, FKB=35, BKB=0, Size=5.0, X=0.0, Y=-7.5, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=2, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_sting, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
+ }
+ frame(Frame=29)

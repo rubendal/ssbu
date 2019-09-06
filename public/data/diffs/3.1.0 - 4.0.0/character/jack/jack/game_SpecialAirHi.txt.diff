@@ -1,0 +1,73 @@
+diff --git "a/.1.0/jack/game_SpecialAirHi.txt" "b/.0.0/jack/game_SpecialAirHi.txt"
+index ffb646d..537b375 100644
+--- "a/.1.0/jack/game_SpecialAirHi.txt"
++++ "b/.0.0/jack/game_SpecialAirHi.txt"
+@@ -1,33 +1,33 @@
+ if(is_excute){
+-	ArticleModule__generate_article(47992)
++	ArticleModule__generate_article(FIGHTER_JACK_GENERATE_ARTICLE_WIREROPE)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48012)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_SPECIAL_HI_FLAG_REVERSE_LR)
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+-	WorkModule__on_flag(Flag=1444)
++	WorkModule__on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_HANG_IMMIDIATE)
+ }
+ frame(Frame=13)
+ if(is_excute){
+-	GroundModule__select_cliff_hangdata(51000)
+-	WorkModule__off_flag(Flag=1444)
++	GroundModule__select_cliff_hangdata(FIGHTER_JACK_CLIFF_HANG_DATA_AIR_LASSO)
++	WorkModule__off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_HANG_IMMIDIATE)
+ }
+ frame(Frame=15)
+ if(is_excute){
+ 	WorkModule__off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+ }
+ frame(Frame=19)
+ if(is_excute){
+-	ArticleModule__change_status(47992, 48020)
+-	AreaModule__reset_area(48024)
+-	ENABLE_AREA(48024)
+-	AreaModule__reset_area(48028)
+-	ENABLE_AREA(48028)
++	ArticleModule__change_status(FIGHTER_JACK_GENERATE_ARTICLE_WIREROPE, WEAPON_JACK_WIREROPE_STATUS_KIND_EXTEND)
++	AreaModule__reset_area(FIGHTER_JACK_AREA_KIND_ITEM_CATCH)
++	ENABLE_AREA(FIGHTER_JACK_AREA_KIND_ITEM_CATCH)
++	AreaModule__reset_area(FIGHTER_JACK_AREA_KIND_ITEM_CATCH_ADD)
++	ENABLE_AREA(FIGHTER_JACK_AREA_KIND_ITEM_CATCH_ADD)
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=throw, Damage=5.0, Angle=55, KBG=56, FKB=0, BKB=76, Size=2.7, X=1.5, Y=2.0, Z=2.0, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=5.0, Angle=55, KBG=56, FKB=0, BKB=76, Size=2.7, X=0.0, Y=22.0, Z=3.2, X2=0.0, Y2=38.0, Z2=10.6, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
+@@ -36,11 +36,11 @@ frame(Frame=21)
+ if(is_excute){
+ 	AttackModule__clear(ID=1)
+ }
+ frame(Frame=23)
+ if(is_excute){
+-	UNABLE_AREA(48028)
++	UNABLE_AREA(FIGHTER_JACK_AREA_KIND_ITEM_CATCH_ADD)
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+@@ -52,9 +52,9 @@ frame(Frame=26)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=27)
+ if(is_excute){
+-	ArticleModule__change_status(47992, 48332)
++	ArticleModule__change_status(FIGHTER_JACK_GENERATE_ARTICLE_WIREROPE, WEAPON_JACK_WIREROPE_STATUS_KIND_BACK)
+ 	search(MA_MSC_CMD_SEARCH_SEARCH_SCH_CLR_ALL)
+-	UNABLE_AREA(48024)
++	UNABLE_AREA(FIGHTER_JACK_AREA_KIND_ITEM_CATCH)
+ }

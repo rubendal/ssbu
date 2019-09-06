@@ -1,0 +1,22 @@
+diff --git "a/.1.0/jack/game_FinalAirEnd.txt" "b/.0.0/jack/game_FinalAirEnd.txt"
+index fc40d47..f51e688 100644
+--- "a/.1.0/jack/game_FinalAirEnd.txt"
++++ "b/.0.0/jack/game_FinalAirEnd.txt"
+@@ -1,11 +1,14 @@
+ if(is_excute){
+ 	CANCEL_FILL_SCREEN(0, 0)
+ 	CANCEL_FILL_SCREEN(1, 0)
+-	WHOLE_HIT(HIT_STATUS_XLU)
+-	ATTACK_ABS(Kind=51028, ID=0, Damage=13.0, Angle=60, KBG=100, FKB=0, BKB=73, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_POS, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+-	WorkModule__on_flag(Flag=51032)
++	ATTACK_ABS(Kind=FIGHTER_JACK_ATTACK_ABSOLUTE_KIND_FINAL, ID=0, Damage=13.0, Angle=60, KBG=100, FKB=0, BKB=73, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_POS, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_ABS_SET)
++}
++frame(Frame=15)
++if(is_excute){
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_END_FINAL)
+ }
+ frame(Frame=30)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_VISUAL_SCENE_FLAG_END_EXIT)
+ }

@@ -1,0 +1,28 @@
+diff --git "a/3.1.0/simon/game_AttackAirLw.txt" "b/4.0.0/simon/game_AttackAirLw.txt"
+index db7b175..fe43fc5 100644
+--- "a/3.1.0/simon/game_AttackAirLw.txt"
++++ "b/4.0.0/simon/game_AttackAirLw.txt"
+@@ -1,7 +1,9 @@
+ if(is_excute){
++	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	SET_SPEED_EX(0, 0.6, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
++	WorkModule__off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	KineticModule__suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_WORK_ID_FLAG_RESERVE_GRAVITY_STABLE_UNABLE)
+ }
+ frame(Frame=4)
+ FT_MOTION_RATE(FSM=0.5)
+@@ -10,11 +12,13 @@ if(is_excute){
+ }
+ frame(Frame=10)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=15)
+ if(is_excute){
++	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	SET_SPEED_EX(1.6, -3.8, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
++	WorkModule__off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	JostleModule__set_status(False)
+ }
+ frame(Frame=16)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=280, KBG=85, FKB=0, BKB=35, Size=5.5, X=0.0, Y=1.0, Z=-0.5, Hitlag=1.2, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)

@@ -1,0 +1,43 @@
+diff --git "a/n_3.1.0/gaogaen/game_SpecialN.txt" "b/n_4.0.0/gaogaen/game_SpecialN.txt"
+index fce9fb9..051b9b0 100644
+--- "a/n_3.1.0/gaogaen/game_SpecialN.txt"
++++ "b/n_4.0.0/gaogaen/game_SpecialN.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ 	AttackModule__set_target_category(ID=2, Hitbits=COLLISION_CATEGORY_MASK_NO_IF)
+ 	AttackModule__set_size(ID=0, Size=0.1)
+ 	AttackModule__set_size(ID=1, Size=0.1)
+ 	AttackModule__set_size(ID=2, Size=0.1)
+ }
+-if(0x131e00(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x131eb0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		WorkModule__on_flag(Flag=FIGHTER_GAOGAEN_STATUS_SPECIAL_N_FLAG_START_ROTATION)
+ 		WHOLE_HIT(HIT_STATUS_NORMAL)
+ 		HIT_NODE(body, HIT_STATUS_INVINCIBLE)
+ 		HIT_NODE(shoulderr, HIT_STATUS_INVINCIBLE)
+@@ -38,11 +38,11 @@ if(0x131e00(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	HIT_NODE(head, HIT_STATUS_NORMAL)
+ }
+-if(0x131e00(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x131eb0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		HIT_RESET_ALL()
+ 		HIT_NODE(shoulderr, HIT_STATUS_INVINCIBLE)
+ 		HIT_NODE(shoulderl, HIT_STATUS_INVINCIBLE)
+ 	}
+@@ -162,11 +162,11 @@ wait(Frames=2)
+ if(is_excute){
+ 	HitModule__set_status_all(HIT_STATUS_NORMAL)
+ 	AttackModule__clear_all()
+ 	WorkModule__on_flag(Flag=FIGHTER_GAOGAEN_STATUS_SPECIAL_N_FLAG_END_ROTATION)
+ }
+-if(0x131e00(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x131eb0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		HIT_RESET_ALL()
+ 		AttackModule__clear_all()
+ 		WorkModule__on_flag(Flag=FIGHTER_GAOGAEN_STATUS_SPECIAL_N_FLAG_END_ROTATION)
+ 	}

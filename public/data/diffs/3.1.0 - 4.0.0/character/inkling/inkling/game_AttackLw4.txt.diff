@@ -1,0 +1,62 @@
+diff --git "a/g_3.1.0/inkling/game_AttackLw4.txt" "b/g_4.0.0/inkling/game_AttackLw4.txt"
+index ddce666..74d28c3 100644
+--- "a/g_3.1.0/inkling/game_AttackLw4.txt"
++++ "b/g_4.0.0/inkling/game_AttackLw4.txt"
+@@ -9,16 +9,16 @@ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), False, True)){
+ 	if(is_excute){
+ 		WorkModule__get_float(FIGHTER_INKLING_GENERATE_ARTICLE_SLOSHER, attack_lw4, True, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		as_hash__const(-1063256669)
++		as_hash__const(1617527991)
+ 		ArticleModule__change_motion()
+ 	}
+ }
+ frame(Frame=11)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=12.5, Angle=32, KBG=82, FKB=0, BKB=40, Size=3.8, X=0.0, Y=3.5, Z=12.0, X2=0.0, Y2=3.5, Z2=18.0, Hitlag=0.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		AttackModule__set_ink_value(ID=0, Ink=150)
+ 	}
+ 	else{
+@@ -26,11 +26,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 			ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=32, KBG=75, FKB=0, BKB=35, Size=3.8, X=0.0, Y=3.5, Z=12.0, X2=0.0, Y2=3.5, Z2=18.0, Hitlag=0.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		}
+ 	}
+ }
+ wait(Frames=2)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=7.0, Angle=32, KBG=85, FKB=0, BKB=40, Size=4.5, X=0.0, Y=4.0, Z=12.0, X2=0.0, Y2=4.0, Z2=22.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		AttackModule__set_ink_value(ID=0, Ink=120)
+ 	}
+ 	else{
+@@ -42,11 +42,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=20)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=11.0, Angle=30, KBG=82, FKB=0, BKB=40, Size=3.8, X=0.0, Y=3.5, Z=-12.0, X2=0.0, Y2=3.5, Z2=-16.0, Hitlag=0.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		AttackModule__set_ink_value(ID=0, Ink=130)
+ 	}
+ 	else{
+@@ -54,11 +54,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 			ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=30, KBG=75, FKB=0, BKB=35, Size=3.8, X=0.0, Y=3.5, Z=-12.0, X2=0.0, Y2=3.5, Z2=-16.0, Hitlag=0.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		}
+ 	}
+ }
+ wait(Frames=2)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=6.0, Angle=30, KBG=85, FKB=0, BKB=40, Size=4.5, X=0.0, Y=4.0, Z=-12.0, X2=0.0, Y2=4.0, Z2=-20.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)
+ 		AttackModule__set_ink_value(ID=0, Ink=100)
+ 	}
+ 	else{

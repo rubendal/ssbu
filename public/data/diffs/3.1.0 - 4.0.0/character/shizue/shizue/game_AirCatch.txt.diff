@@ -1,0 +1,23 @@
+diff --git "a/_3.1.0/shizue/game_AirCatch.txt" "b/_4.0.0/shizue/game_AirCatch.txt"
+index 5b3e444..39373c1 100644
+--- "a/_3.1.0/shizue/game_AirCatch.txt"
++++ "b/_4.0.0/shizue/game_AirCatch.txt"
+@@ -1,14 +1,18 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.8)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_SHIZUE_GENERATE_ARTICLE_FISHINGROD)
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(9, 4)
+ 	JostleModule__set_push_speed_x(12, True)
+ 	JostleModule__set_push_speed_x_overlap_rate(12)
+ }
++frame(Frame=21)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=22)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(16, 4)
+ }

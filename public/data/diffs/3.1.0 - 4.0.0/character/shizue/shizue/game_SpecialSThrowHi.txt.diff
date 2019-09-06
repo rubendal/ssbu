@@ -1,0 +1,13 @@
+diff --git "a/_3.1.0/shizue/game_SpecialSThrowHi.txt" "b/_4.0.0/shizue/game_SpecialSThrowHi.txt"
+index 6790a7d..2e314b2 100644
+--- "a/_3.1.0/shizue/game_SpecialSThrowHi.txt"
++++ "b/_4.0.0/shizue/game_SpecialSThrowHi.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=12.0, Angle=90, KBG=62, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
++	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=12.0, Angle=90, KBG=66, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=21)
+ if(is_excute){
+ 	CHECK_FINISH_CAMERA(8, 18)
+ 	FighterCutInManager__set_throw_finish_zoom_rate(ZoomRate=1.5)

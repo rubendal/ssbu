@@ -1,0 +1,14 @@
+diff --git "a/mac_3.1.0/littlemac/game_AttackDash.txt" "b/mac_4.0.0/littlemac/game_AttackDash.txt"
+index c0adafa..171b0c4 100644
+--- "a/mac_3.1.0/littlemac/game_AttackDash.txt"
++++ "b/mac_4.0.0/littlemac/game_AttackDash.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=1)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=3.0, X=0.0, Y=6.0, Z=7.0, X2=0.0, Y2=6.0, Z2=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_G_d, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=3.0, X=0.0, Y=6.0, Z=7.0, X2=0.0, Y2=6.0, Z2=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=True, DisableHitlag=True, Direct/Indirect=False, Ground/Air=49912, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

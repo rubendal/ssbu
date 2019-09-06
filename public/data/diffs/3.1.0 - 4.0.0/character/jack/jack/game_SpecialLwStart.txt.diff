@@ -1,0 +1,13 @@
+diff --git "a/.1.0/jack/game_SpecialLwStart.txt" "b/.0.0/jack/game_SpecialLwStart.txt"
+index 437121c..aa8d794 100644
+--- "a/.1.0/jack/game_SpecialLwStart.txt"
++++ "b/.0.0/jack/game_SpecialLwStart.txt"
+@@ -2,7 +2,7 @@ frame(Frame=1)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4, 3.8)
+ }
+ frame(Frame=3)
+ if(is_excute){
+-	WorkModule__on_flag(Flag=48152)
++	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_SPECIAL_LW_FLAG_GUARD_START)
+ }

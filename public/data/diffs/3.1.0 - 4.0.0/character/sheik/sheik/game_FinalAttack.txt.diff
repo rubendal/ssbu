@@ -1,0 +1,18 @@
+diff --git "a/3.1.0/sheik/game_FinalAttack.txt" "b/4.0.0/sheik/game_FinalAttack.txt"
+index c5731d3..6091ed5 100644
+--- "a/3.1.0/sheik/game_FinalAttack.txt"
++++ "b/4.0.0/sheik/game_FinalAttack.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+-if(0x106a60(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
++if(0x106d20(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x106a60(0, 0)){
++	if(0x106d20(0, 0)){
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
+ 		}
+ 		else{
+ 			if(is_excute){

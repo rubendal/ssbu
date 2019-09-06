@@ -1,0 +1,58 @@
+diff --git "a/3.1.0/sheik/game_FinalFinish.txt" "b/4.0.0/sheik/game_FinalFinish.txt"
+index 11651a2..9617b89 100644
+--- "a/3.1.0/sheik/game_FinalFinish.txt"
++++ "b/4.0.0/sheik/game_FinalFinish.txt"
+@@ -1,45 +1,45 @@
+-if(0x106a60(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
++if(0x106d20(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 	frame(Frame=1)
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x106a60(0, 0)){
++	if(0x106d20(0, 0)){
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x106a60(951824373, 1.5)
++			0x106d20(-1807379371, 1.5)
+ 			CAM_ZOOM_IN_arg5(-2.8, 2.5)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				PostureModule__scale(5, 0)
+-				0x106a60(951824373, 1.5)
++				0x106d20(-1807379371, 1.5)
+ 				CAM_ZOOM_IN_arg5(-2.8, -2.5)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 10, 0)
+ 			}
+ 		}
+ 	}
+ }
+ frame(Frame=10)
+ if(is_excute){
+-	FILL_SCREEN_MODEL_COLOR(0, 10, 0.5, 0.5, 0.5, 0, 0, 0, 0.1, 3, 49120, EFFECT_SCREEN_PRIO_FINAL)
++	FILL_SCREEN_MODEL_COLOR(0, 10, 0.5, 0.5, 0.5, 0, 0, 0, 0.1, 3, 50244, EFFECT_SCREEN_PRIO_FINAL)
+ }
+ frame(Frame=35)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x106a60(0, 0)){
++if(0x106d20(0, 0)){
+ 	if(is_excute){
+ 		PostureModule__scale(5, 0)
+-		0x106a60(951824373, 2)
++		0x106d20(-1807379371, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0.8)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x106a60(951824373, 2)
++			0x106d20(-1807379371, 2)
+ 			CAM_ZOOM_IN_arg5(0, -0.8)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 		}
+ 	}
+ }

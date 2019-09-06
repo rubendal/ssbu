@@ -1,0 +1,19 @@
+diff --git "a/n_3.1.0/rockman/game_SpecialAirNTurn.txt" "b/n_4.0.0/rockman/game_SpecialAirNTurn.txt"
+index 8eaa370..80aee3b 100644
+--- "a/n_3.1.0/rockman/game_SpecialAirNTurn.txt"
++++ "b/n_4.0.0/rockman/game_SpecialAirNTurn.txt"
+@@ -1,12 +1,12 @@
+ frame(Frame=7)
+-if(0xf40f0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
++if(0xf40b0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article_enable(FIGHTER_ROCKMAN_GENERATE_ARTICLE_METALBLADE)
+ 	}
+ }
+ frame(Frame=18)
+-if(0xf40f0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
++if(0xf40b0(WorkModule__is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_N_WORK_ID_FLAG_ALREADY_EXIST_METALBLADE), False, False)){
+ 	if(is_excute){
+ 		ArticleModule__shoot_exist(FIGHTER_ROCKMAN_GENERATE_ARTICLE_METALBLADE, ARTICLE_OPE_TARGET_ALL, False)
+ 	}
+ }

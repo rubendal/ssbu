@@ -1,0 +1,17 @@
+diff --git "a/3.1.0/cloud/game_SpecialAirS3.txt" "b/4.0.0/cloud/game_SpecialAirS3.txt"
+index dd78cb4..e8d5a48 100644
+--- "a/3.1.0/cloud/game_SpecialAirS3.txt"
++++ "b/4.0.0/cloud/game_SpecialAirS3.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_CLOUD_STATUS_SPECIAL_S_FLAG_INPUT_CHECK)
+ }
+ frame(Frame=2)
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x14cb70(0, 0)){
++if(0x14cb90(0, 0)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=280, KBG=100, FKB=20, BKB=0, Size=8.8, X=0.0, Y=13.5, Z=16.799999, X2=0.0, Y2=8.5, Z2=16.799999, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=70, KBG=100, FKB=20, BKB=0, Size=8.8, X=0.0, Y=8.5, Z=16.799999, X2=0.0, Y2=8.5, Z2=16.799999, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	}
+ }

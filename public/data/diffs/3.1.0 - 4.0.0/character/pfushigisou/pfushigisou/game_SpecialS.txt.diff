@@ -1,0 +1,17 @@
+diff --git "a/gisou_3.1.0/pfushigisou/game_SpecialS.txt" "b/gisou_4.0.0/pfushigisou/game_SpecialS.txt"
+index 98fd441..cf6d8db 100644
+--- "a/gisou_3.1.0/pfushigisou/game_SpecialS.txt"
++++ "b/gisou_4.0.0/pfushigisou/game_SpecialS.txt"
+@@ -1,4 +1,12 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=1.25)
++frame(Frame=9)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=22)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_PFUSHIGISOU_GENERATE_ARTICLE_LEAFCUTTER)
+ }
++frame(Frame=29)
++FT_MOTION_RATE(FSM=0.9)
++frame(Frame=49)
++FT_MOTION_RATE(FSM=1)

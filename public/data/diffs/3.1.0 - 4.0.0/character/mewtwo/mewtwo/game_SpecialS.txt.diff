@@ -1,0 +1,14 @@
+diff --git "a/_3.1.0/mewtwo/game_SpecialS.txt" "b/_4.0.0/mewtwo/game_SpecialS.txt"
+index 9722106..cbc4441 100644
+--- "a/_3.1.0/mewtwo/game_SpecialS.txt"
++++ "b/_4.0.0/mewtwo/game_SpecialS.txt"
+@@ -1,5 +1,9 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.6666)
++frame(Frame=6)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=12)
+ if(is_excute){
+ 	CATCH(ID=0, Bone=top, Size=7.4, X=0.0, Y=8.4, Z=17.0, Status=FIGHTER_STATUS_KIND_MEWTWO_THROWN, Ground/Air=COLLISION_SITUATION_MASK_GA)
+ 	CATCH(ID=1, Bone=top, Size=10.2, X=0.0, Y=8.4, Z=17.0, Status=FIGHTER_STATUS_KIND_MEWTWO_THROWN, Ground/Air=COLLISION_SITUATION_MASK_G)
+ 	shield(MA_MSC_CMD_SHIELD_ON, COLLISION_KIND_REFLECTOR, FIGHTER_MEWTWO_REFLECTOR_KIND_REFLECTOR, FIGHTER_REFLECTOR_GROUP_EXTEND)

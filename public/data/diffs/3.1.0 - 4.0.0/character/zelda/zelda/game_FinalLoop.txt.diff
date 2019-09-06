@@ -1,0 +1,29 @@
+diff --git "a/3.1.0/zelda/game_FinalLoop.txt" "b/4.0.0/zelda/game_FinalLoop.txt"
+index d4feb4c..d8a00e5 100644
+--- "a/3.1.0/zelda/game_FinalLoop.txt"
++++ "b/4.0.0/zelda/game_FinalLoop.txt"
+@@ -1,22 +1,22 @@
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear(ID=0)
+ }
+ frame(Frame=80)
+-if(0x10bf10(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
++if(0x10bf30(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
+ 	if(is_excute){
+ 		ATTACK(ID=4, Part=0, Bone=top, Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		AttackModule__set_final_finish_cut_in(4, True, True, -1, False)
+ 	}
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear(ID=4)
+ }
+ frame(Frame=160)
+-if(0x10bf10(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
++if(0x10bf30(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
+ 	if(is_excute){
+ 		ATTACK(ID=4, Part=0, Bone=top, Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		AttackModule__set_final_finish_cut_in(4, True, True, -1, False)
+ 	}
+ }

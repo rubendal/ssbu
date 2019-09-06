@@ -1,0 +1,39 @@
+diff --git "a/ight_3.1.0/metaknight/game_FinalAirStartl.txt" "b/ight_4.0.0/metaknight/game_FinalAirStartl.txt"
+index cd968d1..2ca539f 100644
+--- "a/ight_3.1.0/metaknight/game_FinalAirStartl.txt"
++++ "b/ight_4.0.0/metaknight/game_FinalAirStartl.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(10, 65)
+ }
+-if(0x12b860(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x12b880(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		ArticleModule__set_visibility_whole(FIGHTER_METAKNIGHT_GENERATE_ARTICLE_FOURWINGS, True)
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x12b860(32, 0)){
++if(0x12b880(32, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(0x15ee67ffd9, True, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+@@ -21,11 +21,11 @@ if(0x12b860(32, 0)){
+ 		}
+ 		frame(Frame=10)
+ 		if(is_excute){
+ 			ArticleModule__set_visibility_whole(FIGHTER_METAKNIGHT_GENERATE_ARTICLE_FOURWINGS, True)
+ 			PostureModule__scale(5, 0)
+-			0x12b860(2077957687, 2)
++			0x12b880(1191743625, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=40)
+ 		if(is_excute){

@@ -1,0 +1,17 @@
+diff --git "a/hter_3.1.0/miifighter/game_SpecialHi3.txt" "b/hter_4.0.0/miifighter/game_SpecialHi3.txt"
+index b88dc0b..d0e032d 100644
+--- "a/hter_3.1.0/miifighter/game_SpecialHi3.txt"
++++ "b/hter_4.0.0/miifighter/game_SpecialHi3.txt"
+@@ -53,11 +53,11 @@ frame(Frame=17)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=21)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=89, KBG=58, FKB=0, BKB=74, Size=8.7, X=0.0, Y=20.0, Z=0.0, X2=0.0, Y2=20.0, Z2=6.0, Hitlag=1.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=89, KBG=71, FKB=0, BKB=74, Size=8.7, X=0.0, Y=20.0, Z=0.0, X2=0.0, Y2=20.0, Z2=6.0, Hitlag=1.7, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)
+ }
+ frame(Frame=23)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)

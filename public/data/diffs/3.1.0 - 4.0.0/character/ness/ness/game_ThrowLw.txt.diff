@@ -1,0 +1,12 @@
+diff --git "a/.1.0/ness/game_ThrowLw.txt" "b/.0.0/ness/game_ThrowLw.txt"
+index 2646066..e598ce4 100644
+--- "a/.1.0/ness/game_ThrowLw.txt"
++++ "b/.0.0/ness/game_ThrowLw.txt"
+@@ -1,6 +1,7 @@
+ if(is_excute){
++	FT_LEAVE_NEAR_OTTOTTO(-2.5, 2.5)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=4.0, Angle=70, KBG=80, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ for(3 Iterations){
+ 	if(is_excute){

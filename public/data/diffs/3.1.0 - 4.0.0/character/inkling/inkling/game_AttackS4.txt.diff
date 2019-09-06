@@ -1,0 +1,23 @@
+diff --git "a/g_3.1.0/inkling/game_AttackS4.txt" "b/g_4.0.0/inkling/game_AttackS4.txt"
+index 3615389..2a24348 100644
+--- "a/g_3.1.0/inkling/game_AttackS4.txt"
++++ "b/g_4.0.0/inkling/game_AttackS4.txt"
+@@ -9,16 +9,16 @@ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), False, True)){
+ 	if(is_excute){
+ 		WorkModule__get_float(FIGHTER_INKLING_GENERATE_ARTICLE_BRUSH, attack_s4_s, True, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		as_hash__const(-1063256669)
++		as_hash__const(1617527991)
+ 		ArticleModule__change_motion()
+ 	}
+ }
+ frame(Frame=16)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=14.0, Angle=361, KBG=90, FKB=0, BKB=36, Size=3.0, X=0.0, Y=6.0, Z=12.0, X2=0.0, Y2=6.0, Z2=5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_OBJECT)
+ 		ATTACK(ID=1, Part=0, Bone=top, Damage=16.0, Angle=361, KBG=90, FKB=0, BKB=36, Size=4.2, X=0.0, Y=6.0, Z=17.200001, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_OBJECT)
+ 		AttackModule__set_ink_value(ID=0, Ink=100)
+ 		AttackModule__set_ink_value(ID=1, Ink=120)

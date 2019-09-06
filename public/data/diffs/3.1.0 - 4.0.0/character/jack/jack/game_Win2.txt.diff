@@ -1,0 +1,17 @@
+diff --git "a/.1.0/jack/game_Win2.txt" "b/.0.0/jack/game_Win2.txt"
+index 410332e..c29def4 100644
+--- "a/.1.0/jack/game_Win2.txt"
++++ "b/.0.0/jack/game_Win2.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+-	ArticleModule__generate_article(50988)
+-	as_hash__const(50988, 0x057c43857a)
++	ArticleModule__generate_article(FIGHTER_JACK_GENERATE_ARTICLE_WINDUMMY)
++	as_hash__const(FIGHTER_JACK_GENERATE_ARTICLE_WINDUMMY, 0x057c43857a)
+ 	ArticleModule__change_motion()
+-	ArticleModule__generate_article(47828)
+-	as_hash__const(47828, 0x057c43857a)
++	ArticleModule__generate_article(FIGHTER_JACK_GENERATE_ARTICLE_BUS)
++	as_hash__const(FIGHTER_JACK_GENERATE_ARTICLE_BUS, 0x057c43857a)
+ 	ArticleModule__change_motion()
+ }

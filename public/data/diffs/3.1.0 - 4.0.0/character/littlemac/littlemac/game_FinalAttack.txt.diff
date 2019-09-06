@@ -1,0 +1,40 @@
+diff --git "a/mac_3.1.0/littlemac/game_FinalAttack.txt" "b/mac_4.0.0/littlemac/game_FinalAttack.txt"
+index d944743..dac9bdb 100644
+--- "a/mac_3.1.0/littlemac/game_FinalAttack.txt"
++++ "b/mac_4.0.0/littlemac/game_FinalAttack.txt"
+@@ -5,14 +5,14 @@ frame(Frame=1)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x1441f0(0, 0)){
++	if(0x1442a0(0, 0)){
+ 		if(is_excute){
+ 			PostureModule__scale(300, 0)
+-			0x1441f0(-1510825960, 2.5)
++			0x1442a0(642632499, 2.5)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 			}
+ 		}
+@@ -56,16 +56,16 @@ if(is_excute){
+ 	AttackModule__set_final_finish_cut_in(0, True, False, -1, False)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 	if(is_excute){
+ 		PostureModule__scale(2, 0)
+-		0x1441f0(-1510825960, 2.5)
++		0x1442a0(642632499, 2.5)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1441f0(1411916, 0)){
++if(0x1442a0(1411916, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 10)
+ 	}
+ 	else{
+ 		if(is_excute){

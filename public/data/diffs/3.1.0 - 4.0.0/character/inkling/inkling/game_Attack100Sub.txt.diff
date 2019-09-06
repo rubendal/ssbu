@@ -1,0 +1,12 @@
+diff --git "a/g_3.1.0/inkling/game_Attack100Sub.txt" "b/g_4.0.0/inkling/game_Attack100Sub.txt"
+index 79a0095..77029b1 100644
+--- "a/g_3.1.0/inkling/game_Attack100Sub.txt"
++++ "b/g_4.0.0/inkling/game_Attack100Sub.txt"
+@@ -1,6 +1,6 @@
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(16324), False, True)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=3.5, X=0.0, Y=8.0, Z=11.0, X2=0.0, Y2=8.0, Z2=11.0, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_INKLING_HIT, Type=ATTACK_REGION_WATER)
+ 		ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=7, Size=4.5, X=0.0, Y=8.0, Z=19.5, X2=0.0, Y2=8.0, Z2=11.0, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=0x169c2f9aa4, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_INKLING_HIT, Type=ATTACK_REGION_WATER)
+ 		AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
+ 		AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)

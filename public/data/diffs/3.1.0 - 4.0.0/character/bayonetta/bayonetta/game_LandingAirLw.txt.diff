@@ -1,0 +1,16 @@
+diff --git "a/tta_3.1.0/bayonetta/game_LandingAirLw.txt" "b/tta_4.0.0/bayonetta/game_LandingAirLw.txt"
+index 87f3226..bac33b4 100644
+--- "a/tta_3.1.0/bayonetta/game_LandingAirLw.txt"
++++ "b/tta_4.0.0/bayonetta/game_LandingAirLw.txt"
+@@ -1,10 +1,10 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	SET_SPEED_EX(0, 0, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ }
+-if(0x190440(WorkModule__is_flag(FIGHTER_BAYONETTA_STATUS_ATTACK_AIR_FLAG_LANDING_DISABLE_ATTACK), False, True)){
++if(0x1905b0(WorkModule__is_flag(FIGHTER_BAYONETTA_STATUS_ATTACK_AIR_FLAG_LANDING_DISABLE_ATTACK), False, True)){
+ }
+ else{
+ 	if(is_excute){
+ 		notify_event_msc_cmd(0x2d51fcdb09, FIGHTER_BAYONETTA_SHOOTING_SLOT_L_LEG, False, False, False, 10, 3, 3, 0, True)
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=45, KBG=127, FKB=0, BKB=80, Size=7.5, X=0.0, Y=8.0, Z=8.0, X2=0.0, Y2=8.0, Z2=13.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
