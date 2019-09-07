@@ -1,11 +1,11 @@
 diff --git "a/0.0/pit/game_FinalRide.txt" "b/0.0/pit/game_FinalRide.txt"
-index 3daca31..a32eaa4 100644
+index e3df14f..e3d1a99 100644
 --- "a/0.0/pit/game_FinalRide.txt"
 +++ "b/0.0/pit/game_FinalRide.txt"
 @@ -18,34 +18,34 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 1.0)){
  }
  get_value_float(SO_VAR_FLOAT_LR)
- if(0x10f8f0(1207684, 0)){
+ if(0x10f8f0(0, 0)){
  	if(is_excute){
  		PostureModule__scale(1, 0)
 -		0x10f8f0(60503849, 1.5)
@@ -17,7 +17,7 @@ index 3daca31..a32eaa4 100644
  			SlowModule__set_whole(90, 0)
  		}
  		get_value_float(SO_VAR_FLOAT_LR)
- 		if(0x10f8f0(1207684, 0)){
+ 		if(0x10f8f0(0, 0)){
  			if(is_excute){
  				PostureModule__scale(1, 0)
 -				0x10f8f0(60503849, 1.5)
