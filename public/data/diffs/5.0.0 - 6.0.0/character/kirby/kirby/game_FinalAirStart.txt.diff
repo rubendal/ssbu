@@ -1,0 +1,28 @@
+diff --git "a/5.0.0/kirby/game_FinalAirStart.txt" "b/6.0.0/kirby/game_FinalAirStart.txt"
+index ccffc5a..ac999ab 100644
+--- "a/5.0.0/kirby/game_FinalAirStart.txt"
++++ "b/6.0.0/kirby/game_FinalAirStart.txt"
+@@ -8,21 +8,21 @@ if(is_excute){
+ 	ArticleModule__change_motion()
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_ULTRASWORDHAT, 0x0b9e61061f)
+ 	ArticleModule__change_motion()
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ }
+-if(0x48bff0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x490840(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, False)
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x48bff0(-515989290, 1.3)
++			0x490840(1888099920, 1.3)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 20, 0, 0, 0)
+ 		}
+ 	}

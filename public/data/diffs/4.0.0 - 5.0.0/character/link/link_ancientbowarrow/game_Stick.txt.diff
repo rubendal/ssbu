@@ -1,0 +1,17 @@
+diff --git "a/.0.0/link_ancientbowarrow/game_Stick.txt" "b/.0.0/link_ancientbowarrow/game_Stick.txt"
+index d601c46..05ea946 100644
+--- "a/.0.0/link_ancientbowarrow/game_Stick.txt"
++++ "b/.0.0/link_ancientbowarrow/game_Stick.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+ if(0x110910(0, 0)){
+ 	if(is_excute){
+ 		PostureModule__scale(3, 0)
+-		0x110910(1967980257, 2)
++		0x110910(-155209434, 2)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 		}
+ 	}

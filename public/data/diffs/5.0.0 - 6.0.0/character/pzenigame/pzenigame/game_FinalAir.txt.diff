@@ -1,0 +1,30 @@
+diff --git "a/ame_5.0.0/pzenigame/game_FinalAir.txt" "b/ame_6.0.0/pzenigame/game_FinalAir.txt"
+index d289b1c..7a8b4bd 100644
+--- "a/ame_5.0.0/pzenigame/game_FinalAir.txt"
++++ "b/ame_6.0.0/pzenigame/game_FinalAir.txt"
+@@ -10,11 +10,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		FT_START_CUTIN_arg1(True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0xe2950(-2037671611, 2.1)
++			0xe2990(-403526367, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(True)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){
+@@ -30,11 +30,11 @@ frame(Frame=60)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ 	camera(MA_MSC_CMD_CAMERA_CAM_RESET)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0xe2950(480, 0)){
++if(0xe2990(480, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -40, 0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_RECT, 60, -56, 18, -8)
+ 	}
+ 	else{

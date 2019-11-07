@@ -1,0 +1,15 @@
+diff --git "a/_5.0.0/dedede/game_SpecialAirNShotObjectSpit.txt" "b/_6.0.0/dedede/game_SpecialAirNShotObjectSpit.txt"
+index a5303bc..7d818b7 100644
+--- "a/_5.0.0/dedede/game_SpecialAirNShotObjectSpit.txt"
++++ "b/_6.0.0/dedede/game_SpecialAirNShotObjectSpit.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x1486b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148740(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }
+ frame(Frame=5)

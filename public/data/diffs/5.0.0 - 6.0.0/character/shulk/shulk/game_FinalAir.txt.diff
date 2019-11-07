@@ -1,0 +1,32 @@
+diff --git "a/5.0.0/shulk/game_FinalAir.txt" "b/6.0.0/shulk/game_FinalAir.txt"
+index a0969fa..20bbea2 100644
+--- "a/5.0.0/shulk/game_FinalAir.txt"
++++ "b/6.0.0/shulk/game_FinalAir.txt"
+@@ -15,11 +15,11 @@ if(is_excute){
+ 	SlowModule__set_whole(4, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule__scale(3, 0)
+-		0x1201a0(-1589327074, 2.1)
++		0x1201a0(752685199, 2.1)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=19)
+@@ -42,12 +42,12 @@ if(0x1201a0(WorkModule__is_flag(FIGHTER_SHULK_STATUS_WORK_ID_FLAG_FINAL_SUCCESS)
+ 		AttackModule__clear_all()
+ 	}
+ }
+ frame(Frame=30)
+ if(is_excute){
+-	FILL_SCREEN_MODEL_COLOR(1, 50, 0.3, 0.3, 0.3, 1, 1, 1, 0.1, 1, 52032, EFFECT_SCREEN_PRIO_FINAL)
+-	FILL_SCREEN_MODEL_COLOR(0, 20, 0.3, 0.3, 0.3, -0.6, -0.6, -0.6, 0.4, 1, 51084, EFFECT_SCREEN_PRIO_FINAL)
++	FILL_SCREEN_MODEL_COLOR(1, 50, 0.3, 0.3, 0.3, 1, 1, 1, 0.1, 1, 52776, EFFECT_SCREEN_PRIO_FINAL)
++	FILL_SCREEN_MODEL_COLOR(0, 20, 0.3, 0.3, 0.3, -0.6, -0.6, -0.6, 0.4, 1, 51828, EFFECT_SCREEN_PRIO_FINAL)
+ }
+ else{
+ 	frame(Frame=28)
+ 	if(is_excute){
+ 		AttackModule__clear_all()

@@ -1,0 +1,33 @@
+diff --git "a/4.0.0/krool/game_FinalStart.txt" "b/5.0.0/krool/game_FinalStart.txt"
+index 6e7055f..3894e0c 100644
+--- "a/4.0.0/krool/game_FinalStart.txt"
++++ "b/5.0.0/krool/game_FinalStart.txt"
+@@ -12,11 +12,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 4, 6, 0)
+ 			PostureModule__scale(4, 0)
+-			0x11cc40(-1837584267, 1.8)
++			0x11cc40(1101293347, 1.8)
+ 			CAM_ZOOM_IN_arg5(-0.1, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=25)
+@@ -29,13 +29,13 @@ frame(Frame=31)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=30, KBG=100, FKB=90, BKB=0, Size=8.0, X=0.0, Y=6.0, Z=13.0, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 	AttackModule__set_no_dead_all(True, False)
+ }
+ PostureModule__scale()
+-0x11cc40(-1837584267, 1.4)
++0x11cc40(1101293347, 1.4)
+ PostureModule__scale()
+-if(0x11cc40(-1837584267, 0.5)){
++if(0x11cc40(1101293347, 0.5)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 60, 4, 1)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ }

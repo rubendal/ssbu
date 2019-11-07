@@ -1,0 +1,54 @@
+diff --git "a/_5.0.0/donkey/game_FinalAirEnd.txt" "b/_6.0.0/donkey/game_FinalAirEnd.txt"
+index a144ad4..e0b5316 100644
+--- "a/_5.0.0/donkey/game_FinalAirEnd.txt"
++++ "b/_6.0.0/donkey/game_FinalAirEnd.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ PostureModule__scale()
+-if(0x11c2c0(-53105032, 1.4)){
++if(0x11d850(-973447734, 1.4)){
+ 	frame(Frame=7)
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=handl, Damage=14.0, Angle=70, KBG=96, FKB=0, BKB=90, Size=12.0, X=2.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 		ATTACK(ID=1, Part=0, Bone=arml, Damage=14.0, Angle=70, KBG=96, FKB=0, BKB=90, Size=11.0, X=-2.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 		ATTACK(ID=2, Part=0, Bone=top, Damage=14.0, Angle=70, KBG=96, FKB=0, BKB=90, Size=13.0, X=0.0, Y=11.0, Z=5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+@@ -21,11 +21,11 @@ if(0x11c2c0(-53105032, 1.4)){
+ 	}
+ }
+ frame(Frame=9)
+ operatorbool__const(is_excute)
+ PostureModule__scale()
+-if(0x11c2c0(0, 0.5)){
++if(0x11d850(0, 0.5)){
+ 	frame(Frame=6)
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=0.0, Angle=3, KBG=100, FKB=0, BKB=0, Size=15.0, X=0.0, Y=10.0, Z=9.0, X2=0.0, Y2=10.0, Z2=11.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 		as_hash__const(0, top, 50, 3, 1)
+ 		AttackModule__set_vec_target_pos()
+@@ -71,21 +71,21 @@ else{
+ 	}
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_DONKEY_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x11c2c0(1262916, 0)){
++		if(0x11d850(1272208, 0)){
+ 			if(is_excute){
+ 				PostureModule__scale(1, 0)
+-				0x11c2c0(0, 1.5)
++				0x11d850(0, 1.5)
+ 				CAM_ZOOM_IN_arg5(0, 0)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -20, 5)
+ 			}
+ 			else{
+ 				if(is_excute){
+ 					PostureModule__scale(1, 0)
+-					0x11c2c0(0, 1.5)
++					0x11d850(0, 1.5)
+ 					CAM_ZOOM_IN_arg5(0, 0)
+ 					camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 20, 5)
+ 				}
+ 			}
+ 		}

@@ -1,0 +1,17 @@
+diff --git "a/_4.0.0/pacman/game_FinalAirStart.txt" "b/_5.0.0/pacman/game_FinalAirStart.txt"
+index 1ca9a6b..86293c2 100644
+--- "a/_4.0.0/pacman/game_FinalAirStart.txt"
++++ "b/_5.0.0/pacman/game_FinalAirStart.txt"
+@@ -12,11 +12,11 @@ if(0x119ce0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x119ce0(875072964, 2.7)
++			0x119ce0(737330366, 2.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 15)
+ 		}
+ 	}

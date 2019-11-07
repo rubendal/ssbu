@@ -1,0 +1,17 @@
+diff --git "a/ink_4.0.0/younglink/game_FinalStart_Com.txt" "b/ink_5.0.0/younglink/game_FinalStart_Com.txt"
+index 5e51fc5..bc00aa4 100644
+--- "a/ink_4.0.0/younglink/game_FinalStart_Com.txt"
++++ "b/ink_5.0.0/younglink/game_FinalStart_Com.txt"
+@@ -16,11 +16,11 @@ if(0x1161b0(1503408, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0x1161b0(1136873297, 2.05)
++			0x1161b0(1863971267, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

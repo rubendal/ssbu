@@ -1,0 +1,12 @@
+diff --git "a/5.0.0/krool/game_SpecialAirNSWallow.txt" "b/6.0.0/krool/game_SpecialAirNSWallow.txt"
+index 1202aad..06b75c1 100644
+--- "a/5.0.0/krool/game_SpecialAirNSWallow.txt"
++++ "b/6.0.0/krool/game_SpecialAirNSWallow.txt"
+@@ -3,6 +3,7 @@ if(is_excute){
+ 	MotionModule__set_rate(0.5)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_KROOL_STATUS_SPECIAL_N_FLAG_SWALLOW_COMP)
++	MotionModule__set_rate(1)
+ }

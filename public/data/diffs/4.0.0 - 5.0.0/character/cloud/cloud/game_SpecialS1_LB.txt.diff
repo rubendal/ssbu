@@ -1,0 +1,14 @@
+diff --git "a/4.0.0/cloud/game_SpecialS1_LB.txt" "b/5.0.0/cloud/game_SpecialS1_LB.txt"
+index b0512f2..5cec589 100644
+--- "a/4.0.0/cloud/game_SpecialS1_LB.txt"
++++ "b/5.0.0/cloud/game_SpecialS1_LB.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=10)
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x14cb90(0, 0)){
++if(0x14cbf0(0, 0)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=367, KBG=100, FKB=80, BKB=0, Size=4.025, X=0.0, Y=9.0, Z=16.0, X2=0.0, Y2=6.5, Z2=16.0, Hitlag=0.3, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=2, Part=0, Bone=top, Damage=5.0, Angle=367, KBG=100, FKB=80, BKB=0, Size=8.05, X=0.0, Y=19.0, Z=14.0, X2=0.0, Y2=9.0, Z2=16.0, Hitlag=0.3, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	}
+ 	else{

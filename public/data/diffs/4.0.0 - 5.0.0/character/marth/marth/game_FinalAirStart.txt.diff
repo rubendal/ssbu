@@ -1,0 +1,17 @@
+diff --git "a/4.0.0/marth/game_FinalAirStart.txt" "b/5.0.0/marth/game_FinalAirStart.txt"
+index 23bb92d..4162dcf 100644
+--- "a/4.0.0/marth/game_FinalAirStart.txt"
++++ "b/5.0.0/marth/game_FinalAirStart.txt"
+@@ -16,11 +16,11 @@ if(0x130850(0, 0)){
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 10, 0, 0)
+ 			PostureModule__scale(5, 0)
+-			0x130850(2136270490, 2)
++			0x130850(-1452159306, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

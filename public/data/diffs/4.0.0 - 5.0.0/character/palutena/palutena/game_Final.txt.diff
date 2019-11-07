@@ -1,0 +1,17 @@
+diff --git "a/na_4.0.0/palutena/game_Final.txt" "b/na_5.0.0/palutena/game_Final.txt"
+index 42a9e65..55ee928 100644
+--- "a/na_4.0.0/palutena/game_Final.txt"
++++ "b/na_5.0.0/palutena/game_Final.txt"
+@@ -11,11 +11,11 @@ if(0xeb5d0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 		REQ_FINAL_START_CAMERA_arg3(d04final.nuanmb, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(10, 0)
+-			0xeb5d0(1272507874, 2)
++			0xeb5d0(-188523008, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

@@ -1,0 +1,29 @@
+diff --git "a/4.0.0/snake/game_FinalStart.txt" "b/5.0.0/snake/game_FinalStart.txt"
+index 5ea6f34..d8d2663 100644
+--- "a/4.0.0/snake/game_FinalStart.txt"
++++ "b/5.0.0/snake/game_FinalStart.txt"
+@@ -13,11 +13,11 @@ if(0x113ce0(0, 0)){
+ 		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x113ce0(637657325, 2)
++			0x113ce0(424000171, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, False)
+@@ -46,10 +46,10 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ frame(Frame=26)
+ if(is_excute){
+ 	SlowModule__clear_whole()
+ }
+ else{
+-	frame(Frame=637657325)
++	frame(Frame=424000171)
+ 	if(is_excute){
+ 		CAM_ZOOM_OUT()
+ 	}
+ }

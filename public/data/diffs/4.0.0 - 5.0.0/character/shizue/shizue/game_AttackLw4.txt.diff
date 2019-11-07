@@ -1,0 +1,17 @@
+diff --git "a/_4.0.0/shizue/game_AttackLw4.txt" "b/_5.0.0/shizue/game_AttackLw4.txt"
+index 161016d..2226c78 100644
+--- "a/_4.0.0/shizue/game_AttackLw4.txt"
++++ "b/_5.0.0/shizue/game_AttackLw4.txt"
+@@ -6,11 +6,11 @@ if(is_excute){
+ frame(Frame=4)
+ execute(4)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ 	WorkModule__get_float(FIGHTER_SHIZUE_GENERATE_ARTICLE_BUCKET, attack, True, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-	as_hash__const(-889754199)
++	as_hash__const(2035864196)
+ 	ArticleModule__change_motion()
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=28, KBG=100, FKB=0, BKB=35, Size=4.0, X=0.0, Y=3.6, Z=12.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_WATER, Type=ATTACK_REGION_WATER)

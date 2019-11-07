@@ -1,0 +1,17 @@
+diff --git "a/4.0.0/sheik/game_FinalStart.txt" "b/5.0.0/sheik/game_FinalStart.txt"
+index 134f5cd..9ec8c79 100644
+--- "a/4.0.0/sheik/game_FinalStart.txt"
++++ "b/5.0.0/sheik/game_FinalStart.txt"
+@@ -11,11 +11,11 @@ if(0x106d20(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(10, 0)
+-			0x106d20(-1807379371, 1.9)
++			0x106d20(-1363902198, 1.9)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, -5)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

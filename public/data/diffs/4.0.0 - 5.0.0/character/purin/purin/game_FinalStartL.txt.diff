@@ -1,0 +1,17 @@
+diff --git "a/4.0.0/purin/game_FinalStartL.txt" "b/5.0.0/purin/game_FinalStartL.txt"
+index 4dc137f..5e935c0 100644
+--- "a/4.0.0/purin/game_FinalStartL.txt"
++++ "b/5.0.0/purin/game_FinalStartL.txt"
+@@ -9,11 +9,11 @@ if(0xf3b80(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 		REQ_FINAL_START_CAMERA(0x158756dcc0, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0xf3b80(-59272755, 2.1)
++			0xf3b80(-245325081, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

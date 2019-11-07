@@ -1,0 +1,17 @@
+diff --git "a/4.0.0/koopa/game_FinalStart.txt" "b/5.0.0/koopa/game_FinalStart.txt"
+index adb51c6..5e9e2f7 100644
+--- "a/4.0.0/koopa/game_FinalStart.txt"
++++ "b/5.0.0/koopa/game_FinalStart.txt"
+@@ -9,11 +9,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(10, 0)
+-			0xe6f20(-730111134, 1.5)
++			0xe6f60(-636618282, 1.5)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=35)
+ 		if(is_excute){

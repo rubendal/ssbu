@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_FinalAir.txt" "b/0.0/ryu/game_FinalAir.txt"
+index 607d328..ee2649c 100644
+--- "a/0.0/ryu/game_FinalAir.txt"
++++ "b/0.0/ryu/game_FinalAir.txt"
+@@ -11,11 +11,11 @@ if(0x15b330(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x15b330(1143590533, 1.8)
++			0x15b330(-1954503996, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=28)
+ 		if(is_excute){

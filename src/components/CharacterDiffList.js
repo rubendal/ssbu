@@ -31,6 +31,7 @@ class CharacterDiffList extends Component {
         return x.localeCompare(y);
       });
 
+      
       ref.setState(
         {
           list : list

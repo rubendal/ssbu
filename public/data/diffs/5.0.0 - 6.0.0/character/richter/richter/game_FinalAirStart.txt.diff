@@ -1,0 +1,36 @@
+diff --git "a/r_5.0.0/richter/game_FinalAirStart.txt" "b/r_6.0.0/richter/game_FinalAirStart.txt"
+index 3db6a33..950b2cb 100644
+--- "a/r_5.0.0/richter/game_FinalAirStart.txt"
++++ "b/r_6.0.0/richter/game_FinalAirStart.txt"
+@@ -8,18 +8,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x114ba0(32, 0)){
++if(0x114c40(32, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x114ba0(-1639001006, 2.1)
++			0x114c40(1950221406, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(d04finalstart.nuanmb, False, False)
+@@ -46,9 +46,10 @@ if(is_excute){
+ }
+ wait(Frames=15)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
++wait(Frames=1)
+ operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_FINAL_HIT), False, True)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_SIMON_STATUS_FINAL_WORK_ID_FLAG_START_COFFIN_ROT_Y)
+ }

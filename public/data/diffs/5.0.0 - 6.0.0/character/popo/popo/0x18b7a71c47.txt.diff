@@ -1,0 +1,14 @@
+diff --git "a/.0.0/popo/0x18b7a71c47.txt" "b/.0.0/popo/0x18b7a71c47.txt"
+index 06350b7..c0758a6 100644
+--- "a/.0.0/popo/0x18b7a71c47.txt"
++++ "b/.0.0/popo/0x18b7a71c47.txt"
+@@ -1,8 +1,8 @@
+ get_value_float(FT_VAR_FLOAT_STICK_X_BACK)
+ WorkModule__get_param_float(0, param_special_hi, start_turn_cont_x)
+-if(0x14c0b0(32)){
++if(0x14c100(32)){
+ 	if(is_excute){
+ 		STICK_LR()
+ 		UPDATE_ROT()
+ 	}
+ }

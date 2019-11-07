@@ -1,0 +1,17 @@
+diff --git "a/.0.0/jack/game_VisualScene02.txt" "b/.0.0/jack/game_VisualScene02.txt"
+index 12aa47e..a0a5911 100644
+--- "a/.0.0/jack/game_VisualScene02.txt"
++++ "b/.0.0/jack/game_VisualScene02.txt"
+@@ -10,11 +10,11 @@ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_SCENE_DAMAGE_REQUEST)
+ 	WorkModule__on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_FINISH)
+ }
+ frame(Frame=98)
+ if(is_excute){
+-	FILL_SCREEN_MODEL_COLOR(0, 0, 0.1, 0.1, 0.1, 0, 0, 0, 0, 1, 51192, EFFECT_SCREEN_PRIO_FINAL)
++	FILL_SCREEN_MODEL_COLOR(0, 0, 0.1, 0.1, 0.1, 0, 0, 0, 0, 1, 52032, EFFECT_SCREEN_PRIO_FINAL)
+ }
+ frame(Frame=99)
+ if(is_excute){
+ 	VisibilityModule__set_whole(False)
+ }

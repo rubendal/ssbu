@@ -1,0 +1,17 @@
+diff --git "a/.0.0/pitb/game_FinalAir.txt" "b/.0.0/pitb/game_FinalAir.txt"
+index 48db0bd..97cf295 100644
+--- "a/.0.0/pitb/game_FinalAir.txt"
++++ "b/.0.0/pitb/game_FinalAir.txt"
+@@ -9,11 +9,11 @@ if(0x10aac0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(d04final.nuanmb, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(4, 0)
+-			0x10aac0(1503604155, 2)
++			0x10aac0(1494284136, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }
