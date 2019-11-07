@@ -1,0 +1,35 @@
+diff --git "a/5.0.0/kamui_dragonhand/game_dhSpecialNEnd1.txt" "b/6.0.0/kamui_dragonhand/game_dhSpecialNEnd1.txt"
+index a316292..1f72386 100644
+--- "a/5.0.0/kamui_dragonhand/game_dhSpecialNEnd1.txt"
++++ "b/6.0.0/kamui_dragonhand/game_dhSpecialNEnd1.txt"
+@@ -11,15 +11,15 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=50, KBG=100, FKB=0, BKB=50, Size=5.5, X=0.0, Y=9.0, Z=15.0, X2=0.0, Y2=9.0, Z2=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=3, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 		ATTACK(ID=1, Part=0, Bone=top, Damage=18.0, Angle=50, KBG=100, FKB=0, BKB=50, Size=6.5, X=0.0, Y=9.0, Z=15.0, X2=0.0, Y2=9.0, Z2=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=3, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 		attack(MA_MSC_CMD_ATTACK_SET_LERP, 0, 1)
+ 		WorkModule__get_float(WEAPON_KAMUI_DRAGONHAND_INSTANCE_WORK_ID_FLOAT_HOLD_RATE)
+-		ATK_LERP_RATIO(877567570)
++		ATK_LERP_RATIO(155626889)
+ 	}
+ 	else{
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x1442f0(576, 0)){
++		if(0x144310(576, 0)){
+ 			if(is_excute){
+ 				ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=50, KBG=100, FKB=0, BKB=50, Size=5.5, X=0.0, Y=8.8, Z=15.0, X2=0.0, Y2=8.8, Z2=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=3, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 				ATTACK(ID=1, Part=0, Bone=top, Damage=18.0, Angle=50, KBG=100, FKB=0, BKB=50, Size=6.5, X=0.0, Y=8.8, Z=15.0, X2=0.0, Y2=8.8, Z2=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=3, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 			}
+ 			else{
+@@ -30,11 +30,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 			}
+ 		}
+ 		if(is_excute){
+ 			attack(MA_MSC_CMD_ATTACK_SET_LERP, 0, 1)
+ 			WorkModule__get_float(WEAPON_KAMUI_DRAGONHAND_INSTANCE_WORK_ID_FLOAT_HOLD_RATE)
+-			ATK_LERP_RATIO(877567570)
++			ATK_LERP_RATIO(155626889)
+ 		}
+ 	}
+ }
+ frame(Frame=10)
+ if(is_excute){

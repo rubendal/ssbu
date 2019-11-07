@@ -1,0 +1,174 @@
+diff --git "a/0.0/ken/game_Final.txt" "b/0.0/ken/game_Final.txt"
+index 6e22030..7d2ad74 100644
+--- "a/0.0/ken/game_Final.txt"
++++ "b/0.0/ken/game_Final.txt"
+@@ -1,11 +1,11 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 0, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(10, 70)
+ }
+-if(0x168b20(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x169820(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 		REQ_FINAL_START_CAMERA(d04final.nuanmb, True)
+ 		FT_START_CUTIN()
+@@ -13,22 +13,22 @@ if(0x168b20(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 	else{
+ 		if(is_excute){
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x168b20(0, 0)){
++		if(0x169820(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 				PostureModule__scale(3, 0)
+-				0x168b20(-857381893, 1.8)
++				0x169820(-1784316017, 1.8)
+ 				CAM_ZOOM_IN_arg5(0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){
+ 					camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 					PostureModule__scale(3, 0)
+-					0x168b20(-857381893, 1.8)
++					0x169820(-1784316017, 1.8)
+ 					CAM_ZOOM_IN_arg5(0, 0)
+ 				}
+ 			}
+ 		}
+ 	}
+@@ -41,20 +41,20 @@ if(is_excute){
+ 	AttackModule__set_no_dead_all(True, False)
+ 	AttackModule__set_no_uniq_effect_all(True, False)
+ 	AttackModule__set_damage_shake_scale(0.18)
+ }
+ PostureModule__scale(0)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(-857381893, 1.4)){
++if(0x169820(-1784316017, 1.4)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 15, 0, 5)
+ 		AttackModule__set_vec_target_pos()
+ 		as_hash__const(1, top, 15, 0, 5)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 0.5)){
++		if(0x169820(0, 0.5)){
+ 			if(is_excute){
+ 				as_hash__const(0, top, 20, 0, 2)
+ 				AttackModule__set_vec_target_pos()
+ 				as_hash__const(1, top, 20, 0, 2)
+ 				AttackModule__set_vec_target_pos()
+@@ -87,20 +87,20 @@ if(is_excute){
+ 	AttackModule__set_optional_hit_effect()
+ 	as_hash__const(1, 0x192e7100d1)
+ 	AttackModule__set_optional_hit_effect()
+ }
+ PostureModule__scale(0)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(-857381893, 1.4)){
++if(0x169820(-1784316017, 1.4)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 12, 5, 13)
+ 		AttackModule__set_vec_target_pos()
+ 		as_hash__const(1, top, 15, 20, 5)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 0.5)){
++		if(0x169820(0, 0.5)){
+ 			if(is_excute){
+ 				as_hash__const(0, top, 28, 5, 13)
+ 				AttackModule__set_vec_target_pos()
+ 				as_hash__const(1, top, 37, 10, 15)
+ 				AttackModule__set_vec_target_pos()
+@@ -129,20 +129,20 @@ if(is_excute){
+ 	AttackModule__set_optional_hit_effect()
+ 	as_hash__const(1, 0x192e7100d1)
+ 	AttackModule__set_optional_hit_effect()
+ }
+ PostureModule__scale(0)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(-857381893, 1.4)){
++if(0x169820(-1784316017, 1.4)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 13, 4, 13)
+ 		AttackModule__set_vec_target_pos()
+ 		as_hash__const(1, top, 13, 7, 15)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 0.5)){
++		if(0x169820(0, 0.5)){
+ 			if(is_excute){
+ 				as_hash__const(0, top, 37, 4, 13)
+ 				AttackModule__set_vec_target_pos()
+ 				as_hash__const(1, top, 37, 7, 15)
+ 				AttackModule__set_vec_target_pos()
+@@ -171,20 +171,20 @@ if(is_excute){
+ 	AttackModule__set_optional_hit_effect()
+ 	as_hash__const(1, 0x192e7100d1)
+ 	AttackModule__set_optional_hit_effect()
+ }
+ PostureModule__scale(0)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(-857381893, 1.4)){
++if(0x169820(-1784316017, 1.4)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 13, 8, 10)
+ 		AttackModule__set_vec_target_pos()
+ 		as_hash__const(1, top, 13, 10, 15)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 0.5)){
++		if(0x169820(0, 0.5)){
+ 			if(is_excute){
+ 				as_hash__const(0, top, 46, 8, 10)
+ 				AttackModule__set_vec_target_pos()
+ 				as_hash__const(1, top, 46, 12, 15)
+ 				AttackModule__set_vec_target_pos()
+@@ -213,20 +213,20 @@ if(is_excute){
+ 	AttackModule__set_optional_hit_effect()
+ 	as_hash__const(1, 0x192e7100d1)
+ 	AttackModule__set_optional_hit_effect()
+ }
+ PostureModule__scale(0)
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(-857381893, 1.4)){
++if(0x169820(-1784316017, 1.4)){
+ 	if(is_excute){
+ 		as_hash__const(0, top, 14, 8, 14)
+ 		AttackModule__set_vec_target_pos()
+ 		as_hash__const(1, top, 16, 10, 15)
+ 		AttackModule__set_vec_target_pos()
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 0.5)){
++		if(0x169820(0, 0.5)){
+ 			if(is_excute){
+ 				as_hash__const(0, top, 44, 8, 14)
+ 				AttackModule__set_vec_target_pos()
+ 				as_hash__const(1, top, 52, 10, 15)
+ 				AttackModule__set_vec_target_pos()
+@@ -251,13 +251,13 @@ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_WORK_ID_FINAL_FLAG_LOCK_ATTACK)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=4.0, Angle=50, KBG=95, FKB=40, BKB=0, Size=11.0, X=0.0, Y=8.0, Z=8.0, X2=0.0, Y2=10.0, Z2=8.0, Hitlag=3.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KEN_FINAL01, Type=ATTACK_REGION_KICK)
+ 	AttackModule__set_no_dead_all(True, False)
+ }
+ PostureModule__scale(0)
+-operator___lib::L2CValueconst__const(-857381893, 1.4)
++0x169820(-1784316017, 1.4)
+ PostureModule__scale()
+-operator___lib::L2CValueconst__const(0, 0.5)
++0x169820(0, 0.5)
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ if(is_excute){

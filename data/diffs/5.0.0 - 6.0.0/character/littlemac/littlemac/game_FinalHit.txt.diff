@@ -1,0 +1,22 @@
+diff --git "a/mac_5.0.0/littlemac/game_FinalHit.txt" "b/mac_6.0.0/littlemac/game_FinalHit.txt"
+index 7a65d73..861a0f9 100644
+--- "a/mac_5.0.0/littlemac/game_FinalHit.txt"
++++ "b/mac_6.0.0/littlemac/game_FinalHit.txt"
+@@ -6,15 +6,15 @@ frame(Frame=2)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=100, FKB=100, BKB=0, Size=15.0, X=0.0, Y=9.0, Z=4.0, X2=0.0, Y2=9.0, Z2=20.0, Hitlag=2.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 	AttackModule__set_no_dead_all(True, False)
+ 	AttackModule__set_no_uniq_effect_all(True, False)
+ 	PostureModule__scale(1, 0)
+-	0x1442b0(594980438, 2.5)
++	0x1442b0(1615697319, 2.5)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1442b0(1706400, 0)){
++if(0x1442b0(1706464, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 7)
+ 	}
+ 	else{
+ 		if(is_excute){

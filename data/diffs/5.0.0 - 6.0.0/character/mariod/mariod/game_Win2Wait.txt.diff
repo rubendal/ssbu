@@ -1,0 +1,13 @@
+diff --git "a/_5.0.0/mariod/game_Win2Wait.txt" "b/_6.0.0/mariod/game_Win2Wait.txt"
+index f88c8af..4db9085 100644
+--- "a/_5.0.0/mariod/game_Win2Wait.txt"
++++ "b/_6.0.0/mariod/game_Win2Wait.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(FIGHTER_MARIOD_GENERATE_ARTICLE_STETHOSCOPE)
+-if(0xd45f0(False, False)){
++if(0xd4640(False, False)){
+ 	if(is_excute){
+ 		ArticleModule__generate_article_enable(FIGHTER_MARIOD_GENERATE_ARTICLE_STETHOSCOPE)
+ 	}
+ }
+ if(is_excute){

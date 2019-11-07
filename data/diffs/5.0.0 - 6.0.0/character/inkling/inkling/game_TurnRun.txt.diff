@@ -1,0 +1,19 @@
+diff --git "a/g_5.0.0/inkling/game_TurnRun.txt" "b/g_6.0.0/inkling/game_TurnRun.txt"
+index 203dbff..7c830f6 100644
+--- "a/g_5.0.0/inkling/game_TurnRun.txt"
++++ "b/g_6.0.0/inkling/game_TurnRun.txt"
+@@ -3,12 +3,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule__motion_kind()
+ MotionModule__frame(0x00000002b0)
+-MotionModule__rate(1535628542)
+-as_hash__const(1535628542, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
++MotionModule__rate(-459651652)
++as_hash__const(-459651652, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ ArticleModule__change_motion()
+ if(is_excute){
+ 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)

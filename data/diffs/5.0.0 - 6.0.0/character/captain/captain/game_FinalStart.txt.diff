@@ -1,0 +1,17 @@
+diff --git "a/n_5.0.0/captain/game_FinalStart.txt" "b/n_6.0.0/captain/game_FinalStart.txt"
+index cc36060..722059c 100644
+--- "a/n_5.0.0/captain/game_FinalStart.txt"
++++ "b/n_6.0.0/captain/game_FinalStart.txt"
+@@ -8,11 +8,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		SlowModule__set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(30)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x106970(64, 0)){
++if(0x106950(64, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(0x1654ea70d3, False, False)
+ 	}
+ 	else{
+ 		if(is_excute){

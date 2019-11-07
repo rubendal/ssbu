@@ -1,0 +1,21 @@
+diff --git "a/5.0.0/falco/game_ThrowB.txt" "b/6.0.0/falco/game_ThrowB.txt"
+index 9ca8079..cfdd087 100644
+--- "a/5.0.0/falco/game_ThrowB.txt"
++++ "b/6.0.0/falco/game_ThrowB.txt"
+@@ -1,14 +1,14 @@
+ PostureModule__scale()
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(772338001, 1.4)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(1479572548, 1.4)){
+ 	if(is_excute){
+ 		ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=6.0, Angle=35, KBG=50, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 		ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(772338001, 0.5)){
++		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(1479572548, 0.5)){
+ 			if(is_excute){
+ 				ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=6.0, Angle=44, KBG=40, FKB=0, BKB=40, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 				ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=True, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 			}
+ 			else{
