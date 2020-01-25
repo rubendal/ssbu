@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.bfae7434.css",
   "main.css.map": "static/css/main.bfae7434.css.map",
-  "main.js": "static/js/main.ceb7e324.js",
-  "main.js.map": "static/js/main.ceb7e324.js.map",
+  "main.js": "static/js/main.a22612c4.js",
+  "main.js.map": "static/js/main.a22612c4.js.map",
   "static\\media\\1.0.0.png": "static/media/1.0.0.34106053.png",
   "static\\media\\1.2.0 - 2.0.0.png": "static/media/1.2.0 - 2.0.0.31c8f168.png",
   "static\\media\\2.0.0 - 3.0.0.png": "static/media/2.0.0 - 3.0.0.72a15a13.png",
@@ -21,6 +21,7 @@
   "static\\media\\bayonetta.png": "static/media/bayonetta.b0c2edab.png",
   "static\\media\\bowser jr.png": "static/media/bowser jr.afeca535.png",
   "static\\media\\bowser.png": "static/media/bowser.4c8de8e0.png",
+  "static\\media\\byleth.png": "static/media/byleth.c46939d5.png",
   "static\\media\\calculator.png": "static/media/calculator.00eff6fc.png",
   "static\\media\\captain falcon.png": "static/media/captain falcon.68a8828d.png",
   "static\\media\\characters.png": "static/media/characters.2cd74435.png",
