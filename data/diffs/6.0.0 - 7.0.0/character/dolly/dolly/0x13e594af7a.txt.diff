@@ -1,0 +1,16 @@
+diff --git "a/6.0.0/dolly/0x13e594af7a.txt" "b/7.0.0/dolly/0x13e594af7a.txt"
+index 4af682f..2114f4a 100644
+--- "a/6.0.0/dolly/0x13e594af7a.txt"
++++ "b/7.0.0/dolly/0x13e594af7a.txt"
+@@ -1,10 +1,10 @@
+ frame(Frame=6)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_FLAG_DECIDE_STRENGTH)
+ }
+-if(0x24c750(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_INT_STRENGTH, FIGHTER_DOLLY_STRENGTH_W)){
++if(0x24c760(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_INT_STRENGTH, FIGHTER_DOLLY_STRENGTH_W)){
+ 	if(is_excute){
+ 		MotionModule__set_rate(1.3)
+ 	}
+ 	else{
+ 		if(is_excute){

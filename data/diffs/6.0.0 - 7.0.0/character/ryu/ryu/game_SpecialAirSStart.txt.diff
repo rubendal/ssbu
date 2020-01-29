@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_SpecialAirSStart.txt" "b/0.0/ryu/game_SpecialAirSStart.txt"
+index c72011f..cbb8eb3 100644
+--- "a/0.0/ryu/game_SpecialAirSStart.txt"
++++ "b/0.0/ryu/game_SpecialAirSStart.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area_xy(1, 3.5, 8.5, 8.5)
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_RYU_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=9.0, Angle=75, KBG=80, FKB=0, BKB=87, Size=4.5, X=0.0, Y=9.0, Z=4.5, X2=0.0, Y2=9.0, Z2=4.5, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_KICK)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=11.0, Angle=75, KBG=70, FKB=0, BKB=85, Size=4.5, X=0.0, Y=9.0, Z=4.5, X2=0.0, Y2=9.0, Z2=4.5, Hitlag=1.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_KICK)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__set_target_category(ID=0, Hitbits=COLLISION_CATEGORY_MASK_NO_IF)
+ 	AttackModule__set_size(ID=0, Size=0.1)

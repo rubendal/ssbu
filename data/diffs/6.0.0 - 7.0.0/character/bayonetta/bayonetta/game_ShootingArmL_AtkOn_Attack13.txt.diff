@@ -1,0 +1,12 @@
+diff --git "a/tta_6.0.0/bayonetta/game_ShootingArmL_AtkOn_Attack13.txt" "b/tta_7.0.0/bayonetta/game_ShootingArmL_AtkOn_Attack13.txt"
+index 58a51b7..7c57054 100644
+--- "a/tta_6.0.0/bayonetta/game_ShootingArmL_AtkOn_Attack13.txt"
++++ "b/tta_7.0.0/bayonetta/game_ShootingArmL_AtkOn_Attack13.txt"
+@@ -1,6 +1,6 @@
+-if(0x190590(WorkModule__is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), False, False)){
++if(0x1905a0(WorkModule__is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), False, False)){
+ 	if(is_excute){
+ 		ATTACK(ID=FIGHTER_BAYONETTA_SHOOTING_ATTACK_ID_00, Part=0, Bone=top, Damage=0.5, Angle=34, KBG=100, FKB=0, BKB=10, Size=2.5, X=0.0, Y=19.299999, Z=-0.8, X2=0.0, Y2=21.5, Z2=-4.1, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal_bullet, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_BAYONETTA_HIT_01, Type=ATTACK_REGION_NONE)
+ 	}
+ }
+ if(is_excute){

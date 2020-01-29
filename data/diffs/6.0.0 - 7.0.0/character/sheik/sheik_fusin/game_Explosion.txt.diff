@@ -1,0 +1,13 @@
+diff --git "a/6.0.0/sheik_fusin/game_Explosion.txt" "b/7.0.0/sheik_fusin/game_Explosion.txt"
+index d786597..f5eef0e 100644
+--- "a/6.0.0/sheik_fusin/game_Explosion.txt"
++++ "b/7.0.0/sheik_fusin/game_Explosion.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=55, KBG=102, FKB=0, BKB=50, Size=13.0, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_BOMB, Type=ATTACK_REGION_BOMB)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=55, KBG=112, FKB=0, BKB=50, Size=13.0, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_BOMB, Type=ATTACK_REGION_BOMB)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }

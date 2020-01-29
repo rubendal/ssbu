@@ -1,0 +1,13 @@
+diff --git "a/5.0.0/kirby/game_SpecialNStart.txt" "b/6.0.0/kirby/game_SpecialNStart.txt"
+index 3e23669..a8b25cb 100644
+--- "a/5.0.0/kirby/game_SpecialNStart.txt"
++++ "b/6.0.0/kirby/game_SpecialNStart.txt"
+@@ -1,6 +1,7 @@
+-FT_MOTION_RATE(FSM=0.7)
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=18)
+ FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_KIRBY_STATUS_SPECIAL_N_FLAG_INHALE)
+ 	CATCH(ID=0, Bone=top, Size=6.0, X=0.0, Y=6.0, Z=5.0, Status=FIGHTER_STATUS_KIND_SWALLOWED, Ground/Air=COLLISION_SITUATION_MASK_GA)

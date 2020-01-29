@@ -1,0 +1,17 @@
+diff --git "a/5.0.0/purin/game_SpecialAirS.txt" "b/6.0.0/purin/game_SpecialAirS.txt"
+index 1e7a198..659de45 100644
+--- "a/5.0.0/purin/game_SpecialAirS.txt"
++++ "b/6.0.0/purin/game_SpecialAirS.txt"
+@@ -1,9 +1,12 @@
+ frame(Frame=13)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=11.0, Angle=75, KBG=75, FKB=0, BKB=52, Size=4.5, X=0.0, Y=4.0, Z=10.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=20, Trip=0.4, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_HARISEN, Type=ATTACK_REGION_PUNCH)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=11.0, Angle=75, KBG=75, FKB=0, BKB=52, Size=4.5, X=0.0, Y=4.0, Z=5.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=20, Trip=0.4, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_HARISEN, Type=ATTACK_REGION_PUNCH)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
++	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=1.5)
+ 	WorkModule__on_flag(Flag=FIGHTER_PURIN_STATUS_SPECIAL_S_FLAG_INPUT)
+ 	WorkModule__set_int(FIGHTER_PURIN_SPECIAL_S_ENERGY_MODE_BRAKE, FIGHTER_PURIN_STATUS_SPECIAL_S_WORK_INT_ENERGY_MODE)
+ 	WorkModule__on_flag(Flag=FIGHTER_PURIN_STATUS_SPECIAL_S_FLAG_CHANGE_ENERGY)
+ }
+ frame(Frame=29)

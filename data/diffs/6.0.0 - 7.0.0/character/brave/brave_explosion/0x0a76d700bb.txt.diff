@@ -1,0 +1,11 @@
+diff --git "a/6.0.0/brave_explosion/0x0a76d700bb.txt" "b/7.0.0/brave_explosion/0x0a76d700bb.txt"
+index d33d793..949d20e 100644
+--- "a/6.0.0/brave_explosion/0x0a76d700bb.txt"
++++ "b/7.0.0/brave_explosion/0x0a76d700bb.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+ 	AttackModule__disable_tip()
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=100, FKB=0, BKB=25, Size=3.5, X=0.0, Y=0.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_MAGIC)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=2.0, Angle=361, KBG=40, FKB=0, BKB=25, Size=3.5, X=0.0, Y=0.0, Z=0.0, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=True, Absorbable=True, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_MAGIC)
+ 	AttackModule__enable_safe_pos()
+ }

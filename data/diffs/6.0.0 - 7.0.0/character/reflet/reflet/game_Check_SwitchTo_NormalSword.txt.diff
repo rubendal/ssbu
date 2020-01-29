@@ -1,0 +1,12 @@
+diff --git "a/_6.0.0/reflet/game_Check_SwitchTo_NormalSword.txt" "b/_7.0.0/reflet/game_Check_SwitchTo_NormalSword.txt"
+index 195877f..49e71d4 100644
+--- "a/_6.0.0/reflet/game_Check_SwitchTo_NormalSword.txt"
++++ "b/_7.0.0/reflet/game_Check_SwitchTo_NormalSword.txt"
+@@ -1,6 +1,6 @@
+-if(0x141ef0(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
++if(0x141f00(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON), False, True)){
+ 		if(is_excute){
+ 			VisibilityModule__set_int64(sword, sword_normal)
+ 			WorkModule__off_flag(Flag=FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON)
+ 		}

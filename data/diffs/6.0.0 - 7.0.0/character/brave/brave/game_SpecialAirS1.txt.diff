@@ -1,0 +1,17 @@
+diff --git "a/6.0.0/brave/game_SpecialAirS1.txt" "b/7.0.0/brave/game_SpecialAirS1.txt"
+index f87643d..7e7db16 100644
+--- "a/6.0.0/brave/game_SpecialAirS1.txt"
++++ "b/7.0.0/brave/game_SpecialAirS1.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ }
+ frame(Frame=9)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_ENABLE_SPARK)
+ }
+-if(0x21b9e0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_SUCCESS_SP), False, True)){
++if(0x21bdd0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_SUCCESS_SP), False, True)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=5.0, Angle=45, KBG=100, FKB=0, BKB=35, Size=8.0, X=0.0, Y=8.0, Z=11.5, Hitlag=1.3, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 		AttackModule__set_no_finish_camera(0, True, False)
+ 	}
+ }
