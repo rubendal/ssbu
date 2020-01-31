@@ -31,7 +31,10 @@ function FormatScript(script) {
             .replace(/\r\n/g, "</span><br/><span>")
             .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
             .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-            .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3")
+    /* .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3") */
+            .replace(/([A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
+                     "<span class='script-param-$1'>$1$2<span class='script-param-value'>$3</span>$4</span>$5")
+
             .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
             .replace(/<span><\/span>/g, "");
 }
@@ -72,12 +75,12 @@ export function FormatMscScript(script) {
 }
 
 /*export function SimpleFormatMscScript(script){
-    return "<span>" + 
+    return "<span>" +
             script
                 .replace(/\r\n/g, "</span><br/><span>")
                 .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
                 .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
-                
+
 }*/
 
 export function PrintHitboxActive(active) {

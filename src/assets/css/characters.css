@@ -134,6 +134,12 @@ td{
     color: rgb(136, 0, 0);
 }
 
+.script span.script-param-Damage{
+  color: blue;
+  background: orange;
+  /* display: none; */
+}
+
 .msc-script{
     margin-top: 10px;
     font-family: 'Ubuntu Mono', monospace;
