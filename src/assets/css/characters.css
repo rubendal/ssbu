@@ -139,8 +139,7 @@ td{
 }
 
 .script span.param-hide {
-  color: white;
-  /* display: none; */
+  display: none;
 }
 
 .script-container {
@@ -155,6 +154,7 @@ td{
 
 .script-container .param-style-config {
   flex-grow: 0;
+  min-width: 300px;
   border: 1px solid black;
   margin-left: 10px;
   margin-right: 10px;
