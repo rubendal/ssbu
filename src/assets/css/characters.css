@@ -143,6 +143,28 @@ td{
   /* display: none; */
 }
 
+.script-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.script-container .script-div {
+  flex-grow: 1;
+}
+
+.script-container .param-style-config {
+  flex-grow: 0;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5em;
+  background: rgb(240, 240, 240);
+  color: rgb(68, 68, 68);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .msc-script{
     margin-top: 10px;
     font-family: 'Ubuntu Mono', monospace;

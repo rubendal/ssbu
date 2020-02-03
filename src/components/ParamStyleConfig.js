@@ -98,7 +98,7 @@ class ParamStyleConfig extends Component {
     render() {
         const handler = this.props.handler;
         return (
-            <div>
+            <div className="param-style-config">
                 {handler.createSaveButton()}
                 {handler.createRadioList()}
             </div>

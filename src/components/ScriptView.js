@@ -46,12 +46,10 @@ class ScriptView extends Component {
 
     render() {
         return (
-            <div>
-                <ParamStyleConfig handler={this.state.paramStyleHandler} />
-                <br />
+            <div className="script-container">
                 {
                     !IsScriptEmpty(this.state.script) && (
-                        <div>
+                        <div className="script-div">
                             <div id={"script-" + this.state.script.Id} className="script">
                                 {Parser(BuildScript(this.state.script.Data, this.state.paramStyles))}
                             </div>
@@ -63,7 +61,7 @@ class ScriptView extends Component {
                         </div>
                     )
                 }
-
+                <ParamStyleConfig handler={this.state.paramStyleHandler} />
             </div>
         );
     }
