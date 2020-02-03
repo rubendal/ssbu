@@ -5,20 +5,27 @@ import HitboxesView from './HitboxesView';
 import HurtboxModeView from './HurtboxStateView';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import ParserVersion from '../assets/tools_version.json';
+import { ParamStyleHandler, ParamStyleConfig } from './ParamStyleConfig';
 
 class ScriptView extends Component {
     constructor(props) {
         super(props);
 
+        const paramStyleHandler = new ParamStyleHandler(this.getParamStyle.bind(this), this.setParamStyle.bind(this));
         this.state = {
             script: props.script,
             WeightDependentThrows: props.WeightDependentThrows,
-            paramStyles: {
-                ID: "default",
-                Part: "highlight",
-                Bone: "hide"
-            }
+            paramStyleHandler: paramStyleHandler,
+            paramStyles: paramStyleHandler.getDefaultStyles()
         };
+    }
+
+    getParamStyle(name) {
+        return this.state.paramStyles[name];
+    }
+
+    setParamStyle(name, style) {
+        this.setState({style: Object.assign(this.state.paramStyles, {[name]: style})});
     }
 
     /*toggleDiv(id){
@@ -40,6 +47,7 @@ class ScriptView extends Component {
     render() {
         return (
             <div>
+                <ParamStyleConfig handler={this.state.paramStyleHandler} />
                 <br />
                 {
                     !IsScriptEmpty(this.state.script) && (
