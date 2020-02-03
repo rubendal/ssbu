@@ -31,7 +31,7 @@ class Radio extends React.Component {
     }
     createLabel(style) {
         return (
-            <label className={"label-" + style}>
+            <label className={"label-param-style-" + style}>
                 <input type="radio" name={"style-" + this.props.name} value={style}
                        onChange={this.handleChange.bind(this)}
                        defaultChecked={this.props.defaultStyle === style} />
@@ -51,7 +51,7 @@ class Radio extends React.Component {
                 {this.createLabel("default")}
                 {this.createLabel("highlight")}
             </div>
-        )
+        );
     }
 }
 
