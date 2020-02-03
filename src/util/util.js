@@ -25,24 +25,38 @@ export function IsScriptEmpty(script) {
     return script.Game === null && script.Expression === null && script.Effect === null && script.Sound === null;
 }
 
-function FormatScript(script) {
+function ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyles) {
+    const paramName = p1;
+    const equal = p2;
+    const value = p3;
+    const comma = p4;
+    const closeParen = p5;
+    let className = `script-param-${paramName}`;
+    if (paramName in paramStyles) {
+        className += ` param-${paramStyles[paramName]}`
+    }
+    return `<span class='${className}'>${paramName}${equal}<span class='script-param-value'>${value}</span>${comma}</span>${closeParen}`
+}
+
+function FormatScript(script, paramStyles) {
     return "<span>" +
         script
             .replace(/\r\n/g, "</span><br/><span>")
             .replace(/{<\/span><br\/><span>/g, "{</span><div class='script-tab'><span>")
             .replace(/}<\/span><br\/><span>/g, "</span></div>}<br/><span>")
     /* .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3") */
+    /* .replace(/([A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
+     *          "<span class='script-param-$1'>$1$2<span class='script-param-value'>$3</span>$4</span>$5") */
             .replace(/([A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
-                     "<span class='script-param-$1'>$1$2<span class='script-param-value'>$3</span>$4</span>$5")
-
+                     (match, p1, p2, p3, p4, p5, offset, string) => ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyles))
             .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
             .replace(/<span><\/span>/g, "");
 }
 
-export function BuildScript(script) {
+export function BuildScript(script, paramStyles) {
     var s = "";
 
-    s = FormatScript(script)
+    s = FormatScript(script, paramStyles)
 
     return s;
 }

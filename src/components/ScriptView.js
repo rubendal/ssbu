@@ -12,7 +12,12 @@ class ScriptView extends Component {
 
         this.state = {
             script: props.script,
-            WeightDependentThrows: props.WeightDependentThrows
+            WeightDependentThrows: props.WeightDependentThrows,
+            paramStyles: {
+                ID: "default",
+                Part: "highlight",
+                Bone: "hide"
+            }
         };
     }
 
@@ -40,7 +45,7 @@ class ScriptView extends Component {
                     !IsScriptEmpty(this.state.script) && (
                         <div>
                             <div id={"script-" + this.state.script.Id} className="script">
-                                {Parser(BuildScript(this.state.script.Data))}
+                                {Parser(BuildScript(this.state.script.Data, this.state.paramStyles))}
                             </div>
                             <span className="parser-version">
                                 <a href={ParserVersion.parser_link}>

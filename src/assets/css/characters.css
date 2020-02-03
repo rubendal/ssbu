@@ -134,9 +134,12 @@ td{
     color: rgb(136, 0, 0);
 }
 
-.script span.script-param-Damage{
-  color: blue;
+.script span.param-highlight {
   background: orange;
+}
+
+.script span.param-hide {
+  color: white;
   /* display: none; */
 }
 
