@@ -134,8 +134,14 @@ td{
     color: rgb(136, 0, 0);
 }
 
-.script span.param-highlight {
+.script span.param-highlight1 {
   background: orange;
+  background-clip: content-box;
+}
+
+.script span.param-highlight2 {
+  background: cyan;
+  background-clip: content-box;
 }
 
 .script span.param-hide {
@@ -146,6 +152,7 @@ td{
   display: flex;
   flex-direction: row;
   margin-top: 15px;
+  align-items: baseline;
 }
 
 .script-container .script-div {
@@ -154,7 +161,7 @@ td{
 
 .script-container .param-style-config {
   flex-grow: 0;
-  min-width: 400px;
+  min-width: 500px;
   border: 1px solid black;
   margin-left: 10px;
   margin-right: 10px;
@@ -163,6 +170,16 @@ td{
   color: rgb(68, 68, 68);
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.script-container .param-style-config td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.script-container .param-style-config .param-name {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.6rem;
 }
 
 .msc-script{

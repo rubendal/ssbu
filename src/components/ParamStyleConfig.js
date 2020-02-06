@@ -24,7 +24,7 @@ class SaveButton extends React.Component {
     }
 }
 
-const StyleList = ["hide", "default", "highlight"];
+const StyleList = ["hide", "default", "highlight1", "highlight2"];
 
 class Radio extends React.Component {
     handleChange(e) {
@@ -53,7 +53,7 @@ class Radio extends React.Component {
         let inputName = "style-" + this.props.name;
         return (
             <tr key={this.props.name}>
-                <td>
+                <td className="param-name">
                     {this.props.name}
                 </td>
                 {this.createLabelList()}
