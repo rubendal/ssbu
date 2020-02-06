@@ -33,14 +33,16 @@ class Radio extends React.Component {
     }
     createLabel(style) {
         return (
-            <label className={"label-param-style-" + style} key={style}>
-                <input type="radio" name={"style-" + this.props.name} value={style}
-                       onChange={this.handleChange.bind(this)}
-                       checked={this.props.defaultStyle === style} />
-                <span>
-                    {style}
-                </span>
-            </label>
+            <td key={style}>
+                <label className={"label-param-style-" + style}>
+                    <input type="radio" name={"style-" + this.props.name} value={style}
+                           onChange={this.handleChange.bind(this)}
+                           checked={this.props.defaultStyle === style} />
+                    <span>
+                        {style}
+                    </span>
+                </label>
+            </td>
         );
         /* <span>{style}</span> の部分は，style の情報がちゃんと分かれば何でも良い */
     }
@@ -50,10 +52,12 @@ class Radio extends React.Component {
     render() {
         let inputName = "style-" + this.props.name;
         return (
-            <div>
-                {this.props.name}
+            <tr key={this.props.name}>
+                <td>
+                    {this.props.name}
+                </td>
                 {this.createLabelList()}
-            </div>
+            </tr>
         );
     }
 }
@@ -79,10 +83,12 @@ class ParamStyleHandler {
     }
     createSelectAllButton(style) {
         return (
-            <button type="button" value={style} key={style}
-                    onClick={e => this.setAll(e.target.value)}>
-                {style}
-            </button>
+            <td key={style}>
+                <button type="button" value={style}
+                        onClick={e => this.setAll(e.target.value)}>
+                    {style}
+                </button>
+            </td>
         )
     }
     createSelectAllButtonList() {
@@ -117,8 +123,17 @@ class ParamStyleConfig extends Component {
         return (
             <div className="param-style-config">
                 {handler.createSaveButton()}
-                {handler.createSelectAllButtonList()}
-                {handler.createRadioList()}
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                select all
+                            </td>
+                            {handler.createSelectAllButtonList()}
+                        </tr>
+                        {handler.createRadioList()}
+                    </tbody>
+                </table>
             </div>
         )
     }
