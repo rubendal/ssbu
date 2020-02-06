@@ -34,7 +34,7 @@ class Radio extends React.Component {
             <label className={"label-param-style-" + style}>
                 <input type="radio" name={"style-" + this.props.name} value={style}
                        onChange={this.handleChange.bind(this)}
-                       defaultChecked={this.props.defaultStyle === style} />
+                       checked={this.props.defaultStyle === style} />
                 <span>
                     {style}
                 </span>
