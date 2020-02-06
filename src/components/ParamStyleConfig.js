@@ -24,6 +24,8 @@ class SaveButton extends React.Component {
     }
 }
 
+const StyleList = ["hide", "default", "highlight"];
+
 class Radio extends React.Component {
     handleChange(e) {
         let style = e.target.value;
@@ -31,7 +33,7 @@ class Radio extends React.Component {
     }
     createLabel(style) {
         return (
-            <label className={"label-param-style-" + style}>
+            <label className={"label-param-style-" + style} key={style}>
                 <input type="radio" name={"style-" + this.props.name} value={style}
                        onChange={this.handleChange.bind(this)}
                        checked={this.props.defaultStyle === style} />
@@ -42,14 +44,15 @@ class Radio extends React.Component {
         );
         /* <span>{style}</span> の部分は，style の情報がちゃんと分かれば何でも良い */
     }
+    createLabelList() {
+        return StyleList.map(style => this.createLabel(style));
+    }
     render() {
         let inputName = "style-" + this.props.name;
         return (
             <div>
                 {this.props.name}
-                {this.createLabel("hide")}
-                {this.createLabel("default")}
-                {this.createLabel("highlight")}
+                {this.createLabelList()}
             </div>
         );
     }
@@ -74,21 +77,16 @@ class ParamStyleHandler {
     setAll(value) {
         this.paramNames.forEach(name => {this.setStyle(name, value)});
     }
-    createSelectAllButtons() {
+    createSelectAllButton(style) {
         return (
-            <div>
-                <button type="button" value="hide" onClick={e => this.setAll(e.target.value)} >
-                    hide
-                </button>
-                <button type="button" value="default" onClick={e => this.setAll(e.target.value)} >
-                    default
-                </button>
-                <button type="button" value="highlight" onClick={e => this.setAll(e.target.value)} >
-                    highlight
-                </button>
-
-            </div>
+            <button type="button" value={style} key={style}
+                    onClick={e => this.setAll(e.target.value)}>
+                {style}
+            </button>
         )
+    }
+    createSelectAllButtonList() {
+        return StyleList.map(style => this.createSelectAllButton(style));
     }
     createRadio(name) {
         if (!this.paramNames.includes(name)) {
@@ -96,7 +94,7 @@ class ParamStyleHandler {
         }
         return (
             <Radio name={name} key={name}
-                   setStyle={(style) => this.setStyle(name, style)}
+                   setStyle={style => this.setStyle(name, style)}
                    defaultStyle={this.getStyle(name)} />
         );
     }
@@ -119,7 +117,7 @@ class ParamStyleConfig extends Component {
         return (
             <div className="param-style-config">
                 {handler.createSaveButton()}
-                {handler.createSelectAllButtons()}
+                {handler.createSelectAllButtonList()}
                 {handler.createRadioList()}
             </div>
         )
