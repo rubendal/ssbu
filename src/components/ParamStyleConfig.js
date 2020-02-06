@@ -71,6 +71,25 @@ class ParamStyleHandler {
         });
         return styles;
     }
+    setAll(value) {
+        this.paramNames.forEach(name => {this.setStyle(name, value)});
+    }
+    createSelectAllButtons() {
+        return (
+            <div>
+                <button type="button" value="hide" onClick={e => this.setAll(e.target.value)} >
+                    hide
+                </button>
+                <button type="button" value="default" onClick={e => this.setAll(e.target.value)} >
+                    default
+                </button>
+                <button type="button" value="highlight" onClick={e => this.setAll(e.target.value)} >
+                    highlight
+                </button>
+
+            </div>
+        )
+    }
     createRadio(name) {
         if (!this.paramNames.includes(name)) {
             throw `The name "${name}" is not recognized by ParamStyleHandler`;
@@ -100,6 +119,7 @@ class ParamStyleConfig extends Component {
         return (
             <div className="param-style-config">
                 {handler.createSaveButton()}
+                {handler.createSelectAllButtons()}
                 {handler.createRadioList()}
             </div>
         )
