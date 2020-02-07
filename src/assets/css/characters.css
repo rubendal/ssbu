@@ -160,8 +160,8 @@ td{
 }
 
 .script-container .param-style-config {
+  display: inline-block;
   flex-grow: 0;
-  min-width: 500px;
   border: 1px solid black;
   margin-left: 10px;
   margin-right: 10px;
