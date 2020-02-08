@@ -16,10 +16,10 @@ class SaveButton extends React.Component {
     }
     render() {
         return (
-            <div>
+            <span>
                 <input type="button" value="save" onClick={this.onClick.bind(this)} />
                 { this.state.showMsg && <span>saved!</span> }
-            </div>
+            </span>
         );
     }
 }
@@ -115,27 +115,60 @@ class ParamStyleHandler {
     createSaveButton() {
         return <SaveButton onClick={this.save.bind(this)}/>
     }
+    createTable() {
+        return (
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            select all
+                        </td>
+                        {this.createSelectAllButtonList()}
+                    </tr>
+                    {this.createRadioList()}
+                </tbody>
+            </table>
+        );
+    }
+    createCloseButton(setShowConfig) {
+        return (
+            <button type="button" onClick={() => setShowConfig(false)}>
+                close
+            </button>
+        );
+    }
+    createConfigDiv(showConfig, setShowConfig) {
+        if (showConfig) {
+            return (
+                <div className="param-style-config">
+                    <div>
+                        {this.createSaveButton()}
+                        {this.createCloseButton(setShowConfig)}
+                    </div>
+                    {this.createTable()}
+                </div>
+            );
+        } else {
+            return (
+                <button type="button" onClick={() => setShowConfig(true)}>
+                    config
+                </button>
+            );
+        }
+    }
 }
 
 class ParamStyleConfig extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {showConfig: false};
+    }
+    setShowConfig(show) {
+        this.setState({showConfig: show});
+    }
     render() {
         const handler = this.props.handler;
-        return (
-            <div className="param-style-config">
-                {handler.createSaveButton()}
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                select all
-                            </td>
-                            {handler.createSelectAllButtonList()}
-                        </tr>
-                        {handler.createRadioList()}
-                    </tbody>
-                </table>
-            </div>
-        )
+        return handler.createConfigDiv(this.state.showConfig, this.setShowConfig.bind(this));
     }
 }
 
