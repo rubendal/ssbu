@@ -23,8 +23,8 @@ class ScriptList extends Component {
 
     var scripts = this.state.data.Scripts[this.state.article];
 
-    this.state.script = scripts[27];
-    this.state.scriptIndex = 27;
+    this.state.script = scripts[0];
+    this.state.scriptIndex = 0;
     this.state.allScripts = scripts;
 
   }
