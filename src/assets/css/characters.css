@@ -134,17 +134,22 @@ td{
     color: rgb(136, 0, 0);
 }
 
-.script span.param-highlight1 {
-  background: orange;
+.script span.param-style-1 span.script-param-content {
+  background: peachpuff;
   background-clip: content-box;
 }
 
-.script span.param-highlight2 {
-  background: cyan;
+.script span.param-style-2 span.script-param-content {
+  background: paleturquoise;
   background-clip: content-box;
 }
 
-.script span.param-hide {
+.script span.param-style-3 span.script-param-content {
+  background: palegreen;
+  background-clip: content-box;
+}
+
+.script span.param-style-hide {
   display: none;
 }
 
@@ -157,6 +162,14 @@ td{
 
 .script-container .script-div {
   flex-grow: 1;
+}
+
+.script-container button.close-button {
+  margin-right: 10px;
+}
+
+.script-container button.config-button {
+  margin-left: 10px;
 }
 
 .script-container .param-style-config {

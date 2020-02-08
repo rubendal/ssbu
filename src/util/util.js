@@ -33,9 +33,9 @@ function ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyl
     const closeParen = p5;
     let className = `script-param-${paramName}`;
     if (paramName in paramStyles) {
-        className += ` param-${paramStyles[paramName]}`
+        className += ` param-style-${paramStyles[paramName]}`
     }
-    return `<span class='${className}'>${paramName}${equal}<span class='script-param-value'>${value}</span>${comma}</span>${closeParen}`
+    return `<span class='${className}'><span class='script-param-content'>${paramName}${equal}<span class='script-param-value'>${value}</span></span>${comma}</span>${closeParen}`
 }
 
 function FormatScript(script, paramStyles) {

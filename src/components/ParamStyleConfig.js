@@ -28,7 +28,7 @@ class SaveButton extends React.Component {
     }
 }
 
-const StyleList = ["hide", "default", "highlight1", "highlight2"];
+const StyleList = ["default", "1", "2", "3", "hide"];
 
 class Radio extends React.Component {
     handleChange(e) {
@@ -136,7 +136,7 @@ class ParamStyleHandler {
     }
     createCloseButton(setShowConfig) {
         return (
-            <button type="button" onClick={() => setShowConfig(false)}>
+            <button className="close-button" type="button" onClick={() => setShowConfig(false)}>
                 close
             </button>
         );
@@ -146,15 +146,15 @@ class ParamStyleHandler {
             return (
                 <div className="param-style-config">
                     <div>
-                        {this.createSaveButton()}
                         {this.createCloseButton(setShowConfig)}
+                        {this.createSaveButton()}
                     </div>
                     {this.createTable()}
                 </div>
             );
         } else {
             return (
-                <button type="button" onClick={() => setShowConfig(true)}>
+                <button className="config-button" type="button" onClick={() => setShowConfig(true)}>
                     config
                 </button>
             );
