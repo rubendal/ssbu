@@ -5,7 +5,8 @@ import HitboxesView from './HitboxesView';
 import HurtboxModeView from './HurtboxStateView';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import ParserVersion from '../assets/tools_version.json';
-import { ParamStyleHandler, ParamStyleConfig } from './ParamStyleConfig';
+import ParamStyleConfig from './ParamStyleConfig';
+import ParamStyleHandler from './paramStyle/ParamStyleHandler';
 
 class ScriptView extends Component {
     constructor(props) {
