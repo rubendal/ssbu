@@ -47,7 +47,7 @@ function FormatScript(script, paramStyles) {
     /* .replace(/(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,|\))/g, "$1<span class='script-param-value'>$2</span>$3") */
     /* .replace(/([A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
      *          "<span class='script-param-$1'>$1$2<span class='script-param-value'>$3</span>$4</span>$5") */
-            .replace(/([A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
+            .replace(/([0-9A-Za-z\/_]*)(=)(-?[0-9A-Za-z_]+x?\.?[0-9A-Za-z_]*)(,?)(\)?)/g,
                      (match, p1, p2, p3, p4, p5, offset, string) => ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyles))
             .replace(/([a-zA-Z_0-9\.\:/]+)(\()/g, "<span class='script-cmd'>$1</span>$2")
             .replace(/<span><\/span>/g, "");
