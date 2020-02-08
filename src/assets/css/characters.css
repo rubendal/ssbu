@@ -172,6 +172,16 @@ td{
   border-radius: 4px;
 }
 
+@media screen and (max-width: 600px) {
+  .script-container {
+    flex-direction: column-reverse;
+  }
+  .script-container .param-style-config {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+}
+
 .script-container .param-style-config td {
   padding-top: 0px;
   padding-bottom: 0px;
