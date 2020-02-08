@@ -172,14 +172,21 @@ td{
   border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
-  .script-container {
-    flex-direction: column-reverse;
-  }
-  .script-container .param-style-config {
-    margin-left: 0px;
-    margin-bottom: 10px;
-  }
+.script-container .param-style-config .config-saved {
+  display: inline-block;
+  min-width: 80px;
+  color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.script-container .param-style-config table {
+  margin-top: 10px;
+}
+
+.script-container .param-style-config table button {
+  padding-bottom: 2px;
+  padding-top: 2px;
 }
 
 .script-container .param-style-config td {
@@ -190,6 +197,16 @@ td{
 .script-container .param-style-config .param-name {
   font-family: 'Ubuntu Mono', monospace;
   font-size: 1.6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .script-container {
+    flex-direction: column-reverse;
+  }
+  .script-container .param-style-config {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
 }
 
 .msc-script{

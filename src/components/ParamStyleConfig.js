@@ -17,8 +17,12 @@ class SaveButton extends React.Component {
     render() {
         return (
             <span>
-                <input type="button" value="save" onClick={this.onClick.bind(this)} />
-                { this.state.showMsg && <span>saved!</span> }
+                <button type="button" value="save" onClick={this.onClick.bind(this)} >
+                    save
+                </button>
+                <span className="config-saved">
+                    { this.state.showMsg && "saved!" }
+                </span>
             </span>
         );
     }
