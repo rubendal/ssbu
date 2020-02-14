@@ -134,6 +134,94 @@ td{
     color: rgb(136, 0, 0);
 }
 
+.script span.param-style-1 span.script-param-content {
+  background: peachpuff;
+  background-clip: content-box;
+}
+
+.script span.param-style-2 span.script-param-content {
+  background: paleturquoise;
+  background-clip: content-box;
+}
+
+.script span.param-style-3 span.script-param-content {
+  background: palegreen;
+  background-clip: content-box;
+}
+
+.script span.param-style-hide {
+  display: none;
+}
+
+.script-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: baseline;
+}
+
+.script-container .script-div {
+  flex-grow: 1;
+}
+
+.script-container button.close-button {
+  margin-right: 10px;
+}
+
+.script-container button.config-button {
+  margin-left: 10px;
+}
+
+.script-container .param-style-config {
+  display: inline-block;
+  flex-grow: 0;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5em;
+  background: rgb(240, 240, 240);
+  color: rgb(68, 68, 68);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.script-container .param-style-config .config-saved {
+  display: inline-block;
+  min-width: 80px;
+  color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.script-container .param-style-config table {
+  margin-top: 10px;
+}
+
+.script-container .param-style-config table button {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.script-container .param-style-config td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.script-container .param-style-config .param-name {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .script-container {
+    flex-direction: column-reverse;
+  }
+  .script-container .param-style-config {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+}
+
 .msc-script{
     margin-top: 10px;
     font-family: 'Ubuntu Mono', monospace;

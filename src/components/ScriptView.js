@@ -5,15 +5,28 @@ import HitboxesView from './HitboxesView';
 import HurtboxModeView from './HurtboxStateView';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import ParserVersion from '../assets/tools_version.json';
+import ParamStyleConfig from './ParamStyleConfig';
+import ParamStyleHandler from './paramStyle/ParamStyleHandler';
 
 class ScriptView extends Component {
     constructor(props) {
         super(props);
 
+        const paramStyleHandler = new ParamStyleHandler(this.getParamStyle.bind(this), this.setParamStyle.bind(this));
         this.state = {
             script: props.script,
-            WeightDependentThrows: props.WeightDependentThrows
+            WeightDependentThrows: props.WeightDependentThrows,
+            paramStyleHandler: paramStyleHandler,
+            paramStyles: paramStyleHandler.getDefaultStyles()
         };
+    }
+
+    getParamStyle(name) {
+        return this.state.paramStyles[name];
+    }
+
+    setParamStyle(name, style) {
+        this.setState({style: Object.assign(this.state.paramStyles, {[name]: style})});
     }
 
     /*toggleDiv(id){
@@ -34,13 +47,12 @@ class ScriptView extends Component {
 
     render() {
         return (
-            <div>
-                <br />
+            <div className="script-container">
                 {
                     !IsScriptEmpty(this.state.script) && (
-                        <div>
+                        <div className="script-div">
                             <div id={"script-" + this.state.script.Id} className="script">
-                                {Parser(BuildScript(this.state.script.Data))}
+                                {Parser(BuildScript(this.state.script.Data, this.state.paramStyles))}
                             </div>
                             <span className="parser-version">
                                 <a href={ParserVersion.parser_link}>
@@ -50,7 +62,7 @@ class ScriptView extends Component {
                         </div>
                     )
                 }
-
+                <ParamStyleConfig handler={this.state.paramStyleHandler} />
             </div>
         );
     }
