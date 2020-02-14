@@ -1,0 +1,30 @@
+diff --git "a/0.0/fox/game_ThrowHi.txt" "b/0.0/fox/game_ThrowHi.txt"
+index 4a1ea93..fcf97d5 100644
+--- "a/0.0/fox/game_ThrowHi.txt"
++++ "b/0.0/fox/game_ThrowHi.txt"
+@@ -12,11 +12,11 @@ frame(Frame=7)
+ if(is_excute){
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, throw, FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ }
+ frame(Frame=15)
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10ce60(False, True)){
++if(0x10ce70(False, True)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, 0x04a47083a4)
+ 		ArticleModule__change_motion()
+ 	}
+ }
+@@ -32,11 +32,11 @@ frame(Frame=24)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER_BULLET)
+ }
+ frame(Frame=27)
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10ce60(False, True)){
++if(0x10ce70(False, True)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, 0x05130181c4)
+ 		ArticleModule__change_motion()
+ 	}
+ }

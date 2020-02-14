@@ -16,6 +16,7 @@ const settings = {
 		semitechable: "#FF0000",
 		camera: "#0000FF",
 		blastzone: "#FF0000",
+		meteorBlastzone: "#800080",
 		ko: "#FF0000",
 		diLine: "#000000",
 		interpolatedLine: "#808080",
@@ -287,6 +288,10 @@ class Visualizer extends Component {
 				this.dataPoints.push(new DataPoint({ x: 0, y: stage.blast_zones[2] }, "Top Blast zone (%y)", settings.visualizer_colors.blastzone));
 				this.dataPoints.push(new DataPoint({ x: 0, y: stage.blast_zones[3] }, "Bottom Blast zone (%y)", settings.visualizer_colors.blastzone));
 
+				if (stage.camera[3] - 25 >= stage.blast_zones[3])
+					this.dataPoints.push(new DataPoint({ x: 0, y: stage.camera[3] - 25 }, "Special blast zone for meteor smashed opponents (%y)", settings.visualizer_colors.meteorBlastzone));
+
+
 				if(stage.spawns !== undefined){
 					for(i=0;i<stage.spawns.length;i++){
 						this.dataPoints.push(new DataPoint({x: stage.spawns[i][0], y: stage.spawns[i][1]}, "Spawn " + i + " (%x, %y)", settings.visualizer_colors.spawn));
@@ -526,6 +531,16 @@ class Visualizer extends Component {
 					this.LineTo(stage.blast_zones[0], stage.blast_zones[3]);
 					context.closePath();
 					context.stroke();
+
+					//Blast zone for spikes
+				if (stage.camera[3] - 20 > stage.blast_zones[3]) {
+					context.strokeStyle = settings.visualizer_colors.meteorBlastzone;
+					context.beginPath();
+					this.MoveTo(stage.blast_zones[0], stage.camera[3] - 25);
+					this.LineTo(stage.blast_zones[1], stage.camera[3] - 25);
+					context.closePath();
+					context.stroke();
+				}
 
 
 					context.lineWidth = 0.75;

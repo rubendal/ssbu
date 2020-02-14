@@ -1,0 +1,21 @@
+diff --git "a/6.0.0/diddy/game_Finals.txt" "b/7.0.0/diddy/game_Finals.txt"
+index e754cf4..ac3979a 100644
+--- "a/6.0.0/diddy/game_Finals.txt"
++++ "b/7.0.0/diddy/game_Finals.txt"
+@@ -1,14 +1,14 @@
+ PostureModule__scale()
+-if(0x13c540(-903504264, 1.4)){
++if(0x13c860(-1925395313, 1.4)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=rot, Damage=2.0, Angle=130, KBG=60, FKB=0, BKB=45, Size=10.0, X=0.0, Y=7.0, Z=0.0, X2=0.0, Y2=-10.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
+ 		AttackModule__set_force_reaction(0, True, False)
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(0x13c540(-903504264, 0.5)){
++		if(0x13c860(-1925395313, 0.5)){
+ 			if(is_excute){
+ 				ATTACK(ID=0, Part=0, Bone=rot, Damage=2.0, Angle=130, KBG=60, FKB=0, BKB=45, Size=10.0, X=0.0, Y=7.0, Z=0.0, X2=0.0, Y2=-30.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_fire, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_NONE)
+ 				AttackModule__set_force_reaction(0, True, False)
+ 			}
+ 			else{

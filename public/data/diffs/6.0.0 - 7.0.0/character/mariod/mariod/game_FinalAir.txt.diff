@@ -1,0 +1,45 @@
+diff --git "a/_6.0.0/mariod/game_FinalAir.txt" "b/_7.0.0/mariod/game_FinalAir.txt"
+index 272ffd0..65552bb 100644
+--- "a/_6.0.0/mariod/game_FinalAir.txt"
++++ "b/_7.0.0/mariod/game_FinalAir.txt"
+@@ -5,26 +5,26 @@ if(is_excute){
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_MARIOD_GENERATE_ARTICLE_HUGECAPSULE)
+ }
+-if(0xd4640(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0xd9460(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(d04final.nuanmb, False, False)
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			operator__lib::L2CValueconst__const(142753095, 2.05)
++			operator__lib::L2CValueconst__const(-1646310602, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0xd4640(0, 0)){
++		if(0xd9460(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){
+@@ -33,9 +33,9 @@ if(0xd4640(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 			}
+ 		}
+ 	}
+ }
+ frame(Frame=25)
+-0xd4640(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
++0xd9460(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }

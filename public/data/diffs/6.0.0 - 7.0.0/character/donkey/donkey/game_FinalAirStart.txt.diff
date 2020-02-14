@@ -1,0 +1,17 @@
+diff --git "a/_6.0.0/donkey/game_FinalAirStart.txt" "b/_7.0.0/donkey/game_FinalAirStart.txt"
+index 12b72bb..5b5422f 100644
+--- "a/_6.0.0/donkey/game_FinalAirStart.txt"
++++ "b/_7.0.0/donkey/game_FinalAirStart.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ 	SlowModule__clear_whole()
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule__scale(5, 0)
+-		0x11d850(-973447734, 2)
++		0x11d870(-397026090, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=24)

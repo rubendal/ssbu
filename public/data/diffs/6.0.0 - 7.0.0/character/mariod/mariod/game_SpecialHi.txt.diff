@@ -1,0 +1,16 @@
+diff --git "a/_6.0.0/mariod/game_SpecialHi.txt" "b/_7.0.0/mariod/game_SpecialHi.txt"
+index b6208f2..06732b3 100644
+--- "a/_6.0.0/mariod/game_SpecialHi.txt"
++++ "b/_7.0.0/mariod/game_SpecialHi.txt"
+@@ -1,10 +1,10 @@
+ frame(Frame=3)
+ if(is_excute){
+ 	SA_SET(State=SITUATION_KIND_AIR)
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_SUPER_JUMP_PUNCH_FLAG_REVERSE_LR)
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=50, KBG=100, FKB=0, BKB=30, Size=6.0, X=0.0, Y=6.0, Z=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_PUNCH)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=50, KBG=105, FKB=0, BKB=30, Size=6.0, X=0.0, Y=6.0, Z=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_PUNCH)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_SUPER_JUMP_PUNCH_FLAG_MOVE_TRANS)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=6.0, Angle=74, KBG=66, FKB=0, BKB=64, Size=6.0, X=0.0, Y=9.5, Z=4.2, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_PUNCH)

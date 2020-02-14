@@ -1,0 +1,21 @@
+diff --git "a/6.0.0/sheik/game_FinalDash.txt" "b/7.0.0/sheik/game_FinalDash.txt"
+index 4b65404..59be29b 100644
+--- "a/6.0.0/sheik/game_FinalDash.txt"
++++ "b/7.0.0/sheik/game_FinalDash.txt"
+@@ -1,14 +1,14 @@
+ PostureModule__scale()
+-if(0x106d70(1411901773, 1.4)){
++if(0x107280(-872574242, 1.4)){
+ 	if(is_excute){
+ 		SEARCH(0, 0, top, 8.0, 0.0, 6.0, 9.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_FIGHTER, COLLISION_PART_MASK_ALL, False)
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=8.0, X=0.0, Y=6.0, Z=9.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	}
+ 	else{
+ 		PostureModule__scale()
+-		if(0x106d70(1411901773, 0.5)){
++		if(0x107280(-872574242, 0.5)){
+ 			if(is_excute){
+ 				SEARCH(0, 0, top, 8.0, 0.0, 6.0, 9.0, 0.0, 6.0, 15.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_FIGHTER, COLLISION_PART_MASK_ALL, False)
+ 				ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=8.0, X=0.0, Y=6.0, Z=9.0, X2=0.0, Y2=6.0, Z2=15.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 			}
+ 			frame(Frame=1)

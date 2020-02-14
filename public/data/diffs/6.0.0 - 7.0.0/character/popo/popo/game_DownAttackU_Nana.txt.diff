@@ -1,0 +1,27 @@
+diff --git "a/.0.0/popo/game_DownAttackU_Nana.txt" "b/.0.0/popo/game_DownAttackU_Nana.txt"
+index ef0f424..301507a 100644
+--- "a/.0.0/popo/game_DownAttackU_Nana.txt"
++++ "b/.0.0/popo/game_DownAttackU_Nana.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=19)
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x14c100(0, 0)){
++if(0x14c110(0, 0)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=5.25, Angle=48, KBG=48, FKB=0, BKB=80, Size=4.5, X=2.0, Y=4.5, Z=-12.0, X2=2.0, Y2=4.5, Z2=-3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=8, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
+ 	}
+ 	else{
+ 		if(is_excute){
+@@ -14,11 +14,11 @@ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=24)
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x14c100(576, 0)){
++if(0x14c110(576, 0)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=top, Damage=5.25, Angle=48, KBG=48, FKB=0, BKB=80, Size=4.5, X=2.0, Y=4.5, Z=12.0, X2=2.0, Y2=4.5, Z2=3.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=8, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_HAMMER)
+ 	}
+ 	else{
+ 		if(is_excute){

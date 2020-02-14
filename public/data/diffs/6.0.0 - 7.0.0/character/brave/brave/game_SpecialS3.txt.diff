@@ -1,0 +1,12 @@
+diff --git "a/6.0.0/brave/game_SpecialS3.txt" "b/7.0.0/brave/game_SpecialS3.txt"
+index 086d06f..69d3a84 100644
+--- "a/6.0.0/brave/game_SpecialS3.txt"
++++ "b/7.0.0/brave/game_SpecialS3.txt"
+@@ -1,6 +1,6 @@
+ frame(Frame=10)
+-if(0x21b9e0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_SUCCESS_SP), False, True)){
++if(0x21bdd0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_SUCCESS_SP), False, True)){
+ 	if(is_excute){
+ 		WorkModule__on_flag(Flag=FIGHTER_BRAVE_STATUS_SPECIAL_S_FLAG_ACTIVATE_LIGHTNING)
+ 	}
+ }

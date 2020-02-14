@@ -1,0 +1,27 @@
+diff --git "a/6.0.0/sheik/game_FinalAirStart.txt" "b/7.0.0/sheik/game_FinalAirStart.txt"
+index 803b9d0..dbe52ba 100644
+--- "a/6.0.0/sheik/game_FinalAirStart.txt"
++++ "b/7.0.0/sheik/game_FinalAirStart.txt"
+@@ -2,20 +2,20 @@ frame(Frame=1)
+ FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(10, 64)
+ }
+-if(0x106d70(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x107280(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, True)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(10, 0)
+-			0x106d70(1411901773, 1.9)
++			0x107280(-872574242, 1.9)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, -5)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

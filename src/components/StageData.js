@@ -79,6 +79,13 @@ class StageData extends Component{
                                 <td>
                                     Bottom
                                 </td>
+                                {
+                                    this.state.stage.camera[3] - 25 >= this.state.stage.blast_zones[3] && (
+                                        <td>
+                                            Meteor
+                                        </td>
+                                    )
+                                }
                             </tr>
                         </thead>
                         <tbody>
@@ -91,6 +98,13 @@ class StageData extends Component{
                                         </td>
                                     )
                                 })
+                            }
+                            {
+                                    this.state.stage.camera[3] - 25 >= this.state.stage.blast_zones[3] && (
+                                        <td>
+                                            {this.state.stage.camera[3] - 25}
+                                        </td>
+                                    )
                             }
                             </tr>
                         </tbody>

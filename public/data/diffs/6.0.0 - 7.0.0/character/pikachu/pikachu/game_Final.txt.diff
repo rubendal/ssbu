@@ -1,0 +1,17 @@
+diff --git "a/u_6.0.0/pikachu/game_Final.txt" "b/u_7.0.0/pikachu/game_Final.txt"
+index d9d4bb6..697fc7b 100644
+--- "a/u_6.0.0/pikachu/game_Final.txt"
++++ "b/u_7.0.0/pikachu/game_Final.txt"
+@@ -15,11 +15,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		AttackModule__set_final_finish_cut_in(1, True, False, -1, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x100dd0(1051895276, 2.2)
++			0x100de0(2099371251, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			ATTACK(ID=0, Part=0, Bone=top, Damage=0.3, Angle=70, KBG=70, FKB=20, BKB=0, Size=5.5, X=0.0, Y=0.0, Z=5.0, X2=0.0, Y2=10.0, Z2=-5.0, Hitlag=0.2, SDI=0.2, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=6, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 			ATTACK(ID=1, Part=0, Bone=top, Damage=0.3, Angle=40, KBG=70, FKB=20, BKB=0, Size=5.5, X=0.0, Y=10.0, Z=5.0, X2=0.0, Y2=10.0, Z2=-5.0, Hitlag=0.2, SDI=0.2, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=6, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_elec, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 			AttackModule__set_final_finish_cut_in(0, True, False, -1, False)

@@ -1,0 +1,25 @@
+diff --git "a/rdsman_6.0.0/miiswordsman/game_FinalAirStart.txt" "b/rdsman_7.0.0/miiswordsman/game_FinalAirStart.txt"
+index 8dfdcdc..7f8b1d8 100644
+--- "a/rdsman_6.0.0/miiswordsman/game_FinalAirStart.txt"
++++ "b/rdsman_7.0.0/miiswordsman/game_FinalAirStart.txt"
+@@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x190ba0(0, 0)){
++if(0x190bb0(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x190ba0(-922850616, 2.2)
++			0x190bb0(-26667193, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, False)

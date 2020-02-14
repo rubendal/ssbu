@@ -1,0 +1,17 @@
+diff --git "a/0.0/fox/game_SpecialNLoop.txt" "b/0.0/fox/game_SpecialNLoop.txt"
+index 6377a1f..dff1939 100644
+--- "a/0.0/fox/game_SpecialNLoop.txt"
++++ "b/0.0/fox/game_SpecialNLoop.txt"
+@@ -5,11 +5,11 @@ if(is_excute){
+ frame(Frame=4)
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER_BULLET)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10ce60(False, True)){
++if(0x10ce70(False, True)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, loop)
+ 		ArticleModule__change_motion()
+ 	}
+ }
