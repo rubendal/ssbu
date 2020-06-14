@@ -81,6 +81,10 @@ class NavigationHeader extends Component {
             </span>
 
             <span className="navigation-link">
+                <a href="#/Items" className="hide-link">Items</a>
+            </span>
+
+            <span className="navigation-link">
                 <a href="#/Patch" className="hide-link">Patches</a>
             </span>
 

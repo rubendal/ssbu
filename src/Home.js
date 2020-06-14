@@ -5,6 +5,7 @@ import Patches from './assets/img/patches.png';
 import Diffs from './assets/img/diffs.png';
 import ScriptSearch from './assets/img/scriptsearch.png';
 import Glossary from './assets/img/glossary.png';
+import Items from './assets/img/items.png';
 import Resources from './assets/img/resources.png';
 import About from './assets/img/about.png';
 import DiffList from './components/DiffList';
@@ -23,6 +24,12 @@ class Home extends Component {
           <span>
             <a href="#/Stage">
               <img src={Stages} alt="Stages"/>
+            </a>
+          </span>
+
+          <span>
+            <a href="#/Items">
+              <img src={Items} alt="Items"/>
             </a>
           </span>
 

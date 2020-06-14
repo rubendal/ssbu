@@ -19,6 +19,8 @@ import CharacterDiffList from './components/CharacterDiffList';
 import CharacterDiffView from './components/CharacterDiffView';
 import DiffList from './components/DiffList';
 
+import ItemView from './components/ItemView';
+
 class App extends Component {
   render() {
     return (
@@ -57,6 +59,8 @@ class App extends Component {
 
             <Route exact path="/scriptsearch" component={ScriptSearch}/>
             <Route exact path="/patch/:patch/scriptsearch" component={ScriptSearch}/>
+
+            <Route exact path="/items" component={ItemView}/>
             
             <Route exact path="/" component={Home}/>
           </Switch>
