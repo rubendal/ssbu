@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.b1d347bd.css",
   "main.css.map": "static/css/main.b1d347bd.css.map",
-  "main.js": "static/js/main.86a71de7.js",
-  "main.js.map": "static/js/main.86a71de7.js.map",
+  "main.js": "static/js/main.3447594a.js",
+  "main.js.map": "static/js/main.3447594a.js.map",
   "static\\media\\1.0.0.png": "static/media/1.0.0.34106053.png",
   "static\\media\\1.2.0 - 2.0.0.png": "static/media/1.2.0 - 2.0.0.31c8f168.png",
   "static\\media\\2.0.0 - 3.0.0.png": "static/media/2.0.0 - 3.0.0.72a15a13.png",
@@ -54,6 +54,7 @@
   "static\\media\\incineroar.png": "static/media/incineroar.f64c8e97.png",
   "static\\media\\inkling.png": "static/media/inkling.a608294e.png",
   "static\\media\\isabelle.png": "static/media/isabelle.92b10ca9.png",
+  "static\\media\\items.png": "static/media/items.79ab712c.png",
   "static\\media\\ivysaur.png": "static/media/ivysaur.f4edf716.png",
   "static\\media\\jigglypuff.png": "static/media/jigglypuff.af32cb51.png",
   "static\\media\\joker.png": "static/media/joker.604ccfb1.png",
