@@ -1,0 +1,29 @@
+diff --git "a/6.0.0/lucas/game_FinalAir.txt" "b/7.0.0/lucas/game_FinalAir.txt"
+index d4e6060..374ae5c 100644
+--- "a/6.0.0/lucas/game_FinalAir.txt"
++++ "b/7.0.0/lucas/game_FinalAir.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	ArticleModule__generate_article(FIGHTER_LUCAS_GENERATE_ARTICLE_KUMATORA)
+ 	ArticleModule__generate_article(FIGHTER_LUCAS_GENERATE_ARTICLE_BONNIE)
+ 	BattleObjectWorld__scale_z()
+-	if(0x1001b0(0, 1.0)){
++	if(0x1001c0(0, 1.0)){
+ 		article(MA_MSC_CMD_ARTICLE_SET_OFFSET_ARTICLE, FIGHTER_LUCAS_GENERATE_ARTICLE_KUMATORA, -10, 0, -10)
+ 		article(MA_MSC_CMD_ARTICLE_SET_OFFSET_ARTICLE, FIGHTER_LUCAS_GENERATE_ARTICLE_BONNIE, 10, 0, -10)
+ 	}
+ 	else{
+ 		article(FIGHTER_LUCAS_GENERATE_ARTICLE_BONNIE, FIGHTER_LUCAS_GENERATE_ARTICLE_KUMATORA, -10, 0, -0.01)
+@@ -20,11 +20,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+ 		REQ_FINAL_START_CAMERA(d04final.nuanmb, False)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(5, 0)
+-			0x1001b0(-1972308287, 2.2)
++			0x1001c0(-1482617503, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

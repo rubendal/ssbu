@@ -1,0 +1,27 @@
+diff --git "a/nk_6.0.0/toonlink/game_AttackLw4.txt" "b/nk_7.0.0/toonlink/game_AttackLw4.txt"
+index dc7fad4..9079588 100644
+--- "a/nk_6.0.0/toonlink/game_AttackLw4.txt"
++++ "b/nk_7.0.0/toonlink/game_AttackLw4.txt"
+@@ -2,20 +2,20 @@ frame(Frame=4)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ frame(Frame=9)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=48, KBG=83, FKB=0, BKB=55, Size=4.0, X=0.0, Y=2.2, Z=16.0, X2=0.0, Y2=2.9, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_TOONLINK_HIT, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=48, KBG=90, FKB=0, BKB=55, Size=4.0, X=0.0, Y=2.2, Z=16.0, X2=0.0, Y2=2.9, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_TOONLINK_HIT, Type=ATTACK_REGION_SWORD)
+ 	AttackModule__set_attack_height_all(ATTACK_HEIGHT_LOW, False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()
+ }
+ frame(Frame=17)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=top, Damage=13.0, Angle=42, KBG=79, FKB=0, BKB=55, Size=4.3, X=0.0, Y=4.2, Z=-16.0, X2=0.0, Y2=4.2, Z2=-5.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_TOONLINK_HIT, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=0, Part=0, Bone=top, Damage=13.0, Angle=42, KBG=85, FKB=0, BKB=55, Size=4.3, X=0.0, Y=4.2, Z=-16.0, X2=0.0, Y2=4.2, Z2=-5.5, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_B, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_TOONLINK_HIT, Type=ATTACK_REGION_SWORD)
+ 	AttackModule__set_attack_height_all(ATTACK_HEIGHT_LOW, False)
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule__clear_all()

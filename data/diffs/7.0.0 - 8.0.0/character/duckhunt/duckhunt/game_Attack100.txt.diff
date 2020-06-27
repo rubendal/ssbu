@@ -1,0 +1,107 @@
+diff --git "a/nt_6.0.0/duckhunt/game_Attack100.txt" "b/nt_7.0.0/duckhunt/game_Attack100.txt"
+index 8f5e280..515291e 100644
+--- "a/nt_6.0.0/duckhunt/game_Attack100.txt"
++++ "b/nt_7.0.0/duckhunt/game_Attack100.txt"
+@@ -1,9 +1,11 @@
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -14,10 +16,12 @@ FT_MOTION_RATE(FSM=1)
+ frame(Frame=2)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -26,10 +30,12 @@ if(is_excute){
+ frame(0, 4)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -38,10 +44,12 @@ if(is_excute){
+ frame(0, 6)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -50,10 +58,12 @@ if(is_excute){
+ frame(0, 8)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -62,10 +72,12 @@ if(is_excute){
+ frame(0, 10)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -74,10 +86,12 @@ if(is_excute){
+ frame(0, 12)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()
+@@ -86,10 +100,12 @@ if(is_excute){
+ frame(0, 14)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(4.5, 0.5)
+ 	ATTACK(ID=0, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=15, FKB=0, BKB=16, Size=4.5, X=0.0, Y=7.5, Z=4.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
+ 	ATTACK(ID=1, Part=0, Bone=top, Damage=0.4, Angle=361, KBG=10, FKB=0, BKB=12, Size=6.5, X=0.0, Y=7.5, Z=14.0, X2=0.0, Y2=7.5, Z2=6.5, Hitlag=0.5, SDI=0.4, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_HEAD)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=2, Unk=False)
++	AttackModule__set_add_reaction_frame(ID=1, Frames=2, Unk=False)
+ 	ATK_SET_SHIELD_SETOFF_MUL_arg3(ID1=0, ID2=1, ShieldstunMul=5)
+ }
+ wait(Frames=1)
+ if(is_excute){
+ 	AttackModule__clear_all()

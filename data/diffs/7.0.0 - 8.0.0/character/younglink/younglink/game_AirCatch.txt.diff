@@ -1,0 +1,32 @@
+diff --git "a/ink_6.0.0/younglink/game_AirCatch.txt" "b/ink_7.0.0/younglink/game_AirCatch.txt"
+index 51f5bae..6cfb8a7 100644
+--- "a/ink_6.0.0/younglink/game_AirCatch.txt"
++++ "b/ink_7.0.0/younglink/game_AirCatch.txt"
+@@ -1,20 +1,22 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.5)
+ if(is_excute){
+ 	WorkModule__on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+ }
+-wait(Frames=3)
+-if(is_excute){
+-	WorkModule__off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+-}
++frame(Frame=4)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=5)
+ if(is_excute){
++	WorkModule__off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+ 	ArticleModule__generate_article(FIGHTER_YOUNGLINK_GENERATE_ARTICLE_HOOKSHOT)
+ 	ArticleModule__generate_article(FIGHTER_YOUNGLINK_GENERATE_ARTICLE_HOOKSHOT_HAND)
+ }
+ frame(Frame=11)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=throw, Damage=4.0, Angle=38, KBG=20, FKB=0, BKB=70, Size=2.7, X=0.0, Y=0.0, Z=-0.5, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=throw, Damage=4.0, Angle=60, KBG=20, FKB=0, BKB=70, Size=2.7, X=0.0, Y=0.0, Z=-0.5, Hitlag=0.8, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=1, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_cutup, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_OBJECT)
++	AttackModule__set_add_reaction_frame(ID=0, Frames=4, Unk=False)
+ 	ArticleModule__change_status(FIGHTER_YOUNGLINK_GENERATE_ARTICLE_HOOKSHOT, WEAPON_TOONLINK_HOOKSHOT_STATUS_KIND_SHOOT)
+ 	as_hash__const(FIGHTER_YOUNGLINK_GENERATE_ARTICLE_HOOKSHOT_HAND, shoot)
+ 	ArticleModule__change_motion()
+ }
+ frame(Frame=12)

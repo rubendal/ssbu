@@ -1,0 +1,12 @@
+diff --git "a/_6.0.0/donkey/game_GuardOff.txt" "b/_7.0.0/donkey/game_GuardOff.txt"
+index c85b733..1a7c45e 100644
+--- "a/_6.0.0/donkey/game_GuardOff.txt"
++++ "b/_7.0.0/donkey/game_GuardOff.txt"
+@@ -1,6 +1,6 @@
+-frame(Frame=3)
++frame(Frame=2.2)
+ if(is_excute){
+ 	HIT_NODE(head, HIT_STATUS_XLU)
+ }
+ frame(Frame=4)
+ if(is_excute){

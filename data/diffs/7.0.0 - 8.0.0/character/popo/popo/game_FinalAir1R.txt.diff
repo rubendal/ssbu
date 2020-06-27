@@ -1,0 +1,17 @@
+diff --git "a/.0.0/popo/game_FinalAir1R.txt" "b/.0.0/popo/game_FinalAir1R.txt"
+index ddb8d08..2d00061 100644
+--- "a/.0.0/popo/game_FinalAir1R.txt"
++++ "b/.0.0/popo/game_FinalAir1R.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	FT_SET_FINAL_SMASH_LIGHT(True)
+ 	FT_REMOVE_FINAL_AURA(False)
+ 	PostureModule__scale(20, 0)
+-	0x14c100(508216251, 2.1)
++	0x14c110(1998644780, 2.1)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ 	FT_START_CUTIN()
+ 	camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 	SLOW_OPPONENT(2, 60)
+ }

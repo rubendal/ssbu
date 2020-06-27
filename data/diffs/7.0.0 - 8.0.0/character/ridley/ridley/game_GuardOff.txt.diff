@@ -1,0 +1,14 @@
+diff --git "a/_6.0.0/ridley/game_GuardOff.txt" "b/_7.0.0/ridley/game_GuardOff.txt"
+index 5d89123..502ab3c 100644
+--- "a/_6.0.0/ridley/game_GuardOff.txt"
++++ "b/_7.0.0/ridley/game_GuardOff.txt"
+@@ -1,6 +1,9 @@
++frame(Frame=1)
+ if(is_excute){
++	HIT_NODE(wingr2, HIT_STATUS_XLU)
++	HIT_NODE(wingl2, HIT_STATUS_XLU)
+ 	HIT_NODE(tail1, HIT_STATUS_XLU)
+ 	HIT_NODE(tail3, HIT_STATUS_XLU)
+ }
+ frame(Frame=4)
+ if(is_excute){

@@ -1,0 +1,38 @@
+diff --git "a/uit_6.0.0/szerosuit/game_FinalAirStart.txt" "b/uit_7.0.0/szerosuit/game_FinalAirStart.txt"
+index daea13a..5bd8845 100644
+--- "a/uit_6.0.0/szerosuit/game_FinalAirStart.txt"
++++ "b/uit_7.0.0/szerosuit/game_FinalAirStart.txt"
+@@ -1,30 +1,30 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(4, 45)
+ }
+-if(0x1168d0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
++if(0x1168e0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, False)
+ 		FT_START_CUTIN()
+ 		SlowModule__set_whole(2, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule__scale(3, 0)
+-			0x1168d0(1765366435, 2)
++			0x1168e0(7406971, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	SlowModule__clear_whole()
+ }
+-0x1168d0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
++0x1168e0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
+ frame(Frame=25)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ frame(Frame=30)

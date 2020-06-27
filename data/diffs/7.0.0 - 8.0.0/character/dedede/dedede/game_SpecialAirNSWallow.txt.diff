@@ -1,0 +1,16 @@
+diff --git "a/_6.0.0/dedede/game_SpecialAirNSWallow.txt" "b/_7.0.0/dedede/game_SpecialAirNSWallow.txt"
+index 04f993f..3c47fbc 100644
+--- "a/_6.0.0/dedede/game_SpecialAirNSWallow.txt"
++++ "b/_7.0.0/dedede/game_SpecialAirNSWallow.txt"
+@@ -7,10 +7,10 @@ if(is_excute){
+ }
+ frame(Frame=6)
+ if(is_excute){
+ 	FighterAreaModuleImpl__enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x148740(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x148750(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl__enable_fix_jostle_area(4, 4)
+ 	}
+ }

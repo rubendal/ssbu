@@ -1,0 +1,17 @@
+diff --git "a/6.0.0/kamui/game_FinalAir.txt" "b/7.0.0/kamui/game_FinalAir.txt"
+index 1b0910a..10f1d09 100644
+--- "a/6.0.0/kamui/game_FinalAir.txt"
++++ "b/7.0.0/kamui/game_FinalAir.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ 	SlowModule__clear_whole()
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule__scale(4, 0)
+-		0x144310(155626889, 2.5)
++		0x144320(-2027306936, 2.5)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
