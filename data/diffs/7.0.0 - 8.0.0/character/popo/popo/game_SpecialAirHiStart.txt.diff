@@ -1,15 +1,15 @@
 diff --git "a/.0.0/popo/game_SpecialAirHiStart.txt" "b/.0.0/popo/game_SpecialAirHiStart.txt"
-index 6cd7802..6d12b9a 100644
+index 8007122..0c36b06 100644
 --- "a/.0.0/popo/game_SpecialAirHiStart.txt"
 +++ "b/.0.0/popo/game_SpecialAirHiStart.txt"
 @@ -6,11 +6,11 @@ if(is_excute){
- 	WorkModule__on_flag(Flag=FIGHTER_POPO_STATUS_SPECIAL_HI_FLAG_CHECK_COUPLE)
+ 	WorkModule::on_flag(Flag=FIGHTER_POPO_STATUS_SPECIAL_HI_FLAG_CHECK_COUPLE)
  }
  frame(Frame=15)
  get_value_float(FT_VAR_FLOAT_STICK_X_BACK)
- WorkModule__get_param_float(0, param_special_hi, start_turn_cont_x)
--if(0x14c100(32)){
-+if(0x14c110(32)){
+ WorkModule::get_param_float(0, hash40("param_special_hi"), hash40("start_turn_cont_x"))
+-if(0x14c110(32)){
++if(0x14c4b0(32)){
  	if(is_excute){
  		STICK_LR()
  		UPDATE_ROT()

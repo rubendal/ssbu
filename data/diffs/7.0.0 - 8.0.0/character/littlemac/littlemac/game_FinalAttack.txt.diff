@@ -1,38 +1,38 @@
-diff --git "a/mac_6.0.0/littlemac/game_FinalAttack.txt" "b/mac_7.0.0/littlemac/game_FinalAttack.txt"
-index dbb8d76..3bf44c0 100644
---- "a/mac_6.0.0/littlemac/game_FinalAttack.txt"
-+++ "b/mac_7.0.0/littlemac/game_FinalAttack.txt"
+diff --git "a/mac_7.0.0/littlemac/game_FinalAttack.txt" "b/mac_8.0.0/littlemac/game_FinalAttack.txt"
+index 8fb6760..c170377 100644
+--- "a/mac_7.0.0/littlemac/game_FinalAttack.txt"
++++ "b/mac_8.0.0/littlemac/game_FinalAttack.txt"
 @@ -5,14 +5,14 @@ frame(Frame=1)
  if(is_excute){
  	CAM_ZOOM_OUT()
  }
- if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), false, true)){
  	get_value_float(SO_VAR_FLOAT_LR)
--	if(0x1442b0(0, 0)){
-+	if(0x1442c0(0, 0)){
+-	if(0x1442c0(0, 0)){
++	if(0x144410(0, 0)){
  		if(is_excute){
- 			PostureModule__scale(300, 0)
--			0x1442b0(1615697319, 2.5)
-+			0x1442c0(-683387232, 2.5)
+ 			PostureModule::scale(300, 0)
+-			0x1442c0(-683387232, 2.5)
++			0x144410(-607534405, 2.5)
+ 			CAM_ZOOM_IN_FINAL_arg13(-30, 10, -20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, 20, 5)
  		}
  		else{
  			if(is_excute){
- 			}
- 		}
-@@ -57,16 +57,16 @@ if(is_excute){
- 	AttackModule__set_final_finish_cut_in(0, True, False, -1, False)
+ 				CAM_ZOOM_IN_FINAL_arg13(300, 0, 2.5, 30, 10, 20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, -15, 5)
+@@ -59,16 +59,16 @@ if(is_excute){
+ 	AttackModule::set_final_finish_cut_in(0, true, false, -1, false)
  }
- if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), false, true)){
  	if(is_excute){
- 		PostureModule__scale(2, 0)
--		0x1442b0(1615697319, 2.5)
-+		0x1442c0(-683387232, 2.5)
+ 		PostureModule::scale(2, 0)
+-		0x1442c0(-683387232, 2.5)
++		0x144410(-607534405, 2.5)
  		CAM_ZOOM_IN_arg5(0, 0)
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x1442b0(1412880, 0)){
-+if(0x1442c0(1413008, 0)){
+-if(0x1442c0(1413008, 0)){
++if(0x144410(1417104, 0)){
  	if(is_excute){
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 10)
  	}

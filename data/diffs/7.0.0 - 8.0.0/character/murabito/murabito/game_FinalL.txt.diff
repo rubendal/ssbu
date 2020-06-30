@@ -1,24 +1,24 @@
-diff --git "a/to_6.0.0/murabito/game_FinalL.txt" "b/to_7.0.0/murabito/game_FinalL.txt"
-index 256522d..1c4c60a 100644
---- "a/to_6.0.0/murabito/game_FinalL.txt"
-+++ "b/to_7.0.0/murabito/game_FinalL.txt"
+diff --git "a/to_7.0.0/murabito/game_FinalL.txt" "b/to_8.0.0/murabito/game_FinalL.txt"
+index c59c8d8..14ca347 100644
+--- "a/to_7.0.0/murabito/game_FinalL.txt"
++++ "b/to_8.0.0/murabito/game_FinalL.txt"
 @@ -1,19 +1,19 @@
  if(is_excute){
  	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
  	SLOW_OPPONENT(5, 20)
  }
--if(0x126b60(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
-+if(0x126b70(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+-if(0x126b70(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x13a6d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
  	frame(Frame=5)
  	if(is_excute){
  		FT_SET_FINAL_FEAR_FACE(40)
- 		REQ_FINAL_START_CAMERA_arg3(0x10222ca59a, False, False)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalr.nuanmb"), false, false)
  	}
  	else{
  		if(is_excute){
- 			PostureModule__scale(3, 0)
--			0x126b60(951452804, 2.1)
-+			0x126b70(1950205245, 2.1)
+ 			PostureModule::scale(3, 0)
+-			0x126b70(1950205245, 2.1)
++			0x13a6d0(-1093815994, 2.1)
  			CAM_ZOOM_IN_arg5(0, 0)
  			FT_START_CUTIN()
  		}

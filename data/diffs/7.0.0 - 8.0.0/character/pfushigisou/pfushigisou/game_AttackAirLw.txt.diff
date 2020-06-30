@@ -1,17 +1,17 @@
-diff --git "a/gisou_6.0.0/pfushigisou/game_AttackAirLw.txt" "b/gisou_7.0.0/pfushigisou/game_AttackAirLw.txt"
-index abb43fa..f9320d2 100644
---- "a/gisou_6.0.0/pfushigisou/game_AttackAirLw.txt"
-+++ "b/gisou_7.0.0/pfushigisou/game_AttackAirLw.txt"
+diff --git "a/gisou_7.0.0/pfushigisou/game_AttackAirLw.txt" "b/gisou_8.0.0/pfushigisou/game_AttackAirLw.txt"
+index d17f4ae..0443e0a 100644
+--- "a/gisou_7.0.0/pfushigisou/game_AttackAirLw.txt"
++++ "b/gisou_8.0.0/pfushigisou/game_AttackAirLw.txt"
 @@ -4,11 +4,11 @@ if(is_excute){
  }
  frame(Frame=11)
  if(is_excute){
- 	AttackModule__clear_all()
- 	KineticModule__get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
--	if(0x103620(-2074528827, 0.0)){
-+	if(0x103630(819290812, 0.0)){
+ 	AttackModule::clear_all()
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+-	if(0x103630(819290812, 0.0)){
++	if(0x103760(-1699123956, 0.0)){
  		SET_SPEED_EX(0, 0.3, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
  	}
  }
- KineticModule__suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
- ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=270, KBG=80, FKB=0, BKB=27, Size=4.0, X=0.0, Y=-13.5, Z=0.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)
+ KineticModule::suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=10.0, Angle=270, KBG=80, FKB=0, BKB=27, Size=4.0, X=0.0, Y=-13.5, Z=0.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_BOMB)

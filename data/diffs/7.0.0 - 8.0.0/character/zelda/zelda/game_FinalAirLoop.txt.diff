@@ -1,29 +1,29 @@
-diff --git "a/6.0.0/zelda/game_FinalAirLoop.txt" "b/7.0.0/zelda/game_FinalAirLoop.txt"
-index f3925b8..d0cf821 100644
---- "a/6.0.0/zelda/game_FinalAirLoop.txt"
-+++ "b/7.0.0/zelda/game_FinalAirLoop.txt"
+diff --git "a/7.0.0/zelda/game_FinalAirLoop.txt" "b/8.0.0/zelda/game_FinalAirLoop.txt"
+index 13f1f44..dd2a151 100644
+--- "a/7.0.0/zelda/game_FinalAirLoop.txt"
++++ "b/8.0.0/zelda/game_FinalAirLoop.txt"
 @@ -1,22 +1,22 @@
  wait(Frames=1)
  if(is_excute){
- 	AttackModule__clear(ID=0)
+ 	AttackModule::clear(ID=0)
  }
  frame(Frame=80)
--if(0x10bfb0(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
-+if(0x10c520(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
+-if(0x10c520(WorkModule::is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), false, false)){
++if(0x10c6c0(WorkModule::is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), false, false)){
  	if(is_excute){
- 		ATTACK(ID=4, Part=0, Bone=top, Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
- 		AttackModule__set_final_finish_cut_in(4, True, True, -1, False)
+ 		ATTACK(ID=4, Part=0, Bone=hash40("top"), Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=true, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_magic"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		AttackModule::set_final_finish_cut_in(4, true, true, -1, false)
  	}
  }
  wait(Frames=2)
  if(is_excute){
- 	AttackModule__clear(ID=4)
+ 	AttackModule::clear(ID=4)
  }
  frame(Frame=160)
--if(0x10bfb0(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
-+if(0x10c520(WorkModule__is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), False, False)){
+-if(0x10c520(WorkModule::is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), false, false)){
++if(0x10c6c0(WorkModule::is_flag(FIGHTER_ZELDA_STATUS_FINAL_FLAG_HIT), false, false)){
  	if(is_excute){
- 		ATTACK(ID=4, Part=0, Bone=top, Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=True, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_magic, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
- 		AttackModule__set_final_finish_cut_in(4, True, True, -1, False)
+ 		ATTACK(ID=4, Part=0, Bone=hash40("top"), Damage=3.0, Angle=120, KBG=200, FKB=20, BKB=20, Size=150.0, X=0.0, Y=12.0, Z=20.0, Hitlag=0.0, SDI=0.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=true, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_magic"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		AttackModule::set_final_finish_cut_in(4, true, true, -1, false)
  	}
  }

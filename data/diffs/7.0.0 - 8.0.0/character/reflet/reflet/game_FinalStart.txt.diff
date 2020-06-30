@@ -1,15 +1,15 @@
-diff --git "a/_6.0.0/reflet/game_FinalStart.txt" "b/_7.0.0/reflet/game_FinalStart.txt"
-index dcdd3d2..3ca38b8 100644
---- "a/_6.0.0/reflet/game_FinalStart.txt"
-+++ "b/_7.0.0/reflet/game_FinalStart.txt"
+diff --git "a/_7.0.0/reflet/game_FinalStart.txt" "b/_8.0.0/reflet/game_FinalStart.txt"
+index 3592ea3..da78aaa 100644
+--- "a/_7.0.0/reflet/game_FinalStart.txt"
++++ "b/_8.0.0/reflet/game_FinalStart.txt"
 @@ -20,11 +20,11 @@ if(is_excute){
- 	SlowModule__set_whole(6, 0)
+ 	SlowModule::set_whole(6, 0)
  }
  else{
  	if(is_excute){
- 		PostureModule__scale(3, 0)
--		0x141ef0(-682412891, 2)
-+		0x141f00(769847510, 2)
+ 		PostureModule::scale(3, 0)
+-		0x141f00(769847510, 2)
++		0x142040(-253880406, 2)
  		CAM_ZOOM_IN_arg5(0, 0)
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
  		FT_START_CUTIN()

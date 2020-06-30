@@ -1,23 +1,23 @@
 diff --git "a/0.0/ryu/game_SpecialLw.txt" "b/0.0/ryu/game_SpecialLw.txt"
-index 1a81fc8..0b70e2c 100644
+index b4c76ff..2cd8059 100644
 --- "a/0.0/ryu/game_SpecialLw.txt"
 +++ "b/0.0/ryu/game_SpecialLw.txt"
 @@ -1,16 +1,16 @@
  frame(Frame=11)
  if(is_excute){
- 	WorkModule__on_flag(Flag=FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_FLAG_DISABLE_SUPER_ARMOR)
+ 	WorkModule::on_flag(Flag=FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_FLAG_DISABLE_SUPER_ARMOR)
  }
--if(0x15c020(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_1)){
-+if(0x160a40(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_1)){
+-if(0x160a40(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_1)){
++if(0x160580(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_1)){
  	if(is_excute){
- 		ATTACK(ID=0, Part=0, Bone=top, Damage=12.0, Angle=60, KBG=10, FKB=0, BKB=100, Size=3.5, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=15, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_saving, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
- 		AttackModule__set_attack_level(0, FIGHTER_RYU_SAVING_LV_1)
+ 		ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=12.0, Angle=60, KBG=10, FKB=0, BKB=100, Size=3.5, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=15, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_saving"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
+ 		AttackModule::set_attack_level(0, FIGHTER_RYU_SAVING_LV_1)
  	}
  	else{
--		if(0x15c020(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_2)){
-+		if(0x160a40(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_2)){
+-		if(0x160a40(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_2)){
++		if(0x160580(FIGHTER_RYU_STATUS_WORK_ID_SPECIAL_LW_INT_SAVING_LV, FIGHTER_RYU_SAVING_LV_2)){
  			if(is_excute){
- 				ATTACK(ID=0, Part=0, Bone=top, Damage=10.0, Angle=60, KBG=100, FKB=0, BKB=0, Size=4.3, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=22, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_saving, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
- 				ATTACK(ID=1, Part=0, Bone=top, Damage=10.0, Angle=60, KBG=100, FKB=0, BKB=0, Size=4.3, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.5, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=False, ShieldDamage=22, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_saving, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
- 				AttackModule__set_attack_level(0, FIGHTER_RYU_SAVING_LV_2)
- 				AttackModule__set_attack_level(1, FIGHTER_RYU_SAVING_LV_2)
+ 				ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=10.0, Angle=60, KBG=100, FKB=0, BKB=0, Size=4.3, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.5, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=22, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_saving"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
+ 				ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=10.0, Angle=60, KBG=100, FKB=0, BKB=0, Size=4.3, X=0.0, Y=10.5, Z=11.5, X2=0.0, Y2=10.5, Z2=2.0, Hitlag=2.5, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=22, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_saving"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_RYU_KICK, Type=ATTACK_REGION_PUNCH)
+ 				AttackModule::set_attack_level(0, FIGHTER_RYU_SAVING_LV_2)
+ 				AttackModule::set_attack_level(1, FIGHTER_RYU_SAVING_LV_2)

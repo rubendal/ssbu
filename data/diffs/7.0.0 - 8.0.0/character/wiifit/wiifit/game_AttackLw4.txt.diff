@@ -1,0 +1,14 @@
+diff --git "a/_7.0.0/wiifit/game_AttackLw4.txt" "b/_8.0.0/wiifit/game_AttackLw4.txt"
+index 0516dab..dc573ae 100644
+--- "a/_7.0.0/wiifit/game_AttackLw4.txt"
++++ "b/_8.0.0/wiifit/game_AttackLw4.txt"
+@@ -12,5 +12,9 @@ if(is_excute){
+ }
+ wait(Frames=4)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++frame(Frame=31)
++FT_MOTION_RATE(FSM=0.8)
++frame(Frame=51)
++FT_MOTION_RATE(FSM=1)

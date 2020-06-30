@@ -1,16 +1,16 @@
-diff --git "a/g_6.0.0/inkling/game_AttackHi4.txt" "b/g_7.0.0/inkling/game_AttackHi4.txt"
-index becbcae..89b5253 100644
---- "a/g_6.0.0/inkling/game_AttackHi4.txt"
-+++ "b/g_7.0.0/inkling/game_AttackHi4.txt"
+diff --git "a/g_7.0.0/inkling/game_AttackHi4.txt" "b/g_8.0.0/inkling/game_AttackHi4.txt"
+index 7c9cf98..946de13 100644
+--- "a/g_7.0.0/inkling/game_AttackHi4.txt"
++++ "b/g_8.0.0/inkling/game_AttackHi4.txt"
 @@ -9,11 +9,11 @@ if(is_excute){
- 	WorkModule__on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
  }
- if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), False, True)){
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), false, true)){
  	if(is_excute){
- 		WorkModule__get_float(FIGHTER_INKLING_GENERATE_ARTICLE_BLASTER, attack_hi4, True, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
--		as_hash__const(-459651652)
-+		as_hash__const(271506559)
- 		ArticleModule__change_motion()
+ 		WorkModule::get_float(FIGHTER_INKLING_GENERATE_ARTICLE_BLASTER, hash40("attack_hi4"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		as_hash__const(271506559)
++		as_hash__const(780876990)
+ 		ArticleModule::change_motion()
  	}
  }
  frame(Frame=9)

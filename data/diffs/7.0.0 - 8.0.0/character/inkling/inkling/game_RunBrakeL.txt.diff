@@ -1,69 +1,69 @@
-diff --git "a/g_6.0.0/inkling/game_RunBrakeL.txt" "b/g_7.0.0/inkling/game_RunBrakeL.txt"
-index f4d02a7..123c9f7 100644
---- "a/g_6.0.0/inkling/game_RunBrakeL.txt"
-+++ "b/g_7.0.0/inkling/game_RunBrakeL.txt"
+diff --git "a/g_7.0.0/inkling/game_RunBrakeL.txt" "b/g_8.0.0/inkling/game_RunBrakeL.txt"
+index c66da66..bde9541 100644
+--- "a/g_7.0.0/inkling/game_RunBrakeL.txt"
++++ "b/g_8.0.0/inkling/game_RunBrakeL.txt"
 @@ -1,7 +1,7 @@
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x13cf90(0, 0)){
-+if(0x13cfa0(0, 0)){
+-if(0x13cfa0(0, 0)){
++if(0x13d0e0(0, 0)){
  	if(is_excute){
- 		WorkModule__on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_NO_FLIP_SQUID)
+ 		WorkModule::on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_NO_FLIP_SQUID)
  	}
  }
- if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID), False, False)){
-@@ -9,12 +9,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
- 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID), false, false)){
+@@ -9,12 +9,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
  	}
  }
- MotionModule__motion_kind()
- MotionModule__frame(0x00000002b0)
--MotionModule__rate(-459651652)
--as_hash__const(-459651652, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
-+MotionModule__rate(271506559)
-+as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
- ArticleModule__change_motion()
+ MotionModule::motion_kind()
+ MotionModule::frame(hash40("0x00000002b0"))
+-MotionModule::rate(271506559)
+-as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(780876990)
++as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
  if(is_excute){
- 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
 @@ -26,11 +26,11 @@ if(is_excute){
  if(is_excute){
- 	VisibilityModule__set_whole(False)
- 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, True)
+ 	VisibilityModule::set_whole(false)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, true)
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x13cf90(0, 0)){
-+if(0x13cfa0(0, 0)){
+-if(0x13cfa0(0, 0)){
++if(0x13d0e0(0, 0)){
  	if(is_excute){
- 		WorkModule__on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_NO_FLIP_SQUID)
+ 		WorkModule::on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_NO_FLIP_SQUID)
  	}
  }
- if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID), False, False)){
-@@ -38,12 +38,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
- 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID), false, false)){
+@@ -38,12 +38,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
  	}
  }
- MotionModule__motion_kind()
- MotionModule__frame(0x00000002b0)
--MotionModule__rate(-459651652)
--as_hash__const(-459651652, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
-+MotionModule__rate(271506559)
-+as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
- ArticleModule__change_motion()
+ MotionModule::motion_kind()
+ MotionModule::frame(hash40("0x00000002b0"))
+-MotionModule::rate(271506559)
+-as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(780876990)
++as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
  if(is_excute){
- 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
 @@ -51,11 +51,11 @@ if(is_excute){
- 	StatusModule__status_kind()
+ 	StatusModule::status_kind()
  	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
- 	WorkModule__on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
+ 	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
  }
  get_value_float(0, SO_VAR_FLOAT_LR)
--if(0x13cf90(0, 0)){
-+if(0x13cfa0(0, 0)){
+-if(0x13cfa0(0, 0)){
++if(0x13d0e0(0, 0)){
  	if(is_excute){
- 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, 0x0be0831584)
- 		ArticleModule__change_motion()
+ 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, hash40("run_brake_l"))
+ 		ArticleModule::change_motion()
  	}
  	else{

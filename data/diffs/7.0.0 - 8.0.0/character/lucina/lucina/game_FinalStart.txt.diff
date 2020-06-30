@@ -1,24 +1,24 @@
-diff --git "a/_6.0.0/lucina/game_FinalStart.txt" "b/_7.0.0/lucina/game_FinalStart.txt"
-index 429f441..5fc4b77 100644
---- "a/_6.0.0/lucina/game_FinalStart.txt"
-+++ "b/_7.0.0/lucina/game_FinalStart.txt"
-@@ -8,19 +8,19 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+diff --git "a/_7.0.0/lucina/game_FinalStart.txt" "b/_8.0.0/lucina/game_FinalStart.txt"
+index b7ae147..5b7d362 100644
+--- "a/_7.0.0/lucina/game_FinalStart.txt"
++++ "b/_8.0.0/lucina/game_FinalStart.txt"
+@@ -8,19 +8,19 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
  	if(is_excute){
  		FT_SET_FINAL_FEAR_FACE(60)
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x132660(0, 0)){
-+if(0x132670(0, 0)){
+-if(0x132670(0, 0)){
++if(0x13ac70(0, 0)){
  	if(is_excute){
- 		REQ_FINAL_START_CAMERA(0x1654ea70d3, False)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
  	}
  	else{
  		if(is_excute){
  			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 10, 0, 0)
- 			PostureModule__scale(5, 0)
--			0x132660(-2037964571, 2)
-+			0x132670(-561416245, 2)
+ 			PostureModule::scale(5, 0)
+-			0x132670(-561416245, 2)
++			0x13ac70(-743758896, 2)
  			CAM_ZOOM_IN_arg5(0, 0)
  			FT_START_CUTIN()
  		}

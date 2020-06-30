@@ -1,17 +1,17 @@
-diff --git "a/6.0.0/brave/game_SpecialAirN3.txt" "b/7.0.0/brave/game_SpecialAirN3.txt"
-index bf660ea..916ae50 100644
---- "a/6.0.0/brave/game_SpecialAirN3.txt"
-+++ "b/7.0.0/brave/game_SpecialAirN3.txt"
+diff --git "a/7.0.0/brave/game_SpecialAirN3.txt" "b/8.0.0/brave/game_SpecialAirN3.txt"
+index 541a667..6b549f6 100644
+--- "a/7.0.0/brave/game_SpecialAirN3.txt"
++++ "b/8.0.0/brave/game_SpecialAirN3.txt"
 @@ -4,11 +4,11 @@ if(is_excute){
  frame(Frame=14)
  if(is_excute){
- 	WorkModule__on_flag(Flag=FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_HOP)
+ 	WorkModule::on_flag(Flag=FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_HOP)
  }
  frame(Frame=16)
--if(0x21b9e0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP), False, True)){
-+if(0x21bdd0(WorkModule__is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP), False, True)){
+-if(0x21bdd0(WorkModule::is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP), false, true)){
++if(0x21c050(WorkModule::is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP), false, true)){
  	if(is_excute){
- 		ArticleModule__generate_article(FIGHTER_BRAVE_GENERATE_ARTICLE_FIREBALL)
- 		KineticModule__add_speed(-0.3, 0, 0.0)
+ 		ArticleModule::generate_article(FIGHTER_BRAVE_GENERATE_ARTICLE_FIREBALL)
+ 		KineticModule::add_speed(-0.3, 0, 0.0)
  	}
  }

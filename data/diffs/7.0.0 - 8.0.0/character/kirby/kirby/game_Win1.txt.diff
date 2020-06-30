@@ -1,12 +1,12 @@
-diff --git "a/6.0.0/kirby/game_Win1.txt" "b/7.0.0/kirby/game_Win1.txt"
-index 1aaac4c..1859131 100644
---- "a/6.0.0/kirby/game_Win1.txt"
-+++ "b/7.0.0/kirby/game_Win1.txt"
+diff --git "a/7.0.0/kirby/game_Win1.txt" "b/8.0.0/kirby/game_Win1.txt"
+index df55acb..59df993 100644
+--- "a/7.0.0/kirby/game_Win1.txt"
++++ "b/8.0.0/kirby/game_Win1.txt"
 @@ -1,6 +1,6 @@
--0x490840(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
-+0x49f5f0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
+-0x49f5f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
++0x4a64b0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
  if(is_excute){
- 	ArticleModule__generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
- 	ArticleModule__generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
- 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, win_1)
- 	ArticleModule__change_motion()
+ 	ArticleModule::generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
+ 	ArticleModule::generate_article(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY)
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, hash40("win_1"))
+ 	ArticleModule::change_motion()

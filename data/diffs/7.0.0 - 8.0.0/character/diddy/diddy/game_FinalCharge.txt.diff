@@ -1,12 +1,12 @@
-diff --git "a/6.0.0/diddy/game_FinalCharge.txt" "b/7.0.0/diddy/game_FinalCharge.txt"
-index aab4e69..8cb2331 100644
---- "a/6.0.0/diddy/game_FinalCharge.txt"
-+++ "b/7.0.0/diddy/game_FinalCharge.txt"
+diff --git "a/7.0.0/diddy/game_FinalCharge.txt" "b/8.0.0/diddy/game_FinalCharge.txt"
+index b71b0b8..fc13bb3 100644
+--- "a/7.0.0/diddy/game_FinalCharge.txt"
++++ "b/8.0.0/diddy/game_FinalCharge.txt"
 @@ -1,8 +1,8 @@
  if(is_excute){
- 	PostureModule__scale(10, 0)
--	0x13c540(-903504264, 2.1)
-+	0x13c860(-1925395313, 2.1)
+ 	PostureModule::scale(10, 0)
+-	0x13c860(-1925395313, 2.1)
++	0x148970(1485675813, 2.1)
  	CAM_ZOOM_IN_arg5(0, 0)
  	SLOW_OPPONENT(30, 60)
  }

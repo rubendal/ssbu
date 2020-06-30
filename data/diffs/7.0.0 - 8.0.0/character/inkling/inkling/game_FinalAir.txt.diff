@@ -1,15 +1,15 @@
-diff --git "a/g_6.0.0/inkling/game_FinalAir.txt" "b/g_7.0.0/inkling/game_FinalAir.txt"
-index ab3870c..6b77948 100644
---- "a/g_6.0.0/inkling/game_FinalAir.txt"
-+++ "b/g_7.0.0/inkling/game_FinalAir.txt"
-@@ -20,11 +20,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
+diff --git "a/g_7.0.0/inkling/game_FinalAir.txt" "b/g_8.0.0/inkling/game_FinalAir.txt"
+index fa86eae..a36909c 100644
+--- "a/g_7.0.0/inkling/game_FinalAir.txt"
++++ "b/g_8.0.0/inkling/game_FinalAir.txt"
+@@ -20,11 +20,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
  	}
  	else{
  		if(is_excute){
  			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 10, 0, 0)
- 			PostureModule__scale(5, 0)
--			0x13cf90(-459651652, 2.5)
-+			0x13cfa0(271506559, 2.5)
+ 			PostureModule::scale(5, 0)
+-			0x13cfa0(271506559, 2.5)
++			0x13d0e0(780876990, 2.5)
  			CAM_ZOOM_IN_arg5(0, 0)
  			FT_START_CUTIN()
  		}

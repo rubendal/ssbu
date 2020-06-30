@@ -1,27 +1,27 @@
-diff --git "a/6.0.0/shulk/game_Final_Com.txt" "b/7.0.0/shulk/game_Final_Com.txt"
-index a74bfca..550d69d 100644
---- "a/6.0.0/shulk/game_Final_Com.txt"
-+++ "b/7.0.0/shulk/game_Final_Com.txt"
+diff --git "a/7.0.0/shulk/game_Final_Com.txt" "b/8.0.0/shulk/game_Final_Com.txt"
+index e980ff1..7bf4869 100644
+--- "a/7.0.0/shulk/game_Final_Com.txt"
++++ "b/8.0.0/shulk/game_Final_Com.txt"
 @@ -1,10 +1,10 @@
  if(is_excute){
  	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
  	SLOW_OPPONENT(4, 45)
  }
--if(0x1201a0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
-+if(0x1201b0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+-if(0x1201b0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x1202f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
  	frame(Frame=6)
  	if(is_excute){
  		FT_SET_FINAL_FEAR_FACE(60)
- 		REQ_FINAL_START_CAMERA_arg3(d04final.nuanmb, False, False)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04final.nuanmb"), false, false)
  		FT_START_CUTIN()
 @@ -15,11 +15,11 @@ if(is_excute){
- 	SlowModule__set_whole(4, 0)
+ 	SlowModule::set_whole(4, 0)
  }
  else{
  	if(is_excute){
- 		PostureModule__scale(3, 0)
--		0x1201a0(752685199, 2.1)
-+		0x1201b0(1396960161, 2.1)
+ 		PostureModule::scale(3, 0)
+-		0x1201b0(1396960161, 2.1)
++		0x1202f0(-1725991821, 2.1)
  		CAM_ZOOM_IN_arg5(0, 0)
  		FT_START_CUTIN()
  	}
@@ -29,20 +29,20 @@ index a74bfca..550d69d 100644
  frame(Frame=19)
 @@ -30,16 +30,16 @@ frame(Frame=20)
  if(is_excute){
- 	ATTACK(ID=0, Part=0, Bone=top, Damage=3.0, Angle=80, KBG=100, FKB=200, BKB=0, Size=18.0, X=0.0, Y=12.0, Z=25.0, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
- 	ATTACK(ID=1, Part=0, Bone=top, Damage=3.0, Angle=80, KBG=100, FKB=200, BKB=0, Size=7.0, X=0.0, Y=2.0, Z=7.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
- 	AttackModule__set_no_dead_all(True, False)
+ 	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=3.0, Angle=80, KBG=100, FKB=200, BKB=0, Size=18.0, X=0.0, Y=12.0, Z=25.0, Hitlag=0.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=3.0, Angle=80, KBG=100, FKB=200, BKB=0, Size=7.0, X=0.0, Y=2.0, Z=7.0, X2=0.0, Y2=10.0, Z2=7.0, Hitlag=0.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_SPEED, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_FIGHTER, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 	AttackModule::set_no_dead_all(true, false)
  }
--0x1201a0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
-+0x1201b0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)
+-0x1201b0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
++0x1202f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
  if(is_excute){
  	CAM_ZOOM_OUT()
  }
  frame(Frame=28)
--if(0x1201a0(WorkModule__is_flag(FIGHTER_SHULK_STATUS_WORK_ID_FLAG_FINAL_SUCCESS), False, True)){
-+if(0x1201b0(WorkModule__is_flag(FIGHTER_SHULK_STATUS_WORK_ID_FLAG_FINAL_SUCCESS), False, True)){
+-if(0x1201b0(WorkModule::is_flag(FIGHTER_SHULK_STATUS_WORK_ID_FLAG_FINAL_SUCCESS), false, true)){
++if(0x1202f0(WorkModule::is_flag(FIGHTER_SHULK_STATUS_WORK_ID_FLAG_FINAL_SUCCESS), false, true)){
  	if(is_excute){
- 		AttackModule__clear_all()
+ 		AttackModule::clear_all()
  	}
  }
  frame(Frame=30)

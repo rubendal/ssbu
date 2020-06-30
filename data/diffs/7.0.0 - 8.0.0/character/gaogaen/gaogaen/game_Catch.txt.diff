@@ -1,0 +1,14 @@
+diff --git "a/n_7.0.0/gaogaen/game_Catch.txt" "b/n_8.0.0/gaogaen/game_Catch.txt"
+index 4fcce39..a25bbdd 100644
+--- "a/n_7.0.0/gaogaen/game_Catch.txt"
++++ "b/n_8.0.0/gaogaen/game_Catch.txt"
+@@ -1,5 +1,9 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.8)
++frame(Frame=6)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=7)
+ if(is_excute){
+ 	GrabModule::set_rebound(CanCatchRebound=true)
+ }
+ frame(Frame=8)

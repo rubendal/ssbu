@@ -1,24 +1,24 @@
-diff --git "a/6.0.0/chrom/game_FinalDash.txt" "b/7.0.0/chrom/game_FinalDash.txt"
-index fdc6497..5073e7f 100644
---- "a/6.0.0/chrom/game_FinalDash.txt"
-+++ "b/7.0.0/chrom/game_FinalDash.txt"
+diff --git "a/7.0.0/chrom/game_FinalDash.txt" "b/8.0.0/chrom/game_FinalDash.txt"
+index 42cfe98..5f0e1bf 100644
+--- "a/7.0.0/chrom/game_FinalDash.txt"
++++ "b/8.0.0/chrom/game_FinalDash.txt"
 @@ -1,17 +1,17 @@
  if(is_excute){
  	WHOLE_HIT(HIT_STATUS_XLU)
  }
- PostureModule__scale()
--if(0x12b900(954636093, 1.4)){
-+if(0x12b910(-981456494, 1.4)){
+ PostureModule::scale()
+-if(0x12b910(-981456494, 1.4)){
++if(0x12ba50(503437126, 1.4)){
  	if(is_excute){
- 		SEARCH(0, 0, top, 9.0, 0.0, 7.0, 6.5, 0.0, 7.0, 8.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_ALL, COLLISION_PART_MASK_ALL, False)
- 		ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=9.0, X=0.0, Y=7.0, Z=6.5, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 		SEARCH(0, 0, hash40("top"), 9.0, 0.0, 7.0, 6.5, 0.0, 7.0, 8.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_ALL, COLLISION_PART_MASK_ALL, false)
+ 		ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=9.0, X=0.0, Y=7.0, Z=6.5, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=true, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
  	}
  	else{
- 		PostureModule__scale()
--		if(0x12b900(954636093, 0.5)){
-+		if(0x12b910(-981456494, 0.5)){
+ 		PostureModule::scale()
+-		if(0x12b910(-981456494, 0.5)){
++		if(0x12ba50(503437126, 0.5)){
  			if(is_excute){
- 				SEARCH(0, 0, top, 9.0, 0.0, 7.0, 6.5, 0.0, 7.0, 8.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_ALL, COLLISION_PART_MASK_ALL, False)
- 				ATTACK(ID=0, Part=0, Bone=top, Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=9.0, X=0.0, Y=7.0, Z=6.5, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=0, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=True, Direct/Indirect=False, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
- 				as_hash__const(0, top, 13, 3, 2)
- 				AttackModule__set_vec_target_pos()
+ 				SEARCH(0, 0, hash40("top"), 9.0, 0.0, 7.0, 6.5, 0.0, 7.0, 8.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, COLLISION_CATEGORY_MASK_ALL, COLLISION_PART_MASK_ALL, false)
+ 				ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=1.0, Angle=361, KBG=100, FKB=20, BKB=0, Size=9.0, X=0.0, Y=7.0, Z=6.5, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=true, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_NO_FLOOR, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 				as_hash__const(0, hash40("top"), 13, 3, 2)
+ 				AttackModule::set_vec_target_pos()

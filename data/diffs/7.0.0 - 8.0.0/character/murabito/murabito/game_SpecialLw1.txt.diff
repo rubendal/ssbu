@@ -1,0 +1,13 @@
+diff --git "a/to_7.0.0/murabito/game_SpecialLw1.txt" "b/to_8.0.0/murabito/game_SpecialLw1.txt"
+index f690ccb..eb0803a 100644
+--- "a/to_7.0.0/murabito/game_SpecialLw1.txt"
++++ "b/to_8.0.0/murabito/game_SpecialLw1.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=1)
+-FT_MOTION_RATE(FSM=0.75)
++FT_MOTION_RATE(FSM=0.661)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_MURABITO_STATUS_SPECIAL_LW_PLANT_FLAG_CHECK_PLANT)
+ }
+ frame(Frame=2)
+ if(is_excute){

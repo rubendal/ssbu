@@ -1,5 +1,5 @@
 diff --git "a/.0.0/ness/game_Final.txt" "b/.0.0/ness/game_Final.txt"
-index 1bee9e4..3d72df8 100644
+index 528694c..346bbbe 100644
 --- "a/.0.0/ness/game_Final.txt"
 +++ "b/.0.0/ness/game_Final.txt"
 @@ -11,20 +11,20 @@ if(is_excute){
@@ -8,18 +8,18 @@ index 1bee9e4..3d72df8 100644
  }
  CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
  SLOW_OPPONENT(5, 30)
--if(0xfc1d0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
-+if(0xfc1e0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+-if(0xfc1e0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0xfceb0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
  	frame(Frame=10)
  	if(is_excute){
  		FT_SET_FINAL_FEAR_FACE(60)
- 		REQ_FINAL_START_CAMERA(d04final.nuanmb, False)
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
  	}
  	else{
  		if(is_excute){
- 			PostureModule__scale(5, 0)
--			0xfc1d0(3548148, 2.2)
-+			0xfc1e0(1946837423, 2.2)
+ 			PostureModule::scale(5, 0)
+-			0xfc1e0(1946837423, 2.2)
++			0xfceb0(-722238970, 2.2)
  			CAM_ZOOM_IN_arg5(0, 0)
  			FT_START_CUTIN()
  		}

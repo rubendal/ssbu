@@ -1,0 +1,13 @@
+diff --git "a/ight_7.0.0/metaknight/game_ThrowHi.txt" "b/ight_8.0.0/metaknight/game_ThrowHi.txt"
+index 3cfcebf..bcdd2b6 100644
+--- "a/ight_7.0.0/metaknight/game_ThrowHi.txt"
++++ "b/ight_8.0.0/metaknight/game_ThrowHi.txt"
+@@ -1,6 +1,8 @@
++frame(Frame=1)
+ if(is_excute){
++	FT_LEAVE_NEAR_OTTOTTO(-2.5, 2.5)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=10.0, Angle=77, KBG=70, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=7)
+ if(is_excute){

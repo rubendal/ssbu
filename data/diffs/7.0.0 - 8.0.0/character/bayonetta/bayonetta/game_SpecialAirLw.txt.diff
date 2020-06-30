@@ -1,17 +1,17 @@
-diff --git "a/tta_6.0.0/bayonetta/game_SpecialAirLw.txt" "b/tta_7.0.0/bayonetta/game_SpecialAirLw.txt"
-index 4ad38ad..046fea8 100644
---- "a/tta_6.0.0/bayonetta/game_SpecialAirLw.txt"
-+++ "b/tta_7.0.0/bayonetta/game_SpecialAirLw.txt"
+diff --git "a/tta_7.0.0/bayonetta/game_SpecialAirLw.txt" "b/tta_8.0.0/bayonetta/game_SpecialAirLw.txt"
+index cb911d7..95e69e3 100644
+--- "a/tta_7.0.0/bayonetta/game_SpecialAirLw.txt"
++++ "b/tta_8.0.0/bayonetta/game_SpecialAirLw.txt"
 @@ -19,11 +19,11 @@ if(is_excute){
  frame(Frame=36)
  if(is_excute){
- 	notify_event_msc_cmd(0x2ea0f68425, False)
+ 	notify_event_msc_cmd(hash40("0x2ea0f68425"), false)
  }
  frame(Frame=37)
--if(0x190590(WorkModule__is_flag(FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME_SUCCESS), False, False)){
-+if(0x1905a0(WorkModule__is_flag(FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME_SUCCESS), False, False)){
+-if(0x1905a0(WorkModule::is_flag(FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME_SUCCESS), false, false)){
++if(0x1cbe00(WorkModule::is_flag(FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME_SUCCESS), false, false)){
  	if(is_excute){
- 		KineticModule__change_kinetic(FIGHTER_KINETIC_TYPE_FALL)
+ 		KineticModule::change_kinetic(FIGHTER_KINETIC_TYPE_FALL)
  	}
  }
  frame(Frame=44)

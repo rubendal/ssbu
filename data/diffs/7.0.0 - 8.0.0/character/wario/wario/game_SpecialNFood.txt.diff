@@ -1,0 +1,14 @@
+diff --git "a/7.0.0/wario/game_SpecialNFood.txt" "b/8.0.0/wario/game_SpecialNFood.txt"
+index 9364cbf..fc8903b 100644
+--- "a/7.0.0/wario/game_SpecialNFood.txt"
++++ "b/8.0.0/wario/game_SpecialNFood.txt"
+@@ -4,5 +4,9 @@ if(is_excute){
+ }
+ frame(Frame=9)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_WARIO_STATUS_SPECIAL_N_FLAG_ITEM_USE)
+ }
++FT_MOTION_RATE(FSM=0.68)
++if(0x103620(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++	FT_MOTION_RATE(FSM=1)
++}

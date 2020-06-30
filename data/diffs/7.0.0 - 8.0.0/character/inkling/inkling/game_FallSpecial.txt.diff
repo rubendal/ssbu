@@ -1,19 +1,19 @@
-diff --git "a/g_6.0.0/inkling/game_FallSpecial.txt" "b/g_7.0.0/inkling/game_FallSpecial.txt"
-index a0ac413..f65ed6a 100644
---- "a/g_6.0.0/inkling/game_FallSpecial.txt"
-+++ "b/g_7.0.0/inkling/game_FallSpecial.txt"
-@@ -3,12 +3,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule__is_flag
- 		ArticleModule__generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+diff --git "a/g_7.0.0/inkling/game_FallSpecial.txt" "b/g_8.0.0/inkling/game_FallSpecial.txt"
+index b276f34..2135ffb 100644
+--- "a/g_7.0.0/inkling/game_FallSpecial.txt"
++++ "b/g_8.0.0/inkling/game_FallSpecial.txt"
+@@ -3,12 +3,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
  	}
  }
- MotionModule__motion_kind()
- MotionModule__frame(0x00000002b0)
--MotionModule__rate(-459651652)
--as_hash__const(-459651652, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
-+MotionModule__rate(271506559)
-+as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
- ArticleModule__change_motion()
+ MotionModule::motion_kind()
+ MotionModule::frame(hash40("0x00000002b0"))
+-MotionModule::rate(271506559)
+-as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(780876990)
++as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
  if(is_excute){
- 	ArticleModule__set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
- 	ArticleModule__set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, False)
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)

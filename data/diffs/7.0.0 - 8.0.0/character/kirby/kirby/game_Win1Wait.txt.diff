@@ -1,11 +1,11 @@
-diff --git "a/6.0.0/kirby/game_Win1Wait.txt" "b/7.0.0/kirby/game_Win1Wait.txt"
-index 68b5db6..5886ea3 100644
---- "a/6.0.0/kirby/game_Win1Wait.txt"
-+++ "b/7.0.0/kirby/game_Win1Wait.txt"
+diff --git "a/7.0.0/kirby/game_Win1Wait.txt" "b/8.0.0/kirby/game_Win1Wait.txt"
+index a028f91..04928e4 100644
+--- "a/7.0.0/kirby/game_Win1Wait.txt"
++++ "b/8.0.0/kirby/game_Win1Wait.txt"
 @@ -1,5 +1,5 @@
--0x490840(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
-+0x49f5f0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), False, True)
+-0x49f5f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
++0x4a64b0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
  if(is_excute){
- 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, 0x0a3eec3a54)
- 	ArticleModule__change_motion()
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, hash40("win_1_wait"))
+ 	ArticleModule::change_motion()
  }

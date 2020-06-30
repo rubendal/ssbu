@@ -1,0 +1,11 @@
+diff --git "a/0.0/pit/game_SlipAttack.txt" "b/0.0/pit/game_SlipAttack.txt"
+index 47d1a72..4e3f58e 100644
+--- "a/0.0/pit/game_SlipAttack.txt"
++++ "b/0.0/pit/game_SlipAttack.txt"
+@@ -12,5 +12,6 @@ if(is_excute){
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++FT_MOTION_RATE(FSM=1.14)

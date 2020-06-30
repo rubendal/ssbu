@@ -1,15 +1,15 @@
-diff --git "a/_6.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt" "b/_7.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
-index 2844bbb..33e2cf1 100644
---- "a/_6.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
-+++ "b/_7.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
+diff --git "a/_7.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt" "b/_8.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
+index 91137d4..72a4ade 100644
+--- "a/_7.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
++++ "b/_8.0.0/pikmin_pikmin/game_SpNTakenOutStart_w.txt"
 @@ -1,9 +1,9 @@
  frame(Frame=1)
  if(is_excute){
- 	WorkModule__get_float(WEAPON_PIKMIN_PIKMIN_STATUS_PULL_OUT_START_WORK_FLOAT_MOT_RATE)
--	MotionModule__set_rate(-1298307000)
-+	MotionModule__set_rate(-1157984911)
+ 	WorkModule::get_float(WEAPON_PIKMIN_PIKMIN_STATUS_PULL_OUT_START_WORK_FLOAT_MOT_RATE)
+-	MotionModule::set_rate(-1157984911)
++	MotionModule::set_rate(-502677940)
  }
  frame(Frame=5)
  if(is_excute){
- 	MotionModule__set_rate(1)
+ 	MotionModule::set_rate(1)
  }

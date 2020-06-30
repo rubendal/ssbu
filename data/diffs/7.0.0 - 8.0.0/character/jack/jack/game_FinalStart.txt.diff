@@ -1,5 +1,5 @@
 diff --git "a/.0.0/jack/game_FinalStart.txt" "b/.0.0/jack/game_FinalStart.txt"
-index e87beab..d7c0112 100644
+index 52cf948..a6a7ab4 100644
 --- "a/.0.0/jack/game_FinalStart.txt"
 +++ "b/.0.0/jack/game_FinalStart.txt"
 @@ -1,24 +1,24 @@
@@ -7,26 +7,26 @@ index e87beab..d7c0112 100644
  	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
  	SLOW_OPPONENT(20, 65)
  }
--if(0x290e60(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
-+if(0x290fb0(WorkModule__is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), False, False)){
+-if(0x290fb0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x291160(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
  	frame(Frame=5)
  	if(is_excute){
  		FT_SET_FINAL_FEAR_FACE(50)
  	}
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x290e60(0, 0)){
-+if(0x290fb0(0, 0)){
+-if(0x290fb0(0, 0)){
++if(0x291160(0, 0)){
  	if(is_excute){
- 		REQ_FINAL_START_CAMERA(0x1654ea70d3, True)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), true)
  	}
  	else{
  		if(is_excute){
- 			PostureModule__scale(3, 0)
--			0x290e60(854365594, 2)
-+			0x290fb0(1885802046, 2)
+ 			PostureModule::scale(3, 0)
+-			0x290fb0(1885802046, 2)
++			0x291160(768262403, 2)
  			CAM_ZOOM_IN_arg5(0, 0)
  		}
  		else{
  			if(is_excute){
- 				REQ_FINAL_START_CAMERA(d04finalstart.nuanmb, True)
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)

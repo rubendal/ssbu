@@ -1,15 +1,15 @@
-diff --git "a/tch_6.0.0/gamewatch/game_FinalStart.txt" "b/tch_7.0.0/gamewatch/game_FinalStart.txt"
-index a476786..25df560 100644
---- "a/tch_6.0.0/gamewatch/game_FinalStart.txt"
-+++ "b/tch_7.0.0/gamewatch/game_FinalStart.txt"
+diff --git "a/tch_7.0.0/gamewatch/game_FinalStart.txt" "b/tch_8.0.0/gamewatch/game_FinalStart.txt"
+index 3a714f3..5773a33 100644
+--- "a/tch_7.0.0/gamewatch/game_FinalStart.txt"
++++ "b/tch_8.0.0/gamewatch/game_FinalStart.txt"
 @@ -1,26 +1,26 @@
  if(is_excute){
  	SLOW_OPPONENT(10, 60)
- 	FT_REMOVE_FINAL_AURA(True)
+ 	FT_REMOVE_FINAL_AURA(true)
  	FT_SET_FINAL_FEAR_FACE(70)
- 	PostureModule__scale(1, 0)
--	0x101b30(-169333184, 2.1)
-+	0x101b40(-1313641202, 2.1)
+ 	PostureModule::scale(1, 0)
+-	0x101b40(-1313641202, 2.1)
++	0x101e30(1125017106, 2.1)
  	CAM_ZOOM_IN_arg5(0, 0)
  }
  frame(Frame=5)
@@ -19,14 +19,14 @@ index a476786..25df560 100644
  frame(Frame=12)
  if(is_excute){
  	CAM_ZOOM_OUT()
- 	PostureModule__scale(15, 0)
--	0x101b30(-169333184, 3.5)
-+	0x101b40(-1313641202, 3.5)
+ 	PostureModule::scale(15, 0)
+-	0x101b40(-1313641202, 3.5)
++	0x101e30(1125017106, 3.5)
  	CAM_ZOOM_IN_arg5(0, 0)
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x101b30(0, 0)){
-+if(0x101b40(0, 0)){
+-if(0x101b40(0, 0)){
++if(0x101e30(0, 0)){
  	if(is_excute){
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 5)
  	}

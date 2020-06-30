@@ -1,0 +1,12 @@
+diff --git "a/7.0.0/falco/game_SpecialS.txt" "b/8.0.0/falco/game_SpecialS.txt"
+index 5957dd5..5ee93de 100644
+--- "a/7.0.0/falco/game_SpecialS.txt"
++++ "b/8.0.0/falco/game_SpecialS.txt"
+@@ -1,5 +1,7 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	JostleModule::set_status(false)
+ }
+ frame(Frame=2)
+ if(is_excute){

@@ -1,26 +1,26 @@
-diff --git "a/6.0.0/sheik/game_FinalFinish.txt" "b/7.0.0/sheik/game_FinalFinish.txt"
-index 7a118a5..4a3c617 100644
---- "a/6.0.0/sheik/game_FinalFinish.txt"
-+++ "b/7.0.0/sheik/game_FinalFinish.txt"
+diff --git "a/7.0.0/sheik/game_FinalFinish.txt" "b/8.0.0/sheik/game_FinalFinish.txt"
+index 7665eab..98f6703 100644
+--- "a/7.0.0/sheik/game_FinalFinish.txt"
++++ "b/8.0.0/sheik/game_FinalFinish.txt"
 @@ -1,19 +1,19 @@
--if(0x106d70(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
-+if(0x107280(WorkModule__is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), False, True)){
+-if(0x107280(WorkModule::is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), false, true)){
++if(0x107ac0(WorkModule::is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), false, true)){
  	frame(Frame=1)
  	get_value_float(SO_VAR_FLOAT_LR)
--	if(0x106d70(0, 0)){
-+	if(0x107280(0, 0)){
+-	if(0x107280(0, 0)){
++	if(0x107ac0(0, 0)){
  		if(is_excute){
- 			PostureModule__scale(5, 0)
--			0x106d70(1411901773, 1.5)
-+			0x107280(-872574242, 1.5)
+ 			PostureModule::scale(5, 0)
+-			0x107280(-872574242, 1.5)
++			0x107ac0(-908665087, 1.5)
  			CAM_ZOOM_IN_arg5(-2.8, 2.5)
  			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
  		}
  		else{
  			if(is_excute){
- 				PostureModule__scale(5, 0)
--				0x106d70(1411901773, 1.5)
-+				0x107280(-872574242, 1.5)
+ 				PostureModule::scale(5, 0)
+-				0x107280(-872574242, 1.5)
++				0x107ac0(-908665087, 1.5)
  				CAM_ZOOM_IN_arg5(-2.8, -2.5)
  				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 10, 0)
  			}
@@ -32,20 +32,20 @@ index 7a118a5..4a3c617 100644
  	CAM_ZOOM_OUT()
  }
  get_value_float(SO_VAR_FLOAT_LR)
--if(0x106d70(0, 0)){
-+if(0x107280(0, 0)){
+-if(0x107280(0, 0)){
++if(0x107ac0(0, 0)){
  	if(is_excute){
- 		PostureModule__scale(5, 0)
--		0x106d70(1411901773, 2)
-+		0x107280(-872574242, 2)
+ 		PostureModule::scale(5, 0)
+-		0x107280(-872574242, 2)
++		0x107ac0(-908665087, 2)
  		CAM_ZOOM_IN_arg5(0, 0.8)
  		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
  	}
  	else{
  		if(is_excute){
- 			PostureModule__scale(5, 0)
--			0x106d70(1411901773, 2)
-+			0x107280(-872574242, 2)
+ 			PostureModule::scale(5, 0)
+-			0x107280(-872574242, 2)
++			0x107ac0(-908665087, 2)
  			CAM_ZOOM_IN_arg5(0, -0.8)
  			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
  		}

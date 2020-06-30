@@ -1,25 +1,25 @@
-diff --git "a/6.0.0/sonic_supersonic/game_FinalMove.txt" "b/7.0.0/sonic_supersonic/game_FinalMove.txt"
-index 912a7e1..6860142 100644
---- "a/6.0.0/sonic_supersonic/game_FinalMove.txt"
-+++ "b/7.0.0/sonic_supersonic/game_FinalMove.txt"
+diff --git "a/7.0.0/sonic_supersonic/game_FinalMove.txt" "b/8.0.0/sonic_supersonic/game_FinalMove.txt"
+index b8734b5..2cb53b0 100644
+--- "a/7.0.0/sonic_supersonic/game_FinalMove.txt"
++++ "b/8.0.0/sonic_supersonic/game_FinalMove.txt"
 @@ -1,18 +1,18 @@
  if(is_excute){
  	WHOLE_HIT(HIT_STATUS_INVINCIBLE)
  }
- PostureModule__scale()
--if(method.lib::L2CValue.operator___lib::L2CValueconst__const(430619979, 1.4)){
-+if(method.lib::L2CValue.operator___lib::L2CValueconst__const(533170499, 1.4)){
+ PostureModule::scale()
+-if(method.lib::L2CValue.operator___lib::L2CValueconst__const(533170499, 1.4)){
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(1555281530, 1.4)){
  	if(is_excute){
- 		ATTACK(ID=0, Part=0, Bone=top, Damage=6.0, Angle=70, KBG=93, FKB=0, BKB=80, Size=9.0, X=0.0, Y=11.0, Z=0.0, X2=0.0, Y2=11.0, Z2=-60.0, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=50, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
- 		AttackModule__set_force_reaction(0, True, False)
- 		AttackModule__set_final_finish_cut_in(0, True, True, -1, False)
+ 		ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=6.0, Angle=70, KBG=93, FKB=0, BKB=80, Size=9.0, X=0.0, Y=11.0, Z=0.0, X2=0.0, Y2=11.0, Z2=-60.0, Hitlag=0.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=50, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 		AttackModule::set_force_reaction(0, true, false)
+ 		AttackModule::set_final_finish_cut_in(0, true, true, -1, false)
  	}
  	else{
- 		PostureModule__scale()
--		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(430619979, 0.5)){
-+		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(533170499, 0.5)){
+ 		PostureModule::scale()
+-		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(533170499, 0.5)){
++		if(method.lib::L2CValue.operator___lib::L2CValueconst__const(1555281530, 0.5)){
  			if(is_excute){
- 				ATTACK(ID=0, Part=0, Bone=top, Damage=6.0, Angle=70, KBG=93, FKB=0, BKB=80, Size=12.0, X=0.0, Y=11.0, Z=0.0, X2=0.0, Y2=11.0, Z2=-170.0, Hitlag=0.0, SDI=1.0, Clang/Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=False, ShieldDamage=no, Trip=0.0, Rehit=50, Reflectable=False, Absorbable=False, Flinchless=False, DisableHitlag=False, Direct/Indirect=True, Ground/Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=False, Effect=collision_attr_normal, SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
- 				AttackModule__set_force_reaction(0, True, False)
- 				AttackModule__set_final_finish_cut_in(0, True, True, -1, False)
+ 				ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=6.0, Angle=70, KBG=93, FKB=0, BKB=80, Size=12.0, X=0.0, Y=11.0, Z=0.0, X2=0.0, Y2=11.0, Z2=-170.0, Hitlag=0.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=50, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_NONE)
+ 				AttackModule::set_force_reaction(0, true, false)
+ 				AttackModule::set_final_finish_cut_in(0, true, true, -1, false)
  			}
