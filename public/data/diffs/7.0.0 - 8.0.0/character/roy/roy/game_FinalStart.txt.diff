@@ -1,0 +1,25 @@
+diff --git "a/0.0/roy/game_FinalStart.txt" "b/0.0/roy/game_FinalStart.txt"
+index 817e556..86ddc46 100644
+--- "a/0.0/roy/game_FinalStart.txt"
++++ "b/0.0/roy/game_FinalStart.txt"
+@@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1202f0(0, 0)){
++if(0x120430(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x1202f0(-1042528299, 2)
++			0x120430(-1461529711, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

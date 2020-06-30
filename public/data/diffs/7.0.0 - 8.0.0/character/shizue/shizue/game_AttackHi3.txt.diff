@@ -1,0 +1,15 @@
+diff --git "a/_7.0.0/shizue/game_AttackHi3.txt" "b/_8.0.0/shizue/game_AttackHi3.txt"
+index f1bd49b..02206d2 100644
+--- "a/_7.0.0/shizue/game_AttackHi3.txt"
++++ "b/_8.0.0/shizue/game_AttackHi3.txt"
+@@ -13,9 +13,10 @@ if(is_excute){
+ FT_MOTION_RATE(FSM=1)
+ wait(Frames=8)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++FT_MOTION_RATE(FSM=0.842)
+ frame(Frame=54)
+ if(is_excute){
+ 	ArticleModule::remove(FIGHTER_SHIZUE_GENERATE_ARTICLE_BROOM)
+ }

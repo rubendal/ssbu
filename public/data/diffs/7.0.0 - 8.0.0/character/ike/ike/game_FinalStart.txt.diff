@@ -1,0 +1,17 @@
+diff --git "a/0.0/ike/game_FinalStart.txt" "b/0.0/ike/game_FinalStart.txt"
+index 684d1d8..bdee1f4 100644
+--- "a/0.0/ike/game_FinalStart.txt"
++++ "b/0.0/ike/game_FinalStart.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ 	SlowModule::set_whole(20, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(5, 0)
+-		0x13af70(1012417204, 2)
++		0x140310(-804262748, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=9)

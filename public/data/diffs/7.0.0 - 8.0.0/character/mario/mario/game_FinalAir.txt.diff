@@ -1,0 +1,45 @@
+diff --git "a/7.0.0/mario/game_FinalAir.txt" "b/8.0.0/mario/game_FinalAir.txt"
+index e861acb..f623ddb 100644
+--- "a/7.0.0/mario/game_FinalAir.txt"
++++ "b/8.0.0/mario/game_FinalAir.txt"
+@@ -5,26 +5,26 @@ if(is_excute){
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_MARIO_GENERATE_ARTICLE_HUGE_FLAME)
+ }
+-if(0xd4d30(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0xd5230(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04final.nuanmb"), false, false)
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xd4d30(-583972274, 2.05)
++			0xd5230(1934523664, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0xd4d30(0, 0)){
++		if(0xd5230(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){
+@@ -33,9 +33,9 @@ if(0xd4d30(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 			}
+ 		}
+ 	}
+ }
+ frame(Frame=25)
+-0xd4d30(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
++0xd5230(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }

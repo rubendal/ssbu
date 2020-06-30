@@ -1,0 +1,26 @@
+diff --git "a/.0.0/pitb/game_FinalAir.txt" "b/.0.0/pitb/game_FinalAir.txt"
+index 7c82b18..5babb16 100644
+--- "a/.0.0/pitb/game_FinalAir.txt"
++++ "b/.0.0/pitb/game_FinalAir.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(3, 30)
+ }
+-if(0x10ab10(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x10d430(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(30)
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x10ab10(-753382701, 2)
++			0x10d430(-87855328, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

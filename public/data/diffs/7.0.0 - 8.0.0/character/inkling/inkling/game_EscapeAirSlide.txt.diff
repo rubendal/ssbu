@@ -1,0 +1,19 @@
+diff --git "a/g_7.0.0/inkling/game_EscapeAirSlide.txt" "b/g_8.0.0/inkling/game_EscapeAirSlide.txt"
+index 4b040ba..d8252fe 100644
+--- "a/g_7.0.0/inkling/game_EscapeAirSlide.txt"
++++ "b/g_8.0.0/inkling/game_EscapeAirSlide.txt"
+@@ -6,12 +6,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule::motion_kind()
+ MotionModule::frame(hash40("0x00000002b0"))
+-MotionModule::rate(271506559)
+-as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(780876990)
++as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
+ if(is_excute){
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)

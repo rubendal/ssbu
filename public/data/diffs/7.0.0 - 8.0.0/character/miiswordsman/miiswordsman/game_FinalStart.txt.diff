@@ -1,0 +1,25 @@
+diff --git "a/rdsman_7.0.0/miiswordsman/game_FinalStart.txt" "b/rdsman_8.0.0/miiswordsman/game_FinalStart.txt"
+index c282e49..14434a1 100644
+--- "a/rdsman_7.0.0/miiswordsman/game_FinalStart.txt"
++++ "b/rdsman_8.0.0/miiswordsman/game_FinalStart.txt"
+@@ -7,18 +7,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x190bb0(0, 0)){
++if(0x190ce0(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x190bb0(-26667193, 2.2)
++			0x190ce0(-490101872, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

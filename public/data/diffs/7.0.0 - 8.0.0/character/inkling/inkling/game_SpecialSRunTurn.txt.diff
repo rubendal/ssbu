@@ -1,0 +1,13 @@
+diff --git "a/g_7.0.0/inkling/game_SpecialSRunTurn.txt" "b/g_8.0.0/inkling/game_SpecialSRunTurn.txt"
+index 69ff1e9..5a69ef5 100644
+--- "a/g_7.0.0/inkling/game_SpecialSRunTurn.txt"
++++ "b/g_8.0.0/inkling/game_SpecialSRunTurn.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	FighterAreaModuleImpl::enable_fix_jostle_area(5, 8)
++	FighterAreaModuleImpl::enable_fix_jostle_area(3, 8)
+ }
+ frame(Frame=18)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_INKLING_STATUS_SPECIAL_S_FLAG_TURN)
+ }

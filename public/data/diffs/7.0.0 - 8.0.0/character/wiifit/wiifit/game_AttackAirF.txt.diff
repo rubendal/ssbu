@@ -1,0 +1,17 @@
+diff --git "a/_7.0.0/wiifit/game_AttackAirF.txt" "b/_8.0.0/wiifit/game_AttackAirF.txt"
+index 975804f..a1bcffb 100644
+--- "a/_7.0.0/wiifit/game_AttackAirF.txt"
++++ "b/_8.0.0/wiifit/game_AttackAirF.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ wait(Frames=5)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=16)
+-FT_MOTION_RATE(FSM=0.76)
++FT_MOTION_RATE(FSM=0.64)
+ frame(Frame=27)
+ if(is_excute){
+ 	WorkModule::off_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+ }
+ frame(Frame=46)

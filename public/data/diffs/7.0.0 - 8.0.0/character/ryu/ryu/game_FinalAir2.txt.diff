@@ -1,0 +1,27 @@
+diff --git "a/0.0/ryu/game_FinalAir2.txt" "b/0.0/ryu/game_FinalAir2.txt"
+index 44ac6ce..b36d029 100644
+--- "a/0.0/ryu/game_FinalAir2.txt"
++++ "b/0.0/ryu/game_FinalAir2.txt"
+@@ -1,20 +1,20 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	SLOW_OPPONENT(10, 70)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ }
+-if(0x160a40(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x160580(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(50)
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x160a40(93394912, 1.8)
++			0x160580(-1906549889, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

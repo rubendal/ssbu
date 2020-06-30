@@ -1,0 +1,25 @@
+diff --git "a/r_7.0.0/richter/game_FinalStart_Com.txt" "b/r_8.0.0/richter/game_FinalStart_Com.txt"
+index ab101ee..bf05375 100644
+--- "a/r_7.0.0/richter/game_FinalStart_Com.txt"
++++ "b/r_8.0.0/richter/game_FinalStart_Com.txt"
+@@ -8,18 +8,18 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		SlowModule::set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x114c50(32, 0)){
++if(0x114d90(32, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x114c50(2113963989, 2.1)
++			0x114d90(-2013459178, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

@@ -1,0 +1,16 @@
+diff --git "a/7.0.0/luigi/game_ThrowLw.txt" "b/8.0.0/luigi/game_ThrowLw.txt"
+index 7d657c6..a7a2e89 100644
+--- "a/7.0.0/luigi/game_ThrowLw.txt"
++++ "b/8.0.0/luigi/game_ThrowLw.txt"
+@@ -4,10 +4,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(false, true)){
+ 		as_hash__const(FIGHTER_LUIGI_GENERATE_ARTICLE_OBAKYUMU, hash40("throw_lw"))
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ if(is_excute){
++	FT_LEAVE_NEAR_OTTOTTO(-1, 1)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=3.0, Angle=80, KBG=135, FKB=0, BKB=45, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=40, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=18)
+ if(is_excute){

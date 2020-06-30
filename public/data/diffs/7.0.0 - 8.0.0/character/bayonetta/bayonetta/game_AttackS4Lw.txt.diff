@@ -1,0 +1,17 @@
+diff --git "a/tta_7.0.0/bayonetta/game_AttackS4Lw.txt" "b/tta_8.0.0/bayonetta/game_AttackS4Lw.txt"
+index cf5afc2..5a2b61e 100644
+--- "a/tta_7.0.0/bayonetta/game_AttackS4Lw.txt"
++++ "b/tta_8.0.0/bayonetta/game_AttackS4Lw.txt"
+@@ -3,11 +3,11 @@ FT_MOTION_RATE(FSM=0.75)
+ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ execute(3)
+-if(0x1905a0(WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), false, true)){
++if(0x1cbe00(WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_BAYONETTA_GENERATE_ARTICLE_WICKEDWEAVEARM)
+ 	}
+ }
+ if(is_excute){

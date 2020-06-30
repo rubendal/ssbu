@@ -1,0 +1,26 @@
+diff --git "a/7.0.0/marth/game_FinalStart.txt" "b/8.0.0/marth/game_FinalStart.txt"
+index ee214a9..5efefcd 100644
+--- "a/7.0.0/marth/game_FinalStart.txt"
++++ "b/8.0.0/marth/game_FinalStart.txt"
+@@ -8,19 +8,19 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x130a00(0, 0)){
++if(0x139320(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 10, 0, 0)
+ 			PostureModule::scale(5, 0)
+-			0x130a00(-915447481, 2)
++			0x139320(471896563, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

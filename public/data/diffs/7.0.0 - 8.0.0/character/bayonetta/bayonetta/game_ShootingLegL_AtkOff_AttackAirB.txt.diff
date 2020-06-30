@@ -1,0 +1,12 @@
+diff --git "a/tta_7.0.0/bayonetta/game_ShootingLegL_AtkOff_AttackAirB.txt" "b/tta_8.0.0/bayonetta/game_ShootingLegL_AtkOff_AttackAirB.txt"
+index 947432b..8bdd3a3 100644
+--- "a/tta_7.0.0/bayonetta/game_ShootingLegL_AtkOff_AttackAirB.txt"
++++ "b/tta_8.0.0/bayonetta/game_ShootingLegL_AtkOff_AttackAirB.txt"
+@@ -1,6 +1,6 @@
+-if(0x1905a0(WorkModule::is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), false, false)){
++if(0x1cbe00(WorkModule::is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK), false, false)){
+ 	if(is_excute){
+ 		AttackModule::clear(ID=FIGHTER_BAYONETTA_SHOOTING_ATTACK_ID_00)
+ 	}
+ }
+ if(is_excute){

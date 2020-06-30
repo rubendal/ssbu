@@ -1,0 +1,17 @@
+diff --git "a/_7.0.0/master/game_AttackLw4.txt" "b/_8.0.0/master/game_AttackLw4.txt"
+index 5efe9be..ba1434b 100644
+--- "a/_7.0.0/master/game_AttackLw4.txt"
++++ "b/_8.0.0/master/game_AttackLw4.txt"
+@@ -9,11 +9,11 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), false, true)){
+ 	if(is_excute){
+ 		WorkModule::get_float(FIGHTER_MASTER_GENERATE_ARTICLE_AXE, hash40("attack_lw4"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		as_hash__const(-69491906)
++		as_hash__const(646449442)
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ frame(Frame=5)
+ FT_MOTION_RATE(FSM=1.3)

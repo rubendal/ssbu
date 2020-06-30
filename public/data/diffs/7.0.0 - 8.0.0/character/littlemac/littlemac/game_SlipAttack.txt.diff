@@ -1,0 +1,11 @@
+diff --git "a/mac_7.0.0/littlemac/game_SlipAttack.txt" "b/mac_8.0.0/littlemac/game_SlipAttack.txt"
+index 755d076..02e5353 100644
+--- "a/mac_7.0.0/littlemac/game_SlipAttack.txt"
++++ "b/mac_8.0.0/littlemac/game_SlipAttack.txt"
+@@ -12,5 +12,6 @@ if(is_excute){
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++FT_MOTION_RATE(FSM=1.04)

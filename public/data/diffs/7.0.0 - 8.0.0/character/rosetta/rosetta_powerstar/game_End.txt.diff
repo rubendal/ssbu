@@ -1,0 +1,17 @@
+diff --git "a/a_7.0.0/rosetta_powerstar/game_End.txt" "b/a_8.0.0/rosetta_powerstar/game_End.txt"
+index 776d62e..08216ad 100644
+--- "a/a_7.0.0/rosetta_powerstar/game_End.txt"
++++ "b/a_8.0.0/rosetta_powerstar/game_End.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=4)
+ if(is_excute){
+ 	VisibilityModule::set_whole(false)
+-	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=11.0, Angle=361, KBG=105, FKB=0, BKB=80, Size=3.6, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_magic"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_NONE)
++	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=11.0, Angle=361, KBG=108, FKB=0, BKB=80, Size=3.6, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_magic"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_MAGIC, Type=ATTACK_REGION_NONE)
+ 	AttackModule::set_force_reaction(0, true, false)
+ 	AttackModule::set_final_finish_cut_in(0, true, true, -1, false)
+ 	as_hash__const(hash40("rbkind_explosionl"), 0, false)
+ 	ControlModule::set_rumble()
+ }

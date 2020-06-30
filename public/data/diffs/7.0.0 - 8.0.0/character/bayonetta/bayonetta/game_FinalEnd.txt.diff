@@ -1,0 +1,17 @@
+diff --git "a/tta_7.0.0/bayonetta/game_FinalEnd.txt" "b/tta_8.0.0/bayonetta/game_FinalEnd.txt"
+index 087cfa1..98fa787 100644
+--- "a/tta_7.0.0/bayonetta/game_FinalEnd.txt"
++++ "b/tta_8.0.0/bayonetta/game_FinalEnd.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+-	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_BAYONETTA_FINAL_FINISH, ID=0, Damage=10.0, Angle=361, KBG=40, FKB=0, BKB=120, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_POS, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_BAYONETTA_FINAL_FINISH, ID=0, Damage=10.0, Angle=361, KBG=40, FKB=0, BKB=90, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_POS, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	WorkModule::on_flag(Flag=FIGHTER_BAYONETTA_STATUS_WORK_ID_FINAL_FLAG_ABS_SET)
+ 	PostureModule::scale(1, 0)
+-	0x1905a0(-268868578, 2.5)
++	0x1cbe00(-45073652, 2.5)
+ 	CAM_ZOOM_IN_FINAL(0, 0, 0, 0, 160, true, FIGHTER_BAYONETTA_STATUS_WORK_ID_FINAL_INT_SELF_BATTLE_OBJECT_ID, 0)
+ }
+ frame(Frame=1)
+ if(is_excute){
+ 	SlowModule::set_whole(4, 0)

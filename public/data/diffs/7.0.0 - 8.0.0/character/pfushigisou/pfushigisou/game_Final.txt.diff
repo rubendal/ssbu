@@ -1,0 +1,41 @@
+diff --git "a/gisou_7.0.0/pfushigisou/game_Final.txt" "b/gisou_8.0.0/pfushigisou/game_Final.txt"
+index fee8ef9..c5c0963 100644
+--- "a/gisou_7.0.0/pfushigisou/game_Final.txt"
++++ "b/gisou_8.0.0/pfushigisou/game_Final.txt"
+@@ -1,21 +1,21 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 1, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(5, 30)
+ 	VisibilityModule::set_int64(hash40("weapon"), hash40("weapon_normal"))
+ }
+-if(0x103630(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x103760(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04final.nuanmb"), false, false)
+ 		FT_START_CUTIN_arg1(true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x103630(819290812, 2.1)
++			0x103760(-1699123956, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(true)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){
+@@ -31,11 +31,11 @@ frame(Frame=60)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ 	camera(MA_MSC_CMD_CAMERA_CAM_RESET)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x103630(464, 0)){
++if(0x103760(464, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -50, 0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_RECT, 60, -56, 18, -8)
+ 	}
+ 	else{

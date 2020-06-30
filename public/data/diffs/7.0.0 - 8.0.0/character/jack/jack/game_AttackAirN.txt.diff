@@ -1,0 +1,17 @@
+diff --git "a/.0.0/jack/game_AttackAirN.txt" "b/.0.0/jack/game_AttackAirN.txt"
+index efad53a..012b84b 100644
+--- "a/.0.0/jack/game_AttackAirN.txt"
++++ "b/.0.0/jack/game_AttackAirN.txt"
+@@ -4,11 +4,11 @@ if(is_excute){
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=hash40("knife"), Damage=7.0, Angle=46, KBG=93, FKB=0, BKB=35, Size=2.8, X=0.0, Y=2.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ }
+-if(0x290fb0(WorkModule::is_flag(FIGHTER_JACK_INSTANCE_WORK_ID_FLAG_DOYLE), false, true)){
++if(0x291160(WorkModule::is_flag(FIGHTER_JACK_INSTANCE_WORK_ID_FLAG_DOYLE), false, true)){
+ 	if(is_excute){
+ 		ATTACK(ID=3, Part=1, Bone=hash40("throw"), Damage=4.0, Angle=46, KBG=139, FKB=0, BKB=50, Size=2.8, X=0.0, Y=0.0, Z=0.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_PUNCH)
+ 	}
+ }
+ frame(Frame=28)

@@ -1,0 +1,35 @@
+diff --git "a/7.0.0/zelda/game_FinalAirStart.txt" "b/8.0.0/zelda/game_FinalAirStart.txt"
+index 23507a4..e272dff 100644
+--- "a/7.0.0/zelda/game_FinalAirStart.txt"
++++ "b/8.0.0/zelda/game_FinalAirStart.txt"
+@@ -1,27 +1,27 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(4, 45)
+ }
+-if(0x10c520(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x10c6c0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x10c520(748859878, 2)
++			0x10c6c0(283393319, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }
+ frame(Frame=20)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_ZELDA_GENERATE_ARTICLE_TRIFORCE)
+ }
+-0x10c520(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
++0x10c6c0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }

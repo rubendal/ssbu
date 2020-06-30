@@ -1,0 +1,17 @@
+diff --git "a/7.0.0/falco/game_SpecialAirNLoop.txt" "b/8.0.0/falco/game_SpecialAirNLoop.txt"
+index d6f7f05..72c3740 100644
+--- "a/7.0.0/falco/game_SpecialAirNLoop.txt"
++++ "b/8.0.0/falco/game_SpecialAirNLoop.txt"
+@@ -4,11 +4,11 @@ if(is_excute){
+ frame(Frame=4)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER_BULLET)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER)
+-if(0x101ef0(false, true)){
++if(0x11c800(false, true)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER, hash40("loop"))
+ 		ArticleModule::change_motion()
+ 	}
+ }

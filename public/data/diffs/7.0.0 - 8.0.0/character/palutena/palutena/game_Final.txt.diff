@@ -1,0 +1,29 @@
+diff --git "a/na_7.0.0/palutena/game_Final.txt" "b/na_8.0.0/palutena/game_Final.txt"
+index 5db0cad..71b2026 100644
+--- "a/na_7.0.0/palutena/game_Final.txt"
++++ "b/na_8.0.0/palutena/game_Final.txt"
+@@ -1,21 +1,21 @@
+ FT_MOTION_RATE(FSM=0.8)
+ frame(Frame=1)
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+-	SLOW_OPPONENT(6, 130)
++	SLOW_OPPONENT(6, 85)
+ }
+-if(0xee1d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0xee310(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04final.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(10, 0)
+-			0xee1d0(1613876780, 2)
++			0xee310(-1532317869, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

@@ -1,0 +1,33 @@
+diff --git "a/ink_7.0.0/younglink/game_FinalStart_Com.txt" "b/ink_8.0.0/younglink/game_FinalStart_Com.txt"
+index 8dc1f0d..b34294d 100644
+--- "a/ink_7.0.0/younglink/game_FinalStart_Com.txt"
++++ "b/ink_8.0.0/younglink/game_FinalStart_Com.txt"
+@@ -2,25 +2,25 @@ if(is_excute){
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=30.0, Angle=361, KBG=90, FKB=0, BKB=30, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_THROW)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(8, 34)
+ }
+ frame(Frame=1)
+-if(0x1163f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x1165d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1163f0(1503480, 0)){
++if(0x1165d0(1503488, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x1163f0(-572935915, 2.05)
++			0x1165d0(-972229942, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

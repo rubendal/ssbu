@@ -1,0 +1,14 @@
+diff --git "a/n_7.0.0/gaogaen/game_CatchDash.txt" "b/n_8.0.0/gaogaen/game_CatchDash.txt"
+index 8fa017c..f2b8894 100644
+--- "a/n_7.0.0/gaogaen/game_CatchDash.txt"
++++ "b/n_8.0.0/gaogaen/game_CatchDash.txt"
+@@ -1,5 +1,9 @@
++frame(Frame=1)
++FT_MOTION_RATE(FSM=0.8)
++frame(Frame=6)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=11)
+ if(is_excute){
+ 	GrabModule::set_rebound(CanCatchRebound=true)
+ }
+ frame(Frame=12)

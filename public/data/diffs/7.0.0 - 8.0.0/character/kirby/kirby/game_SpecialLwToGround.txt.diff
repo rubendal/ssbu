@@ -1,0 +1,17 @@
+diff --git "a/7.0.0/kirby/game_SpecialLwToGround.txt" "b/8.0.0/kirby/game_SpecialLwToGround.txt"
+index d9f1b27..f077fd4 100644
+--- "a/7.0.0/kirby/game_SpecialLwToGround.txt"
++++ "b/8.0.0/kirby/game_SpecialLwToGround.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_STONE, hash40("special_lw_to_ground"))
+ 	ArticleModule::change_motion()
+-	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=14.0, Angle=25, KBG=24, FKB=0, BKB=86, Size=6.0, X=0.0, Y=4.0, Z=6.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_BODY)
+-	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=14.0, Angle=25, KBG=24, FKB=0, BKB=86, Size=6.0, X=0.0, Y=4.0, Z=-6.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_BODY)
++	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=14.0, Angle=25, KBG=30, FKB=0, BKB=86, Size=6.0, X=0.0, Y=4.0, Z=6.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_BODY)
++	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=14.0, Angle=25, KBG=30, FKB=0, BKB=86, Size=6.0, X=0.0, Y=4.0, Z=-6.0, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_BODY)
+ 	AttackModule::init_attack_pos(0)
+ }
+ frame(Frame=2)
+ if(is_excute){
+ 	AttackModule::clear_all()

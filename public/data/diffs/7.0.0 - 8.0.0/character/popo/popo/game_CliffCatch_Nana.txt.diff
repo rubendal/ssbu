@@ -1,0 +1,12 @@
+diff --git "a/.0.0/popo/game_CliffCatch_Nana.txt" "b/.0.0/popo/game_CliffCatch_Nana.txt"
+index 4910889..40d7e8b 100644
+--- "a/.0.0/popo/game_CliffCatch_Nana.txt"
++++ "b/.0.0/popo/game_CliffCatch_Nana.txt"
+@@ -1,6 +1,6 @@
+-if(0x14c110(WorkModule::is_flag(FIGHTER_POPO_STATUS_CLIFF_CATCH_MOVE_FLAG_SPECIAL_HI_PARTNER), false, true)){
++if(0x14c4b0(WorkModule::is_flag(FIGHTER_POPO_STATUS_CLIFF_CATCH_MOVE_FLAG_SPECIAL_HI_PARTNER), false, true)){
+ 	if(is_excute){
+ 		WHOLE_HIT(HIT_STATUS_XLU)
+ 	}
+ }
+ frame(Frame=10)

@@ -1,0 +1,32 @@
+diff --git "a/g_7.0.0/inkling/game_EscapeN.txt" "b/g_8.0.0/inkling/game_EscapeN.txt"
+index f170757..ed9d495 100644
+--- "a/g_7.0.0/inkling/game_EscapeN.txt"
++++ "b/g_8.0.0/inkling/game_EscapeN.txt"
+@@ -6,12 +6,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule::motion_kind()
+ MotionModule::frame(hash40("0x00000002b0"))
+-MotionModule::rate(271506559)
+-as_hash__const(271506559, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(780876990)
++as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
+ if(is_excute){
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+@@ -19,11 +19,11 @@ if(is_excute){
+ 	StatusModule::status_kind()
+ 	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
+ 	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
+ }
+ get_value_float(0, SO_VAR_FLOAT_LR)
+-if(0x13cfa0(0, 0)){
++if(0x13d0e0(0, 0)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, hash40("escape_l"))
+ 		ArticleModule::change_motion()
+ 		get_value_float(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, SO_VAR_FLOAT_MOTION_RATE)
+ 		SET_RATE_ARTICLE(304)
