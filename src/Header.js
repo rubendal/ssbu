@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Icon from './assets/img/icon.png';
 import TIcon from './assets/img/t-icon.png';
-import KIcon from './assets/img/kofi.png';
-
 class Header extends Component {
     render() {
         return (
@@ -23,8 +21,8 @@ class Header extends Component {
                             </a>
                         </span>
                         <span id="additional-links">
-                        <a href="https://ko-fi.com/rubendal" target="_blank" rel="noopener noreferrer" className="hide-link" title="Donate">
-                                <img className="header-link-icon" src={KIcon} alt="Ko-fi - Donate" />
+                        <a href="https://rubendal.github.io/SSBU-Calculator/" target="_blank" rel="noopener noreferrer" className="hide-link" title="Smash Calculator">
+                                <img className="header-link-icon invert" src={Icon} alt="Smash Calculator" />
                             </a>
                         </span>
                         <span id="additional-links">

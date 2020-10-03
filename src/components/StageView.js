@@ -74,7 +74,7 @@ class StageView extends Component{
                     <h2 id="stage-name">{this.state.stage.stage.includes("Omega ") ? "Omega " + this.state.stage.name : this.state.stage.name}</h2>
                     <div className="stage-img-container">
                         <img className={`stage-view`} src={process.env.PUBLIC_URL + "/img/stages/" + this.state.stage.name
-                        .toLowerCase().replace(/\./g,"")
+                        .toLowerCase().replace(/\./g,"").replace(/\,/g,"")
                         + ".png"} alt={this.state.stage.name} />
                     </div>
                     {
