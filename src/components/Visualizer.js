@@ -29,6 +29,53 @@ const settings = {
 	}
 };
 
+const MaterialColors = {
+	Basic : "#008000",
+	Rock :  "#9e6c15", 
+	Grass :  "#00e673",
+	Soil :  "#c76538",
+	Wood :  "#c18c71", 
+	LightMetal :  "#b3b3b3", 
+	HeavyMetal :  "#595959", 
+	Carpet :  "#bd7575", 
+	Alien :  "#a06e6e", 
+	MasterFortress :  "#008000", 
+	Water :  "#1ad1ff", 
+	Soft :  "#ffcce6", 
+	TuruTuru :  "#d0ff61", 
+	Snow :  "#bdfffe", 
+	Ice :  "#00e6e2", 
+	GameWatch :  "#5b5757", 
+	Oil :  "#272525", 
+	Cardboard :  "#b8e39c", 
+	Damage1 :  "#b32400", 
+	Damage2 :  "#b32400", 
+	Damage3 :  "#b32400", 
+	Electroplankton :  "#58ff4d", 
+	Cloud :  "#fffcb3", 
+	Subspace :  "#008000", 
+	Brick :  "#ab823b", 
+	NoEffects :  "#e0e0e0", 
+	NES8Bit :  "#955b5b", 
+	Grate :  "#d092d9", 
+	Sand :  "#ffdf7f", 
+	Homerun :  "#008000", 
+	Asase_Earth :  "#008000", 
+	Hurt :  "#b32400", 
+	RingMat :  "#008000", 
+	Glass :  "#dfc333",
+	SlipMelee :  "#787878",
+	SpiritsPoison :  "#008000",
+	SpiritsFlame :  "#008000",
+	SpiritsShock :  "#008000",
+	SpiritsSleep :  "#008000",
+	SpiritsFreeze :  "#008000",
+	SpiritsAdhesion :  "#008000",
+	Ice_No_Slip :  "#7aebff",
+	Cloud_No_Through :  "#fbf893",
+	Mementos :  "#a544c1"
+};
+
 //Formulas
 
 function LineMidPoint(p1, p2) {
@@ -222,7 +269,7 @@ class Visualizer extends Component {
 						}else{
 							collisionText = materialType;
 							this.dataPoints.push(new DataPoint(LineMidPoint({ x: stage.collisions[i].vertex[j][0], y: stage.collisions[i].vertex[j][1] },
-								{ x: stage.collisions[i].vertex[j + 1][0], y: stage.collisions[i].vertex[j + 1][1] }), collisionText, settings.visualizer_colors.material));
+								{ x: stage.collisions[i].vertex[j + 1][0], y: stage.collisions[i].vertex[j + 1][1] }), collisionText, MaterialColors[materialType]));
 						}
 	
 						/*if ((collisionType === LineTypes.WALL || collisionType === LineTypes.CEILING) && stage.collisions[i].materials[j].length <= 7 && !stage.collisions[i].materials[j].noWallJump) {
@@ -412,6 +459,14 @@ class Visualizer extends Component {
 	
 					for (var i = 0; i < stage.collisions.length; i++) {
 						context.strokeStyle = settings.visualizer_colors.stage;
+
+						//var materialType = stage.collisions[i].materials[j].material;
+						//if(materialType === null)
+						//	context.strokeStyle = settings.visualizer_colors.stage;
+						//else
+						//	context.strokeStyle = MaterialColors[materialType];	
+
+						
 						context.beginPath();
 						for (var j = 0; j < stage.collisions[i].vertex.length - 1; j++) {
 							if (j === 0)
@@ -431,10 +486,19 @@ class Visualizer extends Component {
 						context.strokeStyle = settings.visualizer_colors.stage;
 						for (j = 0; j < stage.collisions[i].vertex.length - 1; j++) {
 	
-	
+							var materialType = stage.collisions[i].materials[j].material;
 							if (stage.collisions[i].materials[j].noWallJump) {
 								//Wall jump disabled walls
 								context.strokeStyle = settings.visualizer_colors.noWallJump;
+								context.beginPath();
+								this.MoveTo(stage.collisions[i].vertex[j][0], stage.collisions[i].vertex[j][1]);
+								this.LineTo(stage.collisions[i].vertex[j + 1][0], stage.collisions[i].vertex[j + 1][1]);
+								context.closePath();
+								context.stroke();
+							}
+							else if(materialType !== null){
+								//Terrains
+								context.strokeStyle = MaterialColors[materialType];
 								context.beginPath();
 								this.MoveTo(stage.collisions[i].vertex[j][0], stage.collisions[i].vertex[j][1]);
 								this.LineTo(stage.collisions[i].vertex[j + 1][0], stage.collisions[i].vertex[j + 1][1]);
@@ -494,6 +558,18 @@ class Visualizer extends Component {
 						for (i = 0; i < stage.platforms.length; i++) {
 
 							for (j = 0; j < stage.platforms[i].vertex.length - 1; j++) {
+
+								var materialType = stage.platforms[i].materials[j].material;
+								if(materialType !== null){
+									//Terrains
+									context.strokeStyle = MaterialColors[materialType];
+									context.beginPath();
+									this.MoveTo(stage.platforms[i].vertex[j][0], stage.platforms[i].vertex[j][1]);
+									this.LineTo(stage.platforms[i].vertex[j + 1][0], stage.platforms[i].vertex[j + 1][1]);
+									context.closePath();
+									context.stroke();
+								}
+
 								if(stage.platforms[i].materials[j].leftLedge){
 									context.fillStyle = settings.visualizer_colors.ledge;
 									context.beginPath();
