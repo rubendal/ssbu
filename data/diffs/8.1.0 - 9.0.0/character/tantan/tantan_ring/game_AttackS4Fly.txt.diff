@@ -1,0 +1,23 @@
+diff --git "a/_8.0.0/tantan_ring/game_AttackS4Fly.txt" "b/_9.0.0/tantan_ring/game_AttackS4Fly.txt"
+index fbcb46e..a560ca7 100644
+--- "a/_8.0.0/tantan_ring/game_AttackS4Fly.txt"
++++ "b/_9.0.0/tantan_ring/game_AttackS4Fly.txt"
+@@ -1,15 +1,15 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=0x0703d6cf75, Damage=4.0, Angle=30, KBG=90, FKB=0, BKB=40, Size=4.0, X=0.0, Y=2.0, Z=0.0, X2=0.0, Y2=-2.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_OBJECT)
+ 	AttackModule::enable_safe_pos()
+ }
+-if(0x3a1870(WorkModule::is_flag(53512), false, true)){
+-	0x3a1870(WorkModule::is_flag(53592), false, true)
++if(0x3a06b0(WorkModule::is_flag(54012), false, true)){
++	0x3a06b0(WorkModule::is_flag(54092), false, true)
+ }
+ else{
+-	if(0x3a1870(WorkModule::is_flag(53592), false, true)){
++	if(0x3a06b0(WorkModule::is_flag(54092), false, true)){
+ 		frame(Frame=11)
+ 		if(is_excute){
+ 			AttackModule::clear_all()
+ 		}
+ 	}

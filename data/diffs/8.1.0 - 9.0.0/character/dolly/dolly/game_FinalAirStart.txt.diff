@@ -1,0 +1,27 @@
+diff --git "a/8.0.0/dolly/game_FinalAirStart.txt" "b/9.0.0/dolly/game_FinalAirStart.txt"
+index e0ff7e3..7bdb5cf 100644
+--- "a/8.0.0/dolly/game_FinalAirStart.txt"
++++ "b/9.0.0/dolly/game_FinalAirStart.txt"
+@@ -1,20 +1,20 @@
+ if(is_excute){
+ 	FT_SET_FINAL_SMASH_LIGHT(true)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(15, 40)
+ }
+-if(0x24c260(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x24c8d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(40)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x24c260(-1369892766, 2.1)
++			0x24c8d0(-637461501, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

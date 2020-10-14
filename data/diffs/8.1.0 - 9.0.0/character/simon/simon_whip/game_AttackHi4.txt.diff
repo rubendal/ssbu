@@ -1,0 +1,29 @@
+diff --git "a/8.0.0/simon_whip/game_AttackHi4.txt" "b/9.0.0/simon_whip/game_AttackHi4.txt"
+index 150ff01..dac206b 100644
+--- "a/8.0.0/simon_whip/game_AttackHi4.txt"
++++ "b/9.0.0/simon_whip/game_AttackHi4.txt"
+@@ -21,12 +21,10 @@ as_pointer__const(4, 5, 10, 11)
+ set_node_fix_flag_list_app::Weapon__int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int_int()
+ frame(Frame=5)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=13)
+ FT_MOTION_RATE(FSM=0.5)
+-frame(Frame=16)
+-FT_MOTION_RATE(FSM=1)
+ frame(Frame=19)
+ if(is_excute){
+ 	PhysicsModule::set_2nd_status(PH2NDARY_CRAW_NONE)
+ 	battle_object()
+ 	L2CValue()
+@@ -35,10 +33,11 @@ else{
+ 	L2CValue_lib::L2CValueconst()
+ }
+ as_pointer__const()
+ reset_node_fix_flag_list_app::Weapon()
+ frame(Frame=21)
++FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	PhysicsModule::set_2nd_status(PH2NDARY_CRAW_COLLIDE)
+ }
+ frame(Frame=52)
+ if(is_excute){

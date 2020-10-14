@@ -1,0 +1,32 @@
+diff --git "a/g_8.0.0/inkling/game_CatchDash.txt" "b/g_9.0.0/inkling/game_CatchDash.txt"
+index 2a03d61..8a99e12 100644
+--- "a/g_8.0.0/inkling/game_CatchDash.txt"
++++ "b/g_9.0.0/inkling/game_CatchDash.txt"
+@@ -6,12 +6,12 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule::motion_kind()
+ MotionModule::frame(0x00000002b0)
+-MotionModule::rate(780876990)
+-as_hash__const(780876990, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(989672188)
++as_hash__const(989672188, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
+ if(is_excute){
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+@@ -19,11 +19,11 @@ if(is_excute){
+ 	StatusModule::status_kind()
+ 	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
+ 	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
+ }
+ get_value_float(0, SO_VAR_FLOAT_LR)
+-if(0x13d0e0(0, 0)){
++if(0x13d330(0, 0)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, hash40("catch_dash_l"))
+ 		ArticleModule::change_motion()
+ 	}
+ 	else{

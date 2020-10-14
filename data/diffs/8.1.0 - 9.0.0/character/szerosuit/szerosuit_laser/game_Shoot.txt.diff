@@ -1,0 +1,17 @@
+diff --git "a/uit_8.0.0/szerosuit_laser/game_Shoot.txt" "b/uit_9.0.0/szerosuit_laser/game_Shoot.txt"
+index ffec74c..bec8cb7 100644
+--- "a/uit_8.0.0/szerosuit_laser/game_Shoot.txt"
++++ "b/uit_9.0.0/szerosuit_laser/game_Shoot.txt"
+@@ -4,11 +4,11 @@ if(is_excute){
+ 	as_hash__const(hash40("rbkind_explosionl"), 10, false)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=60)
+ if(is_excute){
+-	as_hash__const(0x11166078cd, 0, true)
++	as_hash__const(hash40("rbkind_loopattack"), 0, true)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=230)
+ if(is_excute){
+ 	as_hash__const(hash40("rbkind_erase"), 0, false)

@@ -1,0 +1,16 @@
+diff --git "a/_8.0.0/tantan/game_SpecialAirNStart.txt" "b/_9.0.0/tantan/game_SpecialAirNStart.txt"
+index dc861c2..947f886 100644
+--- "a/_8.0.0/tantan/game_SpecialAirNStart.txt"
++++ "b/_9.0.0/tantan/game_SpecialAirNStart.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+-	ArticleModule::generate_article(19956)
+-	ArticleModule::set_visibility_whole(19956, false)
++	ArticleModule::generate_article(20464)
++	ArticleModule::set_visibility_whole(20464, false)
+ }
+ frame(Frame=3)
+ if(is_excute){
+-	ArticleModule::set_visibility_whole(19956, true)
++	ArticleModule::set_visibility_whole(20464, true)
+ }
