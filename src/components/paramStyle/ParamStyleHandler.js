@@ -6,7 +6,7 @@ export const StyleList = ["default", "1", "2", "3", "hide"];
 
 export default class ParamStyleHandler {
     constructor(getStyle, setStyle) {
-        this.paramNames = ["ID", "Part", "Bone", "Damage", "Angle", "KBG", "FKB", "BKB", "Size", "X", "Y", "Z", "X2", "Y2", "Z2", "Hitlag", "SDI", "Clang/Rebound", "FacingRestrict", "SetWeight", "ShieldDamage", "Trip", "Rehit", "Reflectable", "Absorbable", "Flinchless", "DisableHitlag", "Direct/Indirect", "Ground/Air", "Hitbits", "CollisionPart", "FriendlyFire", "Effect", "SFXLevel", "SFXType", "Type"];
+        this.paramNames = ["ID", "Part", "Bone", "Damage", "Angle", "KBG", "FKB", "BKB", "Size", "X", "Y", "Z", "X2", "Y2", "Z2", "Hitlag", "SDI", "Clang_Rebound", "FacingRestrict", "SetWeight", "ShieldDamage", "Trip", "Rehit", "Reflectable", "Absorbable", "Flinchless", "DisableHitlag", "Direct_Hitbox", "Ground_or_Air", "Hitbits", "CollisionPart", "FriendlyFire", "Effect", "SFXLevel", "SFXType", "Type"];
         this.localStorageKey = "ssbu-param-styles";
         this.getStyle = getStyle;
         this.setStyle = setStyle;
