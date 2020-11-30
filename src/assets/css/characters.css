@@ -168,7 +168,7 @@ td{
   font-family: sans-serif;
 }
 
-.script-param-content:hover + .description {
+.script-param-content:focus + .description {
   display: inline-block;
   z-index: 1;
   top: 20px;

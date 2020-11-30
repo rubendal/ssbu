@@ -36,7 +36,7 @@ function ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyl
         className += ` param-style-${paramStyles[paramName]}`
     }
     return `<span class='script-param ${className}'>
-  <span class='script-param-content'>
+  <span class='script-param-content' tabindex='-1'>
     ${paramName}${equal}<span class='script-param-value'>${value}</span>
   </span><div class='description'>
     ${GetDescriptionForParam(paramName)}
