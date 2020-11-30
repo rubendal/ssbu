@@ -165,6 +165,7 @@ td{
   display: none;
   position: absolute;
   background-color: lightyellow;
+  font-family: sans-serif;
 }
 
 .script-param-content:hover + .description {
