@@ -1,0 +1,26 @@
+diff --git "a/8.0.0/yoshi/game_FinalAirStart.txt" "b/9.0.0/yoshi/game_FinalAirStart.txt"
+index 51d3978..94fb4aa 100644
+--- "a/8.0.0/yoshi/game_FinalAirStart.txt"
++++ "b/9.0.0/yoshi/game_FinalAirStart.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(12, 44)
+ }
+-if(0x101b40(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x101b50(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x101b40(1916968605, 2)
++			0x101b50(1664154431, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

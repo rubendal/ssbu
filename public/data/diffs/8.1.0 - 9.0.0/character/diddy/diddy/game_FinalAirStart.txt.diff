@@ -1,0 +1,17 @@
+diff --git "a/8.0.0/diddy/game_FinalAirStart.txt" "b/9.0.0/diddy/game_FinalAirStart.txt"
+index d29f564..95ddc17 100644
+--- "a/8.0.0/diddy/game_FinalAirStart.txt"
++++ "b/9.0.0/diddy/game_FinalAirStart.txt"
+@@ -9,11 +9,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x148970(1485675813, 2.1)
++			0x1483f0(26198417, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

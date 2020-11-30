@@ -1,0 +1,66 @@
+diff --git "a/nt_8.0.0/duckhunt/game_FinalStart.txt" "b/nt_9.0.0/duckhunt/game_FinalStart.txt"
+index 39fab5c..870a1bc 100644
+--- "a/nt_8.0.0/duckhunt/game_FinalStart.txt"
++++ "b/nt_9.0.0/duckhunt/game_FinalStart.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(4, 30)
+ }
+-if(0x119970(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x119980(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_DUCKHUNT_GENERATE_ARTICLE_FINALDUCK)
+ 		SlowModule::set_whole(10, 0)
+ 		FT_SET_FINAL_FEAR_FACE(60)
+@@ -23,32 +23,32 @@ else{
+ 		ArticleModule::generate_article(FIGHTER_DUCKHUNT_GENERATE_ARTICLE_FINALDUCK)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x119970(0, 0)){
++if(0x119980(0, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
+ 		PostureModule::scale(4, 0)
+-		0x119970(1863214753, 2)
++		0x119980(1870015714, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 10, 0)
+ 			PostureModule::scale(4, 0)
+-			0x119970(1863214753, 2)
++			0x119980(1870015714, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	SlowModule::clear_whole()
+ }
+ frame(Frame=23)
+-if(0x119970(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x119980(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	if(is_excute){
+ 		SlowModule::set_whole(30, 0)
+ 	}
+ }
+ if(is_excute){
+@@ -57,11 +57,11 @@ if(is_excute){
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	SlowModule::clear_whole()
+ }
+-0x119970(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
++0x119980(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ frame(Frame=26)
+ if(is_excute){

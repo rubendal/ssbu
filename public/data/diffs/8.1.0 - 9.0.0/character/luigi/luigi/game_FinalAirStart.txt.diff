@@ -1,0 +1,17 @@
+diff --git "a/8.0.0/luigi/game_FinalAirStart.txt" "b/9.0.0/luigi/game_FinalAirStart.txt"
+index ee450c0..feb28c3 100644
+--- "a/8.0.0/luigi/game_FinalAirStart.txt"
++++ "b/9.0.0/luigi/game_FinalAirStart.txt"
+@@ -14,11 +14,11 @@ if(method.lib::L2CValue.operator__lib::L2CValueconst__const(0, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0xe2720(-1401622271, 1.8)
++			0xe2730(106349022, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

@@ -18,7 +18,11 @@ class StageList extends Component {
       this.path = `#/Patch/${this.state.patch}/Stage/`;
     }
 
-    axios.get(process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stages.json').then(function (res) {
+    var url = process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stages.json';
+    if(this.state.patch === "9.0.0") //Github pages was returning error 404 for some reason with stages.json
+      url = process.env.PUBLIC_URL + '/data/patch/' + this.state.patch + '/stage.json';
+
+    axios.get(url).then(function (res) {
       var json = res.data;
 
       var list = json.sort((x, y) => {

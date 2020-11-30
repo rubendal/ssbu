@@ -1,0 +1,16 @@
+diff --git "a/8.0.0/shulk/game_AttackHi4.txt" "b/9.0.0/shulk/game_AttackHi4.txt"
+index 743faa5..2b05a8f 100644
+--- "a/8.0.0/shulk/game_AttackHi4.txt"
++++ "b/9.0.0/shulk/game_AttackHi4.txt"
+@@ -6,10 +6,11 @@ frame(Frame=18)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=4.5, Angle=92, KBG=40, FKB=70, BKB=0, Size=4.5, X=0.0, Y=12.0, Z=0.5, X2=0.0, Y2=10.0, Z2=0.5, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_SWORD)
+ 	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=4.5, Angle=95, KBG=100, FKB=60, BKB=0, Size=3.9, X=0.0, Y=17.0, Z=0.5, X2=0.0, Y2=10.0, Z2=0.5, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_SWORD)
+ 	ATTACK(ID=2, Part=0, Bone=hash40("top"), Damage=4.5, Angle=112, KBG=100, FKB=92, BKB=0, Size=4.0, X=0.0, Y=5.0, Z=-7.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_SWORD)
+ 	ATTACK(ID=3, Part=0, Bone=hash40("top"), Damage=4.5, Angle=112, KBG=100, FKB=92, BKB=0, Size=4.0, X=0.0, Y=5.0, Z=9.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_PUNCH, Type=ATTACK_REGION_SWORD)
++	AttackModule::set_add_reaction_frame(ID=0, Frames=3, Unk=false)
+ }
+ frame(Frame=22)
+ if(is_excute){
+ 	AttackModule::clear(ID=2)
+ 	AttackModule::clear(ID=3)

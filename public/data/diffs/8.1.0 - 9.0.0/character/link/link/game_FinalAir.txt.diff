@@ -1,0 +1,37 @@
+diff --git "a/.0.0/link/game_FinalAir.txt" "b/.0.0/link/game_FinalAir.txt"
+index cece584..6fe6c3d 100644
+--- "a/.0.0/link/game_FinalAir.txt"
++++ "b/.0.0/link/game_FinalAir.txt"
+@@ -1,29 +1,29 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	SLOW_OPPONENT(30, 100)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ }
+-if(0x110ae0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0x118f80(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04final.nuanmb"), false, true)
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x110ae0(57267195, 1.8)
++			0x118f80(725556978, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, -5, -2, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=30)
+-0x110ae0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
++0x118f80(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ frame(Frame=60)
+ if(is_excute){

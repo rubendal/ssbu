@@ -1,0 +1,17 @@
+diff --git "a/_8.0.0/wiifit/game_FinalAirStart.txt" "b/_9.0.0/wiifit/game_FinalAirStart.txt"
+index 248eaf3..a03dbb8 100644
+--- "a/_8.0.0/wiifit/game_FinalAirStart.txt"
++++ "b/_9.0.0/wiifit/game_FinalAirStart.txt"
+@@ -9,11 +9,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x12a920(-554866309, 1.8)
++			0x12ab70(2011701999, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

@@ -1,0 +1,14 @@
+diff --git "a/8.0.0/sonic/game_AttackHi3.txt" "b/9.0.0/sonic/game_AttackHi3.txt"
+index dc54c8c..3f5fefb 100644
+--- "a/8.0.0/sonic/game_AttackHi3.txt"
++++ "b/9.0.0/sonic/game_AttackHi3.txt"
+@@ -20,5 +20,9 @@ if(is_excute){
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++frame(Frame=28)
++FT_MOTION_RATE(FSM=0.6)
++frame(Frame=38)
++FT_MOTION_RATE(FSM=1)

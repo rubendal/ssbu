@@ -1,0 +1,16 @@
+diff --git "a/_8.0.0/tantan/game_SpecialAirHiEnd2.txt" "b/_9.0.0/tantan/game_SpecialAirHiEnd2.txt"
+index 406372c..c30c9b8 100644
+--- "a/_8.0.0/tantan/game_SpecialAirHiEnd2.txt"
++++ "b/_9.0.0/tantan/game_SpecialAirHiEnd2.txt"
+@@ -7,10 +7,10 @@ if(is_excute){
+ 	HIT_NO(12, HIT_STATUS_NORMAL)
+ 	HIT_NO(13, HIT_STATUS_NORMAL)
+ 	HIT_NO(19, HIT_STATUS_NORMAL)
+ }
+ frame(0, 3)
+-if(0x3a1870(WorkModule::is_flag(53284), false, true)){
++if(0x3a06b0(WorkModule::is_flag(53784), false, true)){
+ 	if(is_excute){
+ 		AttackModule::clear_all()
+ 	}
+ }

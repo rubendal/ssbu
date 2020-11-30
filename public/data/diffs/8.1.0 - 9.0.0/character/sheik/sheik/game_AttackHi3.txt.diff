@@ -1,0 +1,18 @@
+diff --git "a/8.0.0/sheik/game_AttackHi3.txt" "b/9.0.0/sheik/game_AttackHi3.txt"
+index 8c7816f..31d7240 100644
+--- "a/8.0.0/sheik/game_AttackHi3.txt"
++++ "b/9.0.0/sheik/game_AttackHi3.txt"
+@@ -1,10 +1,13 @@
+ frame(Frame=5)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=hash40("legr"), Damage=3.0, Angle=0, KBG=80, FKB=30, BKB=0, Size=3.5, X=4.0, Y=-0.3, Z=0.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=0.5, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=1, Part=0, Bone=hash40("kneer"), Damage=3.0, Angle=330, KBG=80, FKB=28, BKB=0, Size=5.5, X=2.5, Y=-0.1, Z=0.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=0.5, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
+ 	ATTACK(ID=2, Part=0, Bone=hash40("legr"), Damage=3.0, Angle=75, KBG=80, FKB=40, BKB=0, Size=4.5, X=0.4, Y=0.0, Z=0.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=0.5, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_KICK, Type=ATTACK_REGION_KICK)
++	AttackModule::set_add_reaction_frame(ID=0, Frames=2, Unk=false)
++	AttackModule::set_add_reaction_frame(ID=1, Frames=2, Unk=false)
++	AttackModule::set_add_reaction_frame(ID=2, Frames=2, Unk=false)
+ }
+ wait(Frames=4)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }

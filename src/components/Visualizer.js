@@ -25,7 +25,8 @@ const settings = {
 		respawn: '#000000',
 		item: '#AA0077',
 		material: '#000000',
-		ledge: '#856a0b'
+		ledge: '#856a0b',
+		steve: '#000000'
 	}
 };
 
@@ -303,7 +304,7 @@ class Visualizer extends Component {
 
 							collisionText = materialType + " - " + stage.platforms[i].name;
 							this.dataPoints.push(new DataPoint(LineMidPoint({ x: stage.platforms[i].vertex[j][0], y: stage.platforms[i].vertex[j][1] },
-								{ x: stage.platforms[i].vertex[j + 1][0], y: stage.platforms[i].vertex[j + 1][1] }), collisionText, settings.visualizer_colors.material));
+								{ x: stage.platforms[i].vertex[j + 1][0], y: stage.platforms[i].vertex[j + 1][1] }), collisionText, MaterialColors[materialType]));
 	
 
 	
@@ -617,7 +618,23 @@ class Visualizer extends Component {
 					context.closePath();
 					context.stroke();
 				}
+/*
+					context.strokeStyle = settings.visualizer_colors.steve;
+					context.beginPath();
+					
 
+					var block_max_up = Math.ceil(((stage.blast_zones[2] - stage.camera[2]) + 60) * .5 / 10) * 10;
+					var block_max_down = Math.ceil(((stage.blast_zones[3] - stage.camera[3]) - 30) * .5 / 10) * 10;
+
+					console.log(block_max_up, block_max_down);
+
+					this.MoveTo(stage.camera[0]+30, block_max_up);
+					this.LineTo(stage.camera[1]-30, block_max_up);
+					this.LineTo(stage.camera[1]-30, block_max_down);
+					this.LineTo(stage.camera[0]+30, block_max_down);
+					context.closePath();
+					context.stroke();
+				*/
 
 					context.lineWidth = 0.75;
 					context.globalAlpha = 0.5;

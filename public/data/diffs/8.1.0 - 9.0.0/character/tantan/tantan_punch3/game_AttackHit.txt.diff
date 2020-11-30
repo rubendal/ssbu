@@ -1,0 +1,11 @@
+diff --git "a/_8.0.0/tantan_punch3/game_AttackHit.txt" "b/_9.0.0/tantan_punch3/game_AttackHit.txt"
+index 1c30e03..53d0c3d 100644
+--- "a/_8.0.0/tantan_punch3/game_AttackHit.txt"
++++ "b/_9.0.0/tantan_punch3/game_AttackHit.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+ 	QUAKE(CAMERA_QUAKE_KIND_S)
+-	as_hash__const(0x0db75641a5, 0, false)
++	as_hash__const(hash40("rbkind_slashl"), 0, false)
+ 	ControlModule::set_rumble()
+ }

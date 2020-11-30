@@ -1,0 +1,13 @@
+diff --git "a/_8.0.0/samusd/game_Final.txt" "b/_9.0.0/samusd/game_Final.txt"
+index 1a71ffb..07af52f 100644
+--- "a/_8.0.0/samusd/game_Final.txt"
++++ "b/_9.0.0/samusd/game_Final.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(FIGHTER_SAMUSD_GENERATE_ARTICLE_LASER2)
+-if(0x111f00(false, false)){
++if(0x112280(false, false)){
+ 	if(is_excute){
+ 		ArticleModule::shoot(FIGHTER_SAMUSD_GENERATE_ARTICLE_LASER, ARTICLE_OPE_TARGET_ALL, false)
+ 		WorkModule::set_float(14, FIGHTER_SAMUS_STATUS_FINAL_WORK_FLOAT_OY)
+ 		ArticleModule::generate_article(FIGHTER_SAMUSD_GENERATE_ARTICLE_LASER2)
+ 		WorkModule::set_float(-14, FIGHTER_SAMUS_STATUS_FINAL_WORK_FLOAT_OY)

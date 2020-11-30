@@ -1,0 +1,15 @@
+diff --git "a/.0.0/popo/game_SpecialAirS1.txt" "b/.0.0/popo/game_SpecialAirS1.txt"
+index 3b61c57..df04c0c 100644
+--- "a/.0.0/popo/game_SpecialAirS1.txt"
++++ "b/.0.0/popo/game_SpecialAirS1.txt"
+@@ -99,9 +99,9 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_POPO_STATUS_SPECIAL_S_FLAG_NORMAL_FALL)
+ }
+ if(is_excute){
+ 	KineticModule::change_kinetic(FIGHTER_KINETIC_TYPE_POPO_SPECIAL_AIR_S_END)
+ }
+-frame(Frame=61)
++frame(Frame=55)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }

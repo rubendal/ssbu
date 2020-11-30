@@ -1,0 +1,22 @@
+diff --git "a/_8.0.0/tantan/game_SpecialHiLong.txt" "b/_9.0.0/tantan/game_SpecialHiLong.txt"
+index 90bc5e3..330b41b 100644
+--- "a/_8.0.0/tantan/game_SpecialHiLong.txt"
++++ "b/_9.0.0/tantan/game_SpecialHiLong.txt"
+@@ -1,13 +1,13 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	HIT_NODE(hash40("handr"), HIT_STATUS_XLU)
+-	HIT_NODE(0x05a8f346d3, HIT_STATUS_XLU)
+-	HIT_NODE(0x05dff47645, HIT_STATUS_XLU)
++	HIT_NODE(hash40("armr5"), HIT_STATUS_XLU)
++	HIT_NODE(hash40("armr4"), HIT_STATUS_XLU)
+ 	HIT_NODE(hash40("handl"), HIT_STATUS_XLU)
+-	HIT_NODE(0x057cb2790c, HIT_STATUS_XLU)
+-	HIT_NODE(0x050bb5499a, HIT_STATUS_XLU)
++	HIT_NODE(hash40("arml5"), HIT_STATUS_XLU)
++	HIT_NODE(hash40("arml4"), HIT_STATUS_XLU)
+ }
+ frame(Frame=4)
+ if(is_excute){
+ 	HIT_NO(2, HIT_STATUS_OFF)
+ 	HIT_NO(3, HIT_STATUS_OFF)

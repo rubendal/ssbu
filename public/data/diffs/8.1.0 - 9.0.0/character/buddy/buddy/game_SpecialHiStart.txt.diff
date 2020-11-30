@@ -1,0 +1,13 @@
+diff --git "a/8.0.0/buddy/game_SpecialHiStart.txt" "b/9.0.0/buddy/game_SpecialHiStart.txt"
+index cfcc9d3..f059ca3 100644
+--- "a/8.0.0/buddy/game_SpecialHiStart.txt"
++++ "b/9.0.0/buddy/game_SpecialHiStart.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(FIGHTER_BUDDY_GENERATE_ARTICLE_PAD)
+-if(0x184720(false, true)){
++if(0x184a20(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::remove_exist(FIGHTER_BUDDY_GENERATE_ARTICLE_PAD)
+ 	}
+ }
+ if(is_excute){

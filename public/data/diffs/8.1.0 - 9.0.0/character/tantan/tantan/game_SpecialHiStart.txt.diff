@@ -1,0 +1,28 @@
+diff --git "a/_8.0.0/tantan/game_SpecialHiStart.txt" "b/_9.0.0/tantan/game_SpecialHiStart.txt"
+index e22d115..3431711 100644
+--- "a/_8.0.0/tantan/game_SpecialHiStart.txt"
++++ "b/_9.0.0/tantan/game_SpecialHiStart.txt"
+@@ -1,17 +1,17 @@
+ frame(Frame=1)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=53236)
++	WorkModule::on_flag(Flag=53736)
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	HIT_NODE(hash40("handr"), HIT_STATUS_XLU)
+-	HIT_NODE(0x05a8f346d3, HIT_STATUS_XLU)
+-	HIT_NODE(0x05dff47645, HIT_STATUS_XLU)
++	HIT_NODE(hash40("armr5"), HIT_STATUS_XLU)
++	HIT_NODE(hash40("armr4"), HIT_STATUS_XLU)
+ 	HIT_NODE(hash40("handl"), HIT_STATUS_XLU)
+-	HIT_NODE(0x057cb2790c, HIT_STATUS_XLU)
+-	HIT_NODE(0x050bb5499a, HIT_STATUS_XLU)
++	HIT_NODE(hash40("arml5"), HIT_STATUS_XLU)
++	HIT_NODE(hash40("arml4"), HIT_STATUS_XLU)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	WorkModule::off_flag(Flag=53236)
++	WorkModule::off_flag(Flag=53736)
+ }
