@@ -153,6 +153,28 @@ td{
   display: none;
 }
 
+.script-param-content {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.script-param {
+  position: relative;
+}
+.script-param .description {
+  display: none;
+  position: absolute;
+  background-color: lightyellow;
+}
+
+.script-param-content:hover + .description {
+  display: inline-block;
+  z-index: 1;
+  top: 20px;
+  left: 0px;
+  width: 300px;
+}
+
 .script-container {
   display: flex;
   flex-direction: row;

@@ -35,7 +35,13 @@ function ReplaceScriptParam(match, p1, p2, p3, p4, p5, offset, string, paramStyl
     if (paramName in paramStyles) {
         className += ` param-style-${paramStyles[paramName]}`
     }
-    return `<span class='${className}'><span class='script-param-content'>${paramName}${equal}<span class='script-param-value'>${value}</span></span>${comma}</span>${closeParen}`
+    return `<span class='script-param ${className}'>
+  <span class='script-param-content'>
+    ${paramName}${equal}<span class='script-param-value'>${value}</span>
+  </span><div class='description'>
+    ${GetDescriptionForParam(paramName)}
+  </div>${comma}
+</span>${closeParen}`
 }
 
 function FormatScript(script, paramStyles) {
@@ -248,4 +254,25 @@ export function ParseHurtboxState(state) {
         default:
             return "";
     }
+}
+
+function GetDescriptionForParam(paramName) {
+  const descriptions = {
+    ID: "Hitbox identifier,<br/>hitbox priority is defined by this value with 0 being the highest priority",
+    Part: "Group hitbox is defined into, hitboxes with different part values are considered separate and can hit a single opponent even if another hitbox has landed and hasn't been removed",
+    BKB: "Base KnockBack,<br/>minimum amount of knockback done regardless of damage and percent",
+    FKB: "Fixed KnockBack,<br/>previously known as WBKB (Weight Based KnockBack), if it's not 0 the knockback formula uses this value as opponent's percent and ignores move damage, these moves will deal the same knockback regardless of their damage and percentage the opponent has but still varies by opponent's weight",
+    KBG: "KnockBack Growth,<br/>in the knockback formula describes how much damage and percent scales",
+    SFXType: "Sound Effect,<br/>represents the ID of the sound file to use when hitbox connects",
+    Hitbits: "Value where each bit enables it to hit certain hurtboxes like characters, stage elements, items and enemies",
+    Rehit: "If it's not 0 it's the amount of frames a hitbox can hit again an opponent",
+    FriendlyFire: "Flag used for hitboxes that can hit user and teammates even with friendly fire enabled", // "Team Damage" in Glossary
+    Flinchless: "Flag used on hitboxes to not make characters get damage animations nor hitstun but will still receive launch speed, also known as windboxes",
+    DisableHitlag: "Flag that makes hitlag = 0 regardless of damage and hitlag multipliers when enabled",
+    X2: "Stretch coordinate for extended hitboxes",
+    Y2: "Stretch coordinate for extended hitboxes",
+    Z2: "Stretch coordinate for extended hitboxes",
+    SetWeight: "Hitbox property that ignores opponent's weight on KB calculation, when enabled every character hit with this hitbox will have their weight set to 100",
+  };
+  return descriptions[paramName] || "no description";
 }
