@@ -37,9 +37,13 @@ function GetDescriptionForParam(paramName, value) {
         case "Bone":
             return "";
         case "Damage":
-            return "";
+            return "Damage dealt to the opponent";
         case "Angle":
-            return "";
+            return <span>
+              The Angle the opponent is sent.<br/>
+              Angles larger than 360 has special meanings
+              (see <a href="https://www.ssbwiki.com/Angle" target="_blank">SmashWiki</a> for details)
+            </span>;
         case "BKB":
             return (<span>
               Base KnockBack,<br/>
@@ -69,9 +73,12 @@ function GetDescriptionForParam(paramName, value) {
         case "Z2":
             return "Stretch coordinate for extended hitboxes";
         case "Hitlag":
-            return "";
+            return "Multiplier for HitLag";
         case "SDI":
-            return "";
+            return (<span>
+              Multiplier for Smash Directional Influence,<br/>
+              easy to SDI if the value is larger than 1.0
+            </span>);
         case "Clang_Rebound":
             return "";
         case "FacingRestrict":
