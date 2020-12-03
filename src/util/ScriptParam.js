@@ -35,21 +35,33 @@ function GetDescriptionForParam(paramName, value) {
     switch (paramName) {
         case "ID":
             return (<span>
-              Hitbox identifier,<br/>
-              hitbox priority is defined by this value with 0 being the highest priority
-            </span>);
+                  Hitbox identifier,<br/>
+                  hitbox priority is defined by this value with 0 being the highest priority
+                </span>);
         case "Part":
             return "Group hitbox is defined into, hitboxes with different part values are considered separate and can hit a single opponent even if another hitbox has landed and hasn't been removed";
         case "Bone":
-            return "";
+            return (<span>
+              A part of the user which determines the axes for hitboxes
+              in
+              <span className="description-script">X</span>,
+              <span className="description-script">Y</span>,
+              <span className="description-script">Z</span>
+              .<br/>
+              Examples of values:
+              <span className="description-script">top</span>,
+              <span className="description-script">head</span>,
+              <span className="description-script">armr</span>(meaning right arm),
+              <span className="description-script">sword</span>
+            </span>);
         case "Damage":
             return "Damage dealt to the opponent";
         case "Angle":
-            return <span>
+            return (<span>
               The Angle the opponent is sent.<br/>
               Angles larger than 360 has special meanings
               (see <a href="https://www.ssbwiki.com/Angle" target="_blank">SmashWiki</a> for details)
-            </span>;
+            </span>);
         case "BKB":
             return (<span>
               Base KnockBack,<br/>
@@ -86,7 +98,7 @@ function GetDescriptionForParam(paramName, value) {
               easy to SDI if the value is larger than 1.0
             </span>);
         case "Clang_Rebound":
-            return "";
+            return "no description";
         case "FacingRestrict":
             candidateList = [
                 ["ATTACK_LR_CHECK_POS", "no description"],
@@ -100,21 +112,21 @@ function GetDescriptionForParam(paramName, value) {
         case "SetWeight":
             return "Hitbox property that ignores opponent's weight on KB calculation, when enabled every character hit with this hitbox will have their weight set to 100";
         case "ShieldDamage":
-            return "";
+            return "Additional damage for opponent's shield.";
         case "Trip":
-            return "";
+            return "Probability of the opponent tripping";
         case "Rehit":
             return "If it's not 0 it's the amount of frames a hitbox can hit again an opponent";
         case "Reflectable":
-            return "";
+            return "If true, the attack is refelectable (e.g. by Fox's down special)";
         case "Absorbable":
-            return "";
+            return "If true, the attack is absorbable (e.g. by Ness' down special)";
         case "Flinchless":
             return "Flag used on hitboxes to not make characters get damage animations nor hitstun but will still receive launch speed, also known as windboxes";
         case "DisableHitlag":
             return "Flag that makes hitlag = 0 regardless of damage and hitlag multipliers when enabled";
         case "Direct_Hitbox":
-            return "";
+            return "no description";
         case "Ground_or_Air":
             candidateList = [
                 ["COLLISION_SITUATION_MASK_A", "hits opponents in air"],
@@ -129,19 +141,19 @@ function GetDescriptionForParam(paramName, value) {
         case "Hitbits":
             return "Value where each bit enables it to hit certain hurtboxes like characters, stage elements, items and enemies";
         case "CollisionPart":
-            return "";
+            return "no description";
         case "FriendlyFire":
             return "Flag used for hitboxes that can hit user and teammates even with friendly fire enabled"; // "Team Damage" in Glossary
         case "Effect":
-            return "";
+            return "no description";
         case "SFXLevel":
-            return "";
+            return "Loudness of the Sound Effect";
         case "SFXType":
             return (<span>
               Sound Effect,<br/>represents the ID of the sound file to use when hitbox connects
             </span>);
         case "Type":
-            return "";
+            return "no description";
         default:
             return "no description";
     }
