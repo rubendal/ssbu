@@ -170,6 +170,13 @@ td{
 
 .script-param .description .description-script {
   font-family: 'Ubuntu Mono', monospace;
+  background: rgb(240, 240, 240);
+  color: rgb(68, 68, 68);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-bottom: 0;
+  margin-bottom: 4px;
+  margin-right: 2px;
 }
 
 .script-param-content:focus + .description {

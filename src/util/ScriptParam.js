@@ -67,11 +67,11 @@ function GetDescriptionForParam(paramName) {
         DisableHitlag: "Flag that makes hitlag = 0 regardless of damage and hitlag multipliers when enabled",
         Direct_Hitbox: "",
         Ground_or_Air: (<span>
-          <span class='description-script'>COLLISION_SITUATION_MASK_A</span>
+          <span className='description-script'>COLLISION_SITUATION_MASK_A</span>
           hits opponents in air<br/>
-          <span class='description-script'>COLLISION_SITUATION_MASK_G</span>
+          <span className='description-script'>COLLISION_SITUATION_MASK_G</span>
           hits opponents on ground<br/>
-          <span class='description-script'>COLLISION_SITUATION_MASK_GA</span>
+          <span className='description-script'>COLLISION_SITUATION_MASK_GA</span>
           hits opponents both in air and on ground
         </span>),
         Hitbits: "Value where each bit enables it to hit certain hurtboxes like characters, stage elements, items and enemies",
