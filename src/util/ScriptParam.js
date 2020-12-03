@@ -31,6 +31,8 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
 }
 
 function GetDescriptionForParam(paramName, value) {
+    // paramName: string, value: string
+    // 'value' is the current value given for the parameter 'paramName'
     let candidateList;
     switch (paramName) {
         case "ID":
@@ -173,6 +175,7 @@ function DescribeCandidate(candidate, description, value) {
 }
 
 function DescribeCandidateList(candidateList, value) {
+    // 'value' is the current value which will be highlighted in the description
     return candidateList.map(([candidate, description]) =>
         DescribeCandidate(candidate, description, value))
 }
