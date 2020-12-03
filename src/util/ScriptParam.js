@@ -12,14 +12,15 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
     }
     return ReactDOMServer.renderToStaticMarkup(
         <span>
-          <span className={`script-param ${className}`}>
-            <span className='script-param-content' tabIndex='-1'>
+          <label className={`script-param ${className}`}>
+            <span className='script-param-content'>
               {paramName}{equal}<span className='script-param-value'>{value}</span>
             </span>
+            <input type="checkbox" name="checkbox"/>
             <div className='description'>
               {GetDescriptionForParam(paramName, value)}
             </div>
-          </span>{commaOrParen}
+          </label>{commaOrParen}
         </span>
     );
 }

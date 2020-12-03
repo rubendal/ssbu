@@ -134,22 +134,22 @@ td{
     color: rgb(136, 0, 0);
 }
 
-.script span.param-style-1 span.script-param-content {
+.script .param-style-1 span.script-param-content {
   background: peachpuff;
   background-clip: content-box;
 }
 
-.script span.param-style-2 span.script-param-content {
+.script .param-style-2 span.script-param-content {
   background: paleturquoise;
   background-clip: content-box;
 }
 
-.script span.param-style-3 span.script-param-content {
+.script .param-style-3 span.script-param-content {
   background: palegreen;
   background-clip: content-box;
 }
 
-.script span.param-style-hide {
+.script .param-style-hide {
   display: none;
 }
 
@@ -158,8 +158,13 @@ td{
   display: inline-block;
 }
 
-.script-param {
+label.script-param {
   position: relative;
+  font-weight: normal; /* overwrite font-weight for label given in bootstrap.css */
+}
+
+.script-param input[type="checkbox"] {
+  display: none;
 }
 .script-param .description {
   display: none;
@@ -184,7 +189,7 @@ td{
   color: red;
 }
 
-.script-param-content:focus + .description {
+input[type="checkbox"]:checked + .description {
   display: inline-block;
   z-index: 1;
   top: 20px;
