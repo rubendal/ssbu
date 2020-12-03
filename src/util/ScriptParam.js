@@ -147,7 +147,7 @@ function DescribeCandidate(candidate, description, value) {
         className += " current-value";
     }
     return (
-        <div>
+        <div key={candidate}>
           <span className={className}>{candidate}</span>
           {description}
         </div>
