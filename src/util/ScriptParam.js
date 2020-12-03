@@ -25,6 +25,7 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
 }
 
 function GetDescriptionForParam(paramName, value) {
+    let candidateList;
     switch (paramName) {
         case "ID":
             return (<span>
@@ -55,17 +56,16 @@ function GetDescriptionForParam(paramName, value) {
               in the knockback formula describes how much damage and percent scales
             </span>);
         case "Size":
-            return "";
+            return "Size of the hitbox";
         case "X":
-            return "";
         case "Y":
-            return "";
         case "Z":
-            return "";
+            return (<span>
+              Coordinate of the hitbox relative to
+              <span className="description-script">Bone</span>
+            </span>);
         case "X2":
-            return "Stretch coordinate for extended hitboxes";
         case "Y2":
-            return "Stretch coordinate for extended hitboxes";
         case "Z2":
             return "Stretch coordinate for extended hitboxes";
         case "Hitlag":
@@ -75,7 +75,15 @@ function GetDescriptionForParam(paramName, value) {
         case "Clang_Rebound":
             return "";
         case "FacingRestrict":
-            return "";
+            candidateList = [
+                ["ATTACK_LR_CHECK_POS", "no description"],
+                ["ATTACK_LR_CHECK_F", "no description"],
+                ["ATTACK_LR_CHECK_B", "no description"],
+            ]
+            return (<span>
+              Possible values are:
+              {DescribeCandidateList(candidateList, value)}
+            </span>);
         case "SetWeight":
             return "Hitbox property that ignores opponent's weight on KB calculation, when enabled every character hit with this hitbox will have their weight set to 100";
         case "ShieldDamage":
@@ -95,7 +103,7 @@ function GetDescriptionForParam(paramName, value) {
         case "Direct_Hitbox":
             return "";
         case "Ground_or_Air":
-            const candidateList = [
+            candidateList = [
                 ["COLLISION_SITUATION_MASK_A", "hits opponents in air"],
                 ["COLLISION_SITUATION_MASK_G", "hits opponents on ground"],
                 ["COLLISION_SITUATION_MASK_GA", "hits opponents both in air and on ground"],

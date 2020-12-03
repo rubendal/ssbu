@@ -176,7 +176,8 @@ td{
   border-radius: 4px;
   padding-bottom: 0;
   margin-bottom: 4px;
-  margin-right: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .script-param .description .description-script.current-value {
