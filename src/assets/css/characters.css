@@ -168,12 +168,19 @@ td{
   font-family: sans-serif;
 }
 
+.script-param .description .description-script {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
 .script-param-content:focus + .description {
   display: inline-block;
   z-index: 1;
   top: 20px;
   left: 0px;
-  width: 300px;
+  width: 500px;
+  padding: 2px;
+  border: 1px solid sandybrown;
+  border-radius: 5px;
 }
 
 .script-container {
