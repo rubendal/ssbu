@@ -6,6 +6,8 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
     const equal = p2;
     const value = p3;
     const commaOrParen = p4;
+    const comma = (commaOrParen === ",") ? "," : "";
+    const paren = (commaOrParen === ")") ? ")" : "";
     let className = `script-param-${paramName}`;
     if (paramName in paramStyles) {
         className += ` param-style-${paramStyles[paramName]}`
@@ -19,8 +21,8 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
             <input type="checkbox" name="checkbox"/>
             <div className='description'>
               {GetDescriptionForParam(paramName, value)}
-            </div>
-          </label>{commaOrParen}
+            </div>{comma}
+          </label>{paren}
         </span>
     );
 }
