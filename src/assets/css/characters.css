@@ -179,6 +179,10 @@ td{
   margin-right: 2px;
 }
 
+.script-param .description .description-script.current-value {
+  color: red;
+}
+
 .script-param-content:focus + .description {
   display: inline-block;
   z-index: 1;
