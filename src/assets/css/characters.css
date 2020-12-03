@@ -149,16 +149,19 @@ td{
   background-clip: content-box;
 }
 
+/* This is done in src/util/ScriptParam.js by using React */
+/*
 .script .param-style-hide {
   display: none;
 }
+*/
 
 .script-param-content {
   cursor: pointer;
   display: inline-block;
 }
 
-label.script-param {
+.script-param label {
   position: relative;
   font-weight: normal; /* overwrite font-weight for label given in bootstrap.css */
 }

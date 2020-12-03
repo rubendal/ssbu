@@ -10,11 +10,14 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
     const paren = (commaOrParen === ")") ? ")" : "";
     let className = `script-param-${paramName}`;
     if (paramName in paramStyles) {
+        if (paramStyles[paramName] === "hide") {
+            return paren;
+        }
         className += ` param-style-${paramStyles[paramName]}`
     }
     return ReactDOMServer.renderToStaticMarkup(
-        <span>
-          <label className={`script-param ${className}`}>
+        <span className={`script-param ${className}`}>
+          <label>
             <span className='script-param-content'>
               {paramName}{equal}<span className='script-param-value'>{value}</span>
             </span>
