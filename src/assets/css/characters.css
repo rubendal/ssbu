@@ -134,23 +134,73 @@ td{
     color: rgb(136, 0, 0);
 }
 
-.script span.param-style-1 span.script-param-content {
+.script .param-style-1 span.script-param-content {
   background: peachpuff;
   background-clip: content-box;
 }
 
-.script span.param-style-2 span.script-param-content {
+.script .param-style-2 span.script-param-content {
   background: paleturquoise;
   background-clip: content-box;
 }
 
-.script span.param-style-3 span.script-param-content {
+.script .param-style-3 span.script-param-content {
   background: palegreen;
   background-clip: content-box;
 }
 
-.script span.param-style-hide {
+/* This is done in src/util/ScriptParam.js by using React */
+/*
+.script .param-style-hide {
   display: none;
+}
+*/
+
+.script-param-content {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.script-param label {
+  position: relative;
+  font-weight: normal; /* overwrite font-weight for label given in bootstrap.css */
+}
+
+.script-param input[type="checkbox"] {
+  display: none;
+}
+.script-param .description {
+  display: none;
+  position: absolute;
+  background-color: lightyellow;
+  font-family: sans-serif;
+}
+
+.script-param .description .description-script {
+  font-family: 'Ubuntu Mono', monospace;
+  background: rgb(240, 240, 240);
+  color: rgb(68, 68, 68);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-bottom: 0;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.script-param .description .description-script.current-value {
+  color: red;
+}
+
+input[type="checkbox"]:checked + .description {
+  display: inline-block;
+  z-index: 1;
+  top: 20px;
+  left: 0px;
+  width: 500px;
+  padding: 2px;
+  border: 1px solid sandybrown;
+  border-radius: 5px;
 }
 
 .script-container {
