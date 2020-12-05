@@ -15,17 +15,26 @@ export function ReplaceScriptParam(match, p1, p2, p3, p4, offset, string, paramS
         }
         className += ` param-style-${paramStyles[paramName]}`
     }
+    //Changed: Remove param description display if it doesn't have one, mostly for non-ATTACK functions
+    //Those can be added later
     return ReactDOMServer.renderToStaticMarkup(
         <span className={`script-param ${className}`}>
-          <label>
-            <span className='script-param-content'>
-              {paramName}{equal}<span className='script-param-value'>{value}</span>
-            </span>
-            <input type="checkbox" name="checkbox"/>
-            <div className='description'>
-              {GetDescriptionForParam(paramName, value)}
-            </div>{comma}
-          </label>{paren}
+            <label>
+                <span className='script-param-content'>
+                    {paramName}{equal}<span className='script-param-value'>{value}</span>
+                </span>
+                {
+                    GetDescriptionForParam(paramName, value) != "no description" && (
+                        <span>
+                            <input type="checkbox" name="checkbox" />
+                            <div className='description'>
+                                {GetDescriptionForParam(paramName, value)}
+                            </div>
+                        </span>
+                    )
+                }
+                {comma}
+            </label>{paren}
         </span>
     );
 }
@@ -37,46 +46,46 @@ function GetDescriptionForParam(paramName, value) {
     switch (paramName) {
         case "ID":
             return (<span>
-                  Hitbox identifier,<br/>
+                Hitbox identifier,<br />
                   hitbox priority is defined by this value with 0 being the highest priority
-                </span>);
+            </span>);
         case "Part":
             return "Group hitbox is defined into, hitboxes with different part values are considered separate and can hit a single opponent even if another hitbox has landed and hasn't been removed";
         case "Bone":
             return (<span>
-              A part of the user which determines the axes for hitboxes
-              in
-              <span className="description-script">X</span>,
-              <span className="description-script">Y</span>,
-              <span className="description-script">Z</span>
-              .<br/>
+                A part of the user which determines the axes for hitboxes
+                in
+                <span className="description-script">X</span>,
+                <span className="description-script">Y</span>,
+                <span className="description-script">Z</span>
+              .<br />
               Examples of values:
-              <span className="description-script">top</span>,
-              <span className="description-script">head</span>,
-              <span className="description-script">armr</span>(meaning right arm),
-              <span className="description-script">sword</span>
+                <span className="description-script">top</span>,
+                <span className="description-script">head</span>,
+                <span className="description-script">armr</span>(meaning right arm),
+                <span className="description-script">sword</span>
             </span>);
         case "Damage":
             return "Damage dealt to the opponent";
         case "Angle":
             return (<span>
-              The Angle the opponent is sent.<br/>
+                The Angle the opponent is sent.<br />
               Angles larger than 360 has special meanings
               (see <a href="https://www.ssbwiki.com/Angle" target="_blank">SmashWiki</a> for details)
             </span>);
         case "BKB":
             return (<span>
-              Base KnockBack,<br/>
+                Base KnockBack,<br />
               minimum amount of knockback done regardless of damage and percent
             </span>);
         case "FKB":
             return (<span>
-              Fixed KnockBack,<br/>
+                Fixed KnockBack,<br />
               previously known as WBKB (Weight Based KnockBack), if it's not 0 the knockback formula uses this value as opponent's percent and ignores move damage, these moves will deal the same knockback regardless of their damage and percentage the opponent has but still varies by opponent's weight
             </span>);
         case "KBG":
             return (<span>
-              KnockBack Growth,<br/>
+                KnockBack Growth,<br />
               in the knockback formula describes how much damage and percent scales
             </span>);
         case "Size":
@@ -85,8 +94,8 @@ function GetDescriptionForParam(paramName, value) {
         case "Y":
         case "Z":
             return (<span>
-              Coordinate of the hitbox relative to
-              <span className="description-script">Bone</span>
+                Coordinate of the hitbox relative to
+                <span className="description-script">Bone</span>
             </span>);
         case "X2":
         case "Y2":
@@ -96,7 +105,7 @@ function GetDescriptionForParam(paramName, value) {
             return "Multiplier for HitLag";
         case "SDI":
             return (<span>
-              Multiplier for Smash Directional Influence,<br/>
+                Multiplier for Smash Directional Influence,<br />
               easy to SDI if the value is larger than 1.0
             </span>);
         case "Clang_Rebound":
@@ -108,8 +117,8 @@ function GetDescriptionForParam(paramName, value) {
                 ["ATTACK_LR_CHECK_B", "no description"],
             ]
             return (<span>
-              Possible values are:
-              {DescribeCandidateList(candidateList, value)}
+                Possible values are:
+                {DescribeCandidateList(candidateList, value)}
             </span>);
         case "SetWeight":
             return "Hitbox property that ignores opponent's weight on KB calculation, when enabled every character hit with this hitbox will have their weight set to 100";
@@ -137,8 +146,8 @@ function GetDescriptionForParam(paramName, value) {
             ];
             return (
                 <span>
-                  Possible values are:
-                  {DescribeCandidateList(candidateList, value)}
+                    Possible values are:
+                    {DescribeCandidateList(candidateList, value)}
                 </span>);
         case "Hitbits":
             return "Value where each bit enables it to hit certain hurtboxes like characters, stage elements, items and enemies";
@@ -152,7 +161,7 @@ function GetDescriptionForParam(paramName, value) {
             return "Loudness of the Sound Effect";
         case "SFXType":
             return (<span>
-              Sound Effect,<br/>represents the ID of the sound file to use when hitbox connects
+                Sound Effect,<br />represents the ID of the sound file to use when hitbox connects
             </span>);
         case "Type":
             return "no description";
@@ -168,8 +177,8 @@ function DescribeCandidate(candidate, description, value) {
     }
     return (
         <div key={candidate}>
-          <span className={className}>{candidate}</span>
-          {description}
+            <span className={className}>{candidate}</span>
+            {description}
         </div>
     );
 }

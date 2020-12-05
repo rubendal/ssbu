@@ -7,6 +7,7 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import ParserVersion from '../assets/tools_version.json';
 import ParamStyleConfig from './ParamStyleConfig';
 import ParamStyleHandler from './paramStyle/ParamStyleHandler';
+import $ from 'jquery'
 
 class ScriptView extends Component {
     constructor(props) {
@@ -19,6 +20,24 @@ class ScriptView extends Component {
             paramStyleHandler: paramStyleHandler,
             paramStyles: paramStyleHandler.getDefaultStyles()
         };
+    }
+
+    //Jquery to uncheck all other description display on load
+    componentDidMount(){
+        $('input[type=checkbox]').on('click', function(e){
+            if($(this).prop('checked')){
+                $('input[type=checkbox]').not(this).prop('checked',false);
+            }
+        })
+    }
+
+    //Jquery to uncheck all other description display on script change
+    componentDidUpdate(){
+        $('input[type=checkbox]').on('click', function(e){
+            if($(this).prop('checked')){
+                $('input[type=checkbox]').not(this).prop('checked',false);
+            }
+        })
     }
 
     getParamStyle(name) {
@@ -41,7 +60,7 @@ class ScriptView extends Component {
                 script: props.script
             };
         }
-
+        
         return null;
     }
 
