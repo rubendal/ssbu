@@ -41,7 +41,7 @@
     },
     {
         "t": "Team Damage",
-        "d": "Flag used for hitboxes that can hit user and teammates even with friendly fire enabled"
+        "d": "Flag used for hitboxes that can hit user and teammates even with friendly fire disabled"
     },
     {
         "t": "Flinchless",
