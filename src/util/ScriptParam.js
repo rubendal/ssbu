@@ -85,8 +85,8 @@ function GetDescriptionForParam(paramName, value) {
             </span>);
         case "KBG":
             return (<span>
-                KnockBack Growth,<br />
-              In the knockback formula describes how much damage and percent scales
+                KnockBack Growth<br />
+              Indicates how knockback scales based on opponent's percent and hitbox base damage
             </span>);
         case "Size":
             return "Size of the hitbox";
