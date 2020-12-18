@@ -1,0 +1,12 @@
+diff --git "a/tta_9.0.0/bayonetta/game_SpecialS.txt" "b/ta_10.0.0/bayonetta/game_SpecialS.txt"
+index 5d3039c..01f2920 100644
+--- "a/tta_9.0.0/bayonetta/game_SpecialS.txt"
++++ "b/ta_10.0.0/bayonetta/game_SpecialS.txt"
+@@ -28,7 +28,5 @@ if(is_excute){
+ frame(Frame=40)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ 	WorkModule::off_flag(Flag=FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_S_FLAG_WALL_CHECK)
+ }
+-frame(Frame=40)
+-FT_MOTION_RATE(FSM=0.843)

@@ -1,0 +1,13 @@
+diff --git "a/_9.0.0/pickel/game_AttackAirLw2.txt" "b/10.0.0/pickel/game_AttackAirLw2.txt"
+index 4a431ba..cb70d1f 100644
+--- "a/_9.0.0/pickel/game_AttackAirLw2.txt"
++++ "b/10.0.0/pickel/game_AttackAirLw2.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=58508)
++	WorkModule::on_flag(Flag=59180)
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_LANDING_CLEAR_SPEED)
+ 	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	WorkModule::off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	KineticModule::suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ }

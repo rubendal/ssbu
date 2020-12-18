@@ -1,0 +1,15 @@
+diff --git "a/uit_9.0.0/szerosuit_reticle/game_FinalEnd.txt" "b/it_10.0.0/szerosuit_reticle/game_FinalEnd.txt"
+index 457a942..14805a1 100644
+--- "a/uit_9.0.0/szerosuit_reticle/game_FinalEnd.txt"
++++ "b/it_10.0.0/szerosuit_reticle/game_FinalEnd.txt"
+@@ -5,9 +5,9 @@ if(is_excute){
+ 	AttackModule::set_force_reaction(0, true, false)
+ 	AttackModule::set_force_reaction(1, true, false)
+ 	AttackModule::set_final_finish_cut_in(0, true, true, -1, false)
+ 	AttackModule::set_final_finish_cut_in(1, true, true, -1, false)
+ }
+-wait(Frames=18)
++wait(Frames=15)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }

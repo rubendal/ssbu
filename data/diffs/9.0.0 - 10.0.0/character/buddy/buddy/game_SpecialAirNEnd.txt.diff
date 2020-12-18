@@ -1,0 +1,12 @@
+diff --git "a/9.0.0/buddy/game_SpecialAirNEnd.txt" "b/0.0.0/buddy/game_SpecialAirNEnd.txt"
+index 7d63578..9cddade 100644
+--- "a/9.0.0/buddy/game_SpecialAirNEnd.txt"
++++ "b/0.0.0/buddy/game_SpecialAirNEnd.txt"
+@@ -1,6 +1,6 @@
+ frame(Frame=30)
+-if(0x184a20(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x1845c0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		ArticleModule::remove_exist(FIGHTER_BUDDY_GENERATE_ARTICLE_PARTNER)
+ 	}
+ }

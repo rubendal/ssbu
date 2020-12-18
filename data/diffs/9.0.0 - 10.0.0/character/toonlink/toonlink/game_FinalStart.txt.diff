@@ -1,0 +1,17 @@
+diff --git "a/nk_9.0.0/toonlink/game_FinalStart.txt" "b/k_10.0.0/toonlink/game_FinalStart.txt"
+index 8260acc..0f34b6b 100644
+--- "a/nk_9.0.0/toonlink/game_FinalStart.txt"
++++ "b/k_10.0.0/toonlink/game_FinalStart.txt"
+@@ -16,11 +16,11 @@ if(0x120860(1556880, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x120860(208880769, 2.1)
++			0x120860(838450330, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

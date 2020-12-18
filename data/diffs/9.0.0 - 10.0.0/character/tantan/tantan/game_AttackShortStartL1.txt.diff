@@ -1,0 +1,18 @@
+diff --git "a/_9.0.0/tantan/game_AttackShortStartL1.txt" "b/10.0.0/tantan/game_AttackShortStartL1.txt"
+index 03ec44f..aac2ced 100644
+--- "a/_9.0.0/tantan/game_AttackShortStartL1.txt"
++++ "b/10.0.0/tantan/game_AttackShortStartL1.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=53120)
++	WorkModule::on_flag(Flag=53236)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	WorkModule::off_flag(Flag=53120)
++	WorkModule::off_flag(Flag=53236)
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	HIT_NO(3, HIT_STATUS_OFF)
+ 	HIT_NO(9, HIT_STATUS_OFF)

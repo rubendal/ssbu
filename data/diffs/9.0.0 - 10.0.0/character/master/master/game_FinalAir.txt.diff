@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/master/game_FinalAir.txt" "b/10.0.0/master/game_FinalAir.txt"
+index aeb2c1f..0fadadb 100644
+--- "a/_9.0.0/master/game_FinalAir.txt"
++++ "b/10.0.0/master/game_FinalAir.txt"
+@@ -15,11 +15,11 @@ if(0x358be0(0, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x358be0(224832005, 2.1)
++			0x358be0(1534918324, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

@@ -1,0 +1,14 @@
+diff --git "a/n_9.0.0/gaogaen/game_CatchTurn.txt" "b/_10.0.0/gaogaen/game_CatchTurn.txt"
+index ad1106b..c131aa9 100644
+--- "a/n_9.0.0/gaogaen/game_CatchTurn.txt"
++++ "b/_10.0.0/gaogaen/game_CatchTurn.txt"
+@@ -1,9 +1,5 @@
+-frame(Frame=1)
+-FT_MOTION_RATE(FSM=0.8)
+-frame(Frame=6)
+-FT_MOTION_RATE(FSM=1)
+ frame(Frame=12)
+ if(is_excute){
+ 	GrabModule::set_rebound(CanCatchRebound=true)
+ }
+ frame(Frame=13)

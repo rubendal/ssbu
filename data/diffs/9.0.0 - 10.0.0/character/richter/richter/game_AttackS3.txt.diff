@@ -1,0 +1,17 @@
+diff --git "a/r_9.0.0/richter/game_AttackS3.txt" "b/_10.0.0/richter/game_AttackS3.txt"
+index 01fc65f..0612256 100644
+--- "a/r_9.0.0/richter/game_AttackS3.txt"
++++ "b/_10.0.0/richter/game_AttackS3.txt"
+@@ -2,11 +2,11 @@ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=4)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=12)
+ if(is_excute){
+-	SEARCH(0, 0, hash40("top"), 2.5, 0.0, 10.0, 5.0, 0.0, 10.0, 34.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 57980, COLLISION_PART_MASK_ALL, false)
++	SEARCH(0, 0, hash40("top"), 2.5, 0.0, 10.0, 5.0, 0.0, 10.0, 34.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58652, COLLISION_PART_MASK_ALL, false)
+ }
+ frame(Frame=14)
+ if(is_excute){
+ 	battle_object()
+ 	L2CValue()

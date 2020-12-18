@@ -1,0 +1,11 @@
+diff --git "a/_9.0.0/shizue_trafficsign/game_Attack.txt" "b/10.0.0/shizue_trafficsign/game_Attack.txt"
+index 00bda11..8b4ad08 100644
+--- "a/_9.0.0/shizue_trafficsign/game_Attack.txt"
++++ "b/10.0.0/shizue_trafficsign/game_Attack.txt"
+@@ -1,6 +1,5 @@
+-FT_MOTION_RATE(FSM=0.458)
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.85)
+ frame(Frame=8)
+ FT_MOTION_RATE(FSM=1)
+ if(is_excute){

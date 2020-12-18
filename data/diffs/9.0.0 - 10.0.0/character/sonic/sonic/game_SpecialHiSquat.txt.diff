@@ -1,0 +1,13 @@
+diff --git "a/9.0.0/sonic/game_SpecialHiSquat.txt" "b/0.0.0/sonic/game_SpecialHiSquat.txt"
+index ac9dfe4..a572697 100644
+--- "a/9.0.0/sonic/game_SpecialHiSquat.txt"
++++ "b/0.0.0/sonic/game_SpecialHiSquat.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=2)
+ IS_EXIST_ARTICLE(FIGHTER_SONIC_GENERATE_ARTICLE_GIMMICKJUMP)
+-if(0x12c3b0(false, true)){
++if(0x1290a0(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::set_visibility_whole(FIGHTER_SONIC_GENERATE_ARTICLE_GIMMICKJUMP, true)
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/mewtwo/game_Final.txt" "b/10.0.0/mewtwo/game_Final.txt"
+index c431b35..9722ed3 100644
+--- "a/_9.0.0/mewtwo/game_Final.txt"
++++ "b/10.0.0/mewtwo/game_Final.txt"
+@@ -4,11 +4,11 @@ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	if(is_excute){
+ 		PostureModule::scale(5, 0)
+-		0xe74e0(-207091954, 2)
++		0xe7710(-1973235239, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 2)
+ 		FT_START_CUTIN()
+ 	}
+ }

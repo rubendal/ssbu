@@ -1,0 +1,12 @@
+diff --git "a/.0.0/wolf/game_ThrowB.txt" "b/.0.0/wolf/game_ThrowB.txt"
+index 4b3780c..c9f4a37 100644
+--- "a/.0.0/wolf/game_ThrowB.txt"
++++ "b/.0.0/wolf/game_ThrowB.txt"
+@@ -14,6 +14,7 @@ if(is_excute){
+ frame(Frame=24)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ 	REVERSE_LR()
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
++	AttackModule::resume_catch_absolute_damage()
+ }

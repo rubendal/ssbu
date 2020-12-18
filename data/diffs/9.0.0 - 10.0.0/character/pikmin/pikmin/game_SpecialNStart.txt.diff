@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/pikmin/game_SpecialNStart.txt" "b/10.0.0/pikmin/game_SpecialNStart.txt"
+index 0a86bb3..84994f4 100644
+--- "a/_9.0.0/pikmin/game_SpecialNStart.txt"
++++ "b/10.0.0/pikmin/game_SpecialNStart.txt"
+@@ -2,11 +2,11 @@ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_PIKMIN_GENERATE_ARTICLE_PIKMIN)
+ }
+ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::get_float(FIGHTER_PIKMIN_STATUS_PULL_OUT_WORK_FLOAT_MOT_RATE)
+-	MotionModule::set_rate(617544972)
++	MotionModule::set_rate(2082482820)
+ }
+ frame(Frame=6)
+ if(is_excute){
+ 	MotionModule::set_rate(1)
+ }

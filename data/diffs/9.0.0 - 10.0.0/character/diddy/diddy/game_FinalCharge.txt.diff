@@ -1,0 +1,14 @@
+diff --git "a/9.0.0/diddy/game_FinalCharge.txt" "b/0.0.0/diddy/game_FinalCharge.txt"
+index 8226d27..96ddc51 100644
+--- "a/9.0.0/diddy/game_FinalCharge.txt"
++++ "b/0.0.0/diddy/game_FinalCharge.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+ 	PostureModule::scale(10, 0)
+-	0x1483f0(26198417, 2.1)
++	0x1483f0(-767783683, 2.1)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ 	SLOW_OPPONENT(30, 60)
+ }
+ frame(Frame=40)
+ if(is_excute){

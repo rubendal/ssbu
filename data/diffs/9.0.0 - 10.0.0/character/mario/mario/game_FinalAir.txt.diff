@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/mario/game_FinalAir.txt" "b/0.0.0/mario/game_FinalAir.txt"
+index eee19f5..a0b4f0b 100644
+--- "a/9.0.0/mario/game_FinalAir.txt"
++++ "b/0.0.0/mario/game_FinalAir.txt"
+@@ -15,11 +15,11 @@ if(0xe1b20(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xe1b20(1978104250, 2.05)
++			0xe1b20(279216807, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0xe1b20(0, 0)){

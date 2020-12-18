@@ -1,0 +1,12 @@
+diff --git "a/_9.0.0/pickel_plate/game_Push.txt" "b/10.0.0/pickel_plate/game_Push.txt"
+index e67d906..1ca9947 100644
+--- "a/_9.0.0/pickel_plate/game_Push.txt"
++++ "b/10.0.0/pickel_plate/game_Push.txt"
+@@ -1,6 +1,6 @@
+ frame(Frame=2)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55264)
++	WorkModule::on_flag(Flag=55384)
+ 	as_hash__const(0x113697d0ae, 3, false)
+ 	ControlModule::set_rumble()
+ }

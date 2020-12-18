@@ -1,0 +1,16 @@
+diff --git "a/_9.0.0/pickel/game_SpecialN3Failure.txt" "b/10.0.0/pickel/game_SpecialN3Failure.txt"
+index 6973e95..cf323fb 100644
+--- "a/_9.0.0/pickel/game_SpecialN3Failure.txt"
++++ "b/10.0.0/pickel/game_SpecialN3Failure.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=58508)
++	WorkModule::on_flag(Flag=59180)
+ 	as_hash__const(hash40("rbkind_nohitll"), 7, false)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=10)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19276)
++	WorkModule::on_flag(Flag=19392)
+ }

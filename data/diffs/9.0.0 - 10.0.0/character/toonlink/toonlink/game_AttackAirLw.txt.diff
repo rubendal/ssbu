@@ -1,0 +1,17 @@
+diff --git "a/nk_9.0.0/toonlink/game_AttackAirLw.txt" "b/k_10.0.0/toonlink/game_AttackAirLw.txt"
+index 94743d0..737691c 100644
+--- "a/nk_9.0.0/toonlink/game_AttackAirLw.txt"
++++ "b/k_10.0.0/toonlink/game_AttackAirLw.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ 	SET_SPEED_EX(0, 1.6, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	WorkModule::off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	KineticModule::suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ }
+ get_value_int(SO_VAR_INT_PREV_STATUS)
+-if(0x120860(0, FIGHTER_STATUS_KIND_DAMAGE_FLY)){
++if(0x118ff0(0, FIGHTER_STATUS_KIND_DAMAGE_FLY)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_STATUS_WORK_ID_FLAG_RESERVE_GRAVITY_STABLE_UNABLE)
+ 	}
+ }
+ if(is_excute){

@@ -1,0 +1,13 @@
+diff --git "a/9.0.0/kirby/game_ThrowHi.txt" "b/0.0.0/kirby/game_ThrowHi.txt"
+index c0cf70a..889494f 100644
+--- "a/9.0.0/kirby/game_ThrowHi.txt"
++++ "b/0.0.0/kirby/game_ThrowHi.txt"
+@@ -1,8 +1,6 @@
+-frame(Frame=1)
+ if(is_excute){
+-	FT_LEAVE_NEAR_OTTOTTO(-2.5, 2.5)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=10.0, Angle=78, KBG=74, FKB=0, BKB=75, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=6)
+ if(is_excute){

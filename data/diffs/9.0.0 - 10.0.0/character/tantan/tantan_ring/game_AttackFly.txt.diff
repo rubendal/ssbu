@@ -1,0 +1,26 @@
+diff --git "a/_9.0.0/tantan_ring/game_AttackFly.txt" "b/10.0.0/tantan_ring/game_AttackFly.txt"
+index e04116d..0de22e3 100644
+--- "a/_9.0.0/tantan_ring/game_AttackFly.txt"
++++ "b/10.0.0/tantan_ring/game_AttackFly.txt"
+@@ -1,17 +1,17 @@
+ frame(Frame=1)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=0x0703d6cf75, Damage=2.5, Angle=30, KBG=85, FKB=0, BKB=35, Size=3.0, X=0.0, Y=2.0, Z=0.0, X2=0.0, Y2=-2.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=58472, Type=ATTACK_REGION_OBJECT)
++	ATTACK(ID=0, Part=0, Bone=0x0703d6cf75, Damage=2.5, Angle=30, KBG=85, FKB=0, BKB=35, Size=3.0, X=0.0, Y=2.0, Z=0.0, X2=0.0, Y2=-2.0, Z2=0.0, Hitlag=0.5, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=59144, Type=ATTACK_REGION_OBJECT)
+ 	AttackModule::enable_safe_pos()
+ }
+-if(0x3a06b0(WorkModule::is_flag(54012), false, true)){
+-	if(0x3a06b0(WorkModule::is_flag(54092), false, true)){
++if(0x3a06b0(WorkModule::is_flag(54128), false, true)){
++	if(0x3a06b0(WorkModule::is_flag(54208), false, true)){
+ 		frame(Frame=9)
+ 		operatorbool__const(is_excute)
+ 	}
+ 	else{
+-		if(0x3a06b0(WorkModule::is_flag(54092), false, true)){
++		if(0x3a06b0(WorkModule::is_flag(54208), false, true)){
+ 			frame(Frame=11)
+ 			operatorbool__const(is_excute)
+ 		}
+ 		else{
+ 			frame(Frame=9)

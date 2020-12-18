@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/pikmin/game_FinalStartR.txt" "b/10.0.0/pikmin/game_FinalStartR.txt"
+index 06f811a..8b51902 100644
+--- "a/_9.0.0/pikmin/game_FinalStartR.txt"
++++ "b/10.0.0/pikmin/game_FinalStartR.txt"
+@@ -14,11 +14,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstartr.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x14bab0(617544972, 2.2)
++			0x14bab0(2082482820, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=41)

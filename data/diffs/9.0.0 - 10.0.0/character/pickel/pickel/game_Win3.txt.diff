@@ -1,0 +1,12 @@
+diff --git "a/_9.0.0/pickel/game_Win3.txt" "b/10.0.0/pickel/game_Win3.txt"
+index 656ac74..1f869a2 100644
+--- "a/_9.0.0/pickel/game_Win3.txt"
++++ "b/10.0.0/pickel/game_Win3.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+-	ArticleModule::generate_article(58548)
+-	as_hash__const(58548, hash40("win_3"))
++	ArticleModule::generate_article(59220)
++	as_hash__const(59220, hash40("win_3"))
+ 	ArticleModule::change_motion()
+ }

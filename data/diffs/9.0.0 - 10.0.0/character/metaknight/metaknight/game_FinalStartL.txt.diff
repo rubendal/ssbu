@@ -1,0 +1,17 @@
+diff --git "a/ight_9.0.0/metaknight/game_FinalStartL.txt" "b/ght_10.0.0/metaknight/game_FinalStartL.txt"
+index 3dcda64..be0ae73 100644
+--- "a/ight_9.0.0/metaknight/game_FinalStartL.txt"
++++ "b/ght_10.0.0/metaknight/game_FinalStartL.txt"
+@@ -21,11 +21,11 @@ if(0x12eaf0(32, 0)){
+ 		}
+ 		frame(Frame=10)
+ 		if(is_excute){
+ 			ArticleModule::set_visibility_whole(FIGHTER_METAKNIGHT_GENERATE_ARTICLE_FOURWINGS, true)
+ 			PostureModule::scale(5, 0)
+-			0x12eaf0(-1498194291, 2)
++			0x12eaf0(120702201, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=40)
+ 		if(is_excute){
