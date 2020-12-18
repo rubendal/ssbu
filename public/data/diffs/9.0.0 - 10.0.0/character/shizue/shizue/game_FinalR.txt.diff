@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/shizue/game_FinalR.txt" "b/10.0.0/shizue/game_FinalR.txt"
+index 5c7d7ee..412a864 100644
+--- "a/_9.0.0/shizue/game_FinalR.txt"
++++ "b/10.0.0/shizue/game_FinalR.txt"
+@@ -9,11 +9,11 @@ if(0x11b610(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalr.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x11b610(-1041726288, 2.2)
++			0x11b610(1671731385, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

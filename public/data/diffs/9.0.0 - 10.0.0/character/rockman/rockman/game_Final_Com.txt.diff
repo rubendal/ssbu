@@ -1,0 +1,17 @@
+diff --git "a/n_9.0.0/rockman/game_Final_Com.txt" "b/_10.0.0/rockman/game_Final_Com.txt"
+index 8f08f4f..177e3cf 100644
+--- "a/n_9.0.0/rockman/game_Final_Com.txt"
++++ "b/_10.0.0/rockman/game_Final_Com.txt"
+@@ -10,11 +10,11 @@ if(0xf49d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xf49d0(1283005124, 2.1)
++			0xf49d0(91262719, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

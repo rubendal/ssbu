@@ -1,0 +1,17 @@
+diff --git "a/o_8.0.0/lucario_lucariom/game_FinalAttack.txt" "b/o_9.0.0/lucario_lucariom/game_FinalAttack.txt"
+index be213c8..bc0ae69 100644
+--- "a/o_8.0.0/lucario_lucariom/game_FinalAttack.txt"
++++ "b/o_9.0.0/lucario_lucariom/game_FinalAttack.txt"
+@@ -9,11 +9,11 @@ if(is_excute){
+ 	as_hash__const(hash40("rbkind_explosionl"), 10, false)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=15)
+ if(is_excute){
+-	as_hash__const(0x11166078cd, 0, true)
++	as_hash__const(hash40("rbkind_loopattack"), 0, true)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=180)
+ if(is_excute){
+ 	as_hash__const(hash40("rbkind_erase"), 0, false)

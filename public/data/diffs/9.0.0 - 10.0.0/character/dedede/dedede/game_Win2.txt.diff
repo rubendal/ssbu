@@ -1,0 +1,12 @@
+diff --git "a/_9.0.0/dedede/game_Win2.txt" "b/10.0.0/dedede/game_Win2.txt"
+index b934825..4b3397e 100644
+--- "a/_9.0.0/dedede/game_Win2.txt"
++++ "b/10.0.0/dedede/game_Win2.txt"
+@@ -1,6 +1,6 @@
+-if(0x156650(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, false)){
++if(0x157210(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, false)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_DEDEDE_GENERATE_ARTICLE_WADDLEDEE)
+ 		as_hash__const(FIGHTER_DEDEDE_GENERATE_ARTICLE_WADDLEDEE, hash40("win2"))
+ 		ArticleModule::change_motion()
+ 	}

@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/reflet/game_AttackLw4.txt" "b/10.0.0/reflet/game_AttackLw4.txt"
+index a78c3ab..5915f2b 100644
+--- "a/_9.0.0/reflet/game_AttackLw4.txt"
++++ "b/10.0.0/reflet/game_AttackLw4.txt"
+@@ -43,11 +43,11 @@ frame(Frame=29)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ FT_MOTION_RATE(FSM=0.8)
+ frame(Frame=30)
+-if(0x142050(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
++if(0x141f00(FIGHTER_REFLET_INSTANCE_WORK_ID_INT_THUNDER_SWORD_CURRENT_POINT, 0)){
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON), false, true)){
+ 		if(is_excute){
+ 			VisibilityModule::set_int64(hash40("sword"), hash40("sword_normal"))
+ 			WorkModule::off_flag(Flag=FIGHTER_REFLET_INSTANCE_WORK_ID_FLAG_THUNDER_SWORD_ON)
+ 		}

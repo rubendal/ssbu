@@ -1,0 +1,17 @@
+diff --git "a/_9.0.0/tantan/game_AttackLongStartL1.txt" "b/10.0.0/tantan/game_AttackLongStartL1.txt"
+index 02be5c3..45cf30b 100644
+--- "a/_9.0.0/tantan/game_AttackLongStartL1.txt"
++++ "b/10.0.0/tantan/game_AttackLongStartL1.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	FighterAreaModuleImpl::enable_fix_jostle_area(3.5, 3.5)
+ }
+ frame(Frame=9)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=53200)
++	WorkModule::on_flag(Flag=53316)
+ }
+ frame(Frame=15)
+ if(is_excute){
+ 	HIT_NO(3, HIT_STATUS_OFF)
+ 	HIT_NO(9, HIT_STATUS_OFF)

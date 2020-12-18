@@ -1,0 +1,14 @@
+diff --git "a/_9.0.0/pickel/game_SleepEnd.txt" "b/10.0.0/pickel/game_SleepEnd.txt"
+index 7f74991..374730b 100644
+--- "a/_9.0.0/pickel/game_SleepEnd.txt"
++++ "b/10.0.0/pickel/game_SleepEnd.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	ArticleModule::generate_article(58512)
++	ArticleModule::generate_article(59184)
+ }
+ frame(Frame=41)
+ if(is_excute){
+-	ArticleModule::remove_exist(58512)
++	ArticleModule::remove_exist(59184)
+ }

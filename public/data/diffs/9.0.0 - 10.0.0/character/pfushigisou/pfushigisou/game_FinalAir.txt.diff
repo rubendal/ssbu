@@ -1,0 +1,17 @@
+diff --git "a/gisou_9.0.0/pfushigisou/game_FinalAir.txt" "b/isou_10.0.0/pfushigisou/game_FinalAir.txt"
+index 0ffd108..9db1ade 100644
+--- "a/gisou_9.0.0/pfushigisou/game_FinalAir.txt"
++++ "b/isou_10.0.0/pfushigisou/game_FinalAir.txt"
+@@ -11,11 +11,11 @@ if(0x103780(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		FT_START_CUTIN_arg1(true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x103780(64564465, 2.1)
++			0x103780(2130630057, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(true)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

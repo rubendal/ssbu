@@ -1,0 +1,17 @@
+diff --git "a/ink_9.0.0/younglink/game_FinalAirStart.txt" "b/nk_10.0.0/younglink/game_FinalAirStart.txt"
+index cbb9dcd..09664fc 100644
+--- "a/ink_9.0.0/younglink/game_FinalAirStart.txt"
++++ "b/nk_10.0.0/younglink/game_FinalAirStart.txt"
+@@ -16,11 +16,11 @@ if(0x1168d0(1503496, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x1168d0(1112412589, 2.05)
++			0x1168d0(1789670115, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

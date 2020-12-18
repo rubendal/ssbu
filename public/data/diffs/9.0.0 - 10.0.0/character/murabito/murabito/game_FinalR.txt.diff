@@ -1,0 +1,17 @@
+diff --git "a/to_9.0.0/murabito/game_FinalR.txt" "b/o_10.0.0/murabito/game_FinalR.txt"
+index 8b4da0d..038abb5 100644
+--- "a/to_9.0.0/murabito/game_FinalR.txt"
++++ "b/o_10.0.0/murabito/game_FinalR.txt"
+@@ -9,11 +9,11 @@ if(0x13ad10(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalr.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x13ad10(-1783848865, 2.1)
++			0x13ad10(355622886, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/mac_9.0.0/littlemac/game_FinalStart.txt" "b/ac_10.0.0/littlemac/game_FinalStart.txt"
+index 2da3d73..45c1fb2 100644
+--- "a/mac_9.0.0/littlemac/game_FinalStart.txt"
++++ "b/ac_10.0.0/littlemac/game_FinalStart.txt"
+@@ -16,11 +16,11 @@ if(is_excute){
+ 	SlowModule::set_whole(3, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(5, 0)
+-		0x144420(1081683688, 2.0)
++		0x144420(-6214052, 2.0)
+ 		CAM_ZOOM_IN_arg5(-0.1, 0)
+ 		FT_START_CUTIN()
+ 		camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 4, 6, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 	}

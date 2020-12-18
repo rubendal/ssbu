@@ -1,0 +1,13 @@
+diff --git "a/_9.0.0/mariod/game_Win1Wait.txt" "b/10.0.0/mariod/game_Win1Wait.txt"
+index 1db8f78..703b825 100644
+--- "a/_9.0.0/mariod/game_Win1Wait.txt"
++++ "b/10.0.0/mariod/game_Win1Wait.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(FIGHTER_MARIOD_GENERATE_ARTICLE_DRCAPSULE)
+-if(0xda890(false, false)){
++if(0xd9460(false, false)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article_enable(FIGHTER_MARIOD_GENERATE_ARTICLE_DRCAPSULE)
+ 		ArticleModule::generate_article_enable(FIGHTER_MARIOD_GENERATE_ARTICLE_DRCAPSULE)
+ 	}
+ }

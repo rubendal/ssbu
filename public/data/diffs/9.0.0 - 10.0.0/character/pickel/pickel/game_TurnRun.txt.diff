@@ -1,0 +1,14 @@
+diff --git "a/_9.0.0/pickel/game_TurnRun.txt" "b/10.0.0/pickel/game_TurnRun.txt"
+index 4535700..29fdf78 100644
+--- "a/_9.0.0/pickel/game_TurnRun.txt"
++++ "b/10.0.0/pickel/game_TurnRun.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=9)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=58508)
++	WorkModule::on_flag(Flag=59180)
+ }
+ frame(Frame=15)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_RUN_BRAKE_FLAG_STOP)
+ }

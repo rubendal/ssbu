@@ -1,0 +1,15 @@
+diff --git "a/_9.0.0/mewtwo/game_SpecialAirNShoot.txt" "b/10.0.0/mewtwo/game_SpecialAirNShoot.txt"
+index 0a7b470..6e241e6 100644
+--- "a/_9.0.0/mewtwo/game_SpecialAirNShoot.txt"
++++ "b/10.0.0/mewtwo/game_SpecialAirNShoot.txt"
+@@ -1,10 +1,7 @@
+ if(is_excute){
+ 	CORRECT(GROUND_CORRECT_KIND_GROUND_CLIFF_STOP)
+ }
+-frame(Frame=2)
+-FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=6)
+-FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	ArticleModule::shoot(FIGHTER_MEWTWO_GENERATE_ARTICLE_SHADOWBALL, ARTICLE_OPE_TARGET_LAST, false)
+ }

@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/koopa/game_FinalAirStart.txt" "b/0.0.0/koopa/game_FinalAirStart.txt"
+index 71af831..54b5d00 100644
+--- "a/9.0.0/koopa/game_FinalAirStart.txt"
++++ "b/0.0.0/koopa/game_FinalAirStart.txt"
+@@ -9,11 +9,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(10, 0)
+-			0xe7450(-229470730, 1.5)
++			0xe7450(-1334469198, 1.5)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=35)
+ 		if(is_excute){

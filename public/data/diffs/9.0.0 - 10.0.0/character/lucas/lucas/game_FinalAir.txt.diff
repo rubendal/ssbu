@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/lucas/game_FinalAir.txt" "b/0.0.0/lucas/game_FinalAir.txt"
+index 775bf76..6d5d48e 100644
+--- "a/9.0.0/lucas/game_FinalAir.txt"
++++ "b/0.0.0/lucas/game_FinalAir.txt"
+@@ -20,11 +20,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x101520(974857082, 2.2)
++			0x101520(-2030529378, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

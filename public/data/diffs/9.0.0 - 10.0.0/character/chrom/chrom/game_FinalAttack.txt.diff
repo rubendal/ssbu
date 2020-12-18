@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/chrom/game_FinalAttack.txt" "b/0.0.0/chrom/game_FinalAttack.txt"
+index 374bbe1..9b99837 100644
+--- "a/9.0.0/chrom/game_FinalAttack.txt"
++++ "b/0.0.0/chrom/game_FinalAttack.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ 	FT_REMOVE_FINAL_AURA(false)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_ROY_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT), false, true)){
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x12ba60(0, 0)){
++	if(0x12b910(0, 0)){
+ 		if(is_excute){
+ 			CAM_ZOOM_IN_arg5(2, 0, 1.6, 0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -5, 5)
+ 		}
+ 		else{

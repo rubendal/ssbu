@@ -1,0 +1,13 @@
+diff --git "a/0.0/fox/game_SpecialAirNEnd.txt" "b/0.0/fox/game_SpecialAirNEnd.txt"
+index 00bfc6d..d9e58ea 100644
+--- "a/0.0/fox/game_SpecialAirNEnd.txt"
++++ "b/0.0/fox/game_SpecialAirNEnd.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10cfb0(false, true)){
++if(0x10ce70(false, true)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, hash40("close"))
+ 		ArticleModule::change_motion()
+ 	}
+ }

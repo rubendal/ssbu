@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/dolly/game_SpecialAirLwRise.txt" "b/0.0.0/dolly/game_SpecialAirLwRise.txt"
+index fa5f6e7..fe976a5 100644
+--- "a/9.0.0/dolly/game_SpecialAirLwRise.txt"
++++ "b/0.0.0/dolly/game_SpecialAirLwRise.txt"
+@@ -2,11 +2,11 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_DOLLY_INSTANCE_WORK_ID_FLAG_FINAL_HIT_CANCEL)
+ 	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ 	KineticModule::clear_speed_all()
+ 	WorkModule::off_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_NO_SPEED_OPERATION_CHK)
+ }
+-if(0x24c8d0(WorkModule::is_flag(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_FLAG_COMMAND), false, true)){
++if(0x24ff00(WorkModule::is_flag(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_FLAG_COMMAND), false, true)){
+ 	if(is_excute){
+ 		WHOLE_HIT(HIT_STATUS_XLU)
+ 	}
+ }
+ if(is_excute){

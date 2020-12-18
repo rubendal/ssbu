@@ -1,0 +1,27 @@
+diff --git "a/_9.0.0/pickel/game_AttackLw4.txt" "b/10.0.0/pickel/game_AttackLw4.txt"
+index a8c22c2..d08a6bc 100644
+--- "a/_9.0.0/pickel/game_AttackLw4.txt"
++++ "b/10.0.0/pickel/game_AttackLw4.txt"
+@@ -1,17 +1,17 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=58508)
++	WorkModule::on_flag(Flag=59180)
+ }
+ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	WorkModule::set_float(1, 58532)
+-	ArticleModule::generate_article(58536)
++	WorkModule::set_float(1, 59204)
++	ArticleModule::generate_article(59208)
+ }
+ frame(Frame=26)
+ if(is_excute){
+-	WorkModule::set_float(-1, 58532)
+-	ArticleModule::generate_article(58536)
++	WorkModule::set_float(-1, 59204)
++	ArticleModule::generate_article(59208)
+ }

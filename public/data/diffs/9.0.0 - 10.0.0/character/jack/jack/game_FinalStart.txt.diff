@@ -1,0 +1,17 @@
+diff --git "a/.0.0/jack/game_FinalStart.txt" "b/.0.0/jack/game_FinalStart.txt"
+index d0680f4..b6cba04 100644
+--- "a/.0.0/jack/game_FinalStart.txt"
++++ "b/.0.0/jack/game_FinalStart.txt"
+@@ -14,11 +14,11 @@ if(0x304640(0, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x304640(-1266217655, 2)
++			0x304640(-233498889, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)

@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_Final2.txt" "b/0.0/ryu/game_Final2.txt"
+index 8964c4c..77c3629 100644
+--- "a/0.0/ryu/game_Final2.txt"
++++ "b/0.0/ryu/game_Final2.txt"
+@@ -10,11 +10,11 @@ if(0x160530(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x160530(48432809, 1.8)
++			0x160530(-557596978, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

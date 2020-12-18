@@ -1,0 +1,12 @@
+diff --git "a/tch_9.0.0/gamewatch/game_ThrowLw.txt" "b/ch_10.0.0/gamewatch/game_ThrowLw.txt"
+index 7791173..98f723e 100644
+--- "a/tch_9.0.0/gamewatch/game_ThrowLw.txt"
++++ "b/ch_10.0.0/gamewatch/game_ThrowLw.txt"
+@@ -1,7 +1,6 @@
+ if(is_excute){
+-	FT_LEAVE_NEAR_OTTOTTO(-2.5, 2.5)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=4.0, Angle=80, KBG=120, FKB=0, BKB=70, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	WorkModule::on_flag(Flag=FIGHTER_GAMEWATCH_STATUS_THROW_FLAG_SET_STOCK_ICON)
+ 	WorkModule::set_float(-50, FIGHTER_GAMEWATCH_STATUS_THROW_WORK_FLOAT_STOCK_ICON_ROTATE)
+ }

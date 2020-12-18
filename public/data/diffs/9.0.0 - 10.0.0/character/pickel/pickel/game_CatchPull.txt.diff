@@ -1,0 +1,15 @@
+diff --git "a/_9.0.0/pickel/game_CatchPull.txt" "b/10.0.0/pickel/game_CatchPull.txt"
+index 86b965f..5c9dee3 100644
+--- "a/_9.0.0/pickel/game_CatchPull.txt"
++++ "b/10.0.0/pickel/game_CatchPull.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=9)
+ if(is_excute){
+-	ArticleModule::set_flag(54532, true, 55188)
++	ArticleModule::set_flag(54648, true, 55308)
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	ArticleModule::remove_exist(54532)
++	ArticleModule::remove_exist(54648)
+ }

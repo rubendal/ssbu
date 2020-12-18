@@ -1,0 +1,13 @@
+diff --git "a/_9.0.0/mewtwo/game_ThrowLw.txt" "b/10.0.0/mewtwo/game_ThrowLw.txt"
+index df07509..47664c2 100644
+--- "a/_9.0.0/mewtwo/game_ThrowLw.txt"
++++ "b/10.0.0/mewtwo/game_ThrowLw.txt"
+@@ -13,8 +13,5 @@ if(is_excute){
+ frame(Frame=18)
+ if(is_excute){
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ 	AttackModule::clear_all()
+ }
+-FT_MOTION_RATE(FSM=0.85)
+-frame(Frame=58)
+-FT_MOTION_RATE(FSM=1)

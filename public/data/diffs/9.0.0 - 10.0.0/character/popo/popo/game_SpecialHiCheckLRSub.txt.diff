@@ -1,0 +1,14 @@
+diff --git "a/.0.0/popo/game_SpecialHiCheckLRSub.txt" "b/.0.0/popo/game_SpecialHiCheckLRSub.txt"
+index 986ec30..80a6c24 100644
+--- "a/.0.0/popo/game_SpecialHiCheckLRSub.txt"
++++ "b/.0.0/popo/game_SpecialHiCheckLRSub.txt"
+@@ -1,8 +1,8 @@
+ get_value_float(FT_VAR_FLOAT_STICK_X_BACK)
+ WorkModule::get_param_float(0, hash40("param_special_hi"), hash40("start_turn_cont_x"))
+-if(0x161420(32)){
++if(0x1614b0(32)){
+ 	if(is_excute){
+ 		STICK_LR()
+ 		UPDATE_ROT()
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/9.0.0/simon/game_AttackAirB.txt" "b/0.0.0/simon/game_AttackAirB.txt"
+index 3f82838..ca7f51f 100644
+--- "a/9.0.0/simon/game_AttackAirB.txt"
++++ "b/0.0.0/simon/game_AttackAirB.txt"
+@@ -7,11 +7,11 @@ frame(Frame=4)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=14)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_ATTACK_AIR_CLIFF_RAY_CHECK)
+ 	WorkModule::on_flag(Flag=FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_ATTACK_AIR_LASSO_FLAG_CHECK)
+-	SEARCH(0, 0, hash40("top"), 2.3, 0.0, 8.0, -7.0, 0.0, 8.0, -40.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 57980, COLLISION_PART_MASK_ALL, false)
++	SEARCH(0, 0, hash40("top"), 2.3, 0.0, 8.0, -7.0, 0.0, 8.0, -40.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58652, COLLISION_PART_MASK_ALL, false)
+ }
+ frame(Frame=16)
+ if(is_excute){
+ 	WorkModule::off_flag(Flag=FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_ATTACK_AIR_CLIFF_RAY_CHECK)
+ 	WorkModule::off_flag(Flag=FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_ATTACK_AIR_LASSO_FLAG_CHECK)
