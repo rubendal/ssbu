@@ -1,0 +1,11 @@
+diff --git "a/10.0.0/pickel/game_SpecialN3Miss.txt" "b/10.1.0/pickel/game_SpecialN3Miss.txt"
+index 67bee04..2b33abe 100644
+--- "a/10.0.0/pickel/game_SpecialN3Miss.txt"
++++ "b/10.1.0/pickel/game_SpecialN3Miss.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59180)
++	WorkModule::on_flag(Flag=59268)
+ 	as_hash__const(hash40("rbkind_nohitl"), 7, false)
+ 	ControlModule::set_rumble()
+ }

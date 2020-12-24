@@ -1,0 +1,17 @@
+diff --git "a/er_10.0.0/miigunner/game_FinalAirStart.txt" "b/er_10.1.0/miigunner/game_FinalAirStart.txt"
+index 8f7f277..c980b48 100644
+--- "a/er_10.0.0/miigunner/game_FinalAirStart.txt"
++++ "b/er_10.1.0/miigunner/game_FinalAirStart.txt"
+@@ -16,11 +16,11 @@ if(0x12fe20(1649648, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), true, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x12fe20(61294676, 2.2)
++			0x12fe20(1758786282, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), true, false)

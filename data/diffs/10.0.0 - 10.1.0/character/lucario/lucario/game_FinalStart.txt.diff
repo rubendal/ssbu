@@ -1,0 +1,17 @@
+diff --git "a/_10.0.0/lucario/game_FinalStart.txt" "b/_10.1.0/lucario/game_FinalStart.txt"
+index df1cd0c..dbcf1d5 100644
+--- "a/_10.0.0/lucario/game_FinalStart.txt"
++++ "b/_10.1.0/lucario/game_FinalStart.txt"
+@@ -10,11 +10,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 4, 6, 0)
+ 			PostureModule::scale(3, 0)
+-			0x102de0(706961951, 2)
++			0x102de0(-368642142, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

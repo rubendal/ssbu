@@ -1,0 +1,17 @@
+diff --git "a/.0.0/pitb/game_Final_Com.txt" "b/.1.0/pitb/game_Final_Com.txt"
+index 9846d39..8e64edf 100644
+--- "a/.0.0/pitb/game_Final_Com.txt"
++++ "b/.1.0/pitb/game_Final_Com.txt"
+@@ -9,11 +9,11 @@ if(0x10d490(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x10d490(-1683896828, 2)
++			0x10d490(701293155, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

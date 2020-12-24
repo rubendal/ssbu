@@ -1,0 +1,25 @@
+diff --git "a/10.0.0/tantan/game_AttackAirF.txt" "b/10.1.0/tantan/game_AttackAirF.txt"
+index ab57b1a..18fdf08 100644
+--- "a/10.0.0/tantan/game_AttackAirF.txt"
++++ "b/10.1.0/tantan/game_AttackAirF.txt"
+@@ -1,6 +1,6 @@
+-if(0x3a06b0(53364, 1)){
++if(0x3a06b0(53436, 1)){
+ 	frame(Frame=1)
+ 	FT_MOTION_RATE(FSM=1.35)
+ 	frame(Frame=4)
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+@@ -16,11 +16,11 @@ if(is_excute){
+ frame(Frame=24)
+ if(is_excute){
+ 	HitModule::set_status_all(HIT_STATUS_NORMAL)
+ }
+ else{
+-	if(0x3a06b0(53364, 2)){
++	if(0x3a06b0(53436, 2)){
+ 		frame(Frame=1)
+ 		FT_MOTION_RATE(FSM=0.75)
+ 		frame(Frame=4)
+ 		if(is_excute){
+ 			WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)

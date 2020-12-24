@@ -1,0 +1,42 @@
+diff --git "a/nk_10.0.0/younglink/game_SpecialAirHi.txt" "b/nk_10.1.0/younglink/game_SpecialAirHi.txt"
+index 7571bb9..3f2c932 100644
+--- "a/nk_10.0.0/younglink/game_SpecialAirHi.txt"
++++ "b/nk_10.1.0/younglink/game_SpecialAirHi.txt"
+@@ -1,8 +1,9 @@
+ frame(Frame=8)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=3.0, Angle=367, KBG=100, FKB=107, BKB=0, Size=6.0, X=0.0, Y=7.5, Z=10.5, X2=0.0, Y2=7.5, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=3.0, Angle=80, KBG=100, FKB=110, BKB=0, Size=4.0, X=0.0, Y=5.5, Z=11.5, X2=0.0, Y2=5.5, Z2=7.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=3.0, Angle=80, KBG=100, FKB=76, BKB=0, Size=6.0, X=0.0, Y=7.5, Z=10.5, X2=0.0, Y2=7.5, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	AttackModule::set_no_damage_fly_smoke_all(true, false)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule::clear_all()
+@@ -35,11 +36,11 @@ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=22)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=2.0, Angle=367, KBG=100, FKB=107, BKB=0, Size=6.0, X=0.0, Y=8.5, Z=10.5, X2=0.0, Y2=8.0, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=2.0, Angle=65, KBG=100, FKB=70, BKB=0, Size=6.0, X=0.0, Y=8.5, Z=10.5, X2=0.0, Y2=8.0, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	AttackModule::set_no_damage_fly_smoke_all(true, false)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule::clear_all()
+@@ -54,11 +55,12 @@ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=31)
+ if(is_excute){
+-	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=2.0, Angle=70, KBG=100, FKB=72, BKB=0, Size=6.5, X=0.0, Y=9.5, Z=10.5, X2=0.0, Y2=8.5, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=2.0, Angle=74, KBG=100, FKB=60, BKB=0, Size=4.0, X=0.0, Y=9.0, Z=5.5, X2=0.0, Y2=6.0, Z2=7.0, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
++	ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=2.0, Angle=98, KBG=100, FKB=62, BKB=0, Size=6.5, X=0.0, Y=9.5, Z=10.5, X2=0.0, Y2=8.5, Z2=8.5, Hitlag=1.0, SDI=0.3, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_SWORD)
+ 	AttackModule::set_no_damage_fly_smoke_all(true, false)
+ }
+ wait(Frames=3)
+ if(is_excute){
+ 	AttackModule::clear_all()

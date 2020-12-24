@@ -1,0 +1,17 @@
+diff --git "a/10.0.0/samusd/game_FinalStart.txt" "b/10.1.0/samusd/game_FinalStart.txt"
+index 8b0d55d..3b77a7b 100644
+--- "a/10.0.0/samusd/game_FinalStart.txt"
++++ "b/10.1.0/samusd/game_FinalStart.txt"
+@@ -10,11 +10,11 @@ if(0x112280(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x112280(-341288479, 1.7)
++			0x112280(-401456035, 1.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

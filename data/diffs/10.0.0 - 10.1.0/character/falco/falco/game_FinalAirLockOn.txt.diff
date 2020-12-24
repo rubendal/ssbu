@@ -1,0 +1,17 @@
+diff --git "a/0.0.0/falco/game_FinalAirLockOn.txt" "b/0.1.0/falco/game_FinalAirLockOn.txt"
+index f37e5d1..b899b8b 100644
+--- "a/0.0.0/falco/game_FinalAirLockOn.txt"
++++ "b/0.1.0/falco/game_FinalAirLockOn.txt"
+@@ -32,11 +32,11 @@ if(0x11c960(0, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x11c960(-368717868, 1.2)
++			0x11c960(1488884851, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon.nuanmb"), false, false)

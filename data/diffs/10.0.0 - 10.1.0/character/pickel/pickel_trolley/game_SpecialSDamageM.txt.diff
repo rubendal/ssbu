@@ -1,0 +1,9 @@
+diff --git "a/10.0.0/pickel_trolley/game_SpecialSDamageM.txt" "b/10.1.0/pickel_trolley/game_SpecialSDamageM.txt"
+index fb8b182..4a2561a 100644
+--- "a/10.0.0/pickel_trolley/game_SpecialSDamageM.txt"
++++ "b/10.1.0/pickel_trolley/game_SpecialSDamageM.txt"
+@@ -1,3 +1,3 @@
+ if(is_excute){
+-	WorkModule::off_flag(Flag=59244)
++	WorkModule::off_flag(Flag=59332)
+ }

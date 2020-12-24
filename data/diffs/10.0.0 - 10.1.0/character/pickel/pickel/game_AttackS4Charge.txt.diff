@@ -1,0 +1,11 @@
+diff --git "a/10.0.0/pickel/game_AttackS4Charge.txt" "b/10.1.0/pickel/game_AttackS4Charge.txt"
+index bf5bb50..72acea9 100644
+--- "a/10.0.0/pickel/game_AttackS4Charge.txt"
++++ "b/10.1.0/pickel/game_AttackS4Charge.txt"
+@@ -1,4 +1,4 @@
+ if(is_excute){
+-	WorkModule::off_flag(Flag=59180)
+-	WorkModule::set_int(55116, 55208)
++	WorkModule::off_flag(Flag=59268)
++	WorkModule::set_int(55188, 55280)
+ }
