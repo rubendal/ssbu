@@ -5961,7 +5961,7 @@
             "length": 170.0,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "Damage1"
           }
         ],
         "boundingBox": [
@@ -6008,7 +6008,7 @@
             "length": 140.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "LightMetal"
           },
           {
             "leftLedge": false,
@@ -6018,7 +6018,7 @@
             "length": 9.799999,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "LightMetal"
           },
           {
             "leftLedge": false,
@@ -6028,7 +6028,7 @@
             "length": 140.0,
             "ceiling": true,
             "wall": false,
-            "material": "Basic"
+            "material": "LightMetal"
           },
           {
             "leftLedge": false,
@@ -6038,7 +6038,7 @@
             "length": 9.799999,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "LightMetal"
           }
         ],
         "boundingBox": [
