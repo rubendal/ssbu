@@ -1,0 +1,17 @@
+diff --git "a/_10.0.0/richter/game_AttackS4Hi.txt" "b/_10.1.0/richter/game_AttackS4Hi.txt"
+index 0e3bbfa..05ffc19 100644
+--- "a/_10.0.0/richter/game_AttackS4Hi.txt"
++++ "b/_10.1.0/richter/game_AttackS4Hi.txt"
+@@ -2,11 +2,11 @@ frame(Frame=6)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ frame(Frame=22)
+ if(is_excute){
+-	SEARCH(0, 0, hash40("top"), 3.0, 0.0, 7.0, 17.0, 0.0, 13.0, 45.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58652, COLLISION_PART_MASK_ALL, false)
++	SEARCH(0, 0, hash40("top"), 3.0, 0.0, 7.0, 17.0, 0.0, 13.0, 45.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58740, COLLISION_PART_MASK_ALL, false)
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	battle_object()
+ 	L2CValue()

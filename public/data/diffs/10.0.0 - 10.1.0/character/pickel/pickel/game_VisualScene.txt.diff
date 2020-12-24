@@ -1,0 +1,24 @@
+diff --git "a/10.0.0/pickel/game_VisualScene.txt" "b/10.1.0/pickel/game_VisualScene.txt"
+index 345a527..3d70f57 100644
+--- "a/10.0.0/pickel/game_VisualScene.txt"
++++ "b/10.1.0/pickel/game_VisualScene.txt"
+@@ -1,15 +1,15 @@
+ if(is_excute){
+-	ArticleModule::generate_article(54804)
++	ArticleModule::generate_article(54876)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59236)
++	WorkModule::on_flag(Flag=59324)
+ }
+ frame(Frame=16)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59240)
++	WorkModule::on_flag(Flag=59328)
+ }
+ frame(Frame=100)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=54788)
++	WorkModule::on_flag(Flag=54860)
+ }

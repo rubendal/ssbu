@@ -1,0 +1,17 @@
+diff --git "a/0.0.0/buddy/game_AttackS4.txt" "b/0.1.0/buddy/game_AttackS4.txt"
+index ad32677..bd34ce1 100644
+--- "a/0.0.0/buddy/game_AttackS4.txt"
++++ "b/0.1.0/buddy/game_AttackS4.txt"
+@@ -6,11 +6,11 @@ if(is_excute){
+ frame(Frame=10)
+ execute(10)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ 	WorkModule::get_float(FIGHTER_BUDDY_GENERATE_ARTICLE_PARTNER, hash40("attack_s4s"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-	as_hash__const(675467995)
++	as_hash__const(-1249279757)
+ 	ArticleModule::change_motion()
+ }
+ frame(Frame=11)
+ FT_MOTION_RATE(FSM=1.2)
+ frame(Frame=16)

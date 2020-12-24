@@ -1,0 +1,25 @@
+diff --git "a/t_10.0.0/duckhunt/game_FinalAirStart.txt" "b/t_10.1.0/duckhunt/game_FinalAirStart.txt"
+index 28e6153..fe6851c 100644
+--- "a/t_10.0.0/duckhunt/game_FinalAirStart.txt"
++++ "b/t_10.1.0/duckhunt/game_FinalAirStart.txt"
+@@ -27,18 +27,18 @@ else{
+ get_value_float(SO_VAR_FLOAT_LR)
+ if(0x119980(0, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
+ 		PostureModule::scale(4, 0)
+-		0x119980(-1264873573, 2)
++		0x119980(2101878648, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 10, 0)
+ 			PostureModule::scale(4, 0)
+-			0x119980(-1264873573, 2)
++			0x119980(2101878648, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=12)

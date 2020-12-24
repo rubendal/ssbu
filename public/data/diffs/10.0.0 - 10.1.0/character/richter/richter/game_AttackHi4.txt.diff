@@ -1,0 +1,17 @@
+diff --git "a/_10.0.0/richter/game_AttackHi4.txt" "b/_10.1.0/richter/game_AttackHi4.txt"
+index ca83251..164c479 100644
+--- "a/_10.0.0/richter/game_AttackHi4.txt"
++++ "b/_10.1.0/richter/game_AttackHi4.txt"
+@@ -10,11 +10,11 @@ frame(Frame=13)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=21)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=22)
+ if(is_excute){
+-	SEARCH(0, 0, hash40("top"), 3.0, 0.0, 18.0, 2.0, 0.0, 52.0, 2.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58652, COLLISION_PART_MASK_ALL, false)
++	SEARCH(0, 0, hash40("top"), 3.0, 0.0, 18.0, 2.0, 0.0, 52.0, 2.0, COLLISION_KIND_MASK_HIT, HIT_STATUS_MASK_NORMAL, 1, COLLISION_SITUATION_MASK_GA, 58740, COLLISION_PART_MASK_ALL, false)
+ }
+ frame(Frame=24)
+ if(is_excute){
+ 	battle_object()
+ 	L2CValue()

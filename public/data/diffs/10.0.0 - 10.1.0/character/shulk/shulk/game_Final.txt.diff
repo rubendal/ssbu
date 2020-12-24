@@ -1,0 +1,17 @@
+diff --git "a/0.0.0/shulk/game_Final.txt" "b/0.1.0/shulk/game_Final.txt"
+index 9253604..1ce61df 100644
+--- "a/0.0.0/shulk/game_Final.txt"
++++ "b/0.1.0/shulk/game_Final.txt"
+@@ -15,11 +15,11 @@ if(is_excute){
+ 	SlowModule::set_whole(4, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x127210(-469006104, 2.1)
++		0x127210(1928294006, 2.1)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=19)

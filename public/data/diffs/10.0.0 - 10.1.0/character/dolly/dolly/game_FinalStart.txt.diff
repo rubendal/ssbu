@@ -1,0 +1,17 @@
+diff --git "a/0.0.0/dolly/game_FinalStart.txt" "b/0.1.0/dolly/game_FinalStart.txt"
+index 8062552..0665c11 100644
+--- "a/0.0.0/dolly/game_FinalStart.txt"
++++ "b/0.1.0/dolly/game_FinalStart.txt"
+@@ -10,11 +10,11 @@ if(0x24ff00(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x24ff00(-2118949549, 2.1)
++			0x24ff00(-150924159, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

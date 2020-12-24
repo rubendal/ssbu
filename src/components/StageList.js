@@ -58,7 +58,7 @@ class StageList extends Component {
                 <span className="stage-span" key={stage.name + "_" + index}>
                   <a href={this.path + stage.name}>
                     <img className={`stage-list`} src={process.env.PUBLIC_URL + "/img/stages_icon/" + stage.name
-                      .toLowerCase().replace(/\./g, "").replace(/\,/g, "")
+                      .toLowerCase().replace(/\./g, "").replace(/\,/g, "").replace("northern cave", "northern_cave")
                       + ".png"} alt={stage.name} title={stage.name} />
                     {
                       stage.name === "BattleField (Common)" && (

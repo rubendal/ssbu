@@ -1,0 +1,9 @@
+diff --git "a/10.0.0/pickel/game_SleepLoop.txt" "b/10.1.0/pickel/game_SleepLoop.txt"
+index 70117ba..e990304 100644
+--- "a/10.0.0/pickel/game_SleepLoop.txt"
++++ "b/10.1.0/pickel/game_SleepLoop.txt"
+@@ -1,3 +1,3 @@
+ if(is_excute){
+-	ArticleModule::generate_article(59184)
++	ArticleModule::generate_article(59272)
+ }

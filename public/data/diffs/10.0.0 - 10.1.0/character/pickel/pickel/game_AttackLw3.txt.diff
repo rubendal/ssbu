@@ -1,0 +1,20 @@
+diff --git "a/10.0.0/pickel/game_AttackLw3.txt" "b/10.1.0/pickel/game_AttackLw3.txt"
+index 7729d30..862c04f 100644
+--- "a/10.0.0/pickel/game_AttackLw3.txt"
++++ "b/10.1.0/pickel/game_AttackLw3.txt"
+@@ -1,13 +1,13 @@
+ frame(Frame=1)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59180)
++	WorkModule::on_flag(Flag=59268)
+ }
+ FT_MOTION_RATE(FSM=8)
+ frame(Frame=2)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=5)
+ if(is_excute){
+-	ArticleModule::generate_article(59200)
++	ArticleModule::generate_article(59288)
+ }
+ frame(Frame=30)
+ FT_MOTION_RATE(FSM=2)

@@ -1,0 +1,22 @@
+diff --git "a/10.0.0/tantan_punch1/game_AttackDragonBeamLoop.txt" "b/10.1.0/tantan_punch1/game_AttackDragonBeamLoop.txt"
+index b277bb0..05e0fbc 100644
+--- "a/10.0.0/tantan_punch1/game_AttackDragonBeamLoop.txt"
++++ "b/10.1.0/tantan_punch1/game_AttackDragonBeamLoop.txt"
+@@ -1,13 +1,13 @@
+-IS_EXIST_ARTICLE(54076)
++IS_EXIST_ARTICLE(54148)
+ if(0x3a06b0(false, true)){
+ 	if(is_excute){
+-		ArticleModule::remove_exist(54076)
++		ArticleModule::remove_exist(54148)
+ 	}
+ }
+ if(is_excute){
+-	ArticleModule::generate_article(54076)
+-	ArticleModule::shoot_exist(54076, ARTICLE_OPE_TARGET_ALL, false)
++	ArticleModule::generate_article(54148)
++	ArticleModule::shoot_exist(54148, ARTICLE_OPE_TARGET_ALL, false)
+ 	as_hash__const(0x15e6a0a1de, 30, false)
+ 	ControlModule::set_rumble()
+ 	QUAKE(CAMERA_QUAKE_KIND_S)
+ }
