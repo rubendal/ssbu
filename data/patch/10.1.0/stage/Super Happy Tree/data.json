@@ -181,7 +181,7 @@
           {
             "leftLedge": false,
             "rightLedge": false,
-            "noWallJump": false,
+            "noWallJump": true,
             "passthroughAngle": 180,
             "length": 10.0,
             "ceiling": false,
@@ -216,7 +216,7 @@
           {
             "leftLedge": false,
             "rightLedge": false,
-            "noWallJump": false,
+            "noWallJump": true,
             "passthroughAngle": 0,
             "length": 11.5956039,
             "ceiling": false,
