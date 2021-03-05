@@ -1,0 +1,20 @@
+diff --git "a/ac_10.1.0/littlemac/game_Win1.txt" "b/ac_11.0.0/littlemac/game_Win1.txt"
+index 6e51745..10d4d2b 100644
+--- "a/ac_10.1.0/littlemac/game_Win1.txt"
++++ "b/ac_11.0.0/littlemac/game_Win1.txt"
+@@ -1,11 +1,12 @@
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_LITTLEMAC_GENERATE_ARTICLE_CHAMPIONBELT)
+ }
+-operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
+-if(is_excute){
+-	ArticleModule::generate_article(FIGHTER_LITTLEMAC_GENERATE_ARTICLE_DOCLOUIS)
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)){
++	if(is_excute){
++		ArticleModule::generate_article(FIGHTER_LITTLEMAC_GENERATE_ARTICLE_DOCLOUIS)
++	}
+ }
+ IS_EXIST_ARTICLE(FIGHTER_LITTLEMAC_GENERATE_ARTICLE_DOCLOUIS)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(false, true)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_LITTLEMAC_GENERATE_ARTICLE_DOCLOUIS, hash40("win1"))

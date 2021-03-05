@@ -1,0 +1,12 @@
+diff --git "a/10.1.0/master_sword/game_SpecialHi.txt" "b/11.0.0/master_sword/game_SpecialHi.txt"
+index aaaaf26..199df7b 100644
+--- "a/10.1.0/master_sword/game_SpecialHi.txt"
++++ "b/11.0.0/master_sword/game_SpecialHi.txt"
+@@ -1,6 +1,6 @@
+-FT_MOTION_RATE(FSM=0.5)
++FT_MOTION_RATE(FSM=0.3)
+ if(is_excute){
+ 	WorkModule::set_float(8, WEAPON_MASTER_SWORD_INSTANCE_WORK_ID_FLOAT_2ND_GRAVITY)
+ 	WorkModule::set_float(0, WEAPON_MASTER_SWORD_INSTANCE_WORK_ID_FLOAT_2ND_AIR_RESISTANCE)
+ }
+ frame(Frame=3)

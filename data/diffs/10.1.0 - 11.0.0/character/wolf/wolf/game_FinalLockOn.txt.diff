@@ -1,0 +1,35 @@
+diff --git "a/.1.0/wolf/game_FinalLockOn.txt" "b/.0.0/wolf/game_FinalLockOn.txt"
+index 57b558b..5141bd5 100644
+--- "a/.1.0/wolf/game_FinalLockOn.txt"
++++ "b/.0.0/wolf/game_FinalLockOn.txt"
+@@ -12,25 +12,26 @@ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+ 	ArticleModule::generate_article(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+ 	ArticleModule::generate_article(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+ 	ArticleModule::generate_article(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN)
+ 	BattleObjectWorld__scale_z()
+-	operator___lib::L2CValueconst__const(0, 1.0)
+-	ArticleModule::set_visibility_whole(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN, false)
+-	SLOW_OPPONENT(4, 30)
++	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 1.0)){
++		ArticleModule::set_visibility_whole(FIGHTER_WOLF_GENERATE_ARTICLE_WOLFEN, false)
++	}
+ }
++SLOW_OPPONENT(4, 30)
+ if(0x1081e0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		SlowModule::set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(25)
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x1081e0(-25951439, 1.2)
++			0x1081e0(-236085470, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

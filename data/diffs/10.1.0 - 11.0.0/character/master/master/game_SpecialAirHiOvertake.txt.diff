@@ -1,0 +1,17 @@
+diff --git "a/10.1.0/master/game_SpecialAirHiOvertake.txt" "b/11.0.0/master/game_SpecialAirHiOvertake.txt"
+index 11fb897..c19ae24 100644
+--- "a/10.1.0/master/game_SpecialAirHiOvertake.txt"
++++ "b/11.0.0/master/game_SpecialAirHiOvertake.txt"
+@@ -3,11 +3,11 @@ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_MASTER_GENERATE_ARTICLE_SWORD)
+ 	as_hash__const(FIGHTER_MASTER_GENERATE_ARTICLE_SWORD, hash40("special_air_hi_overtake"))
+ 	ArticleModule::change_motion()
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=6.5, Angle=260, KBG=40, FKB=0, BKB=85, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_KICK)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=1, Damage=6.5, Angle=114, KBG=65, FKB=0, BKB=65, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_KICK)
+-	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW_MEWTWO, ID=2, Damage=6.5, Angle=260, KBG=110, FKB=0, BKB=0, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_KICK)
++	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW_MEWTWO, ID=2, Damage=6.5, Angle=260, KBG=110, FKB=0, BKB=14, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_KICK)
+ }
+ frame(Frame=9)
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_MASTER_STATUS_SPECIAL_HI_FLAG_TARGET_AIR), false, true)){
+ 	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_MASTER_STATUS_SPECIAL_HI_FLAG_TARGET_HI_DAMAGE), false, true)){
+ 		if(is_excute){

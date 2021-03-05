@@ -1,0 +1,36 @@
+diff --git "a/0.1.0/falco/game_FinalLockOn.txt" "b/1.0.0/falco/game_FinalLockOn.txt"
+index 9fe0828..71d4a7e 100644
+--- "a/0.1.0/falco/game_FinalLockOn.txt"
++++ "b/1.0.0/falco/game_FinalLockOn.txt"
+@@ -12,14 +12,15 @@ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING)
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING)
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING)
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING)
+ 	BattleObjectWorld__scale_z()
+-	operator___lib::L2CValueconst__const(0, 1.0)
+-	ArticleModule::set_visibility_whole(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING, false)
+-	SLOW_OPPONENT(4, 30)
++	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, 1.0)){
++		ArticleModule::set_visibility_whole(FIGHTER_FALCO_GENERATE_ARTICLE_ARWING, false)
++	}
+ }
++SLOW_OPPONENT(4, 30)
+ if(0x11c960(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		SlowModule::set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(25)
+@@ -31,11 +32,11 @@ if(0x11c960(0, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x11c960(1488884851, 1.2)
++			0x11c960(-150771512, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon.nuanmb"), false, false)

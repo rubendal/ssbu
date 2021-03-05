@@ -1,0 +1,10 @@
+diff --git "a/0.1.0/pichu/game_SpecialHi2.txt" "b/1.0.0/pichu/game_SpecialHi2.txt"
+index fc4c62d..7817ec6 100644
+--- "a/0.1.0/pichu/game_SpecialHi2.txt"
++++ "b/1.0.0/pichu/game_SpecialHi2.txt"
+@@ -1,4 +1,4 @@
+ if(is_excute){
+-	FT_ADD_DAMAGE(SelfDamage=1.4)
++	FT_ADD_DAMAGE(SelfDamage=1)
+ 	JostleModule::set_status(false)
+ }

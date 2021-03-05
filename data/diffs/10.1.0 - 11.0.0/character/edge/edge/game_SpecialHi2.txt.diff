@@ -1,0 +1,30 @@
+diff --git "a/.1.0/edge/game_SpecialHi2.txt" "b/.0.0/edge/game_SpecialHi2.txt"
+index 7cd923b..b3b9715 100644
+--- "a/.1.0/edge/game_SpecialHi2.txt"
++++ "b/.0.0/edge/game_SpecialHi2.txt"
+@@ -39,11 +39,11 @@ as_pointer__const(3, hash40("rot"), 20, -5, 2)
+ as_hash__const()
+ set_vec_target_pos_app::BattleObjectModuleAccessor__int_phx::Hash40_phx::Vector2fconst__unsignedint()
+ battle_object_module_accessor()
+ L2CValue()
+ L2CValue_lib::L2CValueconst()
+-as_pointer__const(4, hash40("rot"), 12, 1, 4)
++as_pointer__const(4, hash40("rot"), 5, 1, 4)
+ as_hash__const()
+ set_vec_target_pos_app::BattleObjectModuleAccessor__int_phx::Hash40_phx::Vector2fconst__unsignedint()
+ battle_object_module_accessor()
+ L2CValue()
+ L2CValue_lib::L2CValueconst()
+@@ -99,11 +99,11 @@ for(6 Iterations){
+ 	as_hash__const()
+ 	set_vec_target_pos_app::BattleObjectModuleAccessor__int_phx::Hash40_phx::Vector2fconst__unsignedint()
+ 	battle_object_module_accessor()
+ 	L2CValue()
+ 	L2CValue_lib::L2CValueconst()
+-	as_pointer__const(3, hash40("rot"), 12, 1, 4)
++	as_pointer__const(3, hash40("rot"), 5, 1, 4)
+ 	as_hash__const()
+ 	set_vec_target_pos_app::BattleObjectModuleAccessor__int_phx::Hash40_phx::Vector2fconst__unsignedint()
+ 	battle_object_module_accessor()
+ 	L2CValue()
+ 	L2CValue_lib::L2CValueconst()

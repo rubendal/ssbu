@@ -1,0 +1,10 @@
+diff --git "a/.1.0/edge/game_SpecialAirHi1End.txt" "b/.0.0/edge/game_SpecialAirHi1End.txt"
+index d69269a..d6bc27e 100644
+--- "a/.1.0/edge/game_SpecialAirHi1End.txt"
++++ "b/.0.0/edge/game_SpecialAirHi1End.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56064)
++	WorkModule::on_flag(Flag=56992)
+ }

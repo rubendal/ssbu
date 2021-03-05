@@ -1,0 +1,15 @@
+diff --git "a/0.1.0/kirby/game_Win3Wait.txt" "b/1.0.0/kirby/game_Win3Wait.txt"
+index ae5cfab..1905ec1 100644
+--- "a/0.1.0/kirby/game_Win3Wait.txt"
++++ "b/1.0.0/kirby/game_Win3Wait.txt"
+@@ -1,5 +1,6 @@
+-0x4f8ad0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)
+-if(is_excute){
+-	as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, hash40("win_3_wait"))
+-	ArticleModule::change_motion()
++if(0x5226d0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE), false, true)){
++	if(is_excute){
++		as_hash__const(FIGHTER_KIRBY_GENERATE_ARTICLE_WINDUMMY, hash40("win_3_wait"))
++		ArticleModule::change_motion()
++	}
+ }

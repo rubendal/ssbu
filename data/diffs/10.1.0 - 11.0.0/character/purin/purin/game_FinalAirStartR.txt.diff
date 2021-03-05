@@ -1,0 +1,26 @@
+diff --git "a/0.1.0/purin/game_FinalAirStartR.txt" "b/1.0.0/purin/game_FinalAirStartR.txt"
+index 12bc15e..024de78 100644
+--- "a/0.1.0/purin/game_FinalAirStartR.txt"
++++ "b/1.0.0/purin/game_FinalAirStartR.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(7, 120)
+ }
+-if(0xf40a0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++if(0xf46f0(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstartr.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0xf40a0(896462908, 2.1)
++			0xf46f0(1722996798, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

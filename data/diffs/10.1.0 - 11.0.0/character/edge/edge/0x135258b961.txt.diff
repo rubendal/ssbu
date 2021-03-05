@@ -1,0 +1,13 @@
+diff --git "a/.1.0/edge/0x135258b961.txt" "b/.0.0/edge/0x135258b961.txt"
+index 52a5baf..04f4021 100644
+--- "a/.1.0/edge/0x135258b961.txt"
++++ "b/.0.0/edge/0x135258b961.txt"
+@@ -10,7 +10,7 @@ frame(Frame=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55888)
++	WorkModule::on_flag(Flag=56816)
+ }

@@ -1,0 +1,13 @@
+diff --git "a/0.1.0/brave/game_FinalAirHit.txt" "b/1.0.0/brave/game_FinalAirHit.txt"
+index 4fb18e9..0274528 100644
+--- "a/0.1.0/brave/game_FinalAirHit.txt"
++++ "b/1.0.0/brave/game_FinalAirHit.txt"
+@@ -1,7 +1,7 @@
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x239e40(0, 0)){
++if(0x239f70(0, 0)){
+ 	if(is_excute){
+ 		CAM_ZOOM_IN_arg5(1, 0, 2.2, 0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 3)
+ 	}
+ 	else{

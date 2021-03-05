@@ -1,0 +1,18 @@
+diff --git "a/_10.1.0/richter/game_FinalStart_Com2.txt" "b/_11.0.0/richter/game_FinalStart_Com2.txt"
+index f90cae0..7a68450 100644
+--- "a/_10.1.0/richter/game_FinalStart_Com2.txt"
++++ "b/_11.0.0/richter/game_FinalStart_Com2.txt"
+@@ -1,9 +1,10 @@
+ wait(Frames=15)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ wait(Frames=1)
+-operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_FINAL_HIT), false, true)
+-if(is_excute){
+-	WorkModule::on_flag(Flag=FIGHTER_SIMON_STATUS_FINAL_WORK_ID_FLAG_START_COFFIN_ROT_Y)
++if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_SIMON_INSTANCE_WORK_ID_FLAG_FINAL_HIT), false, true)){
++	if(is_excute){
++		WorkModule::on_flag(Flag=FIGHTER_SIMON_STATUS_FINAL_WORK_ID_FLAG_START_COFFIN_ROT_Y)
++	}
+ }

@@ -1,0 +1,31 @@
+diff --git "a/0.1.0/mario/game_Final.txt" "b/1.0.0/mario/game_Final.txt"
+index 5ef8ec2..36ace09 100644
+--- "a/0.1.0/mario/game_Final.txt"
++++ "b/1.0.0/mario/game_Final.txt"
+@@ -15,11 +15,11 @@ if(0xe1b20(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xe1b20(-248123040, 2.05)
++			0xe1b20(-816202221, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0xe1b20(0, 0)){
+@@ -33,9 +33,10 @@ if(0xe1b20(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START
+ 			}
+ 		}
+ 	}
+ }
+ frame(Frame=25)
+-0xe1b20(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)
+-if(is_excute){
+-	CAM_ZOOM_OUT()
++if(0xe1b20(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA), false, false)){
++	if(is_excute){
++		CAM_ZOOM_OUT()
++	}
+ }

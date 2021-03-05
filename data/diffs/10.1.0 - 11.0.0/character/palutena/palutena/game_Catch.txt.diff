@@ -1,0 +1,19 @@
+diff --git "a/a_10.1.0/palutena/game_Catch.txt" "b/a_11.0.0/palutena/game_Catch.txt"
+index a3737d7..1174b82 100644
+--- "a/a_10.1.0/palutena/game_Catch.txt"
++++ "b/a_11.0.0/palutena/game_Catch.txt"
+@@ -2,12 +2,12 @@ frame(Frame=6)
+ if(is_excute){
+ 	GrabModule::set_rebound(CanCatchRebound=true)
+ }
+ frame(Frame=7)
+ if(is_excute){
+-	CATCH(ID=0, Bone=hash40("top"), Size=3.6, X=0.0, Y=8.0, Z=4.0, X2=0.0, Y2=8.0, Z2=11.4, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground_or_Air=COLLISION_SITUATION_MASK_G)
+-	CATCH(ID=1, Bone=hash40("top"), Size=1.8, X=0.0, Y=8.0, Z=2.2, X2=0.0, Y2=8.0, Z2=13.2, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground_or_Air=COLLISION_SITUATION_MASK_A)
++	CATCH(ID=0, Bone=hash40("top"), Size=3.6, X=0.0, Y=8.0, Z=4.0, X2=0.0, Y2=8.0, Z2=9.4, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground_or_Air=COLLISION_SITUATION_MASK_G)
++	CATCH(ID=1, Bone=hash40("top"), Size=1.8, X=0.0, Y=8.0, Z=2.2, X2=0.0, Y2=8.0, Z2=11.2, Status=FIGHTER_STATUS_KIND_CAPTURE_PULLED, Ground_or_Air=COLLISION_SITUATION_MASK_A)
+ }
+ game_CaptureCutCommon()
+ wait(Frames=2)
+ if(is_excute){
+ 	grab(MA_MSC_CMD_GRAB_CLEAR_ALL)

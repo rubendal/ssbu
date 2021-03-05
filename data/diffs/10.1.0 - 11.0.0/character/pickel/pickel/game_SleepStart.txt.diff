@@ -1,0 +1,14 @@
+diff --git "a/10.1.0/pickel/game_SleepStart.txt" "b/11.0.0/pickel/game_SleepStart.txt"
+index 3e3c2d6..4e6cba0 100644
+--- "a/10.1.0/pickel/game_SleepStart.txt"
++++ "b/11.0.0/pickel/game_SleepStart.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59268)
++	WorkModule::on_flag(Flag=60192)
+ }
+ frame(Frame=12)
+ if(is_excute){
+-	ArticleModule::generate_article(59272)
++	ArticleModule::generate_article(60196)
+ }

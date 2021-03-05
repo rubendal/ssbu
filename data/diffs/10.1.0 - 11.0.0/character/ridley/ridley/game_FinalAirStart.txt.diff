@@ -1,0 +1,17 @@
+diff --git "a/10.1.0/ridley/game_FinalAirStart.txt" "b/11.0.0/ridley/game_FinalAirStart.txt"
+index f7bac41..bee5322 100644
+--- "a/10.1.0/ridley/game_FinalAirStart.txt"
++++ "b/11.0.0/ridley/game_FinalAirStart.txt"
+@@ -12,11 +12,11 @@ if(0x109680(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x109680(-927286522, 2.2)
++			0x109680(702442991, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 		}
+ 	}

@@ -1,0 +1,9 @@
+diff --git "a/10.1.0/master_sword/game_SpecialAirHi.txt" "b/11.0.0/master_sword/game_SpecialAirHi.txt"
+index e52df42..ccf005a 100644
+--- "a/10.1.0/master_sword/game_SpecialAirHi.txt"
++++ "b/11.0.0/master_sword/game_SpecialAirHi.txt"
+@@ -1,3 +1,3 @@
+-FT_MOTION_RATE(FSM=0.5)
++FT_MOTION_RATE(FSM=0.3)
+ frame(Frame=9)
+ FT_MOTION_RATE(FSM=1)

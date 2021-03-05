@@ -1,0 +1,19 @@
+diff --git "a/0.1.0/kirby/game_PickelSpecialN3.txt" "b/1.0.0/kirby/game_PickelSpecialN3.txt"
+index a942270..ace4765 100644
+--- "a/0.1.0/kirby/game_PickelSpecialN3.txt"
++++ "b/1.0.0/kirby/game_PickelSpecialN3.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19408)
++	WorkModule::on_flag(Flag=19644)
+ }
+ frame(Frame=4)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19400)
++	WorkModule::on_flag(Flag=19636)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19404)
++	WorkModule::on_flag(Flag=19640)
+ }

@@ -1,0 +1,17 @@
+diff --git "a/_10.1.0/lucario/game_AttackAirLw.txt" "b/_11.0.0/lucario/game_AttackAirLw.txt"
+index d351189..3481fca 100644
+--- "a/_10.1.0/lucario/game_AttackAirLw.txt"
++++ "b/_11.0.0/lucario/game_AttackAirLw.txt"
+@@ -2,11 +2,11 @@ if(is_excute){
+ 	FighterAreaModuleImpl::enable_fix_jostle_area_xy(3, 3, 8, 2)
+ }
+ frame(Frame=2)
+ if(is_excute){
+ 	WorkModule::get_float(0, FIGHTER_LUCARIO_INSTANCE_WORK_ID_FLOAT_ATTACK_AIR_LW_SPEED)
+-	SET_SPEED_EX(-368642142, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
++	SET_SPEED_EX(-1574883594, KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	WorkModule::on_flag(Flag=FIGHTER_LUCARIO_ATTACK_AIR_STATUS_WORK_ID_FLAG_DEC_SPEED)
+ 	KineticModule::suspend_energy(FIGHTER_KINETIC_ENERGY_ID_CONTROL)
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_WORK_ID_FLAG_RESERVE_GRAVITY_STABLE_UNABLE)
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+ }

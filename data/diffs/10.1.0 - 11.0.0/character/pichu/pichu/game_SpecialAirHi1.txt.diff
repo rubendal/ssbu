@@ -1,0 +1,10 @@
+diff --git "a/0.1.0/pichu/game_SpecialAirHi1.txt" "b/1.0.0/pichu/game_SpecialAirHi1.txt"
+index 599dc2f..17fa589 100644
+--- "a/0.1.0/pichu/game_SpecialAirHi1.txt"
++++ "b/1.0.0/pichu/game_SpecialAirHi1.txt"
+@@ -1,4 +1,4 @@
+ if(is_excute){
+-	FT_ADD_DAMAGE(SelfDamage=0.9)
++	FT_ADD_DAMAGE(SelfDamage=0.5)
+ 	JostleModule::set_status(false)
+ }
