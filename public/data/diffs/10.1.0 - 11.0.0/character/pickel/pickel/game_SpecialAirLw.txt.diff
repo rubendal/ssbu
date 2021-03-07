@@ -1,0 +1,16 @@
+diff --git "a/10.1.0/pickel/game_SpecialAirLw.txt" "b/11.0.0/pickel/game_SpecialAirLw.txt"
+index 4825337..80920bf 100644
+--- "a/10.1.0/pickel/game_SpecialAirLw.txt"
++++ "b/11.0.0/pickel/game_SpecialAirLw.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59268)
++	WorkModule::on_flag(Flag=60192)
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55148)
++	WorkModule::on_flag(Flag=55392)
+ }
+ frame(Frame=23)
+ FT_MOTION_RATE(FSM=0.5)

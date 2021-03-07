@@ -1,0 +1,17 @@
+diff --git "a/10.1.0/master/game_AttackHi4.txt" "b/11.0.0/master/game_AttackHi4.txt"
+index 93d8a46..3fd41ae 100644
+--- "a/10.1.0/master/game_AttackHi4.txt"
++++ "b/11.0.0/master/game_AttackHi4.txt"
+@@ -9,11 +9,11 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK), false, true)){
+ 	if(is_excute){
+ 		WorkModule::get_float(FIGHTER_MASTER_GENERATE_ARTICLE_SWORD, hash40("attack_hi4"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		as_hash__const(1963068229)
++		as_hash__const(-1522244318)
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ frame(Frame=13)
+ if(is_excute){

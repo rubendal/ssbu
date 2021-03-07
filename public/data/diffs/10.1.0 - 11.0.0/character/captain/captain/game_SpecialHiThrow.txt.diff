@@ -1,0 +1,23 @@
+diff --git "a/_10.1.0/captain/game_SpecialHiThrow.txt" "b/_11.0.0/captain/game_SpecialHiThrow.txt"
+index 08c5578..9289c04 100644
+--- "a/_10.1.0/captain/game_SpecialHiThrow.txt"
++++ "b/_11.0.0/captain/game_SpecialHiThrow.txt"
+@@ -7,14 +7,16 @@ if(is_excute){
+ }
+ frame(Frame=2)
+ if(is_excute){
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ }
+-frame(Frame=45)
+-FT_MOTION_RATE(FSM=0.7)
++FT_MOTION_RATE(FSM=0.75)
++frame(Frame=32)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_CAPTAIN_STATUS_SPECIAL_HI_THROW_FLAG_FALL)
+ }
++frame(Frame=45)
++FT_MOTION_RATE(FSM=0.7)
+ frame(Frame=59)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
+ }

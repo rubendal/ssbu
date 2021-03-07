@@ -1,0 +1,27 @@
+diff --git "a/.1.0/edge/0x1719a1b46b.txt" "b/.0.0/edge/0x1719a1b46b.txt"
+index 82c58a0..63aaf10 100644
+--- "a/.1.0/edge/0x1719a1b46b.txt"
++++ "b/.0.0/edge/0x1719a1b46b.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_NONE)
+ }
+ frame(Frame=11)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55896)
++	WorkModule::on_flag(Flag=56824)
+ }
+ frame(Frame=12)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55904)
++	WorkModule::on_flag(Flag=56832)
+ }
+ frame(Frame=15)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55900)
++	WorkModule::on_flag(Flag=56828)
+ }
+ frame(Frame=26)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
+ }

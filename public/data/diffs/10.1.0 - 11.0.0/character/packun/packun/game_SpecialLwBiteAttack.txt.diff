@@ -1,0 +1,13 @@
+diff --git "a/10.1.0/packun/game_SpecialLwBiteAttack.txt" "b/11.0.0/packun/game_SpecialLwBiteAttack.txt"
+index b43713e..70d9149 100644
+--- "a/10.1.0/packun/game_SpecialLwBiteAttack.txt"
++++ "b/11.0.0/packun/game_SpecialLwBiteAttack.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::get_float(FIGHTER_PACKUN_STATUS_SPECIAL_LW_WORK_FLOAT_CHARGE_RATE)
+-if(0x157cf0(2115568237, 1)){
++if(0x157cf0(1386371609, 1)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=hash40("mouth"), Damage=26.0, Angle=55, KBG=55, FKB=0, BKB=75, Size=7.9, X=2.4, Y=0.0, Z=0.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.2, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_THRU, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=5, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_cutup"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_CUTUP, Type=ATTACK_REGION_BITE)
+ 	}
+ 	else{
+ 		if(is_excute){

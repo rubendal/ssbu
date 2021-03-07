@@ -1,0 +1,17 @@
+diff --git "a/_10.1.0/captain/game_FinalAirStart.txt" "b/_11.0.0/captain/game_FinalAirStart.txt"
+index cdee801..1d1f655 100644
+--- "a/_10.1.0/captain/game_FinalAirStart.txt"
++++ "b/_11.0.0/captain/game_FinalAirStart.txt"
+@@ -8,11 +8,11 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		SlowModule::set_whole(2, 0)
+ 		FT_SET_FINAL_FEAR_FACE(30)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x114e30(48, 0)){
++if(0x114ec0(48, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalairstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){

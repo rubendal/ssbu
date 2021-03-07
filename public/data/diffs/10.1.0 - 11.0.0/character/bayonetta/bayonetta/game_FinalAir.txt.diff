@@ -1,0 +1,17 @@
+diff --git "a/ta_10.1.0/bayonetta/game_FinalAir.txt" "b/ta_11.0.0/bayonetta/game_FinalAir.txt"
+index ddc46d9..c487dd7 100644
+--- "a/ta_10.1.0/bayonetta/game_FinalAir.txt"
++++ "b/ta_11.0.0/bayonetta/game_FinalAir.txt"
+@@ -19,11 +19,11 @@ if(is_excute){
+ }
+ else{
+ 	frame(Frame=1)
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x1cb230(-1898583603, 2.0)
++		0x1cb230(-307643681, 2.0)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=25)

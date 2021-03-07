@@ -1,0 +1,17 @@
+diff --git "a/10.1.0/tantan/game_VisualScene03.txt" "b/11.0.0/tantan/game_VisualScene03.txt"
+index d2d4646..018530c 100644
+--- "a/10.1.0/tantan/game_VisualScene03.txt"
++++ "b/11.0.0/tantan/game_VisualScene03.txt"
+@@ -1,9 +1,9 @@
+ if(is_excute){
+-	ATTACK_ABS(Kind=59244, ID=0, Damage=15.0, Angle=55, KBG=120, FKB=0, BKB=78, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
++	ATTACK_ABS(Kind=60168, ID=0, Damage=15.0, Angle=55, KBG=120, FKB=0, BKB=78, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_L, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_NONE)
+ 	AttackModule::set_no_dead_all(true, true)
+ }
+ frame(Frame=96)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59252)
+-	WorkModule::on_flag(Flag=59248)
++	WorkModule::on_flag(Flag=60176)
++	WorkModule::on_flag(Flag=60172)
+ }

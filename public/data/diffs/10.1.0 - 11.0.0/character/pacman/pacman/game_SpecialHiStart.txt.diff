@@ -1,0 +1,13 @@
+diff --git "a/10.1.0/pacman/game_SpecialHiStart.txt" "b/11.0.0/pacman/game_SpecialHiStart.txt"
+index 034187f..62a2c58 100644
+--- "a/10.1.0/pacman/game_SpecialHiStart.txt"
++++ "b/11.0.0/pacman/game_SpecialHiStart.txt"
+@@ -1,4 +1,5 @@
+-0x119f70(WorkModule::is_flag(FIGHTER_PACMAN_INSTANCE_WORK_ID_FLAG_SPECIAL_HI_TRAMPOLINE_JUMP), false, true)
+-if(is_excute){
+-	ArticleModule::generate_article(FIGHTER_PACMAN_GENERATE_ARTICLE_TRAMPOLINE)
++if(0x11a050(WorkModule::is_flag(FIGHTER_PACMAN_INSTANCE_WORK_ID_FLAG_SPECIAL_HI_TRAMPOLINE_JUMP), false, true)){
++	if(is_excute){
++		ArticleModule::generate_article(FIGHTER_PACMAN_GENERATE_ARTICLE_TRAMPOLINE)
++	}
+ }

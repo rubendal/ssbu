@@ -1,0 +1,39 @@
+diff --git "a/10.1.0/pickel/game_EntryL.txt" "b/11.0.0/pickel/game_EntryL.txt"
+index a321e20..9e2ac66 100644
+--- "a/10.1.0/pickel/game_EntryL.txt"
++++ "b/11.0.0/pickel/game_EntryL.txt"
+@@ -1,10 +1,10 @@
+ if(is_excute){
+-	WorkModule::set_int(55196, 55280)
++	WorkModule::set_int(55440, 55524)
+ }
+ frame(Frame=90)
+-if(0x349e30(WorkModule::is_flag(59300), false, true)){
++if(0x349fc0(WorkModule::is_flag(60224), false, true)){
+ 	if(is_excute){
+ 		battle_object_module_accessor()
+ 		L2CValue()
+ 	}
+ 	else{
+@@ -12,11 +12,11 @@ if(0x349e30(WorkModule::is_flag(59300), false, true)){
+ 	}
+ }
+ as_pointer__const()
+ create_table_app::BattleObjectModuleAccessor__bool_bool()
+ frame(Frame=118)
+-if(0x349e30(WorkModule::is_flag(59300), false, false)){
++if(0x349fc0(WorkModule::is_flag(60224), false, false)){
+ 	if(is_excute){
+ 		battle_object_module_accessor()
+ 		L2CValue()
+ 	}
+ 	else{
+@@ -25,7 +25,7 @@ if(0x349e30(WorkModule::is_flag(59300), false, false)){
+ }
+ as_pointer__const()
+ create_table_app::BattleObjectModuleAccessor__bool_bool()
+ frame(Frame=119)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=59268)
++	WorkModule::on_flag(Flag=60192)
+ }

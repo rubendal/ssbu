@@ -1,0 +1,31 @@
+diff --git "a/_10.1.0/inkling/game_SpecialInkChargeStart.txt" "b/_11.0.0/inkling/game_SpecialInkChargeStart.txt"
+index 97213b3..715461e 100644
+--- "a/_10.1.0/inkling/game_SpecialInkChargeStart.txt"
++++ "b/_11.0.0/inkling/game_SpecialInkChargeStart.txt"
+@@ -6,21 +6,22 @@ if(method.lib::L2CValue.operator___lib::L2CValueconst__const(WorkModule::is_flag
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule::motion_kind()
+ MotionModule::frame(0x00000002b0)
+-MotionModule::rate(-1594717753)
+-as_hash__const(-1594717753, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(-1305339890)
++as_hash__const(-1305339890, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
+ if(is_excute){
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ 	WorkModule::on_flag(Flag=FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_EXIST_SQUID)
+ 	StatusModule::status_kind()
+-	operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)
+-	WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
++	if(method.lib::L2CValue.operator___lib::L2CValueconst__const(0, FIGHTER_STATUS_KIND_REBIRTH)){
++		WorkModule::on_flag(Flag=FIGHTER_INSTANCE_WORK_ID_FLAG_FORCE_LOUPE)
++	}
+ }
+ get_value_float(0, SO_VAR_FLOAT_LR)
+ if(0x13d360(0, 0)){
+ 	if(is_excute){
+ 		as_hash__const(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, hash40("special_ink_charge_start_l"))

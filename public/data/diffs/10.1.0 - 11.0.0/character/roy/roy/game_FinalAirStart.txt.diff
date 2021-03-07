@@ -1,0 +1,17 @@
+diff --git "a/1.0/roy/game_FinalAirStart.txt" "b/0.0/roy/game_FinalAirStart.txt"
+index 41c2417..0015c36 100644
+--- "a/1.0/roy/game_FinalAirStart.txt"
++++ "b/0.0/roy/game_FinalAirStart.txt"
+@@ -14,11 +14,11 @@ if(0x120440(0, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x120440(965602033, 2)
++			0x120440(2135268759, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

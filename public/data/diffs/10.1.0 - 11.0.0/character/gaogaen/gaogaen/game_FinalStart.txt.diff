@@ -1,0 +1,17 @@
+diff --git "a/_10.1.0/gaogaen/game_FinalStart.txt" "b/_11.0.0/gaogaen/game_FinalStart.txt"
+index 1b4f54c..5682994 100644
+--- "a/_10.1.0/gaogaen/game_FinalStart.txt"
++++ "b/_11.0.0/gaogaen/game_FinalStart.txt"
+@@ -10,11 +10,11 @@ if(0x139210(WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_STAR
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x139210(1599557479, 1.8)
++			0x139210(1502175385, 1.8)
+ 			CAM_ZOOM_IN_arg5(-0.1, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 4, 6, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			FT_START_CUTIN()
+ 		}

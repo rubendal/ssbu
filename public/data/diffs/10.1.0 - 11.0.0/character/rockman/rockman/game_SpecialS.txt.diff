@@ -1,0 +1,12 @@
+diff --git "a/_10.1.0/rockman/game_SpecialS.txt" "b/_11.0.0/rockman/game_SpecialS.txt"
+index 9eb8253..3443777 100644
+--- "a/_10.1.0/rockman/game_SpecialS.txt"
++++ "b/_11.0.0/rockman/game_SpecialS.txt"
+@@ -1,6 +1,6 @@
+ frame(Frame=19)
+-if(0xf49d0(WorkModule::is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_S_WORK_ID_FLAG_ALREADY_EXIST_CRASHBOMB), false, false)){
++if(0xf4ae0(WorkModule::is_flag(FIGHTER_ROCKMAN_STATUS_SPECIAL_S_WORK_ID_FLAG_ALREADY_EXIST_CRASHBOMB), false, false)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article_enable(FIGHTER_ROCKMAN_GENERATE_ARTICLE_CRASHBOMB)
+ 	}
+ }

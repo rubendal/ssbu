@@ -1,0 +1,24 @@
+diff --git "a/10.1.0/tantan/game_SpecialAirHiStart2.txt" "b/11.0.0/tantan/game_SpecialAirHiStart2.txt"
+index 609fb22..b009ed9 100644
+--- "a/10.1.0/tantan/game_SpecialAirHiStart2.txt"
++++ "b/11.0.0/tantan/game_SpecialAirHiStart2.txt"
+@@ -1,17 +1,17 @@
+ frame(Frame=4)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=53976)
++	WorkModule::on_flag(Flag=54220)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_HANG_IMMIDIATE)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	GroundModule::select_cliff_hangdata(59236)
++	GroundModule::select_cliff_hangdata(60160)
+ 	WorkModule::off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_HANG_IMMIDIATE)
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	WorkModule::off_flag(Flag=FIGHTER_STATUS_AIR_LASSO_FLAG_CHECK)

@@ -1,0 +1,17 @@
+diff --git "a/0.1.0/cloud/game_FinalStart.txt" "b/1.0.0/cloud/game_FinalStart.txt"
+index ccb8b3e..8c68f55 100644
+--- "a/0.1.0/cloud/game_FinalStart.txt"
++++ "b/1.0.0/cloud/game_FinalStart.txt"
+@@ -17,11 +17,11 @@ if(0x180150(2001240, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x180150(578981445, 1.8)
++			0x180150(-1775153644, 1.8)
+ 			CAM_ZOOM_IN_arg5(-0.1, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 		}
+ 		else{

@@ -1,0 +1,17 @@
+diff --git "a/10.1.0/reflet/game_FinalStart.txt" "b/11.0.0/reflet/game_FinalStart.txt"
+index 8b42927..b304188 100644
+--- "a/10.1.0/reflet/game_FinalStart.txt"
++++ "b/11.0.0/reflet/game_FinalStart.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ 	SlowModule::set_whole(6, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x142050(-11708040, 2)
++		0x142050(-414908544, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 		FT_START_CUTIN()
+ 	}
+ }
