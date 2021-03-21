@@ -112,7 +112,7 @@ function GetDescriptionForParam(paramName, value) {
                 ["ATTACK_SETOFF_KIND_OFF", "Doesn't interact (transcendent)"],
                 ["ATTACK_SETOFF_KIND_ON", "Interacts with other hitboxes by clanking, causes rebound if hitbox doesn't deal more than 9% more damage than opposing hitbox"],
                 ["ATTACK_SETOFF_KIND_THRU", "Interacts with other hitboxes by clanking, doesn't cause rebound"],
-                ["ATTACK_SETOFF_KIND_NO_STOP", "Interacts with other hitboxes but doesn't stop being active, unique to Mii Gunner Grenade Launch"]
+                ["ATTACK_SETOFF_KIND_NO_STOP", "Interacts with other hitboxes by clanking, unique to Mii Gunner Grenade Launch"]
             ]
             return (<span>
                 Indicates how hitbox interacts with other hitboxes
