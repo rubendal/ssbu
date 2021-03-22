@@ -4,7 +4,7 @@ import {OverlayTrigger, Tooltip} from 'react-bootstrap';
 import axios from 'axios';
 //Diffs
 import { ReactGhLikeDiff } from 'react-gh-like-diff';
-import 'react-gh-like-diff/lib/diff2html.min.css';
+import 'react-gh-like-diff/dist/css/diff2html.min.css';
 import ImageMessage from '../ImageMessage';
 
 class FileDiffView extends Component {

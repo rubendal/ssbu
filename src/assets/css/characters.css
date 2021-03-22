@@ -397,3 +397,7 @@ input[name=scriptFormat] + span{
         width: 70%;
     }
 }
+
+.d2h-file-list-wrapper{
+    display: none;
+}
