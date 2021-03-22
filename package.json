@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://rubendal.github.io/ssbu/",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "gh-pages": "^1.2.0",
     "html-react-parser": "^0.4.7",
     "jquery": "^3.6.0",
