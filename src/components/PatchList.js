@@ -19,7 +19,7 @@ class PatchList extends Component {
             return (
               <span className="version-span" key={version}>
                 <a href={"#/Patch/" + version + "/Character"}>
-                  <img className="version-img" src={require(`../assets/img/patches/${version}.png`)} alt={version} />
+                  <img className="version-img" src={require(`../assets/img/patches/${version}.png`).default} alt={version} />
                   <span className="version-label">{version}</span>
                   {
                     version === "1.1.1" && (

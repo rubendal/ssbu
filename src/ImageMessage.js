@@ -31,7 +31,7 @@ class ImageMessage extends Component {
   render() {
     return (
       <div id="message-container">
-        <img className={"message-image " + this.state.class} src={require(`./assets/img/${this.state.image}`)} alt={this.state.alt} />
+        <img className={"message-image " + this.state.class} src={require(`./assets/img/${this.state.image}`).default} alt={this.state.alt} />
         <br/>
         <p className="message-label">{this.state.message}</p>
       </div>

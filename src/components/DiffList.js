@@ -18,7 +18,7 @@ class DiffList extends Component{
             return (
             <span className="version-span" key={version}>
               <a href={"#/Diff/" + version + "/Character"}>
-                    <img className="version-img" src={require(`../assets/img/diffs/${version}.png`)} alt={version}/>
+                    <img className="version-img" src={require(`../assets/img/diffs/${version}.png`).default} alt={version}/>
                     <span className="version-label">{version}</span>
                 </a>
             </span>

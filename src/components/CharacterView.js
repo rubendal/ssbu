@@ -65,7 +65,7 @@ class CharacterView extends Component {
 
         <h2 id="character-name">{this.state.data.Name}</h2>
 
-        <img id="character-image" src={require("../assets/img/renders/" + this.state.data.Name.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png")} alt={this.state.data.Name} />
+        <img id="character-image" src={require("../assets/img/renders/" + this.state.data.Name.toLowerCase().replace(/\./g,"").replace(/& /g, "") + ".png").default} alt={this.state.data.Name} />
 
         <div id="related">
             <h4>Related sites</h4>
