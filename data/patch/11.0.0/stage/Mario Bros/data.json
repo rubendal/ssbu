@@ -91,7 +91,7 @@
             "passthroughAngle": 0,
             "length": 11.0002127,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "NES8Bit"
           },
           {

@@ -170,7 +170,7 @@
             "passthroughAngle": 0,
             "length": 23.6997223,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Ice"
           },
           {
@@ -180,7 +180,7 @@
             "passthroughAngle": 14,
             "length": 18.6820984,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Ice"
           },
           {
@@ -210,7 +210,7 @@
             "passthroughAngle": 5,
             "length": 8.872141,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1484,7 +1484,7 @@
             "passthroughAngle": 17,
             "length": 51.9789124,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Ice"
           },
           {

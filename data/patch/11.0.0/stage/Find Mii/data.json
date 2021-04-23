@@ -136,7 +136,7 @@
             "passthroughAngle": 2,
             "length": 182.390747,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           }
         ],
@@ -329,7 +329,7 @@
             "passthroughAngle": 0,
             "length": 9.890489,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           },
           {

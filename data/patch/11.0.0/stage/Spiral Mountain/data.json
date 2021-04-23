@@ -307,7 +307,7 @@
             "passthroughAngle": 1,
             "length": 10.0023479,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -327,7 +327,7 @@
             "passthroughAngle": 3,
             "length": 15.35181,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -337,7 +337,7 @@
             "passthroughAngle": 2,
             "length": 18.9341965,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -347,7 +347,7 @@
             "passthroughAngle": 2,
             "length": 25.2784252,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -357,7 +357,7 @@
             "passthroughAngle": 3,
             "length": 32.37747,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -367,7 +367,7 @@
             "passthroughAngle": 2,
             "length": 63.5589,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],
@@ -442,7 +442,7 @@
             "passthroughAngle": 1,
             "length": 10.0072155,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -462,7 +462,7 @@
             "passthroughAngle": 2,
             "length": 80.19424,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -472,7 +472,7 @@
             "passthroughAngle": 2,
             "length": 75.31528,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],

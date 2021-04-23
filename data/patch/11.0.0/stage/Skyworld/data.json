@@ -332,7 +332,7 @@
             "passthroughAngle": 0,
             "length": 4.88800049,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Cloud"
           }
         ],
@@ -630,7 +630,7 @@
             "passthroughAngle": 0,
             "length": 6.14224625,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Cloud"
           },
           {

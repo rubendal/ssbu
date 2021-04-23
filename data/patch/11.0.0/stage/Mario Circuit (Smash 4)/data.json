@@ -2393,7 +2393,7 @@
             "passthroughAngle": 1,
             "length": 68.92292,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2413,7 +2413,7 @@
             "passthroughAngle": 2,
             "length": 31.91776,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2423,7 +2423,7 @@
             "passthroughAngle": 5,
             "length": 31.8618336,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2433,7 +2433,7 @@
             "passthroughAngle": 7,
             "length": 32.7305145,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2443,7 +2443,7 @@
             "passthroughAngle": 9,
             "length": 30.1607571,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2453,7 +2453,7 @@
             "passthroughAngle": 11,
             "length": 32.9950027,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2473,7 +2473,7 @@
             "passthroughAngle": 9,
             "length": 21.05795,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2483,7 +2483,7 @@
             "passthroughAngle": 9,
             "length": 52.58068,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {

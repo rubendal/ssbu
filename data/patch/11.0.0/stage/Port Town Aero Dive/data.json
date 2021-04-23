@@ -466,7 +466,7 @@
             "passthroughAngle": 0,
             "length": 17.5004082,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -855,7 +855,7 @@
             "passthroughAngle": 3,
             "length": 7.567805,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "HeavyMetal"
           },
           {
@@ -1317,7 +1317,7 @@
             "passthroughAngle": 0,
             "length": 27.8011513,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1327,7 +1327,7 @@
             "passthroughAngle": 0,
             "length": 66.03891,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1508,7 +1508,7 @@
             "passthroughAngle": 0,
             "length": 34.02018,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2921,7 +2921,7 @@
             "passthroughAngle": 19,
             "length": 130.254532,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2931,7 +2931,7 @@
             "passthroughAngle": 16,
             "length": 130.252411,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2941,7 +2941,7 @@
             "passthroughAngle": 12,
             "length": 133.567535,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2951,7 +2951,7 @@
             "passthroughAngle": 9,
             "length": 133.565247,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2961,7 +2961,7 @@
             "passthroughAngle": 4,
             "length": 131.878052,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2971,7 +2971,7 @@
             "passthroughAngle": 2,
             "length": 131.877121,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {
@@ -2981,7 +2981,7 @@
             "passthroughAngle": 13,
             "length": 77.29603,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grate"
           },
           {

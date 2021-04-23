@@ -1,7 +1,7 @@
 [
   {
-    "stage": "Wufu Island",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island",
+    "name": "Wuhu Island",
     "lvd": "wufu_00",
     "collisions": [
       {
@@ -220,8 +220,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (1)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (1)",
+    "name": "Wuhu Island",
     "lvd": "wufu_01",
     "collisions": [
       {
@@ -621,7 +621,7 @@
             "passthroughAngle": 0,
             "length": 43.60209,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           },
           {
@@ -651,7 +651,7 @@
             "passthroughAngle": 8,
             "length": 53.9534035,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           },
           {
@@ -661,7 +661,7 @@
             "passthroughAngle": 7,
             "length": 31.7020111,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           },
           {
@@ -671,7 +671,7 @@
             "passthroughAngle": 14,
             "length": 25.391304,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           }
         ],
@@ -936,8 +936,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (2)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (2)",
+    "name": "Wuhu Island",
     "lvd": "wufu_02",
     "collisions": [
       {
@@ -1204,8 +1204,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (3)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (3)",
+    "name": "Wuhu Island",
     "lvd": "wufu_03",
     "collisions": [
       {
@@ -1781,8 +1781,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (4)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (4)",
+    "name": "Wuhu Island",
     "lvd": "wufu_04",
     "collisions": [
       {
@@ -2057,7 +2057,7 @@
             "passthroughAngle": 0,
             "length": 64.65356,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -2087,7 +2087,7 @@
             "passthroughAngle": 0,
             "length": 58.0174332,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soft"
           },
           {
@@ -2231,8 +2231,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (5)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (5)",
+    "name": "Wuhu Island",
     "lvd": "wufu_05",
     "collisions": [
       {
@@ -2383,7 +2383,7 @@
             "passthroughAngle": 18,
             "length": 1.88683188,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -2413,7 +2413,7 @@
             "passthroughAngle": 6,
             "length": 86.95529,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -2718,7 +2718,7 @@
             "passthroughAngle": 0,
             "length": 27.1736259,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -2842,8 +2842,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (6)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (6)",
+    "name": "Wuhu Island",
     "lvd": "wufu_06",
     "collisions": [
       {
@@ -3026,8 +3026,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (7)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (7)",
+    "name": "Wuhu Island",
     "lvd": "wufu_07",
     "collisions": [
       {
@@ -3170,7 +3170,7 @@
             "passthroughAngle": 4,
             "length": 24.69551,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -3349,7 +3349,7 @@
             "passthroughAngle": 19,
             "length": 8.931846,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -3359,7 +3359,7 @@
             "passthroughAngle": 11,
             "length": 16.9408588,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -3369,7 +3369,7 @@
             "passthroughAngle": 11,
             "length": 14.5470543,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -3379,7 +3379,7 @@
             "passthroughAngle": 15,
             "length": 215.0688,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],
@@ -3707,8 +3707,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (8)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (8)",
+    "name": "Wuhu Island",
     "lvd": "wufu_08",
     "collisions": [
       {
@@ -4149,7 +4149,7 @@
             "passthroughAngle": 8,
             "length": 21.0790157,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -4169,7 +4169,7 @@
             "passthroughAngle": 11,
             "length": 9.963936,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -4179,7 +4179,7 @@
             "passthroughAngle": 11,
             "length": 113.118607,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],
@@ -4283,8 +4283,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (9)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (9)",
+    "name": "Wuhu Island",
     "lvd": "wufu_09",
     "collisions": [
       {
@@ -4499,7 +4499,7 @@
             "passthroughAngle": 17,
             "length": 22.80919,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           },
           {
@@ -4663,8 +4663,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (10)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (10)",
+    "name": "Wuhu Island",
     "lvd": "wufu_10",
     "collisions": [
       {
@@ -4878,8 +4878,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (11)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (11)",
+    "name": "Wuhu Island",
     "lvd": "wufu_11",
     "collisions": [
       {
@@ -5072,8 +5072,8 @@
     "items": []
   },
   {
-    "stage": "Wufu Island (12)",
-    "name": "Wufu Island",
+    "stage": "Wuhu Island (12)",
+    "name": "Wuhu Island",
     "lvd": "wufu_12",
     "collisions": [
       {

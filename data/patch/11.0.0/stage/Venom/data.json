@@ -152,7 +152,7 @@
             "passthroughAngle": 3,
             "length": 18.04828,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {

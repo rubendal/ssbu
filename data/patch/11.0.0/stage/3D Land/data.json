@@ -2870,7 +2870,7 @@
             "passthroughAngle": 2,
             "length": 312.1385,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           }
         ],

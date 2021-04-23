@@ -280,7 +280,7 @@
             "passthroughAngle": 3,
             "length": 27.63252,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {
@@ -667,7 +667,7 @@
             "passthroughAngle": 1,
             "length": 31.71594,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {
@@ -697,7 +697,7 @@
             "passthroughAngle": 1,
             "length": 42.16061,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {
@@ -707,7 +707,7 @@
             "passthroughAngle": 5,
             "length": 25.5820751,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {
@@ -1148,7 +1148,7 @@
             "passthroughAngle": 8,
             "length": 21.2333012,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           },
           {
@@ -1253,7 +1253,7 @@
             "passthroughAngle": 8,
             "length": 3.46629143,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           },
           {
@@ -1330,7 +1330,7 @@
             "passthroughAngle": 14,
             "length": 3.48694587,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1407,7 +1407,7 @@
             "passthroughAngle": 14,
             "length": 3.58462429,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1484,7 +1484,7 @@
             "passthroughAngle": 14,
             "length": 3.68230367,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1561,7 +1561,7 @@
             "passthroughAngle": 14,
             "length": 3.77997947,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {

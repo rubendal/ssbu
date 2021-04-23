@@ -110,6 +110,11 @@
     "Type": 0
   },
   {
+    "name": "Cloud Sea of Alrest",
+    "gameName": "eldriver",
+    "Type": 0
+  },
+  {
     "name": "Arena Ferox",
     "gameName": "colloseum_",
     "Type": 0
@@ -167,6 +172,11 @@
   {
     "name": "Port Town Aero Dive",
     "gameName": "xfzero_",
+    "Type": 0
+  },
+  {
+    "name": "Garreg Mach Monastery",
+    "gameName": "garreg_",
     "Type": 0
   },
   {
@@ -232,6 +242,11 @@
   {
     "name": "Dream Land (64)",
     "gameName": "pupupuland64_f",
+    "Type": 0
+  },
+  {
+    "name": "King of Fighters Stadium",
+    "gameName": "kof",
     "Type": 0
   },
   {
@@ -510,7 +525,7 @@
     "Type": 0
   },
   {
-    "name": "Wufu Island",
+    "name": "Wuhu Island",
     "gameName": "wufu_",
     "Type": 0
   },

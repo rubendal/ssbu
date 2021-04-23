@@ -264,7 +264,7 @@
             "passthroughAngle": 17,
             "length": 32.81074,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Brick"
           },
           {
