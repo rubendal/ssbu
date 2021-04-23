@@ -2,7 +2,7 @@
   {
     "stage": "Cloud Sea of Alrest",
     "name": "Cloud Sea of Alrest",
-    "lvd": "eldriver",
+    "lvd": "alrest",
     "collisions": [
       {
         "name": "COL_curve6",
