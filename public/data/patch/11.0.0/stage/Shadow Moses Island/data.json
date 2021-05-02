@@ -59,7 +59,7 @@
             "passthroughAngle": 0,
             "length": 189.732,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],
@@ -178,7 +178,7 @@
             "passthroughAngle": 0,
             "length": 64.18369,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],

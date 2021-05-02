@@ -245,7 +245,7 @@
             "passthroughAngle": 0,
             "length": 3.0083828,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -295,7 +295,7 @@
             "passthroughAngle": 0,
             "length": 7.46167564,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -305,7 +305,7 @@
             "passthroughAngle": 0,
             "length": 6.53824425,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -568,7 +568,7 @@
             "passthroughAngle": 0,
             "length": 4.000078,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -598,7 +598,7 @@
             "passthroughAngle": 13,
             "length": 2.06758928,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -935,7 +935,7 @@
             "passthroughAngle": 0,
             "length": 5.0,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1340,7 +1340,7 @@
             "passthroughAngle": 0,
             "length": 5.0,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1360,7 +1360,7 @@
             "passthroughAngle": 0,
             "length": 6.99998856,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1702,7 +1702,7 @@
             "passthroughAngle": 2,
             "length": 7.13442373,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {

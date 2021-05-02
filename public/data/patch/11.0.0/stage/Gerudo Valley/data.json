@@ -407,7 +407,7 @@
             "passthroughAngle": 0,
             "length": 20.2877789,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {

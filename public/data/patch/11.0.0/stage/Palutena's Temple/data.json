@@ -1674,7 +1674,7 @@
             "passthroughAngle": 2,
             "length": 20.2740936,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1714,7 +1714,7 @@
             "passthroughAngle": 5,
             "length": 4.970406,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1869,7 +1869,7 @@
             "passthroughAngle": 0,
             "length": 11.7750244,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -2436,7 +2436,7 @@
             "passthroughAngle": 0,
             "length": 18.1959038,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grass"
           },
           {
@@ -2661,7 +2661,7 @@
             "passthroughAngle": 1,
             "length": 13.1927023,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grass"
           },
           {
@@ -3121,7 +3121,7 @@
             "passthroughAngle": 2,
             "length": 1.97500718,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grass"
           },
           {
@@ -3362,7 +3362,7 @@
             "passthroughAngle": 11,
             "length": 1.86756992,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grass"
           },
           {

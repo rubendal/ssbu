@@ -187,7 +187,7 @@
             "passthroughAngle": 0,
             "length": 13.1472912,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -227,7 +227,7 @@
             "passthroughAngle": 0,
             "length": 13.1472912,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],
@@ -296,7 +296,7 @@
             "passthroughAngle": 11,
             "length": 15.95116,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "RingMat"
           },
           {
@@ -743,7 +743,7 @@
             "passthroughAngle": 0,
             "length": 13.1472912,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -783,7 +783,7 @@
             "passthroughAngle": 0,
             "length": 13.1472912,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],
@@ -852,7 +852,7 @@
             "passthroughAngle": 11,
             "length": 15.95116,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "RingMat"
           },
           {

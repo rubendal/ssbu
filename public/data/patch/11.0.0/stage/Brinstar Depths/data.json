@@ -554,7 +554,7 @@
             "passthroughAngle": 0,
             "length": 10.379096,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "HeavyMetal"
           },
           {
@@ -744,7 +744,7 @@
             "passthroughAngle": 0,
             "length": 8.743275,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "HeavyMetal"
           },
           {

@@ -100,7 +100,7 @@
             "passthroughAngle": 2,
             "length": 21.5768528,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Cardboard"
           },
           {

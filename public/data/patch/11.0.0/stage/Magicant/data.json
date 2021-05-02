@@ -906,7 +906,7 @@
             "passthroughAngle": 13,
             "length": 11.7209063,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -916,7 +916,7 @@
             "passthroughAngle": 15,
             "length": 12.27477,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -946,7 +946,7 @@
             "passthroughAngle": 7,
             "length": 14.4805708,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -956,7 +956,7 @@
             "passthroughAngle": 11,
             "length": 49.1039162,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -1363,7 +1363,7 @@
             "passthroughAngle": 5,
             "length": 1.51768386,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "HeavyMetal"
           },
           {
@@ -1632,7 +1632,7 @@
             "passthroughAngle": 11,
             "length": 6.341477,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -1939,7 +1939,7 @@
             "passthroughAngle": 2,
             "length": 1.73733592,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -1969,7 +1969,7 @@
             "passthroughAngle": 10,
             "length": 1.30152452,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {

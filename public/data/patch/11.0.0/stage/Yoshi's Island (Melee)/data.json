@@ -323,7 +323,7 @@
             "passthroughAngle": 9,
             "length": 60.8276253,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Grass"
           },
           {

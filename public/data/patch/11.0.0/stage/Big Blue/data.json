@@ -4617,7 +4617,7 @@
             "passthroughAngle": 1,
             "length": 95.6554947,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -4627,7 +4627,7 @@
             "passthroughAngle": 4,
             "length": 79.3531,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -4637,7 +4637,7 @@
             "passthroughAngle": 8,
             "length": 79.6730042,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -4647,7 +4647,7 @@
             "passthroughAngle": 11,
             "length": 84.88267,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -4657,7 +4657,7 @@
             "passthroughAngle": 16,
             "length": 85.5128,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {
@@ -4667,7 +4667,7 @@
             "passthroughAngle": 18,
             "length": 85.03669,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           },
           {

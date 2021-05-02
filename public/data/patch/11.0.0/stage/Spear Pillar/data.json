@@ -106,7 +106,7 @@
             "passthroughAngle": 5,
             "length": 2.7725656,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -409,7 +409,7 @@
             "passthroughAngle": 1,
             "length": 3.06121755,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],
@@ -488,7 +488,7 @@
             "passthroughAngle": 8,
             "length": 2.4325254,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {

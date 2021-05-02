@@ -4406,7 +4406,7 @@
             "passthroughAngle": 0,
             "length": 149.800125,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soil"
           }
         ],
@@ -4882,7 +4882,7 @@
             "passthroughAngle": 0,
             "length": 9.466013,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],
@@ -5890,7 +5890,7 @@
             "passthroughAngle": 0,
             "length": 85.6620255,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           }
         ],

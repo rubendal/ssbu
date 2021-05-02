@@ -609,7 +609,7 @@
             "passthroughAngle": 1,
             "length": 9.38491249,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Wood"
           },
           {
@@ -4826,7 +4826,7 @@
             "passthroughAngle": 11,
             "length": 10.5661659,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "LightMetal"
           }
         ],
@@ -4943,7 +4943,7 @@
             "passthroughAngle": 13,
             "length": 10.7313032,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -5023,7 +5023,7 @@
             "passthroughAngle": 15,
             "length": 5.76586533,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -5033,7 +5033,7 @@
             "passthroughAngle": 12,
             "length": 6.065855,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -5220,7 +5220,7 @@
             "passthroughAngle": 8,
             "length": 15.6986876,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           },
           {
@@ -5429,7 +5429,7 @@
             "passthroughAngle": 15,
             "length": 5.222864,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soft"
           },
           {
@@ -5439,7 +5439,7 @@
             "passthroughAngle": 0,
             "length": 9.72617,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Soft"
           },
           {

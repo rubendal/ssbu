@@ -2301,7 +2301,7 @@
             "passthroughAngle": 0,
             "length": 90.9775543,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -2448,7 +2448,7 @@
             "passthroughAngle": 0,
             "length": 97.67898,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -2458,7 +2458,7 @@
             "passthroughAngle": 0,
             "length": 99.9999847,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           }
         ],
@@ -2877,7 +2877,7 @@
             "passthroughAngle": 0,
             "length": 52.30149,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Sand"
           },
           {
@@ -2887,7 +2887,7 @@
             "passthroughAngle": 0,
             "length": 111.111122,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Sand"
           }
         ],
@@ -4120,7 +4120,7 @@
             "passthroughAngle": 8,
             "length": 24.1797619,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -4130,7 +4130,7 @@
             "passthroughAngle": 7,
             "length": 46.0147972,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Rock"
           },
           {
@@ -4140,7 +4140,7 @@
             "passthroughAngle": 7,
             "length": 108.423485,
             "ceiling": false,
-            "wall": false,
+            "wall": true,
             "material": "Basic"
           }
         ],
