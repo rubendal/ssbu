@@ -262,6 +262,13 @@ input[type="checkbox"]:checked + .description {
   font-size: 1.6rem;
 }
 
+.animation-files-list{
+    list-style: none;
+    list-style-position: outside;
+    padding: 0;
+}
+
+
 @media screen and (max-width: 600px) {
   .script-container {
     flex-direction: column-reverse;

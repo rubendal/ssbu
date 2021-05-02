@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScriptView from './ScriptView'
+import MotionView from './MotionView'
 import { ToHex } from '../util/util';
 
 class ScriptList extends Component {
@@ -17,6 +18,7 @@ class ScriptList extends Component {
       allScripts: [],
       throws: null
     };
+
 
     this.state.allArticles = this.state.data.Articles;
     this.state.article = this.state.data.Articles[0];
@@ -127,7 +129,11 @@ class ScriptList extends Component {
               }
             </select>
           </div>
-
+        {
+          this.state.data.Motions && (
+            <MotionView data={this.state.data.Motions} article={this.state.article} script={this.state.script.Name} />
+          )
+        }
           <ScriptView script={this.state.script} WeightDependentThrows={[]} />
         </div>
       </div>
