@@ -1,0 +1,14 @@
+diff --git "a/er_11.0.0/miigunner/game_SpecialN2Loop.txt" "b/er_12.0.0/miigunner/game_SpecialN2Loop.txt"
+index 4044995..2d2592f 100644
+--- "a/er_11.0.0/miigunner/game_SpecialN2Loop.txt"
++++ "b/er_12.0.0/miigunner/game_SpecialN2Loop.txt"
+@@ -6,9 +6,5 @@ if(is_excute){
+ }
+ frame(Frame=4)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_MIIGUNNER_GENERATE_ARTICLE_RAPIDSHOT_BULLET)
+ }
+-frame(Frame=12)
+-if(is_excute){
+-	WorkModule::off_flag(Flag=FIGHTER_MIIGUNNER_RAPID_SHOT_STATUS_WORK_ID_FLAG_LOOP_ACCEPT)
+-}

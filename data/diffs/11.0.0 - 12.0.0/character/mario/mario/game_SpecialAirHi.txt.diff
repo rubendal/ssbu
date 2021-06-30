@@ -1,0 +1,13 @@
+diff --git "a/1.0.0/mario/game_SpecialAirHi.txt" "b/2.0.0/mario/game_SpecialAirHi.txt"
+index 7ce3e05..a598777 100644
+--- "a/1.0.0/mario/game_SpecialAirHi.txt"
++++ "b/2.0.0/mario/game_SpecialAirHi.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_MARIO_STATUS_SPECIAL_HI_FLAG_CAPPY)
+-if(0xe1b20(false, true)){
++if(0xe1ba0(false, true)){
+ 	frame(Frame=3)
+ 	if(is_excute){
+ 		SA_SET(State=SITUATION_KIND_AIR)
+ 		WorkModule::on_flag(Flag=FIGHTER_STATUS_SUPER_JUMP_PUNCH_FLAG_REVERSE_LR)
+ 		ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=60, KBG=100, FKB=160, BKB=0, Size=2.5, X=0.0, Y=6.5, Z=0.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.0, SDI=0.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_mario_local_coin"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_MARIO_LOCAL_COIN, Type=ATTACK_REGION_PUNCH)

@@ -1,0 +1,27 @@
+diff --git "a/1.0.0/brave/game_FinalStart.txt" "b/2.0.0/brave/game_FinalStart.txt"
+index d54274a..c61de75 100644
+--- "a/1.0.0/brave/game_FinalStart.txt"
++++ "b/2.0.0/brave/game_FinalStart.txt"
+@@ -1,20 +1,20 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(30, 60)
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x239f70(false, false)){
++if(0x239f10(false, false)){
+ 	frame(Frame=9)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(50)
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x239f70(584385346, 2.1)
++			0x239f10(-1584542826, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

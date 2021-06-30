@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/ssbu/static/css/main.79387ac2.chunk.css",
-    "main.js": "/ssbu/static/js/main.7525d650.chunk.js",
-    "main.js.map": "/ssbu/static/js/main.7525d650.chunk.js.map",
+    "main.js": "/ssbu/static/js/main.892af413.chunk.js",
+    "main.js.map": "/ssbu/static/js/main.892af413.chunk.js.map",
     "runtime-main.js": "/ssbu/static/js/runtime-main.ed613200.js",
     "runtime-main.js.map": "/ssbu/static/js/runtime-main.ed613200.js.map",
     "static/css/2.3439055a.chunk.css": "/ssbu/static/css/2.3439055a.chunk.css",
-    "static/js/2.b763ab33.chunk.js": "/ssbu/static/js/2.b763ab33.chunk.js",
-    "static/js/2.b763ab33.chunk.js.map": "/ssbu/static/js/2.b763ab33.chunk.js.map",
+    "static/js/2.e9fb3791.chunk.js": "/ssbu/static/js/2.e9fb3791.chunk.js",
+    "static/js/2.e9fb3791.chunk.js.map": "/ssbu/static/js/2.e9fb3791.chunk.js.map",
     "index.html": "/ssbu/index.html",
     "static/css/2.3439055a.chunk.css.map": "/ssbu/static/css/2.3439055a.chunk.css.map",
     "static/css/main.79387ac2.chunk.css.map": "/ssbu/static/css/main.79387ac2.chunk.css.map",
-    "static/js/2.b763ab33.chunk.js.LICENSE.txt": "/ssbu/static/js/2.b763ab33.chunk.js.LICENSE.txt",
+    "static/js/2.e9fb3791.chunk.js.LICENSE.txt": "/ssbu/static/js/2.e9fb3791.chunk.js.LICENSE.txt",
     "static/media/1.0.0.png": "/ssbu/static/media/1.0.0.c71cc8d7.png",
     "static/media/1.2.0 - 2.0.0.png": "/ssbu/static/media/1.2.0 - 2.0.0.455aa3bc.png",
     "static/media/10.0.0 - 10.1.0.png": "/ssbu/static/media/10.0.0 - 10.1.0.01376759.png",
     "static/media/10.0.0.png": "/ssbu/static/media/10.0.0.71fb9648.png",
     "static/media/10.1.0 - 11.0.0.png": "/ssbu/static/media/10.1.0 - 11.0.0.a047deed.png",
     "static/media/10.1.0.png": "/ssbu/static/media/10.1.0.01376759.png",
+    "static/media/11.0.0 - 12.0.0.png": "/ssbu/static/media/11.0.0 - 12.0.0.00aa78a3.png",
     "static/media/11.0.0.png": "/ssbu/static/media/11.0.0.a047deed.png",
+    "static/media/12.0.0.png": "/ssbu/static/media/12.0.0.5830002c.png",
     "static/media/2.0.0 - 3.0.0.png": "/ssbu/static/media/2.0.0 - 3.0.0.427c4bed.png",
     "static/media/2.0.0.png": "/ssbu/static/media/2.0.0.455aa3bc.png",
     "static/media/3.0.0 - 3.1.0.png": "/ssbu/static/media/3.0.0 - 3.1.0.21499829.png",
@@ -78,6 +80,7 @@
     "static/media/ivysaur.png": "/ssbu/static/media/ivysaur.efecafc4.png",
     "static/media/jigglypuff.png": "/ssbu/static/media/jigglypuff.74084fc4.png",
     "static/media/joker.png": "/ssbu/static/media/joker.bfe23243.png",
+    "static/media/kazuya.png": "/ssbu/static/media/kazuya.f54868d3.png",
     "static/media/ken.png": "/ssbu/static/media/ken.86a02fe9.png",
     "static/media/kh.png": "/ssbu/static/media/kh.4eb07131.png",
     "static/media/king dedede.png": "/ssbu/static/media/king dedede.a41324d6.png",
@@ -150,8 +153,8 @@
   "entrypoints": [
     "static/js/runtime-main.ed613200.js",
     "static/css/2.3439055a.chunk.css",
-    "static/js/2.b763ab33.chunk.js",
+    "static/js/2.e9fb3791.chunk.js",
     "static/css/main.79387ac2.chunk.css",
-    "static/js/main.7525d650.chunk.js"
+    "static/js/main.892af413.chunk.js"
   ]
 }

@@ -1,0 +1,10 @@
+diff --git "a/11.0.0/pickel/game_SpecialSJump.txt" "b/12.0.0/pickel/game_SpecialSJump.txt"
+index f6c4f0b..ac9ef7e 100644
+--- "a/11.0.0/pickel/game_SpecialSJump.txt"
++++ "b/12.0.0/pickel/game_SpecialSJump.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=5)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55560)
++	WorkModule::on_flag(Flag=55744)
+ }

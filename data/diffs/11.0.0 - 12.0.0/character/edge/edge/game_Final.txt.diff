@@ -1,0 +1,25 @@
+diff --git "a/.0.0/edge/game_Final.txt" "b/.0.0/edge/game_Final.txt"
+index e3f2ce0..b354e12 100644
+--- "a/.0.0/edge/game_Final.txt"
++++ "b/.0.0/edge/game_Final.txt"
+@@ -9,18 +9,18 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(50)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x2490c0(0, 0)){
++if(0x24aea0(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x2490c0(711941444, 2.1)
++			0x24aea0(-568088995, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

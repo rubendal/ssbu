@@ -1,0 +1,58 @@
+diff --git "a/11.0.0/eflame/game_AttackAirLw.txt" "b/12.0.0/eflame/game_AttackAirLw.txt"
+index 7d7343b..5c92b8e 100644
+--- "a/11.0.0/eflame/game_AttackAirLw.txt"
++++ "b/12.0.0/eflame/game_AttackAirLw.txt"
+@@ -5,21 +5,21 @@ if(is_excute){
+ frame(Frame=6)
+ FT_MOTION_RATE(FSM=2)
+ frame(Frame=8)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=9)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ frame(0, 15)
+ if(is_excute){
+ 	ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=12.0, Angle=270, KBG=80, FKB=0, BKB=30, Size=3.0, X=0.0, Y=0.0, Z=3.0, X2=LUA_VOID, Y2=LUA_VOID, Z2=LUA_VOID, Hitlag=1.25, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -55,21 +55,21 @@ if(is_excute){
+ frame(Frame=19)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=26)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ frame(0, 33)
+ if(is_excute){
+ 	WorkModule::off_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)

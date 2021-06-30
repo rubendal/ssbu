@@ -1,0 +1,27 @@
+diff --git "a/.0.0/edge/game_AttackAirFWallJump.txt" "b/.0.0/edge/game_AttackAirFWallJump.txt"
+index 63aaf10..8e50b6b 100644
+--- "a/.0.0/edge/game_AttackAirFWallJump.txt"
++++ "b/.0.0/edge/game_AttackAirFWallJump.txt"
+@@ -1,19 +1,19 @@
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_NONE)
+ }
+ frame(Frame=11)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56824)
++	WorkModule::on_flag(Flag=57852)
+ }
+ frame(Frame=12)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56832)
++	WorkModule::on_flag(Flag=57860)
+ }
+ frame(Frame=15)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56828)
++	WorkModule::on_flag(Flag=57856)
+ }
+ frame(Frame=26)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
+ }

@@ -1,0 +1,55 @@
+diff --git "a/11.0.0/elight/game_AttackLw3.txt" "b/12.0.0/elight/game_AttackLw3.txt"
+index a154665..cfdedcd 100644
+--- "a/11.0.0/elight/game_AttackLw3.txt"
++++ "b/12.0.0/elight/game_AttackLw3.txt"
+@@ -1,18 +1,18 @@
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.5)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ frame(0, 5)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=7)
+@@ -25,21 +25,21 @@ if(is_excute){
+ frame(Frame=10)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=13)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ frame(0, 14)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=24)

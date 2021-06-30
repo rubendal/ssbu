@@ -1,0 +1,17 @@
+diff --git "a/1.0.0/chrom/game_FinalStart.txt" "b/2.0.0/chrom/game_FinalStart.txt"
+index 1cc0034..1ebfbc7 100644
+--- "a/1.0.0/chrom/game_FinalStart.txt"
++++ "b/2.0.0/chrom/game_FinalStart.txt"
+@@ -11,11 +11,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x12ba60(-443794807, 2)
++			0x12bc30(294181909, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

@@ -1,0 +1,16 @@
+diff --git "a/11.0.0/dedede/game_SpecialAirNShotObjectSwallow.txt" "b/12.0.0/dedede/game_SpecialAirNShotObjectSwallow.txt"
+index 27a4092..83853e2 100644
+--- "a/11.0.0/dedede/game_SpecialAirNShotObjectSwallow.txt"
++++ "b/12.0.0/dedede/game_SpecialAirNShotObjectSwallow.txt"
+@@ -1,10 +1,10 @@
+ FT_MOTION_RATE(FSM=0.6)
+ frame(Frame=4)
+ if(is_excute){
+ 	FighterAreaModuleImpl::enable_fix_jostle_area(14.7, 4)
+ }
+-if(0x157390(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x157710(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	if(is_excute){
+ 		FighterAreaModuleImpl::enable_fix_jostle_area(4, 4)
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/11.0.0/eflame/game_EntryR.txt" "b/12.0.0/eflame/game_EntryR.txt"
+index dea059a..a49c833 100644
+--- "a/11.0.0/eflame/game_EntryR.txt"
++++ "b/12.0.0/eflame/game_EntryR.txt"
+@@ -1,8 +1,8 @@
+-WorkModule::is_flag(56180)
+-if(0x3cbcf0(false, true)){
++WorkModule::is_flag(56364)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		ArticleModule::generate_article(56188)
+-		methodlib::L2CValue::as_hash()const(56188, 0x09bb6a2cce)
++		ArticleModule::generate_article(56372)
++		methodlib::L2CValue::as_hash()const(56372, 0x09bb6a2cce)
+ 		ArticleModule::change_motion()
+ 	}
+ }

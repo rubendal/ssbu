@@ -1,0 +1,17 @@
+diff --git "a/1.0.0/falco/game_SpecialNStart.txt" "b/2.0.0/falco/game_SpecialNStart.txt"
+index 4201988..0fdfac5 100644
+--- "a/1.0.0/falco/game_SpecialNStart.txt"
++++ "b/2.0.0/falco/game_SpecialNStart.txt"
+@@ -3,11 +3,11 @@ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=4)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER)
+-if(0x11c960(false, true)){
++if(0x11c9e0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER, hash40("open"))
+ 		ArticleModule::change_motion()
+ 	}
+ }

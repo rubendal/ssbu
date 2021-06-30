@@ -1,0 +1,30 @@
+diff --git "a/0.0/fox/game_ThrowB.txt" "b/0.0/fox/game_ThrowB.txt"
+index 685f1a2..9f6b716 100644
+--- "a/0.0/fox/game_ThrowB.txt"
++++ "b/0.0/fox/game_ThrowB.txt"
+@@ -14,11 +14,11 @@ if(is_excute){
+ 	REVERSE_LR()
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ }
+ frame(Frame=15)
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10cfb0(false, true)){
++if(0x10d030(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, hash40("open"))
+ 		ArticleModule::change_motion()
+ 	}
+ }
+@@ -34,11 +34,11 @@ frame(Frame=22)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER_BULLET)
+ }
+ frame(Frame=24)
+ IS_EXIST_ARTICLE(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER)
+-if(0x10cfb0(false, true)){
++if(0x10d030(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_FOX_GENERATE_ARTICLE_BLASTER, hash40("close"))
+ 		ArticleModule::change_motion()
+ 	}
+ }

@@ -1,0 +1,10 @@
+diff --git "a/.0.0/edge/game_JumpAerialBack.txt" "b/.0.0/edge/game_JumpAerialBack.txt"
+index 1e19b05..195553a 100644
+--- "a/.0.0/edge/game_JumpAerialBack.txt"
++++ "b/.0.0/edge/game_JumpAerialBack.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=30)
+ if(is_excute){
+-	WorkModule::off_flag(Flag=56836)
++	WorkModule::off_flag(Flag=57864)
+ }

@@ -1,0 +1,12 @@
+diff --git "a/11.0.0/elight/game_VisualScene02.txt" "b/12.0.0/elight/game_VisualScene02.txt"
+index 98531a1..b0c0d81 100644
+--- "a/11.0.0/elight/game_VisualScene02.txt"
++++ "b/12.0.0/elight/game_VisualScene02.txt"
+@@ -1,6 +1,6 @@
+ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(0x10d4dda55f, 0, false)
+ 	ControlModule::set_rumble()
+ 	RUMBLE_FINAL_TARGET(0x10d4dda55f, 0)
+-	WorkModule::set_int64(hash40("visual_scene_02"), 60276)
++	WorkModule::set_int64(hash40("visual_scene_02"), 61304)
+ }

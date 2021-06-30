@@ -1,0 +1,10 @@
+diff --git "a/11.0.0/eflame/game_SpecialAirHiFall.txt" "b/12.0.0/eflame/game_SpecialAirHiFall.txt"
+index 4aa65bb..9131a8e 100644
+--- "a/11.0.0/eflame/game_SpecialAirHiFall.txt"
++++ "b/12.0.0/eflame/game_SpecialAirHiFall.txt"
+@@ -1,4 +1,4 @@
+ if(is_excute){
+-	WorkModule::set_int64(hash40("special_air_hi_fall"), 60268)
++	WorkModule::set_int64(hash40("special_air_hi_fall"), 61296)
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }

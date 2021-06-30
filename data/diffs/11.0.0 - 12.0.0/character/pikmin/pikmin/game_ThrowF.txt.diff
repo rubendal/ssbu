@@ -1,0 +1,22 @@
+diff --git "a/11.0.0/pikmin/game_ThrowF.txt" "b/12.0.0/pikmin/game_ThrowF.txt"
+index 055447d..080f7ec 100644
+--- "a/11.0.0/pikmin/game_ThrowF.txt"
++++ "b/12.0.0/pikmin/game_ThrowF.txt"
+@@ -33,15 +33,15 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(FIGHTER_PIKMIN_INST
+ }
+ frame(Frame=1)
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_INVINCIBLE)
+ }
+-frame(Frame=17)
++frame(Frame=18)
+ if(is_excute){
+ 	CHECK_FINISH_CAMERA(0, 0)
+ 	FighterCutInManager::set_throw_finish_zoom_rate(1.3)
+ 	FighterCutInManager::set_throw_finish_offset(12, 0, 0)
+ }
+-frame(Frame=18)
++frame(Frame=19)
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_NORMAL)
+ }

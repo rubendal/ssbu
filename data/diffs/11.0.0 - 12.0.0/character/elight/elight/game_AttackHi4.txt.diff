@@ -1,0 +1,62 @@
+diff --git "a/11.0.0/elight/game_AttackHi4.txt" "b/12.0.0/elight/game_AttackHi4.txt"
+index a5973bd..8367212 100644
+--- "a/11.0.0/elight/game_AttackHi4.txt"
++++ "b/12.0.0/elight/game_AttackHi4.txt"
+@@ -1,26 +1,26 @@
+ frame(Frame=1)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ FT_MOTION_RATE(0, 0.5)
+ frame(Frame=5)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=7)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+-	WorkModule::set_int64(hash40("attack_hi4_hold"), 60276)
++	WorkModule::set_int64(hash40("attack_hi4_hold"), 61304)
+ }
+ frame(Frame=8)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=12)
+ FT_MOTION_RATE(FSM=1)
+@@ -77,19 +77,19 @@ if(is_excute){
+ frame(Frame=32)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=34)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ FT_MOTION_RATE(0, 0.75)

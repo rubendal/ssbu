@@ -1,0 +1,17 @@
+diff --git "a/_11.0.0/inkling/game_AttackLw4.txt" "b/_12.0.0/inkling/game_AttackLw4.txt"
+index 40d229a..3c09958 100644
+--- "a/_11.0.0/inkling/game_AttackLw4.txt"
++++ "b/_12.0.0/inkling/game_AttackLw4.txt"
+@@ -10,11 +10,11 @@ if(is_excute){
+ }
+ WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	if(is_excute){
+ 		WorkModule::get_float(FIGHTER_INKLING_GENERATE_ARTICLE_SLOSHER, hash40("attack_lw4"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		methodlib::L2CValue::as_hash()const(-1305339890)
++		methodlib::L2CValue::as_hash()const(-48226937)
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ frame(Frame=11)
+ WorkModule::is_flag(FIGHTER_INKLING_INSTANCE_WORK_ID_FLAG_INK_SUCCESS)

@@ -1,0 +1,48 @@
+diff --git "a/0.0/pit/game_FinalRide.txt" "b/0.0/pit/game_FinalRide.txt"
+index df5d8cc..6cf0d39 100644
+--- "a/0.0/pit/game_FinalRide.txt"
++++ "b/0.0/pit/game_FinalRide.txt"
+@@ -15,37 +15,37 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, 1.0)){
+ 	if(is_excute){
+ 		SlowModule::set_whole(90, 0)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x111760(0, 0)){
++if(0x1117e0(0, 0)){
+ 	if(is_excute){
+ 		PostureModule::scale(1, 0)
+-		0x111760(-17935990, 1.5)
++		0x1117e0(-538523505, 1.5)
+ 		CAM_ZOOM_IN_arg5(-0.3, 0.5)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			SlowModule::set_whole(90, 0)
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x111760(0, 0)){
++		if(0x1117e0(0, 0)){
+ 			if(is_excute){
+ 				PostureModule::scale(1, 0)
+-				0x111760(-17935990, 1.5)
++				0x1117e0(-538523505, 1.5)
+ 				CAM_ZOOM_IN_arg5(0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){
+ 					PostureModule::scale(1, 0)
+-					0x111760(-17935990, 1.5)
++					0x1117e0(-538523505, 1.5)
+ 					CAM_ZOOM_IN_arg5(-0.3, -0.5)
+ 				}
+ 				else{
+ 					if(is_excute){
+ 						PostureModule::scale(1, 0)
+-						0x111760(-17935990, 1.5)
++						0x1117e0(-538523505, 1.5)
+ 						CAM_ZOOM_IN_arg5(0, 0)
+ 					}
+ 				}
+ 			}
+ 		}

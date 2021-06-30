@@ -1,0 +1,31 @@
+diff --git "a/11.0.0/elight/game_SpecialAirHiJump.txt" "b/12.0.0/elight/game_SpecialAirHiJump.txt"
+index 8007809..ccb4dbe 100644
+--- "a/11.0.0/elight/game_SpecialAirHiJump.txt"
++++ "b/12.0.0/elight/game_SpecialAirHiJump.txt"
+@@ -36,21 +36,21 @@ frame(Frame=4)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
+ }
+ frame(Frame=10)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ frame(0, 6)
+ FT_MOTION_RATE(FSM=0.5)
+ frame(Frame=12)

@@ -1,0 +1,52 @@
+diff --git "a/11.0.0/elight/game_SpecialSEnd.txt" "b/12.0.0/elight/game_SpecialSEnd.txt"
+index 7aa6c4d..a056d7a 100644
+--- "a/11.0.0/elight/game_SpecialSEnd.txt"
++++ "b/12.0.0/elight/game_SpecialSEnd.txt"
+@@ -1,36 +1,36 @@
+ frame(Frame=1)
+ if(is_excute){
+ 	VisibilityModule::set_whole(true)
+-	ArticleModule::remove_exist(56644)
++	ArticleModule::remove_exist(56832)
+ }
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ frame(0, 13)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }
+ frame(Frame=20)
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x08183db0f4, 3.33, 3.33, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x08183db0f4, 3.33, 3.33, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }

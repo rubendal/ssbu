@@ -1,0 +1,14 @@
+diff --git "a/_11.0.0/lucario/game_SpecialS.txt" "b/_12.0.0/lucario/game_SpecialS.txt"
+index 24a7755..df1a4f5 100644
+--- "a/_11.0.0/lucario/game_SpecialS.txt"
++++ "b/_12.0.0/lucario/game_SpecialS.txt"
+@@ -1,7 +1,9 @@
+ if(is_excute){
+ 	FighterAreaModuleImpl::enable_fix_jostle_area(2, 5)
++	JostleModule::set_push_speed_x(0.1, true)
++	JostleModule::set_push_speed_x_overlap_rate(0.1)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=6.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=8)
+ if(is_excute){
+ 	GrabModule::set_rebound(CanCatchRebound=true)

@@ -1,0 +1,14 @@
+diff --git "a/er_11.0.0/miigunner/game_SpecialAirHi1.txt" "b/er_12.0.0/miigunner/game_SpecialAirHi1.txt"
+index 315a7b8..337c28e 100644
+--- "a/er_11.0.0/miigunner/game_SpecialAirHi1.txt"
++++ "b/er_12.0.0/miigunner/game_SpecialAirHi1.txt"
+@@ -1,5 +1,9 @@
++frame(Frame=6)
++FT_MOTION_RATE(FSM=0.5)
++frame(Frame=10)
++FT_MOTION_RATE(FSM=1)
+ frame(Frame=11)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_MIIGUNNER_STATUS_BOTTOM_SHOOT_FLAG_JUMP)
+ }
+ frame(Frame=12)

@@ -1,0 +1,10 @@
+diff --git "a/11.0.0/tantan/game_AttackS4ChargeRB.txt" "b/12.0.0/tantan/game_AttackS4ChargeRB.txt"
+index d51dadf..329b261 100644
+--- "a/11.0.0/tantan/game_AttackS4ChargeRB.txt"
++++ "b/12.0.0/tantan/game_AttackS4ChargeRB.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=5)
+ if(is_excute){
+-	WorkModule::off_flag(Flag=53552)
++	WorkModule::off_flag(Flag=53736)
+ }

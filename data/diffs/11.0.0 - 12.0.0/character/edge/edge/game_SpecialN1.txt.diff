@@ -1,0 +1,18 @@
+diff --git "a/.0.0/edge/game_SpecialN1.txt" "b/.0.0/edge/game_SpecialN1.txt"
+index b0afc6d..1481b36 100644
+--- "a/.0.0/edge/game_SpecialN1.txt"
++++ "b/.0.0/edge/game_SpecialN1.txt"
+@@ -2,11 +2,11 @@ frame(Frame=1)
+ FT_MOTION_RATE(FSM=1.9)
+ frame(Frame=11)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=13)
+ if(is_excute){
+-	ArticleModule::generate_article(17448)
++	ArticleModule::generate_article(17624)
+ }
+ frame(Frame=35)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=17440)
++	WorkModule::on_flag(Flag=17616)
+ }

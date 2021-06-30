@@ -1,0 +1,17 @@
+diff --git "a/_11.0.0/inkling/game_FinalAir.txt" "b/_12.0.0/inkling/game_FinalAir.txt"
+index efecf15..14fdac3 100644
+--- "a/_11.0.0/inkling/game_FinalAir.txt"
++++ "b/_12.0.0/inkling/game_FinalAir.txt"
+@@ -21,11 +21,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			camera(MA_MSC_CMD_CAMERA_CAM_RECT, 0, 10, 0, 0)
+ 			PostureModule::scale(5, 0)
+-			0x13d360(-1305339890, 2.5)
++			0x13d3f0(-48226937, 2.5)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=35)
+ 		if(is_excute){

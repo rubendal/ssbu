@@ -1,0 +1,13 @@
+diff --git "a/11.0.0/pickel/game_SpecialAirHi.txt" "b/12.0.0/pickel/game_SpecialAirHi.txt"
+index 97ceed0..67bd904 100644
+--- "a/11.0.0/pickel/game_SpecialAirHi.txt"
++++ "b/12.0.0/pickel/game_SpecialAirHi.txt"
+@@ -16,7 +16,7 @@ frame(Frame=31)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=60)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55216)
++	WorkModule::on_flag(Flag=55400)
+ }

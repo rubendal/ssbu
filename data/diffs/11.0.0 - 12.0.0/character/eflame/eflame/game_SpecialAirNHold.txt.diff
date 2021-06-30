@@ -1,0 +1,14 @@
+diff --git "a/11.0.0/eflame/game_SpecialAirNHold.txt" "b/12.0.0/eflame/game_SpecialAirNHold.txt"
+index 9338cad..d3bafe8 100644
+--- "a/11.0.0/eflame/game_SpecialAirNHold.txt"
++++ "b/12.0.0/eflame/game_SpecialAirNHold.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	WorkModule::set_int64(hash40("special_air_n_hold"), 60276)
++	WorkModule::set_int64(hash40("special_air_n_hold"), 61304)
+ }
+ frame(Frame=15)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=17488)
++	WorkModule::on_flag(Flag=17664)
+ }

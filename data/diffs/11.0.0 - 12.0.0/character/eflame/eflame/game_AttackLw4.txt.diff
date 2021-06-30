@@ -1,0 +1,59 @@
+diff --git "a/11.0.0/eflame/game_AttackLw4.txt" "b/12.0.0/eflame/game_AttackLw4.txt"
+index c86b339..873b664 100644
+--- "a/11.0.0/eflame/game_AttackLw4.txt"
++++ "b/12.0.0/eflame/game_AttackLw4.txt"
+@@ -1,24 +1,24 @@
+ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ if(is_excute){
+-	WorkModule::set_int64(hash40("attack_lw4_hold"), 60268)
++	WorkModule::set_int64(hash40("attack_lw4_hold"), 61296)
+ }
+ FT_MOTION_RATE(FSM=3)
+ frame(Frame=4)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=10)
+@@ -42,18 +42,18 @@ if(is_excute){
+ frame(Frame=19)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=45)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }

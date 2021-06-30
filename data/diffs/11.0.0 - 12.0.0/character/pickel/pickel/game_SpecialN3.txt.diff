@@ -1,0 +1,21 @@
+diff --git "a/11.0.0/pickel/game_SpecialN3.txt" "b/12.0.0/pickel/game_SpecialN3.txt"
+index e72c983..e6d45ff 100644
+--- "a/11.0.0/pickel/game_SpecialN3.txt"
++++ "b/12.0.0/pickel/game_SpecialN3.txt"
+@@ -1,12 +1,12 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=60192)
+-	WorkModule::on_flag(Flag=19644)
++	WorkModule::on_flag(Flag=61220)
++	WorkModule::on_flag(Flag=19820)
+ }
+ frame(Frame=4)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19636)
++	WorkModule::on_flag(Flag=19812)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=19640)
++	WorkModule::on_flag(Flag=19816)
+ }

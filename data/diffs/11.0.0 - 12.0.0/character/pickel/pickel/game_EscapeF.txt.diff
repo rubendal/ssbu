@@ -1,0 +1,14 @@
+diff --git "a/11.0.0/pickel/game_EscapeF.txt" "b/12.0.0/pickel/game_EscapeF.txt"
+index ad92184..690d6b6 100644
+--- "a/11.0.0/pickel/game_EscapeF.txt"
++++ "b/12.0.0/pickel/game_EscapeF.txt"
+@@ -1,8 +1,8 @@
+ frame(Frame=6)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=60192)
++	WorkModule::on_flag(Flag=61220)
+ }
+ frame(Frame=19)
+ if(is_excute){
+ 	REVERSE_LR()
+ }

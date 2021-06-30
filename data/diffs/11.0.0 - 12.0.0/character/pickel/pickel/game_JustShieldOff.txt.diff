@@ -1,0 +1,14 @@
+diff --git "a/11.0.0/pickel/game_JustShieldOff.txt" "b/12.0.0/pickel/game_JustShieldOff.txt"
+index f20e3fd..8edd482 100644
+--- "a/11.0.0/pickel/game_JustShieldOff.txt"
++++ "b/12.0.0/pickel/game_JustShieldOff.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	ArticleModule::generate_article(60196)
++	ArticleModule::generate_article(61224)
+ }
+ frame(Frame=8)
+ if(is_excute){
+-	ArticleModule::remove_exist(60196)
++	ArticleModule::remove_exist(61224)
+ }

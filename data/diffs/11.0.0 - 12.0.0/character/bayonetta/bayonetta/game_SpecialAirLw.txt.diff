@@ -1,0 +1,17 @@
+diff --git "a/ta_11.0.0/bayonetta/game_SpecialAirLw.txt" "b/ta_12.0.0/bayonetta/game_SpecialAirLw.txt"
+index 33516af..7568df5 100644
+--- "a/ta_11.0.0/bayonetta/game_SpecialAirLw.txt"
++++ "b/ta_12.0.0/bayonetta/game_SpecialAirLw.txt"
+@@ -20,11 +20,11 @@ frame(Frame=36)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2ea0f68425, false)
+ }
+ frame(Frame=37)
+ WorkModule::is_flag(FIGHTER_BAYONETTA_STATUS_WORK_ID_SPECIAL_LW_FLAG_WITCH_TIME_SUCCESS)
+-if(0x1cb230(false, false)){
++if(0x1cb400(false, false)){
+ 	if(is_excute){
+ 		KineticModule::change_kinetic(FIGHTER_KINETIC_TYPE_FALL)
+ 	}
+ }
+ frame(Frame=44)

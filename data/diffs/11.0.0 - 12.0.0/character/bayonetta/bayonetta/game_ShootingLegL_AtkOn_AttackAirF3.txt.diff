@@ -1,0 +1,13 @@
+diff --git "a/ta_11.0.0/bayonetta/game_ShootingLegL_AtkOn_AttackAirF3.txt" "b/ta_12.0.0/bayonetta/game_ShootingLegL_AtkOn_AttackAirF3.txt"
+index 3c451af..2594859 100644
+--- "a/ta_11.0.0/bayonetta/game_ShootingLegL_AtkOn_AttackAirF3.txt"
++++ "b/ta_12.0.0/bayonetta/game_ShootingLegL_AtkOn_AttackAirF3.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_BAYONETTA_INSTANCE_WORK_ID_FLAG_SHOOTING_DISABLE_ROOT_ATTACK)
+-if(0x1cb230(false, false)){
++if(0x1cb400(false, false)){
+ 	if(is_excute){
+ 		ATTACK(ID=FIGHTER_BAYONETTA_SHOOTING_ATTACK_ID_02, Part=0, Bone=hash40("top"), Damage=0.5, Angle=300, KBG=100, FKB=0, BKB=10, Size=2.5, X=0.0, Y=1.5, Z=7.5, X2=0.0, Y2=-2.0, Z2=9.5, Hitlag=0.0, SDI=0.0, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=false, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_normal_bullet"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_BAYONETTA_HIT_01, Type=ATTACK_REGION_NONE)
+ 	}
+ }
+ if(is_excute){

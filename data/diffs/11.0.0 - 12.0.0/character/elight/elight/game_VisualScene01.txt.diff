@@ -1,0 +1,32 @@
+diff --git "a/11.0.0/elight/game_VisualScene01.txt" "b/12.0.0/elight/game_VisualScene01.txt"
+index bf97659..982dec4 100644
+--- "a/11.0.0/elight/game_VisualScene01.txt"
++++ "b/12.0.0/elight/game_VisualScene01.txt"
+@@ -1,21 +1,21 @@
+ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(0x104dd4f4e5, 0, false)
+ 	ControlModule::set_rumble()
+ 	RUMBLE_FINAL_TARGET(0x104dd4f4e5, 0)
+ }
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }
+ if(is_excute){
+-	WorkModule::set_int64(hash40("visual_scene_01"), 60276)
++	WorkModule::set_int64(hash40("visual_scene_01"), 61304)
+ }
