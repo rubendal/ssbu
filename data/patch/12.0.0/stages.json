@@ -5,6 +5,11 @@
     "Type": 0
   },
   {
+    "name": "Cloud Sea of Alrest",
+    "gameName": "alrest",
+    "Type": 0
+  },
+  {
     "name": "Town & City",
     "gameName": "village2_",
     "Type": 0
@@ -85,6 +90,11 @@
     "Type": 0
   },
   {
+    "name": "Mishima Dojo",
+    "gameName": "demon_dojo",
+    "Type": 0
+  },
+  {
     "name": "Kongo Jungle",
     "gameName": "64jungle_",
     "Type": 0
@@ -107,11 +117,6 @@
   {
     "name": "Duck Hunt",
     "gameName": "duckhunt_",
-    "Type": 0
-  },
-  {
-    "name": "Cloud Sea of Alrest",
-    "gameName": "eldriver",
     "Type": 0
   },
   {
