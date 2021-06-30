@@ -1,0 +1,23 @@
+diff --git "a/11.0.0/packun/game_Final.txt" "b/12.0.0/packun/game_Final.txt"
+index 6e84c17..90a3045 100644
+--- "a/11.0.0/packun/game_Final.txt"
++++ "b/12.0.0/packun/game_Final.txt"
+@@ -11,16 +11,16 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x157cf0(1386371609, 2.05)
++			0x157dc0(-1359049988, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x157cf0(0, 0)){
++		if(0x157dc0(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){

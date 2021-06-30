@@ -1,0 +1,27 @@
+diff --git "a/1.0.0/ganon/game_FinalStart.txt" "b/2.0.0/ganon/game_FinalStart.txt"
+index da7197e..9072d51 100644
+--- "a/1.0.0/ganon/game_FinalStart.txt"
++++ "b/2.0.0/ganon/game_FinalStart.txt"
+@@ -1,8 +1,8 @@
+ if(is_excute){
+ 	SLOW_OPPONENT(6, 120)
+-	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
++	CHECK_VALID_FINAL_START_CAMERA(0, 7, 33, 0, 0, 0)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_GANON_GENERATE_ARTICLE_GANOND)
+ }
+@@ -14,11 +14,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xffdb0(514459429, 1.7)
++			0xffe90(-648868755, 1.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

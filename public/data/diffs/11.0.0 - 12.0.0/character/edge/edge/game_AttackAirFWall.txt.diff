@@ -1,0 +1,13 @@
+diff --git "a/.0.0/edge/game_AttackAirFWall.txt" "b/.0.0/edge/game_AttackAirFWall.txt"
+index 04f4021..919cffb 100644
+--- "a/.0.0/edge/game_AttackAirFWall.txt"
++++ "b/.0.0/edge/game_AttackAirFWall.txt"
+@@ -10,7 +10,7 @@ frame(Frame=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56816)
++	WorkModule::on_flag(Flag=57844)
+ }

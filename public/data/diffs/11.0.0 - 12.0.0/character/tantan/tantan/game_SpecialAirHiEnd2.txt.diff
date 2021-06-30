@@ -1,0 +1,18 @@
+diff --git "a/11.0.0/tantan/game_SpecialAirHiEnd2.txt" "b/12.0.0/tantan/game_SpecialAirHiEnd2.txt"
+index 461528c..02035fd 100644
+--- "a/11.0.0/tantan/game_SpecialAirHiEnd2.txt"
++++ "b/12.0.0/tantan/game_SpecialAirHiEnd2.txt"
+@@ -7,11 +7,11 @@ if(is_excute){
+ 	HIT_NO(12, HIT_STATUS_NORMAL)
+ 	HIT_NO(13, HIT_STATUS_NORMAL)
+ 	HIT_NO(19, HIT_STATUS_NORMAL)
+ }
+ frame(0, 3)
+-WorkModule::is_flag(54216)
+-if(0x3a08f0(false, true)){
++WorkModule::is_flag(54400)
++if(0x39f3f0(false, true)){
+ 	if(is_excute){
+ 		AttackModule::clear_all()
+ 	}
+ }

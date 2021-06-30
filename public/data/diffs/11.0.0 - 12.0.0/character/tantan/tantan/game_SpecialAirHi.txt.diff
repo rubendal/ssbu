@@ -1,0 +1,13 @@
+diff --git "a/11.0.0/tantan/game_SpecialAirHi.txt" "b/12.0.0/tantan/game_SpecialAirHi.txt"
+index dae280b..76e56df 100644
+--- "a/11.0.0/tantan/game_SpecialAirHi.txt"
++++ "b/12.0.0/tantan/game_SpecialAirHi.txt"
+@@ -8,7 +8,7 @@ if(is_excute){
+ 	HIT_NO(13, HIT_STATUS_OFF)
+ 	HIT_NO(19, HIT_STATUS_OFF)
+ }
+ frame(0, 2)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=54200)
++	WorkModule::on_flag(Flag=54384)
+ }

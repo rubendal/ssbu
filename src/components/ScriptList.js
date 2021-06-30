@@ -130,7 +130,7 @@ class ScriptList extends Component {
             </select>
           </div>
         {
-          this.state.data.Motions && (
+          this.state.data.Motions && Object.keys(this.state.data.Motions).length > 0  && (
             <MotionView data={this.state.data.Motions} article={this.state.article} script={this.state.script.Name} />
           )
         }

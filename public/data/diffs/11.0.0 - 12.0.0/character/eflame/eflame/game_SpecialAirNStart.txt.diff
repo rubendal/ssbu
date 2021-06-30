@@ -1,0 +1,30 @@
+diff --git "a/11.0.0/eflame/game_SpecialAirNStart.txt" "b/12.0.0/eflame/game_SpecialAirNStart.txt"
+index 41d09f2..2d5dfc4 100644
+--- "a/11.0.0/eflame/game_SpecialAirNStart.txt"
++++ "b/12.0.0/eflame/game_SpecialAirNStart.txt"
+@@ -1,19 +1,19 @@
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.6)
+ frame(Frame=2)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ if(is_excute){
+-	WorkModule::set_int64(hash40("special_air_n_start"), 60276)
++	WorkModule::set_int64(hash40("special_air_n_start"), 61304)
+ }

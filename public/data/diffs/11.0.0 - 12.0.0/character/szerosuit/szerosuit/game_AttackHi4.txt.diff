@@ -1,0 +1,17 @@
+diff --git "a/it_11.0.0/szerosuit/game_AttackHi4.txt" "b/it_12.0.0/szerosuit/game_AttackHi4.txt"
+index 40ea178..fbf11e0 100644
+--- "a/it_11.0.0/szerosuit/game_AttackHi4.txt"
++++ "b/it_12.0.0/szerosuit/game_AttackHi4.txt"
+@@ -2,11 +2,11 @@ frame(Frame=5)
+ execute(5)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK)
+-if(0x116fa0(false, true)){
++if(0x117020(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_SZEROSUIT_GENERATE_ARTICLE_WHIP)
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_SZEROSUIT_GENERATE_ARTICLE_WHIP, hash40("attack_hi4"))
+ 		ArticleModule::change_motion()
+ 	}

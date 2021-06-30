@@ -1,0 +1,18 @@
+diff --git "a/11.0.0/eflame/game_VisualScene02.txt" "b/12.0.0/eflame/game_VisualScene02.txt"
+index e36d96d..d060dab 100644
+--- "a/11.0.0/eflame/game_VisualScene02.txt"
++++ "b/12.0.0/eflame/game_VisualScene02.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(0x10d69b1b06, 0, false)
+ 	ControlModule::set_rumble()
+ 	RUMBLE_FINAL_TARGET(0x10d69b1b06, 0)
+-	WorkModule::set_int64(hash40("visual_scene_02"), 60276)
++	WorkModule::set_int64(hash40("visual_scene_02"), 61304)
+ 	FT_SET_FINAL_FEAR_FACE(104)
+ }
+ frame(Frame=4)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56204)
++	WorkModule::on_flag(Flag=56388)
+ }

@@ -1,0 +1,28 @@
+diff --git "a/11.0.0/eflame/game_SpecialHiStart.txt" "b/12.0.0/eflame/game_SpecialHiStart.txt"
+index 7ffc4d7..66880af 100644
+--- "a/11.0.0/eflame/game_SpecialHiStart.txt"
++++ "b/12.0.0/eflame/game_SpecialHiStart.txt"
+@@ -1,17 +1,17 @@
+ frame(Frame=8)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ if(is_excute){
+-	WorkModule::set_int64(hash40("special_air_hi_jump"), 60268)
++	WorkModule::set_int64(hash40("special_air_hi_jump"), 61296)
+ }

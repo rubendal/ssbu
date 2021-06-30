@@ -1,0 +1,10 @@
+diff --git "a/.0.0/edge/game_SpecialS.txt" "b/.0.0/edge/game_SpecialS.txt"
+index ed23c1d..ab958db 100644
+--- "a/.0.0/edge/game_SpecialS.txt"
++++ "b/.0.0/edge/game_SpecialS.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=8)
+ if(is_excute){
+-	ArticleModule::generate_article(60376)
++	ArticleModule::generate_article(61484)
+ }

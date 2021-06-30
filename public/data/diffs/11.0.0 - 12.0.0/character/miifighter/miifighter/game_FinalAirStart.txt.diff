@@ -1,0 +1,17 @@
+diff --git "a/ter_11.0.0/miifighter/game_FinalAirStart.txt" "b/ter_12.0.0/miifighter/game_FinalAirStart.txt"
+index 504434b..22c69d2 100644
+--- "a/ter_11.0.0/miifighter/game_FinalAirStart.txt"
++++ "b/ter_12.0.0/miifighter/game_FinalAirStart.txt"
+@@ -28,11 +28,11 @@ if(is_excute){
+ 	SlowModule::set_whole(2, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x18b900(1665199257, 2.4)
++		0x18bef0(-1732971510, 2.4)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=20)

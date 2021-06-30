@@ -1,0 +1,17 @@
+diff --git "a/11.0.0/elight/game_AppealHiR.txt" "b/12.0.0/elight/game_AppealHiR.txt"
+index ccd5643..7b40c1b 100644
+--- "a/11.0.0/elight/game_AppealHiR.txt"
++++ "b/12.0.0/elight/game_AppealHiR.txt"
+@@ -1,8 +1,8 @@
+-WorkModule::is_flag(56180)
+-if(0x353770(false, true)){
++WorkModule::is_flag(56364)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		ArticleModule::generate_article(56544)
+-		methodlib::L2CValue::as_hash()const(56544, 0x0d0861ef92)
++		ArticleModule::generate_article(56728)
++		methodlib::L2CValue::as_hash()const(56728, 0x0d0861ef92)
+ 		ArticleModule::change_motion()
+ 	}
+ }

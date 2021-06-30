@@ -1,0 +1,13 @@
+diff --git "a/.0.0/edge/game_SpecialAirHi2End.txt" "b/.0.0/edge/game_SpecialAirHi2End.txt"
+index 34895fe..36effb5 100644
+--- "a/.0.0/edge/game_SpecialAirHi2End.txt"
++++ "b/.0.0/edge/game_SpecialAirHi2End.txt"
+@@ -16,7 +16,7 @@ frame(Frame=6)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56992)
++	WorkModule::on_flag(Flag=58020)
+ }

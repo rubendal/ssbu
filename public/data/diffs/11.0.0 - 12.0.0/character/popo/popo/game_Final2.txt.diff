@@ -1,0 +1,35 @@
+diff --git "a/.0.0/popo/game_Final2.txt" "b/.0.0/popo/game_Final2.txt"
+index 582e410..4288c68 100644
+--- "a/.0.0/popo/game_Final2.txt"
++++ "b/.0.0/popo/game_Final2.txt"
+@@ -3,27 +3,27 @@ if(is_excute){
+ 	FT_SET_FINAL_SMASH_LIGHT(true)
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(10, 60)
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x161600(false, false)){
++if(0x161680(false, false)){
+ 	frame(Frame=10)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 		REQ_FINAL_START_CAMERA(hash40("d04final2.nuanmb"), true)
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			FT_REMOVE_FINAL_AURA(false)
+ 			PostureModule::scale(5, 0)
+-			0x161600(-1643850958, 2.1)
++			0x161680(745332853, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x161600(0, 0)){
++		if(0x161680(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 3, 0)
+ 			}
+ 			else{
+ 				if(is_excute){

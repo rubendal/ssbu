@@ -1,0 +1,22 @@
+diff --git "a/11.0.0/elight/game_SpecialAirHiEnd.txt" "b/12.0.0/elight/game_SpecialAirHiEnd.txt"
+index 4ab82d5..7774801 100644
+--- "a/11.0.0/elight/game_SpecialAirHiEnd.txt"
++++ "b/12.0.0/elight/game_SpecialAirHiEnd.txt"
+@@ -2,15 +2,15 @@ frame(Frame=1)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_NONE)
+ }
+ frame(Frame=5)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56620)
++	WorkModule::on_flag(Flag=56808)
+ }
+ frame(Frame=16)
+ if(is_excute){
+ 	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES)
+ }
+ frame(Frame=30)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=56624)
++	WorkModule::on_flag(Flag=56812)
+ }

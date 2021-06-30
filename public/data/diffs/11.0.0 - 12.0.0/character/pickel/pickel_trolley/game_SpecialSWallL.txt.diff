@@ -1,0 +1,11 @@
+diff --git "a/11.0.0/pickel_trolley/game_SpecialSWallL.txt" "b/12.0.0/pickel_trolley/game_SpecialSWallL.txt"
+index b774a16..5c6b092 100644
+--- "a/11.0.0/pickel_trolley/game_SpecialSWallL.txt"
++++ "b/12.0.0/pickel_trolley/game_SpecialSWallL.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(hash40("rbkind_nohitll"), 0, false)
+ 	ControlModule::set_rumble()
+-	WorkModule::off_flag(Flag=60256)
++	WorkModule::off_flag(Flag=61284)
+ }

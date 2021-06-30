@@ -1,0 +1,12 @@
+diff --git "a/11.0.0/eflame_windummy/game_Win3.txt" "b/12.0.0/eflame_windummy/game_Win3.txt"
+index 9450756..adcac92 100644
+--- "a/11.0.0/eflame_windummy/game_Win3.txt"
++++ "b/12.0.0/eflame_windummy/game_Win3.txt"
+@@ -1,5 +1,5 @@
+ if(is_excute){
+-	ArticleModule::generate_article(60308)
+-	methodlib::L2CValue::as_hash()const(60308, hash40("close"))
++	ArticleModule::generate_article(61336)
++	methodlib::L2CValue::as_hash()const(61336, hash40("close"))
+ 	ArticleModule::change_motion()
+ }

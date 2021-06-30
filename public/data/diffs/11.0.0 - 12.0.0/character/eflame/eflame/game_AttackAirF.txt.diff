@@ -1,0 +1,58 @@
+diff --git "a/11.0.0/eflame/game_AttackAirF.txt" "b/12.0.0/eflame/game_AttackAirF.txt"
+index 3c29208..2d3e605 100644
+--- "a/11.0.0/eflame/game_AttackAirF.txt"
++++ "b/12.0.0/eflame/game_AttackAirF.txt"
+@@ -2,21 +2,21 @@ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)
+ }
+ FT_MOTION_RATE(FSM=2)
+ frame(Frame=4)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x07439e926b, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ frame(0, 6)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=8)
+@@ -49,21 +49,21 @@ if(is_excute){
+ frame(Frame=12)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=19)
+-IS_EXIST_ARTICLE(17452)
+-if(0x3cbcf0(false, true)){
++IS_EXIST_ARTICLE(17628)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17452, 60296, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17628, 61324, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cbcf0(false, true)){
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60300)
++		WorkModule::on_flag(Flag=61328)
+ 	}
+ }
+ frame(0, 43)
+ if(is_excute){
+ 	WorkModule::off_flag(Flag=FIGHTER_STATUS_ATTACK_AIR_FLAG_ENABLE_LANDING)

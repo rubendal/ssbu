@@ -1,0 +1,17 @@
+diff --git "a/11.0.0/pickel/game_TurnDash.txt" "b/12.0.0/pickel/game_TurnDash.txt"
+index d271112..949e633 100644
+--- "a/11.0.0/pickel/game_TurnDash.txt"
++++ "b/12.0.0/pickel/game_TurnDash.txt"
+@@ -2,11 +2,11 @@ frame(Frame=3)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_DASH_FLAG_TURN_DASH)
+ }
+ frame(Frame=6)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=60192)
++	WorkModule::on_flag(Flag=61220)
+ }
+ frame(Frame=13)
+ if(is_excute){
+ 	WorkModule::enable_transition_term(FIGHTER_STATUS_TRANSITION_TERM_ID_DASH_TO_RUN)
+ }

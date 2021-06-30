@@ -1,0 +1,71 @@
+diff --git "a/ac_11.0.0/littlemac/game_FinalAttack.txt" "b/ac_12.0.0/littlemac/game_FinalAttack.txt"
+index 90a5913..536a8ac 100644
+--- "a/ac_11.0.0/littlemac/game_FinalAttack.txt"
++++ "b/ac_12.0.0/littlemac/game_FinalAttack.txt"
+@@ -5,20 +5,38 @@ frame(Frame=1)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ WorkModule::is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+-	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x1444f0(0, 0)){
+-		if(is_excute){
+-			PostureModule::scale(300, 0)
+-			0x1444f0(577296125, 2.5)
+-			CAM_ZOOM_IN_FINAL_arg13(-30, 10, -20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, 20, 5)
+-		}
+-		else{
++	WorkModule::is_flag(38080)
++	if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
++		get_value_float(SO_VAR_FLOAT_LR)
++		if(0x144b10(0, 0)){
+ 			if(is_excute){
+-				CAM_ZOOM_IN_FINAL_arg13(300, 0, 2.5, 30, 10, 20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, -15, 5)
++				PostureModule::scale(300, 0)
++				0x144b10(0, 2.5)
++				CAM_ZOOM_IN_FINAL_arg13(-15, 10, 0, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, 20, 5)
++			}
++			else{
++				get_value_float(FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID)
++				if(0x144b10(680, 0)){
++					if(is_excute){
++						PostureModule::scale(300, 0)
++						0x144b10(0, 2.5)
++						CAM_ZOOM_IN_FINAL_arg13(-30, 10, -20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, 20, 5)
++					}
++					else{
++						if(is_excute){
++							CAM_ZOOM_IN_FINAL_arg13(300, 0, 2.5, 15, 10, 0, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, -15, 5)
++						}
++						else{
++							if(is_excute){
++								CAM_ZOOM_IN_FINAL_arg13(300, 0, 2.5, 30, 10, 20, -5, 70, true, FIGHTER_LITTLEMAC_STATUS_FINAL_WORK_INT_ATTACK_HIT_OBJECT_ID, 0, -15, 5)
++							}
++						}
++					}
++				}
+ 			}
+ 		}
+ 	}
+ }
+ frame(Frame=2)
+@@ -61,16 +79,16 @@ if(is_excute){
+ }
+ WorkModule::is_flag(FIGHTER_LITTLEMAC_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	if(is_excute){
+ 		PostureModule::scale(2, 0)
+-		0x1444f0(577296125, 2.5)
++		0x144b10(-1186192792, 2.5)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1444f0(1417232, 0)){
++if(0x144b10(1417324, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 10)
+ 	}
+ 	else{
+ 		if(is_excute){

@@ -1,0 +1,14 @@
+diff --git "a/11.0.0/eflame_esword/game_Hit.txt" "b/12.0.0/eflame_esword/game_Hit.txt"
+index 33ed9de..21d6e7c 100644
+--- "a/11.0.0/eflame_esword/game_Hit.txt"
++++ "b/12.0.0/eflame_esword/game_Hit.txt"
+@@ -1,7 +1,7 @@
+-WorkModule::is_flag(60304)
+-if(0x3cbcf0(false, true)){
++WorkModule::is_flag(61332)
++if(0x3cc3a0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(0x1a6bd42eba, 0, false)
+ 		ControlModule::set_rumble()
+ 	}
+ 	else{

@@ -1,0 +1,11 @@
+diff --git "a/k_11.0.0/toonlink/game_AttackAirLwOffGravity.txt" "b/k_12.0.0/toonlink/game_AttackAirLwOffGravity.txt"
+index a4c585b..964e8ef 100644
+--- "a/k_11.0.0/toonlink/game_AttackAirLwOffGravity.txt"
++++ "b/k_12.0.0/toonlink/game_AttackAirLwOffGravity.txt"
+@@ -1,5 +1,5 @@
+ get_value_int(SO_VAR_INT_PREV_STATUS)
+-0x120e00(0, FIGHTER_STATUS_KIND_DAMAGE_FLY)
++0x120e80(0, FIGHTER_STATUS_KIND_DAMAGE_FLY)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_WORK_ID_FLAG_RESERVE_GRAVITY_STABLE_UNABLE)
+ }

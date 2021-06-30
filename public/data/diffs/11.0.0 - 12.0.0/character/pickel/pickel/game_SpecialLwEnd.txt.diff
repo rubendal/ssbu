@@ -1,0 +1,14 @@
+diff --git "a/11.0.0/pickel/game_SpecialLwEnd.txt" "b/12.0.0/pickel/game_SpecialLwEnd.txt"
+index db8912a..f26711e 100644
+--- "a/11.0.0/pickel/game_SpecialLwEnd.txt"
++++ "b/12.0.0/pickel/game_SpecialLwEnd.txt"
+@@ -1,7 +1,7 @@
+ if(is_excute){
+-	WorkModule::on_flag(Flag=60192)
++	WorkModule::on_flag(Flag=61220)
+ }
+ frame(Frame=18)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=55280)
++	WorkModule::on_flag(Flag=55464)
+ }

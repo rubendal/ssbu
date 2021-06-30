@@ -43,24 +43,7 @@ class MotionView extends Component {
         if (this.state.motion) {
             return (
                 <div className="motion-data">
-                    {
-                        this.state.motion.AnimationHashes.length > 0 && (
-                            <div>
-                                <span>Animation Files</span>
-                                <div>
-                                    <ul className="animation-files-list">
-                                        {
-                                            this.state.motion.AnimationHashes.map((anim, index) => {
-                                                return (
-                                                    <li key={anim}>{anim}</li>
-                                                )
-                                            })
-                                        }
-                                    </ul>
-                                </div>
-                            </div>
-                        )
-                    }
+
                     {
                         this.state.motion.TransitionFrames != 0 && (
                             <div>Transition frames: {this.state.motion.TransitionFrames}</div>
@@ -91,3 +74,23 @@ class MotionView extends Component {
 }
 
 export default MotionView;
+
+/*
+{
+    this.state.motion.AnimationHashes.length > 0 && (
+        <div>
+            <span>Animation Files</span>
+            <div>
+                <ul className="animation-files-list">
+                    {
+                        this.state.motion.AnimationHashes.map((anim, index) => {
+                            return (
+                                <li key={anim}>{anim}</li>
+                            )
+                        })
+                    }
+                </ul>
+            </div>
+        </div>
+    )
+}*/

@@ -1,0 +1,1100 @@
+[
+  {
+    "stage": "Garreg Mach Monastery",
+    "name": "Garreg Mach Monastery",
+    "lvd": "garreg_00",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -430.0,
+            0.0
+          ],
+          [
+            330.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 760.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -430.0,
+            0.0
+          ],
+          [
+            330.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_floatingfloor_T",
+        "vertex": [
+          [
+            -75.0,
+            35.0
+          ],
+          [
+            -40.0,
+            35.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            7.10542736E-15
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      },
+      {
+        "name": "COL_floatingfloor_T1",
+        "vertex": [
+          [
+            40.0,
+            35.0
+          ],
+          [
+            75.0,
+            35.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            7.10542736E-15
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -185.0,
+      185.0,
+      190.0,
+      -150.0
+    ],
+    "camera": [
+      -110.0,
+      109.999992,
+      120.0,
+      -15.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -37.5,
+        0.0
+      ],
+      [
+        37.5,
+        0.0
+      ],
+      [
+        -87.5,
+        0.0
+      ],
+      [
+        87.5,
+        0.0
+      ],
+      [
+        -62.1244278,
+        0.0
+      ],
+      [
+        62.5,
+        0.0
+      ],
+      [
+        -12.5,
+        0.0
+      ],
+      [
+        12.5,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        62.5
+      ],
+      [
+        30.0,
+        62.5
+      ],
+      [
+        -30.0,
+        62.5
+      ],
+      [
+        60.0,
+        62.5
+      ],
+      [
+        -15.0,
+        79.5
+      ],
+      [
+        15.0,
+        79.5
+      ],
+      [
+        -45.0,
+        79.5
+      ],
+      [
+        45.0,
+        79.5
+      ]
+    ],
+    "items": []
+  },
+  {
+    "stage": "Garreg Mach Monastery (1)",
+    "name": "Garreg Mach Monastery",
+    "lvd": "garreg_01",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -350.0,
+            0.05
+          ],
+          [
+            -28.0957355,
+            0.05
+          ],
+          [
+            -21.5749245,
+            0.155289978
+          ],
+          [
+            21.6416531,
+            0.155289978
+          ],
+          [
+            28.1670151,
+            0.05
+          ],
+          [
+            350.0,
+            0.05
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 321.904266,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.52166128,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 43.2165756,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 6.52621126,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 321.832977,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -350.0,
+            0.05
+          ],
+          [
+            350.0,
+            0.155289978
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve3",
+        "vertex": [
+          [
+            -214.880951,
+            36.78148
+          ],
+          [
+            -81.1865845,
+            30.4272976
+          ],
+          [
+            -81.18952,
+            -160.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 133.845276,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 190.427292,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -214.880951,
+            -160.0
+          ],
+          [
+            -81.1865845,
+            36.78148
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve2",
+        "vertex": [
+          [
+            80.0,
+            -160.0
+          ],
+          [
+            80.0,
+            29.5859566
+          ],
+          [
+            190.0,
+            40.8771362
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 189.585953,
+            "ceiling": false,
+            "wall": true,
+            "material": "Carpet"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 95,
+            "length": 110.577988,
+            "ceiling": false,
+            "wall": false,
+            "material": "Carpet"
+          }
+        ],
+        "boundingBox": [
+          [
+            80.0,
+            -160.0
+          ],
+          [
+            190.0,
+            40.8771362
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_curve4",
+        "vertex": [
+          [
+            -81.42263,
+            30.45218
+          ],
+          [
+            -68.37858,
+            25.9161434
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 70,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -81.42263,
+            25.9161434
+          ],
+          [
+            -68.37858,
+            30.45218
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -175.0,
+      175.0,
+      190.0,
+      -150.0
+    ],
+    "camera": [
+      -100.0,
+      100.0,
+      120.0,
+      -15.0
+    ],
+    "center": [
+      0.0,
+      0.155289978
+    ],
+    "spawns": [
+      [
+        -36.0,
+        0.0
+      ],
+      [
+        36.0,
+        0.0
+      ],
+      [
+        -81.75838,
+        30.631815
+      ],
+      [
+        85.61593,
+        30.3268185
+      ],
+      [
+        -60.0,
+        -7.10542736E-15
+      ],
+      [
+        60.0,
+        0.0
+      ],
+      [
+        -12.5,
+        0.0
+      ],
+      [
+        12.5,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        65.0
+      ],
+      [
+        25.0,
+        65.0
+      ],
+      [
+        -25.0,
+        65.0
+      ],
+      [
+        50.0,
+        65.0
+      ],
+      [
+        -12.5,
+        82.0
+      ],
+      [
+        12.5,
+        82.0
+      ],
+      [
+        -37.5,
+        82.0
+      ],
+      [
+        37.5,
+        82.0
+      ]
+    ],
+    "items": []
+  },
+  {
+    "stage": "Garreg Mach Monastery (2)",
+    "name": "Garreg Mach Monastery",
+    "lvd": "garreg_02",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -20.0,
+            -15.0
+          ],
+          [
+            -90.0,
+            -5.0
+          ],
+          [
+            -90.0,
+            0.0
+          ],
+          [
+            -85.0,
+            0.0
+          ],
+          [
+            85.0,
+            0.0
+          ],
+          [
+            90.0,
+            0.0
+          ],
+          [
+            90.0,
+            -5.0
+          ],
+          [
+            20.0,
+            -15.0
+          ],
+          [
+            -20.0,
+            -15.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 262,
+            "length": 70.71068,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 170.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 279,
+            "length": 70.71068,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 40.0,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            -90.0,
+            -15.0
+          ],
+          [
+            90.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -230.0,
+      230.0,
+      180.0,
+      -140.0
+    ],
+    "camera": [
+      -170.0,
+      170.0,
+      130.0,
+      -60.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -30.0,
+        0.698034
+      ],
+      [
+        30.0,
+        0.698034
+      ],
+      [
+        -70.0,
+        0.698034
+      ],
+      [
+        70.0,
+        0.698034
+      ],
+      [
+        -50.0,
+        0.698
+      ],
+      [
+        50.0,
+        0.698
+      ],
+      [
+        -10.0,
+        0.698
+      ],
+      [
+        10.0,
+        0.698034
+      ]
+    ],
+    "respawns": [
+      [
+        7.10542736E-15,
+        63.0
+      ],
+      [
+        20.0,
+        63.0
+      ],
+      [
+        -20.0,
+        63.0
+      ],
+      [
+        40.0,
+        63.0
+      ],
+      [
+        -10.0,
+        80.08096
+      ],
+      [
+        10.0,
+        80.08096
+      ],
+      [
+        -30.0,
+        80.08096
+      ],
+      [
+        30.0,
+        80.08096
+      ]
+    ],
+    "items": []
+  },
+  {
+    "stage": "Garreg Mach Monastery (3)",
+    "name": "Garreg Mach Monastery",
+    "lvd": "garreg_03",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -430.0,
+            0.0
+          ],
+          [
+            330.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 760.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -430.0,
+            0.0
+          ],
+          [
+            330.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -200.0,
+      200.0,
+      185.0,
+      -155.0
+    ],
+    "camera": [
+      -140.0,
+      140.0,
+      120.0,
+      -15.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -45.0,
+        0.5
+      ],
+      [
+        45.0,
+        0.5
+      ],
+      [
+        -105.0,
+        0.5
+      ],
+      [
+        105.0,
+        0.5
+      ],
+      [
+        -75.0,
+        0.5
+      ],
+      [
+        75.0,
+        0.5
+      ],
+      [
+        -15.0,
+        0.5
+      ],
+      [
+        15.0,
+        0.5
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        72.0
+      ],
+      [
+        30.0,
+        72.0
+      ],
+      [
+        -30.0,
+        72.0
+      ],
+      [
+        60.0,
+        72.0
+      ],
+      [
+        -15.0,
+        87.0
+      ],
+      [
+        15.0,
+        87.0
+      ],
+      [
+        -45.0,
+        87.0
+      ],
+      [
+        45.0,
+        87.0
+      ]
+    ],
+    "items": []
+  },
+  {
+    "stage": "Garreg Mach Monastery (4)",
+    "name": "Garreg Mach Monastery",
+    "lvd": "garreg_04",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -350.0,
+            0.0
+          ],
+          [
+            -80.0,
+            0.0
+          ],
+          [
+            80.0,
+            0.0
+          ],
+          [
+            350.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 270.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 160.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 270.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -350.0,
+            0.0
+          ],
+          [
+            350.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_floatingfloor_L",
+        "vertex": [
+          [
+            -65.0,
+            90.0
+          ],
+          [
+            -30.0,
+            90.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            0.0
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      },
+      {
+        "name": "COL_floatingfloor_R",
+        "vertex": [
+          [
+            30.0,
+            90.0
+          ],
+          [
+            65.0,
+            90.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            0.0
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -170.0,
+      170.0,
+      170.0,
+      -170.0
+    ],
+    "camera": [
+      -95.0,
+      94.99999,
+      105.0,
+      -15.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -37.5,
+        0.0
+      ],
+      [
+        37.5,
+        0.0
+      ],
+      [
+        -62.5,
+        0.0
+      ],
+      [
+        62.5,
+        0.0
+      ],
+      [
+        -85.0,
+        0.0
+      ],
+      [
+        85.0,
+        0.0
+      ],
+      [
+        -12.5,
+        0.0
+      ],
+      [
+        12.5,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        65.0
+      ],
+      [
+        25.0,
+        65.0
+      ],
+      [
+        -25.0,
+        65.0
+      ],
+      [
+        50.0,
+        65.0
+      ],
+      [
+        -12.5,
+        92.5
+      ],
+      [
+        12.5,
+        92.5
+      ],
+      [
+        -37.5,
+        92.5
+      ],
+      [
+        37.5,
+        92.5
+      ]
+    ],
+    "items": []
+  }
+]

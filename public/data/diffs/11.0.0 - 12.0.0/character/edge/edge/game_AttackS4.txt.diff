@@ -1,0 +1,17 @@
+diff --git "a/.0.0/edge/game_AttackS4.txt" "b/.0.0/edge/game_AttackS4.txt"
+index 33c2f44..37ebdae 100644
+--- "a/.0.0/edge/game_AttackS4.txt"
++++ "b/.0.0/edge/game_AttackS4.txt"
+@@ -5,11 +5,11 @@ FT_MOTION_RATE(FSM=1)
+ frame(Frame=11)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_ATTACK_FLAG_START_SMASH_HOLD)
+ }
+ frame(Frame=12)
+-WorkModule::is_flag(56840)
++WorkModule::is_flag(57868)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	if(is_excute){
+ 		damage(MA_MSC_DAMAGE_DAMAGE_NO_REACTION, DAMAGE_NO_REACTION_MODE_DAMAGE_POWER, 20)
+ 	}
+ }

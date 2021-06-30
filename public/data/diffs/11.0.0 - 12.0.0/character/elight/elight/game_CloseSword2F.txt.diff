@@ -1,0 +1,23 @@
+diff --git "a/11.0.0/elight/game_CloseSword2F.txt" "b/12.0.0/elight/game_CloseSword2F.txt"
+index 6eb75cc..e60d932 100644
+--- "a/11.0.0/elight/game_CloseSword2F.txt"
++++ "b/12.0.0/elight/game_CloseSword2F.txt"
+@@ -1,13 +1,13 @@
+-IS_EXIST_ARTICLE(17456)
+-if(0x353770(false, true)){
++IS_EXIST_ARTICLE(17632)
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		methodlib::L2CValue::as_hash()const(17456, 60344, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
++		methodlib::L2CValue::as_hash()const(17632, 61372, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x353770(false, true)){
++if(0x354230(false, true)){
+ 	if(is_excute){
+-		WorkModule::on_flag(Flag=60348)
++		WorkModule::on_flag(Flag=61376)
+ 	}
+ }

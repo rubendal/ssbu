@@ -1,0 +1,12 @@
+diff --git "a/dsman_11.0.0/miiswordsman/game_SpecialAirLw1.txt" "b/dsman_12.0.0/miiswordsman/game_SpecialAirLw1.txt"
+index 7d0c923..c40242e 100644
+--- "a/dsman_11.0.0/miiswordsman/game_SpecialAirLw1.txt"
++++ "b/dsman_12.0.0/miiswordsman/game_SpecialAirLw1.txt"
+@@ -1,6 +1,6 @@
+-frame(Frame=6)
++frame(Frame=5)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_MIISWORDSMAN_STATUS_COUNTER_FLAG_SHIELD)
+ 	WorkModule::on_flag(Flag=FIGHTER_MIISWORDSMAN_STATUS_COUNTER_FLAG_APPLY_POWERUP_MOTION_RATE)
+ }
+ frame(Frame=26)
