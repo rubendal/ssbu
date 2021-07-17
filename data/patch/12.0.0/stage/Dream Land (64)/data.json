@@ -21,7 +21,7 @@
           ],
           [
             -77.26398,
-            0.008765623
+            0.0
           ],
           [
             0.0,
@@ -29,7 +29,7 @@
           ],
           [
             77.28342,
-            0.00876309
+            0.0
           ],
           [
             76.3409,
@@ -70,7 +70,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 185,
-            "length": 11.1043539,
+            "length": 11.0956182,
             "ceiling": false,
             "wall": true,
             "material": "Soil"
@@ -79,7 +79,7 @@
             "leftLedge": true,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 89,
+            "passthroughAngle": 90,
             "length": 77.26398,
             "ceiling": false,
             "wall": false,
@@ -100,7 +100,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 356,
-            "length": 11.1059837,
+            "length": 11.0972528,
             "ceiling": false,
             "wall": true,
             "material": "Soil"
@@ -133,7 +133,7 @@
           ],
           [
             77.28342,
-            0.008765623
+            0.0
           ]
         ]
       }
@@ -259,7 +259,7 @@
     ],
     "center": [
       0.0,
-      0.008765623
+      0.0
     ],
     "spawns": [
       [
