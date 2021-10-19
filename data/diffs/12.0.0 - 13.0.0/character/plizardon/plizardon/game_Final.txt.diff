@@ -1,0 +1,30 @@
+diff --git "a/on_12.0.0/plizardon/game_Final.txt" "b/on_13.0.0/plizardon/game_Final.txt"
+index 7aeaecd..780ae33 100644
+--- "a/on_12.0.0/plizardon/game_Final.txt"
++++ "b/on_13.0.0/plizardon/game_Final.txt"
+@@ -11,11 +11,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		FT_START_CUTIN_arg1(true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0xdf7a0(324585044, 2.1)
++			0xdf7f0(-875009044, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(true)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){
+@@ -31,11 +31,11 @@ frame(Frame=60)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ 	camera(MA_MSC_CMD_CAMERA_CAM_RESET)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0xdf7a0(448, 0)){
++if(0xdf7f0(448, 0)){
+ 	if(is_excute){
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -60, 0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_RECT, 60, -56, 18, -8)
+ 	}
+ 	else{

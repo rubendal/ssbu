@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_FinalAir2.txt" "b/0.0/ryu/game_FinalAir2.txt"
+index 242235b..dd7fc53 100644
+--- "a/0.0/ryu/game_FinalAir2.txt"
++++ "b/0.0/ryu/game_FinalAir2.txt"
+@@ -11,11 +11,11 @@ if(0x163770(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x163770(-2141032002, 1.8)
++			0x163770(-2016576794, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

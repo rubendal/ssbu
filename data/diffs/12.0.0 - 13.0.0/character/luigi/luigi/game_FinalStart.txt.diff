@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/luigi/game_FinalStart.txt" "b/3.0.0/luigi/game_FinalStart.txt"
+index 13fe20d..9029c03 100644
+--- "a/2.0.0/luigi/game_FinalStart.txt"
++++ "b/3.0.0/luigi/game_FinalStart.txt"
+@@ -15,11 +15,11 @@ if(methodlib::L2CValue::operator<(lib::L2CValueconst&)const(0, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0xe31b0(-600791842, 1.8)
++			0xe31b0(-1239280318, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

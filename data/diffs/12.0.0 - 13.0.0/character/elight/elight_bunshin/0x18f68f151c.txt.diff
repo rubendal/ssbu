@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/elight_bunshin/0x18f68f151c.txt" "b/13.0.0/elight_bunshin/0x18f68f151c.txt"
+index 4e7aa2d..08d5856 100644
+--- "a/12.0.0/elight_bunshin/0x18f68f151c.txt"
++++ "b/13.0.0/elight_bunshin/0x18f68f151c.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(WEAPON_ELIGHT_BUNSHIN_GENERATE_ARTICLE_ESWORD)
+-if(0x354230(false, true)){
++if(0x357740(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(WEAPON_ELIGHT_BUNSHIN_GENERATE_ARTICLE_ESWORD, WEAPON_ELIGHT_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x08183db0f4, 3.33, 3.33, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }

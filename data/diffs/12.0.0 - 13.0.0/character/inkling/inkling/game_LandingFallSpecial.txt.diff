@@ -1,0 +1,19 @@
+diff --git "a/_12.0.0/inkling/game_LandingFallSpecial.txt" "b/_13.0.0/inkling/game_LandingFallSpecial.txt"
+index 3e88420..91d9a0c 100644
+--- "a/_12.0.0/inkling/game_LandingFallSpecial.txt"
++++ "b/_13.0.0/inkling/game_LandingFallSpecial.txt"
+@@ -4,12 +4,12 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		ArticleModule::generate_article(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	}
+ }
+ MotionModule::motion_kind()
+ MotionModule::frame(0x00000002b0)
+-MotionModule::rate(-48226937)
+-methodlib::L2CValue::as_hash()const(-48226937, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
++MotionModule::rate(-718230741)
++methodlib::L2CValue::as_hash()const(-718230741, FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)
+ ArticleModule::change_motion()
+ if(is_excute){
+ 	ArticleModule::set_frame(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_rate(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID)
+ 	ArticleModule::set_visibility_whole(FIGHTER_INKLING_GENERATE_ARTICLE_SQUID, false)

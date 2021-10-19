@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/eflame/game_EntryL.txt" "b/13.0.0/eflame/game_EntryL.txt"
+index 8b4c6b1..f94348d 100644
+--- "a/12.0.0/eflame/game_EntryL.txt"
++++ "b/13.0.0/eflame/game_EntryL.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_ELEMENT_INSTANCE_WORK_ID_FLAG_ENABLE_CHANGE)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER)
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER, 0x09416511ad)
+ 		ArticleModule::change_motion()
+ 	}

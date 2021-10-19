@@ -1,0 +1,16 @@
+diff --git "a/12.0.0/tantan/game_SpecialAirHiEnd2.txt" "b/13.0.0/tantan/game_SpecialAirHiEnd2.txt"
+index 31d447a..c5662fd 100644
+--- "a/12.0.0/tantan/game_SpecialAirHiEnd2.txt"
++++ "b/13.0.0/tantan/game_SpecialAirHiEnd2.txt"
+@@ -8,10 +8,10 @@ if(is_excute){
+ 	HIT_NO(13, HIT_STATUS_NORMAL)
+ 	HIT_NO(19, HIT_STATUS_NORMAL)
+ }
+ frame(0, 3)
+ WorkModule::is_flag(FIGHTER_TANTAN_STATUS_SPECIAL_HI_FLAG_IS_BLOCKED)
+-if(0x39f3f0(false, true)){
++if(0x39fa00(false, true)){
+ 	if(is_excute){
+ 		AttackModule::clear_all()
+ 	}
+ }

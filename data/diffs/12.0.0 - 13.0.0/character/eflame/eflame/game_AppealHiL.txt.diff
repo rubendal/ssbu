@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/eflame/game_AppealHiL.txt" "b/13.0.0/eflame/game_AppealHiL.txt"
+index 86ab62a..f2bcf8e 100644
+--- "a/12.0.0/eflame/game_AppealHiL.txt"
++++ "b/13.0.0/eflame/game_AppealHiL.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_ELEMENT_INSTANCE_WORK_ID_FLAG_ENABLE_CHANGE)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER)
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER, 0x0dc831b4d7)
+ 		ArticleModule::change_motion()
+ 	}

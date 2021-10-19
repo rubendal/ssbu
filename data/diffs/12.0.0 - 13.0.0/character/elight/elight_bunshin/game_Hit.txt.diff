@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/elight_bunshin/game_Hit.txt" "b/13.0.0/elight_bunshin/game_Hit.txt"
+index 5d32e4c..f7e9579 100644
+--- "a/12.0.0/elight_bunshin/game_Hit.txt"
++++ "b/13.0.0/elight_bunshin/game_Hit.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(WEAPON_ELIGHT_BUNSHIN_INSTANCE_WORK_ID_FLAG_FINISH)
+-if(0x354230(false, true)){
++if(0x357740(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(0x14b87addf2, 0, false)
+ 		ControlModule::set_rumble()
+ 	}
+ 	else{

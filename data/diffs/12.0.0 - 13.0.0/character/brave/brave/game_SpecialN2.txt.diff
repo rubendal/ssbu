@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/brave/game_SpecialN2.txt" "b/3.0.0/brave/game_SpecialN2.txt"
+index 9b6817d..da7cbbd 100644
+--- "a/2.0.0/brave/game_SpecialN2.txt"
++++ "b/3.0.0/brave/game_SpecialN2.txt"
+@@ -1,11 +1,11 @@
+ if(is_excute){
+ 	FighterAreaModuleImpl::enable_fix_jostle_area(8, 6)
+ }
+ frame(Frame=11)
+ WorkModule::is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP)
+-if(0x239f10(false, true)){
++if(0x23a020(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_BRAVE_GENERATE_ARTICLE_FIREBALL)
+ 	}
+ }
+ frame(Frame=26)

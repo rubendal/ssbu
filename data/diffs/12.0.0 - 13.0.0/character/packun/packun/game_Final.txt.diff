@@ -1,0 +1,17 @@
+diff --git "a/12.0.0/packun/game_Final.txt" "b/13.0.0/packun/game_Final.txt"
+index 90a3045..78ca32c 100644
+--- "a/12.0.0/packun/game_Final.txt"
++++ "b/13.0.0/packun/game_Final.txt"
+@@ -11,11 +11,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x157dc0(-1359049988, 2.05)
++			0x157dc0(896954871, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0x157dc0(0, 0)){

@@ -1,0 +1,25 @@
+diff --git "a/12.0.0/elight/game_VisualScene01.txt" "b/13.0.0/elight/game_VisualScene01.txt"
+index 1111963..f6d9037 100644
+--- "a/12.0.0/elight/game_VisualScene01.txt"
++++ "b/13.0.0/elight/game_VisualScene01.txt"
+@@ -2,18 +2,18 @@ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(0x104dd4f4e5, 0, false)
+ 	ControlModule::set_rumble()
+ 	RUMBLE_FINAL_TARGET(0x104dd4f4e5, 0)
+ }
+ IS_EXIST_ARTICLE(FIGHTER_ELIGHT_GENERATE_ARTICLE_ESWORD)
+-if(0x354230(false, true)){
++if(0x357740(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_ELIGHT_GENERATE_ARTICLE_ESWORD, WEAPON_ELIGHT_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x354230(false, true)){
++if(0x357740(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_ELIGHT_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }
+ if(is_excute){

@@ -1,0 +1,25 @@
+diff --git "a/12.0.0/donkey/game_FinalHit.txt" "b/13.0.0/donkey/game_FinalHit.txt"
+index 25efd71..5e68305 100644
+--- "a/12.0.0/donkey/game_FinalHit.txt"
++++ "b/13.0.0/donkey/game_FinalHit.txt"
+@@ -7,18 +7,18 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0x11e080(0, 0)){
+ 			if(is_excute){
+ 				PostureModule::scale(1, 0)
+-				0x11e080(890678582, 1.5)
++				0x11e080(1551145388, 1.5)
+ 				CAM_ZOOM_IN_arg5(-0.1, -0.3)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -20, 3)
+ 			}
+ 			else{
+ 				if(is_excute){
+ 					PostureModule::scale(1, 0)
+-					0x11e080(890678582, 1.5)
++					0x11e080(1551145388, 1.5)
+ 					CAM_ZOOM_IN_arg5(-0.1, 0.3)
+ 					camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 20, 3)
+ 				}
+ 			}
+ 		}

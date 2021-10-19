@@ -1,0 +1,29 @@
+diff --git "a/12.0.0/eflame/game_FinalAirAttack.txt" "b/13.0.0/eflame/game_FinalAirAttack.txt"
+index c048c65..276a603 100644
+--- "a/12.0.0/eflame/game_FinalAirAttack.txt"
++++ "b/13.0.0/eflame/game_FinalAirAttack.txt"
+@@ -1,21 +1,21 @@
+ if(is_excute){
+ 	WorkModule::set_int64(0x10e315f739, FIGHTER_ELIGHT_INSTANCE_WORK_ID_INT_ESWORD_INHERIT_OPEN_MOTION_KIND)
+ }
+ frame(Frame=1)
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x3cc3a0(0, 0)){
++if(0x3cc0b0(0, 0)){
+ 	if(is_excute){
+ 		PostureModule::scale(1, 0)
+-		0x3cc3a0(-1956952259, 2.9)
++		0x3cc0b0(1092406576, 2.9)
+ 		CAM_ZOOM_IN_arg5(0, -0.3)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -5, 5)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(1, 0)
+-			0x3cc3a0(-1956952259, 2.9)
++			0x3cc0b0(1092406576, 2.9)
+ 			CAM_ZOOM_IN_arg5(0, 0.3)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 5, 5)
+ 		}
+ 	}
+ }

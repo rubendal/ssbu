@@ -1,0 +1,15 @@
+diff --git "a/2.0.0/brave/game_FinalAirEnd.txt" "b/3.0.0/brave/game_FinalAirEnd.txt"
+index ef1e81d..3e540de 100644
+--- "a/2.0.0/brave/game_FinalAirEnd.txt"
++++ "b/3.0.0/brave/game_FinalAirEnd.txt"
+@@ -5,9 +5,9 @@ if(is_excute){
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_BRAVE_STATUS_FINAL_FLAG_END_FINAL)
+ }
+-frame(Frame=30)
++frame(Frame=15)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_VISUAL_SCENE_FLAG_END_EXIT)
+ }

@@ -1,0 +1,33 @@
+diff --git "a/nk_12.0.0/younglink/game_FinalStart_Com.txt" "b/nk_13.0.0/younglink/game_FinalStart_Com.txt"
+index 357ba87..566a623 100644
+--- "a/nk_12.0.0/younglink/game_FinalStart_Com.txt"
++++ "b/nk_13.0.0/younglink/game_FinalStart_Com.txt"
+@@ -3,25 +3,25 @@ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ 	SLOW_OPPONENT(8, 34)
+ }
+ frame(Frame=1)
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x117510(false, false)){
++if(0x117560(false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x117510(1507600, 0)){
++if(0x117560(1511704, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x117510(-1321646935, 2.05)
++			0x117560(-300739577, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

@@ -1,0 +1,17 @@
+diff --git "a/_12.0.0/richter/game_FinalStart_Com.txt" "b/_13.0.0/richter/game_FinalStart_Com.txt"
+index c0e5598..95c5058 100644
+--- "a/_12.0.0/richter/game_FinalStart_Com.txt"
++++ "b/_13.0.0/richter/game_FinalStart_Com.txt"
+@@ -16,11 +16,11 @@ if(0x115660(32, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x115660(-488527171, 2.1)
++			0x115660(1209075446, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)

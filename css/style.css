@@ -299,6 +299,16 @@ td{
     font-weight: 800;
 }
 
+.version-label-diff{
+    position:absolute;
+    right:35px;
+    bottom:40px;
+    color: #ffffff;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px #000000;
+    font-weight: 800;
+}
+
 .version-1_1_1{
     position: absolute;
     right: unset;

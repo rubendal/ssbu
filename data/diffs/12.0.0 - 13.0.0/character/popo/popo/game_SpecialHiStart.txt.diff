@@ -1,0 +1,17 @@
+diff --git "a/.0.0/popo/game_SpecialHiStart.txt" "b/.0.0/popo/game_SpecialHiStart.txt"
+index f85bc4c..96da4c7 100644
+--- "a/.0.0/popo/game_SpecialHiStart.txt"
++++ "b/.0.0/popo/game_SpecialHiStart.txt"
+@@ -6,11 +6,11 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_POPO_STATUS_SPECIAL_HI_FLAG_CHECK_COUPLE)
+ }
+ frame(Frame=15)
+ get_value_float(FT_VAR_FLOAT_STICK_X_BACK)
+ WorkModule::get_param_float(0, hash40("param_special_hi"), hash40("start_turn_cont_x"))
+-if(0x161680(32)){
++if(0x161860(32)){
+ 	if(is_excute){
+ 		STICK_LR()
+ 		UPDATE_ROT()
+ 	}
+ }

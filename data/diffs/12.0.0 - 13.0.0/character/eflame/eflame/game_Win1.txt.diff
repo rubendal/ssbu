@@ -1,0 +1,45 @@
+diff --git "a/12.0.0/eflame/game_Win1.txt" "b/13.0.0/eflame/game_Win1.txt"
+index ecfd25a..8d2581a 100644
+--- "a/12.0.0/eflame/game_Win1.txt"
++++ "b/13.0.0/eflame/game_Win1.txt"
+@@ -1,35 +1,35 @@
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE)
+-if(0x3cc3a0(false, false)){
++if(0x3cc0b0(false, false)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER)
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER, 0x07abba3f5e)
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }
+ frame(0, 54)
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x08183db0f4, 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }

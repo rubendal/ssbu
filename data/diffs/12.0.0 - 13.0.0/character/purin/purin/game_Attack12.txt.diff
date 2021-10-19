@@ -1,0 +1,14 @@
+diff --git "a/2.0.0/purin/game_Attack12.txt" "b/3.0.0/purin/game_Attack12.txt"
+index 1c01f7a..ec6edc3 100644
+--- "a/2.0.0/purin/game_Attack12.txt"
++++ "b/3.0.0/purin/game_Attack12.txt"
+@@ -5,5 +5,9 @@ if(is_excute){
+ }
+ wait(Frames=2)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
++frame(Frame=11)
++FT_MOTION_RATE(FSM=0.66)
++frame(Frame=19)
++FT_MOTION_RATE(FSM=1)

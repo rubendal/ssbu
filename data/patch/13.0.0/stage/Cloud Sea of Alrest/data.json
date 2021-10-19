@@ -1,0 +1,950 @@
+[
+  {
+    "stage": "Cloud Sea of Alrest",
+    "name": "Cloud Sea of Alrest",
+    "lvd": "alrest",
+    "collisions": [
+      {
+        "name": "COL_curve6",
+        "vertex": [
+          [
+            -95.0,
+            -135.0
+          ],
+          [
+            -95.0,
+            -5.0
+          ],
+          [
+            -65.0,
+            -5.0
+          ],
+          [
+            -42.29477,
+            -2.41624284
+          ],
+          [
+            -10.859746,
+            -3.98732424
+          ],
+          [
+            -5.631494,
+            -3.25806975
+          ],
+          [
+            0.904536843,
+            -1.38768673
+          ],
+          [
+            15.6547613,
+            2.91910362
+          ],
+          [
+            34.2504425,
+            9.147641
+          ],
+          [
+            43.57464,
+            10.8561277
+          ],
+          [
+            46.4189339,
+            11.5190706
+          ],
+          [
+            60.84361,
+            12.0802517
+          ],
+          [
+            64.7731,
+            10.9534206
+          ],
+          [
+            66.27942,
+            9.278584
+          ],
+          [
+            73.544075,
+            8.45723152
+          ],
+          [
+            89.51535,
+            8.144105
+          ],
+          [
+            89.51535,
+            5.977061
+          ],
+          [
+            67.3100357,
+            -4.95207644
+          ],
+          [
+            56.0164642,
+            -18.55031
+          ],
+          [
+            32.18818,
+            -21.8469315
+          ],
+          [
+            13.2207956,
+            -34.389595
+          ],
+          [
+            13.6499224,
+            -135.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 130.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 30.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 96,
+            "length": 22.8517685,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 87,
+            "length": 31.4742584,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 97,
+            "length": 5.27886629,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 105,
+            "length": 6.79838467,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 106,
+            "length": 15.3661175,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 108,
+            "length": 19.6110687,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 100,
+            "length": 9.479428,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 103,
+            "length": 2.92053246,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 14.4355869,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 73,
+            "length": 4.08786774,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 41,
+            "length": 2.25256968,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 7.31094027,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 15.9743443,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 2.16704416,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 297,
+            "length": 24.7491817,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 321,
+            "length": 17.676445,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 278,
+            "length": 24.0552464,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 304,
+            "length": 22.7393932,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 100.61132,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            -95.0,
+            -135.0
+          ],
+          [
+            89.51535,
+            12.0802517
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve11",
+        "vertex": [
+          [
+            49.54495,
+            11.5269384
+          ],
+          [
+            56.0164642,
+            11.9279385
+          ],
+          [
+            56.0164642,
+            -18.55031
+          ],
+          [
+            49.54495,
+            -19.26034
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 93,
+            "length": 6.48392773,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 30.4782486,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 277,
+            "length": 6.51034975,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            49.54495,
+            -19.26034
+          ],
+          [
+            56.0164642,
+            11.9279385
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            56.0164642,
+            11.9279385
+          ],
+          [
+            60.84361,
+            12.1190186
+          ],
+          [
+            60.84361,
+            -12.7493773
+          ],
+          [
+            56.0164642,
+            -18.55031
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 92,
+            "length": 4.830925,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 24.8683968,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 321,
+            "length": 7.54666471,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            56.0164642,
+            -18.55031
+          ],
+          [
+            60.84361,
+            12.1190186
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve12",
+        "vertex": [
+          [
+            60.84361,
+            12.1190186
+          ],
+          [
+            64.7731,
+            11.04672
+          ],
+          [
+            64.4612961,
+            -8.367329
+          ],
+          [
+            60.84361,
+            -12.7493773
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 74,
+            "length": 4.073173,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 19.4165516,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 321,
+            "length": 5.68243,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            60.84361,
+            -12.7493773
+          ],
+          [
+            64.7731,
+            12.1190186
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve13",
+        "vertex": [
+          [
+            64.7731,
+            11.04672
+          ],
+          [
+            66.27942,
+            9.320049
+          ],
+          [
+            70.00681,
+            8.898063
+          ],
+          [
+            70.00681,
+            -3.56851625
+          ],
+          [
+            67.3100357,
+            -4.95207644
+          ],
+          [
+            64.4612961,
+            -8.367329
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 41,
+            "length": 2.291371,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 3.751205,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 12.4665794,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 298,
+            "length": 3.030981,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 321,
+            "length": 4.44738865,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            64.4612961,
+            -8.367329
+          ],
+          [
+            70.00681,
+            11.04672
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            70.00681,
+            8.898063
+          ],
+          [
+            73.544075,
+            8.491594
+          ],
+          [
+            74.0748444,
+            -1.62235868
+          ],
+          [
+            70.00681,
+            -3.56851625
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 83,
+            "length": 3.560539,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 3,
+            "length": 10.1278706,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 296,
+            "length": 4.50959063,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            70.00681,
+            -3.56851625
+          ],
+          [
+            74.0748444,
+            8.898063
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            73.544075,
+            8.491594
+          ],
+          [
+            81.52954,
+            8.397112
+          ],
+          [
+            81.52954,
+            2.043081
+          ],
+          [
+            74.0748444,
+            -1.62235868
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 89,
+            "length": 7.986025,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 6.35403061,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 297,
+            "length": 8.307102,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            73.544075,
+            -1.62235868
+          ],
+          [
+            81.52954,
+            8.491594
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve14",
+        "vertex": [
+          [
+            81.52954,
+            8.397112
+          ],
+          [
+            89.51535,
+            8.227849
+          ],
+          [
+            89.51535,
+            5.977061
+          ],
+          [
+            81.52954,
+            2.043081
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 88,
+            "length": 7.98760271,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 2.25078821,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 297,
+            "length": 8.90221,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            81.52954,
+            2.043081
+          ],
+          [
+            89.51535,
+            8.397112
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            13.6499224,
+            -135.0
+          ],
+          [
+            -95.0,
+            -135.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 108.649925,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic"
+          }
+        ],
+        "boundingBox": [
+          [
+            -95.0,
+            -135.0
+          ],
+          [
+            13.6499224,
+            -135.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_Platform03_through1",
+        "vertex": [
+          [
+            -65.0,
+            20.0
+          ],
+          [
+            -35.0,
+            20.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          }
+        ],
+        "boundingBox": [
+          [
+            -65.0,
+            20.0
+          ],
+          [
+            -35.0,
+            20.0
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -255.000031,
+      250.000015,
+      180.000092,
+      -130.000046
+    ],
+    "camera": [
+      -170.0,
+      165.000046,
+      105.000008,
+      -50.0000267
+    ],
+    "center": [
+      0.0,
+      12.0802517
+    ],
+    "spawns": [
+      [
+        75.67845,
+        10.6633167
+      ],
+      [
+        -80.73541,
+        -5.0
+      ],
+      [
+        -25.41741,
+        -2.11913562
+      ],
+      [
+        26.2011852,
+        6.64753151
+      ],
+      [
+        -50.0,
+        20.0
+      ],
+      [
+        -0.6461136,
+        -1.09277868
+      ],
+      [
+        50.09457,
+        13.9671707
+      ],
+      [
+        -52.7393036,
+        -3.313804
+      ]
+    ],
+    "respawns": [
+      [
+        -35.0,
+        45.0
+      ],
+      [
+        -5.0,
+        45.0
+      ],
+      [
+        -65.0,
+        45.0
+      ],
+      [
+        25.0,
+        45.0
+      ],
+      [
+        -50.0,
+        75.0
+      ],
+      [
+        -20.0,
+        75.0
+      ],
+      [
+        -80.0,
+        75.0
+      ],
+      [
+        10.0,
+        75.0
+      ]
+    ],
+    "items": []
+  }
+]

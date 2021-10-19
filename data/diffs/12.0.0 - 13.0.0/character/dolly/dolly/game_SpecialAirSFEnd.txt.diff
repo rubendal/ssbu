@@ -1,0 +1,13 @@
+diff --git "a/2.0.0/dolly/game_SpecialAirSFEnd.txt" "b/3.0.0/dolly/game_SpecialAirSFEnd.txt"
+index 86d25fc..c963c57 100644
+--- "a/2.0.0/dolly/game_SpecialAirSFEnd.txt"
++++ "b/3.0.0/dolly/game_SpecialAirSFEnd.txt"
+@@ -1,7 +1,7 @@
+ frame(Frame=0)
+-if(0x2508c0(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_INT_STRENGTH, FIGHTER_DOLLY_STRENGTH_W)){
++if(0x2508e0(FIGHTER_DOLLY_STATUS_SPECIAL_COMMON_WORK_INT_STRENGTH, FIGHTER_DOLLY_STRENGTH_W)){
+ 	if(is_excute){
+ 		MotionModule::set_rate(1)
+ 	}
+ 	else{
+ 		if(is_excute){
