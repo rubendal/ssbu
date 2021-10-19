@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/pichu/game_Final.txt" "b/3.0.0/pichu/game_Final.txt"
+index 92793c0..a59f444 100644
+--- "a/2.0.0/pichu/game_Final.txt"
++++ "b/3.0.0/pichu/game_Final.txt"
+@@ -16,11 +16,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		AttackModule::set_final_finish_cut_in(1, true, false, -1, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x103360(-431788444, 2.2)
++			0x103370(355303897, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=0.3, Angle=70, KBG=70, FKB=30, BKB=0, Size=5.5, X=0.0, Y=0.0, Z=5.0, X2=0.0, Y2=10.0, Z2=-5.0, Hitlag=0.2, SDI=0.5, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=6, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_elec"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 			ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=0.3, Angle=40, KBG=70, FKB=30, BKB=0, Size=5.5, X=0.0, Y=10.0, Z=5.0, X2=0.0, Y2=10.0, Z2=-5.0, Hitlag=0.2, SDI=0.5, Clang_Rebound=ATTACK_SETOFF_KIND_OFF, FacingRestrict=ATTACK_LR_CHECK_F, SetWeight=false, ShieldDamage=hash40("no"), Trip=0.0, Rehit=6, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_GA, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_elec"), SFXLevel=ATTACK_SOUND_LEVEL_M, SFXType=COLLISION_SOUND_ATTR_ELEC, Type=ATTACK_REGION_NONE)
+ 			AttackModule::set_final_finish_cut_in(0, true, false, -1, false)

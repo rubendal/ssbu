@@ -1,0 +1,17 @@
+diff --git "a/12.0.0/samusd/game_FinalAirStart.txt" "b/13.0.0/samusd/game_FinalAirStart.txt"
+index 116a565..9cf7e32 100644
+--- "a/12.0.0/samusd/game_FinalAirStart.txt"
++++ "b/13.0.0/samusd/game_FinalAirStart.txt"
+@@ -11,11 +11,11 @@ if(0x1123f0(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x1123f0(866241773, 1.7)
++			0x1123f0(400379745, 1.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

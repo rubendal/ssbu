@@ -1,0 +1,17 @@
+diff --git "a/12.0.0/dedede/game_FinalAirStart.txt" "b/13.0.0/dedede/game_FinalAirStart.txt"
+index 016cc55..6054f82 100644
+--- "a/12.0.0/dedede/game_FinalAirStart.txt"
++++ "b/13.0.0/dedede/game_FinalAirStart.txt"
+@@ -11,11 +11,11 @@ if(0x157710(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x157710(2031753786, 2.1)
++			0x157710(932638258, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=35)
+ 		if(is_excute){

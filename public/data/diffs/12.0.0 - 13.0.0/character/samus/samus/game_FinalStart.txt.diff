@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/samus/game_FinalStart.txt" "b/3.0.0/samus/game_FinalStart.txt"
+index b29b177..1233269 100644
+--- "a/2.0.0/samus/game_FinalStart.txt"
++++ "b/3.0.0/samus/game_FinalStart.txt"
+@@ -11,11 +11,11 @@ if(0x112510(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x112510(-1600797520, 1.7)
++			0x112510(1199268099, 1.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

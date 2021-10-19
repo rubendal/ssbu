@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/kamui/game_Final.txt" "b/3.0.0/kamui/game_Final.txt"
+index 64d6776..a94e154 100644
+--- "a/2.0.0/kamui/game_Final.txt"
++++ "b/3.0.0/kamui/game_Final.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ 	SlowModule::clear_whole()
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(4, 0)
+-		0x14e0b0(290888997, 2.5)
++		0x14e230(1304621801, 2.5)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }

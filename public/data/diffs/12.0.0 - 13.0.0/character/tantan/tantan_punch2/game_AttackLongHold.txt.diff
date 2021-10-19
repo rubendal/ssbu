@@ -1,0 +1,30 @@
+diff --git "a/12.0.0/tantan_punch2/game_AttackLongHold.txt" "b/13.0.0/tantan_punch2/game_AttackLongHold.txt"
+index c8bf4a8..d07d336 100644
+--- "a/12.0.0/tantan_punch2/game_AttackLongHold.txt"
++++ "b/13.0.0/tantan_punch2/game_AttackLongHold.txt"
+@@ -10,11 +10,11 @@ if(is_excute){
+ 	methodlib::L2CValue::as_hash()const(0x123a5b1b8e, 24, false)
+ 	ControlModule::set_rumble()
+ }
+ frame(Frame=4)
+ WorkModule::is_flag(WEAPON_TANTAN_PUNCH1_INSTANCE_WORK_ID_FLAG_BOUND)
+-if(0x39f3f0(false, true)){
++if(0x39fa00(false, true)){
+ 	if(is_excute){
+ 		AttackModule::clear_all()
+ 	}
+ 	else{
+ 		if(is_excute){
+@@ -22,11 +22,11 @@ if(0x39f3f0(false, true)){
+ 		}
+ 	}
+ }
+ frame(Frame=16)
+ WorkModule::is_flag(WEAPON_TANTAN_PUNCH1_INSTANCE_WORK_ID_FLAG_BOUND)
+-if(0x39f3f0(false, true)){
++if(0x39fa00(false, true)){
+ 	if(is_excute){
+ 		AttackModule::clear_all()
+ 	}
+ 	else{
+ 		if(is_excute){

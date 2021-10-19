@@ -1,0 +1,54 @@
+diff --git "a/2.0.0/sheik/game_FinalFinish.txt" "b/3.0.0/sheik/game_FinalFinish.txt"
+index 10db09b..b2ccfa2 100644
+--- "a/2.0.0/sheik/game_FinalFinish.txt"
++++ "b/3.0.0/sheik/game_FinalFinish.txt"
+@@ -1,20 +1,20 @@
+ WorkModule::is_flag(FIGHTER_SHEIK_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT)
+-if(0x154da0(false, true)){
++if(0x154f30(false, true)){
+ 	frame(Frame=1)
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x154da0(0, 0)){
++	if(0x154f30(0, 0)){
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x154da0(-1001027172, 1.5)
++			0x154f30(-705855966, 1.5)
+ 			CAM_ZOOM_IN_arg5(-2.8, 2.5)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, -10, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				PostureModule::scale(5, 0)
+-				0x154da0(-1001027172, 1.5)
++				0x154f30(-705855966, 1.5)
+ 				CAM_ZOOM_IN_arg5(-2.8, -2.5)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 10, 0)
+ 			}
+ 		}
+ 	}
+@@ -26,21 +26,21 @@ if(is_excute){
+ frame(Frame=35)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x154da0(0, 0)){
++if(0x154f30(0, 0)){
+ 	if(is_excute){
+ 		PostureModule::scale(5, 0)
+-		0x154da0(-1001027172, 2)
++		0x154f30(-705855966, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0.8)
+ 		camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x154da0(-1001027172, 2)
++			0x154f30(-705855966, 2)
+ 			CAM_ZOOM_IN_arg5(0, -0.8)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 		}
+ 	}
+ }

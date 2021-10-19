@@ -1,0 +1,1117 @@
+[
+  {
+    "stage": "Mishima Dojo",
+    "name": "Mishima Dojo",
+    "lvd": "demon_dojo",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -110.0,
+            -155.0
+          ],
+          [
+            -110.0,
+            -15.0
+          ],
+          [
+            -100.0,
+            0.0
+          ],
+          [
+            -55.0,
+            0.0
+          ],
+          [
+            -45.0,
+            0.0
+          ],
+          [
+            -26.3050327,
+            0.0
+          ],
+          [
+            -18.2970924,
+            0.0
+          ],
+          [
+            -6.42223024,
+            0.0
+          ],
+          [
+            6.438629,
+            0.0
+          ],
+          [
+            17.7458878,
+            0.0
+          ],
+          [
+            26.75279,
+            0.0
+          ],
+          [
+            45.0,
+            0.0
+          ],
+          [
+            55.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0
+          ],
+          [
+            110.0,
+            -15.0
+          ],
+          [
+            110.0,
+            -155.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 140.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 146,
+            "length": 18.0277557,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 45.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 10.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 18.6949673,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 8.00794,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.8748627,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 12.8608589,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 11.3072586,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 9.006903,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 18.24721,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 10.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 45.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 33,
+            "length": 18.0277557,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 140.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -110.0,
+            -155.0
+          ],
+          [
+            110.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve7",
+        "vertex": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            106.074776,
+            0.0
+          ],
+          [
+            110.0,
+            0.0
+          ],
+          [
+            110.0,
+            -15.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.0747757,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 3.9252243,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 15.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            -15.0
+          ],
+          [
+            110.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve6",
+        "vertex": [
+          [
+            -110.0,
+            -15.0
+          ],
+          [
+            -110.0,
+            0.0
+          ],
+          [
+            -106.19957,
+            0.0
+          ],
+          [
+            -100.0,
+            0.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 15.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 3.8004303,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 6.1995697,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -110.0,
+            -15.0
+          ],
+          [
+            -100.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_ceilC",
+        "vertex": [
+          [
+            -40.0,
+            715.0
+          ],
+          [
+            -40.0,
+            90.0
+          ],
+          [
+            40.0,
+            90.0
+          ],
+          [
+            40.0,
+            715.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 625.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 270,
+            "length": 80.0,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 625.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -40.0,
+            90.0
+          ],
+          [
+            40.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_ceilR",
+        "vertex": [
+          [
+            40.0,
+            715.0
+          ],
+          [
+            40.0,
+            90.0
+          ],
+          [
+            60.0,
+            90.0
+          ],
+          [
+            100.0,
+            80.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 625.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 270,
+            "length": 20.0,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 256,
+            "length": 41.2310562,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            40.0,
+            80.0
+          ],
+          [
+            100.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve9",
+        "vertex": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            100.0,
+            715.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 635.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            100.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_ceilR_funnel",
+        "vertex": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            100.0,
+            715.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 635.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            100.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallR1",
+        "vertex": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            100.0,
+            27.1459618
+          ],
+          [
+            100.0,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 27.1459618,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 2.85403824,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            100.0,
+            30.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallR1_2",
+        "vertex": [
+          [
+            100.0,
+            25.0
+          ],
+          [
+            154.975,
+            37.1247673
+          ],
+          [
+            225.0,
+            42.1247673
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 102,
+            "length": 56.2961922,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 94,
+            "length": 70.20328,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            25.0
+          ],
+          [
+            225.0,
+            42.1247673
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallR2",
+        "vertex": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            100.0,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 50.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            30.0
+          ],
+          [
+            100.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallR2_funnel",
+        "vertex": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            225.0,
+            170.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 125,
+            "length": 154.029221,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            100.0,
+            80.0
+          ],
+          [
+            225.0,
+            170.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_ceilL",
+        "vertex": [
+          [
+            -40.0,
+            715.0
+          ],
+          [
+            -40.0,
+            90.0
+          ],
+          [
+            -60.0,
+            90.0
+          ],
+          [
+            -100.0,
+            80.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 625.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 270,
+            "length": 20.0,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 285,
+            "length": 41.2310562,
+            "ceiling": true,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -40.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_curve8",
+        "vertex": [
+          [
+            -100.0,
+            715.0
+          ],
+          [
+            -100.0,
+            80.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 635.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -100.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_ceilL_funnel",
+        "vertex": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -100.0,
+            715.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 180,
+            "length": 635.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -100.0,
+            715.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallL1",
+        "vertex": [
+          [
+            -100.0,
+            0.0
+          ],
+          [
+            -100.0,
+            22.4870911
+          ],
+          [
+            -100.0,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 22.4870911,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 7.512909,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            0.0
+          ],
+          [
+            -100.0,
+            30.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallL1_2",
+        "vertex": [
+          [
+            -225.0,
+            42.1247673
+          ],
+          [
+            -154.975357,
+            37.1247673
+          ],
+          [
+            -100.0,
+            25.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 85,
+            "length": 70.20293,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 77,
+            "length": 56.2965355,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -225.0,
+            25.0
+          ],
+          [
+            -100.0,
+            42.1247673
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallL2",
+        "vertex": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -100.0,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 0,
+            "length": 50.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -100.0,
+            30.0
+          ],
+          [
+            -100.0,
+            80.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_wallL2_funnel",
+        "vertex": [
+          [
+            -100.0,
+            80.0
+          ],
+          [
+            -225.0,
+            170.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": true,
+            "passthroughAngle": 54,
+            "length": 154.029221,
+            "ceiling": false,
+            "wall": false,
+            "material": "Wood"
+          }
+        ],
+        "boundingBox": [
+          [
+            -225.0,
+            80.0
+          ],
+          [
+            -100.0,
+            170.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -210.0,
+      210.0,
+      160.000061,
+      -110.000023
+    ],
+    "camera": [
+      -135.0,
+      135.000015,
+      95.00001,
+      -35.0000038
+    ],
+    "center": [
+      0.0,
+      715.0
+    ],
+    "spawns": [
+      [
+        -20.0,
+        0.0
+      ],
+      [
+        20.0,
+        0.0
+      ],
+      [
+        -70.0,
+        0.0
+      ],
+      [
+        70.0,
+        0.0
+      ],
+      [
+        -45.0,
+        0.0
+      ],
+      [
+        45.0,
+        0.0
+      ],
+      [
+        -90.0,
+        0.0
+      ],
+      [
+        90.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        62.0
+      ],
+      [
+        30.0,
+        62.0
+      ],
+      [
+        -30.0,
+        62.0
+      ],
+      [
+        60.0,
+        62.0
+      ],
+      [
+        -15.0,
+        72.0
+      ],
+      [
+        15.0,
+        72.0
+      ],
+      [
+        -45.0,
+        72.0
+      ],
+      [
+        45.0,
+        72.0
+      ]
+    ],
+    "items": []
+  }
+]

@@ -1,0 +1,25 @@
+diff --git "a/12.0.0/master/game_FinalAir.txt" "b/13.0.0/master/game_FinalAir.txt"
+index 830034d..7ac20c0 100644
+--- "a/12.0.0/master/game_FinalAir.txt"
++++ "b/13.0.0/master/game_FinalAir.txt"
+@@ -9,18 +9,18 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(50)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x333020(0, 0)){
++if(0x333080(0, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x333020(-1979100278, 2.1)
++			0x333080(-1054376492, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

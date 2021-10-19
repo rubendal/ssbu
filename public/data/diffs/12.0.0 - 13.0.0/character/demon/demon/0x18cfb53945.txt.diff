@@ -1,0 +1,13 @@
+diff --git "a/2.0.0/demon/0x18cfb53945.txt" "b/3.0.0/demon/0x18cfb53945.txt"
+index 56f464b..97416dc 100644
+--- "a/2.0.0/demon/0x18cfb53945.txt"
++++ "b/3.0.0/demon/0x18cfb53945.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_DEMON_INSTANCE_WORK_ID_FLAG_ATTACK_RAGE_CAPTURE)
+-if(0x3cfb50(false, false)){
++if(0x3cfb70(false, false)){
+ 	battle_object_module_accessor()
+ 	methodlib::L2CValue::L2CValue(void*)()
+ 	methodlib::L2CValue::L2CValue(lib::L2CValueconst&)()
+ 	methodlib::L2CValue::as_pointer()const(true, 3)
+ 	set_devil()

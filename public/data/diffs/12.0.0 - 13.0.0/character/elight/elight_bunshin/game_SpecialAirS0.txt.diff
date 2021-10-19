@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/elight_bunshin/game_SpecialAirS0.txt" "b/13.0.0/elight_bunshin/game_SpecialAirS0.txt"
+index 3c8404e..53b1c2a 100644
+--- "a/12.0.0/elight_bunshin/game_SpecialAirS0.txt"
++++ "b/13.0.0/elight_bunshin/game_SpecialAirS0.txt"
+@@ -1,7 +1,7 @@
+ IS_EXIST_ARTICLE(WEAPON_ELIGHT_BUNSHIN_GENERATE_ARTICLE_ESWORD)
+-if(0x354230(false, true)){
++if(0x357740(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(WEAPON_ELIGHT_BUNSHIN_GENERATE_ARTICLE_ESWORD, WEAPON_ELIGHT_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x07439e926b, 10, 10, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }

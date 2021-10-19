@@ -1,0 +1,17 @@
+diff --git "a/_12.0.0/rockman/game_FinalAir.txt" "b/_13.0.0/rockman/game_FinalAir.txt"
+index 363406b..76b3eae 100644
+--- "a/_12.0.0/rockman/game_FinalAir.txt"
++++ "b/_13.0.0/rockman/game_FinalAir.txt"
+@@ -11,11 +11,11 @@ if(0xf4b00(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xf4b00(-459059109, 2.1)
++			0xf4b00(-1590708821, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

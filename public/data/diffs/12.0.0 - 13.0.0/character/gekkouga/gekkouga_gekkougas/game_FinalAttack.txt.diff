@@ -1,0 +1,32 @@
+diff --git "a/a_12.0.0/gekkouga_gekkougas/game_FinalAttack.txt" "b/a_13.0.0/gekkouga_gekkougas/game_FinalAttack.txt"
+index b63269a..7e68158 100644
+--- "a/a_12.0.0/gekkouga_gekkougas/game_FinalAttack.txt"
++++ "b/a_13.0.0/gekkouga_gekkougas/game_FinalAttack.txt"
+@@ -1,23 +1,23 @@
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ frame(Frame=2)
+ get_fov()
+-if(0x1412f0(1, 25.0)){
++if(0x141380(1, 25.0)){
+ 	if(is_excute){
+ 		get_fov(5, 0)
+-		0x1412f0(0, 60)
++		0x141380(0, 60)
+ 		CAM_ZOOM_IN_arg5(0.1, 0)
+ 	}
+ }
+ frame(Frame=3)
+ get_fov()
+-if(0x1412f0(1, 5.0)){
++if(0x141380(1, 5.0)){
+ 	if(is_excute){
+ 		get_fov(5, 0)
+-		0x1412f0(0, 90)
++		0x141380(0, 90)
+ 		CAM_ZOOM_IN_arg5(0.1, 0)
+ 	}
+ }
+ frame(Frame=4)
+ get_fov()

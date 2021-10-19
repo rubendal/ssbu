@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/elight/game_Win2.txt" "b/13.0.0/elight/game_Win2.txt"
+index 2788a50..48029d6 100644
+--- "a/12.0.0/elight/game_Win2.txt"
++++ "b/13.0.0/elight/game_Win2.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE)
+-if(0x354230(false, false)){
++if(0x357740(false, false)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_ELIGHT_GENERATE_ARTICLE_DIVER)
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_ELIGHT_GENERATE_ARTICLE_DIVER, 0x0796c331aa)
+ 		ArticleModule::change_motion()
+ 	}

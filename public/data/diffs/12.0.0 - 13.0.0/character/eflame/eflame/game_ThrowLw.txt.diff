@@ -1,0 +1,45 @@
+diff --git "a/12.0.0/eflame/game_ThrowLw.txt" "b/13.0.0/eflame/game_ThrowLw.txt"
+index 0dafdf5..2faeb87 100644
+--- "a/12.0.0/eflame/game_ThrowLw.txt"
++++ "b/13.0.0/eflame/game_ThrowLw.txt"
+@@ -4,18 +4,18 @@ if(is_excute){
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=4.0, Angle=80, KBG=100, FKB=0, BKB=85, Hitlag=0.5, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=60, Hitlag=0.5, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ }
+ frame(Frame=10)
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x07439e926b, 3.33, 3.33, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }
+ frame(0, 20)
+@@ -34,17 +34,17 @@ if(is_excute){
+ 	AttackModule::clear_all()
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ }
+ frame(Frame=66)
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, 0x08183db0f4, 3.33, 3.33, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc3a0(false, true)){
++if(0x3cc0b0(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }

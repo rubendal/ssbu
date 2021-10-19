@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/demon/game_AttackS4.txt" "b/3.0.0/demon/game_AttackS4.txt"
+index bddd36c..ca521d7 100644
+--- "a/2.0.0/demon/game_AttackS4.txt"
++++ "b/3.0.0/demon/game_AttackS4.txt"
+@@ -57,11 +57,11 @@ wait(Frames=2)
+ FT_MOTION_RATE(FSM=1)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ WorkModule::is_flag(FIGHTER_DEMON_STATUS_ATTACK_S4_FLAG_HIT)
+-if(0x3cfb50(false, false)){
++if(0x3cfb70(false, false)){
+ 	if(is_excute){
+ 		QUAKE(CAMERA_QUAKE_KIND_S)
+ 	}
+ }
+ frame(Frame=51)

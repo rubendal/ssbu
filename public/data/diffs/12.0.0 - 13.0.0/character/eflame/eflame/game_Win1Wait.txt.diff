@@ -1,0 +1,13 @@
+diff --git "a/12.0.0/eflame/game_Win1Wait.txt" "b/13.0.0/eflame/game_Win1Wait.txt"
+index 26570bd..c401a52 100644
+--- "a/12.0.0/eflame/game_Win1Wait.txt"
++++ "b/13.0.0/eflame/game_Win1Wait.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_RESULT_FIGHTER_SINGLE)
+-if(0x3cc3a0(false, false)){
++if(0x3cc0b0(false, false)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_DIVER, 0x0c8a9a7447)
+ 		ArticleModule::change_motion()
+ 	}
+ }

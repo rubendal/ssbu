@@ -1,0 +1,17 @@
+diff --git "a/.0.0/wolf/game_FinalLockOn.txt" "b/.0.0/wolf/game_FinalLockOn.txt"
+index 2d168d0..3715135 100644
+--- "a/.0.0/wolf/game_FinalLockOn.txt"
++++ "b/.0.0/wolf/game_FinalLockOn.txt"
+@@ -27,11 +27,11 @@ if(0x108260(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x108260(587928634, 1.2)
++			0x108260(-1889278590, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

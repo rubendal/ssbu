@@ -1,0 +1,17 @@
+diff --git "a/12.0.0/pacman/game_FinalStart.txt" "b/13.0.0/pacman/game_FinalStart.txt"
+index 1be4b59..ce51d5b 100644
+--- "a/12.0.0/pacman/game_FinalStart.txt"
++++ "b/13.0.0/pacman/game_FinalStart.txt"
+@@ -13,11 +13,11 @@ if(0x11a0d0(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x11a0d0(-2022309357, 2.7)
++			0x11a0d0(-1658797545, 2.7)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 15)
+ 		}
+ 	}

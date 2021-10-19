@@ -1,0 +1,28 @@
+diff --git "a/2.0.0/demon/game_FinalAirStart.txt" "b/3.0.0/demon/game_FinalAirStart.txt"
+index 575f74a..671fed0 100644
+--- "a/2.0.0/demon/game_FinalAirStart.txt"
++++ "b/3.0.0/demon/game_FinalAirStart.txt"
+@@ -31,20 +31,20 @@ methodlib::L2CValue::as_pointer()const(true, 3)
+ set_devil()
+ if(is_excute){
+ 	SLOW_OPPONENT(30, 48)
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x3cfb50(false, false)){
++if(0x3cfb70(false, false)){
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	if(0x3cfb50(1344, 0)){
++	if(0x3cfb70(1344, 0)){
+ 		if(is_excute){
+ 			REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), true, false)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				PostureModule::scale(10, 0)
+-				0x3cfb50(969459078, 2.5)
++				0x3cfb70(-155490015, 2.5)
+ 				CAM_ZOOM_IN_arg5(0, 0)
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){

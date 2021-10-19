@@ -1,0 +1,17 @@
+diff --git "a/_12.0.0/inkling/game_Final.txt" "b/_13.0.0/inkling/game_Final.txt"
+index e354461..3a3d2cd 100644
+--- "a/_12.0.0/inkling/game_Final.txt"
++++ "b/_13.0.0/inkling/game_Final.txt"
+@@ -20,11 +20,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x13d3f0(-48226937, 2.5)
++			0x13d490(-718230741, 2.5)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=35)
+ 		if(is_excute){

@@ -1,0 +1,15 @@
+diff --git "a/.0.0/jack/game_FinalEnd.txt" "b/.0.0/jack/game_FinalEnd.txt"
+index eb3e9e1..e50587d 100644
+--- "a/.0.0/jack/game_FinalEnd.txt"
++++ "b/.0.0/jack/game_FinalEnd.txt"
+@@ -6,9 +6,9 @@ if(is_excute){
+ }
+ frame(Frame=15)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_JACK_STATUS_FINAL_FLAG_END_FINAL)
+ }
+-frame(Frame=30)
++frame(Frame=20)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_STATUS_VISUAL_SCENE_FLAG_END_EXIT)
+ }

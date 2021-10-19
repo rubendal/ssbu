@@ -1,0 +1,17 @@
+diff --git "a/0.0/fox/game_FinalLockOn.txt" "b/0.0/fox/game_FinalLockOn.txt"
+index b4ff9f8..9bbbfd1 100644
+--- "a/0.0/fox/game_FinalLockOn.txt"
++++ "b/0.0/fox/game_FinalLockOn.txt"
+@@ -27,11 +27,11 @@ if(0x10d030(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finallockon.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x10d030(-709853273, 1.2)
++			0x10d030(504346932, 1.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

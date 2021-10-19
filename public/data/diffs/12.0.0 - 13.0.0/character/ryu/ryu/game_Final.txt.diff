@@ -1,0 +1,17 @@
+diff --git "a/0.0/ryu/game_Final.txt" "b/0.0/ryu/game_Final.txt"
+index 574a731..3a238d4 100644
+--- "a/0.0/ryu/game_Final.txt"
++++ "b/0.0/ryu/game_Final.txt"
+@@ -12,11 +12,11 @@ if(0x163770(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x163770(-2141032002, 1.8)
++			0x163770(-2016576794, 1.8)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=28)
+ 		if(is_excute){

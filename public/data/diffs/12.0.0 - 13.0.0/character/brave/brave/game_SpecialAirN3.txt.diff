@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/brave/game_SpecialAirN3.txt" "b/3.0.0/brave/game_SpecialAirN3.txt"
+index 1781465..3e9ca42 100644
+--- "a/2.0.0/brave/game_SpecialAirN3.txt"
++++ "b/3.0.0/brave/game_SpecialAirN3.txt"
+@@ -5,11 +5,11 @@ frame(Frame=14)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_HOP)
+ }
+ frame(Frame=16)
+ WorkModule::is_flag(FIGHTER_BRAVE_STATUS_SPECIAL_N_FLAG_SUCCESS_SP)
+-if(0x239f10(false, true)){
++if(0x23a020(false, true)){
+ 	if(is_excute){
+ 		ArticleModule::generate_article(FIGHTER_BRAVE_GENERATE_ARTICLE_FIREBALL)
+ 		KineticModule::add_speed(-0.3, 0, 0.0)
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/2.0.0/mario/game_Final.txt" "b/3.0.0/mario/game_Final.txt"
+index 954a366..70bbb2c 100644
+--- "a/2.0.0/mario/game_Final.txt"
++++ "b/3.0.0/mario/game_Final.txt"
+@@ -16,11 +16,11 @@ if(0xe1ba0(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0xe1ba0(-1117164021, 2.05)
++			0xe1ba0(-534644470, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0xe1ba0(0, 0)){
