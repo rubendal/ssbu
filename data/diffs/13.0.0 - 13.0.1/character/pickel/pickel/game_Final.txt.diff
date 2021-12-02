@@ -1,0 +1,26 @@
+diff --git "a/13.0.0/pickel/game_Final.txt" "b/13.0.1/pickel/game_Final.txt"
+index b77371d..fd7db8c 100644
+--- "a/13.0.0/pickel/game_Final.txt"
++++ "b/13.0.1/pickel/game_Final.txt"
+@@ -9,19 +9,19 @@ if(is_excute){
+ 	ArticleModule::generate_article(FIGHTER_PICKEL_GENERATE_ARTICLE_PUSHFINAL)
+ 	FT_SET_FINAL_FEAR_FACE(50)
+ 	FT_START_CUTIN()
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x370800(false, false)){
++if(0x370870(false, false)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 		SlowModule::set_whole(3, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x370800(-1894121600, 2.1)
++			0x370870(189281854, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=20)

@@ -1,0 +1,15 @@
+diff --git "a/3.0.0/falco/game_SpecialAirNEnd.txt" "b/3.0.1/falco/game_SpecialAirNEnd.txt"
+index b9f411b..2744cbb 100644
+--- "a/3.0.0/falco/game_SpecialAirNEnd.txt"
++++ "b/3.0.1/falco/game_SpecialAirNEnd.txt"
+@@ -1,9 +1,9 @@
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=0.75)
+ IS_EXIST_ARTICLE(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER)
+-if(0x11c9e0(false, true)){
++if(0x11d3a0(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_FALCO_GENERATE_ARTICLE_BLASTER, hash40("close"))
+ 		ArticleModule::change_motion()
+ 	}
+ }

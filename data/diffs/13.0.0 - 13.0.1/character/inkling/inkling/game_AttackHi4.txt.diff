@@ -1,0 +1,17 @@
+diff --git "a/_13.0.0/inkling/game_AttackHi4.txt" "b/_13.0.1/inkling/game_AttackHi4.txt"
+index c583102..a9527c6 100644
+--- "a/_13.0.0/inkling/game_AttackHi4.txt"
++++ "b/_13.0.1/inkling/game_AttackHi4.txt"
+@@ -10,11 +10,11 @@ if(is_excute){
+ }
+ WorkModule::is_flag(FIGHTER_STATUS_ATTACK_FLAG_SMASH_SMASH_HOLD_TO_ATTACK)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	if(is_excute){
+ 		WorkModule::get_float(FIGHTER_INKLING_GENERATE_ARTICLE_BLASTER, hash40("attack_hi4"), true, FIGHTER_STATUS_ATTACK_WORK_FLOAT_SMASH_RESTART_FRAME)
+-		methodlib::L2CValue::as_hash()const(-718230741)
++		methodlib::L2CValue::as_hash()const(-1407754940)
+ 		ArticleModule::change_motion()
+ 	}
+ }
+ frame(Frame=9)
+ if(is_excute){

@@ -1,0 +1,348 @@
+[
+  {
+    "stage": "Hollow Bastion",
+    "name": "Hollow Bastion",
+    "lvd": "trail",
+    "collisions": [
+      {
+        "name": "COL_00_Floor",
+        "vertex": [
+          [
+            41.4161568,
+            -40.11807
+          ],
+          [
+            -41.3962,
+            -40.0989761
+          ],
+          [
+            -64.39471,
+            -25.0
+          ],
+          [
+            -80.0,
+            -8.318714
+          ],
+          [
+            -80.0,
+            0.0
+          ],
+          [
+            -74.9856,
+            0.0
+          ],
+          [
+            -47.8351135,
+            0.0
+          ],
+          [
+            -22.63992,
+            0.0
+          ],
+          [
+            22.5580368,
+            0.0
+          ],
+          [
+            47.83409,
+            0.0
+          ],
+          [
+            75.0,
+            0.0
+          ],
+          [
+            80.0,
+            0.0
+          ],
+          [
+            80.0,
+            -8.318714
+          ],
+          [
+            64.38729,
+            -25.0
+          ],
+          [
+            41.4161568,
+            -40.11807
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 82.812355,
+            "ceiling": true,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 237,
+            "length": 27.5120068,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 224,
+            "length": 22.8427334,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 8.318714,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.01439667,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 27.15049,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 25.1951942,
+            "ceiling": false,
+            "wall": false,
+            "material": "HeavyMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 45.1979561,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 25.2760544,
+            "ceiling": false,
+            "wall": false,
+            "material": "HeavyMetal"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 27.1659088,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 8.318714,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 317,
+            "length": 22.8478012,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 304,
+            "length": 27.4996185,
+            "ceiling": false,
+            "wall": true,
+            "material": "Rock"
+          }
+        ],
+        "boundingBox": [
+          [
+            -80.0,
+            -40.11807
+          ],
+          [
+            80.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -24.0,
+            25.0
+          ],
+          [
+            24.0,
+            25.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "HeavyMetal"
+          }
+        ],
+        "boundingBox": [
+          [
+            -24.0,
+            25.0
+          ],
+          [
+            24.0,
+            25.0
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -240.0,
+      240.0,
+      180.0,
+      -140.0
+    ],
+    "camera": [
+      -180.0,
+      180.0,
+      130.0,
+      -60.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -30.0,
+        0.0
+      ],
+      [
+        30.0,
+        0.0
+      ],
+      [
+        -75.0,
+        0.0
+      ],
+      [
+        75.0,
+        0.0
+      ],
+      [
+        0.0,
+        25.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        53.0,
+        0.0
+      ],
+      [
+        -53.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        60.0
+      ],
+      [
+        35.0,
+        60.0
+      ],
+      [
+        -35.0,
+        60.0
+      ],
+      [
+        70.0,
+        60.0
+      ],
+      [
+        -17.5,
+        80.0
+      ],
+      [
+        17.5,
+        80.0
+      ],
+      [
+        -53.5,
+        80.0
+      ],
+      [
+        53.5,
+        80.0
+      ]
+    ],
+    "items": []
+  }
+]

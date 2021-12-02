@@ -1,0 +1,29 @@
+diff --git "a/3.0.0/cloud/game_Final2AttackL.txt" "b/3.0.1/cloud/game_Final2AttackL.txt"
+index 49fdceb..c1640ee 100644
+--- "a/3.0.0/cloud/game_Final2AttackL.txt"
++++ "b/3.0.1/cloud/game_Final2AttackL.txt"
+@@ -8,22 +8,22 @@ methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)
+ WorkModule::is_flag(FIGHTER_CLOUD_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	WorkModule::is_flag(FIGHTER_CLOUD_STATUS_FINAL_FLAG_HIT_2_OPPONENT)
+ 	if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x1801d0(2001240, 0)){
++		if(0x1801b0(2001248, 0)){
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalattackl_far.nuanmb"), true)
+ 			}
+ 			else{
+ 				frame(Frame=20)
+ 				if(is_excute){
+ 					WorkModule::off_flag(Flag=FIGHTER_CLOUD_STATUS_FINAL_FLAG_DISP_WINDOW)
+ 				}
+ 				else{
+ 					get_value_float(FIGHTER_CLOUD_STATUS_FINAL_FLAG_DISP_WINDOW)
+-					if(0x1801d0(2001240, 0)){
++					if(0x1801b0(2001248, 0)){
+ 						if(is_excute){
+ 							REQ_FINAL_START_CAMERA(hash40("d04finalattackl.nuanmb"), true)
+ 						}
+ 						else{
+ 							if(is_excute){

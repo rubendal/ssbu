@@ -1,0 +1,446 @@
+[
+  {
+    "stage": "Duck Hunt",
+    "name": "Duck Hunt",
+    "lvd": "duckhunt_00",
+    "collisions": [
+      {
+        "name": "COL_00_Floor01",
+        "vertex": [
+          [
+            -95.1552,
+            -220.0
+          ],
+          [
+            -95.1552,
+            0.0
+          ],
+          [
+            -90.1552,
+            0.0
+          ],
+          [
+            90.1552,
+            0.0
+          ],
+          [
+            95.1552,
+            0.0
+          ],
+          [
+            95.1552,
+            -220.0
+          ],
+          [
+            -95.1552,
+            -220.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 220.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 180.3104,
+            "ceiling": false,
+            "wall": false,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 220.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Soil"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 190.3104,
+            "ceiling": true,
+            "wall": false,
+            "material": "Soil"
+          }
+        ],
+        "boundingBox": [
+          [
+            -95.1552,
+            -220.0
+          ],
+          [
+            95.1552,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_Branch_Platform01_throug",
+        "vertex": [
+          [
+            -83.25878,
+            87.0020752
+          ],
+          [
+            -66.1605759,
+            87.0020752
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -83.25878,
+            87.0020752
+          ],
+          [
+            -66.1605759,
+            87.0020752
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Branch_Platform02_throug",
+        "vertex": [
+          [
+            -64.6737747,
+            73.20209
+          ],
+          [
+            -49.8057747,
+            73.20209
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -64.6737747,
+            73.20209
+          ],
+          [
+            -49.8057747,
+            73.20209
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Branch_Platform03_throug",
+        "vertex": [
+          [
+            -70.62098,
+            63.60208
+          ],
+          [
+            -59.4699745,
+            63.60208
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -70.62098,
+            63.60208
+          ],
+          [
+            -59.4699745,
+            63.60208
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Branch_Platform04_throug",
+        "vertex": [
+          [
+            -88.46258,
+            58.80208
+          ],
+          [
+            -75.0813751,
+            58.80208
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -88.46258,
+            58.80208
+          ],
+          [
+            -75.0813751,
+            58.80208
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Branch_Platform05_throug",
+        "vertex": [
+          [
+            -59.4699745,
+            53.4020844
+          ],
+          [
+            -41.6283722,
+            53.4020844
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            -59.4699745,
+            53.4020844
+          ],
+          [
+            -41.6283722,
+            53.4020844
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Bush_Platform01_through",
+        "vertex": [
+          [
+            52.0400352,
+            25.0
+          ],
+          [
+            70.62503,
+            25.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Grass"
+          }
+        ],
+        "boundingBox": [
+          [
+            52.0400352,
+            25.0
+          ],
+          [
+            70.62503,
+            25.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Dog_Platform01_through",
+        "vertex": [
+          [
+            -7.52729034,
+            24.054636
+          ],
+          [
+            7.564756,
+            24.054636
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "MasterFortress"
+          }
+        ],
+        "boundingBox": [
+          [
+            -7.52729034,
+            24.054636
+          ],
+          [
+            7.564756,
+            24.054636
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -250.0,
+      250.0,
+      192.0,
+      -108.0
+    ],
+    "camera": [
+      -150.0,
+      150.0,
+      132.0,
+      -28.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -75.0,
+        0.0
+      ],
+      [
+        75.0,
+        0.0
+      ],
+      [
+        -25.0,
+        0.0
+      ],
+      [
+        25.0,
+        0.0
+      ],
+      [
+        -50.0,
+        0.0
+      ],
+      [
+        50.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        -50.0,
+        53.4020844
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        60.0
+      ],
+      [
+        36.0,
+        60.0
+      ],
+      [
+        -36.0,
+        60.0
+      ],
+      [
+        72.0,
+        60.0
+      ],
+      [
+        18.0,
+        88.0
+      ],
+      [
+        54.0,
+        88.0
+      ],
+      [
+        -18.0,
+        88.0
+      ],
+      [
+        90.0,
+        88.0
+      ]
+    ],
+    "items": []
+  }
+]

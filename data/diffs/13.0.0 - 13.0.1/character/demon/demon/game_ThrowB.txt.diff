@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/demon/game_ThrowB.txt" "b/3.0.1/demon/game_ThrowB.txt"
+index 65c85ed..ac1cd0e 100644
+--- "a/3.0.0/demon/game_ThrowB.txt"
++++ "b/3.0.1/demon/game_ThrowB.txt"
+@@ -39,11 +39,11 @@ if(0x3cfb70(false, false)){
+ 		}
+ 	}
+ }
+ if(is_excute){
+ 	PostureModule::scale(7, 0)
+-	0x3cfb70(-155490015, 1.5)
++	0x3cfb70(-1037516665, 1.5)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ }
+ frame(Frame=27)
+ if(is_excute){
+ 	REVERSE_LR()

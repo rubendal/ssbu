@@ -1,0 +1,25 @@
+diff --git "a/3.0.0/cloud/game_Final2Start.txt" "b/3.0.1/cloud/game_Final2Start.txt"
+index eed9547..90c06b4 100644
+--- "a/3.0.0/cloud/game_Final2Start.txt"
++++ "b/3.0.1/cloud/game_Final2Start.txt"
+@@ -11,18 +11,18 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(60)
+ 	}
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1801d0(2001240, 0)){
++if(0x1801b0(2001248, 0)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x1801d0(647911431, 1.8)
++			0x1801b0(1699148503, 1.8)
+ 			CAM_ZOOM_IN_arg5(-0.1, 0)
+ 			FT_START_CUTIN()
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 6)
+ 		}
+ 		else{

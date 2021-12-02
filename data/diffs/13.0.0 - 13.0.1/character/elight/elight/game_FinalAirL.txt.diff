@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/elight/game_FinalAirL.txt" "b/13.0.1/elight/game_FinalAirL.txt"
+index 195f17d..bb6ecef 100644
+--- "a/13.0.0/elight/game_FinalAirL.txt"
++++ "b/13.0.1/elight/game_FinalAirL.txt"
+@@ -22,11 +22,11 @@ if(0x357740(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), true, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x357740(619365007, 2.1)
++			0x357740(-1178691668, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=6)

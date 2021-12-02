@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/dolly/game_FinalStart.txt" "b/3.0.1/dolly/game_FinalStart.txt"
+index afc093a..549edfe 100644
+--- "a/3.0.0/dolly/game_FinalStart.txt"
++++ "b/3.0.1/dolly/game_FinalStart.txt"
+@@ -11,11 +11,11 @@ if(0x2508e0(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x2508e0(-1718042447, 2.1)
++			0x2508e0(-986880942, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/brave/game_FinalAirStart.txt" "b/3.0.1/brave/game_FinalAirStart.txt"
+index 73790e4..0a3bc95 100644
+--- "a/3.0.0/brave/game_FinalAirStart.txt"
++++ "b/3.0.1/brave/game_FinalAirStart.txt"
+@@ -10,11 +10,11 @@ if(0x23a020(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x23a020(-805664635, 2.1)
++			0x23a020(-1586326874, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

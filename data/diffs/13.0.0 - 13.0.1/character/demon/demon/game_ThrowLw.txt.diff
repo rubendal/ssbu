@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/demon/game_ThrowLw.txt" "b/3.0.1/demon/game_ThrowLw.txt"
+index 356ab2c..ef1ee8c 100644
+--- "a/3.0.0/demon/game_ThrowLw.txt"
++++ "b/3.0.1/demon/game_ThrowLw.txt"
+@@ -41,11 +41,11 @@ if(0x3cfb70(false, false)){
+ 		}
+ 	}
+ }
+ if(is_excute){
+ 	PostureModule::scale(7, 0)
+-	0x3cfb70(-155490015, 1.5)
++	0x3cfb70(-1037516665, 1.5)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ }
+ if(is_excute){
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, ID=0, Damage=1.0, Angle=72, KBG=100, FKB=0, BKB=53, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)
+ 	ATTACK_ABS(Kind=FIGHTER_ATTACK_ABSOLUTE_KIND_CATCH, ID=0, Damage=3.0, Angle=361, KBG=100, FKB=0, BKB=40, Hitlag=0.0, Unk=1.0, FacingRestrict=ATTACK_LR_CHECK_F, Unk=0.0, Unk=true, Effect=hash40("collision_attr_normal"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_NONE, Type=ATTACK_REGION_THROW)

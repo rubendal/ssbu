@@ -1,0 +1,17 @@
+diff --git "a/o_13.0.0/murabito/game_FinalAirR.txt" "b/o_13.0.1/murabito/game_FinalAirR.txt"
+index a623297..89b5413 100644
+--- "a/o_13.0.0/murabito/game_FinalAirR.txt"
++++ "b/o_13.0.1/murabito/game_FinalAirR.txt"
+@@ -10,11 +10,11 @@ if(0x13aec0(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalr.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x13aec0(-2106706731, 2.1)
++			0x13aec0(1386751254, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

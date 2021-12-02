@@ -1,0 +1,17 @@
+diff --git "a/.0.0/ness/game_FinalAir.txt" "b/.0.1/ness/game_FinalAir.txt"
+index 5d4452d..30d50ed 100644
+--- "a/.0.0/ness/game_FinalAir.txt"
++++ "b/.0.1/ness/game_FinalAir.txt"
+@@ -21,11 +21,11 @@ if(0xfdab0(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0xfdab0(-1405305073, 2.2)
++			0xfdab0(111480042, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

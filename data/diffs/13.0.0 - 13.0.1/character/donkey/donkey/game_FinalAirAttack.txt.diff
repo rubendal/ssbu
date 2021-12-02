@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/donkey/game_FinalAirAttack.txt" "b/13.0.1/donkey/game_FinalAirAttack.txt"
+index 6dfb7fc..4626bfe 100644
+--- "a/13.0.0/donkey/game_FinalAirAttack.txt"
++++ "b/13.0.1/donkey/game_FinalAirAttack.txt"
+@@ -2,11 +2,11 @@ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ }
+ WorkModule::is_flag(FIGHTER_DONKEY_STATUS_FINAL_FLAG_HIT_ALL_OPPONENT)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, true)){
+ 	get_value_float(SO_VAR_FLOAT_LR)
+-	0x11e080(0, 0)
++	0x120890(0, 0)
+ }
+ if(is_excute){
+ 	WHOLE_HIT(HIT_STATUS_XLU)
+ }
+ frame(Frame=6)

@@ -1,0 +1,67 @@
+diff --git "a/13.0.0/eflame/game_FinalAir.txt" "b/13.0.1/eflame/game_FinalAir.txt"
+index 1b6b76a..caaf30d 100644
+--- "a/13.0.0/eflame/game_FinalAir.txt"
++++ "b/13.0.1/eflame/game_FinalAir.txt"
+@@ -15,18 +15,18 @@ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_EFLAME_STATUS_FINAL_FLAG_GENERATE_DIVER)
+ 	FT_SET_FINAL_FEAR_FACE(50)
+ 	FT_START_CUTIN()
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x3cc0b0(false, false)){
++if(0x3de840(false, false)){
+ 	if(is_excute){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart.nuanmb"), true, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x3cc0b0(1092406576, 2.1)
++			0x3de840(-1268740023, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 	}
+ }
+ frame(Frame=6)
+@@ -55,18 +55,18 @@ frame(Frame=27)
+ if(is_excute){
+ 	AttackModule::clear_all()
+ }
+ frame(Frame=32)
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc0b0(false, true)){
++if(0x3de840(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, hash40("to_open"), 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc0b0(false, true)){
++if(0x3de840(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }
+ frame(0, 55)
+@@ -96,18 +96,18 @@ frame(Frame=76)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_EFLAME_STATUS_FINAL_FLAG_REVERT_GROUND_COLLISION_SHAPE)
+ }
+ frame(Frame=80)
+ IS_EXIST_ARTICLE(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD)
+-if(0x3cc0b0(false, true)){
++if(0x3de840(false, true)){
+ 	if(is_excute){
+ 		methodlib::L2CValue::as_hash()const(FIGHTER_EFLAME_GENERATE_ARTICLE_ESWORD, WEAPON_EFLAME_ESWORD_MOTION_PART_SET_KIND_OPEM_CLOSE, hash40("to_close"), 5, 5, false, false, 0, false, true, false)
+ 		ArticleModule::add_motion_partial()
+ 	}
+ }
+ MotionModule::is_changing()
+-if(0x3cc0b0(false, true)){
++if(0x3de840(false, true)){
+ 	if(is_excute){
+ 		WorkModule::on_flag(Flag=FIGHTER_EFLAME_INSTANCE_WORK_ID_FLAG_ADD_PARTIAL_MTION_SWORD_WHEN_CHANGEING)
+ 	}
+ }
+ frame(0, 90)

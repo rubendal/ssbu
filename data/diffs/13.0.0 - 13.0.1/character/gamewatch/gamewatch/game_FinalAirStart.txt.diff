@@ -1,0 +1,29 @@
+diff --git "a/ch_13.0.0/gamewatch/game_FinalAirStart.txt" "b/ch_13.0.1/gamewatch/game_FinalAirStart.txt"
+index 5a0b6dd..ecc9d29 100644
+--- "a/ch_13.0.0/gamewatch/game_FinalAirStart.txt"
++++ "b/ch_13.0.1/gamewatch/game_FinalAirStart.txt"
+@@ -1,22 +1,22 @@
+ if(is_excute){
+ 	SLOW_OPPONENT(10, 60)
+ 	FT_REMOVE_FINAL_AURA(true)
+ 	FT_SET_FINAL_FEAR_FACE(70)
+ 	PostureModule::scale(1, 0)
+-	0x102320(-1321500899, 2.1)
++	0x102320(-1174958658, 2.1)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ }
+ frame(Frame=5)
+ if(is_excute){
+ 	FT_START_CUTIN()
+ }
+ frame(Frame=12)
+ if(is_excute){
+ 	CAM_ZOOM_OUT()
+ 	PostureModule::scale(15, 0)
+-	0x102320(-1321500899, 3.5)
++	0x102320(-1174958658, 3.5)
+ 	CAM_ZOOM_IN_arg5(0, 0)
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+ if(0x102320(0, 0)){
+ 	if(is_excute){

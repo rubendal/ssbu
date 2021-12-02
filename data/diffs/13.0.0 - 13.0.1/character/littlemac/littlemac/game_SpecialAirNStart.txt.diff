@@ -1,0 +1,10 @@
+diff --git "a/ac_13.0.0/littlemac/game_SpecialAirNStart.txt" "b/ac_13.0.1/littlemac/game_SpecialAirNStart.txt"
+index 085ae0b..b0c6c9b 100644
+--- "a/ac_13.0.0/littlemac/game_SpecialAirNStart.txt"
++++ "b/ac_13.0.1/littlemac/game_SpecialAirNStart.txt"
+@@ -1,4 +1,4 @@
+ frame(Frame=23)
+ if(is_excute){
+-	WorkModule::on_flag(Flag=FIGHTER_LITTLEMAC_STATUS_SPECIAL_N_FLAG_CHECK_DASH)
++	WorkModule::on_flag(Flag=18704)
+ }

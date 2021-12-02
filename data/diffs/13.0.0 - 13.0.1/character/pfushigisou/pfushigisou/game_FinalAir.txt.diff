@@ -1,0 +1,17 @@
+diff --git "a/isou_13.0.0/pfushigisou/game_FinalAir.txt" "b/isou_13.0.1/pfushigisou/game_FinalAir.txt"
+index f23c5f0..5983df7 100644
+--- "a/isou_13.0.0/pfushigisou/game_FinalAir.txt"
++++ "b/isou_13.0.1/pfushigisou/game_FinalAir.txt"
+@@ -12,11 +12,11 @@ if(0x103920(false, false)){
+ 		FT_START_CUTIN_arg1(true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x103920(-968299443, 2.1)
++			0x103920(1808763720, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN_arg1(true)
+ 		}
+ 		frame(Frame=25)
+ 		if(is_excute){

@@ -1,0 +1,17 @@
+diff --git "a/.0.0/edge/game_Final.txt" "b/.0.1/edge/game_Final.txt"
+index 27dc0e8..dc8d86f 100644
+--- "a/.0.0/edge/game_Final.txt"
++++ "b/.0.1/edge/game_Final.txt"
+@@ -16,11 +16,11 @@ if(0x24aec0(0, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x24aec0(617004551, 2.1)
++			0x24aec0(-1721867758, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

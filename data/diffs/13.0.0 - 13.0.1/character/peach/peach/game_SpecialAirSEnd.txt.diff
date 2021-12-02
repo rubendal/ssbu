@@ -1,0 +1,12 @@
+diff --git "a/3.0.0/peach/game_SpecialAirSEnd.txt" "b/3.0.1/peach/game_SpecialAirSEnd.txt"
+index 6e981c7..1375f5e 100644
+--- "a/3.0.0/peach/game_SpecialAirSEnd.txt"
++++ "b/3.0.1/peach/game_SpecialAirSEnd.txt"
+@@ -1,4 +1,7 @@
++if(is_excute){
++	notify_event_msc_cmd(0x2127e37c07, GROUND_CLIFF_CHECK_KIND_ALWAYS)
++}
+ frame(Frame=2)
+ if(is_excute){
+ 	WorkModule::on_flag(Flag=FIGHTER_PEACH_STATUS_SPECIAL_S_JUMP_FLAG_START_CONTROLLER_MOVE)
+ }

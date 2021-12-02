@@ -1,0 +1,23 @@
+diff --git "a/13.0.0/packun/game_FinalAir.txt" "b/13.0.1/packun/game_FinalAir.txt"
+index 78ca32c..f991ce8 100644
+--- "a/13.0.0/packun/game_FinalAir.txt"
++++ "b/13.0.1/packun/game_FinalAir.txt"
+@@ -11,16 +11,16 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x157dc0(896954871, 2.05)
++			0x1646b0(1807236752, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+-		if(0x157dc0(0, 0)){
++		if(0x1646b0(0, 0)){
+ 			if(is_excute){
+ 				camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 0)
+ 			}
+ 			else{
+ 				if(is_excute){
