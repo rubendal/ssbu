@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/robot/game_FinalStart.txt" "b/3.0.1/robot/game_FinalStart.txt"
+index a801f89..48ed06f 100644
+--- "a/3.0.0/robot/game_FinalStart.txt"
++++ "b/3.0.1/robot/game_FinalStart.txt"
+@@ -11,11 +11,11 @@ if(0x1050b0(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x1050b0(-1692598717, 2)
++			0x1050b0(-460405772, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

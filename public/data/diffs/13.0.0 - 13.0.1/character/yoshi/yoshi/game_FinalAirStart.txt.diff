@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/yoshi/game_FinalAirStart.txt" "b/3.0.1/yoshi/game_FinalAirStart.txt"
+index d498e6a..b79706f 100644
+--- "a/3.0.0/yoshi/game_FinalAirStart.txt"
++++ "b/3.0.1/yoshi/game_FinalAirStart.txt"
+@@ -10,11 +10,11 @@ if(0x101bd0(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x101bd0(482679033, 2)
++			0x101bd0(1097732885, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

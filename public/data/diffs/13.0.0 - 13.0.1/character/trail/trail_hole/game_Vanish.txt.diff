@@ -1,0 +1,8 @@
+diff --git "a/3.0.0/trail_hole/game_Vanish.txt" "b/3.0.1/trail_hole/game_Vanish.txt"
+index 5f69667..fe216f0 100644
+--- "a/3.0.0/trail_hole/game_Vanish.txt"
++++ "b/3.0.1/trail_hole/game_Vanish.txt"
+@@ -1,2 +1,2 @@
+ WorkModule::is_flag(WEAPON_TRAIL_HOLE_INSTANCE_WORK_ID_FLAG_GROUND)
+-0x4ae370(false, true)
++0x4ae890(false, true)

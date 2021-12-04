@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/mariod/game_FinalAir.txt" "b/13.0.1/mariod/game_FinalAir.txt"
+index 0f64928..66b90c6 100644
+--- "a/13.0.0/mariod/game_FinalAir.txt"
++++ "b/13.0.1/mariod/game_FinalAir.txt"
+@@ -16,11 +16,11 @@ if(0xda370(false, false)){
+ 		FT_START_CUTIN()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			methodlib::L2CValue::operator*(lib::L2CValueconst&)const(1084940359, 2.05)
++			methodlib::L2CValue::operator*(lib::L2CValueconst&)const(-444723117, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0xda370(0, 0)){

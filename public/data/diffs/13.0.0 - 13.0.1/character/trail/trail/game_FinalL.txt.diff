@@ -1,0 +1,27 @@
+diff --git "a/3.0.0/trail/game_FinalL.txt" "b/3.0.1/trail/game_FinalL.txt"
+index 5d1e335..78dfd0d 100644
+--- "a/3.0.0/trail/game_FinalL.txt"
++++ "b/3.0.1/trail/game_FinalL.txt"
+@@ -1,20 +1,20 @@
+ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 7, 20, 0, 0, 0)
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+-if(0x4ae370(false, false)){
++if(0x4ae890(false, false)){
+ 	frame(Frame=5)
+ 	if(is_excute){
+ 		FT_SET_FINAL_FEAR_FACE(55)
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 		FT_REQ_FINAL_AURA()
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x4ae370(-1737761738, 2.1)
++			0x4ae890(274602962, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

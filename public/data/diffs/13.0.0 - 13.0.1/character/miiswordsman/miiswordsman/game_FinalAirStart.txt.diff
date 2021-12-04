@@ -1,0 +1,17 @@
+diff --git "a/dsman_13.0.0/miiswordsman/game_FinalAirStart.txt" "b/dsman_13.0.1/miiswordsman/game_FinalAirStart.txt"
+index fc5b6a7..c92bf9f 100644
+--- "a/dsman_13.0.0/miiswordsman/game_FinalAirStart.txt"
++++ "b/dsman_13.0.1/miiswordsman/game_FinalAirStart.txt"
+@@ -15,11 +15,11 @@ if(0x191390(0, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x191390(751212379, 2.2)
++			0x191390(572710468, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

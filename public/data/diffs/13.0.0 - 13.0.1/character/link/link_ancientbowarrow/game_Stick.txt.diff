@@ -1,0 +1,20 @@
+diff --git "a/.0.0/link_ancientbowarrow/game_Stick.txt" "b/.0.1/link_ancientbowarrow/game_Stick.txt"
+index 3237381..84863d5 100644
+--- "a/.0.0/link_ancientbowarrow/game_Stick.txt"
++++ "b/.0.1/link_ancientbowarrow/game_Stick.txt"
+@@ -1,13 +1,13 @@
+ if(is_excute){
+ 	CAM_ZOOM_OUT_FINAL()
+ }
+ get_value_float(SO_VAR_FLOAT_LR)
+-if(0x1191f0(0, 0)){
++if(0x11e440(0, 0)){
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x1191f0(-1788204220, 2)
++		0x11e440(-872975833, 2)
+ 		CAM_ZOOM_IN_FINAL_arg13(1, 0, -1, -10, 10, true, WEAPON_LINK_ANCIENTBOWARROW_INSTANCE_WORK_ID_INT_HIT_OBJECT_ID, 0, 10, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			CAM_ZOOM_IN_FINAL_arg13(3, 0, 2, -1, 0, 1, -10, 10, true, WEAPON_LINK_ANCIENTBOWARROW_INSTANCE_WORK_ID_INT_HIT_OBJECT_ID, 0, -10, 0)

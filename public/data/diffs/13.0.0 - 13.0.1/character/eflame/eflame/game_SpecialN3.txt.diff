@@ -1,0 +1,108 @@
+diff --git "a/13.0.0/eflame/game_SpecialN3.txt" "b/13.0.1/eflame/game_SpecialN3.txt"
+index 58c7ecd..c3a9405 100644
+--- "a/13.0.0/eflame/game_SpecialN3.txt"
++++ "b/13.0.1/eflame/game_SpecialN3.txt"
+@@ -6,11 +6,11 @@ if(is_excute){
+ }
+ frame(Frame=1)
+ FT_MOTION_RATE(FSM=1)
+ frame(Frame=7)
+ KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+-if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(1092406576, -0.4)){
++if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(-1268740023, -0.4)){
+ 	if(is_excute){
+ 		ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=8.5, Z=7.0, X2=0.0, Y2=10.3, Z2=7.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=40, KBG=50, FKB=60, BKB=10, Size=1.5, X=0.0, Y=11.0, Z=6.0, X2=0.0, Y2=11.0, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=1, Part=0, Bone=hash40("top"), Damage=5.0, Angle=40, KBG=50, FKB=10, BKB=10, Size=1.5, X=0.0, Y=7.8, Z=6.0, X2=0.0, Y2=7.8, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 		ATTACK(ID=3, Part=0, Bone=hash40("top"), Damage=5.0, Angle=180, KBG=80, FKB=10, BKB=10, Size=2.3, X=0.0, Y=8.5, Z=12.0, X2=0.0, Y2=10.3, Z2=12.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -48,11 +48,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(1092406576, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=7.0, X2=0.0, Y2=6.3, Z2=7.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=40, KBG=50, FKB=60, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=6.0, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -152,11 +152,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=-9.0, X2=0.0, Y2=6.3, Z2=-9.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=220, KBG=50, FKB=70, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=-8.0, X2=0.0, Y2=7.0, Z2=-10.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -256,11 +256,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=7.0, X2=0.0, Y2=6.3, Z2=7.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=50, FKB=60, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=6.0, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -360,11 +360,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=-9.0, X2=0.0, Y2=6.3, Z2=-9.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=50, FKB=70, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=-8.0, X2=0.0, Y2=7.0, Z2=-10.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -464,11 +464,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=7.0, X2=0.0, Y2=6.3, Z2=7.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=280, KBG=50, FKB=60, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=6.0, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -568,11 +568,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=1, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=-9.0, X2=0.0, Y2=6.3, Z2=-9.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=50, FKB=70, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=-8.0, X2=0.0, Y2=7.0, Z2=-10.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+@@ -672,11 +672,11 @@ if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+-if(0x3cc0b0(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
++if(0x3de840(FIGHTER_INSTANCE_WORK_ID_INT_KIND, FIGHTER_KIND_KIRBY)){
+ 	KineticModule::get_sum_speed_y(KINETIC_ENERGY_RESERVE_ATTRIBUTE_MAIN)
+ 	if(methodlib::L2CValue::operator<=(lib::L2CValueconst&)const(0, -0.4)){
+ 		if(is_excute){
+ 			ATTACK(ID=0, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=1, FKB=20, BKB=0, Size=2.3, X=0.0, Y=4.5, Z=7.0, X2=0.0, Y2=6.3, Z2=7.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_G, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)
+ 			ATTACK(ID=5, Part=0, Bone=hash40("top"), Damage=5.0, Angle=270, KBG=50, FKB=70, BKB=10, Size=1.5, X=0.0, Y=7.0, Z=6.0, X2=0.0, Y2=7.0, Z2=8.0, Hitlag=0.4, SDI=1.0, Clang_Rebound=ATTACK_SETOFF_KIND_ON, FacingRestrict=ATTACK_LR_CHECK_POS, SetWeight=true, ShieldDamage=0, Trip=0.0, Rehit=0, Reflectable=false, Absorbable=false, Flinchless=false, DisableHitlag=false, Direct_Hitbox=true, Ground_or_Air=COLLISION_SITUATION_MASK_A, Hitbits=COLLISION_CATEGORY_MASK_ALL, CollisionPart=COLLISION_PART_MASK_ALL, FriendlyFire=false, Effect=hash40("collision_attr_fire"), SFXLevel=ATTACK_SOUND_LEVEL_S, SFXType=COLLISION_SOUND_ATTR_FIRE, Type=ATTACK_REGION_SWORD)

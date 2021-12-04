@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/lucas/game_Final.txt" "b/3.0.1/lucas/game_Final.txt"
+index 17d7f94..1c4a719 100644
+--- "a/3.0.0/lucas/game_Final.txt"
++++ "b/3.0.1/lucas/game_Final.txt"
+@@ -21,11 +21,11 @@ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04final.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(5, 0)
+-			0x101650(-1047495411, 2.2)
++			0x101650(1763944442, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

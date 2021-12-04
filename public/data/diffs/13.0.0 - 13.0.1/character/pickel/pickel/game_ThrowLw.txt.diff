@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/pickel/game_ThrowLw.txt" "b/13.0.1/pickel/game_ThrowLw.txt"
+index 06d7c18..bb6ad2e 100644
+--- "a/13.0.0/pickel/game_ThrowLw.txt"
++++ "b/13.0.1/pickel/game_ThrowLw.txt"
+@@ -15,11 +15,11 @@ if(is_excute){
+ frame(Frame=20)
+ if(is_excute){
+ 	ATK_HIT_ABS(FIGHTER_ATTACK_ABSOLUTE_KIND_THROW, hash40("throw"), FIGHTER_STATUS_THROW_WORK_INT_TARGET_OBJECT, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_GROUP, FIGHTER_STATUS_THROW_WORK_INT_TARGET_HIT_NO)
+ }
+ WorkModule::is_flag(FIGHTER_PICKEL_STATUS_THROW_FLAG_IS_GENERATE_FORGE)
+-if(0x370800(false, true)){
++if(0x370870(false, true)){
+ 	frame(Frame=23)
+ 	if(is_excute){
+ 		QUAKE(CAMERA_QUAKE_KIND_M)
+ 	}
+ }

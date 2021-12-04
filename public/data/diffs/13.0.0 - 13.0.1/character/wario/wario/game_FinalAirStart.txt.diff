@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/wario/game_FinalAirStart.txt" "b/3.0.1/wario/game_FinalAirStart.txt"
+index f85a3fd..5abf839 100644
+--- "a/3.0.0/wario/game_FinalAirStart.txt"
++++ "b/3.0.1/wario/game_FinalAirStart.txt"
+@@ -12,11 +12,11 @@ if(0x105d70(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x105d70(-14175313, 2.1)
++			0x105d70(-510239189, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

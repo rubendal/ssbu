@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/shizue/game_FinalL.txt" "b/13.0.1/shizue/game_FinalL.txt"
+index 32149ba..b88dbff 100644
+--- "a/13.0.0/shizue/game_FinalL.txt"
++++ "b/13.0.1/shizue/game_FinalL.txt"
+@@ -10,11 +10,11 @@ if(0x11d6f0(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalr.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x11d6f0(-502954931, 2.2)
++			0x11d6f0(-1753104860, 2.2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

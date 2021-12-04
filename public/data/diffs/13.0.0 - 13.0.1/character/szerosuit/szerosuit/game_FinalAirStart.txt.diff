@@ -1,0 +1,17 @@
+diff --git "a/it_13.0.0/szerosuit/game_FinalAirStart.txt" "b/it_13.0.1/szerosuit/game_FinalAirStart.txt"
+index f319604..a743a5b 100644
+--- "a/it_13.0.0/szerosuit/game_FinalAirStart.txt"
++++ "b/it_13.0.1/szerosuit/game_FinalAirStart.txt"
+@@ -11,11 +11,11 @@ if(0x117080(false, false)){
+ 		SlowModule::set_whole(2, 0)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x117080(-1339037594, 2)
++			0x117080(-1063145301, 2)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 	}
+ }

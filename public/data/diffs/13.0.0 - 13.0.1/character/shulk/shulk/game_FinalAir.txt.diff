@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/shulk/game_FinalAir.txt" "b/3.0.1/shulk/game_FinalAir.txt"
+index 3dc6daa..261428e 100644
+--- "a/3.0.0/shulk/game_FinalAir.txt"
++++ "b/3.0.1/shulk/game_FinalAir.txt"
+@@ -16,11 +16,11 @@ if(is_excute){
+ 	SlowModule::set_whole(4, 0)
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(3, 0)
+-		0x127550(1217338913, 2.1)
++		0x127550(1343514934, 2.1)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=19)

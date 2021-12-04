@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/donkey/game_FinalStart.txt" "b/13.0.1/donkey/game_FinalStart.txt"
+index 1541170..d28ae0c 100644
+--- "a/13.0.0/donkey/game_FinalStart.txt"
++++ "b/13.0.1/donkey/game_FinalStart.txt"
+@@ -20,11 +20,11 @@ if(is_excute){
+ 	SlowModule::clear_whole()
+ }
+ else{
+ 	if(is_excute){
+ 		PostureModule::scale(5, 0)
+-		0x11e080(1551145388, 2)
++		0x120890(298784397, 2)
+ 		CAM_ZOOM_IN_arg5(0, 0)
+ 		FT_START_CUTIN()
+ 	}
+ }
+ frame(Frame=24)

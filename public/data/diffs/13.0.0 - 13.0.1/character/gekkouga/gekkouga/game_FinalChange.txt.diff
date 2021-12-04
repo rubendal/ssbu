@@ -1,0 +1,17 @@
+diff --git "a/a_13.0.0/gekkouga/game_FinalChange.txt" "b/a_13.0.1/gekkouga/game_FinalChange.txt"
+index 6736c73..fa108f2 100644
+--- "a/a_13.0.0/gekkouga/game_FinalChange.txt"
++++ "b/a_13.0.1/gekkouga/game_FinalChange.txt"
+@@ -11,11 +11,11 @@ if(0x141380(false, false)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalchange.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x141380(1990871847, 2.3)
++			0x141380(2119351891, 2.3)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		get_value_float(SO_VAR_FLOAT_LR)
+ 		if(0x141380(0, 0)){
+ 			if(is_excute){

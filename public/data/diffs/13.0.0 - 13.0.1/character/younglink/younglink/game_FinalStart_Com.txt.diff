@@ -1,0 +1,17 @@
+diff --git "a/nk_13.0.0/younglink/game_FinalStart_Com.txt" "b/nk_13.0.1/younglink/game_FinalStart_Com.txt"
+index 566a623..4e06f8e 100644
+--- "a/nk_13.0.0/younglink/game_FinalStart_Com.txt"
++++ "b/nk_13.0.1/younglink/game_FinalStart_Com.txt"
+@@ -17,11 +17,11 @@ if(0x117560(1511704, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x117560(-300739577, 2.05)
++			0x117560(1856908764, 2.05)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){

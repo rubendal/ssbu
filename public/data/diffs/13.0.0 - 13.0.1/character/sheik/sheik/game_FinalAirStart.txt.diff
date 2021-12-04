@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/sheik/game_FinalAirStart.txt" "b/3.0.1/sheik/game_FinalAirStart.txt"
+index 9d12321..d9dfb07 100644
+--- "a/3.0.0/sheik/game_FinalAirStart.txt"
++++ "b/3.0.1/sheik/game_FinalAirStart.txt"
+@@ -12,11 +12,11 @@ if(0x154f30(false, false)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), true)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(10, 0)
+-			0x154f30(-705855966, 1.9)
++			0x154f30(-1599779927, 1.9)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, -5)
+ 			FT_START_CUTIN()
+ 		}
+ 	}

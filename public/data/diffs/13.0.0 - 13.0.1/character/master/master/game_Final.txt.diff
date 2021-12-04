@@ -1,0 +1,17 @@
+diff --git "a/13.0.0/master/game_Final.txt" "b/13.0.1/master/game_Final.txt"
+index 7ac20c0..ed67d8d 100644
+--- "a/13.0.0/master/game_Final.txt"
++++ "b/13.0.1/master/game_Final.txt"
+@@ -16,11 +16,11 @@ if(0x333080(0, 0)){
+ 		REQ_FINAL_START_CAMERA(hash40("d04finalstart02.nuanmb"), false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(4, 0)
+-			0x333080(-1054376492, 2.1)
++			0x333080(-335839065, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 		}
+ 		else{
+ 			if(is_excute){
+ 				REQ_FINAL_START_CAMERA(hash40("d04finalstart.nuanmb"), false)

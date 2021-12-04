@@ -1,0 +1,17 @@
+diff --git "a/3.0.0/ganon_ganond/game_StartAir.txt" "b/3.0.1/ganon_ganond/game_StartAir.txt"
+index 28b251b..3b1041e 100644
+--- "a/3.0.0/ganon_ganond/game_StartAir.txt"
++++ "b/3.0.1/ganon_ganond/game_StartAir.txt"
+@@ -28,11 +28,11 @@ if(is_excute){
+ 	CHECK_VALID_FINAL_START_CAMERA(0, 2, 50, 0, 0, 0)
+ }
+ WorkModule::is_flag(FIGHTER_INSTANCE_WORK_ID_FLAG_DISABLE_FINAL_START_CAMERA)
+ if(methodlib::L2CValue::operator==(lib::L2CValueconst&)const(false, false)){
+ 	PostureModule::scale()
+-	0xffe90(929243903, 0.5)
++	0xffe90(1095804846, 0.5)
+ 	get_value_float(SO_VAR_FLOAT_LR)
+ 	if(methodlib::L2CValue::operator<(lib::L2CValueconst&)const(35264, 0)){
+ 		if(is_excute){
+ 			CAM_ZOOM_IN_arg5(10, 0, 1.2, 0.1, -0.3)
+ 			camera(MA_MSC_CMD_CAMERA_CAM_OFFSET, 0, 10)

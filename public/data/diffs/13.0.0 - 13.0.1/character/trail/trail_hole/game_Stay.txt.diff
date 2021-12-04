@@ -1,0 +1,13 @@
+diff --git "a/3.0.0/trail_hole/game_Stay.txt" "b/3.0.1/trail_hole/game_Stay.txt"
+index 5125568..9570e33 100644
+--- "a/3.0.0/trail_hole/game_Stay.txt"
++++ "b/3.0.1/trail_hole/game_Stay.txt"
+@@ -1,7 +1,7 @@
+ WorkModule::is_flag(WEAPON_TRAIL_HOLE_INSTANCE_WORK_ID_FLAG_GROUND)
+-if(0x4ae370(false, true)){
++if(0x4ae890(false, true)){
+ 	for(6 Iterations){
+ 		if(is_excute){
+ 			QUAKE(CAMERA_QUAKE_KIND_M)
+ 		}
+ 		wait(Frames=3)

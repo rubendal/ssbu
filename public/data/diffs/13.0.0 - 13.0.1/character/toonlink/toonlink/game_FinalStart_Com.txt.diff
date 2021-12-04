@@ -1,0 +1,17 @@
+diff --git "a/k_13.0.0/toonlink/game_FinalStart_Com.txt" "b/k_13.0.1/toonlink/game_FinalStart_Com.txt"
+index 074d224..2eda69b 100644
+--- "a/k_13.0.0/toonlink/game_FinalStart_Com.txt"
++++ "b/k_13.0.1/toonlink/game_FinalStart_Com.txt"
+@@ -17,11 +17,11 @@ if(0x120e80(1556888, 0)){
+ 		REQ_FINAL_START_CAMERA_arg3(hash40("d04finalstart02.nuanmb"), false, false)
+ 	}
+ 	else{
+ 		if(is_excute){
+ 			PostureModule::scale(3, 0)
+-			0x120e80(1946413686, 2.1)
++			0x120e80(-996042881, 2.1)
+ 			CAM_ZOOM_IN_arg5(0, 0)
+ 			FT_START_CUTIN()
+ 		}
+ 		frame(Frame=13)
+ 		if(is_excute){
