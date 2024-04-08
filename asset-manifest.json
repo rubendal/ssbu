@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ssbu/static/css/main.79387ac2.chunk.css",
-    "main.js": "/ssbu/static/js/main.48c5ac28.chunk.js",
-    "main.js.map": "/ssbu/static/js/main.48c5ac28.chunk.js.map",
-    "runtime-main.js": "/ssbu/static/js/runtime-main.ed613200.js",
-    "runtime-main.js.map": "/ssbu/static/js/runtime-main.ed613200.js.map",
-    "static/css/2.3439055a.chunk.css": "/ssbu/static/css/2.3439055a.chunk.css",
-    "static/js/2.e9a420f5.chunk.js": "/ssbu/static/js/2.e9a420f5.chunk.js",
-    "static/js/2.e9a420f5.chunk.js.map": "/ssbu/static/js/2.e9a420f5.chunk.js.map",
+    "main.css": "/ssbu/static/css/main.d646e081.chunk.css",
+    "main.js": "/ssbu/static/js/main.78017beb.chunk.js",
+    "main.js.map": "/ssbu/static/js/main.78017beb.chunk.js.map",
+    "runtime-main.js": "/ssbu/static/js/runtime-main.38f99b72.js",
+    "runtime-main.js.map": "/ssbu/static/js/runtime-main.38f99b72.js.map",
+    "static/css/2.0615af19.chunk.css": "/ssbu/static/css/2.0615af19.chunk.css",
+    "static/js/2.131484cc.chunk.js": "/ssbu/static/js/2.131484cc.chunk.js",
+    "static/js/2.131484cc.chunk.js.map": "/ssbu/static/js/2.131484cc.chunk.js.map",
     "index.html": "/ssbu/index.html",
-    "static/css/2.3439055a.chunk.css.map": "/ssbu/static/css/2.3439055a.chunk.css.map",
-    "static/css/main.79387ac2.chunk.css.map": "/ssbu/static/css/main.79387ac2.chunk.css.map",
-    "static/js/2.e9a420f5.chunk.js.LICENSE.txt": "/ssbu/static/js/2.e9a420f5.chunk.js.LICENSE.txt",
+    "static/css/2.0615af19.chunk.css.map": "/ssbu/static/css/2.0615af19.chunk.css.map",
+    "static/css/main.d646e081.chunk.css.map": "/ssbu/static/css/main.d646e081.chunk.css.map",
+    "static/js/2.131484cc.chunk.js.LICENSE.txt": "/ssbu/static/js/2.131484cc.chunk.js.LICENSE.txt",
     "static/media/1.0.0.png": "/ssbu/static/media/1.0.0.c71cc8d7.png",
     "static/media/1.2.0 - 2.0.0.png": "/ssbu/static/media/1.2.0 - 2.0.0.455aa3bc.png",
     "static/media/10.0.0 - 10.1.0.png": "/ssbu/static/media/10.0.0 - 10.1.0.01376759.png",
@@ -156,10 +156,10 @@
     "static/media/zero suit samus.png": "/ssbu/static/media/zero suit samus.972d415c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed613200.js",
-    "static/css/2.3439055a.chunk.css",
-    "static/js/2.e9a420f5.chunk.js",
-    "static/css/main.79387ac2.chunk.css",
-    "static/js/main.48c5ac28.chunk.js"
+    "static/js/runtime-main.38f99b72.js",
+    "static/css/2.0615af19.chunk.css",
+    "static/js/2.131484cc.chunk.js",
+    "static/css/main.d646e081.chunk.css",
+    "static/js/main.78017beb.chunk.js"
   ]
 }

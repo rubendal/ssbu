@@ -41,7 +41,9 @@
             "length": 4.999994,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -51,7 +53,9 @@
             "length": 33.9115753,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -61,7 +65,9 @@
             "length": 136.4472,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -71,7 +77,9 @@
             "length": 33.91158,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -81,7 +89,9 @@
             "length": 4.999994,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -118,7 +128,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -217,7 +229,17 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (1)",
@@ -265,7 +287,9 @@
             "length": 76.98093,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -275,7 +299,9 @@
             "length": 24.51464,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -285,7 +311,9 @@
             "length": 11.5986338,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -295,7 +323,9 @@
             "length": 23.0505333,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -305,7 +335,9 @@
             "length": 8.149951,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -315,7 +347,9 @@
             "length": 11.4100132,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -370,7 +404,9 @@
             "length": 11.4088192,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -380,7 +416,9 @@
             "length": 7.91753531,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -390,7 +428,9 @@
             "length": 23.2558937,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -400,7 +440,9 @@
             "length": 16.2400513,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -410,7 +452,9 @@
             "length": 12.6016617,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -420,7 +464,9 @@
             "length": 15.3858538,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -475,7 +521,9 @@
             "length": 17.2062664,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -485,7 +533,9 @@
             "length": 16.711134,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -495,7 +545,9 @@
             "length": 22.2246017,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -505,7 +557,9 @@
             "length": 19.6218834,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -515,7 +569,9 @@
             "length": 28.8430214,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -525,7 +581,9 @@
             "length": 35.48517,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -592,7 +650,9 @@
             "length": 29.7595367,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -602,7 +662,9 @@
             "length": 56.6254,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -612,7 +674,9 @@
             "length": 74.2148743,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -622,7 +686,9 @@
             "length": 43.60209,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -632,7 +698,9 @@
             "length": 77.75879,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -642,7 +710,9 @@
             "length": 54.98513,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -652,7 +722,9 @@
             "length": 53.9534035,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -662,7 +734,9 @@
             "length": 31.7020111,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -672,7 +746,9 @@
             "length": 25.391304,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -743,7 +819,9 @@
             "length": 28.8631783,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -753,7 +831,9 @@
             "length": 29.40378,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -763,7 +843,9 @@
             "length": 38.68556,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -773,7 +855,9 @@
             "length": 36.79098,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -783,7 +867,9 @@
             "length": 82.0031738,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -793,7 +879,9 @@
             "length": 98.2900162,
             "ceiling": false,
             "wall": true,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -803,7 +891,9 @@
             "length": 68.32271,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -813,7 +903,9 @@
             "length": 14.686636,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -823,7 +915,9 @@
             "length": 57.1378479,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -833,7 +927,9 @@
             "length": 36.7035027,
             "ceiling": false,
             "wall": false,
-            "material": "Soil"
+            "material": "Soil",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -933,7 +1029,17 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (2)",
@@ -1001,7 +1107,9 @@
             "length": 394.596,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1011,7 +1119,9 @@
             "length": 53.0332527,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1021,7 +1131,9 @@
             "length": 6.62307262,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1031,7 +1143,9 @@
             "length": 6.63266,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": true,
@@ -1041,7 +1155,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1051,7 +1167,9 @@
             "length": 181.734375,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1061,7 +1179,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1071,7 +1191,9 @@
             "length": 6.63266,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1081,7 +1203,9 @@
             "length": 6.621627,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1091,7 +1215,9 @@
             "length": 53.0325623,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1101,7 +1227,9 @@
             "length": 394.596039,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1201,7 +1329,17 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (3)",
@@ -1313,7 +1451,9 @@
             "length": 11.5357323,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1323,7 +1463,9 @@
             "length": 6.7336154,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1333,7 +1475,9 @@
             "length": 18.9711914,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1343,7 +1487,9 @@
             "length": 15.6186714,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1353,7 +1499,9 @@
             "length": 4.95403576,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1363,7 +1511,9 @@
             "length": 7.464411,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1373,7 +1523,9 @@
             "length": 2.53202534,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1383,7 +1535,9 @@
             "length": 30.1173019,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1393,7 +1547,9 @@
             "length": 28.5617447,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1403,7 +1559,9 @@
             "length": 33.6103325,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1413,7 +1571,9 @@
             "length": 2.42840266,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1423,7 +1583,9 @@
             "length": 15.6723461,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1433,7 +1595,9 @@
             "length": 14.7867184,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1443,7 +1607,9 @@
             "length": 17.5617485,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1453,7 +1619,9 @@
             "length": 23.6369381,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1463,7 +1631,9 @@
             "length": 20.3697319,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1473,7 +1643,9 @@
             "length": 23.2617188,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1483,7 +1655,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1493,7 +1667,9 @@
             "length": 12.35278,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1503,7 +1679,9 @@
             "length": 22.176878,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1513,7 +1691,9 @@
             "length": 27.9834652,
             "ceiling": true,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1523,7 +1703,9 @@
             "length": 147.971252,
             "ceiling": true,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1558,7 +1740,9 @@
             "length": 225.328949,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1593,7 +1777,9 @@
             "length": 225.328949,
             "ceiling": false,
             "wall": true,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1628,7 +1814,9 @@
             "length": 187.366577,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1669,7 +1857,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1679,7 +1869,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1778,7 +1970,17 @@
         90.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (4)",
@@ -1898,7 +2100,9 @@
             "length": 116.692482,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1908,7 +2112,9 @@
             "length": 14.1496592,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1918,7 +2124,9 @@
             "length": 4.186998,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1928,7 +2136,9 @@
             "length": 58.0243835,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1938,7 +2148,9 @@
             "length": 3.62009859,
             "ceiling": false,
             "wall": false,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1948,7 +2160,9 @@
             "length": 9.133658,
             "ceiling": false,
             "wall": false,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1958,7 +2172,9 @@
             "length": 64.65354,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": true,
@@ -1968,7 +2184,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1978,7 +2196,9 @@
             "length": 50.4450226,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1988,7 +2208,9 @@
             "length": 4.81715631,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1998,7 +2220,9 @@
             "length": 1.77983117,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2008,7 +2232,9 @@
             "length": 33.6401,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2018,7 +2244,9 @@
             "length": 1.77990353,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2028,7 +2256,9 @@
             "length": 4.81663465,
             "ceiling": false,
             "wall": false,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2038,7 +2268,9 @@
             "length": 50.21096,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2048,7 +2280,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2058,7 +2292,9 @@
             "length": 64.65356,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2068,7 +2304,9 @@
             "length": 9.132987,
             "ceiling": false,
             "wall": false,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2078,7 +2316,9 @@
             "length": 3.60424376,
             "ceiling": false,
             "wall": false,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2088,7 +2328,9 @@
             "length": 58.0174332,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2098,7 +2340,9 @@
             "length": 4.18699551,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2108,7 +2352,9 @@
             "length": 14.1324053,
             "ceiling": false,
             "wall": true,
-            "material": "Soft"
+            "material": "Soft",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2118,7 +2364,9 @@
             "length": 116.710381,
             "ceiling": false,
             "wall": true,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2128,7 +2376,9 @@
             "length": 154.2279,
             "ceiling": true,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -2228,7 +2478,17 @@
         90.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (5)",
@@ -2304,7 +2564,9 @@
             "length": 100.0,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2314,7 +2576,9 @@
             "length": 87.05207,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2324,7 +2588,9 @@
             "length": 14.4896746,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2334,7 +2600,9 @@
             "length": 17.6304474,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2344,7 +2612,9 @@
             "length": 2.136367,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2354,7 +2624,9 @@
             "length": 13.9301233,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2364,7 +2636,9 @@
             "length": 33.1811142,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2374,7 +2648,9 @@
             "length": 13.13289,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2384,7 +2660,9 @@
             "length": 1.88683188,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2394,7 +2672,9 @@
             "length": 17.4479656,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2404,7 +2684,9 @@
             "length": 14.525383,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2414,7 +2696,9 @@
             "length": 86.95529,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2424,7 +2708,9 @@
             "length": 100.0,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -2539,7 +2825,9 @@
             "length": 100.0,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2549,7 +2837,9 @@
             "length": 101.43148,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2559,7 +2849,9 @@
             "length": 16.5262451,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2569,7 +2861,9 @@
             "length": 1.766811,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2579,7 +2873,9 @@
             "length": 26.5249577,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2589,7 +2885,9 @@
             "length": 7.89368248,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2599,7 +2897,9 @@
             "length": 10.1436052,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2609,7 +2909,9 @@
             "length": 4.29711246,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2619,7 +2921,9 @@
             "length": 1.36652982,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2629,7 +2933,9 @@
             "length": 16.04235,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2639,7 +2945,9 @@
             "length": 11.7118521,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2649,7 +2957,9 @@
             "length": 13.9681892,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2659,7 +2969,9 @@
             "length": 10.61343,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2669,7 +2981,9 @@
             "length": 16.973608,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2679,7 +2993,9 @@
             "length": 2.03871846,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2689,7 +3005,9 @@
             "length": 2.00758958,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2699,7 +3017,9 @@
             "length": 14.5049992,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2709,7 +3029,9 @@
             "length": 15.0133915,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2719,7 +3041,9 @@
             "length": 27.1736259,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2729,7 +3053,9 @@
             "length": 80.1857758,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2739,7 +3065,9 @@
             "length": 100.0,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -2839,7 +3167,17 @@
         110.994331
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (6)",
@@ -2883,7 +3221,9 @@
             "length": 95.12172,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2893,7 +3233,9 @@
             "length": 99.41885,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2903,7 +3245,9 @@
             "length": 59.4723434,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2913,7 +3257,9 @@
             "length": 179.7028,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2923,7 +3269,9 @@
             "length": 450.222626,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3023,7 +3371,17 @@
         90.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (7)",
@@ -3091,7 +3449,9 @@
             "length": 240.067581,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3101,7 +3461,9 @@
             "length": 10.5799093,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3111,7 +3473,9 @@
             "length": 5.2328763,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3121,7 +3485,9 @@
             "length": 3.56568384,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3131,7 +3497,9 @@
             "length": 2.425793,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3141,7 +3509,9 @@
             "length": 2.043117,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3151,7 +3521,9 @@
             "length": 2.1458056,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3161,7 +3533,9 @@
             "length": 119.206818,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3171,7 +3545,9 @@
             "length": 24.69551,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3181,7 +3557,9 @@
             "length": 71.05847,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3191,7 +3569,9 @@
             "length": 32.8413925,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3270,7 +3650,9 @@
             "length": 24.985075,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3280,7 +3662,9 @@
             "length": 187.436035,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3290,7 +3674,9 @@
             "length": 20.4328117,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3300,7 +3686,9 @@
             "length": 12.6489115,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3310,7 +3698,9 @@
             "length": 1.65163267,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3320,7 +3710,9 @@
             "length": 4.767088,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3330,7 +3722,9 @@
             "length": 2.18149567,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3340,7 +3734,9 @@
             "length": 1.25999153,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3350,7 +3746,9 @@
             "length": 8.931846,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3360,7 +3758,9 @@
             "length": 16.9408588,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3370,7 +3770,9 @@
             "length": 14.5470543,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3380,7 +3782,9 @@
             "length": 215.0688,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3419,7 +3823,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Grate"
+            "material": "Grate",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3429,7 +3835,9 @@
             "length": 23.6836166,
             "ceiling": false,
             "wall": false,
-            "material": "Grate"
+            "material": "Grate",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3472,7 +3880,9 @@
             "length": 11.3392992,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3482,7 +3892,9 @@
             "length": 41.59399,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3492,7 +3904,9 @@
             "length": 4.99999857,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3535,7 +3949,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3545,7 +3961,9 @@
             "length": 26.2298622,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3555,7 +3973,9 @@
             "length": 12.7953262,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3594,7 +4014,9 @@
             "length": 34.00628,
             "ceiling": false,
             "wall": false,
-            "material": "Grate"
+            "material": "Grate",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3604,7 +4026,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Grate"
+            "material": "Grate",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3704,7 +4128,17 @@
         110.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (8)",
@@ -3860,7 +4294,9 @@
             "length": 42.6623878,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3870,7 +4306,9 @@
             "length": 46.28473,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3880,7 +4318,9 @@
             "length": 49.63342,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3890,7 +4330,9 @@
             "length": 48.1920929,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3900,7 +4342,9 @@
             "length": 21.4929237,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3910,7 +4354,9 @@
             "length": 27.219574,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3920,7 +4366,9 @@
             "length": 15.7391424,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3930,7 +4378,9 @@
             "length": 50.73631,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3940,7 +4390,9 @@
             "length": 24.1103554,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3950,7 +4402,9 @@
             "length": 22.5310764,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3960,7 +4414,9 @@
             "length": 16.7679176,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3970,7 +4426,9 @@
             "length": 24.9446564,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3980,7 +4438,9 @@
             "length": 37.4521637,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3990,7 +4450,9 @@
             "length": 15.9141731,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4000,7 +4462,9 @@
             "length": 8.88711,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4010,7 +4474,9 @@
             "length": 9.965096,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4020,7 +4486,9 @@
             "length": 3.91208768,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4030,7 +4498,9 @@
             "length": 8.57242,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4040,7 +4510,9 @@
             "length": 2.629021,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4050,7 +4522,9 @@
             "length": 7.5,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4060,7 +4534,9 @@
             "length": 14.849926,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4070,7 +4546,9 @@
             "length": 23.4318867,
             "ceiling": true,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4080,7 +4558,9 @@
             "length": 20.9302521,
             "ceiling": true,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4090,7 +4570,9 @@
             "length": 10.6536732,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4100,7 +4582,9 @@
             "length": 24.8598633,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4110,7 +4594,9 @@
             "length": 16.8929367,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4120,7 +4606,9 @@
             "length": 35.3138962,
             "ceiling": true,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4130,7 +4618,9 @@
             "length": 47.9551926,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4140,7 +4630,9 @@
             "length": 56.9274,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4150,7 +4642,9 @@
             "length": 21.0790157,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4160,7 +4654,9 @@
             "length": 28.1490955,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4170,7 +4666,9 @@
             "length": 9.963936,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4180,7 +4678,9 @@
             "length": 113.118607,
             "ceiling": false,
             "wall": true,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4280,7 +4780,17 @@
         105.952339
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (9)",
@@ -4380,7 +4890,9 @@
             "length": 204.0043,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4390,7 +4902,9 @@
             "length": 157.112122,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4400,7 +4914,9 @@
             "length": 7.32416,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4410,7 +4926,9 @@
             "length": 6.966797,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4420,7 +4938,9 @@
             "length": 11.8692837,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4430,7 +4950,9 @@
             "length": 45.01332,
             "ceiling": false,
             "wall": false,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4440,7 +4962,9 @@
             "length": 22.8026619,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4450,7 +4974,9 @@
             "length": 2.90995121,
             "ceiling": false,
             "wall": false,
-            "material": "NoEffects"
+            "material": "NoEffects",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4460,7 +4986,9 @@
             "length": 2.544892,
             "ceiling": false,
             "wall": false,
-            "material": "NoEffects"
+            "material": "NoEffects",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4470,7 +4998,9 @@
             "length": 12.36996,
             "ceiling": false,
             "wall": false,
-            "material": "NoEffects"
+            "material": "NoEffects",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4480,7 +5010,9 @@
             "length": 2.54381919,
             "ceiling": false,
             "wall": false,
-            "material": "NoEffects"
+            "material": "NoEffects",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4490,7 +5022,9 @@
             "length": 2.90664983,
             "ceiling": false,
             "wall": false,
-            "material": "NoEffects"
+            "material": "NoEffects",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4500,7 +5034,9 @@
             "length": 22.80919,
             "ceiling": false,
             "wall": true,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4510,7 +5046,9 @@
             "length": 45.01348,
             "ceiling": false,
             "wall": false,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4520,7 +5058,9 @@
             "length": 11.8692837,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4530,7 +5070,9 @@
             "length": 6.966797,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4540,7 +5082,9 @@
             "length": 7.32416,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4550,7 +5094,9 @@
             "length": 157.110657,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4560,7 +5106,9 @@
             "length": 204.0043,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4660,7 +5208,17 @@
         90.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (10)",
@@ -4712,7 +5270,9 @@
             "length": 4.999997,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4722,7 +5282,9 @@
             "length": 62.100563,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4732,7 +5294,9 @@
             "length": 5.633134,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4742,7 +5306,9 @@
             "length": 65.34045,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4752,7 +5318,9 @@
             "length": 5.63313,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4762,7 +5330,9 @@
             "length": 62.1005669,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4772,7 +5342,9 @@
             "length": 4.999997,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4809,7 +5381,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4875,7 +5449,17 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (11)",
@@ -4911,7 +5495,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4921,7 +5507,9 @@
             "length": 200.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4931,7 +5519,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4968,7 +5558,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5003,7 +5595,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5069,7 +5663,17 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   },
   {
     "stage": "Wuhu Island (12)",
@@ -5105,7 +5709,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5115,7 +5721,9 @@
             "length": 199.732666,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5125,7 +5733,9 @@
             "length": 5.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5166,7 +5776,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5176,7 +5788,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5215,7 +5829,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5225,7 +5841,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5291,6 +5909,16 @@
         100.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 1.0,
+      "cell_sensitivity": 0.87,
+      "line_offset": 4.9,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 78.0,
+      "cell_minilen_bottom": 30.0
+    }
   }
 ]

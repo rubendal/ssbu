@@ -525,6 +525,16 @@
         98.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 0.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 0.0,
+      "cell_minilen_bottom": 0.0
+    }
   }
 ]

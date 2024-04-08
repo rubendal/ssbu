@@ -29,7 +29,9 @@
             "length": 64.38512,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -39,7 +41,9 @@
             "length": 7.29686356,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -78,7 +82,9 @@
             "length": 4.91991425,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -88,7 +94,9 @@
             "length": 66.76206,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -127,7 +135,9 @@
             "length": 65.04967,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -137,7 +147,9 @@
             "length": 6.632309,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -174,7 +186,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -209,7 +223,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -244,7 +260,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -279,7 +297,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -314,7 +334,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -349,7 +371,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -384,7 +408,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -419,7 +445,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Electroplankton"
+            "material": "Electroplankton",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -518,6 +546,16 @@
         115.765091
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -9.0,
+      "cell_sensitivity": 0.8,
+      "line_offset": 5.0,
+      "cell_minilen_side": 40.0,
+      "cell_minilen_top": 35.0,
+      "cell_minilen_bottom": 20.0
+    }
   }
 ]

@@ -33,7 +33,9 @@
             "length": 314.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -43,7 +45,9 @@
             "length": 20.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -53,7 +57,9 @@
             "length": 314.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -90,7 +96,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -125,7 +133,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -160,7 +170,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -195,7 +207,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -230,7 +244,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -265,7 +281,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -300,7 +318,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -335,7 +355,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -370,7 +392,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -405,7 +429,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -440,7 +466,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -475,7 +503,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -510,7 +540,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -609,7 +641,17 @@
         45.83838
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.5,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 29.0,
+      "cell_minilen_bottom": 0.0
+    }
   },
   {
     "stage": "Flat Zone X (1)",
@@ -638,7 +680,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -673,7 +717,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -708,7 +754,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -743,7 +791,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -842,7 +892,17 @@
         45.838
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.5,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 29.0,
+      "cell_minilen_bottom": 0.0
+    }
   },
   {
     "stage": "Flat Zone X (2)",
@@ -871,7 +931,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -906,7 +968,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1005,7 +1069,17 @@
         44.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.5,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 29.0,
+      "cell_minilen_bottom": 0.0
+    }
   },
   {
     "stage": "Flat Zone X (3)",
@@ -1033,7 +1107,9 @@
             "length": 79.38902,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1070,7 +1146,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1105,7 +1183,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1204,7 +1284,17 @@
         33.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.5,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 29.0,
+      "cell_minilen_bottom": 0.0
+    }
   },
   {
     "stage": "Flat Zone X (4)",
@@ -1233,7 +1323,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1268,7 +1360,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1303,7 +1397,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1338,7 +1434,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1373,7 +1471,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1408,7 +1508,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1443,7 +1545,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1478,7 +1582,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1513,7 +1619,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1552,7 +1660,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1562,7 +1672,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "GameWatch"
+            "material": "GameWatch",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1661,6 +1773,16 @@
         45.838
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.5,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 29.0,
+      "cell_minilen_bottom": 0.0
+    }
   }
 ]

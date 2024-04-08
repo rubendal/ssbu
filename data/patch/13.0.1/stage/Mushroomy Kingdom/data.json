@@ -25,7 +25,9 @@
             "length": 382.7968,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -72,7 +74,9 @@
             "length": 16.0825081,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -82,7 +86,9 @@
             "length": 16.5003967,
             "ceiling": false,
             "wall": false,
-            "material": "Grate"
+            "material": "Grate",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -92,7 +98,9 @@
             "length": 16.0825424,
             "ceiling": false,
             "wall": true,
-            "material": "HeavyMetal"
+            "material": "HeavyMetal",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -102,7 +110,9 @@
             "length": 36.20291,
             "ceiling": false,
             "wall": false,
-            "material": "Brick"
+            "material": "Brick",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -202,6 +212,16 @@
         96.73464
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 1.2,
+      "origin_y": -29.0,
+      "cell_sensitivity": 0.76,
+      "line_offset": 6.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 40.0,
+      "cell_minilen_bottom": 10.0
+    }
   }
 ]

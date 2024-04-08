@@ -2,206 +2,7 @@
   {
     "stage": "Garreg Mach Monastery",
     "name": "Garreg Mach Monastery",
-    "lvd": "garreg_00",
-    "collisions": [
-      {
-        "name": "COL_curve1",
-        "vertex": [
-          [
-            -430.0,
-            0.0
-          ],
-          [
-            330.0,
-            0.0
-          ]
-        ],
-        "materials": [
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 760.0,
-            "ceiling": false,
-            "wall": false,
-            "material": "Rock"
-          }
-        ],
-        "boundingBox": [
-          [
-            -430.0,
-            0.0
-          ],
-          [
-            330.0,
-            0.0
-          ]
-        ]
-      }
-    ],
-    "platforms": [
-      {
-        "name": "COL_floatingfloor_T",
-        "vertex": [
-          [
-            -75.0,
-            35.0
-          ],
-          [
-            -40.0,
-            35.0
-          ]
-        ],
-        "materials": [
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 0.0,
-            "ceiling": false,
-            "wall": false,
-            "material": "Rock"
-          }
-        ],
-        "boundingBox": [
-          [
-            -17.5,
-            7.10542736E-15
-          ],
-          [
-            17.5,
-            1.42108547E-14
-          ]
-        ]
-      },
-      {
-        "name": "COL_floatingfloor_T1",
-        "vertex": [
-          [
-            40.0,
-            35.0
-          ],
-          [
-            75.0,
-            35.0
-          ]
-        ],
-        "materials": [
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 0.0,
-            "ceiling": false,
-            "wall": false,
-            "material": "Rock"
-          }
-        ],
-        "boundingBox": [
-          [
-            -17.5,
-            7.10542736E-15
-          ],
-          [
-            17.5,
-            1.42108547E-14
-          ]
-        ]
-      }
-    ],
-    "blast_zones": [
-      -185.0,
-      185.0,
-      190.0,
-      -150.0
-    ],
-    "camera": [
-      -110.0,
-      109.999992,
-      120.0,
-      -15.0
-    ],
-    "center": [
-      0.0,
-      0.0
-    ],
-    "spawns": [
-      [
-        -37.5,
-        0.0
-      ],
-      [
-        37.5,
-        0.0
-      ],
-      [
-        -87.5,
-        0.0
-      ],
-      [
-        87.5,
-        0.0
-      ],
-      [
-        -62.1244278,
-        0.0
-      ],
-      [
-        62.5,
-        0.0
-      ],
-      [
-        -12.5,
-        0.0
-      ],
-      [
-        12.5,
-        0.0
-      ]
-    ],
-    "respawns": [
-      [
-        0.0,
-        62.5
-      ],
-      [
-        30.0,
-        62.5
-      ],
-      [
-        -30.0,
-        62.5
-      ],
-      [
-        60.0,
-        62.5
-      ],
-      [
-        -15.0,
-        79.5
-      ],
-      [
-        15.0,
-        79.5
-      ],
-      [
-        -45.0,
-        79.5
-      ],
-      [
-        45.0,
-        79.5
-      ]
-    ],
-    "items": []
-  },
-  {
-    "stage": "Garreg Mach Monastery (1)",
-    "name": "Garreg Mach Monastery",
-    "lvd": "garreg_01",
+    "lvd": "fe_shrine_00",
     "collisions": [
       {
         "name": "COL_curve1",
@@ -240,7 +41,9 @@
             "length": 321.904266,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -250,7 +53,9 @@
             "length": 6.52166128,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -260,7 +65,9 @@
             "length": 43.2165756,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -270,7 +77,9 @@
             "length": 6.52621126,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -280,7 +89,9 @@
             "length": 321.832977,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -319,7 +130,9 @@
             "length": 133.845276,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -329,7 +142,9 @@
             "length": 190.427292,
             "ceiling": false,
             "wall": true,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -368,7 +183,9 @@
             "length": 189.585953,
             "ceiling": false,
             "wall": true,
-            "material": "Carpet"
+            "material": "Carpet",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -378,7 +195,9 @@
             "length": 110.577988,
             "ceiling": false,
             "wall": false,
-            "material": "Carpet"
+            "material": "Carpet",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -415,7 +234,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Wood"
+            "material": "Wood",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -514,51 +335,41 @@
         82.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 45.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
-    "stage": "Garreg Mach Monastery (2)",
+    "stage": "Garreg Mach Monastery (1)",
     "name": "Garreg Mach Monastery",
-    "lvd": "garreg_02",
+    "lvd": "fe_shrine_01",
     "collisions": [
       {
         "name": "COL_curve1",
         "vertex": [
           [
-            -20.0,
-            -15.0
-          ],
-          [
-            -90.0,
-            -5.0
-          ],
-          [
-            -90.0,
+            -350.0,
             0.0
           ],
           [
-            -85.0,
+            -80.0,
             0.0
           ],
           [
-            85.0,
+            80.0,
             0.0
           ],
           [
-            90.0,
+            350.0,
             0.0
-          ],
-          [
-            90.0,
-            -5.0
-          ],
-          [
-            20.0,
-            -15.0
-          ],
-          [
-            -20.0,
-            -15.0
           ]
         ],
         "materials": [
@@ -566,107 +377,138 @@
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 262,
-            "length": 70.71068,
-            "ceiling": true,
-            "wall": false,
-            "material": "Basic"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 180,
-            "length": 5.0,
-            "ceiling": false,
-            "wall": true,
-            "material": "Basic"
-          },
-          {
-            "leftLedge": true,
-            "rightLedge": false,
-            "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 5.0,
+            "length": 270.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 170.0,
+            "length": 160.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
-            "rightLedge": true,
+            "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 5.0,
+            "length": 270.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 0,
-            "length": 5.0,
-            "ceiling": false,
-            "wall": true,
-            "material": "Basic"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 279,
-            "length": 70.71068,
-            "ceiling": true,
-            "wall": false,
-            "material": "Basic"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 270,
-            "length": 40.0,
-            "ceiling": true,
-            "wall": false,
-            "material": "Basic"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
           [
-            -90.0,
-            -15.0
+            -350.0,
+            0.0
           ],
           [
-            90.0,
+            350.0,
             0.0
           ]
         ]
       }
     ],
-    "platforms": [],
-    "blast_zones": [
-      -230.0,
-      230.0,
-      180.0,
-      -140.0
+    "platforms": [
+      {
+        "name": "COL_floatingfloor_L",
+        "vertex": [
+          [
+            -65.0,
+            90.0
+          ],
+          [
+            -30.0,
+            90.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            0.0
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      },
+      {
+        "name": "COL_floatingfloor_R",
+        "vertex": [
+          [
+            30.0,
+            90.0
+          ],
+          [
+            65.0,
+            90.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "LightMetal",
+            "throughable": false,
+            "pickel_block": true
+          }
+        ],
+        "boundingBox": [
+          [
+            -17.5,
+            0.0
+          ],
+          [
+            17.5,
+            1.42108547E-14
+          ]
+        ]
+      }
     ],
-    "camera": [
+    "blast_zones": [
       -170.0,
       170.0,
-      130.0,
-      -60.0
+      170.0,
+      -170.0
+    ],
+    "camera": [
+      -95.0,
+      94.99999,
+      105.0,
+      -15.0
     ],
     "center": [
       0.0,
@@ -674,78 +516,88 @@
     ],
     "spawns": [
       [
-        -30.0,
-        0.698034
+        -37.5,
+        0.0
       ],
       [
-        30.0,
-        0.698034
+        37.5,
+        0.0
       ],
       [
-        -70.0,
-        0.698034
+        -62.5,
+        0.0
       ],
       [
-        70.0,
-        0.698034
+        62.5,
+        0.0
       ],
       [
-        -50.0,
-        0.698
+        -85.0,
+        0.0
       ],
       [
-        50.0,
-        0.698
+        85.0,
+        0.0
       ],
       [
-        -10.0,
-        0.698
+        -12.5,
+        0.0
       ],
       [
-        10.0,
-        0.698034
+        12.5,
+        0.0
       ]
     ],
     "respawns": [
       [
-        7.10542736E-15,
-        63.0
+        0.0,
+        65.0
       ],
       [
-        20.0,
-        63.0
+        25.0,
+        65.0
       ],
       [
-        -20.0,
-        63.0
+        -25.0,
+        65.0
       ],
       [
-        40.0,
-        63.0
+        50.0,
+        65.0
       ],
       [
-        -10.0,
-        80.08096
+        -12.5,
+        92.5
       ],
       [
-        10.0,
-        80.08096
+        12.5,
+        92.5
       ],
       [
-        -30.0,
-        80.08096
+        -37.5,
+        92.5
       ],
       [
-        30.0,
-        80.08096
+        37.5,
+        92.5
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 45.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
-    "stage": "Garreg Mach Monastery (3)",
+    "stage": "Garreg Mach Monastery (2)",
     "name": "Garreg Mach Monastery",
-    "lvd": "garreg_03",
+    "lvd": "fe_shrine_02",
     "collisions": [
       {
         "name": "COL_curve1",
@@ -768,7 +620,9 @@
             "length": 760.0,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -868,30 +722,32 @@
         87.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 45.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
-    "stage": "Garreg Mach Monastery (4)",
+    "stage": "Garreg Mach Monastery (3)",
     "name": "Garreg Mach Monastery",
-    "lvd": "garreg_04",
+    "lvd": "fe_shrine_03",
     "collisions": [
       {
         "name": "COL_curve1",
         "vertex": [
           [
-            -350.0,
+            -430.0,
             0.0
           ],
           [
-            -80.0,
-            0.0
-          ],
-          [
-            80.0,
-            0.0
-          ],
-          [
-            350.0,
+            330.0,
             0.0
           ]
         ],
@@ -901,39 +757,21 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 270.0,
+            "length": 760.0,
             "ceiling": false,
             "wall": false,
-            "material": "Rock"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 160.0,
-            "ceiling": false,
-            "wall": false,
-            "material": "Rock"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 270.0,
-            "ceiling": false,
-            "wall": false,
-            "material": "Rock"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
           [
-            -350.0,
+            -430.0,
             0.0
           ],
           [
-            350.0,
+            330.0,
             0.0
           ]
         ]
@@ -941,15 +779,15 @@
     ],
     "platforms": [
       {
-        "name": "COL_floatingfloor_L",
+        "name": "COL_floatingfloor_T",
         "vertex": [
           [
-            -65.0,
-            90.0
+            -75.0,
+            35.0
           ],
           [
-            -30.0,
-            90.0
+            -40.0,
+            35.0
           ]
         ],
         "materials": [
@@ -961,13 +799,15 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
           [
             -17.5,
-            0.0
+            7.10542736E-15
           ],
           [
             17.5,
@@ -976,15 +816,15 @@
         ]
       },
       {
-        "name": "COL_floatingfloor_R",
+        "name": "COL_floatingfloor_T1",
         "vertex": [
           [
-            30.0,
-            90.0
+            40.0,
+            35.0
           ],
           [
-            65.0,
-            90.0
+            75.0,
+            35.0
           ]
         ],
         "materials": [
@@ -996,13 +836,15 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "LightMetal"
+            "material": "Rock",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
           [
             -17.5,
-            0.0
+            7.10542736E-15
           ],
           [
             17.5,
@@ -1012,15 +854,15 @@
       }
     ],
     "blast_zones": [
-      -170.0,
-      170.0,
-      170.0,
-      -170.0
+      -185.0,
+      185.0,
+      190.0,
+      -150.0
     ],
     "camera": [
-      -95.0,
-      94.99999,
-      105.0,
+      -110.0,
+      109.999992,
+      120.0,
       -15.0
     ],
     "center": [
@@ -1037,19 +879,19 @@
         0.0
       ],
       [
-        -62.5,
+        -87.5,
+        0.0
+      ],
+      [
+        87.5,
+        0.0
+      ],
+      [
+        -62.1244278,
         0.0
       ],
       [
         62.5,
-        0.0
-      ],
-      [
-        -85.0,
-        0.0
-      ],
-      [
-        85.0,
         0.0
       ],
       [
@@ -1064,37 +906,299 @@
     "respawns": [
       [
         0.0,
-        65.0
+        62.5
       ],
       [
-        25.0,
-        65.0
+        30.0,
+        62.5
       ],
       [
-        -25.0,
-        65.0
+        -30.0,
+        62.5
+      ],
+      [
+        60.0,
+        62.5
+      ],
+      [
+        -15.0,
+        79.5
+      ],
+      [
+        15.0,
+        79.5
+      ],
+      [
+        -45.0,
+        79.5
+      ],
+      [
+        45.0,
+        79.5
+      ]
+    ],
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 45.0,
+      "cell_minilen_bottom": 10.0
+    }
+  },
+  {
+    "stage": "Garreg Mach Monastery (4)",
+    "name": "Garreg Mach Monastery",
+    "lvd": "fe_shrine_04",
+    "collisions": [
+      {
+        "name": "COL_curve1",
+        "vertex": [
+          [
+            -20.0,
+            -15.0
+          ],
+          [
+            -90.0,
+            -5.0
+          ],
+          [
+            -90.0,
+            0.0
+          ],
+          [
+            -85.0,
+            0.0
+          ],
+          [
+            85.0,
+            0.0
+          ],
+          [
+            90.0,
+            0.0
+          ],
+          [
+            90.0,
+            -5.0
+          ],
+          [
+            20.0,
+            -15.0
+          ],
+          [
+            -20.0,
+            -15.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 262,
+            "length": 70.71068,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 170.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 279,
+            "length": 70.71068,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 270,
+            "length": 40.0,
+            "ceiling": true,
+            "wall": false,
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
+          }
+        ],
+        "boundingBox": [
+          [
+            -90.0,
+            -15.0
+          ],
+          [
+            90.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [],
+    "blast_zones": [
+      -230.0,
+      230.0,
+      180.0,
+      -140.0
+    ],
+    "camera": [
+      -170.0,
+      170.0,
+      130.0,
+      -60.0
+    ],
+    "center": [
+      0.0,
+      0.0
+    ],
+    "spawns": [
+      [
+        -30.0,
+        0.698034
+      ],
+      [
+        30.0,
+        0.698034
+      ],
+      [
+        -70.0,
+        0.698034
+      ],
+      [
+        70.0,
+        0.698034
+      ],
+      [
+        -50.0,
+        0.698
       ],
       [
         50.0,
-        65.0
+        0.698
       ],
       [
-        -12.5,
-        92.5
+        -10.0,
+        0.698
       ],
       [
-        12.5,
-        92.5
-      ],
-      [
-        -37.5,
-        92.5
-      ],
-      [
-        37.5,
-        92.5
+        10.0,
+        0.698034
       ]
     ],
-    "items": []
+    "respawns": [
+      [
+        7.10542736E-15,
+        63.0
+      ],
+      [
+        20.0,
+        63.0
+      ],
+      [
+        -20.0,
+        63.0
+      ],
+      [
+        40.0,
+        63.0
+      ],
+      [
+        -10.0,
+        80.08096
+      ],
+      [
+        10.0,
+        80.08096
+      ],
+      [
+        -30.0,
+        80.08096
+      ],
+      [
+        30.0,
+        80.08096
+      ]
+    ],
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 1.0,
+      "line_offset": 2.0,
+      "cell_minilen_side": 20.0,
+      "cell_minilen_top": 45.0,
+      "cell_minilen_bottom": 10.0
+    }
   }
 ]

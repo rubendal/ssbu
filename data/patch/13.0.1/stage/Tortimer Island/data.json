@@ -121,7 +121,9 @@
             "length": 75.0,
             "ceiling": false,
             "wall": true,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -131,7 +133,9 @@
             "length": 58.30952,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -141,7 +145,9 @@
             "length": 14.6968346,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -151,7 +157,9 @@
             "length": 16.1239967,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -161,7 +169,9 @@
             "length": 10.767004,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -171,7 +181,9 @@
             "length": 18.8690987,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -181,7 +193,9 @@
             "length": 4.410261,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -191,7 +205,9 @@
             "length": 3.98666167,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -201,7 +217,9 @@
             "length": 5.17735863,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -211,7 +229,9 @@
             "length": 6.204178,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -221,7 +241,9 @@
             "length": 16.4133244,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -231,7 +253,9 @@
             "length": 33.75308,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -241,7 +265,9 @@
             "length": 22.5006332,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -251,7 +277,9 @@
             "length": 11.2632151,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -261,7 +289,9 @@
             "length": 18.58712,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -271,7 +301,9 @@
             "length": 9.393182,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -281,7 +313,9 @@
             "length": 3.87967062,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -291,7 +325,9 @@
             "length": 4.54529333,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -301,7 +337,9 @@
             "length": 5.45723438,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -311,7 +349,9 @@
             "length": 10.5344524,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -321,7 +361,9 @@
             "length": 11.0877886,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -331,7 +373,9 @@
             "length": 14.6214743,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -341,7 +385,9 @@
             "length": 16.8589973,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -351,7 +397,9 @@
             "length": 58.30952,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -361,7 +409,9 @@
             "length": 75.0,
             "ceiling": false,
             "wall": true,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -461,7 +511,17 @@
         107.496277
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 3.0,
+      "origin_y": 1.2,
+      "cell_sensitivity": 0.8,
+      "line_offset": 7.0,
+      "cell_minilen_side": 50.0,
+      "cell_minilen_top": 68.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
     "stage": "Tortimer Island (1)",
@@ -573,7 +633,9 @@
             "length": 75.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -583,7 +645,9 @@
             "length": 41.2310562,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -593,7 +657,9 @@
             "length": 36.05551,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -603,7 +669,9 @@
             "length": 16.773243,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -613,7 +681,9 @@
             "length": 26.4383354,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -623,7 +693,9 @@
             "length": 29.05102,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -633,7 +705,9 @@
             "length": 4.988925,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -643,7 +717,9 @@
             "length": 9.536759,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -653,7 +729,9 @@
             "length": 15.2705317,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -663,7 +741,9 @@
             "length": 12.407896,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -673,7 +753,9 @@
             "length": 17.2292156,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -683,7 +765,9 @@
             "length": 8.257889,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -693,7 +777,9 @@
             "length": 8.307843,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -703,7 +789,9 @@
             "length": 9.429754,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -713,7 +801,9 @@
             "length": 6.72356749,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -723,7 +813,9 @@
             "length": 27.927496,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -733,7 +825,9 @@
             "length": 21.6384487,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -743,7 +837,9 @@
             "length": 15.540575,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -753,7 +849,9 @@
             "length": 35.1117363,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -763,7 +861,9 @@
             "length": 43.0357361,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -773,7 +873,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": true,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -783,7 +885,9 @@
             "length": 80.0,
             "ceiling": false,
             "wall": true,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -883,7 +987,17 @@
         110.202614
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 3.0,
+      "origin_y": 1.2,
+      "cell_sensitivity": 0.8,
+      "line_offset": 7.0,
+      "cell_minilen_side": 50.0,
+      "cell_minilen_top": 68.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
     "stage": "Tortimer Island (2)",
@@ -991,7 +1105,9 @@
             "length": 65.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1001,7 +1117,9 @@
             "length": 10.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1011,7 +1129,9 @@
             "length": 58.30952,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1021,7 +1141,9 @@
             "length": 14.69684,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1031,7 +1153,9 @@
             "length": 16.0241718,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1041,7 +1165,9 @@
             "length": 19.8670025,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1051,7 +1177,9 @@
             "length": 55.0368156,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1061,7 +1189,9 @@
             "length": 9.185149,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1071,7 +1201,9 @@
             "length": 4.43236828,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1081,7 +1213,9 @@
             "length": 9.85438251,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1091,7 +1225,9 @@
             "length": 15.8219671,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1101,7 +1237,9 @@
             "length": 25.2493458,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1111,7 +1249,9 @@
             "length": 28.6947117,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1121,7 +1261,9 @@
             "length": 15.6770353,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1131,7 +1273,9 @@
             "length": 10.9959383,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1141,7 +1285,9 @@
             "length": 3.18568587,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1151,7 +1297,9 @@
             "length": 5.76706457,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1161,7 +1309,9 @@
             "length": 8.913705,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1171,7 +1321,9 @@
             "length": 78.3993759,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1181,7 +1333,9 @@
             "length": 10.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1191,7 +1345,9 @@
             "length": 65.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1291,7 +1447,17 @@
         106.645538
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 3.0,
+      "origin_y": 1.2,
+      "cell_sensitivity": 0.8,
+      "line_offset": 7.0,
+      "cell_minilen_side": 50.0,
+      "cell_minilen_top": 68.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
     "stage": "Tortimer Island (3)",
@@ -1399,7 +1565,9 @@
             "length": 65.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1409,7 +1577,9 @@
             "length": 10.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1419,7 +1589,9 @@
             "length": 58.30952,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1429,7 +1601,9 @@
             "length": 14.69684,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1439,7 +1613,9 @@
             "length": 16.0241718,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1449,7 +1625,9 @@
             "length": 10.1155024,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1459,7 +1637,9 @@
             "length": 6.851915,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1469,7 +1649,9 @@
             "length": 11.80646,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1479,7 +1661,9 @@
             "length": 25.872282,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1489,7 +1673,9 @@
             "length": 40.6260948,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1499,7 +1685,9 @@
             "length": 32.79952,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1509,7 +1697,9 @@
             "length": 26.3406124,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1519,7 +1709,9 @@
             "length": 22.07772,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1529,7 +1721,9 @@
             "length": 11.4109936,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1539,7 +1733,9 @@
             "length": 5.861027,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1549,7 +1745,9 @@
             "length": 4.07770348,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1559,7 +1757,9 @@
             "length": 15.5584249,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1569,7 +1769,9 @@
             "length": 16.04024,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1579,7 +1781,9 @@
             "length": 61.03278,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1589,7 +1793,9 @@
             "length": 15.0,
             "ceiling": false,
             "wall": true,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1599,7 +1805,9 @@
             "length": 60.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1699,7 +1907,17 @@
         108.066444
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 3.0,
+      "origin_y": 1.2,
+      "cell_sensitivity": 0.8,
+      "line_offset": 7.0,
+      "cell_minilen_side": 50.0,
+      "cell_minilen_top": 68.0,
+      "cell_minilen_bottom": 10.0
+    }
   },
   {
     "stage": "Tortimer Island (4)",
@@ -1823,7 +2041,9 @@
             "length": 55.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1833,7 +2053,9 @@
             "length": 20.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1843,7 +2065,9 @@
             "length": 58.30952,
             "ceiling": false,
             "wall": false,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1853,7 +2077,9 @@
             "length": 14.69684,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1863,7 +2089,9 @@
             "length": 16.0241718,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1873,7 +2101,9 @@
             "length": 10.78907,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1883,7 +2113,9 @@
             "length": 4.26384,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1893,7 +2125,9 @@
             "length": 4.65189266,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1903,7 +2137,9 @@
             "length": 10.6130838,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1913,7 +2149,9 @@
             "length": 25.1947918,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1923,7 +2161,9 @@
             "length": 21.0847874,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1933,7 +2173,9 @@
             "length": 4.504428,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1943,7 +2185,9 @@
             "length": 8.062197,
             "ceiling": false,
             "wall": false,
-            "material": "Grass"
+            "material": "Grass",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1953,7 +2197,9 @@
             "length": 9.602367,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1963,7 +2209,9 @@
             "length": 4.232488,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1973,7 +2221,9 @@
             "length": 5.62892246,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1983,7 +2233,9 @@
             "length": 6.19871855,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1993,7 +2245,9 @@
             "length": 51.6853065,
             "ceiling": false,
             "wall": false,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2003,7 +2257,9 @@
             "length": 9.13594,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2013,7 +2269,9 @@
             "length": 22.9628716,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2023,7 +2281,9 @@
             "length": 15.5356731,
             "ceiling": false,
             "wall": false,
-            "material": "Sand"
+            "material": "Sand",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2033,7 +2293,9 @@
             "length": 16.1439667,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2043,7 +2305,9 @@
             "length": 61.03278,
             "ceiling": false,
             "wall": false,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2053,7 +2317,9 @@
             "length": 35.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2063,7 +2329,9 @@
             "length": 40.0,
             "ceiling": false,
             "wall": true,
-            "material": "Water"
+            "material": "Water",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -2163,6 +2431,16 @@
         107.214485
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "sand",
+      "origin_x": 3.0,
+      "origin_y": 1.2,
+      "cell_sensitivity": 0.8,
+      "line_offset": 7.0,
+      "cell_minilen_side": 50.0,
+      "cell_minilen_top": 68.0,
+      "cell_minilen_bottom": 10.0
+    }
   }
 ]

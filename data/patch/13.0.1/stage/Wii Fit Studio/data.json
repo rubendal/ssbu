@@ -25,7 +25,9 @@
             "length": 600.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -62,7 +64,9 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -161,6 +165,16 @@
         106.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": 0.0,
+      "cell_sensitivity": 0.8,
+      "line_offset": 1.0,
+      "cell_minilen_side": 15.0,
+      "cell_minilen_top": 40.0,
+      "cell_minilen_bottom": 0.0
+    }
   }
 ]

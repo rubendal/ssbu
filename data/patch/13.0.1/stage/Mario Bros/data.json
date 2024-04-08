@@ -25,7 +25,9 @@
             "length": 440.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -72,7 +74,9 @@
             "length": 10.9643831,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -82,7 +86,9 @@
             "length": 10.8631573,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -92,7 +98,9 @@
             "length": 11.0002127,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -102,7 +110,9 @@
             "length": 11.0,
             "ceiling": true,
             "wall": false,
-            "material": "Basic"
+            "material": "Basic",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -309,7 +319,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -319,7 +331,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -329,7 +343,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -339,7 +355,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -349,7 +367,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -359,7 +379,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -369,7 +391,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -379,7 +403,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -389,7 +415,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -399,7 +427,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -409,7 +439,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -419,7 +451,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -429,7 +463,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -439,7 +475,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -449,7 +487,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -459,7 +499,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -469,7 +511,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -479,7 +523,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -489,7 +535,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -499,7 +547,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -509,7 +559,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -519,7 +571,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -529,7 +583,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -539,7 +595,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -549,7 +607,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -559,7 +619,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -569,7 +631,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -579,7 +643,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -589,7 +655,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -599,7 +667,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -609,7 +679,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -619,7 +691,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -629,7 +703,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -639,7 +715,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -649,7 +727,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -659,7 +739,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -669,7 +751,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -679,7 +763,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -689,7 +775,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -699,7 +787,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -709,7 +799,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -719,7 +811,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -729,7 +823,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -739,7 +835,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -946,7 +1044,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -956,7 +1056,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -966,7 +1068,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -976,7 +1080,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -986,7 +1092,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -996,7 +1104,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1006,7 +1116,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1016,7 +1128,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1026,7 +1140,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1036,7 +1152,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1046,7 +1164,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1056,7 +1176,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1066,7 +1188,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1076,7 +1200,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1086,7 +1212,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1096,7 +1224,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1106,7 +1236,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1116,7 +1248,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1126,7 +1260,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1136,7 +1272,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1146,7 +1284,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1156,7 +1296,9 @@
             "length": 6.00000763,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1166,7 +1308,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1176,7 +1320,9 @@
             "length": 6.00000763,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1186,7 +1332,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1196,7 +1344,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1206,7 +1356,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1216,7 +1368,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1226,7 +1380,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1236,7 +1392,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1246,7 +1404,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1256,7 +1416,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1266,7 +1428,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1276,7 +1440,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1286,7 +1452,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1296,7 +1464,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1306,7 +1476,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1316,7 +1488,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1326,7 +1500,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1336,7 +1512,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1346,7 +1524,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1356,7 +1536,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1366,7 +1548,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1376,7 +1560,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -1583,7 +1769,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1593,7 +1781,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1603,7 +1793,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1613,7 +1805,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1623,7 +1817,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1633,7 +1829,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1643,7 +1841,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1653,7 +1853,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1663,7 +1865,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1673,7 +1877,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1683,7 +1889,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1693,7 +1901,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1703,7 +1913,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1713,7 +1925,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1723,7 +1937,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1733,7 +1949,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1743,7 +1961,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1753,7 +1973,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1763,7 +1985,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1773,7 +1997,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1783,7 +2009,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1793,7 +2021,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1803,7 +2033,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1813,7 +2045,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1823,7 +2057,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1833,7 +2069,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1843,7 +2081,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1853,7 +2093,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1863,7 +2105,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1873,7 +2117,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1883,7 +2129,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1893,7 +2141,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1903,7 +2153,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1913,7 +2165,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1923,7 +2177,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1933,7 +2189,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1943,7 +2201,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1953,7 +2213,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1963,7 +2225,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1973,7 +2237,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1983,7 +2249,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -1993,7 +2261,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2003,7 +2273,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2013,7 +2285,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -2308,7 +2582,9 @@
             "length": 4.800001,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2318,7 +2594,9 @@
             "length": 6.10652161,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2328,7 +2606,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2338,7 +2618,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2348,7 +2630,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2358,7 +2642,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2368,7 +2654,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2378,7 +2666,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2388,7 +2678,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2398,7 +2690,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2408,7 +2702,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2418,7 +2714,9 @@
             "length": 6.00669861,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2428,7 +2726,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2438,7 +2738,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2448,7 +2750,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2458,7 +2762,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2468,7 +2774,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2478,7 +2786,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2488,7 +2798,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2498,7 +2810,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2508,7 +2822,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2518,7 +2834,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2528,7 +2846,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2538,7 +2858,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2548,7 +2870,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2558,7 +2882,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2568,7 +2894,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2578,7 +2906,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2588,7 +2918,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2598,7 +2930,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2608,7 +2942,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2618,7 +2954,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2628,7 +2966,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2638,7 +2978,9 @@
             "length": 4.800001,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2648,7 +2990,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2658,7 +3002,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2668,7 +3014,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2678,7 +3026,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2688,7 +3038,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2698,7 +3050,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2708,7 +3062,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2718,7 +3074,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2728,7 +3086,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2738,7 +3098,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2748,7 +3110,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2758,7 +3122,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2768,7 +3134,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2778,7 +3146,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2788,7 +3158,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2798,7 +3170,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2808,7 +3182,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2818,7 +3194,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2828,7 +3206,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2838,7 +3218,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2848,7 +3230,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2858,7 +3242,9 @@
             "length": 6.00669861,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2868,7 +3254,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2878,7 +3266,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2888,7 +3278,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2898,7 +3290,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2908,7 +3302,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2918,7 +3314,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2928,7 +3326,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2938,7 +3338,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2948,7 +3350,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -2958,7 +3362,9 @@
             "length": 6.10652161,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -3253,7 +3659,9 @@
             "length": 4.800001,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3263,7 +3671,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3273,7 +3683,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3283,7 +3695,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3293,7 +3707,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3303,7 +3719,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3313,7 +3731,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3323,7 +3743,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3333,7 +3755,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3343,7 +3767,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3353,7 +3779,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3363,7 +3791,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3373,7 +3803,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3383,7 +3815,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3393,7 +3827,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3403,7 +3839,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3413,7 +3851,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3423,7 +3863,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3433,7 +3875,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3443,7 +3887,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3453,7 +3899,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3463,7 +3911,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3473,7 +3923,9 @@
             "length": 6.00177,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3483,7 +3935,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3493,7 +3947,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3503,7 +3959,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3513,7 +3971,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3523,7 +3983,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3533,7 +3995,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3543,7 +4007,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3553,7 +4019,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3563,7 +4031,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3573,7 +4043,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3583,7 +4055,9 @@
             "length": 4.800001,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3593,7 +4067,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3603,7 +4079,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3613,7 +4091,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3623,7 +4103,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3633,7 +4115,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3643,7 +4127,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3653,7 +4139,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3663,7 +4151,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3673,7 +4163,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3683,7 +4175,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3693,7 +4187,9 @@
             "length": 6.00177,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3703,7 +4199,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3713,7 +4211,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3723,7 +4223,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3733,7 +4235,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3743,7 +4247,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3753,7 +4259,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3763,7 +4271,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3773,7 +4283,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3783,7 +4295,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3793,7 +4307,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3803,7 +4319,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3813,7 +4331,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3823,7 +4343,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3833,7 +4355,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3843,7 +4367,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3853,7 +4379,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3863,7 +4391,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3873,7 +4403,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3883,7 +4415,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3893,7 +4427,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -3903,7 +4439,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -4206,7 +4744,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4216,7 +4756,9 @@
             "length": 5.980591,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4226,7 +4768,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4236,7 +4780,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4246,7 +4792,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4256,7 +4804,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4266,7 +4816,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4276,7 +4828,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4286,7 +4840,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4296,7 +4852,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4306,7 +4864,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4316,7 +4876,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4326,7 +4888,9 @@
             "length": 6.00669861,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4336,7 +4900,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4346,7 +4912,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4356,7 +4924,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4366,7 +4936,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4376,7 +4948,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4386,7 +4960,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4396,7 +4972,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4406,7 +4984,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4416,7 +4996,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4426,7 +5008,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4436,7 +5020,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4446,7 +5032,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4456,7 +5044,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4466,7 +5056,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4476,7 +5068,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4486,7 +5080,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4496,7 +5092,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4506,7 +5104,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4516,7 +5116,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4526,7 +5128,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4536,7 +5140,9 @@
             "length": 6.00001526,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4546,7 +5152,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4556,7 +5164,9 @@
             "length": 6.00001526,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4566,7 +5176,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4576,7 +5188,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4586,7 +5200,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4596,7 +5212,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4606,7 +5224,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4616,7 +5236,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4626,7 +5248,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4636,7 +5260,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4646,7 +5272,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4656,7 +5284,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4666,7 +5296,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4676,7 +5308,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4686,7 +5320,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4696,7 +5332,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4706,7 +5344,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4716,7 +5356,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4726,7 +5368,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4736,7 +5380,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4746,7 +5392,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4756,7 +5404,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4766,7 +5416,9 @@
             "length": 6.00669861,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4776,7 +5428,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4786,7 +5440,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4796,7 +5452,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4806,7 +5464,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4816,7 +5476,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4826,7 +5488,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4836,7 +5500,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4846,7 +5512,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4856,7 +5524,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4866,7 +5536,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -4876,7 +5548,9 @@
             "length": 5.980591,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5179,7 +5853,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5189,7 +5865,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5199,7 +5877,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5209,7 +5889,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5219,7 +5901,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5229,7 +5913,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5239,7 +5925,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5249,7 +5937,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5259,7 +5949,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5269,7 +5961,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5279,7 +5973,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5289,7 +5985,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5299,7 +5997,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5309,7 +6009,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5319,7 +6021,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5329,7 +6033,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5339,7 +6045,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5349,7 +6057,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5359,7 +6069,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5369,7 +6081,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5379,7 +6093,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5389,7 +6105,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5399,7 +6117,9 @@
             "length": 6.00177,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5409,7 +6129,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5419,7 +6141,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5429,7 +6153,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5439,7 +6165,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5449,7 +6177,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5459,7 +6189,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5469,7 +6201,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5479,7 +6213,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5489,7 +6225,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5499,7 +6237,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5509,7 +6249,9 @@
             "length": 6.0,
             "ceiling": false,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5519,7 +6261,9 @@
             "length": 4.800003,
             "ceiling": false,
             "wall": true,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5529,7 +6273,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5539,7 +6285,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5549,7 +6297,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5559,7 +6309,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5569,7 +6321,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5579,7 +6333,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5589,7 +6345,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5599,7 +6357,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5609,7 +6369,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5619,7 +6381,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5629,7 +6393,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5639,7 +6405,9 @@
             "length": 6.00177,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5649,7 +6417,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5659,7 +6429,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5669,7 +6441,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5679,7 +6453,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5689,7 +6465,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5699,7 +6477,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5709,7 +6489,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5719,7 +6501,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5729,7 +6513,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5739,7 +6525,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5749,7 +6537,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5759,7 +6549,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5769,7 +6561,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5779,7 +6573,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5789,7 +6585,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5799,7 +6597,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5809,7 +6609,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5819,7 +6621,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5829,7 +6633,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5839,7 +6645,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           },
           {
             "leftLedge": false,
@@ -5849,7 +6657,9 @@
             "length": 6.0,
             "ceiling": true,
             "wall": false,
-            "material": "NES8Bit"
+            "material": "NES8Bit",
+            "throughable": false,
+            "pickel_block": true
           }
         ],
         "boundingBox": [
@@ -5949,6 +6759,16 @@
         155.0
       ]
     ],
-    "items": []
+    "items": [],
+    "steve_grid": {
+      "material": "soil",
+      "origin_x": 0.0,
+      "origin_y": -1.6,
+      "cell_sensitivity": 0.7,
+      "line_offset": 3.7,
+      "cell_minilen_side": 0.0,
+      "cell_minilen_top": 20.0,
+      "cell_minilen_bottom": 0.0
+    }
   }
 ]
